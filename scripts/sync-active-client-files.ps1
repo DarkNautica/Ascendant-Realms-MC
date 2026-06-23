@@ -111,6 +111,25 @@ function Remove-AtlasWorldgenInfluenceIfDisabled {
     }
 }
 
+function Remove-RetiredMobHealthBarFiles {
+    param(
+        [Parameter(Mandatory = $true)][string]$InstanceRoot
+    )
+
+    $retiredMobHealthBarFiles = @(
+        "mods\mobhealthbar-forge-1.20.x-2.3.0.jar",
+        "config\mobhealthbar-client.toml"
+    )
+
+    foreach ($relativePath in $retiredMobHealthBarFiles) {
+        $targetPath = Join-Path $InstanceRoot $relativePath
+        if (Test-Path -LiteralPath $targetPath) {
+            Remove-Item -LiteralPath $targetPath -Force
+            Write-Host "Removed retired MobHealthBar file: $relativePath"
+        }
+    }
+}
+
 function Write-Utf8NoBomLines {
     param(
         [Parameter(Mandatory = $true)][string]$Path,
@@ -644,6 +663,7 @@ Copy-ResourcePacks -Source (Join-Path $root "resourcepacks") -Destination (Join-
 Install-PackwizResourcePacks -MetadataDirectory (Join-Path $root "resourcepacks") -DestinationResourcePacksPath (Join-Path $target "resourcepacks")
 Install-PackwizResourcePacks -MetadataDirectory (Join-Path $root "shaderpacks") -DestinationResourcePacksPath (Join-Path $target "shaderpacks")
 Install-ExportedClientMods -ExportZipPath (Join-Path $root "dist\ascendant-realms-client.zip") -DestinationModsPath (Join-Path $target "mods")
+Remove-RetiredMobHealthBarFiles -InstanceRoot $target
 Copy-File -Source (Join-Path $root "mods\ascendant-atlas-regions-0.1.0.jar") -Destination (Join-Path $target "mods\ascendant-atlas-regions-0.1.0.jar")
 Copy-File -Source (Join-Path $root "mods\ascendant-nametags-0.1.0.jar") -Destination (Join-Path $target "mods\ascendant-nametags-0.1.0.jar")
 Install-PackwizClientJar -MetadataPath (Join-Path $root "mods\elite-holograms.pw.toml") -DestinationModsPath (Join-Path $target "mods")
@@ -660,12 +680,12 @@ $trackedConfigFiles = @(
     "everycomp-entries.toml",
     "everycomp-hazardous.toml",
     "guardvillagers-common.toml",
+    "healthbarplus-client.toml",
     "integrated_villages-forge-1_20.toml",
     "irons_spellbooks-client.toml",
     "itemborders-common.toml",
     "lootbeams-client.toml",
     "majruszsdifficulty.json",
-    "mobhealthbar-client.toml",
     "modernfix-common.toml",
     "modernfix-mixins.properties",
     "oculus.properties",

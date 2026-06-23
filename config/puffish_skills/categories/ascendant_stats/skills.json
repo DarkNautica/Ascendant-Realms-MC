@@ -1,0 +1,146 @@
+{
+  "stat_hdr_off": {
+    "x": -360,
+    "y": -300,
+    "definition": "stat_hdr_off",
+    "root": true
+  },
+  "stat_melee": {
+    "x": -360,
+    "y": -190,
+    "definition": "stat_melee",
+    "root": true
+  },
+  "stat_ranged": {
+    "x": -360,
+    "y": -98,
+    "definition": "stat_ranged",
+    "root": true
+  },
+  "stat_spellpow": {
+    "x": -360,
+    "y": -6,
+    "definition": "stat_spellpow",
+    "root": true
+  },
+  "stat_atkdmg": {
+    "x": -360,
+    "y": 86,
+    "definition": "stat_atkdmg",
+    "root": true
+  },
+  "stat_atkspd": {
+    "x": -360,
+    "y": 178,
+    "definition": "stat_atkspd",
+    "root": true
+  },
+  "stat_shred": {
+    "x": -360,
+    "y": 270,
+    "definition": "stat_shred",
+    "root": true
+  },
+  "stat_hdr_def": {
+    "x": -120,
+    "y": -300,
+    "definition": "stat_hdr_def",
+    "root": true
+  },
+  "stat_armor": {
+    "x": -120,
+    "y": -190,
+    "definition": "stat_armor",
+    "root": true
+  },
+  "stat_tough": {
+    "x": -120,
+    "y": -98,
+    "definition": "stat_tough",
+    "root": true
+  },
+  "stat_resist": {
+    "x": -120,
+    "y": -6,
+    "definition": "stat_resist",
+    "root": true
+  },
+  "stat_magres": {
+    "x": -120,
+    "y": 86,
+    "definition": "stat_magres",
+    "root": true
+  },
+  "stat_knock": {
+    "x": -120,
+    "y": 178,
+    "definition": "stat_knock",
+    "root": true
+  },
+  "stat_hdr_mag": {
+    "x": 120,
+    "y": -300,
+    "definition": "stat_hdr_mag",
+    "root": true
+  },
+  "stat_maxmana": {
+    "x": 120,
+    "y": -190,
+    "definition": "stat_maxmana",
+    "root": true
+  },
+  "stat_manareg": {
+    "x": 120,
+    "y": -98,
+    "definition": "stat_manareg",
+    "root": true
+  },
+  "stat_cdr": {
+    "x": 120,
+    "y": -6,
+    "definition": "stat_cdr",
+    "root": true
+  },
+  "stat_spelres": {
+    "x": 120,
+    "y": 86,
+    "definition": "stat_spelres",
+    "root": true
+  },
+  "stat_hdr_util": {
+    "x": 360,
+    "y": -300,
+    "definition": "stat_hdr_util",
+    "root": true
+  },
+  "stat_movespd": {
+    "x": 360,
+    "y": -190,
+    "definition": "stat_movespd",
+    "root": true
+  },
+  "stat_luck": {
+    "x": 360,
+    "y": -98,
+    "definition": "stat_luck",
+    "root": true
+  },
+  "stat_fortune": {
+    "x": 360,
+    "y": -6,
+    "definition": "stat_fortune",
+    "root": true
+  },
+  "stat_healing": {
+    "x": 360,
+    "y": 86,
+    "definition": "stat_healing",
+    "root": true
+  },
+  "stat_mining": {
+    "x": 360,
+    "y": 178,
+    "definition": "stat_mining",
+    "root": true
+  }
+}

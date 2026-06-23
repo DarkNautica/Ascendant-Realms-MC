@@ -6,7 +6,7 @@ Status: policy scaffold only. No new overlay, mob tuning, or danger display mod 
 
 ## Current Stack
 
-- MobHealthBar: active source config at `config/mobhealthbar-client.toml`.
+- Health Bar Plus: active source config at `config/healthbarplus-client.toml`.
 - Enhanced Boss Bars: boss presentation layer.
 - Ascendant nameplates: player/NPC rank, level, and role language.
 - In Control and mob registry docs remain the danger-tier data sources; this pass only defines the UI presentation boundary.
@@ -20,6 +20,6 @@ Status: policy scaffold only. No new overlay, mob tuning, or danger display mod 
 
 ## Validation Snapshot
 
-- MobHealthBar required setting gaps: 0
+- Health Bar Plus required setting gaps: 0
 - Boss blacklist gaps: 0
 - Threat-tier overlay live: no

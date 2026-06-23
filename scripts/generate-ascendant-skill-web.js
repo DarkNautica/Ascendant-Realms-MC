@@ -63,66 +63,60 @@ function commandRewardsFor(tags) {
   }));
 }
 
+// ---- tooltip styling ----
+const LANE_COLORS = {
+  warrior: "#FF6B6B", rogue: "#46D6C8", ranger: "#79E08C", arcanist: "#6FA8FF",
+  engineer: "#F0B84B", survivalist: "#E6D24A", dragonbound: "#B884E8", ascendant: "#CFE8FF",
+};
+function laneColor(node) {
+  return LANE_COLORS[(node.id || "").split("_")[0]] || "#CFE8FF";
+}
+// Split effect prose so number/percent tokens render bold green, prose soft white.
+function styledEffect(effect) {
+  const parts = [];
+  const re = /([+\-]?\d+(?:\.\d+)?%?)/g;
+  let last = 0, m;
+  while ((m = re.exec(effect)) !== null) {
+    if (m.index > last) parts.push({ text: effect.slice(last, m.index), color: "#D8DEE9" });
+    parts.push({ text: m[0], color: "#86E58A", bold: true });
+    last = m.index + m[0].length;
+  }
+  if (last < effect.length) parts.push({ text: effect.slice(last), color: "#D8DEE9" });
+  return parts;
+}
+
 function nodeDefinition(node) {
   const mods = modsForRewards(node.rewards);
-  const extra = [
-    {
-      text: "\nSP pacing: Puffish awards 1 skill point per Ascendant Web level; higher-tier nodes cost more.",
-      color: "dark_gray",
-      italic: false,
-    },
-    {
-      text: "\nLayout: clean branch lanes keep choices broad without the old crossing-line web.",
-      color: "dark_gray",
-      italic: false,
-    },
-    { text: `\nBranch: ${node.branch}.`, color: "dark_gray", italic: false },
-  ];
+  const lc = laneColor(node);
 
-  if (node.kind === "major" || node.kind === "keystone") {
-    const kindLabel = node.kind === "keystone" ? "Keystone - branch-defining power" : "Major - new gameplay behavior";
-    extra.push({ text: `\nType: ${kindLabel}.`, color: "light_purple", italic: false });
-  }
-
+  // main description (always visible)
+  const desc = [];
+  if (node.kind === "keystone") { desc.push({ text: "KEYSTONE", color: "#FFCF7A", bold: true }); desc.push({ text: "\n" }); }
+  else if (node.kind === "major") { desc.push({ text: "NOTABLE", color: "#D9B3FF", bold: true }); desc.push({ text: "\n" }); }
+  desc.push({ text: node.flavor, color: "#9BA3B2", italic: true });
+  desc.push({ text: "\n\n" });
+  desc.push({ text: "Effect", color: lc, bold: true });
+  desc.push({ text: "\n" });
+  desc.push(...styledEffect(node.effect));
   if (node.tags && node.tags.length > 0) {
-    extra.push({ text: "\nBehavior runs through the Ascendant skill-effects system.", color: "dark_gray", italic: false });
+    desc.push({ text: "\n\nTriggers automatically in play.", color: "#7FD8E8", italic: true });
   }
 
-  if (node.required_spent_points) {
-    extra.push({
-      text: `\nRequires ${node.required_spent_points} spent points in the unified web.`,
-      color: "dark_gray",
-      italic: false,
-    });
-  }
-
-  if (mods.length > 0) {
-    extra.push({
-      text: `\nRequires loaded mod(s): ${mods.join(", ")}.`,
-      color: "dark_gray",
-      italic: false,
-    });
-  }
-
-  if (node.links) {
-    extra.push({
-      text: `\nPack links: ${node.links}.`,
-      color: "dark_aqua",
-      italic: false,
-    });
-  }
+  // shift/extra metadata (decluttered, dim)
+  const meta = [];
+  meta.push({ text: `\nBranch: ${node.branch}`, color: "#6E7787" });
+  if (node.required_spent_points) meta.push({ text: `\nRequires ${node.required_spent_points} points spent`, color: "#6E7787" });
+  if (mods.length > 0) meta.push({ text: `\nNeeds: ${mods.join(", ")}`, color: "#5A6472" });
+  if (node.links) meta.push({ text: `\n${node.links}`, color: "#5C7A86", italic: true });
 
   const definition = {
-    title: node.title,
-    description: textComponent(node.flavor, "gray", true, [
-      { text: "\nEffect: ", color: "gold", italic: false },
-      { text: node.effect, color: "green", italic: false },
-    ]),
+    title: { text: node.title, color: lc, bold: true },
+    description: { text: "", extra: desc },
     frame: { type: "advancement", data: { frame: node.frame } },
     icon: { type: "item", data: { item: node.icon } },
     cost: node.cost,
     rewards: [...node.rewards, ...commandRewardsFor(node.tags)],
-    extra_description: textComponent(`Cost: ${node.cost} point${node.cost === 1 ? "" : "s"}.`, "dark_gray", false, extra),
+    extra_description: { text: `Cost: ${node.cost} point${node.cost === 1 ? "" : "s"}`, color: "#D6A94E", extra: meta },
   };
 
   if (node.required_spent_points) definition.required_spent_points = node.required_spent_points;
@@ -344,6 +338,72 @@ for (const [branchKey, list] of Object.entries(MILESTONE_NODES)) {
   branchData[branchKey].nodes.push(...list);
 }
 
+// ===== Mixed-node upgrades (cool-ideas pass) =====
+// Add a behavior tag + appended tooltip text to existing stat nodes. The number stays;
+// the trick is layered on by ascendant_skill_effects_extras.js. Tree size unchanged.
+const MIXED_UPGRADES = {
+  warrior_shield_craft: ["ar_sk_warrior_shield_bash", "Blocking knocks back and slows melee attackers."],
+  warrior_heavy_draw: ["ar_sk_warrior_cleave", "Axe and heavy hits cleave nearby enemies."],
+  warrior_giantslayer: ["ar_sk_warrior_giant_slayer", "Bonus damage scales with the target's max health."],
+  rogue_knife_window: ["ar_sk_rogue_bleed", "Hits inflict a stacking bleed."],
+  rogue_silent_looter: ["ar_sk_rogue_pickpocket", "Humanoid kills sometimes drop extra loot."],
+  rogue_soft_landing: ["ar_sk_rogue_death_from_above", "Hard landings deal an area thud scaled by fall height."],
+  ranger_beast_breaker: ["ar_sk_ranger_pinning_shot", "Arrows briefly pin (slow) what they hit."],
+  ranger_pack_bond: ["ar_sk_ranger_shared_vigor", "Your tamed pets regenerate while near you."],
+  ranger_trophy_marks: ["ar_sk_ranger_trophy_hunter", "Rare and boss kills drop bonus loot and XP."],
+  arcanist_spellblade_entry: ["ar_sk_arcanist_spellstrike", "Melee hits sometimes unleash a spell."],
+  arcanist_holy_channel: ["ar_sk_arcanist_smite", "Bonus damage vs undead; undead kills heal you."],
+  arcanist_frost_formula: ["ar_sk_arcanist_frostbite", "Your hits chill and slow the target."],
+  engineer_provisioner: ["ar_sk_engineer_field_rations", "Eating grants a burst of Haste and Speed."],
+  engineer_shipwright: ["ar_sk_engineer_sea_legs", "While mounted or boating you are fall-immune and faster."],
+  engineer_ruin_reclaimer: ["ar_sk_engineer_prospector", "Mining ore sometimes yields bonus raw ore."],
+  survivalist_weather_sense: ["ar_sk_survivalist_storm_strider", "Rain and storms grant you speed."],
+  survivalist_deep_delver: ["ar_sk_survivalist_cave_sight", "Underground you gain Night Vision."],
+  survivalist_cold_resolve: ["ar_sk_survivalist_frostwalker", "In snowy biomes you shrug off cold and gain Resistance."],
+  dragonbound_dragon_hunter: ["ar_sk_dragonbound_dragonslayer", "Bonus damage vs dragons and large flying foes."],
+  dragonbound_scale_tempering: ["ar_sk_dragonbound_scaleguard", "Heavy hits briefly grant fire and ice immunity."],
+  dragonbound_mounted_legend: ["ar_sk_dragonbound_bonded_mount", "Your mount takes less damage and shares your Resistance."],
+};
+for (const [fullId, spec] of Object.entries(MIXED_UPGRADES)) {
+  for (const [branchKey, branch] of Object.entries(branchData)) {
+    for (const tuple of branch.nodes) {
+      if (`${branchKey}_${tuple[0]}` === fullId) {
+        tuple[3] = `${tuple[3]} ${spec[1]}`;
+        const opts = tuple[7] || (tuple[7] = {});
+        opts.tags = (opts.tags || []).concat([spec[0]]);
+      }
+    }
+  }
+}
+
+// ===== New behavior nodes (cool-ideas pass) - one per branch, incl. bigger lifts =====
+const NEW_NODES = {
+  warrior: [
+    ["rampage", "Rampage", "Momentum is a weapon.", "Each kill without taking a heavy hit stacks escalating Strength and Speed (up to 5); a hard hit resets the streak.", "minecraft:wither_skeleton_skull", [reward("puffish_attributes:melee_damage", 0.03)], "killstreak power", MAJOR(["ar_sk_warrior_rampage"])],
+  ],
+  rogue: [
+    ["executioner", "Executioner's Instinct", "Finish what fear started.", "Enemies below 30% health take heavy bonus damage from you.", "minecraft:iron_axe", [reward("puffish_attributes:melee_damage", 0.03)], "clean finishers", MAJOR(["ar_sk_rogue_executioner"])],
+  ],
+  ranger: [
+    ["explosive_shot", "Explosive Shot", "Some arrows argue louder.", "Your arrows burst on impact for a small area blast.", "minecraft:firework_rocket", [reward("puffish_attributes:ranged_damage", 0.03)], "area archery", MAJOR(["ar_sk_ranger_explosive_shot"])],
+  ],
+  arcanist: [
+    ["chain_lightning", "Chain Lightning", "One spark, many homes.", "Your hits sometimes arc lightning to a nearby enemy.", "minecraft:lightning_rod", [reward("irons_spellbooks:spell_power", 0.03, "addition")], "storm magic", MAJOR(["ar_sk_arcanist_chain_lightning"])],
+  ],
+  engineer: [
+    ["thornmail", "Thornmail", "Hit the wall, the wall hits back.", "A portion of melee damage you take is reflected as a steam burst.", "minecraft:cactus", [reward("generic.armor", 1, "addition")], "engineered defense", MAJOR(["ar_sk_engineer_thornmail"])],
+  ],
+  survivalist: [
+    ["second_wind", "Second Wind", "Down is not out.", "Dropping low (once per cooldown) surges a heal and clears the bad stuff.", "minecraft:golden_apple", [reward("puffish_attributes:healing", 0.04)], "clutch survival", MAJOR(["ar_sk_survivalist_second_wind"])],
+  ],
+  dragonbound: [
+    ["full_moon_frenzy", "Full Moon Frenzy", "The old blood answers the moon.", "On full-moon nights you gain lifesteal and bonus damage.", "minecraft:clock", [reward("puffish_attributes:melee_damage", 0.04)], "lunar power", KEYSTONE(["ar_sk_dragonbound_full_moon_frenzy"])],
+  ],
+};
+for (const [branchKey, list] of Object.entries(NEW_NODES)) {
+  branchData[branchKey].nodes.push(...list);
+}
+
 function buildNode(branchKey, index, tuple) {
   const [shortId, title, flavor, effect, icon, rewards, links, opts = {}] = tuple;
   const tier = Math.floor(index / 4) + 1;
@@ -376,6 +436,80 @@ function addConnection(connections, a, b) {
   if (!connections.some((entry) => entry.slice().sort().join("|") === key)) {
     connections.push([a, b]);
   }
+}
+
+function buildStatsCategory() {
+  // A display-only second category (the "Stats" tab in the K menu). Puffish nodes
+  // are static, so live numbers come from /ascstats and (optionally) a FancyMenu
+  // overlay reading the ar_stat_* scoreboards. All nodes are roots, cost 0.
+  const groups = {
+    off:  { name: "Offense", color: "#FF8A6B", x: -360, icon: "minecraft:iron_sword", items: [
+      ["melee", "Melee Damage", "minecraft:iron_sword", "Increases damage dealt with melee weapons."],
+      ["ranged", "Ranged Damage", "minecraft:bow", "Increases damage dealt with bows and crossbows."],
+      ["spellpow", "Spell Power", "minecraft:blaze_rod", "Increases the power of Iron's Spells."],
+      ["atkdmg", "Attack Damage", "minecraft:iron_axe", "Flat increase to base attack damage."],
+      ["atkspd", "Attack Speed", "minecraft:sugar", "Swing faster in melee."],
+      ["shred", "Armor Shred", "minecraft:shears", "Ignores a portion of enemy armor."] ] },
+    def:  { name: "Defense", color: "#7FC8FF", x: -120, icon: "minecraft:shield", items: [
+      ["armor", "Armor", "minecraft:iron_chestplate", "Reduces incoming physical damage."],
+      ["tough", "Armor Toughness", "minecraft:netherite_scrap", "Reduces damage from heavy hits."],
+      ["resist", "Damage Resistance", "minecraft:totem_of_undying", "Reduces all incoming damage."],
+      ["magres", "Magic Resistance", "minecraft:enchanted_book", "Reduces incoming magic damage."],
+      ["knock", "Knockback Resist", "minecraft:anvil", "Resist being knocked back."] ] },
+    mag:  { name: "Magic", color: "#B98CFF", x: 120, icon: "minecraft:enchanting_table", items: [
+      ["maxmana", "Max Mana", "minecraft:lapis_lazuli", "Raises your maximum mana pool."],
+      ["manareg", "Mana Regen", "minecraft:glowstone_dust", "Regenerate mana faster."],
+      ["cdr", "Cooldown Reduction", "minecraft:clock", "Spells recharge faster."],
+      ["spelres", "Spell Resistance", "minecraft:amethyst_shard", "Resist hostile spells."] ] },
+    util: { name: "Utility", color: "#7FE0A0", x: 360, icon: "minecraft:compass", items: [
+      ["movespd", "Movement Speed", "minecraft:leather_boots", "Move faster on foot."],
+      ["luck", "Luck", "minecraft:rabbit_foot", "Improves loot and rare drops."],
+      ["fortune", "Fortune", "minecraft:emerald", "More yield from blocks and finds."],
+      ["healing", "Healing", "minecraft:golden_apple", "Increases healing received."],
+      ["mining", "Mining Speed", "minecraft:iron_pickaxe", "Break blocks faster."] ] },
+  };
+  const definitions = {};
+  const skills = {};
+  for (const [gk, g] of Object.entries(groups)) {
+    const hid = `stat_hdr_${gk}`;
+    definitions[hid] = {
+      title: { text: g.name, color: g.color, bold: true },
+      description: { text: `${g.name} stats`, color: "#9BA3B2", italic: true },
+      frame: { type: "advancement", data: { frame: "goal" } },
+      icon: { type: "item", data: { item: g.icon } },
+      cost: 0,
+    };
+    skills[hid] = { x: g.x, y: -300, definition: hid, root: true };
+    g.items.forEach((it, i) => {
+      const id = `stat_${it[0]}`;
+      definitions[id] = {
+        title: { text: it[1], color: g.color, bold: true },
+        description: { text: "", extra: [
+          { text: it[3], color: "#C8CEDA" },
+          { text: "\n\nLive bonus: type ", color: "#7FD8E8", italic: true },
+          { text: "/ascstats", color: "#FFD27A", italic: true },
+        ] },
+        frame: { type: "advancement", data: { frame: "task" } },
+        icon: { type: "item", data: { item: it[2] } },
+        cost: 0,
+      };
+      skills[id] = { x: g.x, y: -190 + i * 92, definition: id, root: true };
+    });
+  }
+  return {
+    category: {
+      unlocked_by_default: true,
+      starting_points: 0,
+      title: "Ascendant Stats",
+      description: "Your attribute bonuses from perks and gear. Type /ascstats for the live numbers.",
+      icon: { type: "item", data: { item: "minecraft:nether_star" } },
+      background: { texture: "ascendant:textures/skilltree/background.png", width: 1600, height: 1600, position: "fill" },
+    },
+    definitions,
+    skills,
+    connections: { normal: { unidirectional: [] } },
+    experience: { level_limit: 1, experience_per_level: { type: "expression", data: { expression: "1000000000" } }, sources: [] },
+  };
 }
 
 function buildTree() {
@@ -433,7 +567,8 @@ function buildTree() {
   }
 
   return {
-    config: { version: 3, categories: ["ascendant"] },
+    config: { version: 3, categories: ["ascendant", "ascendant_stats"] },
+    statsCategory: buildStatsCategory(),
     category: {
       unlocked_by_default: true,
       starting_points: 2,
@@ -486,6 +621,13 @@ function writeSkillRoot(skillRoot, tree) {
   writeJson(path.join(skillRoot, "categories", "ascendant", "skills.json"), tree.skills);
   writeJson(path.join(skillRoot, "categories", "ascendant", "connections.json"), tree.connections);
   writeJson(path.join(skillRoot, "categories", "ascendant", "experience.json"), tree.experience);
+  const sc = tree.statsCategory;
+  fs.mkdirSync(path.join(skillRoot, "categories", "ascendant_stats"), { recursive: true });
+  writeJson(path.join(skillRoot, "categories", "ascendant_stats", "category.json"), sc.category);
+  writeJson(path.join(skillRoot, "categories", "ascendant_stats", "definitions.json"), sc.definitions);
+  writeJson(path.join(skillRoot, "categories", "ascendant_stats", "skills.json"), sc.skills);
+  writeJson(path.join(skillRoot, "categories", "ascendant_stats", "connections.json"), sc.connections);
+  writeJson(path.join(skillRoot, "categories", "ascendant_stats", "experience.json"), sc.experience);
 }
 
 const tree = buildTree();

@@ -1,0 +1,18 @@
+{
+  "unlocked_by_default": true,
+  "starting_points": 0,
+  "title": "Ascendant Stats",
+  "description": "Your attribute bonuses from perks and gear. Type /ascstats for the live numbers.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "background": {
+    "texture": "ascendant:textures/skilltree/background.png",
+    "width": 1600,
+    "height": 1600,
+    "position": "fill"
+  }
+}

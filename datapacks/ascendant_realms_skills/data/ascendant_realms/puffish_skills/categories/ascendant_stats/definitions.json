@@ -1,0 +1,882 @@
+{
+  "stat_hdr_off": {
+    "title": {
+      "text": "Offense",
+      "color": "#FF8A6B",
+      "bold": true
+    },
+    "description": {
+      "text": "Offense stats",
+      "color": "#9BA3B2",
+      "italic": true
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 0
+  },
+  "stat_melee": {
+    "title": {
+      "text": "Melee Damage",
+      "color": "#FF8A6B",
+      "bold": true
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Increases damage dealt with melee weapons.",
+          "color": "#C8CEDA"
+        },
+        {
+          "text": "\n\nLive bonus: type ",
+          "color": "#7FD8E8",
+          "italic": true
+        },
+        {
+          "text": "/ascstats",
+          "color": "#FFD27A",
+          "italic": true
+        }
+      ]
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "cost": 0
+  },
+  "stat_ranged": {
+    "title": {
+      "text": "Ranged Damage",
+      "color": "#FF8A6B",
+      "bold": true
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Increases damage dealt with bows and crossbows.",
+          "color": "#C8CEDA"
+        },
+        {
+          "text": "\n\nLive bonus: type ",
+          "color": "#7FD8E8",
+          "italic": true
+        },
+        {
+          "text": "/ascstats",
+          "color": "#FFD27A",
+          "italic": true
+        }
+      ]
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "cost": 0
+  },
+  "stat_spellpow": {
+    "title": {
+      "text": "Spell Power",
+      "color": "#FF8A6B",
+      "bold": true
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Increases the power of Iron's Spells.",
+          "color": "#C8CEDA"
+        },
+        {
+          "text": "\n\nLive bonus: type ",
+          "color": "#7FD8E8",
+          "italic": true
+        },
+        {
+          "text": "/ascstats",
+          "color": "#FFD27A",
+          "italic": true
+        }
+      ]
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "cost": 0
+  },
+  "stat_atkdmg": {
+    "title": {
+      "text": "Attack Damage",
+      "color": "#FF8A6B",
+      "bold": true
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Flat increase to base attack damage.",
+          "color": "#C8CEDA"
+        },
+        {
+          "text": "\n\nLive bonus: type ",
+          "color": "#7FD8E8",
+          "italic": true
+        },
+        {
+          "text": "/ascstats",
+          "color": "#FFD27A",
+          "italic": true
+        }
+      ]
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_axe"
+      }
+    },
+    "cost": 0
+  },
+  "stat_atkspd": {
+    "title": {
+      "text": "Attack Speed",
+      "color": "#FF8A6B",
+      "bold": true
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Swing faster in melee.",
+          "color": "#C8CEDA"
+        },
+        {
+          "text": "\n\nLive bonus: type ",
+          "color": "#7FD8E8",
+          "italic": true
+        },
+        {
+          "text": "/ascstats",
+          "color": "#FFD27A",
+          "italic": true
+        }
+      ]
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "cost": 0
+  },
+  "stat_shred": {
+    "title": {
+      "text": "Armor Shred",
+      "color": "#FF8A6B",
+      "bold": true
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Ignores a portion of enemy armor.",
+          "color": "#C8CEDA"
+        },
+        {
+          "text": "\n\nLive bonus: type ",
+          "color": "#7FD8E8",
+          "italic": true
+        },
+        {
+          "text": "/ascstats",
+          "color": "#FFD27A",
+          "italic": true
+        }
+      ]
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shears"
+      }
+    },
+    "cost": 0
+  },
+  "stat_hdr_def": {
+    "title": {
+      "text": "Defense",
+      "color": "#7FC8FF",
+      "bold": true
+    },
+    "description": {
+      "text": "Defense stats",
+      "color": "#9BA3B2",
+      "italic": true
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "cost": 0
+  },
+  "stat_armor": {
+    "title": {
+      "text": "Armor",
+      "color": "#7FC8FF",
+      "bold": true
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Reduces incoming physical damage.",
+          "color": "#C8CEDA"
+        },
+        {
+          "text": "\n\nLive bonus: type ",
+          "color": "#7FD8E8",
+          "italic": true
+        },
+        {
+          "text": "/ascstats",
+          "color": "#FFD27A",
+          "italic": true
+        }
+      ]
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_chestplate"
+      }
+    },
+    "cost": 0
+  },
+  "stat_tough": {
+    "title": {
+      "text": "Armor Toughness",
+      "color": "#7FC8FF",
+      "bold": true
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Reduces damage from heavy hits.",
+          "color": "#C8CEDA"
+        },
+        {
+          "text": "\n\nLive bonus: type ",
+          "color": "#7FD8E8",
+          "italic": true
+        },
+        {
+          "text": "/ascstats",
+          "color": "#FFD27A",
+          "italic": true
+        }
+      ]
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_scrap"
+      }
+    },
+    "cost": 0
+  },
+  "stat_resist": {
+    "title": {
+      "text": "Damage Resistance",
+      "color": "#7FC8FF",
+      "bold": true
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Reduces all incoming damage.",
+          "color": "#C8CEDA"
+        },
+        {
+          "text": "\n\nLive bonus: type ",
+          "color": "#7FD8E8",
+          "italic": true
+        },
+        {
+          "text": "/ascstats",
+          "color": "#FFD27A",
+          "italic": true
+        }
+      ]
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:totem_of_undying"
+      }
+    },
+    "cost": 0
+  },
+  "stat_magres": {
+    "title": {
+      "text": "Magic Resistance",
+      "color": "#7FC8FF",
+      "bold": true
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Reduces incoming magic damage.",
+          "color": "#C8CEDA"
+        },
+        {
+          "text": "\n\nLive bonus: type ",
+          "color": "#7FD8E8",
+          "italic": true
+        },
+        {
+          "text": "/ascstats",
+          "color": "#FFD27A",
+          "italic": true
+        }
+      ]
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanted_book"
+      }
+    },
+    "cost": 0
+  },
+  "stat_knock": {
+    "title": {
+      "text": "Knockback Resist",
+      "color": "#7FC8FF",
+      "bold": true
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Resist being knocked back.",
+          "color": "#C8CEDA"
+        },
+        {
+          "text": "\n\nLive bonus: type ",
+          "color": "#7FD8E8",
+          "italic": true
+        },
+        {
+          "text": "/ascstats",
+          "color": "#FFD27A",
+          "italic": true
+        }
+      ]
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "cost": 0
+  },
+  "stat_hdr_mag": {
+    "title": {
+      "text": "Magic",
+      "color": "#B98CFF",
+      "bold": true
+    },
+    "description": {
+      "text": "Magic stats",
+      "color": "#9BA3B2",
+      "italic": true
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanting_table"
+      }
+    },
+    "cost": 0
+  },
+  "stat_maxmana": {
+    "title": {
+      "text": "Max Mana",
+      "color": "#B98CFF",
+      "bold": true
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Raises your maximum mana pool.",
+          "color": "#C8CEDA"
+        },
+        {
+          "text": "\n\nLive bonus: type ",
+          "color": "#7FD8E8",
+          "italic": true
+        },
+        {
+          "text": "/ascstats",
+          "color": "#FFD27A",
+          "italic": true
+        }
+      ]
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    "cost": 0
+  },
+  "stat_manareg": {
+    "title": {
+      "text": "Mana Regen",
+      "color": "#B98CFF",
+      "bold": true
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Regenerate mana faster.",
+          "color": "#C8CEDA"
+        },
+        {
+          "text": "\n\nLive bonus: type ",
+          "color": "#7FD8E8",
+          "italic": true
+        },
+        {
+          "text": "/ascstats",
+          "color": "#FFD27A",
+          "italic": true
+        }
+      ]
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glowstone_dust"
+      }
+    },
+    "cost": 0
+  },
+  "stat_cdr": {
+    "title": {
+      "text": "Cooldown Reduction",
+      "color": "#B98CFF",
+      "bold": true
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Spells recharge faster.",
+          "color": "#C8CEDA"
+        },
+        {
+          "text": "\n\nLive bonus: type ",
+          "color": "#7FD8E8",
+          "italic": true
+        },
+        {
+          "text": "/ascstats",
+          "color": "#FFD27A",
+          "italic": true
+        }
+      ]
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "cost": 0
+  },
+  "stat_spelres": {
+    "title": {
+      "text": "Spell Resistance",
+      "color": "#B98CFF",
+      "bold": true
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Resist hostile spells.",
+          "color": "#C8CEDA"
+        },
+        {
+          "text": "\n\nLive bonus: type ",
+          "color": "#7FD8E8",
+          "italic": true
+        },
+        {
+          "text": "/ascstats",
+          "color": "#FFD27A",
+          "italic": true
+        }
+      ]
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "cost": 0
+  },
+  "stat_hdr_util": {
+    "title": {
+      "text": "Utility",
+      "color": "#7FE0A0",
+      "bold": true
+    },
+    "description": {
+      "text": "Utility stats",
+      "color": "#9BA3B2",
+      "italic": true
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "cost": 0
+  },
+  "stat_movespd": {
+    "title": {
+      "text": "Movement Speed",
+      "color": "#7FE0A0",
+      "bold": true
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Move faster on foot.",
+          "color": "#C8CEDA"
+        },
+        {
+          "text": "\n\nLive bonus: type ",
+          "color": "#7FD8E8",
+          "italic": true
+        },
+        {
+          "text": "/ascstats",
+          "color": "#FFD27A",
+          "italic": true
+        }
+      ]
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "cost": 0
+  },
+  "stat_luck": {
+    "title": {
+      "text": "Luck",
+      "color": "#7FE0A0",
+      "bold": true
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Improves loot and rare drops.",
+          "color": "#C8CEDA"
+        },
+        {
+          "text": "\n\nLive bonus: type ",
+          "color": "#7FD8E8",
+          "italic": true
+        },
+        {
+          "text": "/ascstats",
+          "color": "#FFD27A",
+          "italic": true
+        }
+      ]
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    "cost": 0
+  },
+  "stat_fortune": {
+    "title": {
+      "text": "Fortune",
+      "color": "#7FE0A0",
+      "bold": true
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        {
+          "text": "More yield from blocks and finds.",
+          "color": "#C8CEDA"
+        },
+        {
+          "text": "\n\nLive bonus: type ",
+          "color": "#7FD8E8",
+          "italic": true
+        },
+        {
+          "text": "/ascstats",
+          "color": "#FFD27A",
+          "italic": true
+        }
+      ]
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:emerald"
+      }
+    },
+    "cost": 0
+  },
+  "stat_healing": {
+    "title": {
+      "text": "Healing",
+      "color": "#7FE0A0",
+      "bold": true
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Increases healing received.",
+          "color": "#C8CEDA"
+        },
+        {
+          "text": "\n\nLive bonus: type ",
+          "color": "#7FD8E8",
+          "italic": true
+        },
+        {
+          "text": "/ascstats",
+          "color": "#FFD27A",
+          "italic": true
+        }
+      ]
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "cost": 0
+  },
+  "stat_mining": {
+    "title": {
+      "text": "Mining Speed",
+      "color": "#7FE0A0",
+      "bold": true
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        {
+          "text": "Break blocks faster.",
+          "color": "#C8CEDA"
+        },
+        {
+          "text": "\n\nLive bonus: type ",
+          "color": "#7FD8E8",
+          "italic": true
+        },
+        {
+          "text": "/ascstats",
+          "color": "#FFD27A",
+          "italic": true
+        }
+      ]
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "cost": 0
+  }
+}

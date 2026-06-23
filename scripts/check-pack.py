@@ -414,7 +414,7 @@ REQUIRED_FILES = [
     "config/irons_spellbooks-client.toml",
     "config/overflowingbars-client.toml",
     "config/lootbeams-client.toml",
-    "config/mobhealthbar-client.toml",
+    "config/healthbarplus-client.toml",
     "config/oculus.properties",
     "config/obscuria/loot_journal-client.toml",
     "config/puffish_skills/config.json",
@@ -1165,7 +1165,7 @@ ASCENDANT_UI_SYNC_REQUIRED_TOKENS = [
     "config\\obscuria",
     "itemborders-common.toml",
     "lootbeams-client.toml",
-    "mobhealthbar-client.toml",
+    "healthbarplus-client.toml",
     "overflowingbars-client.toml",
     "resourcepackoverrides.json",
     "travelerstitles-forge-1_20.toml",
@@ -4686,16 +4686,16 @@ def validate_ascendant_ui_clarity(errors: list[str], warnings: list[str]) -> Non
     if isinstance(danger_policy, dict):
         if danger_policy.get("status") != "audit_control_scaffold_only_no_new_overlay":
             warnings.append("Ascendant mob danger display policy is not marked audit/control-only.")
-        missing_settings = validation_values(danger_policy, "mob_healthbar_missing_required_settings")
+        missing_settings = validation_values(danger_policy, "health_bar_plus_missing_required_settings")
         if missing_settings:
             warnings.append(
-                "MobHealthBar does not satisfy Ascendant danger display policy: "
+                "Health Bar Plus does not satisfy Ascendant danger display policy: "
                 f"{len(missing_settings)} ({ascendant_loot_preview(missing_settings)})"
             )
         boss_blacklist_missing = validation_values(danger_policy, "boss_blacklist_missing")
         if boss_blacklist_missing:
             warnings.append(
-                "MobHealthBar boss blacklist is missing entries: "
+                "Health Bar Plus boss blacklist is missing entries: "
                 f"{len(boss_blacklist_missing)} ({ascendant_loot_preview(boss_blacklist_missing)})"
             )
 
@@ -6463,7 +6463,7 @@ def main() -> int:
             "guardvillagers-common.toml",
             "spawnbalanceutility-common.toml",
             "majruszsdifficulty.json",
-            "mobhealthbar-client.toml",
+            "healthbarplus-client.toml",
             "lootbeams-client.toml",
             "integrated_villages-forge-1_20.toml",
             "create_structures_arise-server.toml",
@@ -7409,28 +7409,20 @@ def main() -> int:
                 if not re.search(rf"(?m)^\s*{re.escape(key).lower()}\s*=\s*{re.escape(expected)}\s*$", loot_journal_text):
                     errors.append(f"config/obscuria/loot_journal-client.toml must set {key} = {expected}.")
 
-    mobhealthbar_config = ROOT / "config/mobhealthbar-client.toml"
-    if "mods/ydms-mobhealthbar.pw.toml" in active_relatives:
-        if not mobhealthbar_config.exists():
-            errors.append("YDM's MobHealthBar is installed but config/mobhealthbar-client.toml is missing.")
+    healthbarplus_config = ROOT / "config/healthbarplus-client.toml"
+    if "mods/health-bar-plus.pw.toml" in active_relatives:
+        if not healthbarplus_config.exists():
+            errors.append("Health Bar Plus is installed but config/healthbarplus-client.toml is missing.")
         else:
-            mobhealthbar_text = read_text(mobhealthbar_config).lower()
-            expected_mobhealthbar_settings = {
-                "toogle": "true",
-                "onvisible": "true",
-                "on_aggro": "true",
-                "damaged_only": "true",
-                "hovered_only": "true",
-                "render-distance": "64",
-            }
-            for key, expected in expected_mobhealthbar_settings.items():
-                if not re.search(rf"(?m)^\s*{re.escape(key)}\s*=\s*{re.escape(expected)}\s*$", mobhealthbar_text):
-                    errors.append(f"config/mobhealthbar-client.toml must set {key} = {expected}.")
-            blacklist_match = re.search(r'(?m)^\s*blacklist\s*=\s*"([^"]*)"', mobhealthbar_text)
+            healthbarplus_text = read_text(healthbarplus_config).lower()
+            for key in ["samo_passive", "samo_neutral", "samo_hostile"]:
+                if not re.search(rf"(?m)^\s*{re.escape(key)}\s*=\s*1\s*$", healthbarplus_text):
+                    errors.append(f"config/healthbarplus-client.toml must set {key} = 1.")
+            blacklist_match = re.search(r'(?m)^\s*blacklist\s*=\s*"([^"]*)"', healthbarplus_text)
             blacklist = blacklist_match.group(1) if blacklist_match else ""
-            for boss_id in ["minecraft:ender_dragon", "minecraft:wither"]:
-                if boss_id not in blacklist:
-                    errors.append(f"config/mobhealthbar-client.toml blacklist must include {boss_id}.")
+            for boss_name in ["ender dragon", "wither"]:
+                if boss_name not in blacklist:
+                    errors.append(f"config/healthbarplus-client.toml blacklist must include {boss_name}.")
 
     travelers_titles_lang = ROOT / "resourcepacks/ascendant-realms-travelers-titles/assets/travelerstitles/lang/en_us.json"
     if travelers_titles_lang.exists():

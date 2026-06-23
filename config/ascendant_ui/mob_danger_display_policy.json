@@ -3,14 +3,14 @@
   "generated_at": "2026-06-17T05:01:19Z",
   "status": "audit_control_scaffold_only_no_new_overlay",
   "current_stack": {
-    "mobhealthbar": "config/mobhealthbar-client.toml",
+    "health_bar_plus": "config/healthbarplus-client.toml",
     "enhanced_boss_bars": "mods/enhanced-boss-bars-mod.pw.toml",
     "nameplates": "config/ascendant_guild/nameplates.json",
     "identity_scoreboards": "config/openloader/data/ascendant_realms_identity"
   },
   "display_policy": {
     "common_mobs": "Use health bar only on hover, damage, or aggro to avoid screen clutter.",
-    "dangerous_mobs": "Use health bar visibility as the readable first layer; styled rank/name identity belongs to Ascendant Nametags so MobHealthBar name text stays disabled.",
+    "dangerous_mobs": "Use health bar visibility as the readable first layer; styled rank/name identity belongs to Ascendant Nametags while Health Bar Plus owns routine mob health.",
     "bosses": "Let Enhanced Boss Bars or native boss bars own the main presentation.",
     "players_and_npcs": "Use Guild rank, level, profession, and nameplate style; do not overload item rarity colors as rank labels."
   },
@@ -41,7 +41,7 @@
     }
   ],
   "validation": {
-    "mob_healthbar_missing_required_settings": [],
+    "health_bar_plus_missing_required_settings": [],
     "boss_blacklist_missing": [],
     "threat_tier_display_live_enforced": false,
     "threat_tier_display_boundary": "Policy-ready only; no new UI mod or overlay was added in this pass."

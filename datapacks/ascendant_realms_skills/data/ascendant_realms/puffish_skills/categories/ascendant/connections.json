@@ -14,7 +14,7 @@
         "warrior_heavy_draw"
       ],
       [
-        "warrior_battle_rhythm",
+        "warrior_shield_craft",
         "warrior_plate_step"
       ],
       [
@@ -22,7 +22,7 @@
         "warrior_edge_pressure"
       ],
       [
-        "warrior_plate_step",
+        "warrior_heavy_draw",
         "warrior_sword_forms"
       ],
       [
@@ -34,15 +34,15 @@
         "warrior_unyielding_mail"
       ],
       [
-        "warrior_sword_forms",
+        "warrior_plate_step",
         "warrior_counter_weight"
       ],
       [
-        "warrior_counter_weight",
+        "warrior_edge_pressure",
         "warrior_weapon_momentum"
       ],
       [
-        "warrior_unyielding_mail",
+        "warrior_edge_pressure",
         "warrior_bulwark_training"
       ],
       [
@@ -50,31 +50,35 @@
         "warrior_soul_edge"
       ],
       [
-        "warrior_counter_weight",
+        "warrior_sword_forms",
         "warrior_guard_breaker"
       ],
       [
-        "warrior_sword_forms",
+        "warrior_guard_break",
         "warrior_blood_momentum"
       ],
       [
-        "warrior_weapon_momentum",
+        "warrior_guard_break",
+        "warrior_rampage"
+      ],
+      [
+        "warrior_unyielding_mail",
         "warrior_warlord_command"
       ],
       [
-        "warrior_guard_breaker",
+        "warrior_unyielding_mail",
         "warrior_bastion_oath"
       ],
       [
-        "warrior_bulwark_training",
+        "warrior_counter_weight",
         "warrior_giantslayer"
       ],
       [
-        "warrior_weapon_momentum",
+        "warrior_counter_weight",
         "warrior_realm_champion"
       ],
       [
-        "warrior_counter_weight",
+        "warrior_weapon_momentum",
         "warrior_titanheart"
       ],
       [
@@ -90,7 +94,7 @@
         "rogue_soft_landing"
       ],
       [
-        "rogue_soft_landing",
+        "rogue_light_grip",
         "rogue_luckbearer"
       ],
       [
@@ -98,11 +102,11 @@
         "rogue_knife_window"
       ],
       [
-        "rogue_light_grip",
+        "rogue_soft_landing",
         "rogue_roll_recovery"
       ],
       [
-        "rogue_roll_recovery",
+        "rogue_soft_landing",
         "rogue_silent_looter"
       ],
       [
@@ -110,47 +114,51 @@
         "rogue_duelist_rhythm"
       ],
       [
-        "rogue_duelist_rhythm",
+        "rogue_luckbearer",
         "rogue_shadowstep"
       ],
       [
-        "rogue_silent_looter",
+        "rogue_knife_window",
         "rogue_artifact_sense"
       ],
       [
-        "rogue_roll_recovery",
+        "rogue_knife_window",
         "rogue_backstab_pressure"
       ],
       [
-        "rogue_artifact_sense",
+        "rogue_roll_recovery",
         "rogue_panic_gap"
       ],
       [
-        "rogue_luckbearer",
+        "rogue_roll_recovery",
         "rogue_weak_point"
       ],
       [
-        "rogue_backstab_pressure",
+        "rogue_silent_looter",
         "rogue_backstab"
       ],
       [
-        "rogue_shadowstep",
+        "rogue_silent_looter",
+        "rogue_executioner"
+      ],
+      [
+        "rogue_duelist_rhythm",
         "rogue_cutpurse_legend"
       ],
       [
-        "rogue_backstab",
+        "rogue_duelist_rhythm",
         "rogue_redline_duelist"
       ],
       [
-        "rogue_backstab",
+        "rogue_shadowstep",
         "rogue_glass_knife"
       ],
       [
-        "rogue_light_grip",
+        "rogue_shadowstep",
         "rogue_night_market"
       ],
       [
-        "rogue_knife_window",
+        "rogue_artifact_sense",
         "rogue_assassins_chain"
       ],
       [
@@ -166,7 +174,7 @@
         "ranger_monster_lore"
       ],
       [
-        "ranger_monster_lore",
+        "ranger_tracker_eye",
         "ranger_bow_tension"
       ],
       [
@@ -174,31 +182,31 @@
         "ranger_beast_breaker"
       ],
       [
-        "ranger_bow_tension",
+        "ranger_monster_lore",
         "ranger_pack_bond"
       ],
       [
-        "ranger_beast_breaker",
+        "ranger_monster_lore",
         "ranger_hide_armor"
       ],
       [
-        "ranger_pack_bond",
+        "ranger_bow_tension",
         "ranger_trophy_marks"
       ],
       [
-        "ranger_beast_breaker",
+        "ranger_bow_tension",
         "ranger_venom_reading"
       ],
       [
-        "ranger_hide_armor",
+        "ranger_beast_breaker",
         "ranger_marksman_breath"
       ],
       [
-        "ranger_pack_bond",
+        "ranger_beast_breaker",
         "ranger_tamed_guard"
       ],
       [
-        "ranger_marksman_breath",
+        "ranger_pack_bond",
         "ranger_apex_instinct"
       ],
       [
@@ -206,27 +214,31 @@
         "ranger_hunters_mark"
       ],
       [
-        "ranger_apex_instinct",
+        "ranger_hide_armor",
         "ranger_longshot"
+      ],
+      [
+        "ranger_hide_armor",
+        "ranger_explosive_shot"
       ],
       [
         "ranger_trophy_marks",
         "ranger_skyshot"
       ],
       [
-        "ranger_venom_reading",
+        "ranger_trophy_marks",
         "ranger_wild_bond"
       ],
       [
-        "ranger_skyshot",
+        "ranger_venom_reading",
         "ranger_monster_slayer"
       ],
       [
-        "ranger_wild_bond",
+        "ranger_venom_reading",
         "ranger_relic_tracker"
       ],
       [
-        "ranger_venom_reading",
+        "ranger_marksman_breath",
         "ranger_apex_predator"
       ],
       [
@@ -246,11 +258,11 @@
         "arcanist_spellblade_entry"
       ],
       [
-        "arcanist_warding_glyph",
+        "arcanist_mana_discipline",
         "arcanist_holy_channel"
       ],
       [
-        "arcanist_spellblade_entry",
+        "arcanist_warding_glyph",
         "arcanist_frost_formula"
       ],
       [
@@ -258,11 +270,11 @@
         "arcanist_storm_glyph"
       ],
       [
-        "arcanist_frost_formula",
+        "arcanist_spellblade_entry",
         "arcanist_arcane_armor"
       ],
       [
-        "arcanist_mana_discipline",
+        "arcanist_spellblade_entry",
         "arcanist_mana_reservoir"
       ],
       [
@@ -274,35 +286,39 @@
         "arcanist_elemental_weave"
       ],
       [
-        "arcanist_storm_glyph",
+        "arcanist_frost_formula",
         "arcanist_spellguard"
       ],
       [
-        "arcanist_elemental_weave",
+        "arcanist_frost_formula",
         "arcanist_wardbreaker"
       ],
       [
-        "arcanist_spellblade_entry",
+        "arcanist_storm_glyph",
         "arcanist_spell_siphon"
       ],
       [
         "arcanist_storm_glyph",
+        "arcanist_chain_lightning"
+      ],
+      [
+        "arcanist_arcane_armor",
         "arcanist_battle_mage"
       ],
       [
-        "arcanist_spellguard",
+        "arcanist_arcane_armor",
         "arcanist_archmage"
       ],
       [
-        "arcanist_ritual_recovery",
+        "arcanist_mana_reservoir",
         "arcanist_moonlit_invoker"
       ],
       [
-        "arcanist_wardbreaker",
+        "arcanist_mana_reservoir",
         "arcanist_portal_scholar"
       ],
       [
-        "arcanist_spell_siphon",
+        "arcanist_ritual_recovery",
         "arcanist_arcane_overflow"
       ],
       [
@@ -330,55 +346,59 @@
         "engineer_cannon_math"
       ],
       [
-        "engineer_provisioner",
+        "engineer_belt_logistics",
         "engineer_shipwright"
       ],
       [
-        "engineer_brass_frame",
+        "engineer_provisioner",
         "engineer_field_repairs"
       ],
       [
-        "engineer_shipwright",
+        "engineer_provisioner",
         "engineer_factory_stride"
       ],
       [
-        "engineer_cannon_math",
+        "engineer_brass_frame",
         "engineer_siege_loader"
       ],
       [
-        "engineer_field_repairs",
+        "engineer_brass_frame",
         "engineer_kitchen_engineer"
       ],
       [
-        "engineer_kitchen_engineer",
+        "engineer_cannon_math",
         "engineer_ruin_reclaimer"
       ],
       [
-        "engineer_brass_frame",
+        "engineer_cannon_math",
         "engineer_salvage_protocol"
       ],
       [
-        "engineer_salvage_protocol",
+        "engineer_shipwright",
         "engineer_reinforced_plating"
       ],
       [
-        "engineer_factory_stride",
-        "engineer_master_artificer"
-      ],
-      [
-        "engineer_ruin_reclaimer",
-        "engineer_siege_engineer"
-      ],
-      [
-        "engineer_master_artificer",
-        "engineer_logistics_lord"
-      ],
-      [
-        "engineer_tinkers_eye",
-        "engineer_fortress_maker"
+        "engineer_shipwright",
+        "engineer_thornmail"
       ],
       [
         "engineer_field_repairs",
+        "engineer_master_artificer"
+      ],
+      [
+        "engineer_field_repairs",
+        "engineer_siege_engineer"
+      ],
+      [
+        "engineer_factory_stride",
+        "engineer_logistics_lord"
+      ],
+      [
+        "engineer_factory_stride",
+        "engineer_fortress_maker"
+      ],
+      [
+        "engineer_siege_loader",
         "engineer_emergency_protocols"
       ],
       [
@@ -394,7 +414,7 @@
         "survivalist_trail_rations"
       ],
       [
-        "survivalist_weather_sense",
+        "survivalist_cold_resolve",
         "survivalist_hard_travel"
       ],
       [
@@ -402,7 +422,7 @@
         "survivalist_relic_sense"
       ],
       [
-        "survivalist_hard_travel",
+        "survivalist_trail_rations",
         "survivalist_camp_medic"
       ],
       [
@@ -410,51 +430,55 @@
         "survivalist_deep_delver"
       ],
       [
-        "survivalist_relic_sense",
+        "survivalist_hard_travel",
         "survivalist_season_keeper"
       ],
       [
-        "survivalist_camp_medic",
+        "survivalist_hard_travel",
         "survivalist_storm_walker"
       ],
       [
-        "survivalist_deep_delver",
+        "survivalist_relic_sense",
         "survivalist_contract_runner"
       ],
       [
-        "survivalist_hard_travel",
+        "survivalist_relic_sense",
         "survivalist_safe_camp"
       ],
       [
-        "survivalist_contract_runner",
+        "survivalist_camp_medic",
         "survivalist_cliff_reader"
       ],
       [
-        "survivalist_relic_sense",
+        "survivalist_camp_medic",
         "survivalist_field_medic"
       ],
       [
-        "survivalist_cliff_reader",
+        "survivalist_deep_delver",
         "survivalist_campfire_recovery"
       ],
       [
-        "survivalist_storm_walker",
+        "survivalist_deep_delver",
+        "survivalist_second_wind"
+      ],
+      [
+        "survivalist_season_keeper",
         "survivalist_pathfinder"
       ],
       [
-        "survivalist_cliff_reader",
+        "survivalist_season_keeper",
         "survivalist_hearthkeeper"
       ],
       [
-        "survivalist_relic_sense",
+        "survivalist_storm_walker",
         "survivalist_expedition_master"
       ],
       [
-        "survivalist_safe_camp",
+        "survivalist_storm_walker",
         "survivalist_winter_blood"
       ],
       [
-        "survivalist_cliff_reader",
+        "survivalist_contract_runner",
         "survivalist_unkillable_guide"
       ],
       [
@@ -470,7 +494,7 @@
         "dragonbound_dragon_hunter"
       ],
       [
-        "dragonbound_wyrm_oath",
+        "dragonbound_scale_tempering",
         "dragonbound_boss_sense"
       ],
       [
@@ -482,15 +506,15 @@
         "dragonbound_titanbreaker"
       ],
       [
-        "dragonbound_abyssal_will",
+        "dragonbound_dragon_hunter",
         "dragonbound_mounted_legend"
       ],
       [
-        "dragonbound_titanbreaker",
+        "dragonbound_boss_sense",
         "dragonbound_cataclysm_ready"
       ],
       [
-        "dragonbound_abyssal_will",
+        "dragonbound_boss_sense",
         "dragonbound_flame_ward"
       ],
       [
@@ -498,15 +522,15 @@
         "dragonbound_frost_ward"
       ],
       [
-        "dragonbound_boss_sense",
+        "dragonbound_abyssal_will",
         "dragonbound_legendary_pressure"
       ],
       [
-        "dragonbound_legendary_pressure",
+        "dragonbound_titanbreaker",
         "dragonbound_dragon_rider"
       ],
       [
-        "dragonbound_cataclysm_ready",
+        "dragonbound_titanbreaker",
         "dragonbound_dragon_vein"
       ],
       [
@@ -514,24 +538,28 @@
         "dragonbound_dragons_pride"
       ],
       [
-        "dragonbound_dragon_vein",
+        "dragonbound_mounted_legend",
         "dragonbound_dragonlord"
       ],
       [
-        "dragonbound_dragons_pride",
+        "dragonbound_cataclysm_ready",
         "dragonbound_realm_ender"
       ],
       [
-        "dragonbound_titanbreaker",
+        "dragonbound_cataclysm_ready",
         "dragonbound_mythbreaker"
       ],
       [
-        "dragonbound_cataclysm_ready",
+        "dragonbound_flame_ward",
         "dragonbound_ascendant_dragon"
       ],
       [
-        "dragonbound_legendary_pressure",
+        "dragonbound_flame_ward",
         "dragonbound_wyrmblood_ascendance"
+      ],
+      [
+        "dragonbound_frost_ward",
+        "dragonbound_full_moon_frenzy"
       ]
     ]
   }

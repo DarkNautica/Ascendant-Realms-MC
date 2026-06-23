@@ -1,0 +1,10 @@
+{
+  "level_limit": 1,
+  "experience_per_level": {
+    "type": "expression",
+    "data": {
+      "expression": "1000000000"
+    }
+  },
+  "sources": []
+}

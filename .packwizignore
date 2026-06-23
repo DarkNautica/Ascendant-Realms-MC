@@ -20,3 +20,12 @@ __pycache__/
 scripts/build-prism-autoupdate-pack.ps1
 scripts/publish-to-github.ps1
 docs/PRISM_GITHUB_UPDATES.md
+!mods/ascendant-1.20.1-1.0.0.jar
+!mods/ascendant-codex-1.0.0.jar
+# --- guild prototype: kept OUT of the distributed pack ---
+kubejs/server_scripts/ascendant_guild_director.js
+kubejs/server_scripts/ascendant_guild_jobs.js
+kubejs/server_scripts/ascendant_guild_ui.js
+customnpcs/dialogs/Ascendant/
+
+!mods/mobhealthbar-forge-1.20.x-2.3.0.jar

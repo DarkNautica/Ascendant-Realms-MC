@@ -12,11 +12,12 @@ import json, os, sys, math
 import numpy as np
 
 LANES = ["warrior", "rogue", "ranger", "arcanist", "engineer", "survivalist", "dragonbound"]
-SECTOR = 23.0                      # lane angular half-width (deg); lanes are ~51.4 apart
-BAND = {"task": (205, 475), "goal": (525, 665), "challenge": (715, 855)}
-GATEWAY_R = 205
-MIN_DIST = 86                      # min px between any two nodes
-CHILD_CAP = 3
+SECTOR = 24.0                      # lane angular half-width (deg); lanes are ~51.4 apart
+GATEWAY_R = 240                    # radius of each lane's gateway (depth-0) node
+RING_GAP = 195                     # radius added per tree depth (planar tidy tree)
+CHILD_CAP = 2                      # max children per node -> branching factor
+BAND = {"task": (300, 720), "goal": (820, 1040), "challenge": (1120, 1380)}  # legacy, unused
+MIN_DIST = 100                     # legacy, unused (only reported now)
 UNLOCK_GLOW = {"fill": "#d4f2ff", "stroke": "#74e4ff"}
 
 def tier_of(defs, k):
@@ -31,61 +32,48 @@ def tier_of(defs, k):
     return "task"
 
 def build(defs):
-    rng_global = np.random.default_rng(20260618)
-    placed = [("ascendant_oath", 0.0, 0.0)]          # (id, x, y)
+    # Planar radial tidy tree: each lane is its own sub-tree in a fixed angular
+    # sector; a node's children fan out WITHIN that node's angular slice at the
+    # next radius ring -> edges are short and never cross (readable, uncrossed).
     pos = {"ascendant_oath": (0, 0)}
     parent = {}
-    def far_enough(x, y):
-        return all((x-px)**2 + (y-py)**2 >= MIN_DIST*MIN_DIST for _, px, py in placed)
+    order = {"task": 0, "goal": 1, "challenge": 2}
     for li, lane in enumerate(LANES):
-        rng = np.random.default_rng(1000 + li)
         theta0 = -90 + li * (360.0 / len(LANES))
         nodes = [k for k in defs if k.split("_")[0] == lane]
-        order = {"task": 0, "goal": 1, "challenge": 2}
         nodes.sort(key=lambda k: order.get(tier_of(defs, k), 9))
-        lane_nodes = []   # (id, x, y, r, ang)
-        # gateway
-        gang = theta0 + float(rng.uniform(-4, 4))
-        gx, gy = GATEWAY_R*math.cos(math.radians(gang)), GATEWAY_R*math.sin(math.radians(gang))
-        pos[nodes[0]] = (round(gx), round(gy)); parent[nodes[0]] = "ascendant_oath"
-        placed.append((nodes[0], gx, gy)); lane_nodes.append((nodes[0], gx, gy, GATEWAY_R, gang))
-        childcount = {nodes[0]: 0}
-        # counts per tier for radius progression
-        tiers = [tier_of(defs, k) for k in nodes]
-        idx_in_tier = {}; seen = {}
-        for k, t in zip(nodes, tiers):
-            seen[t] = seen.get(t, 0); idx_in_tier[k] = seen[t]; seen[t] += 1
-        tcount = {t: tiers.count(t) for t in set(tiers)}
-        for k in nodes[1:]:
-            t = tier_of(defs, k)
-            lo, hi = BAND[t]
-            prog = idx_in_tier[k] / max(1, tcount[t]-1)
-            base_r = lo + prog*(hi-lo)
-            best = None
-            for attempt in range(28):
-                tr = base_r + float(rng.uniform(-35, 45))
-                cands = [n for n in lane_nodes if n[3] <= tr-55 and childcount.get(n[0], 0) < CHILD_CAP]
-                if not cands:
-                    cands = [n for n in lane_nodes if n[3] < tr-10] or [lane_nodes[0]]
-                # prefer inner, fewer children, nearer radius
-                w = []
-                for n in cands:
-                    w.append(1.0/(1+childcount.get(n[0],0)) * 1.0/(1+abs(n[3]-tr)/120.0))
-                w = np.array(w); w /= w.sum()
-                par = cands[int(rng.choice(len(cands), p=w))]
-                spread = float(rng.uniform(8, 26))
-                ang = par[4] + float(rng.uniform(-spread, spread))
-                ang = max(theta0-SECTOR, min(theta0+SECTOR, ang))
-                x, y = tr*math.cos(math.radians(ang)), tr*math.sin(math.radians(ang))
-                if far_enough(x, y):
-                    best = (par, x, y, tr, ang); break
-                if best is None or tr > (best[3] if best else 0):
-                    best = (par, x, y, tr, ang)   # fallback keep last
-            par, x, y, tr, ang = best
-            pos[k] = (round(x), round(y)); parent[k] = par[0]
-            childcount[par[0]] = childcount.get(par[0], 0) + 1
-            childcount.setdefault(k, 0)
-            placed.append((k, x, y)); lane_nodes.append((k, x, y, tr, ang))
+        # breadth-first B-ary tree (lower tiers shallow/inner, capstones deep/outer)
+        gw = nodes[0]
+        parent[gw] = "ascendant_oath"
+        depth = {gw: 0}
+        children = {gw: []}
+        queue = [gw]; qi = 0
+        for n in nodes[1:]:
+            while len(children[queue[qi]]) >= CHILD_CAP:
+                qi += 1
+            par = queue[qi]
+            parent[n] = par; children[par].append(n)
+            depth[n] = depth[par] + 1; children[n] = []
+            queue.append(n)
+        # leaf weights for proportional angular slices
+        leaves = {}
+        def leafcount(n):
+            if not children[n]:
+                leaves[n] = 1; return 1
+            c = sum(leafcount(x) for x in children[n]); leaves[n] = c; return c
+        leafcount(gw)
+        # recursive radial placement: node centered in its slice, children divide it
+        def place(n, a0, a1):
+            ang = (a0 + a1) / 2.0
+            r = GATEWAY_R + depth[n] * RING_GAP
+            pos[n] = (round(r * math.cos(math.radians(ang))), round(r * math.sin(math.radians(ang))))
+            ch = children[n]
+            if ch:
+                tot = sum(leaves[x] for x in ch); acc = a0
+                for x in ch:
+                    w = (a1 - a0) * leaves[x] / tot
+                    place(x, acc, acc + w); acc += w
+        place(gw, theta0 - SECTOR, theta0 + SECTOR)
     conns = [[parent[k], k] for k in parent]            # unidirectional prereq -> dependent
     return pos, conns
 

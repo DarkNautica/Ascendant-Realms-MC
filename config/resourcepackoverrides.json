@@ -18,6 +18,7 @@
     "file/EmbellishedStone-1.20.1-1.0.0.zip",
     "file/Excalibur_V1.20.zip",
     "file/FreshAnimations_v1.10.4.zip",
+    "file/FA-Player-v1.0",
     "file/Icon Fresh 1.2.zip",
     "file/Icon Xaero's 1.22.zip",
     "file/MCAR_VanillaMedieval_Universal_1.20.x_Only_Clothes_byDE4THR4SH_v4.zip",
@@ -108,6 +109,10 @@
       "force_compatible": true
     },
     "file/ascendant-realms-buttons": {
+      "required": true,
+      "force_compatible": true
+    },
+    "file/FA-Player-v1.0": {
       "required": true,
       "force_compatible": true
     }

@@ -40,7 +40,7 @@ The Rank Examiner NPC runs that internal function as the interacting player. It 
 
 Root-cause note: CustomNPCs-Unofficial renders the separate `title` slot only within close range and wraps it in angle brackets. The script keeps level and role in the always-visible name line and clears the title slot. The current Ascendant Nametags renderer fixes player and AI hunter labels first; a later more polished two-line animated overlay can still replace this v1 presentation.
 
-MobHealthBar note: `config/mobhealthbar-client.toml` keeps health bars enabled but disables the plain mob name line. That prevents a white duplicate rank/name label from appearing above AI hunters while the Ascendant Nametags renderer draws the styled plate.
+Health Bar Plus note: `config/healthbarplus-client.toml` keeps routine mob health bars low-noise. Ascendant Nametags also marks the mob under the crosshair as active for Health Bar Plus, so bars show when looking at a mob or when combat has recently touched it.
 
 Existing NPC repair note: early Rank Examiner prototypes stored `ar_rank = guild_staff`, then `Unranked`, instead of the public `B-Rank` value. CustomNPCs also embeds a copy of the script inside each saved NPC. The script now sanitizes stale style ids and stale placeholder ranks, and `scripts/customnpcs-identity-audit.py` scans/repairs saved NPC names, stored profile data, and embedded script copies. `/function ascendant_identity:npc_test/fix_rank_examiner` is only a quick in-game profile reset; the offline audit/repair tool is the authoritative fix for already placed NPCs.
 

@@ -12,11 +12,14 @@ world/
 *.zip
 *.mrpack
 
-# Most mods are downloaded by packwiz metadata. These two are pack-owned helper jars
-# and must be committed so GitHub can serve them to Prism/packwiz-installer.
+# Most mods are downloaded by packwiz metadata. These pack-owned / bundled jars are
+# committed so GitHub can serve them to Prism/packwiz-installer.
 mods/*.jar
 !mods/ascendant-atlas-regions-0.1.0.jar
 !mods/ascendant-nametags-0.1.0.jar
+!mods/ascendant-1.20.1-1.0.0.jar
+!mods/ascendant-codex-1.0.0.jar
+!mods/mobhealthbar-forge-1.20.x-2.3.0.jar
 
 .DS_Store
 Thumbs.db

@@ -83,7 +83,7 @@ function skeBehind(att, vic, deg) {
 function skeEff(server, sel, id, secs, amp) { try { server.runCommandSilent("effect give " + sel + " " + id + " " + secs + " " + amp + " true") } catch (e) {} }
 function skeBonus(server, attUuid, vic, amount) {
   if (!(amount > 0)) return
-  try { SKE.busy = true; server.runCommandSilent("damage " + skeId(vic) + " " + (Math.round(amount * 100) / 100) + " minecraft:player_attack by " + attUuid) } catch (e) {} finally { SKE.busy = false }
+  try { SKE.busy = true; global.__arSkBusy = true; server.runCommandSilent("damage " + skeId(vic) + " " + (Math.round(amount * 100) / 100) + " minecraft:player_attack by " + attUuid) } catch (e) {} finally { SKE.busy = false; global.__arSkBusy = false }
 }
 function skeArmor(p) { try { return skeNum(p.armorValue, 0) } catch (e) { try { return skeNum(p.getArmorValue(), 0) } catch (x) { return 0 } } }
 function skeMana(p) {
@@ -103,7 +103,7 @@ ServerEvents.tick(event => { SKE.now++ })
 // ===== ON-HIT (attacker procs + victim survival) =====
 try {
   EntityEvents.hurt(event => {
-    if (SKE.busy) return
+    if (SKE.busy || global.__arSkBusy) return
     if (!SKE_cfg.enabled) return
     var victim = event.entity; if (!victim) return
     var now = SKE.now

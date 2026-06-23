@@ -1,3 +1,4 @@
+
 [general]
 	#Toggle Health bars for mobs
 	toogle = true
@@ -5,18 +6,18 @@
 	onvisible = true
 	#Show health points on bars. Note that not every type of the bars can show the hp
 	show_hp = true
-	#Show the Name above the mobs. Disabled so Ascendant Nametags owns styled player/hunter/NPC identity text.
+	#Show the Name above the mobs
 	show_name = false
-	#Show bars while a mob is actively aggressive, which covers recent combat without proximity-only clutter
+	#Show bars only when a mob is aggressive
 	on_aggro = true
 	#Show bar texture
 	bar = true
-	#Show the hp bar of mobs who are damaged
+	#Show the hp bar of the mobs who are damaged
 	damaged_only = true
 	#Show the hp bar of the mob you are looking at
 	hovered_only = true
 	#
-	#List for mobs that should not be displayed. True boss presentation belongs to Enhanced Boss Bars.
+	#List for the mobs that should not be displayed, put a comma (,) between the registered names!
 	blacklist = "minecraft:ender_dragon,minecraft:wither"
 
 	#MobHealtBar

@@ -38,7 +38,7 @@ function inferCategory(entry) {
   const rules = [
     ["Performance", ["modernfix", "ferrite", "embeddium", "entityculling"]],
     ["Shader / Visual Base", ["oculus", "complementary", "entity model", "entity texture", "fresh animations", "3d skin", "cubic", "wavey", "malfu", "not enough animations", "emf", "etf"]],
-    ["UI / Presentation", ["tooltip", "enchantment descriptions", "advancement plaques", "fancymenu", "immersive ui", "stoneborn", "rename compat", "xaero", "mobhealthbar", "titles", "traveler", "perception", "beautiful enchanted"]],
+    ["UI / Presentation", ["tooltip", "enchantment descriptions", "advancement plaques", "fancymenu", "immersive ui", "stoneborn", "rename compat", "xaero", "healthbarplus", "titles", "traveler", "perception", "beautiful enchanted"]],
     ["Audio / Atmosphere", ["ambient", "sound physics", "biome music", "auroras", "weather", "storm", "tornado", "presence footsteps", "falling leaves", "subtle effects", "particular"]],
     ["Worldgen / Structures", ["terralith", "tectonic", "towns", "towers", "structory", "yung", "sparse", "moog", "mss", "mes", "mvs", "medieval", "integrated", "village", "idas", "ctov"]],
     ["Mobs / Bosses", ["alexs mobs", "mowzie", "born", "aquamirae", "bosses", "cataclysm", "iceandfire", "guard villagers", "variants", "ventures"]],

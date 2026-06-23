@@ -236,20 +236,47 @@ def make_icon(node, lane, glyph, path):
     im.save(path)
 
 
-def main():
-    make_background(os.path.join(OUT, "background.png"))
+THEME_OF = {"warrior": "combat", "rogue": "exploration", "ranger": "hunting", "arcanist": "magic", "engineer": "crafting", "survivalist": "survival", "dragonbound": "dragon", "ascendant": "magic"}
+ZIPTIER = {"normal": "normal", "notable": "notable", "major": "keystone"}
+NODE_SRC = os.path.join(REPO, "codex-art", "skilltree_nodes")
+
+NODE_SCALE = 1.5   # bump node/icon render size
+
+def _upscale(path):
+    im = Image.open(path).convert("RGBA")
+    im = im.resize((round(im.width * NODE_SCALE), round(im.height * NODE_SCALE)), Image.NEAREST)
+    im.save(path)
+
+def copy_frames():
+    import shutil
     for lane in LANES:
+        theme = THEME_OF.get(lane, "magic")
         for tier in ("normal", "notable", "major"):
-            for st in ("available", "unlocked"):
-                make_frame(lane, tier, st, os.path.join(FRAME, f"{lane}_{tier}_{st}.png"))
+            zt = ZIPTIER[tier]
+            u = os.path.join(FRAME, lane + "_" + tier + "_unlocked.png")
+            av = os.path.join(FRAME, lane + "_" + tier + "_available.png")
+            shutil.copyfile(os.path.join(NODE_SRC, "frames", theme + "_" + zt + "_unlocked.png"), u); _upscale(u)
+            shutil.copyfile(os.path.join(NODE_SRC, "masters", zt + "_master.png"), av); _upscale(av)
+
+def main():
+    make_background(os.path.join(OUT, "background.png"), 1600)
+    copy_frames()
+    import shutil
+    ICON_SRC = os.path.join(REPO, "codex-art", "skilltree_icons")
     defs = json.load(open(DEFS))
     n = 0
     for node, v in defs.items():
-        lane = node.split("_")[0]
-        if lane not in LANES: lane = "ascendant"
-        title = v.get("title", "") if isinstance(v.get("title"), str) else ""
-        glyph = "star" if node == "ascendant_oath" else pick_glyph(node, title)
-        make_icon(node, lane, glyph, os.path.join(ICON, f"{node}.png"))
+        dst = os.path.join(ICON, node + ".png")
+        src = os.path.join(ICON_SRC, node + ".png")
+        if os.path.isfile(src):
+            shutil.copyfile(src, dst)   # custom art
+        else:
+            lane = node.split("_")[0]
+            if lane not in LANES: lane = "ascendant"
+            title = v.get("title", "") if isinstance(v.get("title"), str) else ""
+            glyph = "star" if node == "ascendant_oath" else pick_glyph(node, title)
+            make_icon(node, lane, glyph, dst)   # procedural fallback
+        _upscale(dst)
         n += 1
     print(f"bg + {len(LANES)*3*2} frames + {n} icons -> {OUT}")
 

@@ -23,7 +23,7 @@ def apply(catdir):
     json.dump(defs, open(dpath, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
     cpath = os.path.join(catdir, "category.json")
     cat = json.load(open(cpath, encoding="utf-8"))
-    cat["background"] = {"texture": f"{NS}/background.png", "width": 1024, "height": 1024, "position": "fill"}
+    cat["background"] = {"texture": f"{NS}/background.png", "width": 1600, "height": 1600, "position": "fill"}
     cat["icon"] = {"type": "texture", "data": {"texture": f"{NS}/icons/ascendant_oath.png"}}
     json.dump(cat, open(cpath, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
     print("applied:", catdir)

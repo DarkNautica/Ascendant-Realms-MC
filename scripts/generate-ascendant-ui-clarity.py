@@ -65,7 +65,7 @@ SYNC_REQUIRED_TOKENS = [
     "config\\obscuria",
     "itemborders-common.toml",
     "lootbeams-client.toml",
-    "mobhealthbar-client.toml",
+    "healthbarplus-client.toml",
     "overflowingbars-client.toml",
     "resourcepackoverrides.json",
     "travelerstitles-forge-1_20.toml",
@@ -286,7 +286,7 @@ def build_audit() -> dict[str, Any]:
     tooltip_script_text = read_text(ROOT / "kubejs" / "client_scripts" / "ascendant_rarity_tooltips.js")
     jei_script_text = read_text(ROOT / "kubejs" / "client_scripts" / "ascendant_jei_aliases.js")
     lootbeams_text = read_text(ROOT / "config" / "lootbeams-client.toml")
-    mobhealthbar_text = read_text(ROOT / "config" / "mobhealthbar-client.toml")
+    healthbarplus_text = read_text(ROOT / "config" / "healthbarplus-client.toml")
     overflowingbars_text = read_text(ROOT / "config" / "overflowingbars-client.toml")
     loot_journal_text = read_text(ROOT / "config" / "obscuria" / "loot_journal-client.toml")
     travelers_titles_text = read_text(ROOT / "config" / "travelerstitles-forge-1_20.toml")
@@ -302,25 +302,16 @@ def build_audit() -> dict[str, Any]:
         }
     )
 
-    missing_mobhealthbar_settings = []
-    for key, expected in {
-        "toogle": "true",
-        "onvisible": "true",
-        "show_hp": "true",
-        "show_name": "true",
-        "on_aggro": "true",
-        "damaged_only": "true",
-        "hovered_only": "true",
-        "render-distance": "64",
-    }.items():
-        if str(setting_value(mobhealthbar_text.lower(), key) or "").lower() != expected:
-            missing_mobhealthbar_settings.append({"setting": key, "expected": expected})
+    missing_healthbarplus_settings = []
+    for key in ["samo_passive", "samo_neutral", "samo_hostile"]:
+        if str(setting_value(healthbarplus_text.lower(), key) or "").lower() != "1":
+            missing_healthbarplus_settings.append({"setting": key, "expected": "1"})
 
     boss_blacklist_missing = []
-    blacklist = str(setting_value(mobhealthbar_text.lower(), "blacklist") or "")
-    for boss_id in ["minecraft:ender_dragon", "minecraft:wither"]:
-        if boss_id not in blacklist:
-            boss_blacklist_missing.append(boss_id)
+    blacklist = str(setting_value(healthbarplus_text.lower(), "blacklist") or "")
+    for boss_name in ["ender dragon", "wither"]:
+        if boss_name not in blacklist:
+            boss_blacklist_missing.append(boss_name)
 
     lootbeam_conflicts = []
     for key, expected in {
@@ -368,7 +359,7 @@ def build_audit() -> dict[str, Any]:
         "lootbeam_conflicts": lootbeam_conflicts,
         "loot_journal_enabled": setting_value(loot_journal_text, "enableLootJournal") == "true",
         "loot_journal_tracks_item_history": setting_value(loot_journal_text, "trackItemPickups") == "false",
-        "mobhealthbar_missing_settings": missing_mobhealthbar_settings,
+        "health_bar_plus_missing_settings": missing_healthbarplus_settings,
         "boss_blacklist_missing": boss_blacklist_missing,
         "overflowingbars_moves_chat": setting_value(overflowingbars_text, "move_chat_above_armor") == "true",
         "overflowingbars_moves_xp": setting_value(overflowingbars_text, "move_experience_above_bar") == "true",
@@ -381,7 +372,7 @@ def build_audit() -> dict[str, Any]:
             "jei": mod_present("jei.pw.toml"),
             "loot_beams": mod_present("loot-beams.pw.toml"),
             "loot_journal": mod_present("loot-journal.pw.toml"),
-            "mobhealthbar": mod_present("ydms-mobhealthbar.pw.toml"),
+            "health_bar_plus": mod_present("health-bar-plus.pw.toml"),
             "overflowing_bars": mod_present("overflowing-bars.pw.toml"),
             "travelers_titles": mod_present("travelers-titles.pw.toml"),
             "titles": mod_present("titles.pw.toml"),
@@ -486,14 +477,14 @@ def build_json_outputs(audit: dict[str, Any]) -> dict[str, Any]:
         "generated_at": generated_at,
         "status": "audit_control_scaffold_only_no_new_overlay",
         "current_stack": {
-            "mobhealthbar": "config/mobhealthbar-client.toml",
+            "health_bar_plus": "config/healthbarplus-client.toml",
             "enhanced_boss_bars": "mods/enhanced-boss-bars-mod.pw.toml",
             "nameplates": "config/ascendant_guild/nameplates.json",
             "identity_scoreboards": "config/openloader/data/ascendant_realms_identity",
         },
         "display_policy": {
-            "common_mobs": "Use health bar only on hover, damage, or aggro to avoid screen clutter.",
-            "dangerous_mobs": "Use health and name visibility as the readable first layer; threat-tier labels are policy-only until a live overlay or nameplate hook exists.",
+            "common_mobs": "Use health bar only on crosshair targeting or recent combat to avoid screen clutter.",
+            "dangerous_mobs": "Use health visibility as the readable first layer; threat-tier labels are policy-only until a live overlay or nameplate hook exists.",
             "bosses": "Let Enhanced Boss Bars or native boss bars own the main presentation.",
             "players_and_npcs": "Use Guild rank, level, profession, and nameplate style; do not overload item rarity colors as rank labels.",
         },
@@ -506,7 +497,7 @@ def build_json_outputs(audit: dict[str, Any]) -> dict[str, Any]:
             {"tier": "dragon_tier", "display": "Boss bar plus world-threat language"},
         ],
         "validation": {
-            "mob_healthbar_missing_required_settings": audit["mobhealthbar_missing_settings"],
+            "health_bar_plus_missing_required_settings": audit["health_bar_plus_missing_settings"],
             "boss_blacklist_missing": audit["boss_blacklist_missing"],
             "threat_tier_display_live_enforced": False,
             "threat_tier_display_boundary": "Policy-ready only; no new UI mod or overlay was added in this pass.",
@@ -562,7 +553,7 @@ def build_docs(audit: dict[str, Any], outputs: dict[str, Any]) -> dict[str, str]
         ["JEI", "compatible", "Runic Grimoire alias only; no material hiding found"],
         ["Loot Beams", "aligned", "rarity color on, item-name color off, rare+ style filter"],
         ["Loot Journal", "aligned", "pickup UI on; long-term item-history tracking off"],
-        ["MobHealthBar", "policy-ready", "health/name available; threat-tier overlay is not live"],
+        ["Health Bar Plus", "policy-ready", "targeted/combat health bars available; threat-tier overlay is not live"],
         ["Traveler's Titles", "partly live", "biome/dimension titles live; Atlas coordinate-region titles policy-only"],
         ["Immersive UI / SpiffyHUD", "manual review", "installed, but no source-side tuning file found in this pass"],
         ["FancyMenu", "unchanged", "no menu redesign in this audit"],
@@ -592,7 +583,7 @@ Status: audit/control scaffold only. No menu redesign, no new UI mods, no live p
 
 The current player-facing item identity stack is mostly coherent. Item Borders uses manual registry colors, KubeJS adds the readable rarity line, Legendary Tooltips provides frame styling, and Loot Beams is set to use rarity color rather than item-name color.
 
-The two intentional boundaries are threat tiers and Atlas region titles. MobHealthBar can show names and health, but there is not yet a live danger-tier overlay. Traveler's Titles can show biome and dimension titles, but Atlas coordinate-region titles remain policy-only until a runtime title hook exists.
+The two intentional boundaries are threat tiers and Atlas region titles. Health Bar Plus can show targeted/combat health bars, but there is not yet a live danger-tier overlay. Traveler's Titles can show biome and dimension titles, but Atlas coordinate-region titles remain policy-only until a runtime title hook exists.
 
 ## Review Notes
 
@@ -641,21 +632,21 @@ Status: policy scaffold only. No new overlay, mob tuning, or danger display mod 
 
 ## Current Stack
 
-- MobHealthBar: active source config at `config/mobhealthbar-client.toml`.
+- Health Bar Plus: active source config at `config/healthbarplus-client.toml`.
 - Enhanced Boss Bars: boss presentation layer.
 - Ascendant nameplates: player/NPC rank, level, and role language.
 - In Control and mob registry docs remain the danger-tier data sources; this pass only defines the UI presentation boundary.
 
 ## Display Rules
 
-- Common mobs should not permanently fill the screen; health/name display on hover, damage, visibility, or aggro is enough.
+- Common mobs should not permanently fill the screen; health bars on crosshair targeting or recent combat are enough.
 - Dangerous mobs can later receive a concise threat-tier label, but this is not live yet.
 - Bosses should use boss bars and reward-tier language rather than normal mob labels.
 - Player rank, NPC rank, item rarity, and mob danger should remain visually related but semantically separate.
 
 ## Validation Snapshot
 
-- MobHealthBar required setting gaps: {len(audit['mobhealthbar_missing_settings'])}
+- Health Bar Plus required setting gaps: {len(audit['health_bar_plus_missing_settings'])}
 - Boss blacklist gaps: {len(audit['boss_blacklist_missing'])}
 - Threat-tier overlay live: no
 """
