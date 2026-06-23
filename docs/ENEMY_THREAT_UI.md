@@ -12,7 +12,7 @@ Make enemies readable without turning the screen into noise. Normal mobs should 
 
 | Candidate | Source | 1.20.1 Forge status | Side | Batch K decision |
 |---|---|---|---|---|
-| YDM's MobHealthBar | Modrinth/CurseForge | Installed: `mobhealthbar-forge-1.20.x-2.3.0.jar` | Client | Installed |
+| Health Bar Plus | CurseForge | Installed: `healthbarplus-forge-1.20.1-1.1.0.jar` | Client | Installed |
 | Scaling Health | Modrinth/CurseForge | Installed: `ScalingHealth-1.20.1-8.0.2+9.jar` | Both | Installed, conservative config required |
 | Silent Lib | CurseForge/Modrinth | Installed: `silent-lib-1.20.1-8.0.0.jar` | Both | Required by Scaling Health |
 | Health Indicators | Modrinth | Current visible 1.20.1 platforms are Fabric/NeoForge/Quilt, not Forge | Client | Reject/delay |
@@ -20,13 +20,13 @@ Make enemies readable without turning the screen into noise. Normal mobs should 
 
 Sources:
 
-- YDM's MobHealthBar: https://modrinth.com/project/wtk2r10e
+- Health Bar Plus: https://www.curseforge.com/minecraft/mc-mods/health-bar-plus/files/4621200
 - Scaling Health: https://modrinth.com/mod/scaling-health/version/OTsI95Em
 - Silent Lib: https://www.curseforge.com/minecraft/mc-mods/silent-lib
 - Health Indicators: https://modrinth.com/mod/health-indicators/versions
 - Champions: https://modrinth.com/project/z8QdexpL
 
-## YDM's MobHealthBar Config Direction
+## Health Bar Plus Direction
 
 Use health bars as combat feedback, not a permanent overlay:
 
@@ -36,15 +36,7 @@ Use health bars as combat feedback, not a permanent overlay:
 - Allow stronger mobs and miniboss-like threats to show longer if the config supports entity/category rules.
 - Keep Enhanced Boss Bars as the boss presentation layer.
 
-The generated YDM's MobHealthBar config was inspected after first boot. `config/mobhealthbar-client.toml` now locks the intended behavior:
-
-- `hovered_only = true`
-- `damaged_only = true`
-- `on_aggro = true`
-- `render-distance = 64`
-- `blacklist = "minecraft:ender_dragon,minecraft:wither"`
-
-The mod's render gate treats these as an OR condition: show when hovered, damaged, or aggressive. With any of those gates enabled, the proximity-only fallback is skipped, so nearby mobs should not show bars just because the player is close. Ender Dragon and Wither stay blacklisted so Enhanced Boss Bars owns true boss presentation.
+Use the in-game Health Bar Plus editor to keep entity bars readable and low-noise. Its Forge 1.20.1 file includes separate passive, neutral, and hostile mob controls, plus an attacked-only option for short post-hit visibility.
 
 ## Scaling Health Config Direction
 
@@ -64,7 +56,7 @@ Scaling Health config should be generated and reviewed after first client/server
 
 Current installed pieces:
 
-- YDM's MobHealthBar handles health bars.
+- Health Bar Plus handles health bars.
 - Scaling Health handles difficulty/health scaling.
 - Enhanced Boss Bars owns true boss presentation.
 
@@ -74,7 +66,7 @@ Still missing:
 
 Safe next options:
 
-- Find and test a Forge 1.20.1 enemy-level display mod that can coexist with YDM's MobHealthBar and Enhanced Boss Bars.
+- Find and test a Forge 1.20.1 enemy-level display mod that can coexist with Health Bar Plus and Enhanced Boss Bars.
 - Build a small custom client overlay if we need exact Scaling Health difficulty/level data shown above mobs.
 - Do not replace the health bar stack just to chase enemy levels unless the replacement is verified in the current pack.
 
@@ -94,7 +86,7 @@ Server:
 
 - Confirm no mod mismatch.
 - Confirm Scaling Health and Silent Lib are present server-side.
-- Confirm YDM's MobHealthBar is not required on the dedicated server unless testing proves otherwise.
+- Confirm Health Bar Plus is not required on the dedicated server unless testing proves otherwise.
 - Fight vanilla mobs and several modded mobs.
 - Confirm scaling/blights are conservative.
 - Disconnect/rejoin.

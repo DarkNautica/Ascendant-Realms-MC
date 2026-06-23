@@ -144,7 +144,7 @@ Server export should include only non-client metadata. For the current Batch A/B
 
 Client-only visual, shader, resource-pack, UI, and renderer mods should not be uploaded to the server.
 
-`scripts/export-server-pack.ps1` now also removes known client-only config files from `dist\server-pack-staging` after copying shared config. If a file such as FancyMenu, Embeddium, EntityCulling, Sound Physics Remastered, Resource Pack Overrides, Sodium Dynamic Lights, YDM's MobHealthBar, or Overflowing Bars is absent from server staging, that is intentional cleanup, not a missing gameplay system.
+`scripts/export-server-pack.ps1` now also removes known client-only config files from `dist\server-pack-staging` after copying shared config. If a file such as FancyMenu, Embeddium, EntityCulling, Sound Physics Remastered, Resource Pack Overrides, Sodium Dynamic Lights, Health Bar Plus, or Overflowing Bars is absent from server staging, that is intentional cleanup, not a missing gameplay system.
 
 Enhanced Boss Bars is client-only unless a later multiplayer handshake test proves otherwise.
 
@@ -154,7 +154,7 @@ Auroras, Beautiful Enchanted Books, Perception, and OctoLib/ShatterLib are clien
 
 Wavey Capes, Xaero's Minimap, Advancement Plaques, and all Batch J resource packs are client-only and should not be copied to the server unless multiplayer testing proves a handshake requirement.
 
-YDM's MobHealthBar, Sound Physics Remastered, Not Enough Animations, AmbientSounds, CreativeCore, Presence Footsteps, Biome Music, Medieval Music, Sodium Dynamic Lights, Sodium Options API, FancyMenu, Konkrete, Melody, WATERMeDIA, WATERMeDIA Binaries, and Immersive UI are client-only and should not be copied to the server unless a future handshake test proves otherwise.
+Health Bar Plus, Sound Physics Remastered, Not Enough Animations, AmbientSounds, CreativeCore, Presence Footsteps, Biome Music, Medieval Music, Sodium Dynamic Lights, Sodium Options API, FancyMenu, Konkrete, Melody, WATERMeDIA, WATERMeDIA Binaries, and Immersive UI are client-only and should not be copied to the server unless a future handshake test proves otherwise.
 
 Subtle Effects, Fzzy Config, Kotlin for Forge, and Particular Reforged are intentionally server-side for this pack because multiplayer validation required them.
 
@@ -469,7 +469,7 @@ Installed Batch K server/both-side mods:
 
 Client-only Batch K mods:
 
-- YDM's MobHealthBar
+- Health Bar Plus
 - Sound Physics Remastered
 
 Optional/delayed:
@@ -486,7 +486,7 @@ Passed Batch K server test:
 - Join localhost.
 - Confirm no mod mismatch.
 - Confirm Titles, Scaling Health, Silent Lib, Weather, Storms & Tornadoes, and CoroUtil are server-side.
-- Confirm YDM's MobHealthBar is not required server-side unless testing proves otherwise.
+- Confirm Health Bar Plus is not required server-side unless testing proves otherwise.
 - Confirm titles and scoreboard/rank data persist after reconnect.
 - Fight vanilla and modded mobs.
 - Watch logs/TPS during a weather pass if practical.

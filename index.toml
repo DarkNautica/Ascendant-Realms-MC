@@ -2458,7 +2458,7 @@ hash = "692960bb489b1d0a2fd957a15f6dc95d1e42eb019ec6aa7e5fb71f4c72732489"
 
 [[files]]
 file = "docs/BATCH_INSTALL_PLAN.md"
-hash = "6a04a7d2112cd9ef5ab771bbe59f5549ce220655b626f9660e0957945357930d"
+hash = "4ca7d68f00c7fc12377c85c40001e3c32016066c8ed2d8d32b185415299a297c"
 
 [[files]]
 file = "docs/BIOME_TITLE_AND_AUDIO_POLICY.md"
@@ -2498,7 +2498,7 @@ hash = "248d315f01dca024d302d244f60cdef7a3dd05e5b5a841e028885c4f1a2543ae"
 
 [[files]]
 file = "docs/CURRENT_STATUS.md"
-hash = "f227f1b864deae5344e1a9d4ae51179341bdf9fcd9400cdce192b1f5f5217a4c"
+hash = "5a539f94a27d35d4f82c0c355e33ac6ca5b559772a135ef1a4fc4c183afdd779"
 
 [[files]]
 file = "docs/CUSTOM_HERO_SYSTEM_AUTOMATION.md"
@@ -2550,7 +2550,7 @@ hash = "b929d099109a85d3670cb796d652249ec81286adbe6de860f32b9fc767cfe0e2"
 
 [[files]]
 file = "docs/ENEMY_THREAT_UI.md"
-hash = "442568609f22d4808a9f7714827f0b9ad85ee565cf093183bb110e62c8e789b8"
+hash = "bc31fcdf54208634dacd7c24c834e2478b233ec795f94fc91a57994b0778835f"
 
 [[files]]
 file = "docs/FIRST_PERSON_AND_ANIMATIONS.md"
@@ -2762,7 +2762,7 @@ hash = "b29c1db5cb324d80d401e5b5e2e57b9e23aa077f45092bdcdc3d541b212c7ae3"
 
 [[files]]
 file = "docs/SERVER_SETUP.md"
-hash = "b629840531ceed4556fe5f4b0ee3f213332c2ee2f3940b304f04efa1d4ba516a"
+hash = "513e391b2fd4ea1b8a7a751441ed0f9641d26b3805d37a86aae2468099251317"
 
 [[files]]
 file = "docs/SHIELD_INDEX.md"
@@ -4264,6 +4264,11 @@ hash = "db495b3ac268709a2ba673bfe220b10257fb7dae549f94bfbd539617d571f131"
 metafile = true
 
 [[files]]
+file = "mods/health-bar-plus.pw.toml"
+hash = "5951f6e4706e3438d418af54ec57e0e946d641437313476e8ef72fc977fad0e2"
+metafile = true
+
+[[files]]
 file = "mods/hicudan.pw.toml"
 hash = "93f34ef7fa7878cca6d3ba278abab390633777d79d48a09e3579bcb626406be7"
 metafile = true
@@ -4781,11 +4786,6 @@ metafile = true
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
 hash = "c33c9cd33d78658cecb82d94202702d7672c6f6f7c3b1867606fa2347333cf29"
-metafile = true
-
-[[files]]
-file = "mods/ydms-mobhealthbar.pw.toml"
-hash = "5d7f3c766e55b2d241c459c3b4daa3effa753070e2eaeb9ea6740b73deb64d86"
 metafile = true
 
 [[files]]
@@ -6456,7 +6456,7 @@ hash = "dc8495b38e6631d708104c9cf799e5cd79157cd00b579670114b88bbf366aec2"
 
 [[files]]
 file = "scripts/check-pack.py"
-hash = "774a1d7edce4588b817b946f296a11f7d2c0229c733b47e3fb40b5a83a42c91f"
+hash = "b45e796fd38cc0048dbf6017ab05915f56da4ec4810dcd9fc7cb9c1b296db1e2"
 
 [[files]]
 file = "scripts/customnpcs-identity-audit.py"
@@ -6608,7 +6608,7 @@ hash = "c05d4f667e09138220cc1fb41c9caeb8524fd628cd2196a7168455f0ab52b1f7"
 
 [[files]]
 file = "scripts/materialize-server-mods-from-client.ps1"
-hash = "6322f485e1e8392d1e7830ddcb56a0533b5523510c09a11c9aab06828e1ac2e7"
+hash = "4cc5832c254677c53cb73a0afde333695d330c4af64db481d05284c97712fafd"
 
 [[files]]
 file = "scripts/refresh-pack.ps1"

@@ -1,0 +1,13 @@
+name = "Health Bar Plus"
+filename = "healthbarplus-forge-1.20.1-1.1.0.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "8a4e583925e7c85741e4a321420946a2a3f7264e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4621200
+project-id = 636410

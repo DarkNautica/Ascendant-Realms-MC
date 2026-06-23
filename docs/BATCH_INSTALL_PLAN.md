@@ -967,7 +967,7 @@ Goal: add earned player identity, enemy threat readability, conservative enemy s
 Installed mods:
 
 - Titles: `Titles-1.20.1-3.8.3.jar`
-- YDM's MobHealthBar: `mobhealthbar-forge-1.20.x-2.3.0.jar`
+- Health Bar Plus: `healthbarplus-forge-1.20.1-1.1.0.jar`
 - Scaling Health: `ScalingHealth-1.20.1-8.0.2+9.jar`
 - Sound Physics Remastered: `sound-physics-remastered-forge-1.20.1-1.3.1.jar`
 - Weather, Storms & Tornadoes: `weather2-1.20.1-2.8.3.jar`
@@ -996,7 +996,7 @@ Weather recommendation:
 Side metadata plan:
 
 - Both-side/server-required for local multiplayer validation: Titles, Scaling Health, Silent Lib, Weather, Storms & Tornadoes, CoroUtil.
-- Client-only: YDM's MobHealthBar and Sound Physics Remastered.
+- Client-only: Health Bar Plus and Sound Physics Remastered.
 - Optional/server-only if ever used: IntegratedPlaytime.
 
 Client creative/system test:
@@ -1004,7 +1004,7 @@ Client creative/system test:
 - Confirm client boots with no missing dependency screen.
 - Confirm Titles renders earned titles or exposes title UI/commands.
 - Confirm scoreboard below-name level display or static team-prefix fallback works.
-- Confirm YDM's MobHealthBar renders and passive mobs are hidden or minimally noisy.
+- Confirm Health Bar Plus renders and passive mobs are hidden or minimally noisy.
 - Confirm normal hostiles do not show bars from proximity alone.
 - Confirm bars appear only when looking directly at a mob, after damaging it, or while it is actively aggressive.
 - Confirm Scaling Health does not crash on vanilla or modded mobs.
@@ -1023,7 +1023,7 @@ Dedicated server test:
 - Join localhost.
 - Confirm no mod mismatch.
 - Confirm Titles, Scaling Health, Silent Lib, Weather, Storms & Tornadoes, and CoroUtil are present server-side.
-- Confirm YDM's MobHealthBar is not required server-side unless testing proves otherwise.
+- Confirm Health Bar Plus is not required server-side unless testing proves otherwise.
 - Confirm titles and scoreboard/rank data persist after reconnect.
 - Fight vanilla and modded mobs.
 - Watch weather logs/TPS during a weather pass if practical.

@@ -220,6 +220,8 @@ $forbiddenRegexes = @(
     "advancement.*plaques",
     "mobhealthbar",
     "ydm.*mob.*health",
+    "healthbarplus",
+    "health.*bar.*plus",
     "soundphysics",
     "sound.*physics",
     "firstperson",
