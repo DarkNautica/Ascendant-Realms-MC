@@ -48,6 +48,28 @@ Test gate:
 - Dedicated server boot/join and 10-minute stability must pass.
 - Do not use this as real server progression until FTB Quests/Ranks, NPC placement, Codex content, and board structures are authored.
 
+## Server Utility And Safety
+
+Status: installed and staged; restart validation pending.
+
+This pass adds Jayden-requested maintenance tooling before heavier Chunky pregeneration and live multiplayer tuning.
+
+Installed mods:
+
+- Spark
+- FTB Backups 2
+- PolyLib
+
+Side metadata:
+
+- Both-side/server-required for local validation: Spark, FTB Backups 2, and PolyLib.
+
+Test gate:
+
+- Restart the dedicated server and confirm the three jars load.
+- Run a Spark command during Chunky pregeneration or a heavy fight before guessing at lag sources.
+- Confirm FTB Backups creates its backup folder/config on first server boot, then review retention before long pregeneration.
+
 ## Batch A: Core Performance / QoL / Client Visual Foundation
 
 Status: installed and validated.

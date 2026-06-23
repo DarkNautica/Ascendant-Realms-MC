@@ -2458,7 +2458,7 @@ hash = "692960bb489b1d0a2fd957a15f6dc95d1e42eb019ec6aa7e5fb71f4c72732489"
 
 [[files]]
 file = "docs/BATCH_INSTALL_PLAN.md"
-hash = "b80e49427bba291e175878530afce54faa7a76895cb96d9dc9bb58e9365c3a99"
+hash = "af7a7ef7d47a1eea70b634c162bf46097832092187e886315508fa65ff476588"
 
 [[files]]
 file = "docs/BIOME_TITLE_AND_AUDIO_POLICY.md"
@@ -4214,6 +4214,11 @@ hash = "c3362458a939382578978a7aaf7326268a28e7262451b6a732b5a1ec025de479"
 metafile = true
 
 [[files]]
+file = "mods/ftb-backups-2.pw.toml"
+hash = "b3693e7a5647d4e28fc30ad3e85193c668a98a410dc3f425f19561cfea68957f"
+metafile = true
+
+[[files]]
 file = "mods/ftb-library-forge.pw.toml"
 hash = "efa75ee4aae90dea11316b6e61aecaf9433eeb3d0821f78b4eca41acbbd73e8f"
 metafile = true
@@ -4529,6 +4534,11 @@ hash = "b52622122c19a3894e62fc5506d7c3332d202504fd406d6718be646f979feb40"
 metafile = true
 
 [[files]]
+file = "mods/polylib.pw.toml"
+hash = "947d5f3b9213360b68e9b65a8d2d5111939e82e248cf61eb02137f119c6eaeb6"
+metafile = true
+
+[[files]]
 file = "mods/polymorph.pw.toml"
 hash = "4ab869d8784f4ac318b5c92fa3d9e65f997352b8b57f34b409ca6f171637f0fe"
 metafile = true
@@ -4646,6 +4656,11 @@ metafile = true
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
 hash = "d01e72f20c7f75b9a5aa46c39514b5ec74c6c3c0902adfe3735dc069f7a6ca63"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "0be4976227df8e261fd362889bf8e85b93e224d1b1c3cd2a11b73a9de3b64083"
 metafile = true
 
 [[files]]
@@ -6436,7 +6451,7 @@ hash = "dc8495b38e6631d708104c9cf799e5cd79157cd00b579670114b88bbf366aec2"
 
 [[files]]
 file = "scripts/check-pack.py"
-hash = "ec875264063be4bc266f69172a8d28eb7072463c208c3caafd19fc209a5a72d1"
+hash = "85ef2ffccd06e176da2ebeb8bfc3ce56797955a119ddc02ea9a96640f1c62937"
 
 [[files]]
 file = "scripts/customnpcs-identity-audit.py"
