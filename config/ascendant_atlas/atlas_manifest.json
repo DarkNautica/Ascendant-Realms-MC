@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "status": "disabled_random_terralith_tectonic_baseline; finite-world coordinate runtime and debug Atlas assets may remain",
+  "datapack": "config/openloader/data/ascendant_realms_atlas",
+  "runtime_config": "config/ascendant_atlas/runtime.json",
+  "runtime_bridge": "kubejs/server_scripts/ascendant_atlas_runtime.js",
+  "incontrol_areas": "config/incontrol/areas.json",
+  "worldgen_region_manifest": "config/ascendant_atlas/worldgen_regions.json",
+  "helper_mod": "ascendant_atlas_regions",
+  "biome_source_type": "disabled",
+  "dimension_override": "disabled",
+  "worldgen_override_enabled": false,
+  "active_worldgen_mode": "random_terralith_tectonic_baseline",
+  "biomes_indexed": 756,
+  "structures_indexed": 617,
+  "live_structure_ids": [],
+  "debug_structure_ids": [
+    "ascendant_atlas:crownlands_waymark",
+    "ascendant_atlas:frostmarch_waymark",
+    "ascendant_atlas:sunreach_waymark",
+    "ascendant_atlas:verdant_crossing",
+    "ascendant_atlas:stoneback_waystation"
+  ],
+  "live_runtime_features": [
+    "60000 block world border centered at 0,0",
+    "coordinate region/ring/sector scoreboards",
+    "random Tectonic/Terralith Overworld generation restored; no coordinate-aware Overworld biome-source override",
+    "In Control coordinate areas for spawn guardrails",
+    "structure density tuning for existing non-Atlas structures only; no Hunter Boards, Guild structures, decorative Atlas structures, or village injection are part of this terrain pass"
+  ],
+  "future_custom_module": "The ascendant_atlas_regions helper module and terrain prototypes exist, but Jayden disabled their Overworld worldgen influence on 2026-06-18. Future road/bridge helper module work should tune against the random Tectonic/Terralith terrain baseline unless Jayden explicitly reopens Atlas terrain shaping."
+}

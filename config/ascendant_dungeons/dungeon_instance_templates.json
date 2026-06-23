@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "templates": [
+    {
+      "template_id": "d_rank_ruined_cellar",
+      "display": "Ruined Cellar Breach",
+      "allowed_ranks": [
+        "d_rank"
+      ],
+      "weight": 30,
+      "danger_tier": 2,
+      "loot_tier": "uncommon_to_rare",
+      "portal_profile": "thin_blue_breach",
+      "content_sources": [
+        "idas",
+        "yungs_better_dungeons",
+        "minecraft"
+      ],
+      "intended_theme": "first dungeon crawl, small underground ruin, light magic loot",
+      "live_destination": "not_yet_assigned"
+    },
+    {
+      "template_id": "d_rank_bandit_depths",
+      "display": "Bandit Depths",
+      "allowed_ranks": [
+        "d_rank"
+      ],
+      "weight": 24,
+      "danger_tier": 2,
+      "loot_tier": "uncommon_to_rare",
+      "portal_profile": "thin_blue_breach",
+      "content_sources": [
+        "idas",
+        "mvs",
+        "mss"
+      ],
+      "intended_theme": "human ruin, basic hostile pressure, no boss-tier drops",
+      "live_destination": "not_yet_assigned"
+    },
+    {
+      "template_id": "c_rank_catacomb_gate",
+      "display": "Catacomb Gate",
+      "allowed_ranks": [
+        "c_rank"
+      ],
+      "weight": 28,
+      "danger_tier": 3,
+      "loot_tier": "rare",
+      "portal_profile": "thin_blue_breach",
+      "content_sources": [
+        "yungs_better_dungeons",
+        "idas",
+        "irons_spellbooks"
+      ],
+      "intended_theme": "standard contract dungeon with stronger rooms and spell loot chances",
+      "live_destination": "not_yet_assigned"
+    },
+    {
+      "template_id": "c_rank_arcane_crypt",
+      "display": "Arcane Crypt",
+      "allowed_ranks": [
+        "c_rank",
+        "b_rank"
+      ],
+      "weight": 18,
+      "danger_tier": 3,
+      "loot_tier": "rare",
+      "portal_profile": "thin_blue_breach",
+      "content_sources": [
+        "irons_spellbooks",
+        "idas",
+        "artifacts"
+      ],
+      "intended_theme": "spellbook, scroll, relic, and mage-enemy focused dungeon",
+      "live_destination": "not_yet_assigned"
+    },
+    {
+      "template_id": "b_rank_dragonbone_breach",
+      "display": "Dragonbone Breach",
+      "allowed_ranks": [
+        "b_rank"
+      ],
+      "weight": 14,
+      "danger_tier": 4,
+      "loot_tier": "rare_to_epic",
+      "portal_profile": "fractured_gold_breach",
+      "content_sources": [
+        "iceandfire",
+        "idas",
+        "marium"
+      ],
+      "intended_theme": "dangerous major dungeon with strong monster pressure and controlled epic chances",
+      "live_destination": "not_yet_assigned"
+    },
+    {
+      "template_id": "a_rank_abyssal_citadel_gate",
+      "display": "Abyssal Citadel Gate",
+      "allowed_ranks": [
+        "a_rank"
+      ],
+      "weight": 6,
+      "danger_tier": 5,
+      "loot_tier": "epic_to_legendary",
+      "portal_profile": "fractured_gold_breach",
+      "content_sources": [
+        "cataclysm",
+        "marium",
+        "irons_spellbooks"
+      ],
+      "intended_theme": "elite breach, boss-adjacent enemies, high material value",
+      "live_destination": "not_yet_assigned"
+    },
+    {
+      "template_id": "s_rank_ascendant_rift",
+      "display": "Ascendant Rift",
+      "allowed_ranks": [
+        "s_rank"
+      ],
+      "weight": 1,
+      "danger_tier": 6,
+      "loot_tier": "legendary_to_mythic",
+      "portal_profile": "ascendant_black_breach",
+      "content_sources": [
+        "cataclysm",
+        "iceandfire",
+        "marium",
+        "irons_spellbooks"
+      ],
+      "intended_theme": "capstone dungeon gate requiring manual review before live spawning",
+      "live_destination": "not_yet_assigned"
+    }
+  ]
+}

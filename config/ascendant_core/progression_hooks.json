@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "source_registries": {
+    "skills": "config/puffish_skills/categories/ascendant",
+    "progression_hud": "config/ascendant_progression/progression.json",
+    "skill_hook_registry": "config/ascendant_index/skill_hook_registry.json"
+  },
+  "runtime_state": "live",
+  "policy": "Puffish Skills owns the Ascendant Web. KubeJS mirrors level/XP/SP to HUD and scoreboards. Cross-mod milestones should use quests, advancements, bounties, or a future helper mod rather than fragile ad hoc commands.",
+  "hooks": [
+    {
+      "id": "ascendant_level",
+      "branch": "global",
+      "runtime_owner": "kubejs/server_scripts/ascendant_progression.js",
+      "scoreboards": ["ar_skill_level", "ar_skill_xp", "ar_skill_xp_req", "ar_skill_sp"],
+      "state": "live"
+    },
+    {
+      "id": "guild_rank_trials",
+      "branch": "global",
+      "runtime_owner": "FTB Quests or future Ascendant Core commands",
+      "scoreboards": ["ar_guild_rep", "ar_guild_rank", "ar_bounties_done"],
+      "state": "contract_active"
+    },
+    {
+      "id": "warrior_boss_proof",
+      "branch": "warrior",
+      "mods": ["bettercombat", "simplyswords", "spartanshields", "cataclysm"],
+      "scoreboards": ["ar_bosses_done"],
+      "state": "contract_active"
+    },
+    {
+      "id": "rogue_rival_contracts",
+      "branch": "rogue",
+      "mods": ["combatroll", "bountiful", "customnpcs"],
+      "scoreboards": ["ar_bounties_done"],
+      "state": "contract_active"
+    },
+    {
+      "id": "ranger_monster_lore",
+      "branch": "ranger",
+      "mods": ["alexsmobs", "mowziesmobs", "born_in_chaos_v1", "aquamirae"],
+      "scoreboards": ["ar_bounties_done", "ar_threat_tier"],
+      "state": "contract_active"
+    },
+    {
+      "id": "arcanist_spell_discovery",
+      "branch": "arcanist",
+      "mods": ["irons_spellbooks", "irons_lib", "patchouli"],
+      "scoreboards": ["ar_structures_done"],
+      "state": "contract_active"
+    },
+    {
+      "id": "engineer_workshop_mastery",
+      "branch": "engineer",
+      "mods": ["create", "sliceanddice", "farmersdelight", "createbigcannons"],
+      "scoreboards": ["ar_structures_done"],
+      "state": "contract_active"
+    },
+    {
+      "id": "survivalist_frontier_life",
+      "branch": "survivalist",
+      "mods": ["sereneseasons", "weather2", "farmersdelight", "sophisticatedbackpacks"],
+      "scoreboards": ["ar_region_tier"],
+      "state": "contract_active"
+    },
+    {
+      "id": "dragonbound_realm_threats",
+      "branch": "dragonbound",
+      "mods": ["iceandfire", "cataclysm", "soulsweapons"],
+      "scoreboards": ["ar_dragons_done", "ar_bosses_done"],
+      "state": "contract_active"
+    }
+  ],
+  "skill_point_pacing": {
+    "display_cap": 120,
+    "starting_points": 2,
+    "managed_bonus_levels": [10, 20, 35, 50, 70, 90, 110],
+    "growth_goal": "slow but meaningful; players should feel stronger without making elite/boss/dragon-tier content safe"
+  }
+}

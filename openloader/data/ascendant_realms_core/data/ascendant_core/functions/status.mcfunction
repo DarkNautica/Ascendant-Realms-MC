@@ -1,0 +1,7 @@
+tellraw @s [{"text":"Ascendant Core Status","color":"aqua","bold":true}]
+tellraw @s [{"text":"Rank Order: ","color":"gold"},{"score":{"name":"@s","objective":"ar_guild_rank"}},{"text":"  Rep: ","color":"gold"},{"score":{"name":"@s","objective":"ar_guild_rep"}}]
+tellraw @s [{"text":"Hunt Kills: ","color":"green"},{"score":{"name":"@s","objective":"ar_hunt_kills"}},{"text":"  Elite Kills: ","color":"dark_purple"},{"score":{"name":"@s","objective":"ar_elite_kills"}}]
+tellraw @s [{"text":"Bounties: ","color":"yellow"},{"score":{"name":"@s","objective":"ar_bounties_done"}},{"text":"  Structures: ","color":"aqua"},{"score":{"name":"@s","objective":"ar_structures_done"}}]
+tellraw @s [{"text":"Bosses: ","color":"red"},{"score":{"name":"@s","objective":"ar_bosses_done"}},{"text":"  Dragons: ","color":"dark_purple"},{"score":{"name":"@s","objective":"ar_dragons_done"}}]
+tellraw @s [{"text":"Region Tier: ","color":"dark_aqua"},{"score":{"name":"@s","objective":"ar_region_tier"}},{"text":"  Last Threat Tier: ","color":"dark_red"},{"score":{"name":"@s","objective":"ar_threat_tier"}}]
+tellraw @s [{"text":"Tip: kills now add small Guild rep/proof counters; bosses and dragons add larger proofs.","color":"gray","italic":true}]

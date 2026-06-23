@@ -1,0 +1,13 @@
+name = "Projectile Damage Attribute"
+filename = "projectile_damage-forge-3.2.2+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/AOyJhFvl/versions/KgTLAkfq/projectile_damage-forge-3.2.2%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "a6576a0b971f38f95ac1ff587d12d7f26fcbc1f64bf216f5bae873eb069c97e7b350ad76605aa6a9df5a6ad6821edc9a17672a5f93767e624669f25be4cc9536"
+
+[update]
+[update.modrinth]
+mod-id = "AOyJhFvl"
+version = "KgTLAkfq"

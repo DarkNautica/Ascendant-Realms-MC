@@ -1,0 +1,2214 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-18T01:57:55+00:00",
+  "status": "audit_control_scaffold_only_no_live_structure_rewrites",
+  "sources": [
+    "config/ascendant_index/structure_registry.json",
+    "docs/generated/worldgen_content_audit.json",
+    "config/ascendant_loot/structure_loot_tiers.json",
+    "mod/datapack biome tags and structure JSONs",
+    "config/ascendant_structures/manual_structure_observations.json"
+  ],
+  "constraints": [
+    "Do not add new structure mods.",
+    "Do not add Hunter Boards or Guild Halls.",
+    "Do not inject anything into village pools.",
+    "Do not rewrite live structure sets unless a later approved change is a safe spacing/density reduction."
+  ],
+  "summary": {
+    "generated_at": "2026-06-18T01:57:55+00:00",
+    "structure_count": 579,
+    "structure_set_count": 330,
+    "structure_class_counts": {
+      "boss_arena": 22,
+      "dangerous_dungeon": 111,
+      "dragon_tier_zone": 16,
+      "end_landmark": 30,
+      "landmark_or_ruin": 121,
+      "nether_landmark": 16,
+      "settlement": 109,
+      "uncategorized_structure": 154
+    },
+    "classification_confidence_counts": {
+      "medium": 33,
+      "strong": 543,
+      "weak": 3
+    },
+    "manual_review_required_count": 13,
+    "name_only_classification_count": 0,
+    "source_mod_counts": {
+      "Aquamirae": 5,
+      "Born in Chaos": 31,
+      "Bosses'Rise": 5,
+      "Create: Structures Arise": 28,
+      "Human Companions": 8,
+      "Ice And Fire Community Edition": 13,
+      "Integrated Dungeons and Structures": 83,
+      "Integrated Villages": 12,
+      "Iron's Spells 'n Spellbooks": 9,
+      "Marium's Soulslike Weaponry": 4,
+      "Medieval Buildings [The End Edition]": 5,
+      "Medieval Buildings [The Nether Edition]": 5,
+      "Minecraft": 23,
+      "Mowzie's Mobs": 4,
+      "Structory": 15,
+      "Supplementaries": 1,
+      "Terralith": 28,
+      "Towns and Towers": 60,
+      "Villages & Pillages": 1,
+      "YUNG's Better Dungeons": 5,
+      "YUNG's Better Mineshafts": 14,
+      "YUNG's Better Strongholds": 1,
+      "active-instance-openloader:ascendant_realms_atlas": 5,
+      "active-instance-openloader:ascendant_realms_guild": 3,
+      "cataclysm": 14,
+      "moogs_structures": 189,
+      "supplementaries-1.20-3.1.43-forge": 8
+    },
+    "density_class_counts": {
+      "common": 130,
+      "rare": 156,
+      "uncommon": 163,
+      "unique": 19,
+      "unknown": 21,
+      "very_rare": 90
+    },
+    "recommended_action_counts": {
+      "defer_until_guild_phase": 3,
+      "needs_test": 177,
+      "should_keep": 328,
+      "should_keep_debug_only": 5,
+      "should_reduce": 45,
+      "should_region_lock": 21
+    },
+    "manual_review_priority_counts": {
+      "high": 173,
+      "low": 258,
+      "medium": 148
+    },
+    "policy_filter_counts": {
+      "registry_rows_skipped_as_tags": 79,
+      "audit_rows_skipped_as_tags": 70
+    }
+  },
+  "sky_structure_policy": [
+    {
+      "structure_id": "cataclysm:acropolis",
+      "source_mod": "cataclysm",
+      "sky_role": "rare_high_sky",
+      "vertical_layers": [
+        "sky_high"
+      ],
+      "required_terrain": "airspace_above_safe_surface",
+      "atlas_allowed_regions": [
+        "boss_theme_region",
+        "coastal_only",
+        "frostmarch_if_frozen",
+        "outer",
+        "verdant_coast"
+      ],
+      "density_class": "very_rare",
+      "minimum_spacing": 80,
+      "risk_flags": [],
+      "recommended_action": "should_keep",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "classification_confidence": "strong",
+      "classification_reason": "Registry class `boss_arena` is used as medium evidence. Sky role comes from structure height evidence: {'absolute': 200}.",
+      "manual_review_required": false,
+      "name_only_classification": false
+    },
+    {
+      "structure_id": "create_structures_arise:createairdrop",
+      "source_mod": "Create: Structures Arise",
+      "sky_role": "rare_low_sky",
+      "vertical_layers": [
+        "sky_low"
+      ],
+      "required_terrain": "airspace_above_safe_surface",
+      "atlas_allowed_regions": [
+        "frostmarch",
+        "north_east_marches",
+        "north_west_marches",
+        "south_west_wilds",
+        "stoneback_highlands",
+        "sunreach"
+      ],
+      "density_class": "very_rare",
+      "minimum_spacing": 90,
+      "risk_flags": [],
+      "recommended_action": "should_keep",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "classification_confidence": "strong",
+      "classification_reason": "Registry class `uncategorized_structure` is used as medium evidence. Sky role comes from structure height evidence: {'type': 'minecraft:uniform', 'min_inclusive': {'absolute': 100}, 'max_inclusive': {'absolute': 200}}.",
+      "manual_review_required": false,
+      "name_only_classification": false
+    },
+    {
+      "structure_id": "create_structures_arise:createminiskyvillage",
+      "source_mod": "Create: Structures Arise",
+      "sky_role": "rare_high_sky",
+      "vertical_layers": [
+        "sky_high"
+      ],
+      "required_terrain": "airspace_above_safe_surface",
+      "atlas_allowed_regions": [
+        "crownlands",
+        "frostmarch",
+        "frostmarch_if_snowy",
+        "hearthlands",
+        "north_east_marches",
+        "region_compatible_settlement",
+        "south_east_wilds",
+        "south_west_wilds",
+        "stoneback_if_taiga",
+        "sunreach",
+        "sunreach_if_savanna",
+        "verdant_coast"
+      ],
+      "density_class": "very_rare",
+      "minimum_spacing": 120,
+      "risk_flags": [],
+      "recommended_action": "should_keep",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "classification_confidence": "strong",
+      "classification_reason": "Registry class `settlement` is used as medium evidence. Sky role comes from structure height evidence: {'type': 'minecraft:uniform', 'min_inclusive': {'absolute': 200}, 'max_inclusive': {'absolute': 201}}.",
+      "manual_review_required": false,
+      "name_only_classification": false
+    },
+    {
+      "structure_id": "create_structures_arise:pillagersteampunkairship",
+      "source_mod": "Create: Structures Arise",
+      "sky_role": "rare_high_sky",
+      "vertical_layers": [
+        "sky_high"
+      ],
+      "required_terrain": "airspace_above_safe_surface",
+      "atlas_allowed_regions": [
+        "frostmarch",
+        "north_east_marches",
+        "north_west_marches",
+        "south_west_wilds",
+        "stoneback_highlands",
+        "sunreach"
+      ],
+      "density_class": "unique",
+      "minimum_spacing": 150,
+      "risk_flags": [],
+      "recommended_action": "should_keep",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "classification_confidence": "strong",
+      "classification_reason": "Registry class `landmark_or_ruin` is used as medium evidence. Sky role comes from structure height evidence: {'type': 'minecraft:uniform', 'min_inclusive': {'absolute': 160}, 'max_inclusive': {'absolute': 190}}.",
+      "manual_review_required": false,
+      "name_only_classification": false
+    },
+    {
+      "structure_id": "integrated_villages:airship_village",
+      "source_mod": "Integrated Villages",
+      "sky_role": "rare_low_sky",
+      "vertical_layers": [
+        "sky_low"
+      ],
+      "required_terrain": "airspace_above_safe_surface",
+      "atlas_allowed_regions": [
+        "crownlands",
+        "frostmarch",
+        "hearthlands",
+        "north_east_marches",
+        "north_west_marches",
+        "region_compatible_settlement",
+        "south_west_wilds",
+        "stoneback_highlands",
+        "sunreach"
+      ],
+      "density_class": "very_rare",
+      "minimum_spacing": 115,
+      "risk_flags": [],
+      "recommended_action": "needs_test",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "classification_confidence": "strong",
+      "classification_reason": "Registry class `settlement` is used as medium evidence. Sky role comes from structure height evidence: {'absolute': 100}.",
+      "manual_review_required": false,
+      "name_only_classification": false
+    },
+    {
+      "structure_id": "medievalend:ship",
+      "source_mod": "Medieval Buildings [The End Edition]",
+      "sky_role": "rare_low_sky",
+      "vertical_layers": [
+        "sky_low"
+      ],
+      "required_terrain": "airspace_above_safe_surface",
+      "atlas_allowed_regions": [
+        "atlas_region_matching_biome_tag"
+      ],
+      "density_class": "unknown",
+      "minimum_spacing": null,
+      "risk_flags": [],
+      "recommended_action": "needs_test",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "classification_confidence": "strong",
+      "classification_reason": "Registry class `landmark_or_ruin` is used as medium evidence. Sky role comes from structure height evidence: {'absolute': 120}.",
+      "manual_review_required": false,
+      "name_only_classification": false
+    },
+    {
+      "structure_id": "mss:arena",
+      "source_mod": "moogs_structures",
+      "sky_role": "rare_low_sky",
+      "vertical_layers": [
+        "sky_low"
+      ],
+      "required_terrain": "airspace_above_safe_surface",
+      "atlas_allowed_regions": [
+        "boss_theme_region",
+        "frostmarch",
+        "north_east_marches",
+        "north_west_marches",
+        "outer",
+        "south_west_wilds",
+        "stoneback_highlands",
+        "sunreach"
+      ],
+      "density_class": "unique",
+      "minimum_spacing": 158,
+      "risk_flags": [],
+      "recommended_action": "should_keep",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "classification_confidence": "strong",
+      "classification_reason": "Registry class `boss_arena` is used as medium evidence. Sky role comes from structure height evidence: {'type': 'minecraft:uniform', 'max_inclusive': {'absolute': 170}, 'min_inclusive': {'absolute': 120}}.",
+      "manual_review_required": false,
+      "name_only_classification": false
+    },
+    {
+      "structure_id": "mss:diorite_house",
+      "source_mod": "moogs_structures",
+      "sky_role": "rare_low_sky",
+      "vertical_layers": [
+        "sky_low"
+      ],
+      "required_terrain": "airspace_above_safe_surface",
+      "atlas_allowed_regions": [
+        "frostmarch",
+        "north_east_marches",
+        "north_west_marches",
+        "south_west_wilds",
+        "stoneback_highlands",
+        "sunreach"
+      ],
+      "density_class": "very_rare",
+      "minimum_spacing": 126,
+      "risk_flags": [],
+      "recommended_action": "should_keep",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "classification_confidence": "strong",
+      "classification_reason": "Registry class `landmark_or_ruin` is used as medium evidence. Sky role comes from structure height evidence: {'type': 'minecraft:uniform', 'max_inclusive': {'absolute': 200}, 'min_inclusive': {'absolute': 100}}.",
+      "manual_review_required": false,
+      "name_only_classification": false
+    },
+    {
+      "structure_id": "mss:large_tower",
+      "source_mod": "moogs_structures",
+      "sky_role": "rare_low_sky",
+      "vertical_layers": [
+        "sky_low"
+      ],
+      "required_terrain": "airspace_above_safe_surface",
+      "atlas_allowed_regions": [
+        "frostmarch",
+        "north_east_marches",
+        "north_west_marches",
+        "south_west_wilds",
+        "stoneback_highlands",
+        "sunreach"
+      ],
+      "density_class": "very_rare",
+      "minimum_spacing": 120,
+      "risk_flags": [],
+      "recommended_action": "should_keep",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "classification_confidence": "strong",
+      "classification_reason": "Registry class `dangerous_dungeon` is used as medium evidence. Sky role comes from structure height evidence: {'type': 'minecraft:uniform', 'max_inclusive': {'absolute': 200}, 'min_inclusive': {'absolute': 100}}.",
+      "manual_review_required": false,
+      "name_only_classification": false
+    },
+    {
+      "structure_id": "mss:white_house",
+      "source_mod": "moogs_structures",
+      "sky_role": "rare_low_sky",
+      "vertical_layers": [
+        "sky_low"
+      ],
+      "required_terrain": "airspace_above_safe_surface",
+      "atlas_allowed_regions": [
+        "frostmarch",
+        "north_east_marches",
+        "north_west_marches",
+        "south_west_wilds",
+        "stoneback_highlands",
+        "sunreach"
+      ],
+      "density_class": "very_rare",
+      "minimum_spacing": 125,
+      "risk_flags": [],
+      "recommended_action": "should_keep",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "classification_confidence": "strong",
+      "classification_reason": "Registry class `landmark_or_ruin` is used as medium evidence. Sky role comes from structure height evidence: {'type': 'minecraft:uniform', 'max_inclusive': {'absolute': 200}, 'min_inclusive': {'absolute': 100}}.",
+      "manual_review_required": false,
+      "name_only_classification": false
+    },
+    {
+      "structure_id": "terralith:mage_tower_autumn",
+      "source_mod": "Terralith",
+      "sky_role": "rare_high_sky",
+      "vertical_layers": [
+        "sky_high"
+      ],
+      "required_terrain": "airspace_above_safe_surface",
+      "atlas_allowed_regions": [
+        "coastal_only",
+        "frostmarch_if_frozen",
+        "verdant_coast"
+      ],
+      "density_class": "uncommon",
+      "minimum_spacing": 28,
+      "risk_flags": [],
+      "recommended_action": "should_keep",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "classification_confidence": "strong",
+      "classification_reason": "Registry class `dangerous_dungeon` is used as medium evidence. Sky role comes from structure height evidence: {'absolute': 243}.",
+      "manual_review_required": false,
+      "name_only_classification": false
+    },
+    {
+      "structure_id": "terralith:mage_tower_spring",
+      "source_mod": "Terralith",
+      "sky_role": "rare_high_sky",
+      "vertical_layers": [
+        "sky_high"
+      ],
+      "required_terrain": "airspace_above_safe_surface",
+      "atlas_allowed_regions": [
+        "coastal_only",
+        "frostmarch_if_frozen",
+        "verdant_coast"
+      ],
+      "density_class": "uncommon",
+      "minimum_spacing": 28,
+      "risk_flags": [],
+      "recommended_action": "should_keep",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "classification_confidence": "strong",
+      "classification_reason": "Registry class `dangerous_dungeon` is used as medium evidence. Sky role comes from structure height evidence: {'absolute': 224}.",
+      "manual_review_required": false,
+      "name_only_classification": false
+    },
+    {
+      "structure_id": "terralith:mage_tower_summer",
+      "source_mod": "Terralith",
+      "sky_role": "rare_high_sky",
+      "vertical_layers": [
+        "sky_high"
+      ],
+      "required_terrain": "airspace_above_safe_surface",
+      "atlas_allowed_regions": [
+        "coastal_only",
+        "frostmarch_if_frozen",
+        "south_west_wilds",
+        "sunreach",
+        "verdant_coast"
+      ],
+      "density_class": "uncommon",
+      "minimum_spacing": 28,
+      "risk_flags": [],
+      "recommended_action": "should_keep",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "classification_confidence": "strong",
+      "classification_reason": "Registry class `dangerous_dungeon` is used as medium evidence. Sky role comes from structure height evidence: {'absolute': 194}.",
+      "manual_review_required": false,
+      "name_only_classification": false
+    },
+    {
+      "structure_id": "terralith:mage_tower_winter",
+      "source_mod": "Terralith",
+      "sky_role": "rare_high_sky",
+      "vertical_layers": [
+        "sky_high"
+      ],
+      "required_terrain": "airspace_above_safe_surface",
+      "atlas_allowed_regions": [
+        "coastal_only",
+        "frostmarch_if_frozen",
+        "verdant_coast"
+      ],
+      "density_class": "uncommon",
+      "minimum_spacing": 28,
+      "risk_flags": [],
+      "recommended_action": "should_keep",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "classification_confidence": "strong",
+      "classification_reason": "Registry class `dangerous_dungeon` is used as medium evidence. Sky role comes from structure height evidence: {'absolute': 264}.",
+      "manual_review_required": false,
+      "name_only_classification": false
+    }
+  ],
+  "validation": {
+    "no_tier_assignment": [],
+    "boss_or_dungeon_in_beginner_regions": [
+      "betterdungeons:skeleton_dungeon",
+      "betterdungeons:small_dungeon",
+      "betterdungeons:spider_dungeon",
+      "betterdungeons:zombie_dungeon",
+      "bettermineshafts:mineshaft_acacia",
+      "bettermineshafts:mineshaft_overgrown",
+      "bettermineshafts:mineshaft_spruce",
+      "betterstrongholds:stronghold",
+      "create_structures_arise:create_ruined_castle",
+      "create_structures_arise:crimsite_tower",
+      "create_structures_arise:towerofochrum",
+      "idas:abandoned_vineyard",
+      "idas:ancient_portal/ancient_portal",
+      "idas:animal_den/forest_den",
+      "idas:nexus",
+      "idas:windswept_shrine",
+      "irons_spellbooks:pyromancer_tower",
+      "minecraft:mineshaft",
+      "mvs:mineshaft",
+      "mvs:red_tower",
+      "mvs:small_pillager_tower"
+    ],
+    "no_loot_tier": [
+      "aquamirae:shelter",
+      "aquamirae:surface/arch",
+      "aquamirae:surface/spiral",
+      "ascendant_atlas:crownlands_waymark",
+      "ascendant_atlas:frostmarch_waymark",
+      "ascendant_atlas:stoneback_waystation",
+      "ascendant_atlas:sunreach_waymark",
+      "ascendant_atlas:verdant_crossing",
+      "ascendant_guild:frontier_guild_outpost",
+      "ascendant_guild:hunter_board_village_standard",
+      "ascendant_guild:roadside_hunter_camp",
+      "born_in_chaos_v1:clown_caravan_plains",
+      "born_in_chaos_v1:clown_caravan_savanna",
+      "born_in_chaos_v1:clown_caravan_taiga",
+      "born_in_chaos_v1:farm",
+      "born_in_chaos_v1:infernal_pumpkin",
+      "born_in_chaos_v1:mound_of_hounds",
+      "create_structures_arise:chocolate_pit",
+      "create_structures_arise:create_copper_statue",
+      "create_structures_arise:createairdrop",
+      "create_structures_arise:createcontainer",
+      "create_structures_arise:createcushercrane",
+      "create_structures_arise:createfluidtank",
+      "create_structures_arise:createlittleman",
+      "create_structures_arise:createlosttrainstation",
+      "create_structures_arise:createmonsterroom",
+      "create_structures_arise:createpickaxestatue",
+      "create_structures_arise:honey_pit",
+      "create_structures_arise:minetrain",
+      "create_structures_arise:pillager_boat",
+      "create_structures_arise:windmill",
+      "irons_spellbooks:ancient_battleground",
+      "irons_spellbooks:citadel",
+      "irons_spellbooks:evoker_fort",
+      "irons_spellbooks:ice_spider_den",
+      "irons_spellbooks:impaled_icebreaker",
+      "mes:astral_hideaway",
+      "mes:astral_meteorite",
+      "mes:monolith",
+      "mes:mythic_garden",
+      "mes:phantom_citadel",
+      "mes:placid_prairie",
+      "mes:starlight_voyager",
+      "minecraft:ancient_city",
+      "minecraft:bastion_remnant",
+      "minecraft:buried_treasure",
+      "minecraft:desert_pyramid",
+      "minecraft:end_city",
+      "minecraft:fortress",
+      "minecraft:igloo",
+      "minecraft:jungle_pyramid",
+      "minecraft:mansion",
+      "minecraft:mineshaft",
+      "minecraft:mineshaft_mesa",
+      "minecraft:monument",
+      "minecraft:nether_fossil",
+      "minecraft:ocean_ruin_cold",
+      "minecraft:ocean_ruin_warm",
+      "minecraft:pillager_outpost",
+      "minecraft:ruined_portal",
+      "minecraft:ruined_portal_desert",
+      "minecraft:ruined_portal_jungle",
+      "minecraft:ruined_portal_mountain",
+      "minecraft:ruined_portal_nether",
+      "minecraft:ruined_portal_ocean",
+      "minecraft:ruined_portal_swamp",
+      "minecraft:shipwreck",
+      "minecraft:shipwreck_beached",
+      "minecraft:stronghold",
+      "minecraft:swamp_hut",
+      "minecraft:trail_ruins",
+      "minecraft:village_desert",
+      "minecraft:village_plains",
+      "minecraft:village_savanna",
+      "minecraft:village_snowy",
+      "minecraft:village_taiga",
+      "mowziesmobs:frostmaw_spawn",
+      "mowziesmobs:monastery",
+      "mowziesmobs:umvuthana_grove",
+      "mowziesmobs:wrought_chamber",
+      "mss:birch_river",
+      "mss:cherry_river",
+      "mss:desert_pyramid",
+      "mss:frozen_pond",
+      "mss:jungle",
+      "mss:leaf_hollow",
+      "mss:mangrove",
+      "mss:muddy_water_hole",
+      "mss:mushroom",
+      "mss:palm_island",
+      "mss:red_sand",
+      "mss:small_pond",
+      "mss:taiga",
+      "mss:tree_1",
+      "mss:tree_2",
+      "mss:tree_3",
+      "mss:tree_4",
+      "mss:tree_5",
+      "mss:tree_6",
+      "mss:tree_7",
+      "mss:tree_8",
+      "mss:volcano",
+      "mvs:acacia_log_pile",
+      "mvs:acacia_tree",
+      "mvs:barn",
+      "mvs:beach_bar",
+      "mvs:bee_dome",
+      "mvs:bench",
+      "mvs:big_oak_tree",
+      "mvs:birch_log_pile",
+      "mvs:birch_tree",
+      "mvs:blue_stall",
+      "mvs:boulder",
+      "mvs:cart",
+      "mvs:cathedral",
+      "mvs:cherry_tree",
+      "mvs:crimson_enchanting_table",
+      "mvs:crystal",
+      "mvs:dark_oak_log_pile",
+      "mvs:dark_oak_tree",
+      "mvs:dead_tree_acacia",
+      "mvs:dead_tree_birch",
+      "mvs:dead_tree_cherry",
+      "mvs:dead_tree_dark_oak",
+      "mvs:dead_tree_jungle",
+      "mvs:dead_tree_mangrove",
+      "mvs:dead_tree_oak",
+      "mvs:dead_tree_spruce",
+      "mvs:desert_pump",
+      "mvs:duck",
+      "mvs:floating_islands",
+      "mvs:flower_hole",
+      "mvs:gallows",
+      "mvs:haystack",
+      "mvs:horse_pen",
+      "mvs:jungle_log_pile",
+      "mvs:jungle_palm_tree",
+      "mvs:jungle_tree",
+      "mvs:lamp_chest",
+      "mvs:large_cart_1",
+      "mvs:large_cart_2",
+      "mvs:large_floating_island",
+      "mvs:large_mushroom",
+      "mvs:lecturn_garden",
+      "mvs:medium_bamboo_cart",
+      "mvs:medium_igloo_1",
+      "mvs:medium_igloo_2",
+      "mvs:medium_oak_lantern",
+      "mvs:mushroom_pond",
+      "mvs:mushroom_statue",
+      "mvs:oak_log_pile",
+      "mvs:oak_tree",
+      "mvs:orange_stall",
+      "mvs:paths",
+      "mvs:pile",
+      "mvs:pink_stall",
+      "mvs:railway",
+      "mvs:red_stall",
+      "mvs:shed",
+      "mvs:small_acacia_lantern",
+      "mvs:small_bamboo_lantern",
+      "mvs:small_birch_lantern",
+      "mvs:small_cherry_lantern",
+      "mvs:small_dark_oak_lantern",
+      "mvs:small_igloo",
+      "mvs:small_jungle_lantern",
+      "mvs:small_mangrove_lantern",
+      "mvs:small_oak_lantern",
+      "mvs:small_oak_pond",
+      "mvs:small_spruce_lantern",
+      "mvs:snowy_fossil",
+      "mvs:spruce_log_pile",
+      "mvs:spruce_tree",
+      "mvs:stone_fountain",
+      "mvs:stone_pillars",
+      "mvs:stone_rock",
+      "mvs:sunzi_gate",
+      "mvs:wheat_grain_bin",
+      "mvs:windmill",
+      "mvs:wooden_wheat_farm",
+      "structory:abandoned_chapel",
+      "structory:boat",
+      "structory:old_manor",
+      "supplementaries:way_sign",
+      "terralith:igloo",
+      "terralith:mage_complex",
+      "terralith:rubble_desert",
+      "terralith:rubble_forest",
+      "terralith:rubble_jungle",
+      "terralith:rubble_mesa",
+      "terralith:rubble_mountain",
+      "terralith:rubble_taiga",
+      "terralith:spire",
+      "terralith:underground/giant_bee_hive",
+      "terralith:underground/oak_cabin",
+      "terralith:underground/old_refinery",
+      "terralith:underground_cabin",
+      "terralith:valley_lodge"
+    ],
+    "no_atlas_region_rules": [],
+    "dangerously_dense_or_dense_spacing": [
+      {
+        "structure_id": "aquamirae:outpost",
+        "structure_sets": [
+          "aquamirae:outpost"
+        ],
+        "spacing": 18,
+        "separation": 10,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "aquamirae:surface/arch",
+        "structure_sets": [
+          "aquamirae:surface"
+        ],
+        "spacing": 20,
+        "separation": 8,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "aquamirae:surface/spiral",
+        "structure_sets": [
+          "aquamirae:surface"
+        ],
+        "spacing": 20,
+        "separation": 8,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "betterdungeons:small_dungeon",
+        "structure_sets": [
+          "betterdungeons:small_dungeons"
+        ],
+        "spacing": 10,
+        "separation": 6,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "betterdungeons:small_nether_dungeon",
+        "structure_sets": [
+          "betterdungeons:small_nether_dungeons"
+        ],
+        "spacing": 16,
+        "separation": 10,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "bettermineshafts:mineshaft_acacia",
+        "structure_sets": [
+          "bettermineshafts:mineshafts"
+        ],
+        "spacing": 1,
+        "separation": 0,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "bettermineshafts:mineshaft_desert",
+        "structure_sets": [
+          "bettermineshafts:mineshafts"
+        ],
+        "spacing": 1,
+        "separation": 0,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "bettermineshafts:mineshaft_dripstone",
+        "structure_sets": [
+          "bettermineshafts:mineshafts"
+        ],
+        "spacing": 1,
+        "separation": 0,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "bettermineshafts:mineshaft_ice",
+        "structure_sets": [
+          "bettermineshafts:mineshafts"
+        ],
+        "spacing": 1,
+        "separation": 0,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "bettermineshafts:mineshaft_jungle",
+        "structure_sets": [
+          "bettermineshafts:mineshafts"
+        ],
+        "spacing": 1,
+        "separation": 0,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "bettermineshafts:mineshaft_lush",
+        "structure_sets": [
+          "bettermineshafts:mineshafts"
+        ],
+        "spacing": 1,
+        "separation": 0,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "bettermineshafts:mineshaft_mesa",
+        "structure_sets": [
+          "bettermineshafts:mineshafts"
+        ],
+        "spacing": 1,
+        "separation": 0,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "bettermineshafts:mineshaft_mushroom",
+        "structure_sets": [
+          "bettermineshafts:mineshafts"
+        ],
+        "spacing": 1,
+        "separation": 0,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "bettermineshafts:mineshaft_oak",
+        "structure_sets": [
+          "bettermineshafts:mineshafts"
+        ],
+        "spacing": 1,
+        "separation": 0,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "bettermineshafts:mineshaft_overgrown",
+        "structure_sets": [
+          "bettermineshafts:mineshafts"
+        ],
+        "spacing": 1,
+        "separation": 0,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "bettermineshafts:mineshaft_red_desert",
+        "structure_sets": [
+          "bettermineshafts:mineshafts"
+        ],
+        "spacing": 1,
+        "separation": 0,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "bettermineshafts:mineshaft_spruce",
+        "structure_sets": [
+          "bettermineshafts:mineshafts"
+        ],
+        "spacing": 1,
+        "separation": 0,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "bettermineshafts:mineshaft_spruce_snowy",
+        "structure_sets": [
+          "bettermineshafts:mineshafts"
+        ],
+        "spacing": 1,
+        "separation": 0,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "humancompanions:acacia_house",
+        "structure_sets": [
+          "humancompanions:companion_house"
+        ],
+        "spacing": 15,
+        "separation": 10,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "humancompanions:birch_house",
+        "structure_sets": [
+          "humancompanions:companion_house"
+        ],
+        "spacing": 15,
+        "separation": 10,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "humancompanions:dark_oak_house",
+        "structure_sets": [
+          "humancompanions:companion_house"
+        ],
+        "spacing": 15,
+        "separation": 10,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "humancompanions:oak_birch_house",
+        "structure_sets": [
+          "humancompanions:companion_house"
+        ],
+        "spacing": 15,
+        "separation": 10,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "humancompanions:oak_house",
+        "structure_sets": [
+          "humancompanions:companion_house"
+        ],
+        "spacing": 15,
+        "separation": 10,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "humancompanions:sandstone_house",
+        "structure_sets": [
+          "humancompanions:companion_house"
+        ],
+        "spacing": 15,
+        "separation": 10,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "humancompanions:spruce_house",
+        "structure_sets": [
+          "humancompanions:companion_house"
+        ],
+        "spacing": 15,
+        "separation": 10,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "humancompanions:terracotta_house",
+        "structure_sets": [
+          "humancompanions:companion_house"
+        ],
+        "spacing": 15,
+        "separation": 10,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "iceandfire:cyclops_cave",
+        "structure_sets": [
+          "iceandfire:cyclops_cave"
+        ],
+        "spacing": 10,
+        "separation": 6,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "iceandfire:fire_dragon_cave",
+        "structure_sets": [
+          "iceandfire:dragon_cave"
+        ],
+        "spacing": 18,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "iceandfire:fire_dragon_roost",
+        "structure_sets": [
+          "iceandfire:dragon_roost"
+        ],
+        "spacing": 15,
+        "separation": 6,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "iceandfire:hydra_cave",
+        "structure_sets": [
+          "iceandfire:hydra_cave"
+        ],
+        "spacing": 10,
+        "separation": 6,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "iceandfire:ice_dragon_cave",
+        "structure_sets": [
+          "iceandfire:dragon_cave"
+        ],
+        "spacing": 18,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "iceandfire:ice_dragon_roost",
+        "structure_sets": [
+          "iceandfire:dragon_roost"
+        ],
+        "spacing": 15,
+        "separation": 6,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "iceandfire:lightning_dragon_cave",
+        "structure_sets": [
+          "iceandfire:dragon_cave"
+        ],
+        "spacing": 18,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "iceandfire:lightning_dragon_roost",
+        "structure_sets": [
+          "iceandfire:dragon_roost"
+        ],
+        "spacing": 15,
+        "separation": 6,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "iceandfire:pixie_village",
+        "structure_sets": [
+          "iceandfire:pixie_village"
+        ],
+        "spacing": 12,
+        "separation": 8,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "iceandfire:siren_island",
+        "structure_sets": [
+          "iceandfire:siren_island"
+        ],
+        "spacing": 20,
+        "separation": 14,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:abandoned_vineyard",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:abandonedhouse",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:apothecary_abode",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:bearclaw_inn",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:beekeepers_house",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:botanist",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:brickhouse",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:castle",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:desert_ruins",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:dig_site/dig_site",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:dig_site/dig_site_desert",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:enchantingtower",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:farmhouse",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:fishermans_lodge",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:haunted_manor",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:hermits_hollow",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:hunters_cabin",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:mason_house",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:redhorn_guild",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:ruined_church",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:ruined_fort",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:ruined_well",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:the_log",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:treetop_tavern",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:tudor_pub",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:wacky_wares",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:winter_wagon",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:witches_treestump",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "idas:wizard_tower",
+        "structure_sets": [
+          "idas:idas_common"
+        ],
+        "spacing": 21,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mes:enderpin_spikes",
+        "structure_sets": [
+          "mes:enderpin_spikes"
+        ],
+        "spacing": 13,
+        "separation": 8,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mes:ruined_pillar",
+        "structure_sets": [
+          "mes:ruined_pillar"
+        ],
+        "spacing": 10,
+        "separation": 7,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "minecraft:ancient_city",
+        "structure_sets": [
+          "minecraft:ancient_cities"
+        ],
+        "spacing": 24,
+        "separation": 8,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "minecraft:buried_treasure",
+        "structure_sets": [
+          "minecraft:buried_treasures"
+        ],
+        "spacing": 1,
+        "separation": 0,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "minecraft:end_city",
+        "structure_sets": [
+          "minecraft:end_cities"
+        ],
+        "spacing": 20,
+        "separation": 11,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "minecraft:mineshaft",
+        "structure_sets": [
+          "minecraft:mineshafts"
+        ],
+        "spacing": 1,
+        "separation": 0,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "minecraft:mineshaft_mesa",
+        "structure_sets": [
+          "minecraft:mineshafts"
+        ],
+        "spacing": 1,
+        "separation": 0,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "minecraft:nether_fossil",
+        "structure_sets": [
+          "minecraft:nether_fossils"
+        ],
+        "spacing": 2,
+        "separation": 1,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "minecraft:ocean_ruin_cold",
+        "structure_sets": [
+          "minecraft:ocean_ruins"
+        ],
+        "spacing": 20,
+        "separation": 8,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "minecraft:ocean_ruin_warm",
+        "structure_sets": [
+          "minecraft:ocean_ruins"
+        ],
+        "spacing": 20,
+        "separation": 8,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "minecraft:shipwreck",
+        "structure_sets": [
+          "minecraft:shipwrecks"
+        ],
+        "spacing": 24,
+        "separation": 4,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "minecraft:shipwreck_beached",
+        "structure_sets": [
+          "minecraft:shipwrecks"
+        ],
+        "spacing": 24,
+        "separation": 4,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mowziesmobs:wrought_chamber",
+        "structure_sets": [
+          "mowziesmobs:wrought_chambers"
+        ],
+        "spacing": 15,
+        "separation": 5,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:acacia_tree",
+        "structure_sets": [
+          "mvs:acacia_tree"
+        ],
+        "spacing": 18,
+        "separation": 13,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:acacia_well",
+        "structure_sets": [
+          "mvs:other_wells"
+        ],
+        "spacing": 24,
+        "separation": 18,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:bench",
+        "structure_sets": [
+          "mvs:bench"
+        ],
+        "spacing": 18,
+        "separation": 14,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:birch_tree",
+        "structure_sets": [
+          "mvs:birch_tree"
+        ],
+        "spacing": 18,
+        "separation": 13,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:birch_well",
+        "structure_sets": [
+          "mvs:other_wells"
+        ],
+        "spacing": 24,
+        "separation": 18,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:cherry_tree",
+        "structure_sets": [
+          "mvs:cherry_tree"
+        ],
+        "spacing": 18,
+        "separation": 13,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:dark_oak_tree",
+        "structure_sets": [
+          "mvs:dark_oak_tree"
+        ],
+        "spacing": 18,
+        "separation": 13,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:dark_oak_well",
+        "structure_sets": [
+          "mvs:other_wells"
+        ],
+        "spacing": 24,
+        "separation": 18,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:desert_well",
+        "structure_sets": [
+          "mvs:other_wells"
+        ],
+        "spacing": 24,
+        "separation": 18,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:haystack",
+        "structure_sets": [
+          "mvs:haystack"
+        ],
+        "spacing": 16,
+        "separation": 7,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:horse_campsite",
+        "structure_sets": [
+          "mvs:horse_campsite"
+        ],
+        "spacing": 19,
+        "separation": 17,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:jungle_palm_tree",
+        "structure_sets": [
+          "mvs:jungle_palm_tree"
+        ],
+        "spacing": 18,
+        "separation": 13,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:jungle_tree",
+        "structure_sets": [
+          "mvs:jungle_tree"
+        ],
+        "spacing": 18,
+        "separation": 13,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:jungle_well",
+        "structure_sets": [
+          "mvs:other_wells"
+        ],
+        "spacing": 24,
+        "separation": 18,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:medium_bamboo_cart",
+        "structure_sets": [
+          "mvs:medium_bamboo_cart"
+        ],
+        "spacing": 12,
+        "separation": 8,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "mvs:oak_tree",
+        "structure_sets": [
+          "mvs:oak_tree"
+        ],
+        "spacing": 18,
+        "separation": 13,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:oak_well",
+        "structure_sets": [
+          "mvs:other_wells"
+        ],
+        "spacing": 24,
+        "separation": 18,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:pile",
+        "structure_sets": [
+          "mvs:pile"
+        ],
+        "spacing": 13,
+        "separation": 7,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:rocky_well",
+        "structure_sets": [
+          "mvs:other_wells"
+        ],
+        "spacing": 24,
+        "separation": 18,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:small_acacia_lantern",
+        "structure_sets": [
+          "mvs:small_acacia_lantern"
+        ],
+        "spacing": 24,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:small_bamboo_lantern",
+        "structure_sets": [
+          "mvs:small_bamboo_lantern"
+        ],
+        "spacing": 24,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:small_birch_lantern",
+        "structure_sets": [
+          "mvs:small_birch_lantern"
+        ],
+        "spacing": 24,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:small_campfire_lantern",
+        "structure_sets": [
+          "mvs:small_campfire_lantern"
+        ],
+        "spacing": 24,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:small_cherry_lantern",
+        "structure_sets": [
+          "mvs:small_cherry_lantern"
+        ],
+        "spacing": 24,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:small_copper_well",
+        "structure_sets": [
+          "mvs:other_wells"
+        ],
+        "spacing": 24,
+        "separation": 18,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:small_dark_oak_lantern",
+        "structure_sets": [
+          "mvs:small_dark_oak_lantern"
+        ],
+        "spacing": 24,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:small_jungle_lantern",
+        "structure_sets": [
+          "mvs:small_jungle_lantern"
+        ],
+        "spacing": 24,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:small_mangrove_lantern",
+        "structure_sets": [
+          "mvs:small_mangrove_lantern"
+        ],
+        "spacing": 24,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:small_oak_lantern",
+        "structure_sets": [
+          "mvs:small_oak_lantern"
+        ],
+        "spacing": 24,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:small_spruce_lantern",
+        "structure_sets": [
+          "mvs:small_spruce_lantern"
+        ],
+        "spacing": 24,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:small_tower_well",
+        "structure_sets": [
+          "mvs:small_tower_well"
+        ],
+        "spacing": 23,
+        "separation": 15,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:small_well",
+        "structure_sets": [
+          "mvs:other_wells"
+        ],
+        "spacing": 24,
+        "separation": 18,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:snowy_well",
+        "structure_sets": [
+          "mvs:other_wells"
+        ],
+        "spacing": 24,
+        "separation": 18,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:spruce_tree",
+        "structure_sets": [
+          "mvs:spruce_tree"
+        ],
+        "spacing": 18,
+        "separation": 13,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:spruce_well",
+        "structure_sets": [
+          "mvs:other_wells"
+        ],
+        "spacing": 24,
+        "separation": 18,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:stone_rock",
+        "structure_sets": [
+          "mvs:stone_rock"
+        ],
+        "spacing": 18,
+        "separation": 13,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "mvs:well",
+        "structure_sets": [
+          "mvs:other_wells"
+        ],
+        "spacing": 24,
+        "separation": 18,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "structory:swamp_ruin",
+        "structure_sets": [
+          "structory:ruin_quiet"
+        ],
+        "spacing": 23,
+        "separation": 10,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "supplementaries:way_sign",
+        "structure_sets": [
+          "supplementaries:way_signs"
+        ],
+        "spacing": 19,
+        "separation": 10,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "terralith:rubble_desert",
+        "structure_sets": [
+          "terralith:rubble"
+        ],
+        "spacing": 18,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "terralith:rubble_forest",
+        "structure_sets": [
+          "terralith:rubble"
+        ],
+        "spacing": 18,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "terralith:rubble_jungle",
+        "structure_sets": [
+          "terralith:rubble"
+        ],
+        "spacing": 18,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "terralith:rubble_mesa",
+        "structure_sets": [
+          "terralith:rubble"
+        ],
+        "spacing": 18,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "terralith:rubble_mountain",
+        "structure_sets": [
+          "terralith:rubble"
+        ],
+        "spacing": 18,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "terralith:rubble_taiga",
+        "structure_sets": [
+          "terralith:rubble"
+        ],
+        "spacing": 18,
+        "separation": 12,
+        "density_risk": "dense"
+      },
+      {
+        "structure_id": "terralith:underground/frosted_dungeon",
+        "structure_sets": [
+          "terralith:underground_dungeon"
+        ],
+        "spacing": 9,
+        "separation": 6,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "terralith:underground/giant_bee_hive",
+        "structure_sets": [
+          "terralith:underground"
+        ],
+        "spacing": 11,
+        "separation": 3,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "terralith:underground/mining_outpost",
+        "structure_sets": [
+          "terralith:underground"
+        ],
+        "spacing": 11,
+        "separation": 3,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "terralith:underground/oak_cabin",
+        "structure_sets": [
+          "terralith:underground"
+        ],
+        "spacing": 11,
+        "separation": 3,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "terralith:underground/old_refinery",
+        "structure_sets": [
+          "terralith:underground"
+        ],
+        "spacing": 11,
+        "separation": 3,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "terralith:underground/sunken_tower",
+        "structure_sets": [
+          "terralith:underground"
+        ],
+        "spacing": 11,
+        "separation": 3,
+        "density_risk": "dangerously_dense"
+      },
+      {
+        "structure_id": "villagesandpillages:village_witch",
+        "structure_sets": [
+          "villagesandpillages:village_witch"
+        ],
+        "spacing": 24,
+        "separation": 16,
+        "density_risk": "dense"
+      }
+    ],
+    "village_town_overlap_risks": [
+      {
+        "structure_set": "integrated_villages:regular_villages",
+        "spacing": 64,
+        "separation": 32,
+        "structures": [
+          "integrated_villages:cabin_village",
+          "integrated_villages:clockwork_village",
+          "integrated_villages:kutcha_village",
+          "integrated_villages:marketstead_village",
+          "integrated_villages:mediterranean_village",
+          "integrated_villages:mossy_mounds",
+          "integrated_villages:oasis_village",
+          "integrated_villages:pirate_village",
+          "integrated_villages:quark/minka_village",
+          "integrated_villages:sunken_village",
+          "integrated_villages:tavern_village"
+        ]
+      },
+      {
+        "structure_set": "minecraft:pillager_outposts",
+        "spacing": 32,
+        "separation": 8,
+        "structures": [
+          "minecraft:pillager_outpost"
+        ]
+      },
+      {
+        "structure_set": "towns_and_towers:other",
+        "spacing": 32,
+        "separation": 16,
+        "structures": [
+          "towns_and_towers:mimic_desert",
+          "towns_and_towers:wreckage_ocean"
+        ]
+      },
+      {
+        "structure_set": "towns_and_towers:towers",
+        "spacing": 48,
+        "separation": 24,
+        "structures": [
+          "towns_and_towers:exclusives/pillager_outpost_classic",
+          "towns_and_towers:exclusives/pillager_outpost_iberian",
+          "towns_and_towers:exclusives/pillager_outpost_mediterranean",
+          "towns_and_towers:exclusives/pillager_outpost_oriental",
+          "towns_and_towers:exclusives/pillager_outpost_rustic",
+          "towns_and_towers:exclusives/pillager_outpost_swedish",
+          "towns_and_towers:exclusives/pillager_outpost_tudor",
+          "towns_and_towers:pillager_outpost_badlands",
+          "towns_and_towers:pillager_outpost_beach",
+          "towns_and_towers:pillager_outpost_birch_forest",
+          "towns_and_towers:pillager_outpost_desert",
+          "towns_and_towers:pillager_outpost_flower_forest"
+        ]
+      },
+      {
+        "structure_set": "towns_and_towers:towns",
+        "spacing": 48,
+        "separation": 24,
+        "structures": [
+          "towns_and_towers:exclusives/village_classic",
+          "towns_and_towers:exclusives/village_iberian",
+          "towns_and_towers:exclusives/village_mediterranean",
+          "towns_and_towers:exclusives/village_nilotic",
+          "towns_and_towers:exclusives/village_piglin",
+          "towns_and_towers:exclusives/village_rustic",
+          "towns_and_towers:exclusives/village_swedish",
+          "towns_and_towers:exclusives/village_tudor",
+          "towns_and_towers:exclusives/village_wandering_trader_camp",
+          "towns_and_towers:village_badlands",
+          "towns_and_towers:village_beach",
+          "towns_and_towers:village_birch_forest"
+        ]
+      }
+    ],
+    "policy_references_missing_structure_ids": [],
+    "water_structures_outside_water_regions": [],
+    "sea_floor_structures_without_deep_water_rule": [],
+    "sky_structures_common_or_near_spawn": [
+      "create_structures_arise:createminiskyvillage",
+      "integrated_villages:airship_village"
+    ],
+    "village_overlap_risks_without_policy_notes": [],
+    "name_only_classifications": [],
+    "low_confidence_or_manual_review_classifications": [
+      {
+        "structure_id": "iceandfire:fire_dragon_roost",
+        "classification_confidence": "strong",
+        "confidence": 100,
+        "structure_class": "dragon_tier_zone",
+        "water_role": "none",
+        "sky_role": "none"
+      },
+      {
+        "structure_id": "iceandfire:graveyard",
+        "classification_confidence": "strong",
+        "confidence": 100,
+        "structure_class": "dragon_tier_zone",
+        "water_role": "none",
+        "sky_role": "none"
+      },
+      {
+        "structure_id": "iceandfire:ice_dragon_roost",
+        "classification_confidence": "strong",
+        "confidence": 100,
+        "structure_class": "dragon_tier_zone",
+        "water_role": "none",
+        "sky_role": "none"
+      },
+      {
+        "structure_id": "iceandfire:lightning_dragon_roost",
+        "classification_confidence": "strong",
+        "confidence": 100,
+        "structure_class": "dragon_tier_zone",
+        "water_role": "none",
+        "sky_role": "none"
+      },
+      {
+        "structure_id": "idas:abandoned_vineyard",
+        "classification_confidence": "strong",
+        "confidence": 100,
+        "structure_class": "dangerous_dungeon",
+        "water_role": "none",
+        "sky_role": "none"
+      },
+      {
+        "structure_id": "idas:haunted_manor",
+        "classification_confidence": "strong",
+        "confidence": 100,
+        "structure_class": "dangerous_dungeon",
+        "water_role": "none",
+        "sky_role": "none"
+      },
+      {
+        "structure_id": "integrated_villages:pirate_village",
+        "classification_confidence": "strong",
+        "confidence": 100,
+        "structure_class": "settlement",
+        "water_role": "ocean",
+        "sky_role": "none"
+      },
+      {
+        "structure_id": "irons_spellbooks:evoker_fort",
+        "classification_confidence": "weak",
+        "confidence": 27,
+        "structure_class": "uncategorized_structure",
+        "water_role": "none",
+        "sky_role": "none"
+      },
+      {
+        "structure_id": "irons_spellbooks:mangrove_hut",
+        "classification_confidence": "weak",
+        "confidence": 28,
+        "structure_class": "landmark_or_ruin",
+        "water_role": "none",
+        "sky_role": "none"
+      },
+      {
+        "structure_id": "irons_spellbooks:mountain_tower",
+        "classification_confidence": "weak",
+        "confidence": 28,
+        "structure_class": "dangerous_dungeon",
+        "water_role": "none",
+        "sky_role": "none"
+      },
+      {
+        "structure_id": "mvs:rare_well",
+        "classification_confidence": "strong",
+        "confidence": 100,
+        "structure_class": "landmark_or_ruin",
+        "water_role": "ocean",
+        "sky_role": "none"
+      },
+      {
+        "structure_id": "mvs:well",
+        "classification_confidence": "strong",
+        "confidence": 100,
+        "structure_class": "landmark_or_ruin",
+        "water_role": "ocean",
+        "sky_role": "none"
+      },
+      {
+        "structure_id": "towns_and_towers:pillager_outpost_ocean",
+        "classification_confidence": "strong",
+        "confidence": 100,
+        "structure_class": "settlement",
+        "water_role": "ocean",
+        "sky_role": "none"
+      }
+    ],
+    "water_roles_without_non_name_evidence": [],
+    "frozen_ocean_without_cold_or_frozen_evidence": [],
+    "sky_roles_without_height_evidence": []
+  }
+}

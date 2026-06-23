@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "mode": "continuous_region_weights",
+  "hard_axis_boundaries": false,
+  "world_radius_blocks": 12000,
+  "outer_radius_blocks": 50000,
+  "center_radius_blocks": 500,
+  "transition_width_blocks": 2800,
+  "minimum_secondary_region_weight": 0.1,
+  "regions": [
+    "center",
+    "east",
+    "north",
+    "north_east",
+    "north_west",
+    "outer",
+    "south",
+    "south_east",
+    "south_west",
+    "west"
+  ]
+}

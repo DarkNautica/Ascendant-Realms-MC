@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "source": "config/ascendant_guild/ranks.json",
+  "runtime_state": "contract_active",
+  "scoreboards": {
+    "rank_order": "ar_guild_rank",
+    "reputation": "ar_guild_rep",
+    "bounties_completed": "ar_bounties_done",
+    "structures_cleared": "ar_structures_done",
+    "bosses_defeated": "ar_bosses_done",
+    "dragons_defeated": "ar_dragons_done"
+  },
+  "rank_ladder": [
+    {
+      "id": "unranked",
+      "order": 0,
+      "display": "Unranked",
+      "color": "#9CA3AF",
+      "level_band": [1, 9],
+      "gear_ceiling": "uncommon",
+      "contract_access": ["tutorial", "local_errand"],
+      "world_expectation": "survive village outskirts and learn the Ascendant Web"
+    },
+    {
+      "id": "e_rank",
+      "order": 1,
+      "display": "E-Rank",
+      "color": "#2E8B57",
+      "level_band": [10, 19],
+      "gear_ceiling": "rare",
+      "contract_access": ["village_request", "wildlife_control"],
+      "world_expectation": "handle basic hostile mobs, food prep, and local travel"
+    },
+    {
+      "id": "d_rank",
+      "order": 2,
+      "display": "D-Rank",
+      "color": "#55FF55",
+      "level_band": [20, 34],
+      "gear_ceiling": "rare",
+      "contract_access": ["village_request", "road_patrol", "small_ruin"],
+      "world_expectation": "clear small structures and protect villages from routine threats"
+    },
+    {
+      "id": "c_rank",
+      "order": 3,
+      "display": "C-Rank",
+      "color": "#55AAFF",
+      "level_band": [35, 49],
+      "gear_ceiling": "epic",
+      "contract_access": ["town_guild_board", "dungeon_contract", "rival_sighting"],
+      "world_expectation": "survive real dungeons, elite mobs, and hostile weather nights"
+    },
+    {
+      "id": "b_rank",
+      "order": 4,
+      "display": "B-Rank",
+      "color": "#3366FF",
+      "level_band": [50, 69],
+      "gear_ceiling": "legendary",
+      "contract_access": ["major_guild_registry", "miniboss_contract", "arcane_recovery"],
+      "world_expectation": "clear serious structures and defeat named modded threats"
+    },
+    {
+      "id": "a_rank",
+      "order": 5,
+      "display": "A-Rank",
+      "color": "#FFE66D",
+      "level_band": [70, 89],
+      "gear_ceiling": "mythic",
+      "contract_access": ["realm_threat", "dragon_warning", "boss_hunt"],
+      "world_expectation": "operate in late-game regions and take major boss contracts"
+    },
+    {
+      "id": "s_rank",
+      "order": 6,
+      "display": "S-Rank",
+      "color": "#D966FF",
+      "level_band": [90, 120],
+      "gear_ceiling": "ascendant",
+      "contract_access": ["cataclysmic_threat", "dragon_tier", "ascendant_relic"],
+      "world_expectation": "clear realm-defining bosses while the world remains dangerous"
+    }
+  ],
+  "automation_policy": {
+    "current": "scoreboards and config contracts are ready; rank promotions remain admin/quest/function driven until FTB Quest chapters or Ascendant Core mod commands are added",
+    "next_bridge": "FTB Quests should write these scoreboards after rank trials; a future helper mod can provide /ascendant rank commands and synced UI"
+  }
+}

@@ -1,0 +1,2023 @@
+{
+  "version": 1,
+  "generated_by": "scripts/generate-ascendant-atlas-worldgen.py",
+  "status": "source_generated",
+  "classification_rule": "Exact water IDs and Terralith climate parameter ranges are used; path/name token guessing is not accepted as evidence.",
+  "hydrology_classes": [
+    "deep_ocean",
+    "ocean",
+    "coast",
+    "river",
+    "inland_water",
+    "inland_lowland",
+    "inland_highland",
+    "mountain"
+  ],
+  "biomes": [
+    {
+      "biome_id": "minecraft:badlands",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "outer",
+        "south",
+        "south_east",
+        "south_west"
+      ],
+      "entry_count": 188,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:bamboo_jungle",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "east",
+        "north_east",
+        "south_east"
+      ],
+      "entry_count": 57,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:beach",
+      "allowed_hydrology_classes": [
+        "coast",
+        "inland_water",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "east",
+        "north_east"
+      ],
+      "entry_count": 18,
+      "evidence": [
+        "exact_coast_biome_id"
+      ],
+      "confidence": "strong",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:birch_forest",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "center"
+      ],
+      "entry_count": 3,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:cherry_grove",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "center"
+      ],
+      "entry_count": 6,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:dark_forest",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "outer"
+      ],
+      "entry_count": 33,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:deep_lukewarm_ocean",
+      "allowed_hydrology_classes": [
+        "ocean",
+        "deep_ocean",
+        "coast"
+      ],
+      "atlas_regions": [
+        "east",
+        "north_east"
+      ],
+      "entry_count": 20,
+      "evidence": [
+        "exact_water_biome_id"
+      ],
+      "confidence": "strong",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:deep_ocean",
+      "allowed_hydrology_classes": [
+        "ocean",
+        "deep_ocean",
+        "coast"
+      ],
+      "atlas_regions": [
+        "east",
+        "north_east"
+      ],
+      "entry_count": 22,
+      "evidence": [
+        "exact_water_biome_id"
+      ],
+      "confidence": "strong",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:desert",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "outer",
+        "south",
+        "south_east",
+        "south_west"
+      ],
+      "entry_count": 144,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:eroded_badlands",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "outer",
+        "south",
+        "south_west"
+      ],
+      "entry_count": 72,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:flower_forest",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "center"
+      ],
+      "entry_count": 3,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:forest",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "center"
+      ],
+      "entry_count": 23,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:frozen_ocean",
+      "allowed_hydrology_classes": [
+        "ocean",
+        "deep_ocean",
+        "coast"
+      ],
+      "atlas_regions": [
+        "north",
+        "north_east",
+        "north_west",
+        "outer"
+      ],
+      "entry_count": 4,
+      "evidence": [
+        "exact_water_biome_id"
+      ],
+      "confidence": "strong",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:frozen_river",
+      "allowed_hydrology_classes": [
+        "river",
+        "inland_water",
+        "coast"
+      ],
+      "atlas_regions": [
+        "north",
+        "north_east",
+        "north_west",
+        "outer"
+      ],
+      "entry_count": 16,
+      "evidence": [
+        "exact_river_biome_id"
+      ],
+      "confidence": "strong",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:ice_spikes",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "north",
+        "north_east",
+        "north_west",
+        "outer"
+      ],
+      "entry_count": 36,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:jungle",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "east",
+        "north_east",
+        "south_east"
+      ],
+      "entry_count": 45,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:lukewarm_ocean",
+      "allowed_hydrology_classes": [
+        "ocean",
+        "deep_ocean",
+        "coast"
+      ],
+      "atlas_regions": [
+        "east",
+        "north_east"
+      ],
+      "entry_count": 2,
+      "evidence": [
+        "exact_water_biome_id"
+      ],
+      "confidence": "strong",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:mangrove_swamp",
+      "allowed_hydrology_classes": [
+        "coast",
+        "inland_water",
+        "river",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "east",
+        "north_east",
+        "south_east"
+      ],
+      "entry_count": 12,
+      "evidence": [
+        "exact_wetland_biome_id"
+      ],
+      "confidence": "strong",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:meadow",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "center"
+      ],
+      "entry_count": 10,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:ocean",
+      "allowed_hydrology_classes": [
+        "ocean",
+        "deep_ocean",
+        "coast"
+      ],
+      "atlas_regions": [
+        "east",
+        "north_east"
+      ],
+      "entry_count": 2,
+      "evidence": [
+        "exact_water_biome_id"
+      ],
+      "confidence": "strong",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:old_growth_birch_forest",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "center"
+      ],
+      "entry_count": 13,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:old_growth_pine_taiga",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "north",
+        "north_east",
+        "north_west",
+        "outer"
+      ],
+      "entry_count": 56,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:old_growth_spruce_taiga",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "north",
+        "north_east",
+        "north_west",
+        "outer"
+      ],
+      "entry_count": 48,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:plains",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "center"
+      ],
+      "entry_count": 43,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:river",
+      "allowed_hydrology_classes": [
+        "river",
+        "inland_water",
+        "coast"
+      ],
+      "atlas_regions": [
+        "east",
+        "north_east",
+        "south_east"
+      ],
+      "entry_count": 60,
+      "evidence": [
+        "exact_river_biome_id"
+      ],
+      "confidence": "strong",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:savanna",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "outer",
+        "south",
+        "south_east",
+        "south_west"
+      ],
+      "entry_count": 104,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:savanna_plateau",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "outer",
+        "south",
+        "south_east",
+        "south_west"
+      ],
+      "entry_count": 132,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:snowy_plains",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "north",
+        "north_east",
+        "north_west",
+        "outer"
+      ],
+      "entry_count": 96,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:snowy_taiga",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "north",
+        "north_east",
+        "north_west",
+        "outer"
+      ],
+      "entry_count": 140,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:sparse_jungle",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "east",
+        "north_east",
+        "south_east"
+      ],
+      "entry_count": 90,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:stony_peaks",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "north_west",
+        "outer",
+        "south_west",
+        "west"
+      ],
+      "entry_count": 32,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:stony_shore",
+      "allowed_hydrology_classes": [
+        "coast",
+        "inland_water",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "north_west",
+        "outer",
+        "south_west",
+        "west"
+      ],
+      "entry_count": 32,
+      "evidence": [
+        "exact_coast_biome_id"
+      ],
+      "confidence": "strong",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:sunflower_plains",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "center"
+      ],
+      "entry_count": 6,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:swamp",
+      "allowed_hydrology_classes": [
+        "coast",
+        "inland_water",
+        "river",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "east",
+        "north_east",
+        "south_east"
+      ],
+      "entry_count": 12,
+      "evidence": [
+        "exact_wetland_biome_id"
+      ],
+      "confidence": "strong",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:taiga",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "north",
+        "north_east",
+        "north_west",
+        "outer"
+      ],
+      "entry_count": 160,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:warm_ocean",
+      "allowed_hydrology_classes": [
+        "ocean",
+        "deep_ocean",
+        "coast"
+      ],
+      "atlas_regions": [
+        "east",
+        "north_east",
+        "outer",
+        "south",
+        "south_west"
+      ],
+      "entry_count": 20,
+      "evidence": [
+        "exact_water_biome_id"
+      ],
+      "confidence": "strong",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:windswept_forest",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "north_west",
+        "outer",
+        "south_west",
+        "west"
+      ],
+      "entry_count": 28,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:windswept_gravelly_hills",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "north_west",
+        "outer",
+        "south_west",
+        "west"
+      ],
+      "entry_count": 28,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:windswept_hills",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "north_west",
+        "outer",
+        "south_west",
+        "west"
+      ],
+      "entry_count": 36,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:windswept_savanna",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "outer",
+        "south",
+        "south_east",
+        "south_west"
+      ],
+      "entry_count": 40,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "minecraft:wooded_badlands",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "outer",
+        "south",
+        "south_east",
+        "south_west"
+      ],
+      "entry_count": 80,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:alpine_highlands",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "north_west",
+        "outer",
+        "south_west",
+        "west"
+      ],
+      "entry_count": 112,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:amethyst_canyon",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "north_west",
+        "outer",
+        "south_west",
+        "west"
+      ],
+      "entry_count": 12,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:amethyst_rainforest",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "east",
+        "north_east",
+        "south_east"
+      ],
+      "entry_count": 69,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:ancient_sands",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "outer"
+      ],
+      "entry_count": 3,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:arid_highlands",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "outer",
+        "south",
+        "south_east",
+        "south_west"
+      ],
+      "entry_count": 12,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:ashen_savanna",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "outer",
+        "south",
+        "south_east",
+        "south_west"
+      ],
+      "entry_count": 24,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:birch_taiga",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "north",
+        "north_east",
+        "north_west",
+        "outer"
+      ],
+      "entry_count": 72,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:blooming_plateau",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "center"
+      ],
+      "entry_count": 4,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:blooming_valley",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "center"
+      ],
+      "entry_count": 6,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:bryce_canyon",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "outer",
+        "south",
+        "south_west"
+      ],
+      "entry_count": 45,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:caldera",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "outer"
+      ],
+      "entry_count": 6,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:cave/underground_jungle",
+      "allowed_hydrology_classes": [
+        "coast",
+        "inland_highland",
+        "inland_lowland",
+        "inland_water",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "east",
+        "north_east"
+      ],
+      "entry_count": 2,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:cloud_forest",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "east",
+        "north_east"
+      ],
+      "entry_count": 2,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:cold_shrubland",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "north",
+        "north_east",
+        "north_west",
+        "outer"
+      ],
+      "entry_count": 104,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:desert_canyon",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "outer",
+        "south",
+        "south_east",
+        "south_west"
+      ],
+      "entry_count": 12,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:desert_oasis",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "outer",
+        "south",
+        "south_east",
+        "south_west"
+      ],
+      "entry_count": 68,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:desert_spires",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "outer",
+        "south",
+        "south_west"
+      ],
+      "entry_count": 6,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:forested_highlands",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "north_west",
+        "outer",
+        "south_west",
+        "west"
+      ],
+      "entry_count": 88,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:fractured_savanna",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "outer",
+        "south",
+        "south_east",
+        "south_west"
+      ],
+      "entry_count": 32,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:glacial_chasm",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "north",
+        "north_east",
+        "north_west",
+        "outer"
+      ],
+      "entry_count": 12,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:granite_cliffs",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "north_west",
+        "outer",
+        "south_west",
+        "west"
+      ],
+      "entry_count": 32,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:haze_mountain",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "north_west",
+        "outer",
+        "south_west",
+        "west"
+      ],
+      "entry_count": 8,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:highlands",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "north_west",
+        "outer",
+        "south_west",
+        "west"
+      ],
+      "entry_count": 12,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:hot_shrubland",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "outer",
+        "south",
+        "south_east",
+        "south_west"
+      ],
+      "entry_count": 112,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:jungle_mountains",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "east",
+        "north_east"
+      ],
+      "entry_count": 8,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:lavender_forest",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "center"
+      ],
+      "entry_count": 5,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:lavender_valley",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "center"
+      ],
+      "entry_count": 2,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:lush_desert",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "outer",
+        "south",
+        "south_east",
+        "south_west"
+      ],
+      "entry_count": 24,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:moonlight_grove",
+      "allowed_hydrology_classes": [
+        "coast",
+        "inland_water",
+        "river",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "center"
+      ],
+      "entry_count": 29,
+      "evidence": [
+        "exact_wetland_biome_id"
+      ],
+      "confidence": "strong",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:moonlight_valley",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "center"
+      ],
+      "entry_count": 3,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:orchid_swamp",
+      "allowed_hydrology_classes": [
+        "coast",
+        "inland_water",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "east",
+        "north_east",
+        "south_east"
+      ],
+      "entry_count": 12,
+      "evidence": [
+        "exact_coast_biome_id"
+      ],
+      "confidence": "strong",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:painted_mountains",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "north_west",
+        "outer",
+        "south_west",
+        "west"
+      ],
+      "entry_count": 40,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:red_oasis",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "outer",
+        "south",
+        "south_east",
+        "south_west"
+      ],
+      "entry_count": 4,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:rocky_jungle",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "east",
+        "north_east"
+      ],
+      "entry_count": 42,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:rocky_mountains",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "north_west",
+        "outer",
+        "south_west",
+        "west"
+      ],
+      "entry_count": 84,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:rocky_shrubland",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "north",
+        "north_east",
+        "north_west",
+        "outer"
+      ],
+      "entry_count": 12,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:sakura_grove",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "center"
+      ],
+      "entry_count": 33,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:sakura_valley",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "center"
+      ],
+      "entry_count": 5,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:savanna_badlands",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "outer",
+        "south",
+        "south_east",
+        "south_west"
+      ],
+      "entry_count": 136,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:savanna_slopes",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "outer",
+        "south",
+        "south_east",
+        "south_west"
+      ],
+      "entry_count": 40,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:scarlet_mountains",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "outer"
+      ],
+      "entry_count": 5,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:shield",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "center"
+      ],
+      "entry_count": 19,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:shield_clearing",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "center"
+      ],
+      "entry_count": 1,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:siberian_grove",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "north",
+        "north_east",
+        "north_west",
+        "outer"
+      ],
+      "entry_count": 28,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:siberian_taiga",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "north",
+        "north_east",
+        "north_west",
+        "outer"
+      ],
+      "entry_count": 252,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:snowy_badlands",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "north",
+        "north_east",
+        "north_west",
+        "outer"
+      ],
+      "entry_count": 84,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:snowy_cherry_grove",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "north",
+        "north_east",
+        "north_west",
+        "outer"
+      ],
+      "entry_count": 28,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:snowy_maple_forest",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "north",
+        "north_east",
+        "north_west",
+        "outer"
+      ],
+      "entry_count": 36,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:snowy_shield",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "north",
+        "north_east",
+        "north_west",
+        "outer"
+      ],
+      "entry_count": 36,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:steppe",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "outer",
+        "south",
+        "south_east",
+        "south_west"
+      ],
+      "entry_count": 16,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:stony_spires",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "north_west",
+        "outer",
+        "south_west",
+        "west"
+      ],
+      "entry_count": 24,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:temperate_highlands",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "north_west",
+        "outer",
+        "south_west",
+        "west"
+      ],
+      "entry_count": 100,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:tropical_jungle",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "east",
+        "north_east",
+        "south_east"
+      ],
+      "entry_count": 36,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:valley_clearing",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "center"
+      ],
+      "entry_count": 2,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:volcanic_crater",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "outer",
+        "south",
+        "south_west"
+      ],
+      "entry_count": 3,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:volcanic_peaks",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "outer",
+        "south",
+        "south_west"
+      ],
+      "entry_count": 9,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:warm_river",
+      "allowed_hydrology_classes": [
+        "river",
+        "inland_water",
+        "coast"
+      ],
+      "atlas_regions": [
+        "east",
+        "north_east",
+        "south_east"
+      ],
+      "entry_count": 24,
+      "evidence": [
+        "exact_river_biome_id"
+      ],
+      "confidence": "strong",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:warped_mesa",
+      "allowed_hydrology_classes": [
+        "coast",
+        "inland_highland",
+        "inland_lowland",
+        "inland_water",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "outer"
+      ],
+      "entry_count": 1,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:white_cliffs",
+      "allowed_hydrology_classes": [
+        "coast",
+        "inland_water",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "north_west",
+        "outer",
+        "south_west",
+        "west"
+      ],
+      "entry_count": 16,
+      "evidence": [
+        "exact_coast_biome_id"
+      ],
+      "confidence": "strong",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:white_mesa",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "outer",
+        "south",
+        "south_west"
+      ],
+      "entry_count": 15,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:windswept_spires",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "north_west",
+        "outer",
+        "south_west",
+        "west"
+      ],
+      "entry_count": 16,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:wintry_forest",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "north",
+        "north_east",
+        "north_west",
+        "outer"
+      ],
+      "entry_count": 196,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:wintry_lowlands",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "north",
+        "north_east",
+        "north_west",
+        "outer"
+      ],
+      "entry_count": 24,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:yellowstone",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland",
+        "mountain"
+      ],
+      "atlas_regions": [
+        "outer"
+      ],
+      "entry_count": 6,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:yosemite_cliffs",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "north_west",
+        "outer",
+        "south_west",
+        "west"
+      ],
+      "entry_count": 8,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    },
+    {
+      "biome_id": "terralith:yosemite_lowlands",
+      "allowed_hydrology_classes": [
+        "inland_highland",
+        "inland_lowland"
+      ],
+      "atlas_regions": [
+        "north_west",
+        "outer",
+        "south_west",
+        "west"
+      ],
+      "entry_count": 12,
+      "evidence": [
+        "terralith_parameter_point"
+      ],
+      "confidence": "medium",
+      "classification_method": "exact_id_or_parameter_data_not_name_tokens"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:bosses",
+    "minecraft:ender_dragon",
+    "minecraft:wither",
+    "minecraft:warden",
+    {
+      "id": "cataclysm:ignis",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ender_guardian",
+      "required": false
+    },
+    {
+      "id": "cataclysm:the_harbinger",
+      "required": false
+    },
+    {
+      "id": "cataclysm:the_leviathan",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ancient_remnant",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:frostmaw",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:ferrous_wroughtnaut",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:umvuthi",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:dead_king",
+      "required": false
+    }
+  ]
+}

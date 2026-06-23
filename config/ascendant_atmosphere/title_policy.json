@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T04:08:00+00:00",
+  "status": "audit_control_scaffold_only_no_title_resource_pack_changes",
+  "current_title_stack": {
+    "travelers_titles_config": "config/travelerstitles-forge-1_20.toml",
+    "biome_titles_enabled": true,
+    "dimension_titles_enabled": true,
+    "visual_title_resource_packs": {
+      "Visual Titles 1.3.zip": true,
+      "Visual Travelers Titles Biomes Addon.zip": true,
+      "ascendant-realms-travelers-titles": true,
+      "MedievalMusic.zip": true
+    },
+    "ascendant_titles_pack_keys": 207,
+    "region_specific_title_keys": [],
+    "assessment": "Biome titles are live, but Atlas region titles are policy-only until a runtime/resource-pack hook is added."
+  },
+  "region_titles": [
+    {
+      "region_id": "hearthlands",
+      "display_name": "The Crownlands",
+      "subtitle_flavor": "Safe roads, soft weather, and the first promise of the realm.",
+      "title_color": "f0d68a",
+      "implementation_status": "policy_only_not_live_region_trigger"
+    },
+    {
+      "region_id": "frostmarch",
+      "display_name": "The Frostmarch",
+      "subtitle_flavor": "Cold wind, old ice, and the long white road north.",
+      "title_color": "9bd8ff",
+      "implementation_status": "policy_only_not_live_region_trigger"
+    },
+    {
+      "region_id": "sunreach",
+      "display_name": "Sunreach",
+      "subtitle_flavor": "Red dust, bright heat, and caravan tracks under a hard sky.",
+      "title_color": "d99a4e",
+      "implementation_status": "policy_only_not_live_region_trigger"
+    },
+    {
+      "region_id": "verdant_coast",
+      "display_name": "The Verdant Coast",
+      "subtitle_flavor": "Rain-wet leaves, river mouths, and the sound of distant surf.",
+      "title_color": "59bd70",
+      "implementation_status": "policy_only_not_live_region_trigger"
+    },
+    {
+      "region_id": "stoneback_highlands",
+      "display_name": "The Stoneback Highlands",
+      "subtitle_flavor": "Stone roads, echoing cliffs, and wind over old watchfires.",
+      "title_color": "c7b27a",
+      "implementation_status": "policy_only_not_live_region_trigger"
+    },
+    {
+      "region_id": "north_east_marches",
+      "display_name": "The North-East Marches",
+      "subtitle_flavor": "Cold rain, frozen river mouths, and dark coastal timber.",
+      "title_color": "7fcfb8",
+      "implementation_status": "policy_only_not_live_region_trigger"
+    },
+    {
+      "region_id": "north_west_marches",
+      "display_name": "The North-West Marches",
+      "subtitle_flavor": "Wind-cut ridges, black pines, and snow in the high passes.",
+      "title_color": "a7c7d9",
+      "implementation_status": "policy_only_not_live_region_trigger"
+    },
+    {
+      "region_id": "south_east_wilds",
+      "display_name": "The South-East Wilds",
+      "subtitle_flavor": "Hot rain, red mud, and green growth fighting the desert.",
+      "title_color": "9fc96c",
+      "implementation_status": "policy_only_not_live_region_trigger"
+    },
+    {
+      "region_id": "south_west_wilds",
+      "display_name": "The South-West Wilds",
+      "subtitle_flavor": "Broken mesas, dry canyons, and wind grinding stone to dust.",
+      "title_color": "c98d57",
+      "implementation_status": "policy_only_not_live_region_trigger"
+    },
+    {
+      "region_id": "outer_rim",
+      "display_name": "The Outer Rim",
+      "subtitle_flavor": "The map thins, the sky bruises, and old powers press close.",
+      "title_color": "8c78a8",
+      "implementation_status": "policy_only_not_live_region_trigger"
+    },
+    {
+      "region_id": "nether_front",
+      "display_name": "The Nether Front",
+      "subtitle_flavor": "Heat, basalt, and warlight beyond the Overworld line.",
+      "title_color": "c85a48",
+      "implementation_status": "policy_only_not_live_region_trigger"
+    },
+    {
+      "region_id": "end_expanse",
+      "display_name": "The End Expanse",
+      "subtitle_flavor": "A silent horizon where the world stops answering.",
+      "title_color": "b78cff",
+      "implementation_status": "policy_only_not_live_region_trigger"
+    }
+  ],
+  "validation": {
+    "missing_region_title_policy": [],
+    "policy_references_missing_region_ids": [],
+    "title_policy_documented": true,
+    "region_titles_live_enforced": false
+  }
+}

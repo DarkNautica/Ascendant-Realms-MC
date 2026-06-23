@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T04:37:26+00:00",
+  "status": "audit_control_scaffold_only_no_gear_gates",
+  "source": {
+    "gear_registry": "config/ascendant_index/gear_registry.json",
+    "stat_policy": "config/ascendant_balance/stat_policy.json",
+    "loot_budget": "config/ascendant_loot/loot_rarity_budget.json"
+  },
+  "rarity_rank_policy": [
+    {
+      "rarity": "common",
+      "minimum_recommended_rank": "unranked",
+      "routine_reward_rank": "unranked",
+      "maximum_relevant_rank": "s_rank",
+      "role": "baseline survival, tools, and low-risk rewards",
+      "policy": "placement_guidance_only_no_stat_or_rarity_change"
+    },
+    {
+      "rarity": "uncommon",
+      "minimum_recommended_rank": "unranked",
+      "routine_reward_rank": "e_rank",
+      "maximum_relevant_rank": "s_rank",
+      "role": "starter upgrades and safe village rewards",
+      "policy": "placement_guidance_only_no_stat_or_rarity_change"
+    },
+    {
+      "rarity": "rare",
+      "minimum_recommended_rank": "e_rank",
+      "routine_reward_rank": "d_rank",
+      "maximum_relevant_rank": "s_rank",
+      "role": "regional gear, early dungeons, and ranked village work",
+      "policy": "placement_guidance_only_no_stat_or_rarity_change"
+    },
+    {
+      "rarity": "epic",
+      "minimum_recommended_rank": "c_rank",
+      "routine_reward_rank": "c_rank",
+      "maximum_relevant_rank": "s_rank",
+      "role": "real dungeon rewards, elite drops, and specialized builds",
+      "policy": "placement_guidance_only_no_stat_or_rarity_change"
+    },
+    {
+      "rarity": "legendary",
+      "minimum_recommended_rank": "b_rank",
+      "routine_reward_rank": "b_rank",
+      "maximum_relevant_rank": "s_rank",
+      "role": "major structure, boss-adjacent, and high-rank contract rewards",
+      "policy": "placement_guidance_only_no_stat_or_rarity_change"
+    },
+    {
+      "rarity": "mythic",
+      "minimum_recommended_rank": "a_rank",
+      "routine_reward_rank": "a_rank",
+      "maximum_relevant_rank": "s_rank",
+      "role": "dragon, boss, and outer-region rewards",
+      "policy": "placement_guidance_only_no_stat_or_rarity_change"
+    },
+    {
+      "rarity": "ascendant",
+      "minimum_recommended_rank": "s_rank",
+      "routine_reward_rank": "s_rank",
+      "maximum_relevant_rank": "s_rank",
+      "role": "capstone and ascendant-class rewards only",
+      "policy": "placement_guidance_only_no_stat_or_rarity_change"
+    }
+  ],
+  "gear_policy_summary": {
+    "balance_policy_entries": 1573,
+    "outlier_items": 1278,
+    "rarity_review_queue": 473,
+    "by_rarity": {
+      "rare": 524,
+      "uncommon": 506,
+      "epic": 229,
+      "legendary": 212,
+      "mythic": 88,
+      "ascendant": 5,
+      "common": 9
+    },
+    "by_collection_membership": {
+      "accessories_relics": 160,
+      "armor": 601,
+      "shields": 77,
+      "weapons": 499,
+      "magic_items": 273,
+      "spells": 113
+    },
+    "by_outlier_class": {
+      "missing_stat_data": 1059,
+      "manual_review_required": 1278,
+      "rank_gate_candidate": 409,
+      "missing_recipe_context": 96,
+      "boss_reward_candidate": 227,
+      "missing_loot_context": 266,
+      "overpowered_for_rarity": 9
+    }
+  },
+  "validation": {
+    "gear_rarities_without_rank_policy": [],
+    "rank_policy_references_missing_ranks": [],
+    "missing_ranks": [],
+    "rank_policy_references_missing_regions": [],
+    "magic_tiers_without_rank_policy": [],
+    "skill_unlock_policy_references_missing_skill_ids": [],
+    "starter_region_threat_excess": []
+  },
+  "summary": {
+    "rarity_policy_entries": 7,
+    "known_gear_policy_entries": 1573,
+    "outlier_items": 1278
+  }
+}

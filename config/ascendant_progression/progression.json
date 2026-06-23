@@ -1,0 +1,92 @@
+{
+  "enabled": true,
+  "category_ids": [
+    "puffish_skills:ascendant",
+    "minecraft:ascendant",
+    "ascendant"
+  ],
+  "display_level_offset": 1,
+  "display_level_cap": 120,
+  "sync_interval_ticks": 5,
+  "managed_bonus_points": {
+    "enabled": true,
+    "milestones": [
+      {
+        "level": 10,
+        "points": 1
+      },
+      {
+        "level": 20,
+        "points": 1
+      },
+      {
+        "level": 35,
+        "points": 1
+      },
+      {
+        "level": 50,
+        "points": 1
+      },
+      {
+        "level": 70,
+        "points": 1
+      },
+      {
+        "level": 90,
+        "points": 1
+      },
+      {
+        "level": 110,
+        "points": 1
+      }
+    ]
+  },
+  "scoreboard": {
+    "enabled": true,
+    "level_objective": "ar_skill_level",
+    "xp_objective": "ar_skill_xp",
+    "xp_required_objective": "ar_skill_xp_req",
+    "points_left_objective": "ar_skill_sp",
+    "points_spent_objective": "ar_skill_spent",
+    "points_total_objective": "ar_skill_total"
+  },
+  "level_up": {
+    "enabled": true,
+    "title_text": "Level Up!",
+    "subtitle_text": "Ascendant Web",
+    "banner_ticks": 70,
+    "xp_pulse_ticks": 35,
+    "sound": "minecraft:ui.toast.challenge_complete",
+    "volume": 0.85,
+    "pitch": 1.15
+  },
+  "hud": {
+    "enabled": true,
+    "style": "vanilla_blue_segments",
+    "draw_mode": "ingame",
+    "hide_in_creative": true,
+    "hide_in_spectator": true,
+    "mana_enabled": true,
+    "show_values": true,
+    "x": "$screenW / 2 - 91",
+    "y": "$screenH - 55",
+    "track_x": "$screenW / 2 - 91",
+    "track_y": "$screenH - 55",
+    "fill_x": "$screenW / 2 - 91",
+    "fill_y": "$screenH - 55",
+    "level_text_y": "$screenH - 66",
+    "xp_text_y": "$screenH - 66",
+    "width": 182,
+    "height": 3,
+    "fill_height": 3,
+    "segment_count": 20,
+    "track_color": "#66002133",
+    "track_border_color": "#CC001C2E",
+    "segment_track_color": "#553E5B7A",
+    "segment_fill_color": "#FF43B7FF",
+    "segment_pulse_color": "#FFFFFFFF",
+    "level_text_color": "#FFC8E8FF",
+    "sp_text_color": "#FFB6E6FF",
+    "value_text_color": "#FFCFEFFF"
+  }
+}

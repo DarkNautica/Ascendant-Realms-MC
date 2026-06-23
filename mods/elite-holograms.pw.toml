@@ -1,0 +1,13 @@
+name = "Elite Holograms"
+filename = "EliteHolograms-1.20.1-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "29bc0cd1988ec8a8bf6673ded585e1ac938b5c5c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8184978
+project-id = 1245528

@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 14325760,
+    "separation": 48,
+    "spacing": 96
+  },
+  "structures": [
+    {
+      "structure": "cataclysm:amethyst_nest",
+      "weight": 1
+    }
+  ]
+}

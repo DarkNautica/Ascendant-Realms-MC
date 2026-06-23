@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "last_updated": "2026-06-18",
+  "status": "active_client_death_waypoint_clutter_control",
+  "owner": "xaeros_minimap",
+  "scope": "Applied to the active CurseForge Xaero minimap profile and existing Xaero waypoint files by scripts/sync-active-client-files.ps1.",
+  "player_goal": "Keep the current/recent death marker visible, but stop old death markers from filling the whole screen after repeated deaths.",
+  "desired_behavior": {
+    "current_deathpoint_visible": true,
+    "old_deathpoints_hidden_when_farther_than_blocks": 100,
+    "old_deathpoints_available_without_world_hud_clutter": true
+  },
+  "implemented_behavior": {
+    "current_deathpoint_visible": true,
+    "old_deathpoints_rendering_enabled": false,
+    "existing_old_deathpoints_disabled_on_sync": true,
+    "exact_old_death_only_distance_supported_by_current_xaero_profile": false,
+    "reason_for_fallback": "Xaero's exposed profile config has a global waypoint_max_distance only. Setting it to 100 would also hide the recent death marker, so the safer config-only implementation keeps deathpoints enabled and disables old deathpoints."
+  },
+  "xaero_profile_settings": {
+    "deathpoints": true,
+    "old_deathpoints": false,
+    "waypoint_max_distance": "unchanged"
+  },
+  "existing_waypoint_file_rule": {
+    "file_glob": "xaero/minimap/**/waypoints.txt",
+    "match_name": "gui.xaero_deathpoint_old",
+    "set_disabled": true,
+    "keep_current_deathpoint_enabled": true
+  },
+  "validation": {
+    "active_recent_death_marker_allowed": true,
+    "active_old_deathpoint_world_clutter_allowed": false,
+    "requires_minecraft_closed_before_sync": true,
+    "sync_script_markers": [
+      "Apply-DeathWaypointPolicy",
+      "death_waypoint_policy.json",
+      "Applied Ascendant death waypoint policy"
+    ]
+  },
+  "future_option": {
+    "needed_for_exact_100m_behavior": "A client-side Xaero integration or custom HUD hook that can compare old deathpoint distance to the player at render time while leaving the recent deathpoint exempt.",
+    "not_implemented_now": "No new mods or custom client HUD hooks were added for this pass."
+  }
+}

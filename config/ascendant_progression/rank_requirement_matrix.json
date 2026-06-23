@@ -1,0 +1,523 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T04:37:26+00:00",
+  "status": "audit_control_scaffold_only_no_hard_gates",
+  "source": {
+    "rank_progression": "config/ascendant_core/rank_progression.json",
+    "runtime_rules": "config/ascendant_core/runtime_rules.json",
+    "loot_rarity_budget": "config/ascendant_loot/loot_rarity_budget.json",
+    "atlas_regions": "config/ascendant_atlas/regions.json",
+    "puffish_skills": "config/puffish_skills/categories/ascendant/*.json"
+  },
+  "rules": [
+    "Rank is public evaluation, not raw XP.",
+    "Puffish Skills remains personal power growth.",
+    "Use rank to guide rewards and expectations without locking existing content yet.",
+    "C/B/A/S require real world achievements, not checklist grinding."
+  ],
+  "ranks": [
+    {
+      "rank_id": "unranked",
+      "display_name": "Unranked",
+      "order": 0,
+      "status": "guidance_only_no_hard_lock",
+      "identity": "A capable survivor, not yet publicly trusted by the Guild.",
+      "evaluation_style": "public_guild_evaluation_not_checklist_grind",
+      "ascendant_web_level_band": [
+        1,
+        9
+      ],
+      "recommended_spent_skill_points": [
+        0,
+        3
+      ],
+      "recommended_skill_thresholds": [
+        0
+      ],
+      "recommended_regions": [
+        "crownlands"
+      ],
+      "recommended_distance_rings": [
+        "center"
+      ],
+      "recommended_mob_threat_range": [
+        0,
+        1
+      ],
+      "recommended_gear_rarities": [
+        "common",
+        "uncommon"
+      ],
+      "recommended_spell_tiers": [
+        "tier_0_baseline",
+        "tier_1_early"
+      ],
+      "recommended_bounty_tiers": [
+        "none",
+        "tutorial",
+        "local_errand"
+      ],
+      "recommended_boss_structure_milestones": [
+        "Reach a village safely",
+        "Take the Ascendant Oath",
+        "Clear a small local problem"
+      ],
+      "gear_ceiling_from_core": "uncommon",
+      "contract_access_from_core": [
+        "tutorial",
+        "local_errand"
+      ],
+      "criteria": [
+        "Learn the Ascendant Web and survive local travel.",
+        "Complete tutorial, local errand, or first-village work.",
+        "Avoid receiving rare-or-better progression gear as routine rewards."
+      ],
+      "proof_counter_guidance": {
+        "reputation": "counts toward automated bridge but should not be the only rank signal",
+        "bounties_done": "supports rank evaluation once Bountiful contracts are validated",
+        "structures_done": "should come from meaningful structure clears, not trivial repeat farming",
+        "bosses_done": "required for B/A/S style evaluations",
+        "dragons_done": "A/S scale proof only"
+      }
+    },
+    {
+      "rank_id": "e_rank",
+      "display_name": "E-Rank",
+      "order": 1,
+      "status": "guidance_only_no_hard_lock",
+      "identity": "A registered beginner hunter who can handle ordinary danger.",
+      "evaluation_style": "public_guild_evaluation_not_checklist_grind",
+      "ascendant_web_level_band": [
+        10,
+        19
+      ],
+      "recommended_spent_skill_points": [
+        4,
+        8
+      ],
+      "recommended_skill_thresholds": [
+        0,
+        4
+      ],
+      "recommended_regions": [
+        "crownlands",
+        "verdant_coast"
+      ],
+      "recommended_distance_rings": [
+        "center",
+        "inner"
+      ],
+      "recommended_mob_threat_range": [
+        0,
+        2
+      ],
+      "recommended_gear_rarities": [
+        "common",
+        "uncommon",
+        "rare"
+      ],
+      "recommended_spell_tiers": [
+        "tier_1_early",
+        "tier_2_regional"
+      ],
+      "recommended_bounty_tiers": [
+        "village_request",
+        "wildlife_control"
+      ],
+      "recommended_boss_structure_milestones": [
+        "Complete several village contracts",
+        "Survive a night patrol",
+        "Defeat routine hostile pressure"
+      ],
+      "gear_ceiling_from_core": "rare",
+      "contract_access_from_core": [
+        "village_request",
+        "wildlife_control"
+      ],
+      "criteria": [
+        "Prove basic hostile-mob survival and complete village work.",
+        "Show one preferred skill branch instead of raw XP grinding.",
+        "Operate mostly in Crownlands and inner-road regions."
+      ],
+      "proof_counter_guidance": {
+        "reputation": "counts toward automated bridge but should not be the only rank signal",
+        "bounties_done": "supports rank evaluation once Bountiful contracts are validated",
+        "structures_done": "should come from meaningful structure clears, not trivial repeat farming",
+        "bosses_done": "required for B/A/S style evaluations",
+        "dragons_done": "A/S scale proof only"
+      }
+    },
+    {
+      "rank_id": "d_rank",
+      "display_name": "D-Rank",
+      "order": 2,
+      "status": "guidance_only_no_hard_lock",
+      "identity": "A field adventurer trusted with roads, ruins, and regional work.",
+      "evaluation_style": "public_guild_evaluation_not_checklist_grind",
+      "ascendant_web_level_band": [
+        20,
+        34
+      ],
+      "recommended_spent_skill_points": [
+        8,
+        13
+      ],
+      "recommended_skill_thresholds": [
+        0,
+        4
+      ],
+      "recommended_regions": [
+        "crownlands",
+        "verdant_coast",
+        "sunreach",
+        "stoneback_highlands",
+        "frostmarch"
+      ],
+      "recommended_distance_rings": [
+        "inner",
+        "middle"
+      ],
+      "recommended_mob_threat_range": [
+        1,
+        3
+      ],
+      "recommended_gear_rarities": [
+        "uncommon",
+        "rare"
+      ],
+      "recommended_spell_tiers": [
+        "tier_2_regional"
+      ],
+      "recommended_bounty_tiers": [
+        "village_request",
+        "road_patrol",
+        "small_ruin"
+      ],
+      "recommended_boss_structure_milestones": [
+        "Clear a minor ruin",
+        "Protect a settlement route",
+        "Return with regional materials"
+      ],
+      "gear_ceiling_from_core": "rare",
+      "contract_access_from_core": [
+        "village_request",
+        "road_patrol",
+        "small_ruin"
+      ],
+      "criteria": [
+        "Clear small structures or roadside threats.",
+        "Bring back proof from a climate-region trip.",
+        "Use rare gear or regional materials without jumping into boss-tier rewards."
+      ],
+      "proof_counter_guidance": {
+        "reputation": "counts toward automated bridge but should not be the only rank signal",
+        "bounties_done": "supports rank evaluation once Bountiful contracts are validated",
+        "structures_done": "should come from meaningful structure clears, not trivial repeat farming",
+        "bosses_done": "required for B/A/S style evaluations",
+        "dragons_done": "A/S scale proof only"
+      }
+    },
+    {
+      "rank_id": "c_rank",
+      "display_name": "C-Rank",
+      "order": 3,
+      "status": "guidance_only_no_hard_lock",
+      "identity": "A licensed monster hunter who can survive real dungeons and elite pressure.",
+      "evaluation_style": "public_guild_evaluation_not_checklist_grind",
+      "ascendant_web_level_band": [
+        35,
+        49
+      ],
+      "recommended_spent_skill_points": [
+        14,
+        23
+      ],
+      "recommended_skill_thresholds": [
+        0,
+        4,
+        14
+      ],
+      "recommended_regions": [
+        "frostmarch",
+        "sunreach",
+        "verdant_coast",
+        "stoneback_highlands",
+        "deep_wilds"
+      ],
+      "recommended_distance_rings": [
+        "middle"
+      ],
+      "recommended_mob_threat_range": [
+        2,
+        4
+      ],
+      "recommended_gear_rarities": [
+        "rare",
+        "epic"
+      ],
+      "recommended_spell_tiers": [
+        "tier_2_regional",
+        "tier_3_advanced"
+      ],
+      "recommended_bounty_tiers": [
+        "town_guild_board",
+        "dungeon_contract",
+        "rival_sighting"
+      ],
+      "recommended_boss_structure_milestones": [
+        "Clear a dungeon",
+        "Win an elite hunt",
+        "Earn a rival or town Guild notice"
+      ],
+      "gear_ceiling_from_core": "epic",
+      "contract_access_from_core": [
+        "town_guild_board",
+        "dungeon_contract",
+        "rival_sighting"
+      ],
+      "criteria": [
+        "Defeat elite mobs and clear meaningful structures.",
+        "Demonstrate mid-tree skill specialization.",
+        "Handle region identity rather than staying in starter terrain."
+      ],
+      "proof_counter_guidance": {
+        "reputation": "counts toward automated bridge but should not be the only rank signal",
+        "bounties_done": "supports rank evaluation once Bountiful contracts are validated",
+        "structures_done": "should come from meaningful structure clears, not trivial repeat farming",
+        "bosses_done": "required for B/A/S style evaluations",
+        "dragons_done": "A/S scale proof only"
+      }
+    },
+    {
+      "rank_id": "b_rank",
+      "display_name": "B-Rank",
+      "order": 4,
+      "status": "guidance_only_no_hard_lock",
+      "identity": "An elite hunter capable of major dungeons and named modded threats.",
+      "evaluation_style": "public_guild_evaluation_not_checklist_grind",
+      "ascendant_web_level_band": [
+        50,
+        69
+      ],
+      "recommended_spent_skill_points": [
+        24,
+        31
+      ],
+      "recommended_skill_thresholds": [
+        0,
+        4,
+        14
+      ],
+      "recommended_regions": [
+        "deep_wilds",
+        "dragon_scars",
+        "frostmarch",
+        "sunreach",
+        "stoneback_highlands"
+      ],
+      "recommended_distance_rings": [
+        "middle",
+        "outer"
+      ],
+      "recommended_mob_threat_range": [
+        3,
+        5
+      ],
+      "recommended_gear_rarities": [
+        "rare",
+        "epic",
+        "legendary"
+      ],
+      "recommended_spell_tiers": [
+        "tier_3_advanced",
+        "tier_4_boss"
+      ],
+      "recommended_bounty_tiers": [
+        "major_guild_registry",
+        "miniboss_contract",
+        "arcane_recovery"
+      ],
+      "recommended_boss_structure_milestones": [
+        "Clear a major dungeon",
+        "Defeat a named threat",
+        "Recover boss-adjacent material"
+      ],
+      "gear_ceiling_from_core": "legendary",
+      "contract_access_from_core": [
+        "major_guild_registry",
+        "miniboss_contract",
+        "arcane_recovery"
+      ],
+      "criteria": [
+        "Clear serious structures and survive high-pressure regions.",
+        "Beat named or miniboss-grade threats.",
+        "Earn legendary rewards only from danger that justifies them."
+      ],
+      "proof_counter_guidance": {
+        "reputation": "counts toward automated bridge but should not be the only rank signal",
+        "bounties_done": "supports rank evaluation once Bountiful contracts are validated",
+        "structures_done": "should come from meaningful structure clears, not trivial repeat farming",
+        "bosses_done": "required for B/A/S style evaluations",
+        "dragons_done": "A/S scale proof only"
+      }
+    },
+    {
+      "rank_id": "a_rank",
+      "display_name": "A-Rank",
+      "order": 5,
+      "status": "guidance_only_no_hard_lock",
+      "identity": "A realm-class fighter trusted with boss hunts and dragon-warning work.",
+      "evaluation_style": "public_guild_evaluation_not_checklist_grind",
+      "ascendant_web_level_band": [
+        70,
+        89
+      ],
+      "recommended_spent_skill_points": [
+        32,
+        44
+      ],
+      "recommended_skill_thresholds": [
+        0,
+        4,
+        14,
+        32
+      ],
+      "recommended_regions": [
+        "dragon_scars",
+        "deep_wilds",
+        "nether_front",
+        "end_expanse"
+      ],
+      "recommended_distance_rings": [
+        "outer",
+        "edge"
+      ],
+      "recommended_mob_threat_range": [
+        4,
+        6
+      ],
+      "recommended_gear_rarities": [
+        "epic",
+        "legendary",
+        "mythic"
+      ],
+      "recommended_spell_tiers": [
+        "tier_4_boss",
+        "tier_5_dragon"
+      ],
+      "recommended_bounty_tiers": [
+        "realm_threat",
+        "dragon_warning",
+        "boss_hunt"
+      ],
+      "recommended_boss_structure_milestones": [
+        "Defeat a major boss",
+        "Survive dragon-tier ecology",
+        "Recover mythic material"
+      ],
+      "gear_ceiling_from_core": "mythic",
+      "contract_access_from_core": [
+        "realm_threat",
+        "dragon_warning",
+        "boss_hunt"
+      ],
+      "criteria": [
+        "Prove capstone skill commitment.",
+        "Defeat major bosses or dragon-tier threats.",
+        "Operate in outer and hostile dimension-linked regions."
+      ],
+      "proof_counter_guidance": {
+        "reputation": "counts toward automated bridge but should not be the only rank signal",
+        "bounties_done": "supports rank evaluation once Bountiful contracts are validated",
+        "structures_done": "should come from meaningful structure clears, not trivial repeat farming",
+        "bosses_done": "required for B/A/S style evaluations",
+        "dragons_done": "A/S scale proof only"
+      }
+    },
+    {
+      "rank_id": "s_rank",
+      "display_name": "S-Rank",
+      "order": 6,
+      "status": "guidance_only_no_hard_lock",
+      "identity": "An ascendant-class anomaly measured by realm-defining achievements.",
+      "evaluation_style": "public_guild_evaluation_not_checklist_grind",
+      "ascendant_web_level_band": [
+        90,
+        120
+      ],
+      "recommended_spent_skill_points": [
+        45,
+        99
+      ],
+      "recommended_skill_thresholds": [
+        0,
+        4,
+        14,
+        32
+      ],
+      "recommended_regions": [
+        "dragon_scars",
+        "nether_front",
+        "end_expanse",
+        "deep_wilds"
+      ],
+      "recommended_distance_rings": [
+        "edge"
+      ],
+      "recommended_mob_threat_range": [
+        5,
+        6
+      ],
+      "recommended_gear_rarities": [
+        "legendary",
+        "mythic",
+        "ascendant"
+      ],
+      "recommended_spell_tiers": [
+        "tier_5_dragon",
+        "tier_6_ascendant"
+      ],
+      "recommended_bounty_tiers": [
+        "cataclysmic_threat",
+        "dragon_tier",
+        "ascendant_relic"
+      ],
+      "recommended_boss_structure_milestones": [
+        "Clear a realm-defining boss",
+        "Recover an ascendant relic",
+        "Become a Guild legend"
+      ],
+      "gear_ceiling_from_core": "ascendant",
+      "contract_access_from_core": [
+        "cataclysmic_threat",
+        "dragon_tier",
+        "ascendant_relic"
+      ],
+      "criteria": [
+        "Clear capstone bosses or ascendant outer threats.",
+        "Show mastery across multiple systems, not just raw XP.",
+        "Receive ascendant rewards only from ascendant-scale danger."
+      ],
+      "proof_counter_guidance": {
+        "reputation": "counts toward automated bridge but should not be the only rank signal",
+        "bounties_done": "supports rank evaluation once Bountiful contracts are validated",
+        "structures_done": "should come from meaningful structure clears, not trivial repeat farming",
+        "bosses_done": "required for B/A/S style evaluations",
+        "dragons_done": "A/S scale proof only"
+      }
+    }
+  ],
+  "validation": {
+    "missing_ranks": [],
+    "policy_references_missing_regions": [],
+    "gear_rarities_without_rank_policy": [],
+    "magic_tiers_without_rank_policy": [],
+    "skill_unlock_policy_references_missing_skill_ids": [],
+    "starter_region_threat_excess": [],
+    "rank_policy_references_missing_regions": []
+  },
+  "summary": {
+    "rank_count": 7,
+    "required_rank_count": 7
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "content": {
+    "town_contract_01_froststalker": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "alexsmobs:froststalker",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2600,
+      "weightMult": 0.38,
+      "rarity": "RARE"
+    },
+    "town_contract_02_giant_squid": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "alexsmobs:giant_squid",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2600,
+      "weightMult": 0.38,
+      "rarity": "RARE"
+    },
+    "town_contract_03_dire_hound_leader": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:dire_hound_leader",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2600,
+      "weightMult": 0.38,
+      "rarity": "RARE"
+    },
+    "town_contract_04_door_knight": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:door_knight",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2600,
+      "weightMult": 0.38,
+      "rarity": "RARE"
+    },
+    "town_contract_05_fallen_chaos_knight": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:fallen_chaos_knight",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2600,
+      "weightMult": 0.38,
+      "rarity": "RARE"
+    },
+    "town_contract_06_nightmare_stalker": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:nightmare_stalker",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2600,
+      "weightMult": 0.38,
+      "rarity": "RARE"
+    },
+    "town_contract_07_phantom_creeper": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:phantom_creeper",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2600,
+      "weightMult": 0.38,
+      "rarity": "RARE"
+    },
+    "town_contract_08_deepling_brute": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "cataclysm:deepling_brute",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2600,
+      "weightMult": 0.38,
+      "rarity": "RARE"
+    },
+    "town_contract_09_ignited_berserker": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "cataclysm:ignited_berserker",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2600,
+      "weightMult": 0.38,
+      "rarity": "RARE"
+    },
+    "town_contract_10_ancient_knight": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "irons_spellbooks:citadel_keeper",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2600,
+      "weightMult": 0.38,
+      "rarity": "RARE"
+    },
+    "town_contract_11_cerberus": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "majruszsdifficulty:cerberus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2600,
+      "weightMult": 0.38,
+      "rarity": "RARE"
+    },
+    "town_contract_12_creeperling": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "majruszsdifficulty:creeperling",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2600,
+      "weightMult": 0.38,
+      "rarity": "RARE"
+    },
+    "town_contract_13_cursed_armor": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "majruszsdifficulty:cursed_armor",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2600,
+      "weightMult": 0.38,
+      "rarity": "RARE"
+    },
+    "town_contract_14_giant": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "majruszsdifficulty:giant",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2600,
+      "weightMult": 0.38,
+      "rarity": "RARE"
+    },
+    "town_contract_15_illusioner": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "majruszsdifficulty:illusioner",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2600,
+      "weightMult": 0.38,
+      "rarity": "RARE"
+    },
+    "town_contract_16_tank": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "majruszsdifficulty:tank",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2600,
+      "weightMult": 0.38,
+      "rarity": "RARE"
+    },
+    "town_contract_17_foxhound": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "quark:foxhound",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2600,
+      "weightMult": 0.38,
+      "rarity": "RARE"
+    },
+    "town_contract_18_wraith": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "quark:wraith",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2600,
+      "weightMult": 0.38,
+      "rarity": "RARE"
+    },
+    "town_contract_19_day_stalker": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "soulsweapons:day_stalker",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2600,
+      "weightMult": 0.38,
+      "rarity": "RARE"
+    },
+    "town_contract_20_frost_giant": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "soulsweapons:frost_giant",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2600,
+      "weightMult": 0.38,
+      "rarity": "RARE"
+    },
+    "town_contract_21_fallen_icon": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "soulsweapons:moonknight",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2600,
+      "weightMult": 0.38,
+      "rarity": "RARE"
+    },
+    "town_contract_22_returning_knight": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "soulsweapons:returning_knight",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2600,
+      "weightMult": 0.38,
+      "rarity": "RARE"
+    },
+    "town_contract_23_familiar_ghost": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "soulsweapons:soul_reaper_ghost",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2600,
+      "weightMult": 0.38,
+      "rarity": "RARE"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "boards": [
+    {
+      "id": "village_standard",
+      "name": "Hunter Board - Village Standard",
+      "size": {
+        "width": 7,
+        "height": 5,
+        "depth": 2
+      },
+      "palette": [
+        "dark_oak",
+        "spruce",
+        "deepslate",
+        "lantern",
+        "banner"
+      ],
+      "functional_blocks": [
+        "bountiful:bountyboard",
+        "supplementaries:notice_board"
+      ],
+      "layout": {
+        "center": "Bountiful board",
+        "left": "Supplementaries notice board",
+        "right": "Rank sign or plaque",
+        "top": "Guild banner and lanterns",
+        "bottom": "barrel, crate, trophy dressing"
+      },
+      "purpose": "Small village identity and local requests."
+    },
+    {
+      "id": "town_guild_board",
+      "name": "Hunter Board - Town Guild Board",
+      "size": {
+        "width": 9,
+        "height": 6,
+        "depth": 3
+      },
+      "palette": [
+        "dark_oak",
+        "spruce",
+        "deepslate",
+        "iron_bars",
+        "chains",
+        "gold_trim"
+      ],
+      "functional_blocks": [
+        "bountiful:bountyboard",
+        "supplementaries:notice_board"
+      ],
+      "layout": {
+        "center": "Active contracts",
+        "left": "Local notices and missing persons",
+        "right": "Rank postings and hunter sightings",
+        "top": "large Guild banner",
+        "bottom": "crates, candles, broken weapons, map table"
+      },
+      "purpose": "Town-scale hub with Guild Clerk and Bounty Master nearby."
+    },
+    {
+      "id": "major_registry",
+      "name": "Hunter Registry - Major Guild Hall",
+      "size": {
+        "width": 13,
+        "height": 8,
+        "depth": 3
+      },
+      "palette": [
+        "deepslate",
+        "dark_oak",
+        "iron",
+        "gold",
+        "soul_lantern"
+      ],
+      "functional_blocks": [
+        "bountiful:bountyboard",
+        "supplementaries:notice_board"
+      ],
+      "layout": {
+        "center": "Realm contracts",
+        "left": "S/A/B/C/D/E rank plaques",
+        "right": "Rival hunter status and major threats",
+        "top": "Guild crest",
+        "bottom": "trophy wall and evaluation desk"
+      },
+      "purpose": "Major Guild Hall social identity and rank evaluation."
+    }
+  ]
+}

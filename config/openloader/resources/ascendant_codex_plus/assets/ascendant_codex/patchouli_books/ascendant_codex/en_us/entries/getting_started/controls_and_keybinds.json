@@ -1,0 +1,23 @@
+{
+  "category": "ascendant_codex:getting_started",
+  "name": "Controls & Keybinds",
+  "icon": "minecraft:oak_sign",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Core Controls",
+      "text": "Your RPG surfaces live on simple keys:$(br2)$(gold)K$() - Ascendant Web (skills)$(br)$(gold)L$() - Quest Log$(br)$(gold)R$() - Spell wheel$(br)$(gold)V$() - Cast spell$(br)$(gold)Z$() - Combat roll (dodge)"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "More Keys",
+      "text": "$(gold)Left Alt$() - Spell-bar modifier$(br)$(gold)B$() - Backpack$(br)$(gold)G$() - Curios (trinkets)$(br)$(gold)U$() - Waypoints (Xaero)$(br)$(gold)Y$() - Minimap settings$(br2)$(soft)Movement, inventory and attack keep their vanilla keys.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Recipe Lookup (JEI)",
+      "text": "$(rune)JEI$() answers 'how do I get this?'$(br2)$(gold)Ctrl+R$() - how to $(em)craft$() the hovered item$(br)$(gold)Ctrl+U$() - what it is $(em)used for$()$(br2)$(soft)Hover any item, then press the key.$()"
+    }
+  ]
+}

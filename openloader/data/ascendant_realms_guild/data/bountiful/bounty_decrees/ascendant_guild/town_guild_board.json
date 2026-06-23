@@ -1,0 +1,9 @@
+{
+  "objectives": [
+    "ar_town_guild_objs"
+  ],
+  "rewards": [
+    "ar_town_guild_rews",
+    "_all_rews"
+  ]
+}

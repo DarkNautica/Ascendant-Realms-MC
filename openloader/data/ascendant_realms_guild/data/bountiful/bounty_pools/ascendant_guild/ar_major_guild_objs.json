@@ -1,0 +1,616 @@
+{
+  "content": {
+    "major_contract_01_crossbow_pirate": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "block_factorys_bosses:crossbow_pirate",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_02_flaming_ashlord_guard": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "block_factorys_bosses:flaming_skeleton_guard_sword",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_03_frozen_skeleton": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "block_factorys_bosses:frozen_skeleton",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_04_nerakyss_the_kraken": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "block_factorys_bosses:kraken",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_05_pirate_captain": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "block_factorys_bosses:pirate_captain",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_06_pirate_rook": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "block_factorys_bosses:pirate_rook",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_07_sirok_the_sandworm": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "block_factorys_bosses:sandworm",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_08_wither_knight": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "block_factorys_bosses:soul_knight_wither_skeleton",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_09_soul_skeleton": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "block_factorys_bosses:soul_skeleton",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_10_helvar_the_underworld_knight": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "block_factorys_bosses:underworld_knight",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_11_skor_the_yeti": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "block_factorys_bosses:yeti",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_12_ancient_remnant": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "cataclysm:ancient_remnant",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_13_ender_guardian": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "cataclysm:ender_guardian",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_14_ignis": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "cataclysm:ignis",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_15_maledictus": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "cataclysm:maledictus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_16_netherite_monstrosity": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "cataclysm:netherite_monstrosity",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_17_old_netherite_monstrosity": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "cataclysm:old_netherite_monstrosity",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_18_scylla": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "cataclysm:scylla",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_19_ceraunus": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "cataclysm:scylla_ceraunus",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_20_the_baby_leviathan": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "cataclysm:the_baby_leviathan",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_21_the_harbinger": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "cataclysm:the_harbinger",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_22_the_leviathan": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "cataclysm:the_leviathan",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_23_the_leviathan_is_invincible_outside_of_water": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "cataclysm:the_leviathan_immune",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_24_the_prowler": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "cataclysm:the_prowler",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_25_the_dead_king": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "irons_spellbooks:dead_king",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_26_dead_king_soul": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "irons_spellbooks:dead_king_soul",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_27_echo_of_tyros_first_flamebearer": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "irons_spellbooks:fire_boss",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_28_ferrous_wroughtnaut": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "mowziesmobs:ferrous_wroughtnaut",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_29_frostmaw": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "mowziesmobs:frostmaw",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_30_the_decaying_king": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "soulsweapons:accursed_lord_boss",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_31_old_champion_s_remains": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "soulsweapons:draugr_boss",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_32_harbinger_of_moonlight": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "soulsweapons:moonknight_phase_2",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_33_night_prowler": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "soulsweapons:night_prowler",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7600,
+      "weightMult": 0.15,
+      "rarity": "EPIC"
+    },
+    "major_contract_34_komodo_dragon": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "alexsmobs:komodo_dragon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 11000,
+      "weightMult": 0.08,
+      "rarity": "LEGENDARY"
+    },
+    "major_contract_35_ashlord_guard": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "block_factorys_bosses:dragon_guard_sword",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 11000,
+      "weightMult": 0.08,
+      "rarity": "LEGENDARY"
+    },
+    "major_contract_36_ashlord_the_infernal_dragon": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "block_factorys_bosses:infernal_dragon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 11000,
+      "weightMult": 0.08,
+      "rarity": "LEGENDARY"
+    },
+    "major_contract_37_dread_hound": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:dread_hound",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 11000,
+      "weightMult": 0.08,
+      "rarity": "LEGENDARY"
+    },
+    "major_contract_38_cockatrice": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "iceandfire:cockatrice",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 11000,
+      "weightMult": 0.08,
+      "rarity": "LEGENDARY"
+    },
+    "major_contract_39_cyclops": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "iceandfire:cyclops",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 11000,
+      "weightMult": 0.08,
+      "rarity": "LEGENDARY"
+    },
+    "major_contract_40_dread_beast": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "iceandfire:dread_beast",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 11000,
+      "weightMult": 0.08,
+      "rarity": "LEGENDARY"
+    },
+    "major_contract_41_dread_ghoul": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "iceandfire:dread_ghoul",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 11000,
+      "weightMult": 0.08,
+      "rarity": "LEGENDARY"
+    },
+    "major_contract_42_dread_knight_horse": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "iceandfire:dread_horse",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 11000,
+      "weightMult": 0.08,
+      "rarity": "LEGENDARY"
+    },
+    "major_contract_43_dread_knight": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "iceandfire:dread_knight",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 11000,
+      "weightMult": 0.08,
+      "rarity": "LEGENDARY"
+    },
+    "major_contract_44_dread_lich": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "iceandfire:dread_lich",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 11000,
+      "weightMult": 0.08,
+      "rarity": "LEGENDARY"
+    },
+    "major_contract_45_dread_queen": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "iceandfire:dread_queen",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 11000,
+      "weightMult": 0.08,
+      "rarity": "LEGENDARY"
+    },
+    "major_contract_46_dread_scuttler": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "iceandfire:dread_scuttler",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 11000,
+      "weightMult": 0.08,
+      "rarity": "LEGENDARY"
+    },
+    "major_contract_47_dread_thrall": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "iceandfire:dread_thrall",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 11000,
+      "weightMult": 0.08,
+      "rarity": "LEGENDARY"
+    },
+    "major_contract_48_fire_dragon": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "iceandfire:fire_dragon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 11000,
+      "weightMult": 0.08,
+      "rarity": "LEGENDARY"
+    },
+    "major_contract_49_gorgon": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "iceandfire:gorgon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 11000,
+      "weightMult": 0.08,
+      "rarity": "LEGENDARY"
+    },
+    "major_contract_50_hydra": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "iceandfire:hydra",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 11000,
+      "weightMult": 0.08,
+      "rarity": "LEGENDARY"
+    },
+    "major_contract_51_ice_dragon": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "iceandfire:ice_dragon",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 11000,
+      "weightMult": 0.08,
+      "rarity": "LEGENDARY"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "source_registry": "config/ascendant_index/mob_registry.json",
+  "policy": "Mobs are classified by threat tier, then filtered by region/biome/distance through In Control or a future helper module.",
+  "live_guardrail": "config/incontrol/spawn.json"
+}

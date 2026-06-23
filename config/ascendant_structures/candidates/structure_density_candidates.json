@@ -1,0 +1,1568 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-18T01:57:55+00:00",
+  "status": "disabled_review_only_not_loaded_by_minecraft",
+  "do_not_move_to_openloader_without_approval": true,
+  "candidate_scope": "spacing/density candidates generated from structure-set evidence; still disabled",
+  "candidates": [
+    {
+      "structure_set": "block_factorys_bosses:sandworm_nest",
+      "source": "block_factorys_bosses-2.1.2-forge-1.20.1.jar",
+      "current_spacing": 45,
+      "current_separation": 30,
+      "current_salt": 1779810129,
+      "proposed_spacing": 96,
+      "proposed_separation": 48,
+      "structures": [
+        "block_factorys_bosses:sandworm_nest"
+      ],
+      "density_risk": "controlled",
+      "suggested_fix_type": "boss_or_dragon_should_be_rare",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "block_factorys_bosses:yeti_hideout",
+      "source": "block_factorys_bosses-2.1.2-forge-1.20.1.jar",
+      "current_spacing": 30,
+      "current_separation": 25,
+      "current_salt": 787478644,
+      "proposed_spacing": 96,
+      "proposed_separation": 48,
+      "structures": [
+        "block_factorys_bosses:yeti_hideout"
+      ],
+      "density_risk": "moderate",
+      "suggested_fix_type": "boss_or_dragon_should_be_rare",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "cataclysm:abandoned_structures",
+      "source": "L_Enders_Cataclysm-3.30.jar",
+      "current_spacing": 30,
+      "current_separation": 20,
+      "current_salt": 514659267,
+      "proposed_spacing": 96,
+      "proposed_separation": 48,
+      "structures": [
+        "cataclysm:abandoned_spire",
+        "cataclysm:abandoned_temple",
+        "cataclysm:abandoned_village"
+      ],
+      "density_risk": "moderate",
+      "suggested_fix_type": "boss_or_dragon_should_be_rare",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "cataclysm:amethyst_nest",
+      "source": "L_Enders_Cataclysm-3.30.jar",
+      "current_spacing": 32,
+      "current_separation": 8,
+      "current_salt": 14325760,
+      "proposed_spacing": 96,
+      "proposed_separation": 48,
+      "structures": [
+        "cataclysm:amethyst_nest"
+      ],
+      "density_risk": "moderate",
+      "suggested_fix_type": "boss_or_dragon_should_be_rare",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "cataclysm:desert_structures",
+      "source": "L_Enders_Cataclysm-3.30.jar",
+      "current_spacing": 30,
+      "current_separation": 20,
+      "current_salt": 31547671,
+      "proposed_spacing": 96,
+      "proposed_separation": 48,
+      "structures": [
+        "cataclysm:desert_occupied_village",
+        "cataclysm:desert_site"
+      ],
+      "density_risk": "moderate",
+      "suggested_fix_type": "boss_or_dragon_should_be_rare",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "iceandfire:cyclops_cave",
+      "source": "IceAndFireCE-1.2.5-1.20.1-forge.jar",
+      "current_spacing": 10,
+      "current_separation": 6,
+      "current_salt": 7407930,
+      "proposed_spacing": 96,
+      "proposed_separation": 48,
+      "structures": [
+        "iceandfire:cyclops_cave"
+      ],
+      "density_risk": "dangerously_dense",
+      "suggested_fix_type": "boss_or_dragon_should_be_rare",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "iceandfire:dragon_cave",
+      "source": "IceAndFireCE-1.2.5-1.20.1-forge.jar",
+      "current_spacing": 18,
+      "current_separation": 12,
+      "current_salt": 9821379,
+      "proposed_spacing": 96,
+      "proposed_separation": 48,
+      "structures": [
+        "iceandfire:fire_dragon_cave",
+        "iceandfire:ice_dragon_cave",
+        "iceandfire:lightning_dragon_cave"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "boss_or_dragon_should_be_rare",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "iceandfire:dragon_roost",
+      "source": "IceAndFireCE-1.2.5-1.20.1-forge.jar",
+      "current_spacing": 15,
+      "current_separation": 6,
+      "current_salt": 3747893,
+      "proposed_spacing": 96,
+      "proposed_separation": 48,
+      "structures": [
+        "iceandfire:fire_dragon_roost",
+        "iceandfire:ice_dragon_roost",
+        "iceandfire:lightning_dragon_roost"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "boss_or_dragon_should_be_rare",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "iceandfire:gorgon_temple",
+      "source": "IceAndFireCE-1.2.5-1.20.1-forge.jar",
+      "current_spacing": 32,
+      "current_separation": 12,
+      "current_salt": 76489509,
+      "proposed_spacing": 96,
+      "proposed_separation": 48,
+      "structures": [
+        "iceandfire:gorgon_temple"
+      ],
+      "density_risk": "moderate",
+      "suggested_fix_type": "boss_or_dragon_should_be_rare",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "iceandfire:graveyard",
+      "source": "IceAndFireCE-1.2.5-1.20.1-forge.jar",
+      "current_spacing": 28,
+      "current_separation": 14,
+      "current_salt": 44712661,
+      "proposed_spacing": 96,
+      "proposed_separation": 48,
+      "structures": [
+        "iceandfire:graveyard"
+      ],
+      "density_risk": "moderate",
+      "suggested_fix_type": "boss_or_dragon_should_be_rare",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "iceandfire:hydra_cave",
+      "source": "IceAndFireCE-1.2.5-1.20.1-forge.jar",
+      "current_spacing": 10,
+      "current_separation": 6,
+      "current_salt": 8903243,
+      "proposed_spacing": 96,
+      "proposed_separation": 48,
+      "structures": [
+        "iceandfire:hydra_cave"
+      ],
+      "density_risk": "dangerously_dense",
+      "suggested_fix_type": "boss_or_dragon_should_be_rare",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "iceandfire:mausoleum",
+      "source": "IceAndFireCE-1.2.5-1.20.1-forge.jar",
+      "current_spacing": 32,
+      "current_separation": 12,
+      "current_salt": 14200531,
+      "proposed_spacing": 96,
+      "proposed_separation": 48,
+      "structures": [
+        "iceandfire:mausoleum"
+      ],
+      "density_risk": "moderate",
+      "suggested_fix_type": "boss_or_dragon_should_be_rare",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "iceandfire:pixie_village",
+      "source": "IceAndFireCE-1.2.5-1.20.1-forge.jar",
+      "current_spacing": 12,
+      "current_separation": 8,
+      "current_salt": 7407930,
+      "proposed_spacing": 96,
+      "proposed_separation": 48,
+      "structures": [
+        "iceandfire:pixie_village"
+      ],
+      "density_risk": "dangerously_dense",
+      "suggested_fix_type": "boss_or_dragon_should_be_rare",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "iceandfire:siren_island",
+      "source": "IceAndFireCE-1.2.5-1.20.1-forge.jar",
+      "current_spacing": 20,
+      "current_separation": 14,
+      "current_salt": 9810327,
+      "proposed_spacing": 96,
+      "proposed_separation": 48,
+      "structures": [
+        "iceandfire:siren_island"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "boss_or_dragon_should_be_rare",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "idas:idas_ocean",
+      "source": "idas_forge-1.13.0+1.20.1.jar",
+      "current_spacing": 35,
+      "current_separation": 29,
+      "current_salt": 169480681,
+      "proposed_spacing": 96,
+      "proposed_separation": 48,
+      "structures": [
+        "idas:iceandfire/sirens_cove",
+        "idas:sunken_ship/sunken_ship",
+        "idas:sunken_ship/sunken_ship_coral",
+        "idas:sunken_ship/sunken_ship_ruins"
+      ],
+      "density_risk": "moderate",
+      "suggested_fix_type": "boss_or_dragon_should_be_rare",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "idas:idas_rare",
+      "source": "idas_forge-1.13.0+1.20.1.jar",
+      "current_spacing": 45,
+      "current_separation": 20,
+      "current_salt": 169480678,
+      "proposed_spacing": 96,
+      "proposed_separation": 48,
+      "structures": [
+        "idas:ancient_mines",
+        "idas:ars_nouveau/archmages_tower",
+        "idas:bazaar",
+        "idas:collectors_museum",
+        "idas:desert_pyramid",
+        "idas:iceandfire/dread_citadel",
+        "idas:labyrinth",
+        "idas:pillager_fortress",
+        "idas:ruins_of_the_deep",
+        "idas:tinkers_citadel",
+        "idas:tinkers_workshop",
+        "idas:tree_of_wisdom",
+        "idas:windswept_shrine"
+      ],
+      "density_risk": "controlled",
+      "suggested_fix_type": "boss_or_dragon_should_be_rare",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "betterdungeons:small_dungeons",
+      "source": "YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+      "current_spacing": 10,
+      "current_separation": 6,
+      "current_salt": 34239823,
+      "proposed_spacing": 32,
+      "proposed_separation": 12,
+      "structures": [
+        "betterdungeons:small_dungeon"
+      ],
+      "density_risk": "dangerously_dense",
+      "suggested_fix_type": "dungeon_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "bettermineshafts:mineshafts",
+      "source": "YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+      "current_spacing": 1,
+      "current_separation": 0,
+      "current_salt": 593751784,
+      "proposed_spacing": 32,
+      "proposed_separation": 12,
+      "structures": [
+        "bettermineshafts:mineshaft_acacia",
+        "bettermineshafts:mineshaft_desert",
+        "bettermineshafts:mineshaft_dripstone",
+        "bettermineshafts:mineshaft_ice",
+        "bettermineshafts:mineshaft_jungle",
+        "bettermineshafts:mineshaft_lush",
+        "bettermineshafts:mineshaft_mesa",
+        "bettermineshafts:mineshaft_mushroom",
+        "bettermineshafts:mineshaft_oak",
+        "bettermineshafts:mineshaft_overgrown",
+        "bettermineshafts:mineshaft_red_desert",
+        "bettermineshafts:mineshaft_spruce",
+        "bettermineshafts:mineshaft_spruce_snowy"
+      ],
+      "density_risk": "dangerously_dense",
+      "suggested_fix_type": "dungeon_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "idas:idas_common",
+      "source": "idas_forge-1.13.0+1.20.1.jar",
+      "current_spacing": 21,
+      "current_separation": 12,
+      "current_salt": 169480670,
+      "proposed_spacing": 32,
+      "proposed_separation": 12,
+      "structures": [
+        "idas:abandoned_vineyard",
+        "idas:abandonedhouse",
+        "idas:apothecary_abode",
+        "idas:bearclaw_inn",
+        "idas:beekeepers_house",
+        "idas:botanist",
+        "idas:brickhouse",
+        "idas:castle",
+        "idas:desert_ruins",
+        "idas:dig_site/dig_site",
+        "idas:dig_site/dig_site_desert",
+        "idas:enchantingtower",
+        "idas:farmhouse",
+        "idas:fishermans_lodge",
+        "idas:haunted_manor",
+        "idas:hermits_hollow",
+        "idas:hunters_cabin",
+        "idas:mason_house",
+        "idas:redhorn_guild",
+        "idas:ruined_church",
+        "idas:ruined_fort",
+        "idas:ruined_well",
+        "idas:the_log",
+        "idas:treetop_tavern",
+        "idas:tudor_pub",
+        "idas:wacky_wares",
+        "idas:winter_wagon",
+        "idas:witches_treestump",
+        "idas:wizard_tower"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "dungeon_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "minecraft:mineshafts",
+      "source": "minecraft-1.20.1",
+      "current_spacing": 1,
+      "current_separation": 0,
+      "current_salt": 0,
+      "proposed_spacing": 32,
+      "proposed_separation": 12,
+      "structures": [
+        "minecraft:mineshaft",
+        "minecraft:mineshaft_mesa"
+      ],
+      "density_risk": "dangerously_dense",
+      "suggested_fix_type": "dungeon_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:small_tower_well",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 23,
+      "current_separation": 15,
+      "current_salt": 466628370,
+      "proposed_spacing": 32,
+      "proposed_separation": 15,
+      "structures": [
+        "mvs:small_tower_well"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "dungeon_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "terralith:underground",
+      "source": "Terralith_1.20.x_v2.5.4.jar",
+      "current_spacing": 11,
+      "current_separation": 3,
+      "current_salt": 838677219,
+      "proposed_spacing": 32,
+      "proposed_separation": 12,
+      "structures": [
+        "terralith:underground/giant_bee_hive",
+        "terralith:underground/mining_outpost",
+        "terralith:underground/oak_cabin",
+        "terralith:underground/old_refinery",
+        "terralith:underground/sunken_tower"
+      ],
+      "density_risk": "dangerously_dense",
+      "suggested_fix_type": "dungeon_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "terralith:underground_dungeon",
+      "source": "Terralith_1.20.x_v2.5.4.jar",
+      "current_spacing": 9,
+      "current_separation": 6,
+      "current_salt": 1722690696,
+      "proposed_spacing": 32,
+      "proposed_separation": 12,
+      "structures": [
+        "terralith:underground/frosted_dungeon"
+      ],
+      "density_risk": "dangerously_dense",
+      "suggested_fix_type": "dungeon_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "aquamirae:outpost",
+      "source": "aquamirae-forge-1.20.1-6.4.0.jar",
+      "current_spacing": 18,
+      "current_separation": 10,
+      "current_salt": 9291764181,
+      "proposed_spacing": 28,
+      "proposed_separation": 10,
+      "structures": [
+        "aquamirae:outpost"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "aquamirae:surface",
+      "source": "active-instance-openloader:ascendant_realms_world_integration",
+      "current_spacing": 20,
+      "current_separation": 8,
+      "current_salt": 9191766080,
+      "proposed_spacing": 28,
+      "proposed_separation": 10,
+      "structures": [
+        "aquamirae:surface/arch",
+        "aquamirae:surface/spiral"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "betterdungeons:small_nether_dungeons",
+      "source": "YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+      "current_spacing": 16,
+      "current_separation": 10,
+      "current_salt": 998767517,
+      "proposed_spacing": 28,
+      "proposed_separation": 10,
+      "structures": [
+        "betterdungeons:small_nether_dungeon"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "humancompanions:companion_house",
+      "source": "humancompanions-1.20.1-1.7.6.jar",
+      "current_spacing": 15,
+      "current_separation": 10,
+      "current_salt": 1234567890,
+      "proposed_spacing": 28,
+      "proposed_separation": 10,
+      "structures": [
+        "humancompanions:acacia_house",
+        "humancompanions:birch_house",
+        "humancompanions:dark_oak_house",
+        "humancompanions:oak_birch_house",
+        "humancompanions:oak_house",
+        "humancompanions:sandstone_house",
+        "humancompanions:spruce_house",
+        "humancompanions:terracotta_house"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mes:enderpin_spikes",
+      "source": "MoogsEndStructures-1.20-2.0.3.jar",
+      "current_spacing": 13,
+      "current_separation": 8,
+      "current_salt": 133287874,
+      "proposed_spacing": 28,
+      "proposed_separation": 10,
+      "structures": [
+        "mes:enderpin_spikes"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mes:ruined_pillar",
+      "source": "MoogsEndStructures-1.20-2.0.3.jar",
+      "current_spacing": 10,
+      "current_separation": 7,
+      "current_salt": 322652548,
+      "proposed_spacing": 28,
+      "proposed_separation": 10,
+      "structures": [
+        "mes:ruined_pillar"
+      ],
+      "density_risk": "dangerously_dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "minecraft:ancient_cities",
+      "source": "minecraft-1.20.1",
+      "current_spacing": 24,
+      "current_separation": 8,
+      "current_salt": 20083232,
+      "proposed_spacing": 28,
+      "proposed_separation": 10,
+      "structures": [
+        "minecraft:ancient_city"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "minecraft:buried_treasures",
+      "source": "minecraft-1.20.1",
+      "current_spacing": 1,
+      "current_separation": 0,
+      "current_salt": 0,
+      "proposed_spacing": 28,
+      "proposed_separation": 10,
+      "structures": [
+        "minecraft:buried_treasure"
+      ],
+      "density_risk": "dangerously_dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "minecraft:end_cities",
+      "source": "minecraft-1.20.1",
+      "current_spacing": 20,
+      "current_separation": 11,
+      "current_salt": 10387313,
+      "proposed_spacing": 28,
+      "proposed_separation": 11,
+      "structures": [
+        "minecraft:end_city"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "minecraft:nether_fossils",
+      "source": "minecraft-1.20.1",
+      "current_spacing": 2,
+      "current_separation": 1,
+      "current_salt": 14357921,
+      "proposed_spacing": 28,
+      "proposed_separation": 10,
+      "structures": [
+        "minecraft:nether_fossil"
+      ],
+      "density_risk": "dangerously_dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "minecraft:ocean_ruins",
+      "source": "minecraft-1.20.1",
+      "current_spacing": 20,
+      "current_separation": 8,
+      "current_salt": 14357621,
+      "proposed_spacing": 28,
+      "proposed_separation": 10,
+      "structures": [
+        "minecraft:ocean_ruin_cold",
+        "minecraft:ocean_ruin_warm"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "minecraft:pillager_outposts",
+      "source": "minecraft-1.20.1",
+      "current_spacing": 32,
+      "current_separation": 8,
+      "current_salt": 165745296,
+      "proposed_spacing": 32,
+      "proposed_separation": 10,
+      "structures": [
+        "minecraft:pillager_outpost"
+      ],
+      "density_risk": "moderate",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mowziesmobs:wrought_chambers",
+      "source": "mowziesmobs-1.8.2.jar",
+      "current_spacing": 15,
+      "current_separation": 5,
+      "current_salt": 23217347,
+      "proposed_spacing": 28,
+      "proposed_separation": 10,
+      "structures": [
+        "mowziesmobs:wrought_chamber"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:acacia_tree",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 18,
+      "current_separation": 13,
+      "current_salt": 433547658,
+      "proposed_spacing": 28,
+      "proposed_separation": 13,
+      "structures": [
+        "mvs:acacia_tree"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:bench",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 18,
+      "current_separation": 14,
+      "current_salt": 192844750,
+      "proposed_spacing": 28,
+      "proposed_separation": 14,
+      "structures": [
+        "mvs:bench"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:birch_tree",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 18,
+      "current_separation": 13,
+      "current_salt": 198277385,
+      "proposed_spacing": 28,
+      "proposed_separation": 13,
+      "structures": [
+        "mvs:birch_tree"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:cherry_tree",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 18,
+      "current_separation": 13,
+      "current_salt": 287449098,
+      "proposed_spacing": 28,
+      "proposed_separation": 13,
+      "structures": [
+        "mvs:cherry_tree"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:dark_oak_tree",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 18,
+      "current_separation": 13,
+      "current_salt": 109878734,
+      "proposed_spacing": 28,
+      "proposed_separation": 13,
+      "structures": [
+        "mvs:dark_oak_tree"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:haystack",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 16,
+      "current_separation": 7,
+      "current_salt": 287746539,
+      "proposed_spacing": 28,
+      "proposed_separation": 10,
+      "structures": [
+        "mvs:haystack"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:horse_campsite",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 19,
+      "current_separation": 17,
+      "current_salt": 299909574,
+      "proposed_spacing": 28,
+      "proposed_separation": 17,
+      "structures": [
+        "mvs:horse_campsite"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:jungle_palm_tree",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 18,
+      "current_separation": 13,
+      "current_salt": 687545574,
+      "proposed_spacing": 28,
+      "proposed_separation": 13,
+      "structures": [
+        "mvs:jungle_palm_tree"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:jungle_tree",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 18,
+      "current_separation": 13,
+      "current_salt": 987873484,
+      "proposed_spacing": 28,
+      "proposed_separation": 13,
+      "structures": [
+        "mvs:jungle_tree"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:medium_bamboo_cart",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 12,
+      "current_separation": 8,
+      "current_salt": 873648576,
+      "proposed_spacing": 28,
+      "proposed_separation": 10,
+      "structures": [
+        "mvs:medium_bamboo_cart"
+      ],
+      "density_risk": "dangerously_dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:oak_tree",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 18,
+      "current_separation": 13,
+      "current_salt": 509676834,
+      "proposed_spacing": 28,
+      "proposed_separation": 13,
+      "structures": [
+        "mvs:oak_tree"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:pile",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 13,
+      "current_separation": 7,
+      "current_salt": 377640917,
+      "proposed_spacing": 28,
+      "proposed_separation": 10,
+      "structures": [
+        "mvs:pile"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:small_acacia_lantern",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 24,
+      "current_separation": 12,
+      "current_salt": 100928383,
+      "proposed_spacing": 28,
+      "proposed_separation": 12,
+      "structures": [
+        "mvs:small_acacia_lantern"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:small_bamboo_lantern",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 24,
+      "current_separation": 12,
+      "current_salt": 884392014,
+      "proposed_spacing": 28,
+      "proposed_separation": 12,
+      "structures": [
+        "mvs:small_bamboo_lantern"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:small_birch_lantern",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 24,
+      "current_separation": 12,
+      "current_salt": 289983564,
+      "proposed_spacing": 28,
+      "proposed_separation": 12,
+      "structures": [
+        "mvs:small_birch_lantern"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:small_campfire_lantern",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 24,
+      "current_separation": 12,
+      "current_salt": 187772773,
+      "proposed_spacing": 28,
+      "proposed_separation": 12,
+      "structures": [
+        "mvs:small_campfire_lantern"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:small_cherry_lantern",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 24,
+      "current_separation": 12,
+      "current_salt": 117264438,
+      "proposed_spacing": 28,
+      "proposed_separation": 12,
+      "structures": [
+        "mvs:small_cherry_lantern"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:small_dark_oak_lantern",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 24,
+      "current_separation": 12,
+      "current_salt": 100932854,
+      "proposed_spacing": 28,
+      "proposed_separation": 12,
+      "structures": [
+        "mvs:small_dark_oak_lantern"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:small_jungle_lantern",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 24,
+      "current_separation": 12,
+      "current_salt": 100938475,
+      "proposed_spacing": 28,
+      "proposed_separation": 12,
+      "structures": [
+        "mvs:small_jungle_lantern"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:small_mangrove_lantern",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 24,
+      "current_separation": 12,
+      "current_salt": 772839918,
+      "proposed_spacing": 28,
+      "proposed_separation": 12,
+      "structures": [
+        "mvs:small_mangrove_lantern"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:small_oak_lantern",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 24,
+      "current_separation": 12,
+      "current_salt": 110989883,
+      "proposed_spacing": 28,
+      "proposed_separation": 12,
+      "structures": [
+        "mvs:small_oak_lantern"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:small_spruce_lantern",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 24,
+      "current_separation": 12,
+      "current_salt": 193986423,
+      "proposed_spacing": 28,
+      "proposed_separation": 12,
+      "structures": [
+        "mvs:small_spruce_lantern"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:spruce_tree",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 18,
+      "current_separation": 13,
+      "current_salt": 100588374,
+      "proposed_spacing": 28,
+      "proposed_separation": 13,
+      "structures": [
+        "mvs:spruce_tree"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:stone_rock",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 18,
+      "current_separation": 13,
+      "current_salt": 485549328,
+      "proposed_spacing": 28,
+      "proposed_separation": 13,
+      "structures": [
+        "mvs:stone_rock"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "structory:ruin_quiet",
+      "source": "Structory_1.20.x_v1.3.5.jar",
+      "current_spacing": 23,
+      "current_separation": 10,
+      "current_salt": 6942069,
+      "proposed_spacing": 28,
+      "proposed_separation": 10,
+      "structures": [
+        "structory:swamp_ruin"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "supplementaries:way_signs",
+      "source": "supplementaries-1.20-3.1.43-forge.jar",
+      "current_spacing": 19,
+      "current_separation": 10,
+      "current_salt": 431041527,
+      "proposed_spacing": 28,
+      "proposed_separation": 10,
+      "structures": [
+        "supplementaries:way_sign"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "terralith:rubble",
+      "source": "Terralith_1.20.x_v2.5.4.jar",
+      "current_spacing": 18,
+      "current_separation": 12,
+      "current_salt": 920145,
+      "proposed_spacing": 28,
+      "proposed_separation": 12,
+      "structures": [
+        "terralith:rubble_desert",
+        "terralith:rubble_forest",
+        "terralith:rubble_jungle",
+        "terralith:rubble_mesa",
+        "terralith:rubble_mountain",
+        "terralith:rubble_taiga"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "towns_and_towers:other",
+      "source": "Towns-and-Towers-1.12-Fabric+Forge.jar",
+      "current_spacing": 32,
+      "current_separation": 16,
+      "current_salt": 30084234,
+      "proposed_spacing": 32,
+      "proposed_separation": 16,
+      "structures": [
+        "towns_and_towers:mimic_desert",
+        "towns_and_towers:wreckage_ocean"
+      ],
+      "density_risk": "moderate",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "towns_and_towers:towns",
+      "source": "Towns-and-Towers-1.12-Fabric+Forge.jar",
+      "current_spacing": 48,
+      "current_separation": 24,
+      "current_salt": 10587309,
+      "proposed_spacing": 48,
+      "proposed_separation": 24,
+      "structures": [
+        "towns_and_towers:exclusives/village_classic",
+        "towns_and_towers:exclusives/village_iberian",
+        "towns_and_towers:exclusives/village_mediterranean",
+        "towns_and_towers:exclusives/village_nilotic",
+        "towns_and_towers:exclusives/village_piglin",
+        "towns_and_towers:exclusives/village_rustic",
+        "towns_and_towers:exclusives/village_swedish",
+        "towns_and_towers:exclusives/village_tudor",
+        "towns_and_towers:exclusives/village_wandering_trader_camp",
+        "towns_and_towers:village_badlands",
+        "towns_and_towers:village_beach",
+        "towns_and_towers:village_birch_forest",
+        "towns_and_towers:village_flower_forest",
+        "towns_and_towers:village_forest",
+        "towns_and_towers:village_grove",
+        "towns_and_towers:village_jungle",
+        "towns_and_towers:village_meadow",
+        "towns_and_towers:village_mushroom_fields",
+        "towns_and_towers:village_ocean",
+        "towns_and_towers:village_old_growth_taiga",
+        "towns_and_towers:village_savanna_plateau",
+        "towns_and_towers:village_snowy_slopes",
+        "towns_and_towers:village_snowy_taiga",
+        "towns_and_towers:village_sparse_jungle",
+        "towns_and_towers:village_sunflower_plains",
+        "towns_and_towers:village_swamp",
+        "towns_and_towers:village_wooded_badlands"
+      ],
+      "density_risk": "controlled",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "villagesandpillages:village_witch",
+      "source": "villagesandpillages-forge-mc1.20.1-1.0.2.jar",
+      "current_spacing": 24,
+      "current_separation": 16,
+      "current_salt": 365808513,
+      "proposed_spacing": 28,
+      "proposed_separation": 16,
+      "structures": [
+        "villagesandpillages:village_witch"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "general_visible_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "integrated_villages:regular_villages",
+      "source": "active-instance-openloader:ascendant_realms_world_integration",
+      "current_spacing": 64,
+      "current_separation": 32,
+      "current_salt": 1982700828,
+      "proposed_spacing": 64,
+      "proposed_separation": 32,
+      "structures": [
+        "integrated_villages:cabin_village",
+        "integrated_villages:clockwork_village",
+        "integrated_villages:kutcha_village",
+        "integrated_villages:marketstead_village",
+        "integrated_villages:mediterranean_village",
+        "integrated_villages:mossy_mounds",
+        "integrated_villages:oasis_village",
+        "integrated_villages:pirate_village",
+        "integrated_villages:quark/minka_village",
+        "integrated_villages:sunken_village",
+        "integrated_villages:tavern_village"
+      ],
+      "density_risk": "controlled",
+      "suggested_fix_type": "water_structure_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "minecraft:shipwrecks",
+      "source": "minecraft-1.20.1",
+      "current_spacing": 24,
+      "current_separation": 4,
+      "current_salt": 165745295,
+      "proposed_spacing": 36,
+      "proposed_separation": 12,
+      "structures": [
+        "minecraft:shipwreck",
+        "minecraft:shipwreck_beached"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "water_structure_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "mvs:other_wells",
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "current_spacing": 24,
+      "current_separation": 18,
+      "current_salt": 336692254,
+      "proposed_spacing": 36,
+      "proposed_separation": 18,
+      "structures": [
+        "mvs:acacia_well",
+        "mvs:birch_well",
+        "mvs:dark_oak_well",
+        "mvs:desert_well",
+        "mvs:jungle_well",
+        "mvs:oak_well",
+        "mvs:rocky_well",
+        "mvs:small_copper_well",
+        "mvs:small_well",
+        "mvs:snowy_well",
+        "mvs:spruce_well",
+        "mvs:well"
+      ],
+      "density_risk": "dense",
+      "suggested_fix_type": "water_structure_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    },
+    {
+      "structure_set": "towns_and_towers:towers",
+      "source": "Towns-and-Towers-1.12-Fabric+Forge.jar",
+      "current_spacing": 48,
+      "current_separation": 24,
+      "current_salt": 205745294,
+      "proposed_spacing": 48,
+      "proposed_separation": 24,
+      "structures": [
+        "towns_and_towers:exclusives/pillager_outpost_classic",
+        "towns_and_towers:exclusives/pillager_outpost_iberian",
+        "towns_and_towers:exclusives/pillager_outpost_mediterranean",
+        "towns_and_towers:exclusives/pillager_outpost_oriental",
+        "towns_and_towers:exclusives/pillager_outpost_rustic",
+        "towns_and_towers:exclusives/pillager_outpost_swedish",
+        "towns_and_towers:exclusives/pillager_outpost_tudor",
+        "towns_and_towers:pillager_outpost_badlands",
+        "towns_and_towers:pillager_outpost_beach",
+        "towns_and_towers:pillager_outpost_birch_forest",
+        "towns_and_towers:pillager_outpost_desert",
+        "towns_and_towers:pillager_outpost_flower_forest",
+        "towns_and_towers:pillager_outpost_forest",
+        "towns_and_towers:pillager_outpost_grove",
+        "towns_and_towers:pillager_outpost_jungle",
+        "towns_and_towers:pillager_outpost_meadow",
+        "towns_and_towers:pillager_outpost_mushroom_fields",
+        "towns_and_towers:pillager_outpost_ocean",
+        "towns_and_towers:pillager_outpost_old_growth_taiga",
+        "towns_and_towers:pillager_outpost_savanna",
+        "towns_and_towers:pillager_outpost_savanna_plateau",
+        "towns_and_towers:pillager_outpost_snowy_beach",
+        "towns_and_towers:pillager_outpost_snowy_plains",
+        "towns_and_towers:pillager_outpost_snowy_slopes",
+        "towns_and_towers:pillager_outpost_snowy_taiga",
+        "towns_and_towers:pillager_outpost_sparse_jungle",
+        "towns_and_towers:pillager_outpost_sunflower_plains",
+        "towns_and_towers:pillager_outpost_swamp",
+        "towns_and_towers:pillager_outpost_taiga",
+        "towns_and_towers:pillager_outpost_wooded_badlands"
+      ],
+      "density_risk": "controlled",
+      "suggested_fix_type": "water_structure_density_review",
+      "review_status": "candidate_disabled_pending_manual_review",
+      "live_enabled": false,
+      "notes": [
+        "Review-only candidate. Do not copy into OpenLoader until Jayden approves this specific structure set.",
+        "If accepted, recreate the original structure_set JSON with only spacing/separation adjusted unless a region lock is also approved."
+      ]
+    }
+  ]
+}

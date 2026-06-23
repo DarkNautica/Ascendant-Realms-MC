@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "mode": "adjacent_weight_blend",
+  "allowed_neighbors": {
+    "center": [
+      "north",
+      "south",
+      "east",
+      "west",
+      "north_east",
+      "north_west",
+      "south_east",
+      "south_west"
+    ],
+    "north": [
+      "center",
+      "north_east",
+      "north_west",
+      "east",
+      "west"
+    ],
+    "south": [
+      "center",
+      "south_east",
+      "south_west",
+      "east",
+      "west"
+    ],
+    "east": [
+      "center",
+      "north_east",
+      "south_east",
+      "north",
+      "south"
+    ],
+    "west": [
+      "center",
+      "north_west",
+      "south_west",
+      "north",
+      "south"
+    ],
+    "south_east": [
+      "south",
+      "east",
+      "center"
+    ],
+    "south_west": [
+      "south",
+      "west",
+      "center"
+    ],
+    "north_east": [
+      "north",
+      "east",
+      "center"
+    ],
+    "north_west": [
+      "north",
+      "west",
+      "center"
+    ]
+  }
+}

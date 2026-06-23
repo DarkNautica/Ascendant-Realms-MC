@@ -1,0 +1,6 @@
+{
+  "music.menu": {
+    "replace": true,
+    "sounds": [ { "name": "ascendant/moonlit_kingdoms", "stream": true } ]
+  }
+}

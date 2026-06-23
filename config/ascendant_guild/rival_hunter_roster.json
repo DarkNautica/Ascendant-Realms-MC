@@ -1,0 +1,419 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T04:48:43Z",
+  "status": "visual_roster_only_no_spawn_or_village_injection",
+  "rivals": [
+    {
+      "rival_id": "mira_ash",
+      "name": "Mira Ash",
+      "rank": "c_rank",
+      "rank_label": "C-Rank",
+      "class": "Scout",
+      "style": "bow, light blade, evasive movement",
+      "gear_tier": "epic",
+      "allowed_rarities": [
+        "common",
+        "uncommon",
+        "rare",
+        "epic"
+      ],
+      "preferred_regions": [
+        "forests",
+        "roads",
+        "ruined towers"
+      ],
+      "initial_status": "active",
+      "loadout_profile_id": "mira_ash",
+      "nameplate_profile_id": "mira_ash",
+      "drop_policy": "rival_story_safe_drops",
+      "nameplate": {
+        "display": "Mira Ash",
+        "rank": "c_rank",
+        "level": 34,
+        "profession": "Scout",
+        "style": "c_rank",
+        "visibility": "rival"
+      },
+      "equipment": [
+        {
+          "slot": "mainhand",
+          "item_id": "irons_spellbooks:autoloader_crossbow",
+          "name": "Autoloader Crossbow",
+          "rarity": "rare",
+          "player_obtainable": true,
+          "slot_note": "scout crossbow"
+        },
+        {
+          "slot": "offhand",
+          "item_id": "simplyswords:watching_warglaive",
+          "name": "Watching Warglaive",
+          "rarity": "rare",
+          "player_obtainable": true,
+          "slot_note": "light close-range backup"
+        },
+        {
+          "slot": "head",
+          "item_id": "artifacts:night_vision_goggles",
+          "name": "Night Vision Goggles",
+          "rarity": "rare",
+          "player_obtainable": true,
+          "slot_note": "scout identity"
+        },
+        {
+          "slot": "chest",
+          "item_id": "immersive_armors:prismarine_chestplate",
+          "name": "Prismarine Chestplate",
+          "rarity": "uncommon",
+          "player_obtainable": true,
+          "slot_note": "light field armor"
+        }
+      ],
+      "gear_item_ids": [
+        "irons_spellbooks:autoloader_crossbow",
+        "simplyswords:watching_warglaive",
+        "artifacts:night_vision_goggles",
+        "immersive_armors:prismarine_chestplate"
+      ],
+      "visual_language": {
+        "silhouette": "class-specific gear, visible rank palette, distinct weapon profile",
+        "class_read": "bow, light blade, evasive movement",
+        "rank_read": "C-Rank palette through nameplates.json"
+      },
+      "uses_visual_only_skin": true,
+      "visual_only_skin_equivalent_item_note": "Rival skin is visual identity only; visible equipment comes from gear_registry-backed item IDs.",
+      "drop_policy_note": "Named rivals should use quest rewards, trophies, fragments, or scripted rewards instead of farming full gear."
+    },
+    {
+      "rival_id": "darius_crowe",
+      "name": "Darius Crowe",
+      "rank": "b_rank",
+      "rank_label": "B-Rank",
+      "class": "Duelist",
+      "style": "fast sword, shield pressure, duels",
+      "gear_tier": "legendary",
+      "allowed_rarities": [
+        "common",
+        "uncommon",
+        "rare",
+        "epic",
+        "legendary"
+      ],
+      "preferred_regions": [
+        "towns",
+        "guild halls",
+        "dungeon entrances"
+      ],
+      "initial_status": "active",
+      "loadout_profile_id": "darius_crowe",
+      "nameplate_profile_id": "darius_crowe",
+      "drop_policy": "rival_story_safe_drops",
+      "nameplate": {
+        "display": "Darius Crowe",
+        "rank": "b_rank",
+        "level": 47,
+        "profession": "Duelist",
+        "style": "b_rank",
+        "visibility": "rival"
+      },
+      "equipment": [
+        {
+          "slot": "mainhand",
+          "item_id": "simplyswords:netherite_rapier",
+          "name": "Netherite Rapier",
+          "rarity": "legendary",
+          "player_obtainable": true,
+          "slot_note": "duelist signature weapon"
+        },
+        {
+          "slot": "offhand",
+          "item_id": "spartanshields:diamond_basic_shield",
+          "name": "Diamond Basic Shield",
+          "rarity": "epic",
+          "player_obtainable": true,
+          "slot_note": "duelist shield"
+        },
+        {
+          "slot": "head",
+          "item_id": "fantasy_armor:thief_helmet",
+          "name": "Thief Helmet",
+          "rarity": "rare",
+          "player_obtainable": true,
+          "slot_note": "fast duelist silhouette"
+        },
+        {
+          "slot": "chest",
+          "item_id": "fantasy_armor:thief_chestplate",
+          "name": "Thief Chestplate",
+          "rarity": "legendary",
+          "player_obtainable": true,
+          "slot_note": "fast duelist silhouette"
+        }
+      ],
+      "gear_item_ids": [
+        "simplyswords:netherite_rapier",
+        "spartanshields:diamond_basic_shield",
+        "fantasy_armor:thief_helmet",
+        "fantasy_armor:thief_chestplate"
+      ],
+      "visual_language": {
+        "silhouette": "class-specific gear, visible rank palette, distinct weapon profile",
+        "class_read": "fast sword, shield pressure, duels",
+        "rank_read": "B-Rank palette through nameplates.json"
+      },
+      "uses_visual_only_skin": true,
+      "visual_only_skin_equivalent_item_note": "Rival skin is visual identity only; visible equipment comes from gear_registry-backed item IDs.",
+      "drop_policy_note": "Named rivals should use quest rewards, trophies, fragments, or scripted rewards instead of farming full gear."
+    },
+    {
+      "rival_id": "seren_valehart",
+      "name": "Seren Valehart",
+      "rank": "b_rank",
+      "rank_label": "B-Rank",
+      "class": "Arcanist",
+      "style": "Iron's Spells, wards, spellblade support",
+      "gear_tier": "legendary",
+      "allowed_rarities": [
+        "common",
+        "uncommon",
+        "rare",
+        "epic",
+        "legendary"
+      ],
+      "preferred_regions": [
+        "ancient ruins",
+        "magic-heavy structures",
+        "celestial event sites"
+      ],
+      "initial_status": "active",
+      "loadout_profile_id": "seren_valehart",
+      "nameplate_profile_id": "seren_valehart",
+      "drop_policy": "rival_story_safe_drops",
+      "nameplate": {
+        "display": "Seren Valehart",
+        "rank": "b_rank",
+        "level": 45,
+        "profession": "Arcanist",
+        "style": "b_rank",
+        "visibility": "rival"
+      },
+      "equipment": [
+        {
+          "slot": "mainhand",
+          "item_id": "irons_spellbooks:magehunter",
+          "name": "Magehunter",
+          "rarity": "legendary",
+          "player_obtainable": true,
+          "slot_note": "mage-hunter spellblade"
+        },
+        {
+          "slot": "offhand",
+          "item_id": "irons_spellbooks:diamond_spell_book",
+          "name": "Enchanted Spell Book",
+          "rarity": "epic",
+          "player_obtainable": true,
+          "slot_note": "spellbook identity"
+        },
+        {
+          "slot": "head",
+          "item_id": "irons_spellbooks:archevoker_helmet",
+          "name": "Archevoker Hat",
+          "rarity": "epic",
+          "player_obtainable": true,
+          "slot_note": "arcanist identity"
+        },
+        {
+          "slot": "chest",
+          "item_id": "irons_spellbooks:archevoker_chestplate",
+          "name": "Archevoker Coat",
+          "rarity": "epic",
+          "player_obtainable": true,
+          "slot_note": "arcanist identity"
+        }
+      ],
+      "gear_item_ids": [
+        "irons_spellbooks:magehunter",
+        "irons_spellbooks:diamond_spell_book",
+        "irons_spellbooks:archevoker_helmet",
+        "irons_spellbooks:archevoker_chestplate"
+      ],
+      "visual_language": {
+        "silhouette": "class-specific gear, visible rank palette, distinct weapon profile",
+        "class_read": "Iron's Spells, wards, spellblade support",
+        "rank_read": "B-Rank palette through nameplates.json"
+      },
+      "uses_visual_only_skin": true,
+      "visual_only_skin_equivalent_item_note": "Rival skin is visual identity only; visible equipment comes from gear_registry-backed item IDs.",
+      "drop_policy_note": "Named rivals should use quest rewards, trophies, fragments, or scripted rewards instead of farming full gear."
+    },
+    {
+      "rival_id": "kael_vorn",
+      "name": "Kael Vorn",
+      "rank": "a_rank",
+      "rank_label": "A-Rank",
+      "class": "Monster Hunter",
+      "style": "heavy weapon, shield, monster trophies",
+      "gear_tier": "mythic",
+      "allowed_rarities": [
+        "common",
+        "uncommon",
+        "rare",
+        "epic",
+        "legendary",
+        "mythic"
+      ],
+      "preferred_regions": [
+        "monster dens",
+        "boss approach zones",
+        "snow and mountain roads"
+      ],
+      "initial_status": "rare",
+      "loadout_profile_id": "kael_vorn",
+      "nameplate_profile_id": "kael_vorn",
+      "drop_policy": "rival_story_safe_drops",
+      "nameplate": {
+        "display": "Kael Vorn",
+        "rank": "a_rank",
+        "level": 68,
+        "profession": "Monster Hunter",
+        "style": "a_rank",
+        "visibility": "rare_rival"
+      },
+      "equipment": [
+        {
+          "slot": "mainhand",
+          "item_id": "iceandfire:dragonbone_sword_fire",
+          "name": "Flamed Dragon Bone Sword",
+          "rarity": "mythic",
+          "player_obtainable": true,
+          "slot_note": "dragon-tier hunter blade"
+        },
+        {
+          "slot": "offhand",
+          "item_id": "spartanshields:netherite_basic_shield",
+          "name": "Netherite Basic Shield",
+          "rarity": "legendary",
+          "player_obtainable": true,
+          "slot_note": "late-game shield"
+        },
+        {
+          "slot": "head",
+          "item_id": "fantasy_armor:dragonslayer_helmet",
+          "name": "Dragonslayer Helmet",
+          "rarity": "rare",
+          "player_obtainable": true,
+          "slot_note": "dragon hunter silhouette"
+        },
+        {
+          "slot": "chest",
+          "item_id": "fantasy_armor:dragonslayer_chestplate",
+          "name": "Dragonslayer Chestplate",
+          "rarity": "legendary",
+          "player_obtainable": true,
+          "slot_note": "dragon hunter silhouette"
+        }
+      ],
+      "gear_item_ids": [
+        "iceandfire:dragonbone_sword_fire",
+        "spartanshields:netherite_basic_shield",
+        "fantasy_armor:dragonslayer_helmet",
+        "fantasy_armor:dragonslayer_chestplate"
+      ],
+      "visual_language": {
+        "silhouette": "class-specific gear, visible rank palette, distinct weapon profile",
+        "class_read": "heavy weapon, shield, monster trophies",
+        "rank_read": "A-Rank palette through nameplates.json"
+      },
+      "uses_visual_only_skin": true,
+      "visual_only_skin_equivalent_item_note": "Rival skin is visual identity only; visible equipment comes from gear_registry-backed item IDs.",
+      "drop_policy_note": "Named rivals should use quest rewards, trophies, fragments, or scripted rewards instead of farming full gear."
+    },
+    {
+      "rival_id": "black_hound",
+      "name": "The Black Hound",
+      "rank": "s_rank",
+      "rank_label": "S-Rank",
+      "class": "Unknown",
+      "style": "unknown",
+      "gear_tier": "ascendant",
+      "allowed_rarities": [
+        "common",
+        "uncommon",
+        "rare",
+        "epic",
+        "legendary",
+        "mythic",
+        "ascendant"
+      ],
+      "preferred_regions": [
+        "cathedrals",
+        "endgame ruins",
+        "boss aftermath zones"
+      ],
+      "initial_status": "rumored",
+      "loadout_profile_id": "black_hound",
+      "nameplate_profile_id": "black_hound",
+      "drop_policy": "boss_tier_curated",
+      "nameplate": {
+        "display": "The Black Hound",
+        "rank": "s_rank",
+        "level": 90,
+        "profession": "Unknown",
+        "style": "s_rank",
+        "visibility": "mythic_rumor"
+      },
+      "equipment": [
+        {
+          "slot": "mainhand",
+          "item_id": "soulsweapons:pure_moonlight_shortsword",
+          "name": "Pure Moonlight Shortsword",
+          "rarity": "ascendant",
+          "player_obtainable": true,
+          "slot_note": "ascendant signature weapon"
+        },
+        {
+          "slot": "offhand",
+          "item_id": "cataclysm:gauntlet_of_bulwark",
+          "name": "Gauntlet of Bulwark",
+          "rarity": "rare",
+          "player_obtainable": true,
+          "slot_note": "boss-tier defensive relic"
+        },
+        {
+          "slot": "head",
+          "item_id": "soulsweapons:forlorn_helmet",
+          "name": "Forlorn Helmet",
+          "rarity": "mythic",
+          "player_obtainable": true,
+          "slot_note": "mythic hooded silhouette"
+        },
+        {
+          "slot": "chest",
+          "item_id": "soulsweapons:forlorn_chestplate",
+          "name": "Forlorn Chestplate",
+          "rarity": "mythic",
+          "player_obtainable": true,
+          "slot_note": "mythic silhouette"
+        }
+      ],
+      "gear_item_ids": [
+        "soulsweapons:pure_moonlight_shortsword",
+        "cataclysm:gauntlet_of_bulwark",
+        "soulsweapons:forlorn_helmet",
+        "soulsweapons:forlorn_chestplate"
+      ],
+      "visual_language": {
+        "silhouette": "class-specific gear, visible rank palette, distinct weapon profile",
+        "class_read": "unknown",
+        "rank_read": "S-Rank palette through nameplates.json"
+      },
+      "uses_visual_only_skin": true,
+      "visual_only_skin_equivalent_item_note": "Rival skin is visual identity only; visible equipment comes from gear_registry-backed item IDs.",
+      "drop_policy_note": "Named rivals should use quest rewards, trophies, fragments, or scripted rewards instead of farming full gear."
+    }
+  ],
+  "validation": {
+    "rival_missing_nameplate_loadout_or_drop_policy": [],
+    "loadout_missing_gear_item_ids": [],
+    "visual_only_skin_without_equivalent_item_note": []
+  }
+}

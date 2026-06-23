@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "ascendant_guild:frontier_guild_outpost",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 288,
+    "separation": 128,
+    "salt": 1730143
+  }
+}

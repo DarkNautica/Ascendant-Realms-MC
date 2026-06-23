@@ -1,0 +1,13 @@
+name = "MCA - Default Medieval"
+filename = "MCAR_VanillaMedieval_Universal_1.20.x_Only_Clothes_byDE4THR4SH_v4.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "3d50537c5a7e9d85ebabe317121897ef20ed4524"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6917465
+project-id = 667175

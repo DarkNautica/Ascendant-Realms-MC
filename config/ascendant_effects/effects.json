@@ -1,0 +1,17 @@
+{
+  "heat_haze": {
+    "enabled": false,
+    "temperature_threshold": 1.5,
+    "intensity": 1.0,
+    "band_count": 14,
+    "region_top": 0.46,
+    "region_bottom": 0.86,
+    "repaint_interval_ticks": 2,
+    "color_rgb": "FFD9A0",
+    "max_alpha": 30,
+    "particles_enabled": true,
+    "particle": "minecraft:white_ash",
+    "particle_chance": 0.18,
+    "hide_in_creative": false
+  }
+}

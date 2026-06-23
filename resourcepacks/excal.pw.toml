@@ -1,0 +1,13 @@
+name = "Excalibur"
+filename = "Excalibur_V1.20.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/hJAzl1Bs/versions/yVpdNmnj/Excalibur_V1.20.zip"
+hash-format = "sha512"
+hash = "a2080ab27a954a95b9c4b7450bdfa3ecd18c5ceecc88d9dcc981aae1a98394f8e7a617cea6a3254c6a363c192a9dd2ac7602d236655f2afde57b1e4e13dd244e"
+
+[update]
+[update.modrinth]
+mod-id = "hJAzl1Bs"
+version = "yVpdNmnj"

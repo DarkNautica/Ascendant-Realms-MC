@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "ascendant_guild:roadside_hunter_camp",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 224,
+    "separation": 96,
+    "salt": 1730142
+  }
+}

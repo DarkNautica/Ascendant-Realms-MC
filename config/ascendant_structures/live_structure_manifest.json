@@ -1,0 +1,331 @@
+{
+  "version": "structure_director_live_v1",
+  "generated_at": "2026-06-22T20:45:24+00:00",
+  "enabled": true,
+  "rollback_supported": true,
+  "evidence_required": true,
+  "minimum_live_confidence": "strong",
+  "datapack_root": "config/openloader/data/ascendant_structure_director_live",
+  "datapack_hash": "540DD32065EE85CF861812B268BE567E51CB088112F1A844CD00569D570ABDDD",
+  "live_structure_ids": [
+    "aquamirae:surface/arch",
+    "aquamirae:surface/spiral",
+    "betterdungeons:small_dungeon",
+    "bettermineshafts:mineshaft_acacia",
+    "block_factorys_bosses:sandworm_nest",
+    "block_factorys_bosses:yeti_hideout",
+    "cataclysm:abandoned_spire",
+    "cataclysm:abandoned_temple",
+    "cataclysm:abandoned_village",
+    "cataclysm:amethyst_nest",
+    "cataclysm:desert_occupied_village",
+    "cataclysm:desert_site",
+    "iceandfire:fire_dragon_cave",
+    "iceandfire:fire_dragon_roost",
+    "iceandfire:ice_dragon_cave",
+    "iceandfire:ice_dragon_roost",
+    "iceandfire:lightning_dragon_cave",
+    "iceandfire:lightning_dragon_roost",
+    "iceandfire:siren_island",
+    "idas:abandoned_vineyard",
+    "idas:haunted_manor",
+    "idas:iceandfire/sirens_cove",
+    "idas:labyrinth",
+    "idas:sunken_ship/sunken_ship",
+    "towns_and_towers:pillager_outpost_badlands",
+    "towns_and_towers:village_badlands"
+  ],
+  "live_structure_sets": [
+    "aquamirae:surface",
+    "betterdungeons:small_dungeons",
+    "bettermineshafts:mineshafts",
+    "block_factorys_bosses:sandworm_nest",
+    "block_factorys_bosses:yeti_hideout",
+    "cataclysm:abandoned_structures",
+    "cataclysm:amethyst_nest",
+    "cataclysm:desert_structures",
+    "iceandfire:dragon_cave",
+    "iceandfire:dragon_roost",
+    "iceandfire:siren_island",
+    "idas:abandoned_vineyard_director",
+    "idas:idas_common",
+    "idas:idas_ocean",
+    "idas:idas_rare",
+    "towns_and_towers:towers",
+    "towns_and_towers:towns"
+  ],
+  "live_change_count": 23,
+  "density_override_count": 17,
+  "biome_tag_override_count": 5,
+  "land_water_context_rule_count": 4,
+  "settlement_exclusion_count": 2,
+  "live_changes": [
+    {
+      "rule_id": "dragon_roost_land_first_rare",
+      "resource_path": "data/iceandfire/worldgen/structure_set/dragon_roost.json",
+      "source": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/worldgen/structure_set/dragon_roost.json",
+      "live_sha256": "B7A01F66F7C2D077D4F14BA73E8A98B1F5914777101DA87B7C24B184ACF4BD65",
+      "evidence_ids": [
+        "iceandfire:fire_dragon_roost",
+        "iceandfire:ice_dragon_roost",
+        "iceandfire:lightning_dragon_roost"
+      ],
+      "description": "iceandfire:dragon_roost spacing 15->96 separation 6->48"
+    },
+    {
+      "rule_id": "dragon_cave_underground_rare",
+      "resource_path": "data/iceandfire/worldgen/structure_set/dragon_cave.json",
+      "source": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/worldgen/structure_set/dragon_cave.json",
+      "live_sha256": "9944B47AA20F4E2FF1E5A8ED6874CC49369271B019F255B7044A4F815818633C",
+      "evidence_ids": [
+        "iceandfire:fire_dragon_cave",
+        "iceandfire:ice_dragon_cave",
+        "iceandfire:lightning_dragon_cave"
+      ],
+      "description": "iceandfire:dragon_cave spacing 18->96 separation 12->48"
+    },
+    {
+      "rule_id": "siren_island_ocean_only_rare",
+      "resource_path": "data/iceandfire/worldgen/structure_set/siren_island.json",
+      "source": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/worldgen/structure_set/siren_island.json",
+      "live_sha256": "1FB759D4CDD541612AD512CD52A2E2AF35CD7FFC216D88749D8B5220C42DA106",
+      "evidence_ids": [
+        "iceandfire:siren_island"
+      ],
+      "description": "iceandfire:siren_island spacing 20->96 separation 14->48"
+    },
+    {
+      "rule_id": "idas_rare_major_dungeon_spacing",
+      "resource_path": "data/idas/worldgen/structure_set/idas_rare.json",
+      "source": "idas_forge-1.13.0+1.20.1.jar!/data/idas/worldgen/structure_set/idas_rare.json",
+      "live_sha256": "B156971252B5086688E09EEE570FFA6BA08771C3A02715C9724F911B3346EE30",
+      "evidence_ids": [
+        "idas:labyrinth"
+      ],
+      "description": "idas:idas_rare spacing 45->72 separation 20->36"
+    },
+    {
+      "rule_id": "idas_ocean_cluster_reduction",
+      "resource_path": "data/idas/worldgen/structure_set/idas_ocean.json",
+      "source": "idas_forge-1.13.0+1.20.1.jar!/data/idas/worldgen/structure_set/idas_ocean.json",
+      "live_sha256": "1CC49E5B85C3E88C9F4D999006DB54661F034D974216EBCF3652C205348BD40F",
+      "evidence_ids": [
+        "idas:sunken_ship/sunken_ship",
+        "idas:iceandfire/sirens_cove"
+      ],
+      "description": "idas:idas_ocean spacing 35->72 separation 29->36"
+    },
+    {
+      "rule_id": "yung_small_dungeons_density_reduction",
+      "resource_path": "data/betterdungeons/worldgen/structure_set/small_dungeons.json",
+      "source": "YungsBetterDungeons-1.20-Forge-4.0.4.jar!/data/betterdungeons/worldgen/structure_set/small_dungeons.json",
+      "live_sha256": "43F134117EC29EED6529F25DB98362BF7AF99733336FE06EED5C39C2306BA906",
+      "evidence_ids": [
+        "betterdungeons:small_dungeon"
+      ],
+      "description": "betterdungeons:small_dungeons spacing 10->32 separation 6->12"
+    },
+    {
+      "rule_id": "yung_mineshaft_density_reduction",
+      "resource_path": "data/bettermineshafts/worldgen/structure_set/mineshafts.json",
+      "source": "YungsBetterMineshafts-1.20-Forge-4.0.4.jar!/data/bettermineshafts/worldgen/structure_set/mineshafts.json",
+      "live_sha256": "C8C23DB1143FBCE0F718DCA21A76BE52E74F7CB7C68F5AC9A44B528F6975E4EF",
+      "evidence_ids": [
+        "bettermineshafts:mineshaft_acacia"
+      ],
+      "description": "bettermineshafts:mineshafts spacing 1->32 separation 0->12"
+    },
+    {
+      "rule_id": "aquamirae_surface_cluster_reduction",
+      "resource_path": "data/aquamirae/worldgen/structure_set/surface.json",
+      "source": "config\\openloader\\data\\ascendant_realms_world_integration\\data\\aquamirae\\worldgen\\structure_set\\surface.json",
+      "live_sha256": "5502D890B14D4898E894E620FF89CB3ECA1E9D84357A36710DE29B5E63983B38",
+      "evidence_ids": [
+        "aquamirae:surface/arch",
+        "aquamirae:surface/spiral"
+      ],
+      "description": "aquamirae:surface spacing 20->28 separation 8->10"
+    },
+    {
+      "rule_id": "cataclysm_abandoned_major_spacing",
+      "resource_path": "data/cataclysm/worldgen/structure_set/abandoned_structures.json",
+      "source": "L_Enders_Cataclysm-3.30.jar!/data/cataclysm/worldgen/structure_set/abandoned_structures.json",
+      "live_sha256": "6BE2A84B67FD6BC4CAB48D2362625A829A485B1657474D967D19970838191436",
+      "evidence_ids": [
+        "cataclysm:abandoned_spire",
+        "cataclysm:abandoned_temple",
+        "cataclysm:abandoned_village"
+      ],
+      "description": "cataclysm:abandoned_structures spacing 30->96 separation 20->48"
+    },
+    {
+      "rule_id": "cataclysm_amethyst_nest_major_spacing",
+      "resource_path": "data/cataclysm/worldgen/structure_set/amethyst_nest.json",
+      "source": "L_Enders_Cataclysm-3.30.jar!/data/cataclysm/worldgen/structure_set/amethyst_nest.json",
+      "live_sha256": "B652E6C60BF588360CEC5ECD013502CC6D94CEF7D5DFDF45838D0AF26D3A64D4",
+      "evidence_ids": [
+        "cataclysm:amethyst_nest"
+      ],
+      "description": "cataclysm:amethyst_nest spacing 32->96 separation 8->48"
+    },
+    {
+      "rule_id": "cataclysm_desert_major_spacing",
+      "resource_path": "data/cataclysm/worldgen/structure_set/desert_structures.json",
+      "source": "L_Enders_Cataclysm-3.30.jar!/data/cataclysm/worldgen/structure_set/desert_structures.json",
+      "live_sha256": "DFAB6200FE8EE319E1E10FC852E5E54A48AE20A30225281DAB185F0F5431940B",
+      "evidence_ids": [
+        "cataclysm:desert_site",
+        "cataclysm:desert_occupied_village"
+      ],
+      "description": "cataclysm:desert_structures spacing 30->96 separation 20->48"
+    },
+    {
+      "rule_id": "sandworm_nest_boss_spacing",
+      "resource_path": "data/block_factorys_bosses/worldgen/structure_set/sandworm_nest.json",
+      "source": "block_factorys_bosses-2.1.2-forge-1.20.1.jar!/data/block_factorys_bosses/worldgen/structure_set/sandworm_nest.json",
+      "live_sha256": "D246358A6321A369AB174F5D7B2C30A20830BEB606D4486A87B59E719B3FA8F1",
+      "evidence_ids": [
+        "block_factorys_bosses:sandworm_nest"
+      ],
+      "description": "block_factorys_bosses:sandworm_nest spacing 45->96 separation 30->48"
+    },
+    {
+      "rule_id": "yeti_hideout_boss_spacing",
+      "resource_path": "data/block_factorys_bosses/worldgen/structure_set/yeti_hideout.json",
+      "source": "block_factorys_bosses-2.1.2-forge-1.20.1.jar!/data/block_factorys_bosses/worldgen/structure_set/yeti_hideout.json",
+      "live_sha256": "407FA35740045718D3A336ED13070660BB448DC9FF1E8D6F13C1011104DD35BF",
+      "evidence_ids": [
+        "block_factorys_bosses:yeti_hideout"
+      ],
+      "description": "block_factorys_bosses:yeti_hideout spacing 30->96 separation 25->48"
+    },
+    {
+      "rule_id": "towns_and_towers_settlement_overlap_reduction",
+      "resource_path": "data/towns_and_towers/worldgen/structure_set/towns.json",
+      "source": "Towns-and-Towers-1.12-Fabric+Forge.jar!/data/towns_and_towers/worldgen/structure_set/towns.json",
+      "live_sha256": "FCC2BAAD048BE166AC07DBAFF9819D98AF9925C278D39FFB118903BD3D2C53C7",
+      "evidence_ids": [
+        "towns_and_towers:village_badlands"
+      ],
+      "description": "towns_and_towers:towns spacing 48->64 separation 24->32"
+    },
+    {
+      "rule_id": "towns_and_towers_outpost_overlap_reduction",
+      "resource_path": "data/towns_and_towers/worldgen/structure_set/towers.json",
+      "source": "Towns-and-Towers-1.12-Fabric+Forge.jar!/data/towns_and_towers/worldgen/structure_set/towers.json",
+      "live_sha256": "504BFCFA8E912C17A2F3679E9BA7AC0EC7723EB7D4D25A6520A7CECB3F02130F",
+      "evidence_ids": [
+        "towns_and_towers:pillager_outpost_badlands"
+      ],
+      "description": "towns_and_towers:towers spacing 48->64 separation 24->32"
+    },
+    {
+      "rule_id": "idas_common_reduce_and_extract_vineyard",
+      "resource_path": "data/idas/worldgen/structure_set/idas_common.json",
+      "source": "idas_forge-1.13.0+1.20.1.jar!/data/idas/worldgen/structure_set/idas_common.json",
+      "live_sha256": "A4E98E4637E4E1ABB5ABD8722637A7BC5BD011E273FC2E8CA480A0BBE00019CC",
+      "evidence_ids": [
+        "idas:abandoned_vineyard",
+        "idas:haunted_manor"
+      ],
+      "description": "IDAS common set reduced from spacing 21 to 32 and abandoned_vineyard moved to its own rarer set."
+    },
+    {
+      "rule_id": "idas_abandoned_vineyard_dedicated_land_first_set",
+      "resource_path": "data/idas/worldgen/structure_set/abandoned_vineyard_director.json",
+      "source": "new_structure_set_from_evidence",
+      "live_sha256": "19534CDDE3D0C859BD6994B0778DE51F3041B6FA9EA54A2B8783C97C9BC7C034",
+      "evidence_ids": [
+        "idas:abandoned_vineyard"
+      ],
+      "description": "Dedicated rarer vineyard set so the manually observed island-placement structure is no longer tied to dense IDAS common rolls."
+    },
+    {
+      "rule_id": "idas_abandoned_vineyard_larger_land_context_check",
+      "resource_path": "data/idas/worldgen/structure/abandoned_vineyard.json",
+      "source": "idas_forge-1.13.0+1.20.1.jar!/data/idas/worldgen/structure/abandoned_vineyard.json",
+      "live_sha256": "8578C276C4E0775C28E0D78165FDECCC01DB12D44A19C4A0C4B0AC67425FAA73",
+      "evidence_ids": [
+        "idas:abandoned_vineyard"
+      ],
+      "description": "Vineyard now asks Integrated API to validate a larger, less jagged surrounding biome/terrain context."
+    },
+    {
+      "rule_id": "dragon_fire_land_biomes",
+      "resource_path": "data/iceandfire/tags/worldgen/biome/structure_gen/fire.json",
+      "source": "resolved_evidence_registry_allowed_biome_ids",
+      "live_sha256": "853380CA863FA96E27DA76B11307416C91BB0223C87392393DC4ECEC6DE6609E",
+      "evidence_ids": [
+        "iceandfire:fire_dragon_roost"
+      ],
+      "description": "Evidence-resolved land-biome tag for iceandfire:fire_dragon_roost; water/ocean/river/cave IDs removed."
+    },
+    {
+      "rule_id": "dragon_ice_land_biomes",
+      "resource_path": "data/iceandfire/tags/worldgen/biome/structure_gen/ice.json",
+      "source": "resolved_evidence_registry_allowed_biome_ids",
+      "live_sha256": "DECC9FF3F5F3DBDB7220BC66891D0A6D18E93AFC3BFE5D72DC6327B395C5506D",
+      "evidence_ids": [
+        "iceandfire:ice_dragon_roost"
+      ],
+      "description": "Evidence-resolved land-biome tag for iceandfire:ice_dragon_roost; water/ocean/river/cave IDs removed."
+    },
+    {
+      "rule_id": "dragon_lightning_land_biomes",
+      "resource_path": "data/iceandfire/tags/worldgen/biome/structure_gen/lightning.json",
+      "source": "resolved_evidence_registry_allowed_biome_ids",
+      "live_sha256": "507272BB5691270939AD5E568955579E2B05A5AE7B01FF6668AE771B78D2E792",
+      "evidence_ids": [
+        "iceandfire:lightning_dragon_roost"
+      ],
+      "description": "Evidence-resolved land-biome tag for iceandfire:lightning_dragon_roost; water/ocean/river/cave IDs removed."
+    },
+    {
+      "rule_id": "vineyard_land_savanna_biomes",
+      "resource_path": "data/idas/tags/worldgen/biome/has_structure/savannas.json",
+      "source": "resolved_evidence_registry_allowed_biome_ids",
+      "live_sha256": "088BE9A6B9F6D101D50838C78FC571829992C4C940C51BB91D37755ABA64332B",
+      "evidence_ids": [
+        "idas:abandoned_vineyard"
+      ],
+      "description": "Evidence-resolved land-biome tag for idas:abandoned_vineyard; water/ocean/river/cave IDs removed."
+    },
+    {
+      "rule_id": "siren_island_preserve_ocean_context",
+      "resource_path": "data/iceandfire/tags/worldgen/biome/structure_gen/siren_island.json",
+      "source": "evidence_registry_ocean_role",
+      "live_sha256": "83FCEA88C3344AC0A31B440607E0EA0DB705BA191B0925389A7BEC4DD7DC5231",
+      "evidence_ids": [
+        "iceandfire:siren_island"
+      ],
+      "description": "Siren island remains water/ocean content and does not receive land-only rules."
+    }
+  ],
+  "datapack_files": [
+    "config/openloader/data/ascendant_structure_director_live/README.md",
+    "config/openloader/data/ascendant_structure_director_live/data/aquamirae/worldgen/structure_set/surface.json",
+    "config/openloader/data/ascendant_structure_director_live/data/betterdungeons/worldgen/structure_set/small_dungeons.json",
+    "config/openloader/data/ascendant_structure_director_live/data/bettermineshafts/worldgen/structure_set/mineshafts.json",
+    "config/openloader/data/ascendant_structure_director_live/data/block_factorys_bosses/worldgen/structure_set/sandworm_nest.json",
+    "config/openloader/data/ascendant_structure_director_live/data/block_factorys_bosses/worldgen/structure_set/yeti_hideout.json",
+    "config/openloader/data/ascendant_structure_director_live/data/cataclysm/worldgen/structure_set/abandoned_structures.json",
+    "config/openloader/data/ascendant_structure_director_live/data/cataclysm/worldgen/structure_set/amethyst_nest.json",
+    "config/openloader/data/ascendant_structure_director_live/data/cataclysm/worldgen/structure_set/desert_structures.json",
+    "config/openloader/data/ascendant_structure_director_live/data/iceandfire/tags/worldgen/biome/structure_gen/fire.json",
+    "config/openloader/data/ascendant_structure_director_live/data/iceandfire/tags/worldgen/biome/structure_gen/ice.json",
+    "config/openloader/data/ascendant_structure_director_live/data/iceandfire/tags/worldgen/biome/structure_gen/lightning.json",
+    "config/openloader/data/ascendant_structure_director_live/data/iceandfire/tags/worldgen/biome/structure_gen/siren_island.json",
+    "config/openloader/data/ascendant_structure_director_live/data/iceandfire/worldgen/structure_set/dragon_cave.json",
+    "config/openloader/data/ascendant_structure_director_live/data/iceandfire/worldgen/structure_set/dragon_roost.json",
+    "config/openloader/data/ascendant_structure_director_live/data/iceandfire/worldgen/structure_set/siren_island.json",
+    "config/openloader/data/ascendant_structure_director_live/data/idas/tags/worldgen/biome/has_structure/savannas.json",
+    "config/openloader/data/ascendant_structure_director_live/data/idas/worldgen/structure/abandoned_vineyard.json",
+    "config/openloader/data/ascendant_structure_director_live/data/idas/worldgen/structure_set/abandoned_vineyard_director.json",
+    "config/openloader/data/ascendant_structure_director_live/data/idas/worldgen/structure_set/idas_common.json",
+    "config/openloader/data/ascendant_structure_director_live/data/idas/worldgen/structure_set/idas_ocean.json",
+    "config/openloader/data/ascendant_structure_director_live/data/idas/worldgen/structure_set/idas_rare.json",
+    "config/openloader/data/ascendant_structure_director_live/data/towns_and_towers/worldgen/structure_set/towers.json",
+    "config/openloader/data/ascendant_structure_director_live/data/towns_and_towers/worldgen/structure_set/towns.json",
+    "config/openloader/data/ascendant_structure_director_live/pack.mcmeta"
+  ]
+}

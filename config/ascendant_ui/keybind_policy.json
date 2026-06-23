@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "last_updated": "2026-06-18",
+  "status": "active_client_keybind_policy",
+  "scope": "Applied to the active CurseForge options.txt by scripts/sync-active-client-files.ps1 while preserving unrelated video, audio, resource-pack, and personal option lines.",
+  "principles": [
+    "Preserve vanilla movement, inventory, chat, screenshot, perspective, hotbar, attack, use, drop, sneak, sprint, and command keys.",
+    "Keep core Ascendant RPG surfaces on simple keys: skills, quest log, spell wheel, spell cast, combat roll, backpack, curios, and map screens.",
+    "Move duplicate gameplay controls to modifier chords or mouse side buttons when the mod action is still useful.",
+    "Unbind non-gameplay or low-frequency menu/debug controls such as shader reload, shader toggle, shader-pack selection, cinematic scene controls, creative toolbar save/load, and title-selection menu.",
+    "Prefer future in-game settings screens or commands for visual/debug actions rather than spending prime combat keys."
+  ],
+  "core_bindings": {
+    "skill_tree": {
+      "key": "key.keyboard.k",
+      "binding": "key_key.puffish_skills.open"
+    },
+    "quest_log": {
+      "key": "key.keyboard.l",
+      "binding": "key_Quest Log"
+    },
+    "spell_wheel": {
+      "key": "key.keyboard.r",
+      "binding": "key_key.irons_spellbooks.spell_wheel"
+    },
+    "spell_cast": {
+      "key": "key.keyboard.v",
+      "binding": "key_key.irons_spellbooks.spellbook_cast"
+    },
+    "spell_modifier": {
+      "key": "key.keyboard.left.alt",
+      "binding": "key_key.irons_spellbooks.spell_bar_modifier"
+    },
+    "combat_roll": {
+      "key": "key.keyboard.z",
+      "binding": "key_keybinds.combatroll.roll"
+    },
+    "backpack": {
+      "key": "key.keyboard.b",
+      "binding": "key_key.sophisticatedbackpacks.open_backpack"
+    },
+    "curios": {
+      "key": "key.keyboard.g",
+      "binding": "key_key.curios.open.desc"
+    },
+    "waypoints": {
+      "key": "key.keyboard.u",
+      "binding": "key_gui.xaero_waypoints_key"
+    },
+    "minimap_settings": {
+      "key": "key.keyboard.y",
+      "binding": "key_gui.xaero_minimap_settings"
+    }
+  },
+  "bindings": {
+    "key_key.saveToolbarActivator": "key.keyboard.unknown",
+    "key_key.loadToolbarActivator": "key.keyboard.unknown",
+    "key_key.advancements": "key.keyboard.unknown",
+    "key_Quest Log": "key.keyboard.l",
+    "key_key.puffish_skills.open": "key.keyboard.k",
+    "key_iris.keybind.reload": "key.keyboard.unknown",
+    "key_iris.keybind.toggleShaders": "key.keyboard.unknown",
+    "key_iris.keybind.shaderPackSelection": "key.keyboard.unknown",
+    "key_keybinds.combatroll.roll": "key.keyboard.z",
+    "key_key.irons_spellbooks.spell_wheel": "key.keyboard.r",
+    "key_key.irons_spellbooks.spellbook_cast": "key.keyboard.v",
+    "key_key.irons_spellbooks.spell_bar_modifier": "key.keyboard.left.alt",
+    "key_key.jei.showRecipe": "key.keyboard.r:CONTROL",
+    "key_key.jei.showUses": "key.keyboard.u:CONTROL",
+    "key_key.jei.bookmark": "key.keyboard.a:CONTROL",
+    "key_key.jei.showRecipe2": "key.keyboard.unknown",
+    "key_key.jei.showUses2": "key.keyboard.unknown",
+    "key_key.jei.clearSearchBar": "key.keyboard.backspace:CONTROL",
+    "key_key.jei.cheatOneItem": "key.keyboard.unknown",
+    "key_key.jei.cheatOneItem2": "key.keyboard.unknown",
+    "key_key.jei.cheatItemStack": "key.keyboard.unknown",
+    "key_key.jei.cheatItemStack2": "key.keyboard.unknown",
+    "key_key.jei.toggleCheatModeConfigButton": "key.keyboard.unknown",
+    "key_key.jei.maxTransferRecipeBookmark": "key.keyboard.unknown",
+    "key_key.jei.toggleHideIngredient": "key.keyboard.unknown",
+    "key_key.jei.transferRecipeBookmark": "key.keyboard.unknown",
+    "key_key.sophisticatedcore.sort": "key.mouse.middle:CONTROL",
+    "key_key.sophisticatedbackpacks.open_backpack": "key.keyboard.b",
+    "key_key.sophisticatedbackpacks.inventory_interaction": "key.keyboard.c",
+    "key_key.sophisticatedbackpacks.tool_swap": "key.keyboard.unknown",
+    "key_key.curios.open.desc": "key.keyboard.g",
+    "key_key.cataclysm.ability": "key.keyboard.x",
+    "key_key.cataclysm.helmet_ability": "key.keyboard.c:ALT",
+    "key_key.cataclysm.chestplate_ability": "key.keyboard.y:ALT",
+    "key_key.cataclysm.boots_ability": "key.keyboard.v:ALT",
+    "key_key.block_factorys_bosses.dodge_roll": "key.keyboard.unknown",
+    "key_key.dragon_fireAttack": "key.keyboard.r:ALT",
+    "key_key.dragon_strike": "key.keyboard.g:ALT",
+    "key_key.dragon_down": "key.keyboard.x:CONTROL",
+    "key_key.smallships.ship_sail": "key.keyboard.s:ALT",
+    "key_key.soulsweapons.parry": "key.mouse.4",
+    "key_key.soulsweapons.keybind_ability": "key.mouse.5",
+    "key_key.soulsweapons.switch_weapon": "key.keyboard.b:ALT",
+    "key_key.soulsweapons.return_thrown_weapon": "key.keyboard.n",
+    "key_key.soulsweapons.return_freyr_sword": "key.keyboard.n:ALT",
+    "key_key.soulsweapons.collect_summons_soul_reaper": "key.keyboard.v:CONTROL",
+    "key_key.soulsweapons.effect_shoot_moonlight": "key.keyboard.h",
+    "key_key.soulsweapons.freyr_sword_stationary": "key.keyboard.right.alt",
+    "key_supplementaries.keybind.quiver": "key.keyboard.q:ALT",
+    "key_create.keyinfo.toolmenu": "key.keyboard.c:CONTROL",
+    "key_create.keyinfo.toolbelt": "key.keyboard.b:CONTROL",
+    "key_key.ponder.ponder": "key.keyboard.p:CONTROL",
+    "key_key.createbigcannons.pitch_mode": "key.keyboard.p:ALT",
+    "key_key.createbigcannons.fire_controlled_cannon": "key.keyboard.f:ALT",
+    "key_quark.keybind.back": "key.keyboard.unknown",
+    "key_quark.keybind.change_hotbar": "key.keyboard.unknown",
+    "key_quark.keybind.lock_rotation": "key.keyboard.unknown",
+    "key_quark.keybind.variant_selector": "key.keyboard.r:SHIFT",
+    "key_gui.xaero_new_waypoint": "key.keyboard.n:CONTROL",
+    "key_gui.xaero_waypoints_key": "key.keyboard.u",
+    "key_gui.xaero_minimap_settings": "key.keyboard.y",
+    "key_key.mca.skin_library": "key.keyboard.unknown",
+    "key_key.mobhealthbar.chooser": "key.keyboard.h:CONTROL",
+    "key_key.titles.openTitleSelection": "key.keyboard.unknown",
+    "key_key.presencefootsteps.settings": "key.keyboard.unknown",
+    "key_Scene1 start/pause": "key.keyboard.unknown",
+    "key_Scene2 start/pause": "key.keyboard.unknown",
+    "key_Scene3 start/pause": "key.keyboard.unknown",
+    "key_Scene reset": "key.keyboard.unknown"
+  },
+  "manual_notes": [
+    "Soulslike parry and weapon ability use mouse side buttons by default. If Jayden's mouse does not expose mouse.4/mouse.5 in Minecraft, remap those two in-game to comfortable modifier chords.",
+    "Creative toolbar save/load is intentionally unbound for normal play. Rebind temporarily from the Controls screen if creative building requires it.",
+    "Shader reload/toggle/selection is intentionally unbound; use the video/shader menu when tuning visuals."
+  ]
+}

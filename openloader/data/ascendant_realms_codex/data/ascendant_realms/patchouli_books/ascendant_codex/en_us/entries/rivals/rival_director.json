@@ -1,0 +1,11 @@
+{
+  "name": "Rival Director",
+  "icon": "minecraft:clock",
+  "category": "ascendant_realms:rivals",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Rival hunters should be real when you can see them and simulated when you cannot. Rumors, camps, claimed contracts, and aftermath scenes make the world move without forcing expensive AI simulation."
+    }
+  ]
+}

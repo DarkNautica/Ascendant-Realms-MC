@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "canonical_materials": {
+    "copper": {
+      "canonical": "minecraft:copper_ingot",
+      "status": "live",
+      "notes": "Vanilla copper remains canonical."
+    },
+    "iron": {
+      "canonical": "minecraft:iron_ingot",
+      "status": "live",
+      "notes": "Base metal for early progression."
+    },
+    "gold": {
+      "canonical": "minecraft:gold_ingot",
+      "status": "live",
+      "notes": "Trade and Sunreach material."
+    },
+    "silver": {
+      "canonical": "iceandfire:silver_ingot",
+      "status": "review",
+      "notes": "Candidate canonical silver; verify JEI output and ore source before hard recipe rewrites."
+    },
+    "steel": {
+      "canonical": "kubejs:tempered_steel",
+      "status": "planned",
+      "notes": "Progression glue item; recipe/live item pass is separate from this Atlas worldgen pass."
+    },
+    "dragon_material": {
+      "canonical": "iceandfire:dragonbone",
+      "status": "live_candidate",
+      "notes": "Dragonbound material family, not a normal ore."
+    }
+  },
+  "source": "Ascendant Core Integration brief"
+}

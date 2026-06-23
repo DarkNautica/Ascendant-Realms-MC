@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "type": "hamlet",
+      "required": [
+        "houses",
+        "food_source"
+      ],
+      "forbidden": [
+        "full_guild_hall"
+      ],
+      "guild_presence": "none_or_notice"
+    },
+    {
+      "type": "village",
+      "required": [
+        "houses",
+        "farms",
+        "guards",
+        "local_notice"
+      ],
+      "guild_presence": "hunter_board_allowed"
+    },
+    {
+      "type": "large_village",
+      "required": [
+        "houses",
+        "farms",
+        "guards",
+        "blacksmith_or_market"
+      ],
+      "guild_presence": "hunter_board_expected"
+    },
+    {
+      "type": "market_town",
+      "required": [
+        "market",
+        "blacksmith",
+        "tavern",
+        "guards"
+      ],
+      "guild_presence": "guild_clerk_expected"
+    },
+    {
+      "type": "guild_town",
+      "required": [
+        "guild_hall",
+        "rank_examiner",
+        "bounty_master",
+        "quartermaster",
+        "training_yard"
+      ],
+      "guild_presence": "full"
+    }
+  ]
+}

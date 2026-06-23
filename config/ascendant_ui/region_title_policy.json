@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T05:01:19Z",
+  "status": "audit_control_scaffold_only_no_region_title_runtime_hook",
+  "current_stack": {
+    "travelers_titles_config": "config/travelerstitles-forge-1_20.toml",
+    "resource_pack_overrides": "config/resourcepackoverrides.json",
+    "ascendant_titles_resource_pack": "resourcepacks/ascendant-realms-travelers-titles",
+    "biome_titles_live": true,
+    "dimension_titles_live": true
+  },
+  "region_titles": [
+    {
+      "region_id": "hearthlands",
+      "display_name": "The Crownlands",
+      "subtitle_flavor": "Safe roads, soft weather, and the first promise of the realm.",
+      "title_color": "f0d68a",
+      "implementation_status": "policy_only_not_live_region_trigger"
+    },
+    {
+      "region_id": "frostmarch",
+      "display_name": "The Frostmarch",
+      "subtitle_flavor": "Cold wind, old ice, and the long white road north.",
+      "title_color": "9bd8ff",
+      "implementation_status": "policy_only_not_live_region_trigger"
+    },
+    {
+      "region_id": "sunreach",
+      "display_name": "Sunreach",
+      "subtitle_flavor": "Red dust, bright heat, and caravan tracks under a hard sky.",
+      "title_color": "d99a4e",
+      "implementation_status": "policy_only_not_live_region_trigger"
+    },
+    {
+      "region_id": "verdant_coast",
+      "display_name": "The Verdant Coast",
+      "subtitle_flavor": "Rain-wet leaves, river mouths, and the sound of distant surf.",
+      "title_color": "59bd70",
+      "implementation_status": "policy_only_not_live_region_trigger"
+    },
+    {
+      "region_id": "stoneback_highlands",
+      "display_name": "The Stoneback Highlands",
+      "subtitle_flavor": "Stone roads, echoing cliffs, and wind over old watchfires.",
+      "title_color": "c7b27a",
+      "implementation_status": "policy_only_not_live_region_trigger"
+    },
+    {
+      "region_id": "north_east_marches",
+      "display_name": "The North-East Marches",
+      "subtitle_flavor": "Cold rain, frozen river mouths, and dark coastal timber.",
+      "title_color": "7fcfb8",
+      "implementation_status": "policy_only_not_live_region_trigger"
+    },
+    {
+      "region_id": "north_west_marches",
+      "display_name": "The North-West Marches",
+      "subtitle_flavor": "Wind-cut ridges, black pines, and snow in the high passes.",
+      "title_color": "a7c7d9",
+      "implementation_status": "policy_only_not_live_region_trigger"
+    },
+    {
+      "region_id": "south_east_wilds",
+      "display_name": "The South-East Wilds",
+      "subtitle_flavor": "Hot rain, red mud, and green growth fighting the desert.",
+      "title_color": "9fc96c",
+      "implementation_status": "policy_only_not_live_region_trigger"
+    },
+    {
+      "region_id": "south_west_wilds",
+      "display_name": "The South-West Wilds",
+      "subtitle_flavor": "Broken mesas, dry canyons, and wind grinding stone to dust.",
+      "title_color": "c98d57",
+      "implementation_status": "policy_only_not_live_region_trigger"
+    },
+    {
+      "region_id": "outer_rim",
+      "display_name": "The Outer Rim",
+      "subtitle_flavor": "The map thins, the sky bruises, and old powers press close.",
+      "title_color": "8c78a8",
+      "implementation_status": "policy_only_not_live_region_trigger"
+    },
+    {
+      "region_id": "nether_front",
+      "display_name": "The Nether Front",
+      "subtitle_flavor": "Heat, basalt, and warlight beyond the Overworld line.",
+      "title_color": "c85a48",
+      "implementation_status": "policy_only_not_live_region_trigger"
+    },
+    {
+      "region_id": "end_expanse",
+      "display_name": "The End Expanse",
+      "subtitle_flavor": "A silent horizon where the world stops answering.",
+      "title_color": "b78cff",
+      "implementation_status": "policy_only_not_live_region_trigger"
+    }
+  ],
+  "implementation_boundary": "Traveler's Titles biome and dimension titles are live. Atlas coordinate-region titles are policy-only until a runtime hook maps Atlas region scoreboards to title events.",
+  "validation": {
+    "region_title_policy_missing_regions": [],
+    "resource_pack_order_missing_required_visual_packs": [],
+    "resource_pack_order_conflicts": [],
+    "atlas_region_titles_live_enforced": false,
+    "sync_coverage_missing": []
+  }
+}

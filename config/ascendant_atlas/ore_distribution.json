@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "policy": "Ore control is contracted but not hard-overridden yet. The next safe step is one canonical ore/material vertical slice.",
+  "tiers": [
+    {
+      "tier": 0,
+      "materials": [
+        "coal",
+        "copper",
+        "basic iron"
+      ]
+    },
+    {
+      "tier": 1,
+      "materials": [
+        "iron",
+        "gold",
+        "redstone",
+        "lapis"
+      ]
+    },
+    {
+      "tier": 2,
+      "materials": [
+        "silver",
+        "steel chain",
+        "regional gems"
+      ]
+    },
+    {
+      "tier": 3,
+      "materials": [
+        "diamond",
+        "magic crystals",
+        "rare boss fragments"
+      ]
+    },
+    {
+      "tier": 4,
+      "materials": [
+        "dragon materials",
+        "nether boss materials"
+      ]
+    },
+    {
+      "tier": 5,
+      "materials": [
+        "ascendant materials"
+      ]
+    }
+  ]
+}

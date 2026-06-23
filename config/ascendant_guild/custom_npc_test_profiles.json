@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "status": "manual creative test kit",
+  "function": "ascendant_identity:npc_test/kit",
+  "purpose": "Fast in-game validation of CustomNPCs-Unofficial for Ascendant Realms named NPCs, equipment, name/title readability, simple dialogue, and clone saving.",
+  "test_profiles": [
+    {
+      "id": "guild_clerk_test",
+      "profile_key": "ar:guild_clerk",
+      "generated_name": "[D-Rank] Guild Clerk | Lv.18 Clerk",
+      "generated_title": "",
+      "tool": "CustomNPCs NPC Wand",
+      "role": "dialogue/social",
+      "faction": "friendly",
+      "equipment": {
+        "mainhand": "minecraft:book",
+        "head": "minecraft:golden_helmet",
+        "chest": "minecraft:golden_chestplate"
+      },
+      "intended_modded_showcase": {
+        "mainhand": "Iron's Spells staff/cane after confirming the exact JEI item id",
+        "head": "Artifacts or Iron's Spells social/headwear after confirming the exact JEI item id",
+        "chest": "robe or guild clothing after confirming the exact JEI item id"
+      },
+      "expected_behavior": "Stationary or slow wander, does not attack, short greeting line, visible name/title."
+    },
+    {
+      "id": "rank_examiner_test",
+      "profile_key": "ar:rank_examiner",
+      "generated_name": "[B-Rank] Rank Examiner | Lv.52 Examiner",
+      "generated_title": "",
+      "tool": "CustomNPCs NPC Wand",
+      "role": "authority/social",
+      "faction": "friendly",
+      "equipment": {
+        "mainhand": "minecraft:iron_sword",
+        "head": "minecraft:golden_helmet",
+        "chest": "minecraft:golden_chestplate"
+      },
+      "intended_modded_showcase": {
+        "mainhand": "Truthseeker-style authority weapon after confirming the exact live item id",
+        "head": "Iron's Spells crown after confirming the exact JEI item id",
+        "chest": "Fantasy Armor hero chestplate after confirming the exact JEI item id"
+      },
+      "expected_behavior": "Stationary, high-authority silhouette, no gear drops, visible rank/name."
+    },
+    {
+      "id": "guard_captain_test",
+      "profile_key": "ar:guard_captain",
+      "generated_name": "[C-Rank] Guard Captain | Lv.36 Captain",
+      "generated_title": "",
+      "tool": "CustomNPCs NPC Wand",
+      "role": "settlement defense",
+      "faction": "friendly_to_player_hostile_to_monsters",
+      "equipment": {
+        "mainhand": "minecraft:crossbow",
+        "offhand": "minecraft:shield",
+        "head": "minecraft:iron_helmet",
+        "chest": "minecraft:iron_chestplate"
+      },
+      "intended_modded_showcase": {
+        "head": "Immersive Armors heavy helmet after confirming the exact JEI item id",
+        "chest": "Immersive Armors heavy chestplate after confirming the exact JEI item id"
+      },
+      "expected_behavior": "Can target hostile mobs in a controlled creative test without attacking players."
+    },
+    {
+      "id": "mira_ash_rival_test",
+      "profile_key": "ar:mira_ash",
+      "generated_name": "[C-Rank] Mira Ash | Lv.34 Scout",
+      "generated_title": "",
+      "tool": "CustomNPCs NPC Wand",
+      "role": "rival hunter combat prototype",
+      "faction": "neutral_or_hostile_test_only",
+      "equipment": {
+        "mainhand": "minecraft:iron_sword",
+        "chest": "minecraft:iron_chestplate"
+      },
+      "intended_modded_showcase": {
+        "mainhand": "Simply Swords runic or unique weapon after confirming the exact JEI item id",
+        "chest": "Fantasy Armor hunter/rival chestpiece after confirming the exact JEI item id"
+      },
+      "expected_behavior": "Combat-capable rival prototype for checking animations, health bar, nameplate readability, and drop policy."
+    }
+  ],
+  "acceptance_checks": [
+    "NPC Wand opens the edit UI without client crash.",
+    "Created NPC can hold visible modded weapons and wear visible armor.",
+    "Name/title remains readable in-world.",
+    "Friendly NPC does not attack the player.",
+    "Combat NPC can fight a vanilla zombie in a controlled creative test.",
+    "Mob Cloner can save and respawn the finished prototype.",
+    "Disconnect/rejoin keeps the test NPCs stable."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Hunter Boards",
+  "icon": "minecraft:map",
+  "category": "ascendant_realms:boards",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Hunter Board is the center of local Guild life. The Bountiful board handles contracts, the notice board handles warnings and rumors, and rank plaques show what kind of hunter the town expects."
+    }
+  ]
+}

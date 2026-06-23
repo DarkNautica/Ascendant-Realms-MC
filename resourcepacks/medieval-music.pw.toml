@@ -1,0 +1,13 @@
+name = "Medieval Music"
+filename = "MedievalMusic.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "504939014aa51cb563cae2b4aac564eb072cae15"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4680101
+project-id = 396541

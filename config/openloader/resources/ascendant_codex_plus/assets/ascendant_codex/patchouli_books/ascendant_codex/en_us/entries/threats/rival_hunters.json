@@ -1,0 +1,33 @@
+{
+  "category": "ascendant_codex:threats",
+  "name": "Rival Hunters",
+  "icon": "soulsweapons:pure_moonlight_shortsword",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "You Are Not Alone",
+      "text": "The wilds hold more than monsters. Other $(rune)ranked hunters$() roam the realm - rivals, not beasts - taking contracts, clearing Gates, and fighting the same threats you do. Some are beneath you. A few will end you."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "They Grow As You Do",
+      "text": "A rival hunter earns renown from its $(em)own$() kills, and when it has earned enough it $(rune)ascends a rank$() - gaining health and pulling a better $(gold)loadout$() on right there in the field.$(br2)$(soft)The D-Rank you ignore today may be a C-Rank threat tomorrow.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Arcanists Cast",
+      "text": "B-Rank and above carry true Iron's Spells gear, and the $(rune)casters$() among them throw $(em)real spells$() - Magic Missiles, fireballs, ice - not just swings. Closing on a robed hunter is a $(warn)decision$(), not a reflex."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "soulsweapons:pure_moonlight_shortsword",
+      "text": "$(gold)Named rivals$() are known across the realm: $(em)Mira Ash$() (C scout), $(em)Seren Valehart$() (B arcanist), $(em)Kael Vorn$() (A monster hunter), and the $(warn)Black Hound$() (S, unknown). Cross one and it becomes a story."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Reading a Rival",
+      "text": "Judge a rival's tier by the $(l:ascendant_codex:hunters_path/guild_ranks_e_to_s)Guild Ranks$(), and learn what their casters are doing to you in $(l:ascendant_codex:magic/casting_spells)Casting Spells$().$(br2)$(soft)Treat them as you would another player - because that is the point.$()"
+    }
+  ]
+}

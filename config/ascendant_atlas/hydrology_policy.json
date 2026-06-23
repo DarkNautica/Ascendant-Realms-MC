@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "enabled": true,
+  "model": "hydrology_first_biome_selection",
+  "selection_order": [
+    "sample_minecraft_climate_target",
+    "classify_hydrology_from_continentalness_erosion_weirdness_and_query_y",
+    "compute_continuous_domain_warped_region_weights",
+    "filter_biome_candidates_by_hydrology_compatibility",
+    "choose_nearest_compatible_terralith_parameter_point"
+  ],
+  "invalid_rules": [
+    "ocean_biome_on_inland_highland_or_mountain",
+    "land_biome_in_deep_ocean_without_island_or_coast_allowance",
+    "water_wetland_biome_in_dry_land_first_context"
+  ],
+  "preserve": [
+    "rivers",
+    "oases",
+    "mountain_lakes",
+    "coastlines",
+    "verdant_water_identity",
+    "frozen_ocean_identity"
+  ]
+}

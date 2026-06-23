@@ -1,0 +1,11 @@
+{
+  "name": "First Rivals",
+  "icon": "minecraft:name_tag",
+  "category": "ascendant_realms:rivals",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Mira Ash scouts ruins. Darius Crowe races you for contracts. Seren Valehart studies magic. Kael Vorn clears monsters before you arrive. The Black Hound is mostly evidence and fear."
+    }
+  ]
+}

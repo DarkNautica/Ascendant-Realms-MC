@@ -1,0 +1,22 @@
+{
+  "category": "ascendant_codex:threats",
+  "name": "Dragons & Great Beasts",
+  "icon": "minecraft:dragon_head",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "iceandfire:fire_dragon",
+      "scale": 0.3,
+      "name": "Dragons",
+      "text": "$(warn)Dragons$() rule the skies and roosts of the realm - Fire, Ice, and Lightning. A grown dragon is a raid-class threat: fireproofing, cover, ranged attacks, and dodging ($(gold)Z$()) are survival, not luxury."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "iceandfire:ice_dragon",
+      "scale": 0.3,
+      "name": "Hoards & Horror",
+      "text": "Dragons guard vast hoards - the realm's richest loot. Beyond dragons lurk other great beasts and deep-sea horrors.$(br2)$(soft)For lore and weaknesses of every creature, consult the Bestiary guide.$()"
+    }
+  ]
+}

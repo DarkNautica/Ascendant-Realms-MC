@@ -1,0 +1,23 @@
+{
+  "name": "Ascendant Codex",
+  "subtitle": "First Edition",
+  "landing_text": "A hunter's field manual for $(rune)Ascendant Realms$().$(br2)Where to begin, how the realm works, and how to stay alive long enough to matter.$(br2)$(soft)First Edition$()",
+  "version": 1,
+  "model": "ascendant_realms:ascendant_codex",
+  "book_texture": "ascendant_realms:textures/gui/codex_book.png",
+  "use_blocky_font": false,
+  "text_color": "D7E3FF",
+  "header_color": "9DE7FF",
+  "link_color": "FFD98A",
+  "link_hover_color": "FFEBBE",
+  "progress_bar_color": "7CF2FF",
+  "progress_bar_background": "1A1730",
+  "use_resource_pack": true,
+  "macros": {
+    "$(rune)": "$(#9DE7FF)$(bold)",
+    "$(gold)": "$(#FFD98A)",
+    "$(em)": "$(#B9A7FF)$(italic)",
+    "$(warn)": "$(#FF9E7A)$(bold)",
+    "$(soft)": "$(#9FB0D8)"
+  }
+}

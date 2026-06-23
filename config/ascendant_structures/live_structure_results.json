@@ -1,0 +1,20 @@
+{
+  "version": "structure_director_live_v1",
+  "generated_at": "2026-06-22T20:45:24+00:00",
+  "status": "source_live_files_generated_not_in_game_validated",
+  "minecraft_closed_at_generation": null,
+  "active_instance_sync": "pending_sync_script",
+  "source_datapack_hash": "540DD32065EE85CF861812B268BE567E51CB088112F1A844CD00569D570ABDDD",
+  "active_datapack_hash": null,
+  "source_helper_hash": "C505D68A024A08B5205535C9CC9B7D0DAE0B732BFAE5E3FBA528092BA2317DC5",
+  "active_helper_hash": null,
+  "packwiz_refresh": "pending",
+  "check_pack": "pending",
+  "client_export": "pending",
+  "server_staging": "pending",
+  "notes": [
+    "Live datapack changes are source-side until sync/export commands complete.",
+    "Fresh worlds or ungenerated chunks are required to see Structure Director Live v1 behavior.",
+    "The current helper exposes diagnostics; a true pre-generation context veto still needs a later mixin/generator-wrapper implementation."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Hunter Ranks",
+  "icon": "minecraft:gold_ingot",
+  "category": "ascendant_realms:guild",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Guild rank is public reputation, not normal level. Unranked hunters become E, D, C, B, A, and eventually S-Rank by proving real achievements: bounties, structures, bosses, village defense, magic, and weapon mastery."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "enabled": true,
+  "scale_blocks": 5200,
+  "strength_blocks": 900,
+  "purpose": "break visible straight Atlas sector lines while keeping deterministic region identity"
+}

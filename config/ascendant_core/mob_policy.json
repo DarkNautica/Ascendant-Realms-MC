@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "policy": "In Control caps and future finalize rules classify mobs by threat tier instead of removing content.",
+  "live_files": [
+    "config/incontrol/spawn.json",
+    "config/ascendant_core/live_spawn_policy.json"
+  ]
+}

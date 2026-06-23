@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "status": "generated sets for non-manual Guild NPC placement tests",
+  "source": "scripts/generate-ascendant-guild-worldgen.py",
+  "spawn_sets": [
+    {
+      "id": "starter_guild_staff",
+      "description": "Core social test group for a fresh Guild board.",
+      "members": [
+        {
+          "profile": "guild_clerk",
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "profile": "bounty_master",
+          "offset": [
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "profile": "rank_examiner",
+          "offset": [
+            -2,
+            0,
+            1
+          ]
+        },
+        {
+          "profile": "guard_captain",
+          "offset": [
+            0,
+            0,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roadside_rumor_camp",
+      "description": "Roadside social/rival test set.",
+      "members": [
+        {
+          "profile": "tavern_keeper",
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "profile": "wounded_hunter",
+          "offset": [
+            2,
+            0,
+            0
+          ]
+        },
+        {
+          "profile": "mira_ash",
+          "offset": [
+            -2,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frontier_guild_outpost",
+      "description": "Higher-rank outpost NPC set for the first worldgen structures.",
+      "members": [
+        {
+          "profile": "rank_examiner",
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "profile": "guild_arcanist",
+          "offset": [
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "profile": "hunter_quartermaster",
+          "offset": [
+            -2,
+            0,
+            1
+          ]
+        },
+        {
+          "profile": "seren_valehart",
+          "offset": [
+            0,
+            0,
+            3
+          ]
+        }
+      ]
+    }
+  ]
+}

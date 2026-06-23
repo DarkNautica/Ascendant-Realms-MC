@@ -1,0 +1,11 @@
+{
+  "name": "Guild Marks",
+  "icon": "minecraft:emerald",
+  "category": "ascendant_realms:paths",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Guild Marks are the first currency concept. They should come from contracts and rank work, then buy maps, scrolls, food, materials, and rank-appropriate supplies."
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-18T01:57:55+00:00",
+  "status": "review_only_live_observation_import_no_generation_changes",
+  "schema": {
+    "requested_structure_id": "Structure ID the player asked /locate for; may contain a narrow wildcard only for grouped player reports.",
+    "actual_structure_id_seen": "Actual generated structure if a mod redirected or replaced the locate result.",
+    "locate_command": "Command or command chain used.",
+    "coordinates": "Object with x/y/z if known, otherwise null.",
+    "atlas_region": "Atlas region from /ascatlas here if known.",
+    "biome": "Actual biome from /ascatlas here or debug screen if known.",
+    "visual_issue_tags": "Short tags such as water_island, region_fit_mismatch, looked_good, needs_followup.",
+    "player_notes": "Jayden's note or condensed exact field observation.",
+    "screenshot_reference": "Optional screenshot path.",
+    "decision": "review decision; never a live override by itself.",
+    "timestamp_or_session_note": "Session marker for traceability."
+  },
+  "observations": [
+    {
+      "requested_structure_id": "iceandfire:*_dragon_roost",
+      "actual_structure_id_seen": "iceandfire:*_dragon_roost",
+      "locate_command": "/locate structure iceandfire:<dragon_roost_variant>",
+      "coordinates": null,
+      "atlas_region": null,
+      "biome": null,
+      "visual_issue_tags": [
+        "water_island",
+        "wet_terrain_mismatch",
+        "land_structure"
+      ],
+      "player_notes": "Dragon roosts were reported spawning as islands in water like oceans or lakes.",
+      "screenshot_reference": null,
+      "decision": "candidate_land_placement_review",
+      "timestamp_or_session_note": "Jayden first Structure Director visual pass, 2026-06-17"
+    },
+    {
+      "requested_structure_id": "idas:abandoned_vineyard",
+      "actual_structure_id_seen": "idas:abandoned_vineyard",
+      "locate_command": "/locate structure idas:abandoned_vineyard",
+      "coordinates": {
+        "x": 9568,
+        "z": 9264
+      },
+      "atlas_region": "south_east_wilds",
+      "biome": "terralith:hot_shrubland",
+      "visual_issue_tags": [
+        "water_island",
+        "wet_terrain_mismatch",
+        "region_fit_mismatch",
+        "land_structure"
+      ],
+      "player_notes": "Abandoned vineyard spawned as an island in water and in an odd region context.",
+      "screenshot_reference": null,
+      "decision": "candidate_land_and_region_lock_review",
+      "timestamp_or_session_note": "Jayden first Structure Director visual pass, latest.log locate evidence"
+    },
+    {
+      "requested_structure_id": "iceandfire:gorgon_temple",
+      "actual_structure_id_seen": "idas:labyrinth",
+      "locate_command": "/locate structure iceandfire:gorgon_temple then /locate structure idas:labyrinth",
+      "coordinates": {
+        "x": 2704,
+        "z": 14816
+      },
+      "atlas_region": "sunreach",
+      "biome": "terralith:desert_canyon",
+      "visual_issue_tags": [
+        "idas_replacement_override",
+        "looked_good"
+      ],
+      "player_notes": "IDAS overrides this Ice and Fire structure with idas:labyrinth; Jayden said the labyrinth looked good.",
+      "screenshot_reference": null,
+      "decision": "acceptable_mod_override_document_only",
+      "timestamp_or_session_note": "Jayden first Structure Director visual pass, latest.log override evidence"
+    },
+    {
+      "requested_structure_id": "iceandfire:graveyard",
+      "actual_structure_id_seen": "idas:haunted_manor",
+      "locate_command": "/locate structure iceandfire:graveyard then /locate structure idas:haunted_manor",
+      "coordinates": null,
+      "atlas_region": null,
+      "biome": null,
+      "visual_issue_tags": [
+        "idas_replacement_override",
+        "needs_followup"
+      ],
+      "player_notes": "IDAS overrides this Ice and Fire structure with idas:haunted_manor; placement still needs follow-up if it looks bad.",
+      "screenshot_reference": null,
+      "decision": "needs_followup",
+      "timestamp_or_session_note": "Jayden first Structure Director visual pass, latest.log override evidence"
+    }
+  ]
+}

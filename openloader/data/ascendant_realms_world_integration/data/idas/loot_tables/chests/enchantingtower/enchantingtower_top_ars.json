@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "irons_spellbooks:uncommon_ink"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "irons_spellbooks:arcane_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "irons_spellbooks:scroll"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "irons_spellbooks:rare_ink"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "irons_spellbooks:diamond_spell_book"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+name = "Malfu Combat Animation"
+filename = "malfu-combat-animation-3.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LNkOO2Ya/versions/tjgtJbsB/malfu-combat-animation-3.1.jar"
+hash-format = "sha512"
+hash = "0d3cbb7be483180785358a7b314ca56da4cde868deaa5b107ac5ac78724b94fba43bc2931e9b70c2f1e338fd724eb007af3de6e4debc50de890a62891b2ad1b8"
+
+[update]
+[update.modrinth]
+mod-id = "LNkOO2Ya"
+version = "tjgtJbsB"

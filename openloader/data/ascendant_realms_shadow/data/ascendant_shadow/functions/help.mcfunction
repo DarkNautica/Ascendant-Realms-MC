@@ -1,0 +1,7 @@
+tellraw @p [{"text":"=== Ascendant Shadow Army ===","color":"dark_purple","bold":true}]
+tellraw @p [{"text":"1) Enable the ","color":"gray"},{"text":"Ascendant Shadow Army","color":"aqua"},{"text":" resource pack.","color":"gray"}]
+tellraw @p [{"text":"/function ascendant_shadow:preview","color":"aqua"},{"text":" - vanilla shadow mobs, frozen, glowing aura.","color":"gray"}]
+tellraw @p [{"text":"/function ascendant_shadow:preview_modded","color":"aqua"},{"text":" - modded test mobs (Born in Chaos + Mowzie's).","color":"gray"}]
+tellraw @p [{"text":"/function ascendant_shadow:aura","color":"aqua"},{"text":" - add aura to nearby shadow mobs.","color":"gray"}]
+tellraw @p [{"text":"/function ascendant_shadow:eggs","color":"aqua"},{"text":" - spawn eggs of vanilla shadow mobs.","color":"gray"}]
+tellraw @p [{"text":"/function ascendant_shadow:clear","color":"aqua"},{"text":" - remove preview + aura.","color":"gray"}]

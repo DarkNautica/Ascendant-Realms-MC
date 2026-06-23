@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "source_registry": "config/ascendant_index/structure_registry.json",
+  "runtime_state": "contract_active",
+  "policy": "Structure density should feel full and civilized without recreating crashy village-pool conflicts. Standalone Ascendant Guild structures are live; deeper third-party village injection remains gated.",
+  "groups": [
+    {
+      "id": "villages_and_towns",
+      "structure_tier": 0,
+      "namespaces": ["minecraft", "integrated_villages", "towns_and_towers", "villages_and_pillages"],
+      "loot_tier": "village_supplies",
+      "npc_roles": ["villager", "guard", "guild_clerk", "bounty_master"],
+      "density_policy": "common enough for multiplayer travel; avoid multiple bounty centers in tiny villages",
+      "runtime_owner": "mod configs plus ascendant_settlements contract"
+    },
+    {
+      "id": "guild_anchor_structures",
+      "structure_tier": 1,
+      "namespaces": ["ascendant_guild"],
+      "loot_tier": "guild_supplies",
+      "npc_roles": ["guild_clerk", "rank_examiner", "quartermaster", "bounty_master", "rival"],
+      "density_policy": "live standalone structures with widened spacing after duplicate-board feedback",
+      "runtime_owner": "Open Loader ascendant_realms_guild datapack"
+    },
+    {
+      "id": "roads_camps_and_landmarks",
+      "structure_tier": 1,
+      "namespaces": ["structory", "mvs", "mss", "mes", "yungsbridges", "create_structures_arise"],
+      "loot_tier": "travel_supplies",
+      "npc_roles": ["wounded_hunter", "scout", "tavern_keeper"],
+      "density_policy": "visible during exploration but not every chunk",
+      "runtime_owner": "installed structure mods and config spacing"
+    },
+    {
+      "id": "minor_dungeons",
+      "structure_tier": 2,
+      "namespaces": ["yungs", "idas", "moogs", "medieval_buildings"],
+      "loot_tier": "rare",
+      "npc_roles": ["rival_hint", "rescue_target"],
+      "density_policy": "common exploration rewards; loot should not jump past rare/epic early",
+      "runtime_owner": "Loot Integrations and future Open Loader loot overrides"
+    },
+    {
+      "id": "major_dungeons",
+      "structure_tier": 3,
+      "namespaces": ["idas", "cataclysm", "aquamirae", "marium", "bossesrise"],
+      "loot_tier": "epic_legendary",
+      "npc_roles": ["bounty_master", "rank_examiner"],
+      "density_policy": "memorable targets with strong rewards and contracts",
+      "runtime_owner": "structure mods, Bountiful major board, future loot tables"
+    },
+    {
+      "id": "boss_and_dragon_sites",
+      "structure_tier": 4,
+      "namespaces": ["cataclysm", "iceandfire", "soulsweapons", "mes"],
+      "loot_tier": "legendary_mythic_ascendant",
+      "npc_roles": ["rank_examiner", "s_rank_rival", "dragonbound_hook"],
+      "density_policy": "rare, telegraphed, and dangerous; never used as village filler",
+      "runtime_owner": "mod configs first; Ascendant Settlement/Atlas helper if distance-aware gating is needed"
+    }
+  ],
+  "pool_injection_gate": {
+    "current": "standalone only for Ascendant Guild structures",
+    "requirements_before_injection": [
+      "structure generates with /locate",
+      "template processors do not crash",
+      "notice boards face outward",
+      "loot containers populate",
+      "NPC spawn set works",
+      "spacing prevents village spam",
+      "server runs 10 minutes after exploration"
+    ],
+    "custom_mod_threshold": "If datapack injection cannot prevent duplicates, bad orientation, or third-party processor conflicts, build Ascendant Settlement Engine instead of forcing more JSON hacks."
+  }
+}

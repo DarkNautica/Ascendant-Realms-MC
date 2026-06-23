@@ -1,0 +1,602 @@
+# Ascendant Structure Locate Commands
+
+Generated: 2026-06-18T01:57:56Z
+
+These commands are review-only. They do not enable structure overrides, inject villages, add Hunter Boards, add Guild Halls, place NPCs, or change loot.
+
+Workflow:
+1. Create a fresh creative validation world.
+2. Use the suggested search-origin teleport when one is listed.
+3. Run the locate command.
+4. Use `/tp @s <x> ~ <z>` with the coordinates returned by `/locate`.
+5. Run `/ascatlas here` at the result and record the visible biome, Atlas region, clipping, density, danger, and screenshots.
+
+## highest_risk_first_20
+
+- `idas:abandoned_vineyard`
+  - Search origin: `/tp @s 0 120 0`
+  - Locate: `/locate structure idas:abandoned_vineyard`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `iceandfire:fire_dragon_roost`
+  - Search origin: `/tp @s 18000 160 18000`
+  - Locate: `/locate structure iceandfire:fire_dragon_roost`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `iceandfire:ice_dragon_roost`
+  - Search origin: `/tp @s 18000 160 18000`
+  - Locate: `/locate structure iceandfire:ice_dragon_roost`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `iceandfire:lightning_dragon_roost`
+  - Search origin: `/tp @s 18000 160 18000`
+  - Locate: `/locate structure iceandfire:lightning_dragon_roost`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `iceandfire:cyclops_cave`
+  - Search origin: `/tp @s 18000 160 18000`
+  - Locate: `/locate structure iceandfire:cyclops_cave`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `betterdungeons:small_dungeon`
+  - Search origin: `/tp @s 0 120 0`
+  - Locate: `/locate structure betterdungeons:small_dungeon`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `bettermineshafts:mineshaft_acacia`
+  - Search origin: `/tp @s 0 120 0`
+  - Locate: `/locate structure bettermineshafts:mineshaft_acacia`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `bettermineshafts:mineshaft_overgrown`
+  - Search origin: `/tp @s 0 120 0`
+  - Locate: `/locate structure bettermineshafts:mineshaft_overgrown`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `bettermineshafts:mineshaft_spruce`
+  - Search origin: `/tp @s 0 120 0`
+  - Locate: `/locate structure bettermineshafts:mineshaft_spruce`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `iceandfire:siren_island`
+  - Search origin: `/tp @s 18000 160 18000`
+  - Locate: `/locate structure iceandfire:siren_island`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `iceandfire:graveyard`
+  - Search origin: `/tp @s 18000 160 18000`
+  - Locate: `/locate structure iceandfire:graveyard`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `minecraft:mineshaft`
+  - Search origin: `/tp @s 9000 120 2000`
+  - Locate: `/locate structure minecraft:mineshaft`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `iceandfire:hydra_cave`
+  - Search origin: `/tp @s 18000 160 18000`
+  - Locate: `/locate structure iceandfire:hydra_cave`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `iceandfire:pixie_village`
+  - Search origin: `/tp @s 18000 160 18000`
+  - Locate: `/locate structure iceandfire:pixie_village`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `idas:haunted_manor`
+  - Search origin: `/tp @s -8000 140 -8000`
+  - Locate: `/locate structure idas:haunted_manor`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `irons_spellbooks:mountain_tower`
+  - Search origin: `Start in the Atlas region you want to test, then run locate.`
+  - Locate: `/locate structure irons_spellbooks:mountain_tower`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `iceandfire:fire_dragon_cave`
+  - Search origin: `/tp @s 18000 160 18000`
+  - Locate: `/locate structure iceandfire:fire_dragon_cave`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `iceandfire:ice_dragon_cave`
+  - Search origin: `/tp @s 18000 160 18000`
+  - Locate: `/locate structure iceandfire:ice_dragon_cave`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `iceandfire:lightning_dragon_cave`
+  - Search origin: `/tp @s 18000 160 18000`
+  - Locate: `/locate structure iceandfire:lightning_dragon_cave`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `irons_spellbooks:pyromancer_tower`
+  - Search origin: `/tp @s 0 120 0`
+  - Locate: `/locate structure irons_spellbooks:pyromancer_tower`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+
+## water_ship_seafloor_top_10
+
+- `idas:sunken_ship/sunken_ship`
+  - Search origin: `/tp @s 9000 120 2000`
+  - Locate: `/locate structure idas:sunken_ship/sunken_ship`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `idas:sunken_ship/sunken_ship_ruins`
+  - Search origin: `/tp @s 9000 120 2000`
+  - Locate: `/locate structure idas:sunken_ship/sunken_ship_ruins`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `mvs:ocean_tower`
+  - Search origin: `/tp @s 9000 120 2000`
+  - Locate: `/locate structure mvs:ocean_tower`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `minecraft:monument`
+  - Search origin: `/tp @s 9000 120 2000`
+  - Locate: `/locate structure minecraft:monument`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `iceandfire:siren_island`
+  - Search origin: `/tp @s 18000 160 18000`
+  - Locate: `/locate structure iceandfire:siren_island`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `idas:iceandfire/sirens_cove`
+  - Search origin: `/tp @s 18000 160 18000`
+  - Locate: `/locate structure idas:iceandfire/sirens_cove`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `mvs:well`
+  - Search origin: `/tp @s 0 130 -9000`
+  - Locate: `/locate structure mvs:well`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `integrated_villages:pirate_village`
+  - Search origin: `/tp @s 9000 120 2000`
+  - Locate: `/locate structure integrated_villages:pirate_village`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `towns_and_towers:pillager_outpost_ocean`
+  - Search origin: `/tp @s 9000 120 2000`
+  - Locate: `/locate structure towns_and_towers:pillager_outpost_ocean`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `minecraft:shipwreck`
+  - Search origin: `/tp @s 9000 120 2000`
+  - Locate: `/locate structure minecraft:shipwreck`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+
+## sky_floating_top_10
+
+- `cataclysm:acropolis`
+  - Search origin: `/tp @s 18000 160 18000`
+  - Locate: `/locate structure cataclysm:acropolis`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `mss:arena`
+  - Search origin: `/tp @s 18000 160 18000`
+  - Locate: `/locate structure mss:arena`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `integrated_villages:airship_village`
+  - Search origin: `/tp @s 0 120 0`
+  - Locate: `/locate structure integrated_villages:airship_village`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `medievalend:ship`
+  - Search origin: `Start in the Atlas region you want to test, then run locate.`
+  - Locate: `/locate structure medievalend:ship`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `terralith:mage_tower_autumn`
+  - Search origin: `/tp @s 9000 120 2000`
+  - Locate: `/locate structure terralith:mage_tower_autumn`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `terralith:mage_tower_spring`
+  - Search origin: `/tp @s 9000 120 2000`
+  - Locate: `/locate structure terralith:mage_tower_spring`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `terralith:mage_tower_summer`
+  - Search origin: `/tp @s 9000 120 2000`
+  - Locate: `/locate structure terralith:mage_tower_summer`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `terralith:mage_tower_winter`
+  - Search origin: `/tp @s 9000 120 2000`
+  - Locate: `/locate structure terralith:mage_tower_winter`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `mss:large_tower`
+  - Search origin: `/tp @s 0 130 -9000`
+  - Locate: `/locate structure mss:large_tower`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `create_structures_arise:createminiskyvillage`
+  - Search origin: `/tp @s 0 120 0`
+  - Locate: `/locate structure create_structures_arise:createminiskyvillage`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+
+## boss_dungeon_top_10
+
+- `idas:abandoned_vineyard`
+  - Search origin: `/tp @s 0 120 0`
+  - Locate: `/locate structure idas:abandoned_vineyard`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `iceandfire:fire_dragon_roost`
+  - Search origin: `/tp @s 18000 160 18000`
+  - Locate: `/locate structure iceandfire:fire_dragon_roost`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `iceandfire:ice_dragon_roost`
+  - Search origin: `/tp @s 18000 160 18000`
+  - Locate: `/locate structure iceandfire:ice_dragon_roost`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `iceandfire:lightning_dragon_roost`
+  - Search origin: `/tp @s 18000 160 18000`
+  - Locate: `/locate structure iceandfire:lightning_dragon_roost`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `iceandfire:cyclops_cave`
+  - Search origin: `/tp @s 18000 160 18000`
+  - Locate: `/locate structure iceandfire:cyclops_cave`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `betterdungeons:small_dungeon`
+  - Search origin: `/tp @s 0 120 0`
+  - Locate: `/locate structure betterdungeons:small_dungeon`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `bettermineshafts:mineshaft_acacia`
+  - Search origin: `/tp @s 0 120 0`
+  - Locate: `/locate structure bettermineshafts:mineshaft_acacia`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `bettermineshafts:mineshaft_overgrown`
+  - Search origin: `/tp @s 0 120 0`
+  - Locate: `/locate structure bettermineshafts:mineshaft_overgrown`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `bettermineshafts:mineshaft_spruce`
+  - Search origin: `/tp @s 0 120 0`
+  - Locate: `/locate structure bettermineshafts:mineshaft_spruce`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `iceandfire:siren_island`
+  - Search origin: `/tp @s 18000 160 18000`
+  - Locate: `/locate structure iceandfire:siren_island`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+
+## village_town_overlap_top_10
+
+- `iceandfire:pixie_village`
+  - Search origin: `/tp @s 18000 160 18000`
+  - Locate: `/locate structure iceandfire:pixie_village`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `cataclysm:abandoned_village`
+  - Search origin: `/tp @s 18000 160 18000`
+  - Locate: `/locate structure cataclysm:abandoned_village`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `cataclysm:desert_occupied_village`
+  - Search origin: `/tp @s 18000 160 18000`
+  - Locate: `/locate structure cataclysm:desert_occupied_village`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `idas:abandonedhouse`
+  - Search origin: `/tp @s 8000 120 8000`
+  - Locate: `/locate structure idas:abandonedhouse`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `idas:bearclaw_inn`
+  - Search origin: `/tp @s 8000 120 8000`
+  - Locate: `/locate structure idas:bearclaw_inn`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `idas:beekeepers_house`
+  - Search origin: `/tp @s -8000 140 -8000`
+  - Locate: `/locate structure idas:beekeepers_house`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `idas:brickhouse`
+  - Search origin: `/tp @s 8000 120 8000`
+  - Locate: `/locate structure idas:brickhouse`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `idas:farmhouse`
+  - Search origin: `/tp @s 8000 120 8000`
+  - Locate: `/locate structure idas:farmhouse`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `idas:mason_house`
+  - Search origin: `/tp @s 8000 120 8000`
+  - Locate: `/locate structure idas:mason_house`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `integrated_villages:pirate_village`
+  - Search origin: `/tp @s 9000 120 2000`
+  - Locate: `/locate structure integrated_villages:pirate_village`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+
+## beginner_region_risks_top_10
+
+- `idas:abandoned_vineyard`
+  - Search origin: `/tp @s 0 120 0`
+  - Locate: `/locate structure idas:abandoned_vineyard`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `betterdungeons:small_dungeon`
+  - Search origin: `/tp @s 0 120 0`
+  - Locate: `/locate structure betterdungeons:small_dungeon`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `bettermineshafts:mineshaft_acacia`
+  - Search origin: `/tp @s 0 120 0`
+  - Locate: `/locate structure bettermineshafts:mineshaft_acacia`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `bettermineshafts:mineshaft_overgrown`
+  - Search origin: `/tp @s 0 120 0`
+  - Locate: `/locate structure bettermineshafts:mineshaft_overgrown`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `bettermineshafts:mineshaft_spruce`
+  - Search origin: `/tp @s 0 120 0`
+  - Locate: `/locate structure bettermineshafts:mineshaft_spruce`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `minecraft:mineshaft`
+  - Search origin: `/tp @s 9000 120 2000`
+  - Locate: `/locate structure minecraft:mineshaft`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `irons_spellbooks:pyromancer_tower`
+  - Search origin: `/tp @s 0 120 0`
+  - Locate: `/locate structure irons_spellbooks:pyromancer_tower`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `betterdungeons:skeleton_dungeon`
+  - Search origin: `/tp @s 0 120 0`
+  - Locate: `/locate structure betterdungeons:skeleton_dungeon`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `betterdungeons:spider_dungeon`
+  - Search origin: `/tp @s 0 120 0`
+  - Locate: `/locate structure betterdungeons:spider_dungeon`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+- `betterdungeons:zombie_dungeon`
+  - Search origin: `/tp @s 0 120 0`
+  - Locate: `/locate structure betterdungeons:zombie_dungeon`
+  - After locate: `/tp @s <x> ~ <z>  (replace <x>/<z> with the coordinates returned by /locate)`
+
+## Beginner-region structures
+
+- `/locate structure idas:abandoned_vineyard` - idas:abandoned_vineyard
+- `/locate structure betterdungeons:small_dungeon` - betterdungeons:small_dungeon
+- `/locate structure bettermineshafts:mineshaft_acacia` - bettermineshafts:mineshaft_acacia
+- `/locate structure bettermineshafts:mineshaft_overgrown` - bettermineshafts:mineshaft_overgrown
+- `/locate structure bettermineshafts:mineshaft_spruce` - bettermineshafts:mineshaft_spruce
+- `/locate structure minecraft:mineshaft` - minecraft:mineshaft
+- `/locate structure irons_spellbooks:pyromancer_tower` - irons_spellbooks:pyromancer_tower
+- `/locate structure minecraft:mineshaft_mesa` - minecraft:mineshaft_mesa
+- `/locate structure betterdungeons:skeleton_dungeon` - betterdungeons:skeleton_dungeon
+- `/locate structure betterdungeons:spider_dungeon` - betterdungeons:spider_dungeon
+- `/locate structure betterdungeons:zombie_dungeon` - betterdungeons:zombie_dungeon
+- `/locate structure betterstrongholds:stronghold` - betterstrongholds:stronghold
+- `/locate structure idas:ancient_portal/ancient_portal` - idas:ancient_portal/ancient_portal
+- `/locate structure idas:animal_den/forest_den` - idas:animal_den/forest_den
+- `/locate structure idas:nexus` - idas:nexus
+- `/locate structure idas:windswept_shrine` - idas:windswept_shrine
+- `/locate structure mvs:mineshaft` - mvs:mineshaft
+- `/locate structure mvs:red_tower` - mvs:red_tower
+- `/locate structure mvs:small_pillager_tower` - mvs:small_pillager_tower
+- `/locate structure irons_spellbooks:evoker_fort` - irons_spellbooks:evoker_fort
+- `/locate structure create_structures_arise:create_ruined_castle` - create_structures_arise:create_ruined_castle
+- `/locate structure create_structures_arise:crimsite_tower` - create_structures_arise:crimsite_tower
+- `/locate structure create_structures_arise:towerofochrum` - create_structures_arise:towerofochrum
+- `/locate structure irons_spellbooks:mangrove_hut` - irons_spellbooks:mangrove_hut
+- `/locate structure minecraft:nether_fossil` - minecraft:nether_fossil
+- `/locate structure integrated_villages:pirate_village` - integrated_villages:pirate_village
+- `/locate structure towns_and_towers:pillager_outpost_ocean` - towns_and_towers:pillager_outpost_ocean
+- `/locate structure terralith:underground/mining_outpost` - terralith:underground/mining_outpost
+- `/locate structure mvs:medium_bamboo_cart` - mvs:medium_bamboo_cart
+- `/locate structure idas:redhorn_guild` - idas:redhorn_guild
+- `/locate structure terralith:underground/giant_bee_hive` - terralith:underground/giant_bee_hive
+- `/locate structure terralith:underground/oak_cabin` - terralith:underground/oak_cabin
+- `/locate structure terralith:underground/old_refinery` - terralith:underground/old_refinery
+- `/locate structure minecraft:stronghold` - minecraft:stronghold
+- `/locate structure structory:swamp_ruin` - structory:swamp_ruin
+- `/locate structure integrated_villages:airship_village` - integrated_villages:airship_village
+
+## Dungeon structures
+
+- `/locate structure idas:abandoned_vineyard` - idas:abandoned_vineyard
+- `/locate structure betterdungeons:small_dungeon` - betterdungeons:small_dungeon
+- `/locate structure bettermineshafts:mineshaft_acacia` - bettermineshafts:mineshaft_acacia
+- `/locate structure bettermineshafts:mineshaft_overgrown` - bettermineshafts:mineshaft_overgrown
+- `/locate structure bettermineshafts:mineshaft_spruce` - bettermineshafts:mineshaft_spruce
+- `/locate structure minecraft:mineshaft` - minecraft:mineshaft
+- `/locate structure idas:haunted_manor` - idas:haunted_manor
+- `/locate structure irons_spellbooks:mountain_tower` - irons_spellbooks:mountain_tower
+- `/locate structure irons_spellbooks:pyromancer_tower` - irons_spellbooks:pyromancer_tower
+- `/locate structure minecraft:mineshaft_mesa` - minecraft:mineshaft_mesa
+- `/locate structure betterdungeons:skeleton_dungeon` - betterdungeons:skeleton_dungeon
+- `/locate structure betterdungeons:spider_dungeon` - betterdungeons:spider_dungeon
+- `/locate structure betterdungeons:zombie_dungeon` - betterdungeons:zombie_dungeon
+- `/locate structure betterstrongholds:stronghold` - betterstrongholds:stronghold
+- `/locate structure idas:ancient_portal/ancient_portal` - idas:ancient_portal/ancient_portal
+- `/locate structure idas:animal_den/forest_den` - idas:animal_den/forest_den
+- `/locate structure idas:nexus` - idas:nexus
+- `/locate structure idas:windswept_shrine` - idas:windswept_shrine
+- `/locate structure mvs:mineshaft` - mvs:mineshaft
+- `/locate structure mvs:red_tower` - mvs:red_tower
+- `/locate structure mvs:small_pillager_tower` - mvs:small_pillager_tower
+- `/locate structure bettermineshafts:mineshaft_desert` - bettermineshafts:mineshaft_desert
+- `/locate structure bettermineshafts:mineshaft_dripstone` - bettermineshafts:mineshaft_dripstone
+- `/locate structure bettermineshafts:mineshaft_ice` - bettermineshafts:mineshaft_ice
+- `/locate structure bettermineshafts:mineshaft_jungle` - bettermineshafts:mineshaft_jungle
+- `/locate structure bettermineshafts:mineshaft_lush` - bettermineshafts:mineshaft_lush
+- `/locate structure bettermineshafts:mineshaft_mesa` - bettermineshafts:mineshaft_mesa
+- `/locate structure bettermineshafts:mineshaft_mushroom` - bettermineshafts:mineshaft_mushroom
+- `/locate structure bettermineshafts:mineshaft_oak` - bettermineshafts:mineshaft_oak
+- `/locate structure bettermineshafts:mineshaft_red_desert` - bettermineshafts:mineshaft_red_desert
+- `/locate structure bettermineshafts:mineshaft_spruce_snowy` - bettermineshafts:mineshaft_spruce_snowy
+- `/locate structure create_structures_arise:create_ruined_castle` - create_structures_arise:create_ruined_castle
+- `/locate structure create_structures_arise:crimsite_tower` - create_structures_arise:crimsite_tower
+- `/locate structure create_structures_arise:towerofochrum` - create_structures_arise:towerofochrum
+- `/locate structure terralith:underground/frosted_dungeon` - terralith:underground/frosted_dungeon
+- `/locate structure terralith:underground/sunken_tower` - terralith:underground/sunken_tower
+- `/locate structure idas:abandonedhouse` - idas:abandonedhouse
+- `/locate structure idas:apothecary_abode` - idas:apothecary_abode
+- `/locate structure idas:bearclaw_inn` - idas:bearclaw_inn
+- `/locate structure idas:beekeepers_house` - idas:beekeepers_house
+- `/locate structure idas:botanist` - idas:botanist
+- `/locate structure idas:brickhouse` - idas:brickhouse
+
+## Water structures
+
+- `/locate structure idas:sunken_ship/sunken_ship` - idas:sunken_ship/sunken_ship
+- `/locate structure idas:sunken_ship/sunken_ship_ruins` - idas:sunken_ship/sunken_ship_ruins
+- `/locate structure mvs:ocean_tower` - mvs:ocean_tower
+- `/locate structure minecraft:monument` - minecraft:monument
+- `/locate structure iceandfire:siren_island` - iceandfire:siren_island
+- `/locate structure idas:iceandfire/sirens_cove` - idas:iceandfire/sirens_cove
+- `/locate structure mvs:well` - mvs:well
+- `/locate structure integrated_villages:pirate_village` - integrated_villages:pirate_village
+- `/locate structure towns_and_towers:pillager_outpost_ocean` - towns_and_towers:pillager_outpost_ocean
+- `/locate structure minecraft:shipwreck` - minecraft:shipwreck
+- `/locate structure idas:sunken_ship/sunken_ship_coral` - idas:sunken_ship/sunken_ship_coral
+- `/locate structure mvs:rare_well` - mvs:rare_well
+- `/locate structure structory:boat` - structory:boat
+- `/locate structure minecraft:ruined_portal_ocean` - minecraft:ruined_portal_ocean
+- `/locate structure mss:palm_island` - mss:palm_island
+- `/locate structure mvs:small_ship` - mvs:small_ship
+- `/locate structure create_structures_arise:pillager_boat` - create_structures_arise:pillager_boat
+- `/locate structure minecraft:mineshaft` - minecraft:mineshaft
+- `/locate structure mowziesmobs:wrought_chamber` - mowziesmobs:wrought_chamber
+- `/locate structure mowziesmobs:frostmaw_spawn` - mowziesmobs:frostmaw_spawn
+- `/locate structure mowziesmobs:monastery` - mowziesmobs:monastery
+- `/locate structure mowziesmobs:umvuthana_grove` - mowziesmobs:umvuthana_grove
+- `/locate structure iceandfire:cyclops_cave` - iceandfire:cyclops_cave
+- `/locate structure iceandfire:gorgon_temple` - iceandfire:gorgon_temple
+- `/locate structure minecraft:buried_treasure` - minecraft:buried_treasure
+- `/locate structure minecraft:shipwreck_beached` - minecraft:shipwreck_beached
+- `/locate structure idas:abandoned_lighthouse` - idas:abandoned_lighthouse
+- `/locate structure minecraft:ruined_portal` - minecraft:ruined_portal
+- `/locate structure mvs:beach_bar` - mvs:beach_bar
+
+## Sky structures
+
+- `/locate structure cataclysm:acropolis` - cataclysm:acropolis
+- `/locate structure mss:arena` - mss:arena
+- `/locate structure integrated_villages:airship_village` - integrated_villages:airship_village
+- `/locate structure medievalend:ship` - medievalend:ship
+- `/locate structure terralith:mage_tower_autumn` - terralith:mage_tower_autumn
+- `/locate structure terralith:mage_tower_spring` - terralith:mage_tower_spring
+- `/locate structure terralith:mage_tower_summer` - terralith:mage_tower_summer
+- `/locate structure terralith:mage_tower_winter` - terralith:mage_tower_winter
+- `/locate structure mss:large_tower` - mss:large_tower
+- `/locate structure create_structures_arise:createminiskyvillage` - create_structures_arise:createminiskyvillage
+- `/locate structure mss:diorite_house` - mss:diorite_house
+- `/locate structure mss:white_house` - mss:white_house
+- `/locate structure create_structures_arise:createairdrop` - create_structures_arise:createairdrop
+- `/locate structure create_structures_arise:pillagersteampunkairship` - create_structures_arise:pillagersteampunkairship
+- `/locate structure mvs:floating_islands` - mvs:floating_islands
+- `/locate structure mvs:large_floating_island` - mvs:large_floating_island
+
+## Village/town/settlement structures
+
+- `/locate structure iceandfire:pixie_village` - iceandfire:pixie_village
+- `/locate structure cataclysm:abandoned_village` - cataclysm:abandoned_village
+- `/locate structure cataclysm:desert_occupied_village` - cataclysm:desert_occupied_village
+- `/locate structure idas:abandonedhouse` - idas:abandonedhouse
+- `/locate structure idas:bearclaw_inn` - idas:bearclaw_inn
+- `/locate structure idas:beekeepers_house` - idas:beekeepers_house
+- `/locate structure idas:brickhouse` - idas:brickhouse
+- `/locate structure idas:farmhouse` - idas:farmhouse
+- `/locate structure idas:mason_house` - idas:mason_house
+- `/locate structure integrated_villages:pirate_village` - integrated_villages:pirate_village
+- `/locate structure towns_and_towers:pillager_outpost_ocean` - towns_and_towers:pillager_outpost_ocean
+- `/locate structure terralith:underground/mining_outpost` - terralith:underground/mining_outpost
+- `/locate structure idas:redhorn_guild` - idas:redhorn_guild
+- `/locate structure idas:abandoned_lighthouse` - idas:abandoned_lighthouse
+- `/locate structure integrated_villages:airship_village` - integrated_villages:airship_village
+- `/locate structure aquamirae:outpost` - aquamirae:outpost
+- `/locate structure mvs:horse_campsite` - mvs:horse_campsite
+- `/locate structure mvs:small_campfire_lantern` - mvs:small_campfire_lantern
+- `/locate structure villagesandpillages:village_witch` - villagesandpillages:village_witch
+- `/locate structure idas:desert_camp/desert_camp` - idas:desert_camp/desert_camp
+- `/locate structure idas:desert_camp/desert_camp_bygwindswept` - idas:desert_camp/desert_camp_bygwindswept
+- `/locate structure idas:desert_camp/desert_camp_orange` - idas:desert_camp/desert_camp_orange
+- `/locate structure idas:desert_camp/desert_camp_red` - idas:desert_camp/desert_camp_red
+- `/locate structure idas:desert_market/desert_market` - idas:desert_market/desert_market
+- `/locate structure idas:desert_market/desert_market_orange` - idas:desert_market/desert_market_orange
+- `/locate structure idas:desert_market/desert_market_red` - idas:desert_market/desert_market_red
+- `/locate structure idas:lumber_camp/lumber_camp_acacia` - idas:lumber_camp/lumber_camp_acacia
+- `/locate structure idas:lumber_camp/lumber_camp_birch` - idas:lumber_camp/lumber_camp_birch
+- `/locate structure idas:lumber_camp/lumber_camp_bopmahogany` - idas:lumber_camp/lumber_camp_bopmahogany
+- `/locate structure idas:lumber_camp/lumber_camp_bopredwood` - idas:lumber_camp/lumber_camp_bopredwood
+- `/locate structure idas:lumber_camp/lumber_camp_bygmahogany` - idas:lumber_camp/lumber_camp_bygmahogany
+- `/locate structure idas:lumber_camp/lumber_camp_bygredwood` - idas:lumber_camp/lumber_camp_bygredwood
+- `/locate structure idas:lumber_camp/lumber_camp_dark_oak` - idas:lumber_camp/lumber_camp_dark_oak
+- `/locate structure idas:lumber_camp/lumber_camp_jungle` - idas:lumber_camp/lumber_camp_jungle
+- `/locate structure idas:lumber_camp/lumber_camp_oak` - idas:lumber_camp/lumber_camp_oak
+- `/locate structure idas:lumber_camp/lumber_camp_spruce` - idas:lumber_camp/lumber_camp_spruce
+- `/locate structure idas:pillager_camp` - idas:pillager_camp
+- `/locate structure idas:underground_camp/underground_camp` - idas:underground_camp/underground_camp
+- `/locate structure idas:underground_camp/underground_camp_deep` - idas:underground_camp/underground_camp_deep
+- `/locate structure idas:washing_camp` - idas:washing_camp
+
+## Boss/dragon structures
+
+- `/locate structure iceandfire:fire_dragon_roost` - iceandfire:fire_dragon_roost
+- `/locate structure iceandfire:ice_dragon_roost` - iceandfire:ice_dragon_roost
+- `/locate structure iceandfire:lightning_dragon_roost` - iceandfire:lightning_dragon_roost
+- `/locate structure iceandfire:cyclops_cave` - iceandfire:cyclops_cave
+- `/locate structure iceandfire:siren_island` - iceandfire:siren_island
+- `/locate structure iceandfire:graveyard` - iceandfire:graveyard
+- `/locate structure iceandfire:hydra_cave` - iceandfire:hydra_cave
+- `/locate structure iceandfire:pixie_village` - iceandfire:pixie_village
+- `/locate structure iceandfire:fire_dragon_cave` - iceandfire:fire_dragon_cave
+- `/locate structure iceandfire:ice_dragon_cave` - iceandfire:ice_dragon_cave
+- `/locate structure iceandfire:lightning_dragon_cave` - iceandfire:lightning_dragon_cave
+- `/locate structure iceandfire:gorgon_temple` - iceandfire:gorgon_temple
+- `/locate structure idas:iceandfire/sirens_cove` - idas:iceandfire/sirens_cove
+- `/locate structure soulsweapons:corrupt_altar` - soulsweapons:corrupt_altar
+- `/locate structure iceandfire:mausoleum` - iceandfire:mausoleum
+- `/locate structure idas:iceandfire/dread_citadel` - idas:iceandfire/dread_citadel
+- `/locate structure block_factorys_bosses:sandworm_nest` - block_factorys_bosses:sandworm_nest
+- `/locate structure block_factorys_bosses:yeti_hideout` - block_factorys_bosses:yeti_hideout
+- `/locate structure cataclysm:abandoned_spire` - cataclysm:abandoned_spire
+- `/locate structure cataclysm:abandoned_temple` - cataclysm:abandoned_temple
+- `/locate structure cataclysm:abandoned_village` - cataclysm:abandoned_village
+- `/locate structure cataclysm:amethyst_nest` - cataclysm:amethyst_nest
+- `/locate structure cataclysm:desert_occupied_village` - cataclysm:desert_occupied_village
+- `/locate structure cataclysm:desert_site` - cataclysm:desert_site
+- `/locate structure cataclysm:acropolis` - cataclysm:acropolis
+- `/locate structure mss:arena` - mss:arena
+- `/locate structure block_factorys_bosses:dragon_tower` - block_factorys_bosses:dragon_tower
+- `/locate structure block_factorys_bosses:kraken_ship` - block_factorys_bosses:kraken_ship
+- `/locate structure block_factorys_bosses:underworld_arena` - block_factorys_bosses:underworld_arena
+- `/locate structure cataclysm:ancient_factory` - cataclysm:ancient_factory
+- `/locate structure cataclysm:burning_arena` - cataclysm:burning_arena
+- `/locate structure cataclysm:cursed_pyramid` - cataclysm:cursed_pyramid
+- `/locate structure cataclysm:frosted_prison` - cataclysm:frosted_prison
+- `/locate structure cataclysm:ruined_citadel` - cataclysm:ruined_citadel
+- `/locate structure cataclysm:soul_black_smith` - cataclysm:soul_black_smith
+- `/locate structure cataclysm:sunken_city` - cataclysm:sunken_city
+
+## Region-fit checks
+
+- `/locate structure iceandfire:ice_dragon_roost` - iceandfire:ice_dragon_roost
+- `/locate structure iceandfire:cyclops_cave` - iceandfire:cyclops_cave
+- `/locate structure betterdungeons:small_dungeon` - betterdungeons:small_dungeon
+- `/locate structure bettermineshafts:mineshaft_overgrown` - bettermineshafts:mineshaft_overgrown
+- `/locate structure iceandfire:siren_island` - iceandfire:siren_island
+- `/locate structure iceandfire:graveyard` - iceandfire:graveyard
+- `/locate structure minecraft:mineshaft` - minecraft:mineshaft
+- `/locate structure iceandfire:hydra_cave` - iceandfire:hydra_cave
+- `/locate structure iceandfire:pixie_village` - iceandfire:pixie_village
+- `/locate structure iceandfire:ice_dragon_cave` - iceandfire:ice_dragon_cave
+- `/locate structure irons_spellbooks:pyromancer_tower` - irons_spellbooks:pyromancer_tower
+- `/locate structure iceandfire:gorgon_temple` - iceandfire:gorgon_temple
+- `/locate structure idas:abandoned_vineyard` - idas:abandoned_vineyard
+- `/locate structure iceandfire:fire_dragon_roost` - iceandfire:fire_dragon_roost
+- `/locate structure iceandfire:lightning_dragon_roost` - iceandfire:lightning_dragon_roost
+- `/locate structure betterdungeons:small_dungeon` - betterdungeons:small_dungeon
+- `/locate structure bettermineshafts:mineshaft_acacia` - bettermineshafts:mineshaft_acacia
+- `/locate structure iceandfire:graveyard` - iceandfire:graveyard
+- `/locate structure minecraft:mineshaft` - minecraft:mineshaft
+- `/locate structure iceandfire:hydra_cave` - iceandfire:hydra_cave
+- `/locate structure idas:haunted_manor` - idas:haunted_manor
+- `/locate structure iceandfire:fire_dragon_cave` - iceandfire:fire_dragon_cave
+- `/locate structure iceandfire:lightning_dragon_cave` - iceandfire:lightning_dragon_cave
+- `/locate structure minecraft:mineshaft_mesa` - minecraft:mineshaft_mesa
+- `/locate structure iceandfire:ice_dragon_roost` - iceandfire:ice_dragon_roost
+- `/locate structure iceandfire:lightning_dragon_roost` - iceandfire:lightning_dragon_roost
+- `/locate structure iceandfire:cyclops_cave` - iceandfire:cyclops_cave
+- `/locate structure betterdungeons:small_dungeon` - betterdungeons:small_dungeon
+- `/locate structure bettermineshafts:mineshaft_overgrown` - bettermineshafts:mineshaft_overgrown
+- `/locate structure bettermineshafts:mineshaft_spruce` - bettermineshafts:mineshaft_spruce
+- `/locate structure iceandfire:siren_island` - iceandfire:siren_island
+- `/locate structure iceandfire:graveyard` - iceandfire:graveyard
+- `/locate structure minecraft:mineshaft` - minecraft:mineshaft
+- `/locate structure iceandfire:hydra_cave` - iceandfire:hydra_cave
+- `/locate structure iceandfire:pixie_village` - iceandfire:pixie_village
+- `/locate structure iceandfire:ice_dragon_cave` - iceandfire:ice_dragon_cave
+- `/locate structure idas:abandoned_vineyard` - idas:abandoned_vineyard
+- `/locate structure iceandfire:fire_dragon_roost` - iceandfire:fire_dragon_roost
+- `/locate structure betterdungeons:small_dungeon` - betterdungeons:small_dungeon
+- `/locate structure bettermineshafts:mineshaft_acacia` - bettermineshafts:mineshaft_acacia
+- `/locate structure bettermineshafts:mineshaft_overgrown` - bettermineshafts:mineshaft_overgrown
+- `/locate structure bettermineshafts:mineshaft_spruce` - bettermineshafts:mineshaft_spruce
+- `/locate structure minecraft:mineshaft` - minecraft:mineshaft
+- `/locate structure iceandfire:pixie_village` - iceandfire:pixie_village
+- `/locate structure idas:haunted_manor` - idas:haunted_manor
+- `/locate structure iceandfire:fire_dragon_cave` - iceandfire:fire_dragon_cave
+- `/locate structure irons_spellbooks:pyromancer_tower` - irons_spellbooks:pyromancer_tower
+- `/locate structure minecraft:mineshaft_mesa` - minecraft:mineshaft_mesa
+- `/locate structure idas:abandoned_vineyard` - idas:abandoned_vineyard
+- `/locate structure betterdungeons:small_dungeon` - betterdungeons:small_dungeon
+- `/locate structure bettermineshafts:mineshaft_acacia` - bettermineshafts:mineshaft_acacia
+- `/locate structure bettermineshafts:mineshaft_overgrown` - bettermineshafts:mineshaft_overgrown
+- `/locate structure bettermineshafts:mineshaft_spruce` - bettermineshafts:mineshaft_spruce
+- `/locate structure minecraft:mineshaft` - minecraft:mineshaft
+- `/locate structure irons_spellbooks:pyromancer_tower` - irons_spellbooks:pyromancer_tower
+- `/locate structure betterdungeons:skeleton_dungeon` - betterdungeons:skeleton_dungeon
+- `/locate structure betterdungeons:spider_dungeon` - betterdungeons:spider_dungeon
+- `/locate structure betterdungeons:zombie_dungeon` - betterdungeons:zombie_dungeon
+- `/locate structure betterstrongholds:stronghold` - betterstrongholds:stronghold
+- `/locate structure idas:ancient_portal/ancient_portal` - idas:ancient_portal/ancient_portal
+- `/locate structure iceandfire:fire_dragon_roost` - iceandfire:fire_dragon_roost
+- `/locate structure iceandfire:ice_dragon_roost` - iceandfire:ice_dragon_roost
+- `/locate structure iceandfire:lightning_dragon_roost` - iceandfire:lightning_dragon_roost
+- `/locate structure iceandfire:cyclops_cave` - iceandfire:cyclops_cave
+- `/locate structure iceandfire:siren_island` - iceandfire:siren_island
+- `/locate structure iceandfire:graveyard` - iceandfire:graveyard
+- `/locate structure iceandfire:hydra_cave` - iceandfire:hydra_cave
+- `/locate structure iceandfire:pixie_village` - iceandfire:pixie_village
+- `/locate structure iceandfire:fire_dragon_cave` - iceandfire:fire_dragon_cave
+- `/locate structure iceandfire:ice_dragon_cave` - iceandfire:ice_dragon_cave
+- `/locate structure iceandfire:lightning_dragon_cave` - iceandfire:lightning_dragon_cave
+- `/locate structure iceandfire:gorgon_temple` - iceandfire:gorgon_temple

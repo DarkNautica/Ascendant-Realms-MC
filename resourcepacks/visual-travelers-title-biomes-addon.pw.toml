@@ -1,0 +1,13 @@
+name = "Visual Traveler's Title Biomes Addon"
+filename = "Visual Travelers Titles Biomes Addon.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/69bH0N22/versions/kjoEUHOI/Visual%20Travelers%20Titles%20Biomes%20Addon.zip"
+hash-format = "sha512"
+hash = "eb6275feb523192c1de3a77d37fb774fb41a0008261ee7e17a5e52c09bb443bfef8d6756e2d359a1f4fc38923db3a849e614212c5fbfa3b0d84e133684369fc7"
+
+[update]
+[update.modrinth]
+mod-id = "69bH0N22"
+version = "kjoEUHOI"

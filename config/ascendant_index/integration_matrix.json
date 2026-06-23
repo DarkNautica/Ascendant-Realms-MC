@@ -1,0 +1,60 @@
+﻿{
+    "version":  1,
+    "generated_at":  "2026-06-14T15:41:03.2735019-04:00",
+    "coverage":  {
+                     "mobs_indexed":  757,
+                     "structures_indexed":  617,
+                     "mobs_requiring_spawn_review":  476,
+                     "structures_requiring_density_review":  496
+                 },
+    "implementation_layers":  [
+                                  {
+                                      "layer":  "Config",
+                                      "use":  "Mod-exposed spawn, UI, density, health, audio, and visual settings."
+                                  },
+                                  {
+                                      "layer":  "Open Loader datapacks",
+                                      "use":  "Tags, loot tables, structure tags, recipes, advancements, and function fallbacks."
+                                  },
+                                  {
+                                      "layer":  "KubeJS",
+                                      "use":  "Tooltips, item registration, JEI aliases, tags, recipe glue, and light event glue."
+                                  },
+                                  {
+                                      "layer":  "Custom Forge helper mods",
+                                      "use":  "Dynamic nameplates, skill HUD, runtime NPC profiles, encounter director, and synced rarity/progression data."
+                                  }
+                              ],
+    "custom_mod_candidates":  [
+                                  {
+                                      "id":  "ascendant_core",
+                                      "priority":  "high",
+                                      "reason":  "Shared registry loader, client/server sync, commands, and integration APIs."
+                                  },
+                                  {
+                                      "id":  "ascendant_nameplates",
+                                      "priority":  "very_high",
+                                      "reason":  "Styled dynamic player, NPC, rival, and enemy labels beyond vanilla scoreboard limits."
+                                  },
+                                  {
+                                      "id":  "ascendant_progression_hud",
+                                      "priority":  "very_high",
+                                      "reason":  "Second skill XP bar, level-up popups, and rank milestone presentation."
+                                  },
+                                  {
+                                      "id":  "ascendant_npc_runtime",
+                                      "priority":  "high",
+                                      "reason":  "Profile-driven NPC setup, equipment, rank/level identity, and repair without embedded script drift."
+                                  },
+                                  {
+                                      "id":  "ascendant_settlement_engine",
+                                      "priority":  "medium_high",
+                                      "reason":  "Safe Hunter Board/Guild structure placement and NPC population once standalone structures are proven."
+                                  },
+                                  {
+                                      "id":  "ascendant_encounter_director",
+                                      "priority":  "medium",
+                                      "reason":  "Player/rank-aware spawn pressure if config and In Control rules are not enough."
+                                  }
+                              ]
+}

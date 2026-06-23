@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T22:18:59.181949300Z",
+  "source": "in_game_ascatlas_dump_terrain_noise_policy_command",
+  "policy_path": "config/ascendant_atlas/terrain_noise_policy.json",
+  "load_status": "loaded",
+  "load_error": null,
+  "enabled": true,
+  "mode": "experimental_ocean_basin_correction",
+  "land_first_regions": ["sunreach", "stoneback", "stoneback_highlands", "south", "southwest", "south_west", "south_west_wilds", "west"],
+  "ocean_allowed_regions": ["verdant_coast", "east", "frostmarch_ocean", "explicit_coast", "outer_ocean"],
+  "max_local_water_ratio_for_land_first": 0.3500,
+  "terrain_correction": {
+    "enabled": false,
+    "fresh_chunks_only": true,
+    "min_chunk_water_ratio_for_correction": 0.5500,
+    "min_water_depth_to_correct": 8,
+    "min_average_water_depth_to_correct": 10.0000,
+    "min_max_water_depth_to_correct": 24,
+    "target_min_surface_y": 66,
+    "target_max_surface_y": 96,
+    "sunreach_target_surface_y": 72,
+    "stoneback_target_surface_y": 74,
+    "target_surface_variation": 2,
+    "minimum_lift_above_water": 4,
+    "maximum_lift_above_water": 14
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "status": "standalone generated Guild/Hunter worldgen test active; no third-party village-pool injection yet",
+  "namespace": "ascendant_settlements",
+  "active_worldgen_changes": [
+    {
+      "id": "hunter_board_village_standard",
+      "type": "standalone_jigsaw_structure",
+      "namespace": "ascendant_guild",
+      "locate": "/locate structure ascendant_guild:hunter_board_village_standard",
+      "spacing": 192,
+      "separation": 80,
+      "policy": "approved standalone test only; do not inject into vanilla or modded village pools until validation passes"
+    },
+    {
+      "id": "roadside_hunter_camp",
+      "type": "standalone_jigsaw_structure",
+      "namespace": "ascendant_guild",
+      "locate": "/locate structure ascendant_guild:roadside_hunter_camp",
+      "spacing": 224,
+      "separation": 96,
+      "policy": "approved standalone test only; do not inject into vanilla or modded village pools until validation passes"
+    },
+    {
+      "id": "frontier_guild_outpost",
+      "type": "standalone_jigsaw_structure",
+      "namespace": "ascendant_guild",
+      "locate": "/locate structure ascendant_guild:frontier_guild_outpost",
+      "spacing": 288,
+      "separation": 128,
+      "policy": "approved standalone test only; do not inject into vanilla or modded village pools until validation passes"
+    }
+  ],
+  "current_safe_overrides": [
+    "config/openloader/data/ascendant_realms_world_integration repairs the shared Integrated Villages workstation/POI processor crash path while keeping repaired villages enabled for retest.",
+    "Vanilla village/town density is tuned through existing config files, not a new structure injector."
+  ],
+  "custom_mod_threshold": {
+    "not_needed_yet_for": [
+      "curated NPC loadout registry",
+      "nameplate data contract",
+      "settlement ownership map",
+      "Hunter Board blueprint planning",
+      "future OpenLoader datapack structure definitions"
+    ],
+    "likely_needed_for": [
+      "automatic NPC spawn/equip hooks inside third-party village pieces",
+      "polished animated multi-line nameplates over all NPCs and players",
+      "fine-grained jigsaw conflict resolution beyond datapack pool injection",
+      "runtime village role assignment based on rank, biome, and nearby threats"
+    ],
+    "decision": "Start data-driven. Build the first custom Forge helper mod only when placement, NPC equipment automation, or nameplate rendering requires runtime code."
+  },
+  "ownership": [
+    {
+      "system": "Vanilla villages",
+      "owner": "base settlement layer",
+      "action": "keep enabled and denser; add Hunter Board later through controlled templates"
+    },
+    {
+      "system": "Integrated Villages",
+      "owner": "major integrated village layer",
+      "action": "keep after workstation processor repair; audit processor/template paths before removal"
+    },
+    {
+      "system": "Towns and Towers",
+      "owner": "town/tower landmark layer",
+      "action": "keep density tuned; no direct pool edits yet"
+    },
+    {
+      "system": "Villages & Pillages",
+      "owner": "village flavor layer",
+      "action": "keep both-side; watch overlap with village board placement"
+    },
+    {
+      "system": "IDAS",
+      "owner": "dungeon/structure discovery layer",
+      "action": "keep as bounty target pool; do not merge into villages blindly"
+    },
+    {
+      "system": "MVS/MSS/MES/Moogs",
+      "owner": "landmark and road-trip layer",
+      "action": "keep as exploration destinations and contract targets"
+    },
+    {
+      "system": "Guard Villagers",
+      "owner": "defense layer",
+      "action": "use config for guards now; later map guard captains to settlement rank"
+    },
+    {
+      "system": "Bountiful",
+      "owner": "contract board layer",
+      "action": "board center for Hunter Board templates"
+    },
+    {
+      "system": "Supplementaries",
+      "owner": "notice board and settlement dressing",
+      "action": "notice board sidecar for warnings, rumors, and local identity"
+    },
+    {
+      "system": "Easy NPC",
+      "owner": "social NPC layer",
+      "action": "clerks, examiners, merchants, tavern keepers"
+    },
+    {
+      "system": "CustomNPCs-Unofficial",
+      "owner": "rival/combat NPC layer",
+      "action": "named rivals, elite guards, scripted combat encounters"
+    },
+    {
+      "system": "MCA Reborn",
+      "owner": "villager social texture/life layer",
+      "action": "separate validation only; keep medieval skin control under watch"
+    }
+  ],
+  "first_blueprints": [
+    {
+      "id": "hunter_board_village_standard",
+      "status": "generated standalone structure active for fresh-world test",
+      "locate": "/locate structure ascendant_guild:hunter_board_village_standard",
+      "note": "Small standalone village-facing Hunter Board with one Bountiful board and a multi-board Guild notice roster."
+    },
+    {
+      "id": "roadside_hunter_camp",
+      "status": "generated standalone structure active for fresh-world test",
+      "locate": "/locate structure ascendant_guild:roadside_hunter_camp",
+      "note": "Roadside camp for wounded hunters, tavern rumors, and scout/rival encounters."
+    },
+    {
+      "id": "frontier_guild_outpost",
+      "status": "generated standalone structure active for fresh-world test",
+      "locate": "/locate structure ascendant_guild:frontier_guild_outpost",
+      "note": "Small Guild outpost prototype for Rank Examiner, Arcanist, and Quartermaster placement."
+    }
+  ],
+  "delayed_injection_workflow": [
+    "Build structure templates in a creative copy.",
+    "Add standalone structures under an OpenLoader datapack and prove /locate plus generation.",
+    "Only after standalone proof, inject rare pieces into vanilla or modded village pools.",
+    "If pool injection cannot avoid third-party conflicts cleanly, move to a small Ascendant Settlements Forge helper mod."
+  ]
+}

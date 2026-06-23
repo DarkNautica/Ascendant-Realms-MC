@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "status": "starter dynamic CustomNPCs identity script implemented; custom client overlay still reserved for the final animated nameplate layer",
+  "reference_style": "clean two-line nameplate: [ C-Rank ] Mira Ash / Lv. 34 Scout",
+  "forge_policy": {
+    "do_not_install_bukkit_plugins": true,
+    "current_fallback": "FTB Ranks and vanilla scoreboard/team prefixes for players; CustomNPCs scripted always-visible rank/name/level/role line for authored NPCs.",
+    "likely_custom_mod": "Ascendant Nameplates client overlay if vanilla/NPC fallbacks cannot render the final styled two-line plate."
+  },
+  "customnpcs_script": {
+    "file": "customnpcs/scripts/ecmascript/ascendant_npc_identity.js",
+    "profile_key_source": "temporary NPC name or profile-key name tag such as ar:mira_ash",
+    "current_level_source": "profile baseline inside the script",
+    "future_level_source": "stored ar_level or a custom helper mod after baseline script validation",
+    "behavior": "The script reads the NPC's temporary profile key and rewrites the NPC display name into one always-visible rank/name/level/role line. Profile tags like ar:mira_ash are setup keys, not final visible labels. The CustomNPCs title slot is intentionally cleared because the renderer only shows it at close range and wraps it in angle brackets."
+  },
+  "palette": {
+    "unranked": {
+      "label": "Unranked",
+      "color": "#9CA3AF",
+      "frame": "thin_gray"
+    },
+    "e_rank": {
+      "label": "E-Rank",
+      "color": "#2E8B57",
+      "frame": "green_worn"
+    },
+    "d_rank": {
+      "label": "D-Rank",
+      "color": "#55FF55",
+      "frame": "green_clean"
+    },
+    "c_rank": {
+      "label": "C-Rank",
+      "color": "#55AAFF",
+      "frame": "blue_steel"
+    },
+    "b_rank": {
+      "label": "B-Rank",
+      "color": "#3366FF",
+      "frame": "blue_gold"
+    },
+    "a_rank": {
+      "label": "A-Rank",
+      "color": "#FFE66D",
+      "frame": "gold_engraved"
+    },
+    "s_rank": {
+      "label": "S-Rank",
+      "color": "#D966FF",
+      "frame": "violet_mythic"
+    },
+    "guild_staff": {
+      "label": "Guild",
+      "color": "#E6FBFF",
+      "frame": "guild_silver"
+    }
+  },
+  "player_default": {
+    "display": "Player",
+    "rank": "unranked",
+    "level_source": "vanilla XP fallback now; Puffish Skills level later if a client overlay can read it cleanly",
+    "title_source": "Titles mod plus future Guild rank milestones"
+  },
+  "profiles": {
+    "guild_clerk": {
+      "display": "Guild Clerk",
+      "rank": "d_rank",
+      "level": 18,
+      "profession": "Clerk",
+      "style": "guild_staff",
+      "visibility": "nearby_interaction"
+    },
+    "rank_examiner": {
+      "display": "Rank Examiner",
+      "rank": "b_rank",
+      "level": 52,
+      "profession": "Examiner",
+      "style": "guild_staff",
+      "visibility": "guild_hall"
+    },
+    "bounty_master": {
+      "display": "Bounty Master",
+      "rank": "c_rank",
+      "level": 38,
+      "profession": "Contracts",
+      "style": "guild_staff",
+      "visibility": "board_area"
+    },
+    "guild_arcanist": {
+      "display": "Guild Arcanist",
+      "rank": "b_rank",
+      "level": 49,
+      "profession": "Arcanist",
+      "style": "guild_staff",
+      "visibility": "guild_hall"
+    },
+    "hunter_quartermaster": {
+      "display": "Quartermaster",
+      "rank": "d_rank",
+      "level": 24,
+      "profession": "Supplies",
+      "style": "guild_staff",
+      "visibility": "nearby_interaction"
+    },
+    "guard_captain": {
+      "display": "Guard Captain",
+      "rank": "c_rank",
+      "level": 36,
+      "profession": "Captain",
+      "style": "c_rank",
+      "visibility": "settlement_defense"
+    },
+    "tavern_keeper": {
+      "display": "Tavern Keeper",
+      "rank": "d_rank",
+      "level": 16,
+      "profession": "Rumors",
+      "style": "guild_staff",
+      "visibility": "nearby_interaction"
+    },
+    "village_elder": {
+      "display": "Village Elder",
+      "rank": "d_rank",
+      "level": 22,
+      "profession": "Elder",
+      "style": "guild_staff",
+      "visibility": "nearby_interaction"
+    },
+    "wounded_hunter": {
+      "display": "Wounded Hunter",
+      "rank": "c_rank",
+      "level": 31,
+      "profession": "Hunter",
+      "style": "c_rank",
+      "visibility": "encounter"
+    },
+    "mira_ash": {
+      "display": "Mira Ash",
+      "rank": "c_rank",
+      "level": 34,
+      "profession": "Scout",
+      "style": "c_rank",
+      "visibility": "rival"
+    },
+    "darius_crowe": {
+      "display": "Darius Crowe",
+      "rank": "b_rank",
+      "level": 47,
+      "profession": "Duelist",
+      "style": "b_rank",
+      "visibility": "rival"
+    },
+    "seren_valehart": {
+      "display": "Seren Valehart",
+      "rank": "b_rank",
+      "level": 45,
+      "profession": "Arcanist",
+      "style": "b_rank",
+      "visibility": "rival"
+    },
+    "kael_vorn": {
+      "display": "Kael Vorn",
+      "rank": "a_rank",
+      "level": 68,
+      "profession": "Monster Hunter",
+      "style": "a_rank",
+      "visibility": "rare_rival"
+    },
+    "black_hound": {
+      "display": "The Black Hound",
+      "rank": "s_rank",
+      "level": 90,
+      "profession": "Unknown",
+      "style": "s_rank",
+      "visibility": "mythic_rumor"
+    }
+  }
+}

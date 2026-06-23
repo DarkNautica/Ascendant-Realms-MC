@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "rivals": [
+    {
+      "id": "mira_ash",
+      "name": "Mira Ash",
+      "rank": "C-Rank",
+      "class": "Scout",
+      "home": "frontier guild outposts",
+      "personality": "careful, observant, loyal when helped",
+      "preferred_regions": [
+        "forests",
+        "roads",
+        "ruined towers"
+      ],
+      "combat_style": "bow, light blade, evasive movement",
+      "initial_status": "active",
+      "relationship_hooks": [
+        "rescue from dungeon",
+        "share map data",
+        "warn about nearby structures"
+      ],
+      "first_rumor": "Mira Ash was seen marking ruins north of the old road.",
+      "first_encounter": "A wrecked scout camp outside a crypt, with Mira wounded deeper inside."
+    },
+    {
+      "id": "darius_crowe",
+      "name": "Darius Crowe",
+      "rank": "B-Rank",
+      "class": "Duelist",
+      "home": "larger towns and taverns",
+      "personality": "competitive, proud, theatrical",
+      "preferred_regions": [
+        "towns",
+        "guild halls",
+        "dungeon entrances"
+      ],
+      "combat_style": "fast sword, shield pressure, duels",
+      "initial_status": "active",
+      "relationship_hooks": [
+        "rival bounty race",
+        "formal duel",
+        "tavern bragging"
+      ],
+      "first_rumor": "Darius Crowe has accepted a B-Rank contract before anyone else could sign.",
+      "first_encounter": "Outside a Guild Hall, challenging the player after repeated contract wins."
+    },
+    {
+      "id": "seren_valehart",
+      "name": "Seren Valehart",
+      "rank": "B-Rank",
+      "class": "Arcanist",
+      "home": "spell libraries and fortified towns",
+      "personality": "measured, cryptic, curious about corruption",
+      "preferred_regions": [
+        "ancient ruins",
+        "magic-heavy structures",
+        "celestial event sites"
+      ],
+      "combat_style": "Iron's Spells, wards, spellblade support",
+      "initial_status": "active",
+      "relationship_hooks": [
+        "magic milestone advice",
+        "corruption investigation",
+        "shared relic analysis"
+      ],
+      "first_rumor": "Seren Valehart is studying spell residue near a ruined tower.",
+      "first_encounter": "A magic circle at a structure entrance with Seren warning the player to turn back."
+    },
+    {
+      "id": "kael_vorn",
+      "name": "Kael Vorn",
+      "rank": "A-Rank",
+      "class": "Monster Hunter",
+      "home": "walled hunter towns",
+      "personality": "quiet, scarred, practical",
+      "preferred_regions": [
+        "monster dens",
+        "boss approach zones",
+        "snow and mountain roads"
+      ],
+      "combat_style": "heavy weapon, shield, monster trophies",
+      "initial_status": "rare",
+      "relationship_hooks": [
+        "aftermath evidence",
+        "rare rescue",
+        "mentor warning"
+      ],
+      "first_rumor": "Kael Vorn returned wounded from the black tower and would not name what followed him.",
+      "first_encounter": "A cleared monster camp with Kael leaving one warning line before walking away."
+    },
+    {
+      "id": "black_hound",
+      "name": "The Black Hound",
+      "rank": "S-Rank",
+      "class": "Unknown",
+      "home": "unlisted",
+      "personality": "silent, mythic, unsettling",
+      "preferred_regions": [
+        "cathedrals",
+        "endgame ruins",
+        "boss aftermath zones"
+      ],
+      "combat_style": "unknown",
+      "initial_status": "rumored",
+      "relationship_hooks": [
+        "evidence only",
+        "rare one-line meeting",
+        "S-Rank evaluation context"
+      ],
+      "first_rumor": "The Black Hound was sighted near a ruined cathedral. The monsters were already dead.",
+      "first_encounter": "Broken weapons, dead monsters, and no visible hunter."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Evaluation",
+  "icon": "minecraft:written_book",
+  "category": "ascendant_realms:guild",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Rank Examiner should judge your record at Guild boards or Guild Halls. The first implementation uses tracked milestones and safe visible fallbacks. Later passes can connect FTB Quests, FTB Ranks, and NPC dialogue."
+    }
+  ]
+}

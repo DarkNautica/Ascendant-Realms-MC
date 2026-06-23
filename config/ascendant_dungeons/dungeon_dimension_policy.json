@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "system_id": "ascendant_ranked_dungeons",
+  "dimension_id": "ascendant_dungeons:ranked_dungeon",
+  "status": "rank_slot_random_world_rifts_enabled",
+  "manual_instance_generation_enabled": true,
+  "autonomous_random_spawning_enabled": true,
+  "generation_model": {
+    "mode": "command_built_test_instance",
+    "room_chain_randomized": true,
+    "build_area_force_loaded": true,
+    "chunk_safe_fill_slices": true,
+    "safe_spawn_platform": true,
+    "always_ends_with_boss_room": true,
+    "cleanup_required_between_same_rank_tests": true,
+    "loot_mode": "rank_bounded_ascendant_dungeon_loot_tables",
+    "mob_mode": "rank_scaled_modded_enemy_pools_with_rank_bounded_death_loot",
+    "safe_entry_room": true,
+    "room_asset_mode": "command_built_rooms_with_modded_decor_assets",
+    "final_content_mode": "modded_room_chain_v1_pending_visual_review",
+    "one_active_instance_per_rank_limit": true,
+    "maximum_active_instances_global": 5,
+    "timed_world_rift_entry_enabled": true,
+    "boss_locked_exit_gate_enabled": true
+  },
+  "rank_room_budget": {
+    "d_rank": {
+      "min_rooms": 3,
+      "max_rooms": 5,
+      "boss": "born_in_chaos_v1:bonescaller"
+    },
+    "c_rank": {
+      "min_rooms": 4,
+      "max_rooms": 6,
+      "boss": "born_in_chaos_v1:door_knight"
+    },
+    "b_rank": {
+      "min_rooms": 5,
+      "max_rooms": 7,
+      "boss": "born_in_chaos_v1:fallen_chaos_knight"
+    },
+    "a_rank": {
+      "min_rooms": 6,
+      "max_rooms": 8,
+      "boss": "block_factorys_bosses:soul_knight_wither_skeleton"
+    },
+    "s_rank": {
+      "min_rooms": 7,
+      "max_rooms": 9,
+      "boss": "cataclysm:ender_guardian"
+    }
+  },
+  "portal_behavior": {
+    "walk_in_trigger_enabled": true,
+    "fallback_enter_command": "/ascdungeon enter_latest",
+    "fallback_return_command": "/ascdungeon return_latest after boss defeat",
+    "cleanup_command": "/ascdungeon cleanup_instance",
+    "cleanup_rank_command": "/ascdungeon cleanup_rank <rank>",
+    "immersive_portals_visual_entity_status": "api_visual_surface_attempt_enabled",
+    "item_display_gate_visuals": true,
+    "item_display_billboard_enabled": false,
+    "item_display_fixed_facing_enabled": true,
+    "rank_scaled_gate_size_enabled": true,
+    "entrance_party_grace_window_seconds": 5,
+    "entrance_shrink_out_enabled": true,
+    "visible_frame_blocks_enabled": false,
+    "invisible_light_blocks_enabled": true,
+    "rank_colored_particles_enabled": true,
+    "nearby_ambient_sound_enabled": true,
+    "elite_hologram_auto_creation_enabled": false,
+    "exit_gate_created_during_initial_generation": false,
+    "exit_gate_spawns_after_boss_defeat": true,
+    "notes": "The playable pass uses frameless resource-pack item_display gate art, invisible light blocks, rank-colored particles, nearby ambient sound, and circular teleportable Immersive Portals API surfaces. Helper enter/return commands remain fallback/admin tools only. After first entry, the entrance stays open for 5 seconds for party members, then the visible gate shrinks out before the entrance surface is removed. The dungeon return gate is intentionally locked until the tagged boss is defeated."
+  },
+  "gate_assets": {
+    "source_folder": "gate-art",
+    "resource_pack": "resourcepacks/ascendant-dungeon-gates",
+    "resource_pack_enabled": true,
+    "custom_model_data_owner_item": "minecraft:paper",
+    "custom_model_data": {
+      "d_rank": 9101,
+      "c_rank": 9102,
+      "b_rank": 9103,
+      "a_rank": 9104,
+      "s_rank": 9105
+    },
+    "item_texture_paths": {
+      "d_rank": "assets/ascendant_dungeons/textures/item/gate.png",
+      "c_rank": "assets/ascendant_dungeons/textures/item/gate_green.png",
+      "b_rank": "assets/ascendant_dungeons/textures/item/gate_purple.png",
+      "a_rank": "assets/ascendant_dungeons/textures/item/gate_gold.png",
+      "s_rank": "assets/ascendant_dungeons/textures/item/gate_red.png"
+    },
+    "d_rank": "assets/ascendant_dungeons/textures/gate/gate.png",
+    "c_rank": "assets/ascendant_dungeons/textures/gate/gate_green.png",
+    "b_rank": "assets/ascendant_dungeons/textures/gate/gate_purple.png",
+    "a_rank": "assets/ascendant_dungeons/textures/gate/gate_gold.png",
+    "s_rank": "assets/ascendant_dungeons/textures/gate/gate_red.png"
+  }
+}

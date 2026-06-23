@@ -1,0 +1,227 @@
+{
+  "version": 1,
+  "regions": [
+    {
+      "id": "crownlands",
+      "display_name": "The Crownlands",
+      "tier": 0,
+      "sector": "center",
+      "coordinate_hint": "near world spawn",
+      "biome_keywords": [
+        "plains",
+        "forest",
+        "meadow",
+        "cherry",
+        "river"
+      ],
+      "settlement_bias": [
+        "hamlet",
+        "village",
+        "large_village"
+      ],
+      "structure_bias": [
+        "starter_waymark",
+        "hunter_board",
+        "farmstead",
+        "safe_road"
+      ],
+      "loot_ceiling": "uncommon"
+    },
+    {
+      "id": "frostmarch",
+      "display_name": "The Frostmarch",
+      "tier": 2,
+      "sector": "north",
+      "coordinate_hint": "negative Z direction in the long-term Atlas module",
+      "biome_keywords": [
+        "snow",
+        "frozen",
+        "ice",
+        "cold",
+        "taiga"
+      ],
+      "settlement_bias": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ],
+      "structure_bias": [
+        "frost_waymark",
+        "aquamirae",
+        "snow_ruin",
+        "cold_outpost"
+      ],
+      "loot_ceiling": "legendary"
+    },
+    {
+      "id": "sunreach",
+      "display_name": "Sunreach",
+      "tier": 2,
+      "sector": "south",
+      "coordinate_hint": "positive Z direction in the long-term Atlas module",
+      "biome_keywords": [
+        "savanna",
+        "desert",
+        "badlands",
+        "scorched",
+        "hot"
+      ],
+      "settlement_bias": [
+        "market_town",
+        "oasis_village",
+        "road_camp"
+      ],
+      "structure_bias": [
+        "sunreach_waymark",
+        "desert_ruin",
+        "mowzie_encounter"
+      ],
+      "loot_ceiling": "legendary"
+    },
+    {
+      "id": "verdant_coast",
+      "display_name": "The Verdant Coast",
+      "tier": 2,
+      "sector": "east",
+      "coordinate_hint": "positive X direction in the long-term Atlas module",
+      "biome_keywords": [
+        "jungle",
+        "swamp",
+        "mangrove",
+        "ocean",
+        "coast",
+        "river"
+      ],
+      "settlement_bias": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ],
+      "structure_bias": [
+        "verdant_crossing",
+        "shipwreck",
+        "wetland_ruin"
+      ],
+      "loot_ceiling": "epic"
+    },
+    {
+      "id": "stoneback_highlands",
+      "display_name": "The Stoneback Highlands",
+      "tier": 2,
+      "sector": "west",
+      "coordinate_hint": "negative X direction in the long-term Atlas module",
+      "biome_keywords": [
+        "mountain",
+        "peak",
+        "slope",
+        "stony",
+        "windswept"
+      ],
+      "settlement_bias": [
+        "mining_village",
+        "guild_town",
+        "watch_post"
+      ],
+      "structure_bias": [
+        "stoneback_waystation",
+        "mine",
+        "bridge",
+        "mountain_ruin"
+      ],
+      "loot_ceiling": "legendary"
+    },
+    {
+      "id": "deep_wilds",
+      "display_name": "The Deep Wilds",
+      "tier": 3,
+      "sector": "outer_wilds",
+      "coordinate_hint": "farther from spawn after the first frontier",
+      "biome_keywords": [
+        "dark",
+        "ancient",
+        "deep",
+        "lush",
+        "dripstone"
+      ],
+      "settlement_bias": [
+        "frontier_camp",
+        "ruined_settlement"
+      ],
+      "structure_bias": [
+        "idas",
+        "yung_major",
+        "moog_major",
+        "rival_camp"
+      ],
+      "loot_ceiling": "mythic"
+    },
+    {
+      "id": "dragon_scars",
+      "display_name": "The Dragon Scars",
+      "tier": 4,
+      "sector": "outer_highlands",
+      "coordinate_hint": "remote mountain, volcanic, badlands, and dragon routes",
+      "biome_keywords": [
+        "dragon",
+        "volcanic",
+        "charred",
+        "peak",
+        "badlands"
+      ],
+      "settlement_bias": [
+        "ruined_settlement",
+        "guild_outpost"
+      ],
+      "structure_bias": [
+        "dragon_scar_warning",
+        "iceandfire",
+        "cataclysm",
+        "soulsweapons"
+      ],
+      "loot_ceiling": "ascendant"
+    },
+    {
+      "id": "nether_front",
+      "display_name": "The Nether Front",
+      "tier": 4,
+      "sector": "nether",
+      "dimension": "minecraft:the_nether",
+      "biome_keywords": [
+        "nether",
+        "crimson",
+        "warped",
+        "basalt",
+        "soul"
+      ],
+      "settlement_bias": [
+        "none",
+        "fortified_outpost"
+      ],
+      "structure_bias": [
+        "nether_ruin",
+        "cataclysm",
+        "medieval_nether"
+      ],
+      "loot_ceiling": "mythic"
+    },
+    {
+      "id": "end_expanse",
+      "display_name": "The End Expanse",
+      "tier": 5,
+      "sector": "end",
+      "dimension": "minecraft:the_end",
+      "biome_keywords": [
+        "end"
+      ],
+      "settlement_bias": [
+        "none"
+      ],
+      "structure_bias": [
+        "mes",
+        "end_ruin",
+        "capstone"
+      ],
+      "loot_ceiling": "ascendant"
+    }
+  ]
+}

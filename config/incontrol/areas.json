@@ -1,0 +1,112 @@
+[
+  {
+    "name": "ar_world_square",
+    "type": "box",
+    "dimension": "minecraft:overworld",
+    "x": 0,
+    "y": 128,
+    "z": 0,
+    "dimx": 6000,
+    "dimy": 512,
+    "dimz": 6000
+  },
+  {
+    "name": "ar_hearthlands",
+    "type": "box",
+    "dimension": "minecraft:overworld",
+    "x": 0,
+    "y": 128,
+    "z": 0,
+    "dimx": 1300,
+    "dimy": 512,
+    "dimz": 1300
+  },
+  {
+    "name": "ar_frostmarch",
+    "type": "box",
+    "dimension": "minecraft:overworld",
+    "x": 0,
+    "y": 128,
+    "z": -1825,
+    "dimx": 3000,
+    "dimy": 512,
+    "dimz": 2350
+  },
+  {
+    "name": "ar_sunreach",
+    "type": "box",
+    "dimension": "minecraft:overworld",
+    "x": 0,
+    "y": 128,
+    "z": 1825,
+    "dimx": 3000,
+    "dimy": 512,
+    "dimz": 2350
+  },
+  {
+    "name": "ar_verdant_coast",
+    "type": "box",
+    "dimension": "minecraft:overworld",
+    "x": 1825,
+    "y": 128,
+    "z": 0,
+    "dimx": 2350,
+    "dimy": 512,
+    "dimz": 3000
+  },
+  {
+    "name": "ar_stoneback_highlands",
+    "type": "box",
+    "dimension": "minecraft:overworld",
+    "x": -1825,
+    "y": 128,
+    "z": 0,
+    "dimx": 2350,
+    "dimy": 512,
+    "dimz": 3000
+  },
+  {
+    "name": "ar_north_east_marches",
+    "type": "box",
+    "dimension": "minecraft:overworld",
+    "x": 1825,
+    "y": 128,
+    "z": -1825,
+    "dimx": 2350,
+    "dimy": 512,
+    "dimz": 2350
+  },
+  {
+    "name": "ar_north_west_marches",
+    "type": "box",
+    "dimension": "minecraft:overworld",
+    "x": -1825,
+    "y": 128,
+    "z": -1825,
+    "dimx": 2350,
+    "dimy": 512,
+    "dimz": 2350
+  },
+  {
+    "name": "ar_south_east_wilds",
+    "type": "box",
+    "dimension": "minecraft:overworld",
+    "x": 1825,
+    "y": 128,
+    "z": 1825,
+    "dimx": 2350,
+    "dimy": 512,
+    "dimz": 2350
+  },
+  {
+    "name": "ar_south_west_wilds",
+    "type": "box",
+    "dimension": "minecraft:overworld",
+    "x": -1825,
+    "y": 128,
+    "z": 1825,
+    "dimx": 2350,
+    "dimy": 512,
+    "dimz": 2350
+  }
+]

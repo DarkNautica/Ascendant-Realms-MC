@@ -1,0 +1,22 @@
+{
+  "category": "ascendant_codex:threats",
+  "name": "Elite Bosses",
+  "icon": "minecraft:netherite_sword",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:entity",
+      "entity": "mowziesmobs:ferrous_wroughtnaut",
+      "scale": 0.55,
+      "name": "Champions",
+      "text": "Unique $(rune)bosses$() guard special arenas and structures - armored champions, primal terrors, and worse. Each has a pattern; learn it, dodge the wind-ups, and punish the openings."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "cataclysm:netherite_monstrosity",
+      "scale": 0.3,
+      "name": "Cataclysm-Tier",
+      "text": "The deadliest foes are realm-shaking $(warn)Cataclysm bosses$(). Come with top gear, healing, and a plan - and never alone if you can help it. Their drops are among the best in the world."
+    }
+  ]
+}

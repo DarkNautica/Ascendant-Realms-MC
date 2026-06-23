@@ -1,0 +1,5 @@
+tellraw @s [{"text":"Ascendant Atlas Runtime","color":"aqua","bold":true}]
+tellraw @s [{"text":"Region ID: ","color":"gray"},{"score":{"name":"@s","objective":"ar_atlas_region"}},{"text":"  Ring: ","color":"gray"},{"score":{"name":"@s","objective":"ar_atlas_ring"}},{"text":"  Sector ID: ","color":"gray"},{"score":{"name":"@s","objective":"ar_atlas_sector"}}]
+tellraw @s [{"text":"Offset: X ","color":"gray"},{"score":{"name":"@s","objective":"ar_atlas_x"}},{"text":" Z ","color":"gray"},{"score":{"name":"@s","objective":"ar_atlas_z"}},{"text":"  Distance: ","color":"gray"},{"score":{"name":"@s","objective":"ar_atlas_distance"}},{"text":" / 3000","color":"dark_gray"}]
+tellraw @s [{"text":"Region legend: ","color":"gold"},{"text":"0 Hearthlands, 1 Frostmarch, 2 Sunreach, 3 Verdant Coast, 4 Stoneback, 5 NE, 6 NW, 7 SE, 8 SW, 9 Outer Rim","color":"gray"}]
+tellraw @s [{"text":"Fresh-world test coords: ","color":"gold"},{"text":"North 0 100 -1600 | South 0 100 1600 | East 1600 100 0 | West -1600 100 0 | Outer 2600 100 0","color":"gray"}]

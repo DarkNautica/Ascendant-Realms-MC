@@ -1,0 +1,41 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:jungle",
+      "required": false
+    },
+    {
+      "id": "minecraft:sparse_jungle",
+      "required": false
+    },
+    {
+      "id": "minecraft:bamboo_jungle",
+      "required": false
+    },
+    {
+      "id": "minecraft:swamp",
+      "required": false
+    },
+    {
+      "id": "minecraft:mangrove_swamp",
+      "required": false
+    },
+    {
+      "id": "minecraft:river",
+      "required": false
+    },
+    {
+      "id": "minecraft:beach",
+      "required": false
+    },
+    {
+      "id": "minecraft:warm_ocean",
+      "required": false
+    },
+    {
+      "id": "minecraft:lukewarm_ocean",
+      "required": false
+    }
+  ]
+}

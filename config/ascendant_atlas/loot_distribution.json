@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "policy": "Loot ceilings are enforced by Atlas tier. Atlas waymarks are debug-only and use only low-tier travel loot if placed manually.",
+  "debug_tables": [
+    "ascendant_atlas:chests/crownlands_waymark",
+    "ascendant_atlas:chests/frostmarch_waymark",
+    "ascendant_atlas:chests/sunreach_waymark",
+    "ascendant_atlas:chests/verdant_crossing",
+    "ascendant_atlas:chests/stoneback_waystation"
+  ]
+}

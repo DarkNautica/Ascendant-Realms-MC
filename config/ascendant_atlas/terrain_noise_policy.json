@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "status": "disabled_random_terralith_tectonic_baseline",
+  "generated_at": "2026-06-17",
+  "purpose": "Historical terrain/noise prototype record only. Jayden rejected the coordinate-directed Atlas terrain approach after hard biome and terrain cuts remained visible. Live terrain should return to normal random Tectonic/Terralith generation; structure and road tuning should happen separately.",
+  "enabled": false,
+  "mode": "random_generation_restored",
+  "prototype_option": "C_region_aware_ocean_basin_correction_pass",
+  "active_stack": {
+    "dimension_override": "disabled",
+    "chunk_generator_type": "minecraft:noise",
+    "noise_settings": "minecraft:overworld",
+    "biome_source": "normal_modded_overworld_stack",
+    "terrain_shape_owner": "Tectonic/Terratonic datapack resources registered by the Tectonic Forge mod",
+    "biome_table_owner": "Terralith plus vanilla biome entries selected through Ascendant Atlas pools",
+    "generator_replaced": false,
+    "noise_settings_changed": false,
+    "density_function_override_changed": false,
+    "density_function_override": "disabled",
+    "land_bias_density_function": "disabled"
+  },
+  "confirmed_findings": {
+    "atlas_helper_replaces_biome_source": true,
+    "atlas_helper_now_adds_fresh_chunk_basin_correction": false,
+    "atlas_helper_registers_land_bias_density_function": false,
+    "tectonic_config_has_ocean_basin_frequency_knob": false,
+    "tectonic_config_has_continentalness_knob": false,
+    "tectonic_config_has_sea_level_knob": false,
+    "sea_level_62_63_is_normal": true,
+    "biome_pool_leakage_confirmed_false": true,
+    "water_issue_layer": "terrain_water_shape_and_biome_pool_context_mismatch"
+  },
+  "land_first_regions": [
+    "sunreach",
+    "south_east",
+    "south_east_wilds",
+    "stoneback",
+    "stoneback_highlands",
+    "south",
+    "southwest",
+    "south_west",
+    "south_west_wilds",
+    "west"
+  ],
+  "ocean_allowed_regions": [
+    "verdant_coast",
+    "east_far_coast",
+    "frostmarch_ocean",
+    "explicit_coast",
+    "outer_ocean"
+  ],
+  "preserve_water_features": {
+    "rivers": true,
+    "small_lakes": true,
+    "oases": true,
+    "mountain_lakes": true,
+    "coastlines": true
+  },
+  "natural_density_bias": {
+    "enabled": false,
+    "hook": "disabled",
+    "mechanism": "Disabled. The live pack should use random Tectonic/Terralith terrain without Atlas continentalness bias.",
+    "world_radius_blocks": 12000,
+    "center_radius_blocks": 500,
+    "inner_full_bias_radius_blocks": 6500,
+    "outer_radius_blocks": 50000,
+    "edge_fade_blocks": 6000,
+    "south_inner_bias": 0.18,
+    "south_outer_bias": 0.86,
+    "south_east_inner_bias": 0.14,
+    "south_east_outer_bias": 0.58,
+    "west_inner_bias": 0.16,
+    "west_outer_bias": 0.82,
+    "south_west_inner_bias": 0.22,
+    "south_west_outer_bias": 0.96,
+    "does_not_mutate_finished_chunks": true,
+    "does_not_replace_blocks": true,
+    "pending_fresh_world_validation": false
+  },
+  "transition_softening": {
+    "enabled": false,
+    "sector_boundary_mode": "disabled_random_generation",
+    "south_east_pool_ocean_biomes": "blocked",
+    "goal": "Prevent straight-line climate walls and stop ocean-only structures from treating high south-east jungle/badlands land as ocean."
+  },
+  "block_water_features": {
+    "ocean_scale_basins_in_land_first_regions": true,
+    "basin_leaks_in_land_first_regions": true
+  },
+  "max_local_water_ratio_for_land_first": 0.35,
+  "max_ocean_body_radius_for_land_first": 96,
+  "terrain_correction": {
+    "enabled": false,
+    "fresh_chunks_only": true,
+    "apply_on_chunk_load": true,
+    "min_chunk_water_ratio_for_correction": 0.55,
+    "min_water_depth_to_correct": 8,
+    "min_average_water_depth_to_correct": 10.0,
+    "min_max_water_depth_to_correct": 24,
+    "max_water_depth_scan": 96,
+    "target_min_surface_y": 66,
+    "target_max_surface_y": 96,
+    "sunreach_target_surface_y": 72,
+    "stoneback_target_surface_y": 74,
+    "target_surface_variation": 2,
+    "minimum_lift_above_water": 4,
+    "maximum_lift_above_water": 14,
+    "max_columns_corrected_per_chunk": 256,
+    "preserve_rivers": true,
+    "preserve_oases": true,
+    "preserve_coastlines": true,
+    "do_not_overwrite_non_air_or_non_water_blocks": true
+  },
+  "hard_rules": {
+    "do_not_remove_all_water_from_south_or_west": true,
+    "do_not_delete_all_ocean_biomes": true,
+    "do_not_lower_global_sea_level_blindly": true,
+    "preserve_verdant_coast_oceanic_identity": true,
+    "preserve_frostmarch_frozen_sea_identity": true,
+    "preserve_rivers_oases_small_lakes_and_mountain_lakes": true,
+    "preserve_tectonic_terrain_feel_where_possible": true
+  },
+  "rollback": {
+    "disable_feature_flag": "Remove or disable the continents density-function override and keep terrain_correction.enabled=false after the shelf-artifact failure.",
+    "fresh_chunks_only_guard": "Existing chunks are skipped by default.",
+    "restore_dimension_override": "Keep overworld generator as minecraft:noise with settings minecraft:overworld and biome_source ascendant_atlas_regions:regional_multi_noise.",
+    "restore_helper_jar": "Replace ascendant-atlas-regions-0.1.0.jar with the last known good synced jar if startup or terrain validation fails."
+  },
+  "debug_logging": true
+}

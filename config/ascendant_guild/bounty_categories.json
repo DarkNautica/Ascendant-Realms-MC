@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "village_requests",
+      "name": "Village Requests",
+      "ranks": [
+        "Unranked",
+        "E-Rank",
+        "D-Rank"
+      ],
+      "purpose": "Make small villages matter and give early players direction.",
+      "examples": [
+        "deliver medicine",
+        "recover stolen supplies",
+        "clear livestock predators",
+        "repair defenses"
+      ]
+    },
+    {
+      "id": "monster_hunts",
+      "name": "Monster Hunts",
+      "ranks": [
+        "E-Rank",
+        "D-Rank",
+        "C-Rank",
+        "B-Rank"
+      ],
+      "purpose": "Point players toward modded mobs without overwhelming spawn density.",
+      "examples": [
+        "kill a named undead",
+        "bring monster parts",
+        "clear a night road",
+        "protect villagers"
+      ]
+    },
+    {
+      "id": "dungeon_contracts",
+      "name": "Dungeon Contracts",
+      "ranks": [
+        "C-Rank",
+        "B-Rank",
+        "A-Rank"
+      ],
+      "purpose": "Turn structure exploration into Guild work.",
+      "examples": [
+        "clear a crypt",
+        "recover a relic",
+        "map a tower",
+        "defeat a structure guardian"
+      ]
+    },
+    {
+      "id": "rescue_missions",
+      "name": "Rescue Missions",
+      "ranks": [
+        "D-Rank",
+        "C-Rank",
+        "B-Rank"
+      ],
+      "purpose": "Create emotional village/rival stakes.",
+      "examples": [
+        "find a wounded hunter",
+        "escort a villager",
+        "recover a missing scout"
+      ]
+    },
+    {
+      "id": "rival_claimed_contracts",
+      "name": "Rival Claimed Contracts",
+      "ranks": [
+        "C-Rank",
+        "B-Rank",
+        "A-Rank"
+      ],
+      "purpose": "Create competition with named hunters.",
+      "examples": [
+        "beat Darius to a bounty",
+        "help Mira finish a scout contract",
+        "investigate Kael's aftermath"
+      ]
+    },
+    {
+      "id": "realm_threats",
+      "name": "Realm Threats",
+      "ranks": [
+        "A-Rank",
+        "S-Rank"
+      ],
+      "purpose": "Reserve major bosses and dragon-tier threats for public Guild history.",
+      "examples": [
+        "defeat a major boss",
+        "secure a dragon zone",
+        "survive a realm event"
+      ]
+    }
+  ]
+}

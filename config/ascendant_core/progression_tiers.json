@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "tiers": [
+    {
+      "id": "tier_0_hearthlands",
+      "tier": 0,
+      "rank_band": [
+        "Unranked",
+        "E-Rank"
+      ],
+      "distance_blocks": [
+        0,
+        1500
+      ],
+      "loot_rarities": [
+        "common",
+        "uncommon"
+      ],
+      "world_role": "Starter Crownlands and safe settlement learning loop."
+    },
+    {
+      "id": "tier_1_inner_wilds",
+      "tier": 1,
+      "rank_band": [
+        "E-Rank",
+        "D-Rank"
+      ],
+      "distance_blocks": [
+        1200,
+        3500
+      ],
+      "loot_rarities": [
+        "common",
+        "uncommon",
+        "rare"
+      ],
+      "world_role": "First real roads, camps, minor ruins, and licensed hunter work."
+    },
+    {
+      "id": "tier_2_outer_marches",
+      "tier": 2,
+      "rank_band": [
+        "D-Rank",
+        "C-Rank"
+      ],
+      "distance_blocks": [
+        3000,
+        6500
+      ],
+      "loot_rarities": [
+        "uncommon",
+        "rare",
+        "epic"
+      ],
+      "world_role": "Climate identity, harder structures, regional materials, and ranked contracts."
+    },
+    {
+      "id": "tier_3_ancient_frontiers",
+      "tier": 3,
+      "rank_band": [
+        "C-Rank",
+        "B-Rank"
+      ],
+      "distance_blocks": [
+        6000,
+        10000
+      ],
+      "loot_rarities": [
+        "rare",
+        "epic",
+        "legendary"
+      ],
+      "world_role": "Major dungeons, elite mobs, frontier guild outposts, and boss leads."
+    },
+    {
+      "id": "tier_4_dragon_scars",
+      "tier": 4,
+      "rank_band": [
+        "B-Rank",
+        "A-Rank"
+      ],
+      "distance_blocks": [
+        9000,
+        14000
+      ],
+      "loot_rarities": [
+        "epic",
+        "legendary",
+        "mythic"
+      ],
+      "world_role": "Dragon, Cataclysm, Marium, and realm-threat content."
+    },
+    {
+      "id": "tier_5_corrupted_rim",
+      "tier": 5,
+      "rank_band": [
+        "A-Rank",
+        "S-Rank"
+      ],
+      "distance_blocks": [
+        12000,
+        30000000
+      ],
+      "loot_rarities": [
+        "legendary",
+        "mythic",
+        "ascendant"
+      ],
+      "world_role": "Ascendant-tier outer danger, capstone structures, and mythic rewards."
+    }
+  ]
+}

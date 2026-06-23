@@ -1,0 +1,109 @@
+{
+  "version": "structure_director_live_v1",
+  "generated_at": "2026-06-22T20:45:24+00:00",
+  "enabled": true,
+  "rollback_supported": true,
+  "evidence_required": true,
+  "minimum_live_confidence": "strong",
+  "true_pre_generation_context_veto": {
+    "status": "not_available_in_current_forge_event_surface",
+    "reason": "Forge 47.4.20 exposes chunk-load events but no safe structure placement veto event in this helper without a mixin/generator wrapper.",
+    "replacement_live_controls": [
+      "structure_set spacing/separation overrides",
+      "evidence-resolved biome tag replacement",
+      "dedicated vineyard structure_set",
+      "Integrated API terrain/biome radius checks for vineyard",
+      "helper runtime context diagnostics"
+    ]
+  },
+  "live_mode": {
+    "density_overrides_active": true,
+    "region_biome_tags_active": true,
+    "land_water_context_policy_active": true,
+    "helper_debug_commands_required": true,
+    "candidate_only": false
+  },
+  "land_water_rules": [
+    {
+      "rule_id": "dragon_roost_land_context",
+      "structure_ids": [
+        "iceandfire:fire_dragon_roost",
+        "iceandfire:ice_dragon_roost",
+        "iceandfire:lightning_dragon_roost"
+      ],
+      "structure_sets": [
+        "iceandfire:dragon_roost"
+      ],
+      "mode": "policy_and_datapack_density_active_helper_context_diagnostic",
+      "center_must_be_land": true,
+      "min_local_land_ratio": 0.75,
+      "max_local_water_ratio": 0.25,
+      "reject_ocean_scale_surrounding_water": true,
+      "sample_radius_blocks": 96
+    },
+    {
+      "rule_id": "dragon_cave_land_or_mountain_cover",
+      "structure_ids": [
+        "iceandfire:fire_dragon_cave",
+        "iceandfire:ice_dragon_cave",
+        "iceandfire:lightning_dragon_cave"
+      ],
+      "structure_sets": [
+        "iceandfire:dragon_cave"
+      ],
+      "mode": "policy_and_datapack_density_active_helper_context_diagnostic",
+      "requires_land_or_mountain_above": true,
+      "preserve_underground_layer": true,
+      "reject_ocean_floor_exposure": true
+    },
+    {
+      "rule_id": "vineyard_land_context",
+      "structure_ids": [
+        "idas:abandoned_vineyard"
+      ],
+      "structure_sets": [
+        "idas:abandoned_vineyard_director"
+      ],
+      "mode": "datapack_dedicated_set_and_integrated_api_context_checks_active",
+      "center_must_be_land": true,
+      "min_local_land_ratio": 0.75,
+      "max_local_water_ratio": 0.25,
+      "reject_ocean_scale_surrounding_water": true,
+      "sample_radius_blocks": 80
+    },
+    {
+      "rule_id": "siren_island_water_context",
+      "structure_ids": [
+        "iceandfire:siren_island"
+      ],
+      "structure_sets": [
+        "iceandfire:siren_island"
+      ],
+      "mode": "datapack_ocean_tag_and_density_active",
+      "center_must_be_water": true,
+      "min_local_water_ratio": 0.7,
+      "min_water_body": "ocean_or_deep_ocean_biome_tag"
+    }
+  ],
+  "settlement_family_exclusions": [
+    {
+      "family_id": "towns_and_towers_towns_vs_vanilla_villages",
+      "member_structure_sets": [
+        "towns_and_towers:towns",
+        "minecraft:villages"
+      ],
+      "minimum_separation_chunks": 10,
+      "live_resource": "data/towns_and_towers/worldgen/structure_set/towns.json",
+      "status": "active_spacing_and_exclusion_zone_override"
+    },
+    {
+      "family_id": "integrated_villages_existing_exclusion_preserved",
+      "member_structure_sets": [
+        "integrated_villages:regular_villages"
+      ],
+      "minimum_separation_chunks": 12,
+      "live_resource": "config/openloader/data/ascendant_realms_world_integration/data/integrated_villages/worldgen/structure_set/regular_villages.json",
+      "status": "existing_live_exclusion_preserved"
+    }
+  ]
+}

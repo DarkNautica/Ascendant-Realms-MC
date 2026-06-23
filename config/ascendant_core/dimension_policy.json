@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "dimensions": {
+    "minecraft:overworld": {
+      "atlas_regions": [
+        "crownlands",
+        "frostmarch",
+        "sunreach",
+        "verdant_coast",
+        "stoneback_highlands",
+        "deep_wilds",
+        "dragon_scars"
+      ]
+    },
+    "minecraft:the_nether": {
+      "atlas_regions": [
+        "nether_front"
+      ]
+    },
+    "minecraft:the_end": {
+      "atlas_regions": [
+        "end_expanse"
+      ]
+    }
+  }
+}

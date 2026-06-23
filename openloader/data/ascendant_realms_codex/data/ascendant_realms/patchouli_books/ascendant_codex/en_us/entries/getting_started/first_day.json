@@ -1,0 +1,30 @@
+{
+  "name": "Your First Day",
+  "icon": "minecraft:campfire",
+  "category": "ascendant_realms:getting_started",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Your First Day",
+      "text": "Spawn, then $(rune)move with purpose$(). Daylight is short and the first night decides a lot.$(br2)$(gold)1.$() Punch wood, make tools, grab food.$(br)$(gold)2.$() Find a $(rune)village$() — beds, safety, a $(gold)Hunter Board$().$(br)$(gold)3.$() Take a $(em)low-rank contract$() you can survive.$(br)$(gold)4.$() Clear it, return alive, get $(rune)evaluated$()."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:zombie",
+      "name": "Night Brings Teeth",
+      "text": "When the sun drops, the dark fills with things that were once people — and shadows that never were. Carry $(gold)light$(), keep your back to a wall, and do not wander far before you are ready."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:torch",
+      "title": "Light Pushes Back",
+      "text": "A torch is the cheapest life-insurance in the realm. Mark your path, ring your camp, and never dig straight down toward a sound."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Where To Go Next",
+      "text": "Once you can survive a night and a road, read the $(gold)Hunter Boards$() and $(gold)Guild$() chapters — they explain ranks, contracts, and how the realm keeps score.$(br2)$(soft)Tip: press $(gold)L$(soft) for your Quest Log.$()"
+    }
+  ]
+}

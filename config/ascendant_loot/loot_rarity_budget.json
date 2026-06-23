@@ -1,0 +1,266 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T02:04:15+00:00",
+  "rarity_order": {
+    "common": 0,
+    "uncommon": 1,
+    "rare": 2,
+    "epic": 3,
+    "legendary": 4,
+    "mythic": 5,
+    "ascendant": 6
+  },
+  "context_budgets": {
+    "village": {
+      "minimum_rarity": "common",
+      "allowed_rarity_ceiling": "uncommon",
+      "danger_tier": 0,
+      "guild_rank_tier": "unranked_to_e_rank",
+      "distance_ring_allowance": [
+        "center",
+        "inner"
+      ],
+      "atlas_region_allowance": [
+        "hearthlands",
+        "crownlands",
+        "region_compatible_settlements"
+      ]
+    },
+    "settlement": {
+      "minimum_rarity": "common",
+      "allowed_rarity_ceiling": "rare",
+      "danger_tier": 1,
+      "guild_rank_tier": "unranked_to_d_rank",
+      "distance_ring_allowance": [
+        "center",
+        "inner"
+      ],
+      "atlas_region_allowance": [
+        "hearthlands",
+        "crownlands",
+        "region_compatible_settlements"
+      ]
+    },
+    "minor_ruin": {
+      "minimum_rarity": "common",
+      "allowed_rarity_ceiling": "rare",
+      "danger_tier": 1,
+      "guild_rank_tier": "e_rank_to_d_rank",
+      "distance_ring_allowance": [
+        "inner",
+        "middle"
+      ],
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ]
+    },
+    "dungeon": {
+      "minimum_rarity": "uncommon",
+      "allowed_rarity_ceiling": "epic",
+      "danger_tier": 3,
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ]
+    },
+    "structure": {
+      "minimum_rarity": "common",
+      "allowed_rarity_ceiling": "rare",
+      "danger_tier": 2,
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ]
+    },
+    "boss": {
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "danger_tier": 5,
+      "guild_rank_tier": "b_rank_to_s_rank",
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "atlas_region_allowance": [
+        "outer",
+        "corrupted",
+        "boss_biome_specific"
+      ]
+    },
+    "dragon": {
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "danger_tier": 5,
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "atlas_region_allowance": [
+        "dragonbound",
+        "outer",
+        "corrupted"
+      ]
+    },
+    "mob": {
+      "minimum_rarity": "common",
+      "allowed_rarity_ceiling": "uncommon",
+      "danger_tier": 1,
+      "guild_rank_tier": "unranked_to_c_rank",
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ]
+    },
+    "fishing": {
+      "minimum_rarity": "common",
+      "allowed_rarity_ceiling": "rare",
+      "danger_tier": 1,
+      "guild_rank_tier": "unranked_to_c_rank",
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "atlas_region_allowance": [
+        "valid_water_regions"
+      ]
+    },
+    "archaeology": {
+      "minimum_rarity": "common",
+      "allowed_rarity_ceiling": "rare",
+      "danger_tier": 2,
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "atlas_region_allowance": [
+        "ruin_or_desert_region_matching_site"
+      ]
+    },
+    "bounty": {
+      "minimum_rarity": "common",
+      "allowed_rarity_ceiling": "legendary",
+      "danger_tier": 2,
+      "guild_rank_tier": "board_rank",
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "atlas_region_allowance": [
+        "atlas_region_matching_contract"
+      ]
+    },
+    "block": {
+      "minimum_rarity": "common",
+      "allowed_rarity_ceiling": "common",
+      "danger_tier": 0,
+      "guild_rank_tier": "none",
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "atlas_region_allowance": [
+        "all"
+      ]
+    },
+    "generic": {
+      "minimum_rarity": "common",
+      "allowed_rarity_ceiling": "rare",
+      "danger_tier": 2,
+      "guild_rank_tier": "manual_review",
+      "distance_ring_allowance": [
+        "manual_review"
+      ],
+      "atlas_region_allowance": [
+        "manual_review"
+      ]
+    }
+  },
+  "guild_rank_budgets": {
+    "unranked": {
+      "ceiling": "uncommon",
+      "routine_rewards": [
+        "common",
+        "uncommon"
+      ]
+    },
+    "e_rank": {
+      "ceiling": "rare",
+      "routine_rewards": [
+        "common",
+        "uncommon",
+        "rare"
+      ]
+    },
+    "d_rank": {
+      "ceiling": "rare",
+      "routine_rewards": [
+        "uncommon",
+        "rare"
+      ]
+    },
+    "c_rank": {
+      "ceiling": "epic",
+      "routine_rewards": [
+        "rare",
+        "epic"
+      ]
+    },
+    "b_rank": {
+      "ceiling": "legendary",
+      "routine_rewards": [
+        "rare",
+        "epic",
+        "legendary"
+      ]
+    },
+    "a_rank": {
+      "ceiling": "mythic",
+      "routine_rewards": [
+        "epic",
+        "legendary",
+        "mythic"
+      ]
+    },
+    "s_rank": {
+      "ceiling": "ascendant",
+      "routine_rewards": [
+        "legendary",
+        "mythic",
+        "ascendant"
+      ]
+    }
+  },
+  "distance_ring_budgets": {
+    "center": {
+      "ceiling": "uncommon",
+      "notes": "Hearthlands/Crownlands beginner zone."
+    },
+    "inner": {
+      "ceiling": "rare",
+      "notes": "Early exploration."
+    },
+    "middle": {
+      "ceiling": "epic",
+      "notes": "Dangerous structures and elite mobs begin."
+    },
+    "outer": {
+      "ceiling": "mythic",
+      "notes": "Boss and dragon approaches."
+    },
+    "edge": {
+      "ceiling": "ascendant",
+      "notes": "Corrupted/outer capstone content only."
+    }
+  }
+}

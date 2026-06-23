@@ -1,0 +1,143 @@
+{
+    "processors":  [
+                       {
+                           "processor_type":  "integrated_api:waterlogging_fix_processor"
+                       },
+                       {
+                           "processor_type":  "integrated_api:integrated_block_replace_processor",
+                           "input_block":  "minecraft:muddy_mangrove_roots",
+                           "required_mod":  "regions_unexplored",
+                           "output_block":  "regions_unexplored:peat_mud",
+                           "probability":  0.3
+                       },
+                       {
+                           "processor_type":  "integrated_api:integrated_block_replace_processor",
+                           "input_block":  "minecraft:purple_stained_glass_pane",
+                           "required_mod":  "bountiful",
+                           "output_block":  "bountiful:bountyboard",
+                           "probability":  1,
+                           "otherwise_block":  "minecraft:air"
+                       },
+                       {
+                           "processor_type":  "integrated_api:integrated_block_replace_processor",
+                           "input_block":  "minecraft:magenta_stained_glass_pane",
+                           "required_mod":  "paraglider",
+                           "output_block":  "paraglider:goron_goddess_statue",
+                           "probability":  1,
+                           "otherwise_block":  "minecraft:air"
+                       },
+                       {
+                           "processor_type":  "minecraft:rule",
+                           "rules":  [
+                                         {
+                                             "input_predicate":  {
+                                                                     "predicate_type":  "minecraft:block_match",
+                                                                     "block":  "minecraft:magenta_glazed_terracotta"
+                                                                 },
+                                             "location_predicate":  {
+                                                                        "predicate_type":  "minecraft:always_true"
+                                                                    },
+                                             "output_state":  {
+                                                                  "Name":  "minecraft:crafting_table"
+                                                              }
+                                         },
+                                         {
+                                             "input_predicate":  {
+                                                                     "predicate_type":  "minecraft:block_match",
+                                                                     "block":  "minecraft:light_blue_glazed_terracotta"
+                                                                 },
+                                             "location_predicate":  {
+                                                                        "predicate_type":  "minecraft:always_true"
+                                                                    },
+                                             "output_state":  {
+                                                                  "Name":  "minecraft:lectern"
+                                                              }
+                                         },
+                                         {
+                                             "input_predicate":  {
+                                                                     "predicate_type":  "minecraft:block_match",
+                                                                     "block":  "minecraft:purple_glazed_terracotta"
+                                                                 },
+                                             "location_predicate":  {
+                                                                        "predicate_type":  "minecraft:always_true"
+                                                                    },
+                                             "output_state":  {
+                                                                  "Name":  "minecraft:brewing_stand"
+                                                              }
+                                         },
+                                         {
+                                             "input_predicate":  {
+                                                                     "predicate_type":  "minecraft:block_match",
+                                                                     "block":  "minecraft:gray_glazed_terracotta"
+                                                                 },
+                                             "location_predicate":  {
+                                                                        "predicate_type":  "minecraft:always_true"
+                                                                    },
+                                             "output_state":  {
+                                                                  "Name":  "minecraft:stonecutter"
+                                                              }
+                                         },
+                                         {
+                                             "input_predicate":  {
+                                                                     "predicate_type":  "minecraft:block_match",
+                                                                     "block":  "minecraft:black_glazed_terracotta"
+                                                                 },
+                                             "location_predicate":  {
+                                                                        "predicate_type":  "minecraft:always_true"
+                                                                    },
+                                             "output_state":  {
+                                                                  "Name":  "minecraft:smithing_table"
+                                                              }
+                                         },
+                                         {
+                                             "input_predicate":  {
+                                                                     "predicate_type":  "minecraft:block_match",
+                                                                     "block":  "minecraft:brown_glazed_terracotta"
+                                                                 },
+                                             "location_predicate":  {
+                                                                        "predicate_type":  "minecraft:always_true"
+                                                                    },
+                                             "output_state":  {
+                                                                  "Name":  "minecraft:cartography_table"
+                                                              }
+                                         },
+                                         {
+                                             "input_predicate":  {
+                                                                     "predicate_type":  "minecraft:block_match",
+                                                                     "block":  "minecraft:light_gray_glazed_terracotta"
+                                                                 },
+                                             "location_predicate":  {
+                                                                        "predicate_type":  "minecraft:always_true"
+                                                                    },
+                                             "output_state":  {
+                                                                  "Name":  "minecraft:smoker"
+                                                              }
+                                         },
+                                         {
+                                             "input_predicate":  {
+                                                                     "predicate_type":  "minecraft:block_match",
+                                                                     "block":  "minecraft:white_glazed_terracotta"
+                                                                 },
+                                             "location_predicate":  {
+                                                                        "predicate_type":  "minecraft:always_true"
+                                                                    },
+                                             "output_state":  {
+                                                                  "Name":  "minecraft:fletching_table"
+                                                              }
+                                         },
+                                         {
+                                             "input_predicate":  {
+                                                                     "predicate_type":  "minecraft:block_match",
+                                                                     "block":  "minecraft:red_glazed_terracotta"
+                                                                 },
+                                             "location_predicate":  {
+                                                                        "predicate_type":  "minecraft:always_true"
+                                                                    },
+                                             "output_state":  {
+                                                                  "Name":  "minecraft:cauldron"
+                                                              }
+                                         }
+                                     ]
+                       }
+                   ]
+}

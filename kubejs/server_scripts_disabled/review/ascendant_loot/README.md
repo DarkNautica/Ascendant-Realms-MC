@@ -1,0 +1,46 @@
+# Ascendant Loot Rewrite Candidates
+
+This folder is intentionally disabled. Minecraft and KubeJS should ignore it.
+
+No rewrite is enabled by this pass. Use these notes only after the player approves a narrow loot correction.
+
+## Candidate Review Queue
+
+- iceandfire:chest/village_scribe: iceandfire:dragonbone (mythic)
+- integrated_villages:chests/airship_village/airship_village_blacksmith: minecraft:diamond_horse_armor (epic), minecraft:diamond (epic)
+- integrated_villages:chests/airship_village/airship_village_create: minecraft:diamond (epic)
+- integrated_villages:chests/airship_village/airship_village_treasure: minecraft:diamond (epic)
+- integrated_villages:chests/cabin_village/cabin_village_blacksmith: minecraft:diamond_horse_armor (epic), minecraft:diamond (epic)
+- integrated_villages:chests/clockwork_village/clockwork_village_blacksmith: minecraft:diamond_horse_armor (epic), minecraft:diamond (epic)
+- integrated_villages:chests/kutcha_village/kutcha_village_blacksmith: minecraft:diamond_horse_armor (epic), minecraft:diamond (epic)
+- integrated_villages:chests/marketstead_village/marketstead_village_blacksmith: minecraft:diamond_horse_armor (epic), minecraft:diamond (epic)
+- integrated_villages:chests/marketstead_village/marketstead_village_create: minecraft:diamond (epic)
+- integrated_villages:chests/marketstead_village/marketstead_village_tomb: minecraft:diamond (epic)
+- integrated_villages:chests/mediterranean_village/mediterranean_village_blacksmith: minecraft:diamond_horse_armor (epic), minecraft:diamond (epic)
+- integrated_villages:chests/mediterranean_village/mediterranean_village_create: minecraft:diamond (epic)
+- integrated_villages:chests/minka_village/minka_village_blacksmith: minecraft:diamond_horse_armor (epic), minecraft:diamond (epic)
+- integrated_villages:chests/minka_village/minka_village_treasure: minecraft:diamond (epic)
+- integrated_villages:chests/mossy_mounds/mossy_mounds_blacksmith: minecraft:diamond_horse_armor (epic), minecraft:diamond (epic)
+- integrated_villages:chests/mossy_mounds/mossy_mounds_treasure: minecraft:diamond (epic)
+- integrated_villages:chests/oasis_village/oasis_village_blacksmith: minecraft:diamond_horse_armor (epic), minecraft:diamond (epic)
+- integrated_villages:chests/pirate_village/pirate_village_blacksmith: minecraft:diamond_horse_armor (epic), minecraft:diamond (epic)
+- integrated_villages:chests/pirate_village/pirate_village_create: minecraft:diamond (epic)
+- integrated_villages:chests/pirate_village/pirate_village_treasure: minecraft:diamond (epic)
+- integrated_villages:chests/swamp_village/swamp_village_armorer: minecraft:diamond_horse_armor (epic), minecraft:diamond (epic)
+- integrated_villages:chests/swamp_village/swamp_village_blacksmith: minecraft:diamond (epic)
+- integrated_villages:chests/swamp_village/swamp_village_create: minecraft:diamond (epic)
+- integrated_villages:chests/swamp_village/swamp_village_tomb: minecraft:diamond (epic)
+- integrated_villages:chests/tavern_village/tavern_village_blacksmith: minecraft:diamond_horse_armor (epic), minecraft:diamond (epic)
+- integrated_villages:chests/tavern_village/tavern_village_create: minecraft:diamond (epic)
+- terralith:village/desert/smith/novice: minecraft:diamond (epic)
+- terralith:village/desert/smith/expert: minecraft:diamond_pickaxe (epic), minecraft:diamond (epic), minecraft:deepslate_diamond_ore (epic)
+- terralith:village/desert/junk: minecraft:diamond_hoe (epic)
+- terralith:village/desert/treasure: terralith:village/treasure/diamond (epic)
+- terralith:village/treasure/diamond: minecraft:diamond (epic)
+- terralith:village/fortified/smith/novice: minecraft:diamond (epic)
+- terralith:village/fortified/smith/expert: minecraft:diamond_pickaxe (epic), minecraft:diamond (epic), minecraft:deepslate_diamond_ore (epic)
+- terralith:village/fortified/junk: minecraft:diamond_hoe (epic)
+- terralith:village/fortified/treasure: minecraft:diamond (epic)
+- kaisyn:village/exclusives/village_classic_blacksmith: minecraft:diamond_horse_armor (epic), minecraft:diamond (epic)
+- kaisyn:village/exclusives/village_piglin_barrel: minecraft:golden_axe (epic)
+- kaisyn:village/exclusives/village_piglin_house: minecraft:golden_leggings (epic), minecraft:golden_helmet (epic), minecraft:golden_chestplate (epic), minecraft:golden_boots (epic), minecraft:golden_axe (epic)

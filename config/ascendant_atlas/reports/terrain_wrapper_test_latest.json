@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T22:18:59.183081600Z",
+  "source": "ascendant_atlas_regions_option_c_chunk_load_correction",
+  "status": "policy_dump",
+  "prototype_option": "C_region_aware_ocean_basin_correction_pass",
+  "policy_path": "config/ascendant_atlas/terrain_noise_policy.json",
+  "mode": "experimental_ocean_basin_correction",
+  "enabled": false,
+  "fresh_chunks_only": true,
+  "tectonic_compatible_path_active": true,
+  "generator_replaced": false,
+  "noise_settings_changed": false,
+  "summary": {
+    "chunks_scanned": 990,
+    "eligible_chunks": 0,
+    "chunks_corrected": 0,
+    "columns_corrected": 0,
+    "blocks_changed": 0,
+    "water_columns_detected": 0,
+    "deep_water_columns_detected": 0,
+    "skipped_existing_chunks": 0,
+    "skipped_non_land_first": 0,
+    "skipped_ocean_allowed": 0,
+    "skipped_below_threshold": 0,
+    "last_action": "no terrain correction has run yet",
+    "last_error": null
+  },
+  "recent_corrected_chunks": [
+  ]
+}

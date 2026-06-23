@@ -1,0 +1,13 @@
+name = "YDM's MobHealthBar"
+filename = "mobhealthbar-forge-1.20.x-2.3.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/wtk2r10e/versions/M4NQZuns/mobhealthbar-forge-1.20.x-2.3.0.jar"
+hash-format = "sha512"
+hash = "7a2b501a7d3cb1e7473f83eaf9a534fa754424c418f0a752f2b4d5608178fb9a33e2fba9ab9ca062832d7f0a46591501769d45cb4d346e12ee592270ea711f9b"
+
+[update]
+[update.modrinth]
+mod-id = "wtk2r10e"
+version = "M4NQZuns"

@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T20:52:00-04:00",
+  "status": "field_review_evidence_no_live_generation_changes",
+  "source": {
+    "human_reviewer": "Jayden",
+    "log_file": "C:\\Users\\Jayden\\curseforge\\minecraft\\Instances\\Ascendant Realms (2)\\logs\\latest.log",
+    "world": "New World",
+    "notes": "Jayden only reported issues; unmentioned reviewed structures are treated as visually acceptable for this pass."
+  },
+  "summary": {
+    "primary_issue": "Some valid land structures are visually spawning as islands in ocean/lake terrain.",
+    "structure_models": "Mostly acceptable; reported failures are placement/context problems, not structure design failures.",
+    "live_gameplay_files_changed": false,
+    "live_overrides_enabled": false,
+    "requires_candidate_review_before_live_changes": true
+  },
+  "findings": [
+    {
+      "structure_id": "iceandfire:*_dragon_roost",
+      "source_mod": "Ice And Fire Community Edition",
+      "reported_issue": "Dragon roosts are spawning as islands in water like oceans/lakes.",
+      "log_evidence": "Exact roost locate lines were not present in latest.log; this entry is from Jayden's visual review note.",
+      "classification": "land_structure_water_terrain_misplacement",
+      "current_policy_after_correction": {
+        "water_role": "none",
+        "required_terrain": "native_surface",
+        "recommended_action": "should_reduce"
+      },
+      "suggested_fix_type": "land_only_region_or_biome_tag_lock_candidate",
+      "decision": "manual_review_required_before_live_override"
+    },
+    {
+      "structure_id": "idas:abandoned_vineyard",
+      "source_mod": "Integrated Dungeons and Structures",
+      "reported_issue": "Abandoned vineyard spawned as an island in water like an ocean/lake.",
+      "locate_result": {
+        "x": 9568,
+        "z": 9264,
+        "log_lines": [5450, 5451, 5453, 5454, 5466],
+        "atlas_here": "region=south_east_wilds sector=south_east ring=tier_4_dragon_scars biome=terralith:hot_shrubland"
+      },
+      "expected_policy": {
+        "atlas_allowed_regions": ["crownlands", "hearthlands", "sunreach_if_savanna"],
+        "water_role": "none",
+        "required_terrain": "native_surface",
+        "recommended_action": "should_region_lock"
+      },
+      "classification": "land_structure_water_terrain_misplacement_and_region_fit_mismatch",
+      "suggested_fix_type": "tighten_idas_savanna_or_vineyard_region_lock_candidate",
+      "decision": "manual_review_required_before_live_override"
+    },
+    {
+      "structure_id": "iceandfire:gorgon_temple",
+      "replacement_structure_id": "idas:labyrinth",
+      "source_mod": "Integrated Dungeons and Structures",
+      "reported_issue": "IDAS overrides the Ice and Fire gorgon temple with idas:labyrinth.",
+      "locate_result": {
+        "replacement_x": 2704,
+        "replacement_z": 14816,
+        "log_lines": [5500, 5513, 5515, 5520, 5521, 5729],
+        "atlas_here": "region=sunreach sector=south ring=tier_5_corrupted_rim biome=terralith:desert_canyon"
+      },
+      "visual_result": "Jayden said the IDAS labyrinth looks good.",
+      "classification": "acceptable_mod_override",
+      "suggested_fix_type": "document_only_no_action"
+    },
+    {
+      "structure_id": "iceandfire:graveyard",
+      "replacement_structure_id": "idas:haunted_manor",
+      "source_mod": "Integrated Dungeons and Structures",
+      "reported_issue": "IDAS overrides the Ice and Fire graveyard with idas:haunted_manor.",
+      "log_evidence": {
+        "log_lines": [5730],
+        "message": "IDAS overrides this Ice and Fire structure! Use /locate structure idas:haunted_manor instead!"
+      },
+      "classification": "mod_override_needs_followup_visual_review",
+      "suggested_fix_type": "continue_review_if_haunted_manor_placement_looks_wrong"
+    }
+  ],
+  "source_only_policy_correction_applied": [
+    "Structure tiering generator no longer uses source_mod text for biome-family inference.",
+    "frost_cold and frozen_ocean are now separate biome families.",
+    "Ice and Fire non-siren structures are no longer classified as water/frozen-ocean structures only because the mod name contains Ice.",
+    "Dragon roosts, dragon caves, gorgon temple, graveyard, and related Ice and Fire land structures now keep water_role=none unless their actual structure identity is water."
+  ],
+  "next_review_targets": [
+    "Re-test dragon roost locations after future live region/biome tag candidates are approved.",
+    "Inspect idas:abandoned_vineyard in at least one more locate result to confirm whether this is recurring or one bad terrain edge.",
+    "Continue route from the next highest-risk command after graveyard/haunted manor."
+  ]
+}

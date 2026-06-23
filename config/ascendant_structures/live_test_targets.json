@@ -1,0 +1,38 @@
+{
+  "version": "structure_director_live_v1",
+  "generated_at": "2026-06-22T20:45:24+00:00",
+  "targets": [
+    {
+      "name": "Dragon roost land placement",
+      "commands": [
+        "/locate structure iceandfire:fire_dragon_roost",
+        "/ascstructure test_context iceandfire:fire_dragon_roost"
+      ],
+      "expected": "Roost should be rare and should not sit as a tiny island in ocean/lake terrain."
+    },
+    {
+      "name": "Abandoned vineyard land placement",
+      "commands": [
+        "/locate structure idas:abandoned_vineyard",
+        "/ascstructure test_context idas:abandoned_vineyard"
+      ],
+      "expected": "Vineyard should be rare, land-first, and not spawn as an island."
+    },
+    {
+      "name": "Siren island ocean placement",
+      "commands": [
+        "/locate structure iceandfire:siren_island",
+        "/ascstructure test_context iceandfire:siren_island"
+      ],
+      "expected": "Siren island should remain in ocean/deep-ocean context."
+    },
+    {
+      "name": "Settlement spacing",
+      "commands": [
+        "/locate structure towns_and_towers:village_badlands",
+        "/locate structure minecraft:village_plains"
+      ],
+      "expected": "Towns and Towers villages should be less likely to crowd vanilla villages."
+    }
+  ]
+}

@@ -1,0 +1,952 @@
+{
+  "content": {
+    "village_hunt_01_anaconda": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "alexsmobs:anaconda",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_02_bone_serpent": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "alexsmobs:bone_serpent",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_03_crimson_mosquito": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "alexsmobs:crimson_mosquito",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_04_crocodile": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "alexsmobs:crocodile",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_05_dropbear": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "alexsmobs:dropbear",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_06_frilled_shark": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "alexsmobs:frilled_shark",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_07_grizzly_bear": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "alexsmobs:grizzly_bear",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_08_mimic_octopus": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "alexsmobs:mimic_octopus",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_09_mimicube": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "alexsmobs:mimicube",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_10_sea_bear": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "alexsmobs:sea_bear",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_11_tiger": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "alexsmobs:tiger",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_12_abyssal_scyphoid": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "aquamirae:abyssal_scyphoid",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_13_eel": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "aquamirae:eel",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_14_maw": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "aquamirae:maw",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_15_mother_of_the_maze": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "aquamirae:maze_mother",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_16_maze_rose": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "aquamirae:maze_rose",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_17_pillagers_patrol": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "aquamirae:pillagers_patrol",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_18_tortured_soul": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "aquamirae:tortured_soul",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_19_mimic": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "artifacts:mimic",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_20_baby_skeleton": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:baby_skeleton",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_21_baby_spider": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:baby_spider",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_22_barrel_zombie": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:barrel_zombie",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_23_bone_imp": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:bone_imp",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_24_bonescaller": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:bonescaller",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_25_decaying_zombie": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:decaying_zombie",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_26_decrepit_skeleton": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:decrepit_skeleton",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_27_diamond_termite": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:diamond_termite",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_28_felsteed": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:felsteed",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_29_firelight": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:firelight",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_30_infernal_spirit": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:infernal_spirit",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_31_krampus": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:krampus",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_32_krampus_henchman": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:krampus_henchman",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_33_lifestealer": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:lifestealer",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_34_lifestealer": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:lifestealer_true_form",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_35_corpse_maggot": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:maggot",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_36_missionary": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:missionary_raider",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_37_missionary": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:missioner",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_38_spiders_mother": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:mother_spider",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_39_mr_pumpkin": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:mr_pumpkin",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_40_mrs_pumpkin": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:mrs_pumpkin",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_41_pumpkin_bruiser": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:pumpkin_bruiser",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_42_pumpkin_dunce": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:pumpkin_dunce",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_43_pumpkin_spirit": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:pumpkin_spirit",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_44_restless_spirit": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:restless_spirit",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_45_felsteed": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:riding_felsteed",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_46_felsteed": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:riding_lords_felsteed",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_47_scarlet_persecutor": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:scarlet_persecutor",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_48_seared_spirit": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:seared_spirit",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_49_senor_pumpkin": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:senor_pumpkin",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_50_siamese_skeletons": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:siamese_skeletons",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_51_siamese_skeleton": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:siamese_skeletonsleft",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_52_siamese_skeleton": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:siamese_skeletonsright",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_53_skeleton_demoman": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:skeleton_demoman",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_54_skeleton_thrasher": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:skeleton_thrasher",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_55_spirit_guide": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:spirit_guide",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_56_spirit_guide_assistant": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:spirit_guide_assistant",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_57_spirit_of_chaos": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:spiritof_chaos",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_58_supreme_bonescaller": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:supreme_bonescaller",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_59_supreme_bonescaller": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:supreme_bonescaller_stage_2",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_60_swarmer": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:swarmer",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_61_zombie_bruiser": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:zombie_bruiser",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_62_zombie_clown": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:zombie_clown",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_63_zombie_fisherman": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:zombie_fisherman",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_64_zombie_lumberjack": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "born_in_chaos_v1:zombie_lumberjack",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_65_catacombs_zombie": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "irons_spellbooks:catacombs_zombie",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_66_ice_spider": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "irons_spellbooks:ice_spider",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_67_baby_foliaath": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "mowziesmobs:baby_foliaath",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_68_bluff": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "mowziesmobs:bluff",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_69_elokosa": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "mowziesmobs:elokosa_follower_howler",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_70_elokosa_howler": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "mowziesmobs:elokosa_howler",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_71_foliaath": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "mowziesmobs:foliaath",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_72_grottol": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "mowziesmobs:grottol",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_73_naga": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "mowziesmobs:naga",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_74_umvuthana": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "mowziesmobs:umvuthana",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_75_umvuthana_crane": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "mowziesmobs:umvuthana_crane",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_76_umvuthana_crane": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "mowziesmobs:umvuthana_crane_player",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_77_umvuthana": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "mowziesmobs:umvuthana_follower_player",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_78_umvuthana": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "mowziesmobs:umvuthana_follower_raptor",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    },
+    "village_hunt_79_umvuthana_raptor": {
+      "type": "entity",
+      "timeMult": 7.5,
+      "content": "mowziesmobs:umvuthana_raptor",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weightMult": 0.55,
+      "rarity": "UNCOMMON"
+    }
+  }
+}

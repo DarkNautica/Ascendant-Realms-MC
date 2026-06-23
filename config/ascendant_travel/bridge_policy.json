@@ -1,0 +1,388 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T02:37:09+00:00",
+  "status": "reconnaissance_only_no_worldgen_changes",
+  "scope": {
+    "adds_bridges": false,
+    "changes_live_generation": false,
+    "uses_macaws_as_palette_only": true
+  },
+  "summary": {
+    "bridge_sources": 4,
+    "yungs_bridge_worldgen_files": 29,
+    "macaws_worldgen_files": 0,
+    "integrated_villages_bridge_files": 3,
+    "integrated_villages_dock_files": 5,
+    "towns_and_towers_bridge_files": 0
+  },
+  "bridge_sources": [
+    {
+      "source_id": "yungsbridges:bridges",
+      "mod_source": "YUNG's Bridges",
+      "config_path": "mods/yungs-bridges.pw.toml",
+      "structure_ids_or_templates": [
+        "data/yungsbridges/tags/worldgen/biome/collections/badlands.json",
+        "data/yungsbridges/tags/worldgen/biome/collections/jungle.json",
+        "data/yungsbridges/tags/worldgen/biome/collections/savanna.json",
+        "data/yungsbridges/tags/worldgen/biome/collections/taiga.json",
+        "data/yungsbridges/tags/worldgen/biome/has_structure/bridge.json",
+        "data/yungsbridges/worldgen/configured_feature/bridge/stone/15_1.json",
+        "data/yungsbridges/worldgen/configured_feature/bridge/stone/15_1_rotated.json",
+        "data/yungsbridges/worldgen/configured_feature/bridge/stone/16_0.json",
+        "data/yungsbridges/worldgen/configured_feature/bridge/stone/16_0_broken.json",
+        "data/yungsbridges/worldgen/configured_feature/bridge/stone/16_0_broken_rotated.json",
+        "data/yungsbridges/worldgen/configured_feature/bridge/stone/16_0_rotated.json",
+        "data/yungsbridges/worldgen/configured_feature/bridge/stone/22_0.json"
+      ],
+      "biome_tags": [
+        "data/yungsbridges/tags/worldgen/biome/collections/badlands.json",
+        "data/yungsbridges/tags/worldgen/biome/collections/jungle.json",
+        "data/yungsbridges/tags/worldgen/biome/collections/savanna.json",
+        "data/yungsbridges/tags/worldgen/biome/collections/taiga.json",
+        "data/yungsbridges/tags/worldgen/biome/has_structure/bridge.json"
+      ],
+      "spacing_density": "code-driven or non-json; no structure_set JSON visible in jar scan",
+      "slope_behavior": "unknown from datapack JSON; requires live bridge field review",
+      "bridge_behavior": "standalone world bridge landmarks, not linked to Atlas road routing",
+      "known_failure_types": [
+        "not_linked_to_road_network",
+        "slope_behavior_unknown",
+        "water_crossing_strategy_unlinked"
+      ],
+      "recommendation": "keep_manual_review"
+    },
+    {
+      "source_id": "macaws_bridges:palette",
+      "mod_source": "Macaw's Bridges",
+      "config_path": "mods/macaws-bridges.pw.toml",
+      "structure_ids_or_templates": [],
+      "biome_tags": [],
+      "spacing_density": "no worldgen files detected; palette only",
+      "slope_behavior": "not applicable",
+      "bridge_behavior": "build palette for future authored/helper bridge pieces",
+      "known_failure_types": [],
+      "recommendation": "keep_palette_only"
+    },
+    {
+      "source_id": "integrated_villages:mossy_mounds_bridge",
+      "mod_source": "Integrated Villages",
+      "config_path": "config/integrated_villages-forge-1_20.toml",
+      "structure_ids_or_templates": [
+        "data/integrated_villages/structures/mossy_mounds/path/mossy_mounds_bridge.nbt",
+        "data/integrated_villages/structures/mossy_mounds/path/mossy_mounds_bridge_bottom.nbt",
+        "data/integrated_villages/worldgen/template_pool/mossy_mounds/path/bridge_bottom.json"
+      ],
+      "biome_tags": "Integrated Villages mossy_mounds tags",
+      "spacing_density": "inherits integrated_villages:regular_villages 64/32",
+      "slope_behavior": "template-local; field review needed",
+      "bridge_behavior": "local village bridge, not global road crossing",
+      "known_failure_types": [
+        "local_only_bridge_strategy",
+        "slope_behavior_unknown"
+      ],
+      "recommendation": "keep_manual_review"
+    },
+    {
+      "source_id": "integrated_villages:pirate_village_docks",
+      "mod_source": "Integrated Villages",
+      "config_path": "config/integrated_villages-forge-1_20.toml",
+      "structure_ids_or_templates": [
+        "data/integrated_villages/structures/pirate_village/docks/pirate_village_docks1.nbt",
+        "data/integrated_villages/structures/pirate_village/path/pirate_village_path_docks.nbt",
+        "data/integrated_villages/worldgen/processor_list/pirate_village_dock_processor.json",
+        "data/integrated_villages/worldgen/template_pool/pirate_village/docks/docks.json",
+        "data/integrated_villages/worldgen/template_pool/pirate_village/path/path_docks.json"
+      ],
+      "biome_tags": "Integrated Villages pirate/coastal tags",
+      "spacing_density": "inherits integrated village spacing",
+      "slope_behavior": "coastal template behavior; field review needed",
+      "bridge_behavior": "dock behavior only",
+      "known_failure_types": [
+        "dock_water_edge_risk"
+      ],
+      "recommendation": "keep_manual_review"
+    }
+  ],
+  "jar_evidence": {
+    "yungs_bridges": {
+      "path": "C:\\Users\\Jayden\\curseforge\\minecraft\\Instances\\Ascendant Realms (2)\\mods\\YungsBridges-1.20-Forge-4.0.3.jar",
+      "exists": true,
+      "is_zip": true,
+      "worldgen_files": 29,
+      "structure_json_files": 0,
+      "structure_set_json_files": 0,
+      "template_pool_json_files": 0,
+      "structure_nbt_files": 14,
+      "road_or_path_files": 0,
+      "bridge_files": 44,
+      "river_or_crossing_files": 0,
+      "dock_or_port_files": 0,
+      "biome_tag_files": [
+        "data/yungsbridges/tags/worldgen/biome/collections/badlands.json",
+        "data/yungsbridges/tags/worldgen/biome/collections/jungle.json",
+        "data/yungsbridges/tags/worldgen/biome/collections/savanna.json",
+        "data/yungsbridges/tags/worldgen/biome/collections/taiga.json",
+        "data/yungsbridges/tags/worldgen/biome/has_structure/bridge.json"
+      ],
+      "examples": {
+        "road_or_path": [],
+        "bridge": [
+          "data/yungsbridges/forge/biome_modifier/bridge_addition.json",
+          "data/yungsbridges/structures/bridge/stone/15_1.nbt",
+          "data/yungsbridges/structures/bridge/stone/16_0.nbt",
+          "data/yungsbridges/structures/bridge/stone/16_0_broken.nbt",
+          "data/yungsbridges/structures/bridge/stone/22_0.nbt",
+          "data/yungsbridges/structures/bridge/stone/22_0_broken.nbt",
+          "data/yungsbridges/structures/bridge/stone/24_0.nbt",
+          "data/yungsbridges/structures/bridge/stone/24_0_broken.nbt",
+          "data/yungsbridges/structures/bridge/stone/31_0.nbt",
+          "data/yungsbridges/structures/bridge/wood/13_0.nbt",
+          "data/yungsbridges/structures/bridge/wood/13_0_broken.nbt",
+          "data/yungsbridges/structures/bridge/wood/15_0.nbt"
+        ],
+        "river_or_crossing": [],
+        "dock_or_port": [],
+        "worldgen": [
+          "data/yungsbridges/tags/worldgen/biome/collections/badlands.json",
+          "data/yungsbridges/tags/worldgen/biome/collections/jungle.json",
+          "data/yungsbridges/tags/worldgen/biome/collections/savanna.json",
+          "data/yungsbridges/tags/worldgen/biome/collections/taiga.json",
+          "data/yungsbridges/tags/worldgen/biome/has_structure/bridge.json",
+          "data/yungsbridges/worldgen/configured_feature/bridge/stone/15_1.json",
+          "data/yungsbridges/worldgen/configured_feature/bridge/stone/15_1_rotated.json",
+          "data/yungsbridges/worldgen/configured_feature/bridge/stone/16_0.json",
+          "data/yungsbridges/worldgen/configured_feature/bridge/stone/16_0_broken.json",
+          "data/yungsbridges/worldgen/configured_feature/bridge/stone/16_0_broken_rotated.json",
+          "data/yungsbridges/worldgen/configured_feature/bridge/stone/16_0_rotated.json",
+          "data/yungsbridges/worldgen/configured_feature/bridge/stone/22_0.json"
+        ]
+      }
+    },
+    "macaws_bridges": {
+      "path": "C:\\Users\\Jayden\\curseforge\\minecraft\\Instances\\Ascendant Realms (2)\\mods\\mcw-bridges-3.1.2-mc1.20.1forge.jar",
+      "exists": true,
+      "is_zip": true,
+      "worldgen_files": 0,
+      "structure_json_files": 0,
+      "structure_set_json_files": 0,
+      "template_pool_json_files": 0,
+      "structure_nbt_files": 0,
+      "road_or_path_files": 0,
+      "bridge_files": 563,
+      "river_or_crossing_files": 0,
+      "dock_or_port_files": 116,
+      "biome_tag_files": [],
+      "examples": {
+        "road_or_path": [],
+        "bridge": [
+          "data/mcwbridges/advancements/recipes/acacia_bridge_pier.json",
+          "data/mcwbridges/advancements/recipes/acacia_log_bridge_middle.json",
+          "data/mcwbridges/advancements/recipes/acacia_log_bridge_stair.json",
+          "data/mcwbridges/advancements/recipes/acacia_rail_bridge.json",
+          "data/mcwbridges/advancements/recipes/acacia_rope_bridge_stair.json",
+          "data/mcwbridges/advancements/recipes/andesite_bridge.json",
+          "data/mcwbridges/advancements/recipes/andesite_bridge_pier.json",
+          "data/mcwbridges/advancements/recipes/andesite_bridge_stair.json",
+          "data/mcwbridges/advancements/recipes/asian_red_bridge.json",
+          "data/mcwbridges/advancements/recipes/asian_red_bridge_pier.json",
+          "data/mcwbridges/advancements/recipes/asian_red_bridge_stair.json",
+          "data/mcwbridges/advancements/recipes/balustrade_andesite_bridge.json"
+        ],
+        "river_or_crossing": [],
+        "dock_or_port": [
+          "data/mcwbridges/advancements/recipes/acacia_bridge_pier.json",
+          "data/mcwbridges/advancements/recipes/andesite_bridge_pier.json",
+          "data/mcwbridges/advancements/recipes/asian_red_bridge_pier.json",
+          "data/mcwbridges/advancements/recipes/bamboo_bridge_pier.json",
+          "data/mcwbridges/advancements/recipes/birch_bridge_pier.json",
+          "data/mcwbridges/advancements/recipes/blackstone_bridge_pier.json",
+          "data/mcwbridges/advancements/recipes/brick_bridge_pier.json",
+          "data/mcwbridges/advancements/recipes/cherry_bridge_pier.json",
+          "data/mcwbridges/advancements/recipes/cobblestone_bridge_pier.json",
+          "data/mcwbridges/advancements/recipes/crimson_bridge_pier.json",
+          "data/mcwbridges/advancements/recipes/dark_oak_bridge_pier.json",
+          "data/mcwbridges/advancements/recipes/deepslate_brick_bridge_pier.json"
+        ],
+        "worldgen": []
+      }
+    },
+    "integrated_villages": {
+      "path": "C:\\Users\\Jayden\\curseforge\\minecraft\\Instances\\Ascendant Realms (2)\\mods\\integrated_villages-1.3.2+1.20.1-forge.jar",
+      "exists": true,
+      "is_zip": true,
+      "worldgen_files": 517,
+      "structure_json_files": 15,
+      "structure_set_json_files": 4,
+      "template_pool_json_files": 421,
+      "structure_nbt_files": 754,
+      "road_or_path_files": 343,
+      "bridge_files": 3,
+      "river_or_crossing_files": 1,
+      "dock_or_port_files": 5,
+      "biome_tag_files": [
+        "data/integrated_villages/tags/worldgen/biome/collections/any_forests.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/any_taiga.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/badlands.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/bamboos.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/beaches.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/birch_forests.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/caves.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/dark_oak_forests.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/deep_oceans.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/deserts.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/end_island_land.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/end_voids.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/floral.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/flower_forests.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/giant_taigas.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/giant_trees.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/hills.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/icy.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/jungles.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/mangroves.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/meadows.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/mountains.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/mushrooms.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/nether.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/nether_basalts.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/nether_crimson_forests.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/nether_souls.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/nether_warped_forests.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/nether_wastes.json",
+        "data/integrated_villages/tags/worldgen/biome/collections/oceans.json"
+      ],
+      "examples": {
+        "road_or_path": [
+          "data/integrated_villages/structures/airship_village/path/airship_village_path_mason.nbt",
+          "data/integrated_villages/structures/airship_village/path/airship_village_path_ship_left.nbt",
+          "data/integrated_villages/structures/airship_village/path/airship_village_path_ship_right.nbt",
+          "data/integrated_villages/structures/cabin_village/path/cabin_village_intersection1.nbt",
+          "data/integrated_villages/structures/cabin_village/path/cabin_village_intersection1_bottom.nbt",
+          "data/integrated_villages/structures/cabin_village/path/cabin_village_intersection2.nbt",
+          "data/integrated_villages/structures/cabin_village/path/cabin_village_intersection2_bottom.nbt",
+          "data/integrated_villages/structures/cabin_village/path/cabin_village_intersection3.nbt",
+          "data/integrated_villages/structures/cabin_village/path/cabin_village_intersection3_bottom.nbt",
+          "data/integrated_villages/structures/cabin_village/path/cabin_village_intersection4.nbt",
+          "data/integrated_villages/structures/cabin_village/path/cabin_village_intersection4_bottom.nbt",
+          "data/integrated_villages/structures/cabin_village/path/cabin_village_path1.nbt"
+        ],
+        "bridge": [
+          "data/integrated_villages/structures/mossy_mounds/path/mossy_mounds_bridge.nbt",
+          "data/integrated_villages/structures/mossy_mounds/path/mossy_mounds_bridge_bottom.nbt",
+          "data/integrated_villages/worldgen/template_pool/mossy_mounds/path/bridge_bottom.json"
+        ],
+        "river_or_crossing": [
+          "data/integrated_villages/tags/worldgen/biome/collections/rivers.json"
+        ],
+        "dock_or_port": [
+          "data/integrated_villages/structures/pirate_village/docks/pirate_village_docks1.nbt",
+          "data/integrated_villages/structures/pirate_village/path/pirate_village_path_docks.nbt",
+          "data/integrated_villages/worldgen/processor_list/pirate_village_dock_processor.json",
+          "data/integrated_villages/worldgen/template_pool/pirate_village/docks/docks.json",
+          "data/integrated_villages/worldgen/template_pool/pirate_village/path/path_docks.json"
+        ],
+        "worldgen": [
+          "data/integrated_api/tags/worldgen/structure/larger_locate_search.json",
+          "data/integrated_villages/tags/worldgen/biome/collections/any_forests.json",
+          "data/integrated_villages/tags/worldgen/biome/collections/any_taiga.json",
+          "data/integrated_villages/tags/worldgen/biome/collections/badlands.json",
+          "data/integrated_villages/tags/worldgen/biome/collections/bamboos.json",
+          "data/integrated_villages/tags/worldgen/biome/collections/beaches.json",
+          "data/integrated_villages/tags/worldgen/biome/collections/birch_forests.json",
+          "data/integrated_villages/tags/worldgen/biome/collections/caves.json",
+          "data/integrated_villages/tags/worldgen/biome/collections/dark_oak_forests.json",
+          "data/integrated_villages/tags/worldgen/biome/collections/deep_oceans.json",
+          "data/integrated_villages/tags/worldgen/biome/collections/deserts.json",
+          "data/integrated_villages/tags/worldgen/biome/collections/end_island_land.json"
+        ]
+      }
+    },
+    "towns_and_towers": {
+      "path": "C:\\Users\\Jayden\\curseforge\\minecraft\\Instances\\Ascendant Realms (2)\\mods\\Towns-and-Towers-1.12-Fabric+Forge.jar",
+      "exists": true,
+      "is_zip": true,
+      "worldgen_files": 357,
+      "structure_json_files": 63,
+      "structure_set_json_files": 3,
+      "template_pool_json_files": 185,
+      "structure_nbt_files": 813,
+      "road_or_path_files": 238,
+      "bridge_files": 0,
+      "river_or_crossing_files": 0,
+      "dock_or_port_files": 0,
+      "biome_tag_files": [
+        "data/minecraft/tags/worldgen/biome/has_structure/desert_pyramid.json",
+        "data/minecraft/tags/worldgen/biome/has_structure/pillager_outpost.json",
+        "data/minecraft/tags/worldgen/biome/has_structure/village_desert.json",
+        "data/minecraft/tags/worldgen/biome/has_structure/village_plains.json",
+        "data/minecraft/tags/worldgen/biome/has_structure/village_savanna.json",
+        "data/minecraft/tags/worldgen/biome/has_structure/village_snowy.json",
+        "data/minecraft/tags/worldgen/biome/has_structure/village_taiga.json",
+        "data/towns_and_towers/tags/worldgen/biome/has_structure/exclusives/pillager_outpost_classic.json",
+        "data/towns_and_towers/tags/worldgen/biome/has_structure/exclusives/pillager_outpost_iberian.json",
+        "data/towns_and_towers/tags/worldgen/biome/has_structure/exclusives/pillager_outpost_mediterranean.json",
+        "data/towns_and_towers/tags/worldgen/biome/has_structure/exclusives/pillager_outpost_oriental.json",
+        "data/towns_and_towers/tags/worldgen/biome/has_structure/exclusives/pillager_outpost_rustic.json",
+        "data/towns_and_towers/tags/worldgen/biome/has_structure/exclusives/pillager_outpost_swedish.json",
+        "data/towns_and_towers/tags/worldgen/biome/has_structure/exclusives/pillager_outpost_tudor.json",
+        "data/towns_and_towers/tags/worldgen/biome/has_structure/exclusives/village_classic.json",
+        "data/towns_and_towers/tags/worldgen/biome/has_structure/exclusives/village_iberian.json",
+        "data/towns_and_towers/tags/worldgen/biome/has_structure/exclusives/village_mediterranean.json",
+        "data/towns_and_towers/tags/worldgen/biome/has_structure/exclusives/village_nilotic.json",
+        "data/towns_and_towers/tags/worldgen/biome/has_structure/exclusives/village_oriental.json",
+        "data/towns_and_towers/tags/worldgen/biome/has_structure/exclusives/village_piglin.json",
+        "data/towns_and_towers/tags/worldgen/biome/has_structure/exclusives/village_rustic.json",
+        "data/towns_and_towers/tags/worldgen/biome/has_structure/exclusives/village_swedish.json",
+        "data/towns_and_towers/tags/worldgen/biome/has_structure/exclusives/village_tudor.json",
+        "data/towns_and_towers/tags/worldgen/biome/has_structure/pillager_outpost_badlands.json",
+        "data/towns_and_towers/tags/worldgen/biome/has_structure/pillager_outpost_beach.json",
+        "data/towns_and_towers/tags/worldgen/biome/has_structure/pillager_outpost_birch_forest.json",
+        "data/towns_and_towers/tags/worldgen/biome/has_structure/pillager_outpost_deep_oceans.json",
+        "data/towns_and_towers/tags/worldgen/biome/has_structure/pillager_outpost_desert.json",
+        "data/towns_and_towers/tags/worldgen/biome/has_structure/pillager_outpost_flower_forest.json",
+        "data/towns_and_towers/tags/worldgen/biome/has_structure/pillager_outpost_forest.json"
+      ],
+      "examples": {
+        "road_or_path": [
+          "data/kaisyn/structures/village/badlands_pueblo/streets/crossroad_01.nbt",
+          "data/kaisyn/structures/village/badlands_pueblo/streets/crossroad_02.nbt",
+          "data/kaisyn/structures/village/badlands_pueblo/streets/crossroad_03.nbt",
+          "data/kaisyn/structures/village/badlands_pueblo/streets/straight_01.nbt",
+          "data/kaisyn/structures/village/birch_forest_romanian/streets/corner_01.nbt",
+          "data/kaisyn/structures/village/birch_forest_romanian/streets/corner_02.nbt",
+          "data/kaisyn/structures/village/birch_forest_romanian/streets/corner_03.nbt",
+          "data/kaisyn/structures/village/birch_forest_romanian/streets/crossroad_01.nbt",
+          "data/kaisyn/structures/village/birch_forest_romanian/streets/crossroad_02.nbt",
+          "data/kaisyn/structures/village/birch_forest_romanian/streets/crossroad_03.nbt",
+          "data/kaisyn/structures/village/birch_forest_romanian/streets/crossroad_04.nbt",
+          "data/kaisyn/structures/village/birch_forest_romanian/streets/crossroad_05.nbt"
+        ],
+        "bridge": [],
+        "river_or_crossing": [],
+        "dock_or_port": [],
+        "worldgen": [
+          "data/kaisyn/worldgen/processor_list/extend_down.json",
+          "data/kaisyn/worldgen/processor_list/flower_forest_japanese/flower_forest_planter.json",
+          "data/kaisyn/worldgen/processor_list/flower_forest_japanese/street_flower_forest.json",
+          "data/kaisyn/worldgen/processor_list/forest_ruins/forest_ruins.json",
+          "data/kaisyn/worldgen/processor_list/forest_ruins/street_forest.json",
+          "data/kaisyn/worldgen/processor_list/lighthouse_tower.json",
+          "data/kaisyn/worldgen/processor_list/street_classic.json",
+          "data/kaisyn/worldgen/processor_list/street_farm.json",
+          "data/kaisyn/worldgen/processor_list/street_hawaii.json",
+          "data/kaisyn/worldgen/processor_list/street_jungle.json",
+          "data/kaisyn/worldgen/processor_list/street_meadow.json",
+          "data/kaisyn/worldgen/processor_list/street_mediterranean.json"
+        ]
+      }
+    }
+  },
+  "validation": {
+    "active_road_bridge_generators_without_policy": [],
+    "bridge_sources_without_crossing_strategy": [
+      "yungsbridges:bridges",
+      "integrated_villages:mossy_mounds_bridge"
+    ],
+    "live_generation_changes_enabled": []
+  }
+}

@@ -1,0 +1,797 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-18T01:57:55+00:00",
+  "status": "disabled_review_only_not_loaded_by_minecraft",
+  "do_not_move_to_openloader_without_approval": true,
+  "candidate_scope": "structures that may need narrow Atlas region or biome-tag locks after visual review",
+  "candidates": [
+    {
+      "structure_id": "betterdungeons:skeleton_dungeon",
+      "structure_sets": [
+        "betterdungeons:skeleton_dungeons"
+      ],
+      "atlas_allowed_regions": [
+        "crownlands",
+        "frostmarch",
+        "frostmarch_if_snowy",
+        "hearthlands",
+        "north_east_marches",
+        "north_west_marches",
+        "south_east_wilds",
+        "south_west_wilds",
+        "stoneback_highlands",
+        "stoneback_if_taiga",
+        "sunreach",
+        "sunreach_if_savanna",
+        "verdant_coast"
+      ],
+      "biome_tag_or_selector": "#betterdungeons:has_structure/skeleton_dungeon",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "candidate_fix": "Review a narrow per-structure region/biome tag rule. Avoid broad structure-set locks unless every member is reviewed.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "betterdungeons:small_dungeon",
+      "structure_sets": [
+        "betterdungeons:small_dungeons"
+      ],
+      "atlas_allowed_regions": [
+        "crownlands",
+        "frostmarch",
+        "frostmarch_if_snowy",
+        "hearthlands",
+        "north_east_marches",
+        "north_west_marches",
+        "south_east_wilds",
+        "south_west_wilds",
+        "stoneback_highlands",
+        "stoneback_if_taiga",
+        "sunreach",
+        "sunreach_if_savanna",
+        "verdant_coast"
+      ],
+      "biome_tag_or_selector": "#betterdungeons:has_structure/small_dungeon",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "candidate_fix": "Review a narrow per-structure region/biome tag rule. Avoid broad structure-set locks unless every member is reviewed.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "betterdungeons:spider_dungeon",
+      "structure_sets": [
+        "betterdungeons:spider_dungeons"
+      ],
+      "atlas_allowed_regions": [
+        "crownlands",
+        "frostmarch",
+        "frostmarch_if_snowy",
+        "hearthlands",
+        "north_east_marches",
+        "north_west_marches",
+        "south_east_wilds",
+        "south_west_wilds",
+        "stoneback_highlands",
+        "stoneback_if_taiga",
+        "sunreach",
+        "sunreach_if_savanna",
+        "verdant_coast"
+      ],
+      "biome_tag_or_selector": "#betterdungeons:has_structure/spider_dungeon",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 96,
+      "candidate_fix": "Review a narrow per-structure region/biome tag rule. Avoid broad structure-set locks unless every member is reviewed.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "betterdungeons:zombie_dungeon",
+      "structure_sets": [
+        "betterdungeons:zombie_dungeons"
+      ],
+      "atlas_allowed_regions": [
+        "crownlands",
+        "frostmarch",
+        "frostmarch_if_snowy",
+        "hearthlands",
+        "north_east_marches",
+        "north_west_marches",
+        "south_east_wilds",
+        "south_west_wilds",
+        "stoneback_highlands",
+        "stoneback_if_taiga",
+        "sunreach",
+        "sunreach_if_savanna",
+        "verdant_coast"
+      ],
+      "biome_tag_or_selector": "#betterdungeons:has_structure/zombie_dungeon",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "candidate_fix": "Review a narrow per-structure region/biome tag rule. Avoid broad structure-set locks unless every member is reviewed.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "bettermineshafts:mineshaft_acacia",
+      "structure_sets": [
+        "bettermineshafts:mineshafts"
+      ],
+      "atlas_allowed_regions": [
+        "crownlands",
+        "hearthlands",
+        "north_west_marches",
+        "south_west_wilds",
+        "stoneback_highlands",
+        "sunreach",
+        "sunreach_if_savanna"
+      ],
+      "biome_tag_or_selector": "#bettermineshafts:has_structure/better_mineshaft_acacia",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 96,
+      "candidate_fix": "Review a narrow per-structure region/biome tag rule. Avoid broad structure-set locks unless every member is reviewed.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "bettermineshafts:mineshaft_overgrown",
+      "structure_sets": [
+        "bettermineshafts:mineshafts"
+      ],
+      "atlas_allowed_regions": [
+        "crownlands",
+        "frostmarch",
+        "frostmarch_if_snowy",
+        "hearthlands",
+        "north_east_marches",
+        "south_east_wilds",
+        "stoneback_if_taiga",
+        "verdant_coast"
+      ],
+      "biome_tag_or_selector": "#bettermineshafts:has_structure/better_mineshaft_overgrown",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 96,
+      "candidate_fix": "Review a narrow per-structure region/biome tag rule. Avoid broad structure-set locks unless every member is reviewed.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "bettermineshafts:mineshaft_spruce",
+      "structure_sets": [
+        "bettermineshafts:mineshafts"
+      ],
+      "atlas_allowed_regions": [
+        "crownlands",
+        "frostmarch_if_snowy",
+        "hearthlands",
+        "south_east_wilds",
+        "stoneback_if_taiga",
+        "verdant_coast"
+      ],
+      "biome_tag_or_selector": "#bettermineshafts:has_structure/better_mineshaft_spruce",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 96,
+      "candidate_fix": "Review a narrow per-structure region/biome tag rule. Avoid broad structure-set locks unless every member is reviewed.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "betterstrongholds:stronghold",
+      "structure_sets": [
+        "betterstrongholds:stronghold"
+      ],
+      "atlas_allowed_regions": [
+        "crownlands",
+        "frostmarch",
+        "frostmarch_if_snowy",
+        "hearthlands",
+        "north_east_marches",
+        "north_west_marches",
+        "south_east_wilds",
+        "south_west_wilds",
+        "stoneback_highlands",
+        "stoneback_if_taiga",
+        "sunreach",
+        "sunreach_if_savanna",
+        "verdant_coast"
+      ],
+      "biome_tag_or_selector": "#betterstrongholds:has_structure/better_stronghold",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "candidate_fix": "Review a narrow per-structure region/biome tag rule. Avoid broad structure-set locks unless every member is reviewed.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "create_structures_arise:create_ruined_castle",
+      "structure_sets": [
+        "create_structures_arise:create_ruined_castle"
+      ],
+      "atlas_allowed_regions": [
+        "crownlands",
+        "frostmarch",
+        "frostmarch_if_snowy",
+        "hearthlands",
+        "north_east_marches",
+        "south_east_wilds",
+        "south_west_wilds",
+        "stoneback_if_taiga",
+        "sunreach",
+        "sunreach_if_savanna",
+        "verdant_coast"
+      ],
+      "biome_tag_or_selector": "#structures_arise:landbiomes",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium"
+      ],
+      "confidence": 100,
+      "candidate_fix": "Review a narrow per-structure region/biome tag rule. Avoid broad structure-set locks unless every member is reviewed.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "create_structures_arise:crimsite_tower",
+      "structure_sets": [
+        "create_structures_arise:crimsite_tower"
+      ],
+      "atlas_allowed_regions": [
+        "crownlands",
+        "frostmarch",
+        "frostmarch_if_snowy",
+        "hearthlands",
+        "north_east_marches",
+        "south_east_wilds",
+        "south_west_wilds",
+        "stoneback_if_taiga",
+        "sunreach",
+        "sunreach_if_savanna",
+        "verdant_coast"
+      ],
+      "biome_tag_or_selector": "#structures_arise:landbiomes",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "candidate_fix": "Review a narrow per-structure region/biome tag rule. Avoid broad structure-set locks unless every member is reviewed.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "create_structures_arise:towerofochrum",
+      "structure_sets": [
+        "create_structures_arise:towerofochrum"
+      ],
+      "atlas_allowed_regions": [
+        "crownlands",
+        "frostmarch",
+        "frostmarch_if_snowy",
+        "hearthlands",
+        "north_east_marches",
+        "south_east_wilds",
+        "south_west_wilds",
+        "stoneback_if_taiga",
+        "sunreach",
+        "sunreach_if_savanna",
+        "verdant_coast"
+      ],
+      "biome_tag_or_selector": "#structures_arise:landbiomes",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "candidate_fix": "Review a narrow per-structure region/biome tag rule. Avoid broad structure-set locks unless every member is reviewed.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "iceandfire:fire_dragon_roost",
+      "structure_sets": [
+        "iceandfire:dragon_roost"
+      ],
+      "atlas_allowed_regions": [
+        "boss_theme_region",
+        "north_west_marches",
+        "outer",
+        "south_west_wilds",
+        "stoneback_highlands",
+        "sunreach"
+      ],
+      "biome_tag_or_selector": "#iceandfire:structure_gen/fire",
+      "evidence_source": [
+        "manual_live_observation:strong",
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "candidate_fix": "Review a narrow per-structure region/biome tag rule. Avoid broad structure-set locks unless every member is reviewed.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "iceandfire:ice_dragon_roost",
+      "structure_sets": [
+        "iceandfire:dragon_roost"
+      ],
+      "atlas_allowed_regions": [
+        "boss_theme_region",
+        "frostmarch",
+        "north_east_marches",
+        "outer",
+        "south_east_wilds",
+        "verdant_coast"
+      ],
+      "biome_tag_or_selector": "#iceandfire:structure_gen/ice",
+      "evidence_source": [
+        "manual_live_observation:strong",
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "candidate_fix": "Review a narrow per-structure region/biome tag rule. Avoid broad structure-set locks unless every member is reviewed.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "iceandfire:lightning_dragon_roost",
+      "structure_sets": [
+        "iceandfire:dragon_roost"
+      ],
+      "atlas_allowed_regions": [
+        "boss_theme_region",
+        "outer",
+        "south_east_wilds",
+        "south_west_wilds",
+        "sunreach",
+        "sunreach_if_savanna",
+        "verdant_coast"
+      ],
+      "biome_tag_or_selector": "#iceandfire:structure_gen/lightning",
+      "evidence_source": [
+        "manual_live_observation:strong",
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "candidate_fix": "Review a narrow per-structure region/biome tag rule. Avoid broad structure-set locks unless every member is reviewed.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "idas:abandoned_vineyard",
+      "structure_sets": [
+        "idas:idas_common"
+      ],
+      "atlas_allowed_regions": [
+        "crownlands",
+        "hearthlands",
+        "north_west_marches",
+        "south_west_wilds",
+        "stoneback_highlands",
+        "sunreach",
+        "sunreach_if_savanna"
+      ],
+      "biome_tag_or_selector": "#idas:has_structure/savannas",
+      "evidence_source": [
+        "manual_live_observation:strong",
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "candidate_fix": "Review a narrow per-structure region/biome tag rule. Avoid broad structure-set locks unless every member is reviewed.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "idas:ancient_portal/ancient_portal",
+      "structure_sets": [
+        "idas:idas_underground_rare"
+      ],
+      "atlas_allowed_regions": [
+        "crownlands",
+        "frostmarch",
+        "frostmarch_if_snowy",
+        "hearthlands",
+        "north_east_marches",
+        "north_west_marches",
+        "south_east_wilds",
+        "south_west_wilds",
+        "stoneback_highlands",
+        "stoneback_if_taiga",
+        "sunreach",
+        "sunreach_if_savanna",
+        "verdant_coast"
+      ],
+      "biome_tag_or_selector": "#idas:has_structure/ancient_portal_biomes",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "candidate_fix": "Review a narrow per-structure region/biome tag rule. Avoid broad structure-set locks unless every member is reviewed.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "idas:animal_den/forest_den",
+      "structure_sets": [
+        "idas:idas_small"
+      ],
+      "atlas_allowed_regions": [
+        "crownlands",
+        "frostmarch",
+        "frostmarch_if_snowy",
+        "hearthlands",
+        "north_east_marches",
+        "south_east_wilds",
+        "stoneback_if_taiga",
+        "verdant_coast"
+      ],
+      "biome_tag_or_selector": "#idas:has_structure/forest_biomes",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "candidate_fix": "Review a narrow per-structure region/biome tag rule. Avoid broad structure-set locks unless every member is reviewed.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "idas:nexus",
+      "structure_sets": [
+        "idas:idas_underground_rare"
+      ],
+      "atlas_allowed_regions": [
+        "crownlands",
+        "frostmarch",
+        "frostmarch_if_snowy",
+        "hearthlands",
+        "north_east_marches",
+        "north_west_marches",
+        "south_east_wilds",
+        "south_west_wilds",
+        "stoneback_highlands",
+        "stoneback_if_taiga",
+        "sunreach",
+        "sunreach_if_savanna",
+        "verdant_coast"
+      ],
+      "biome_tag_or_selector": "#idas:has_structure/ancient_portal_biomes",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "candidate_fix": "Review a narrow per-structure region/biome tag rule. Avoid broad structure-set locks unless every member is reviewed.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "idas:windswept_shrine",
+      "structure_sets": [
+        "idas:idas_rare"
+      ],
+      "atlas_allowed_regions": [
+        "crownlands",
+        "hearthlands",
+        "south_east_wilds",
+        "south_west_wilds",
+        "sunreach",
+        "sunreach_if_savanna",
+        "verdant_coast"
+      ],
+      "biome_tag_or_selector": "#idas:has_structure/windswept_shrine_biomes",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "candidate_fix": "Review a narrow per-structure region/biome tag rule. Avoid broad structure-set locks unless every member is reviewed.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "irons_spellbooks:pyromancer_tower",
+      "structure_sets": [],
+      "atlas_allowed_regions": [
+        "crownlands",
+        "frostmarch",
+        "frostmarch_if_snowy",
+        "hearthlands",
+        "north_east_marches",
+        "south_east_wilds",
+        "stoneback_if_taiga",
+        "verdant_coast"
+      ],
+      "biome_tag_or_selector": "#irons_spellbooks:has_structure/pyromancer_tower",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "candidate_fix": "Review a narrow per-structure region/biome tag rule. Avoid broad structure-set locks unless every member is reviewed.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "minecraft:mineshaft",
+      "structure_sets": [
+        "minecraft:mineshafts"
+      ],
+      "atlas_allowed_regions": [
+        "coastal_only",
+        "crownlands",
+        "frostmarch",
+        "frostmarch_if_frozen",
+        "frostmarch_if_snowy",
+        "hearthlands",
+        "north_east_marches",
+        "north_west_marches",
+        "south_east_wilds",
+        "south_west_wilds",
+        "stoneback_highlands",
+        "stoneback_if_taiga",
+        "sunreach",
+        "verdant_coast"
+      ],
+      "biome_tag_or_selector": null,
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 60,
+      "candidate_fix": "Review a narrow per-structure region/biome tag rule. Avoid broad structure-set locks unless every member is reviewed.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "mvs:mineshaft",
+      "structure_sets": [
+        "mvs:mineshaft"
+      ],
+      "atlas_allowed_regions": [
+        "crownlands",
+        "frostmarch",
+        "frostmarch_if_snowy",
+        "hearthlands",
+        "north_east_marches",
+        "south_east_wilds",
+        "stoneback_if_taiga",
+        "verdant_coast"
+      ],
+      "biome_tag_or_selector": "#mvs:is_taiga",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "candidate_fix": "Review a narrow per-structure region/biome tag rule. Avoid broad structure-set locks unless every member is reviewed.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "mvs:red_tower",
+      "structure_sets": [
+        "mvs:red_tower"
+      ],
+      "atlas_allowed_regions": [
+        "crownlands",
+        "frostmarch",
+        "frostmarch_if_snowy",
+        "hearthlands",
+        "north_east_marches",
+        "south_east_wilds",
+        "stoneback_if_taiga",
+        "verdant_coast"
+      ],
+      "biome_tag_or_selector": "#mvs:is_taiga",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "candidate_fix": "Review a narrow per-structure region/biome tag rule. Avoid broad structure-set locks unless every member is reviewed.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "mvs:small_pillager_tower",
+      "structure_sets": [
+        "mvs:small_pillager_tower"
+      ],
+      "atlas_allowed_regions": [
+        "crownlands",
+        "frostmarch",
+        "frostmarch_if_snowy",
+        "hearthlands",
+        "north_east_marches",
+        "south_east_wilds",
+        "stoneback_if_taiga",
+        "verdant_coast"
+      ],
+      "biome_tag_or_selector": "#mvs:is_taiga",
+      "evidence_source": [
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "candidate_fix": "Review a narrow per-structure region/biome tag rule. Avoid broad structure-set locks unless every member is reviewed.",
+      "live_enabled": false
+    }
+  ]
+}

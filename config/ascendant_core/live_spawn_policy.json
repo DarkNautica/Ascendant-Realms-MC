@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "status": "active region-based strong modded wilderness spawn pass",
+  "source_file": "config/incontrol/spawn.json",
+  "research_basis": [
+    "In Control spawn.json can restrict existing spawns through rule conditions and deny results.",
+    "In Control spawner.json is the separate system for adding new spawns and should not be used until entity/biome targets are reviewed.",
+    "The latest player direction is that normal exploration should almost always have multiple visible mobs in sight, so the old settlement-safety caps are too conservative.",
+    "Jayden clarified that difficulty multipliers are fine, but they should be regional instead of time-based.",
+    "This pass raises cap ceilings, keeps global time/CRD scaling disabled, and adds Atlas region/ring pressure while keeping boss/dragon-tier namespaces from becoming routine starter-region spawns."
+  ],
+  "policy": "Preserve installed mob content, remove time/CRD difficulty ramping, and make baseline wilderness danger high immediately. Extra difficulty should come from Atlas region/ring identity through the regional difficulty bridge. Open-sky daytime pressure should be daylight-safe and modded-first, while burning undead remain natural night/cave content rather than forced daylight filler.",
+  "active_hostile_injection": {
+    "file": "config/incontrol/spawner.json",
+    "status": "active modded daytime and cave hostile injection",
+    "purpose": "Replace the previous daylight zombie/skeleton fallback with explicit daylight-safe modded enemy pools. Caves still use biome-native monsters because sunlight burn is not a problem underground.",
+    "scope": [
+      "Surface land modded hostile pressure during day and night.",
+      "Hot/arid modded hostile fallback groups.",
+      "Cold/highland modded hostile fallback groups.",
+      "Forest/jungle/swamp modded hostile fallback groups.",
+      "Mage/raider modded hostile pressure groups.",
+      "Cave biome-native hostile reinforcement."
+    ],
+    "safety": [
+      "No open-sky forced zombies, skeletons, strays, or husks.",
+      "No routine dragon injection.",
+      "No routine major boss injection.",
+      "Surface rules avoid village structure tags.",
+      "Rules use maxhostile, maxlocal, and maxthis caps."
+    ]
+  },
+  "active_caps": {
+    "alexsmobs": 150,
+    "mowziesmobs": 32,
+    "born_in_chaos_v1": 72,
+    "aquamirae": 28,
+    "bossesrise": 10,
+    "iceandfire": 14,
+    "cataclysm": 14,
+    "block_factorys_bosses": 10,
+    "soulsweapons": 18,
+    "irons_spellbooks": 48,
+    "majruszsdifficulty": 26
+  },
+  "active_pressure_values": {
+    "spawn_balance_utility": {
+      "min_spawn_weight": 20,
+      "max_spawn_weight": 180,
+      "vanilla_default_weight_overrides": {
+        "minecraft:enderman": 18,
+        "minecraft:witch": 28,
+        "minecraft:spider": 75,
+        "minecraft:creeper": 70,
+        "minecraft:zombie": 28,
+        "minecraft:skeleton": 28
+      },
+      "modded_default_weight_overrides": {
+        "born_in_chaos_v1:dread_hound": 55,
+        "born_in_chaos_v1:mother_spider": 45,
+        "born_in_chaos_v1:lifestealer": 35,
+        "born_in_chaos_v1:scarlet_persecutor": 32,
+        "irons_spellbooks:cultist": 40,
+        "irons_spellbooks:magehunter_vindicator": 28,
+        "alexsmobs:tiger": 30,
+        "alexsmobs:grizzly_bear": 28,
+        "alexsmobs:rattlesnake": 40,
+        "mowziesmobs:naga": 22,
+        "mowziesmobs:foliaath": 28
+      }
+    },
+    "majrusz_spawn_rate_multiplier": {
+      "__default": 2.1,
+      "expert": 2.1,
+      "master": 2.1
+    },
+    "majrusz_mob_groups": {
+      "skeletons": {
+        "chance": 0.35,
+        "sidekicks": [
+          2,
+          4
+        ]
+      },
+      "undead": {
+        "chance": 0.32,
+        "sidekicks": [
+          3,
+          5
+        ]
+      },
+      "zombie_miners": {
+        "chance": 0.4,
+        "sidekicks": [
+          2,
+          4
+        ]
+      },
+      "piglins": {
+        "chance": 0.35,
+        "sidekicks": [
+          2,
+          4
+        ]
+      }
+    },
+    "majrusz_time_or_crd_scaling": "disabled; all CRD scaling flags false and CRD penalties zeroed",
+    "regional_difficulty_multiplier": {
+      "file": "config/ascendant_core/regional_difficulty_policy.json",
+      "script": "kubejs/server_scripts/ascendant_regional_difficulty.js",
+      "status": "active",
+      "source": "Atlas region/ring scoreboards",
+      "hearthlands": 1.0,
+      "frostmarch": 1.18,
+      "sunreach": 1.2,
+      "verdant_coast": 1.16,
+      "stoneback_highlands": 1.2,
+      "north_east_marches": 1.28,
+      "north_west_marches": 1.3,
+      "south_east_wilds": 1.3,
+      "south_west_wilds": 1.34,
+      "outer_rim": 1.45
+    }
+  },
+  "active_area_safety": {
+    "hearthlands_boss_dragon_denies": "Still active for Aquamirae, Bosses'Rise, Cataclysm, Block Factory bosses, IceAndFire, and Soulsweapons.",
+    "hearthlands_mowzies_deny_random": 0.4,
+    "hearthlands_born_in_chaos_deny_random": 0.25,
+    "sunreach_aquamirae": "Still denied; Aquamirae remains water/coastal/frozen-ocean identity, not desert filler.",
+    "stoneback_aquamirae_deny_random": 0.5,
+    "frostmarch_iceandfire_deny_random": 0.45
+  },
+  "deferred": {
+    "structure_tag_deny_rules": "Deferred until verified in a copied world because bad structure-tag conditions can silently break intended spawns.",
+    "custom_spawner_rules": "No longer fully deferred. Common hostile daytime/cave injection is active in config/incontrol/spawner.json; modded boss/elite injections remain deferred.",
+    "alexsmobs_individual_weight_boost": "Deferred unless the world still feels empty during daytime/wildlife checks; blanket boosting every individual Alex's Mobs entry is harder to reason about.",
+    "rank_aware_dynamic_spawns": "Still deferred. Current pass is flat strong baseline plus Atlas region/ring difficulty pressure, not rank/time scaling."
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "source_registry": "config/ascendant_index/mob_registry.json",
+  "runtime_state": "contract_active",
+  "scoreboard": "ar_threat_tier",
+  "policy": "Use this as the authoritative mob-role map for In Control, Scaling Health, YDM MobHealthBar, Bountiful, skill hooks, and future Ascendant Nameplates. Do not remove mobs to fix balance; reassign role, region, spawn condition, or reward tier first.",
+  "groups": [
+    {
+      "id": "ambient_wildlife",
+      "threat_tier": 0,
+      "namespaces": ["minecraft", "alexsmobs"],
+      "spawn_identity": "biome life and food/ecology texture",
+      "healthbar_policy": "hidden unless directly targeted by debug tools",
+      "bounty_policy": "none except specific nuisance contracts",
+      "skill_hooks": ["survivalist", "ranger"],
+      "runtime_owner": "mod configs and vanilla biome rules"
+    },
+    {
+      "id": "common_hostile",
+      "threat_tier": 1,
+      "namespaces": ["minecraft", "improvedmobs"],
+      "spawn_identity": "baseline night/cave pressure",
+      "healthbar_policy": "targeted or recently damaged only",
+      "bounty_policy": "village_hunter_board",
+      "skill_hooks": ["warrior", "ranger", "survivalist"],
+      "runtime_owner": "vanilla, Improved Mobs, Scaling Health conservative config"
+    },
+    {
+      "id": "village_pressure",
+      "threat_tier": 2,
+      "namespaces": ["born_in_chaos_v1", "guardvillagers", "minecraft"],
+      "spawn_identity": "night raids, settlement outskirts, blood moon pressure",
+      "healthbar_policy": "targeted, damaged, or aggressive",
+      "bounty_policy": "village_hunter_board",
+      "skill_hooks": ["warrior", "ranger", "survivalist"],
+      "runtime_owner": "In Control rules planned; Guard Villagers handles defense"
+    },
+    {
+      "id": "regional_monsters",
+      "threat_tier": 3,
+      "namespaces": ["aquamirae", "mowziesmobs", "alexsmobs", "born_in_chaos_v1"],
+      "spawn_identity": "biome-specific danger that makes regions distinct",
+      "healthbar_policy": "longer visibility after combat; passive variants excluded",
+      "bounty_policy": "town_guild_board",
+      "skill_hooks": ["ranger", "warrior", "arcanist", "survivalist"],
+      "runtime_owner": "mod biome configs and future In Control regional overrides"
+    },
+    {
+      "id": "elite_hunts",
+      "threat_tier": 4,
+      "namespaces": ["mowziesmobs", "aquamirae", "born_in_chaos_v1", "bosses_of_mass_destruction", "soulsweapons"],
+      "spawn_identity": "rare threats, minibosses, high-value contracts",
+      "healthbar_policy": "visible when targeted, damaged, or aggressive; nameplate should show tier later",
+      "bounty_policy": "major_guild_registry",
+      "skill_hooks": ["warrior", "ranger", "arcanist", "dragonbound"],
+      "runtime_owner": "Bountiful pools active; spawn review pending"
+    },
+    {
+      "id": "bosses",
+      "threat_tier": 5,
+      "namespaces": ["cataclysm", "soulsweapons", "bossesrise", "irons_spellbooks"],
+      "spawn_identity": "major structure or ritual threats",
+      "healthbar_policy": "Enhanced Boss Bars owns true boss presentation",
+      "bounty_policy": "major_guild_registry",
+      "skill_hooks": ["warrior", "arcanist", "dragonbound"],
+      "runtime_owner": "mod structures plus generated bounty/skill hook registries"
+    },
+    {
+      "id": "dragon_tier",
+      "threat_tier": 6,
+      "namespaces": ["iceandfire", "cataclysm", "soulsweapons"],
+      "spawn_identity": "late-game world-defining threats",
+      "healthbar_policy": "boss/elite presentation; never treated as routine hostile",
+      "bounty_policy": "major_guild_registry",
+      "skill_hooks": ["dragonbound", "warrior", "arcanist", "ranger"],
+      "runtime_owner": "IceAndFire configs and future Ascendant Encounter Director if distance/rank gating is needed"
+    }
+  ],
+  "next_live_rules": [
+    "Generate In Control rules from this group map after verifying exact entity IDs and biome/dimension targets.",
+    "Use mob_registry spawn_review flags to decide which generated mobs need explicit spawn rules.",
+    "Use this same group map for future enemy nameplates so passive mobs stay quiet and elite threats stay readable."
+  ]
+}

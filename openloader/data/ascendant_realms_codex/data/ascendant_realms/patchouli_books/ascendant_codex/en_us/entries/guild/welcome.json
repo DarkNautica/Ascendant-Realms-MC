@@ -1,0 +1,11 @@
+{
+  "name": "Welcome",
+  "icon": "minecraft:compass",
+  "category": "ascendant_realms:guild",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ascendant Realms is not an empty wilderness. Villages need hunters, Guilds track rank, and the roads are full of contracts. Your name matters when people know what you survived."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+# Ascendant Realms Loot Beams tuning.
+# Keep rare dropped loot readable with one combined look-at-item tooltip.
+
+["Loot Beams"]
+	# Use rarity color instead of the item display-name color so Epic items render purple.
+	render_name_color = false
+	render_rarity_color = true
+	beam_radius = 1.0
+	beam_height = 1.0
+	beam_y_offset = 0.0
+	beam_alpha = 0.85
+	# Loot Beams caps this at 24 because item entities stop rendering past that distance.
+	render_distance = 24.0
+	color_overrides = []
+
+	["Loot Beams".Items]
+		# Do not render beams on every dropped item.
+		all_items = false
+		# Closest native Loot Beams filter to "Epic and up"; if lower-rarity items still render,
+		# add exact item IDs to blacklist after the next creative test.
+		only_rare = true
+		only_equipment = false
+		whitelist = []
+		blacklist = []
+
+	["Loot Beams".Nametags]
+		advanced_tooltips = true
+		worldspace_tooltips = true
+		borders = true
+		# Keep the dropped-item tooltip, but show it as one combined box when looking at the item.
+		render_nametags = true
+		render_nametags_onlook = true
+		render_stackcount = true
+		nametag_look_sensitivity = 0.018
+		nametag_text_alpha = 1.0
+		nametag_background_alpha = 0.5
+		nametag_scale = 0.9
+		nametag_y_offset = 0.35
+		dmcloot_compat_rarity = false
+		custom_rarities = []
+		white_rarities = false
+		vanilla_rarities = true
+		screen_tooltips_require_crouch = true
+		combine_name_and_rarity = true

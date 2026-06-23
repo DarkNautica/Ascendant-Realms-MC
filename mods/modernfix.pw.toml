@@ -1,0 +1,13 @@
+name = "ModernFix"
+filename = "modernfix-forge-5.27.50+mc1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/nmDcB62a/versions/8BoXX9rl/modernfix-forge-5.27.50%2Bmc1.20.1.jar"
+hash-format = "sha512"
+hash = "659cc3b7bffcddfde9abf35e8510ed192939850893b910a26267126f6d9896106bae6dbd58fa4a6e4d4c7d31747b8998ae5f03f27de425b7b7c11ef5e5789b27"
+
+[update]
+[update.modrinth]
+mod-id = "nmDcB62a"
+version = "8BoXX9rl"

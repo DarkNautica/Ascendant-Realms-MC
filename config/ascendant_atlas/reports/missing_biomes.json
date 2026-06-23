@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T10:55:51Z",
+  "source": "offline_dimension_override_plus_worldgen_audit",
+  "configured_unique_biome_count": 107,
+  "audit_biome_count": 802,
+  "missing_count": 0,
+  "missing_biomes": [],
+  "missing_by_pool": {}
+}

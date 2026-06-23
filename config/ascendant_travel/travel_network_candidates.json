@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T02:37:09+00:00",
+  "status": "disabled_review_only_no_live_generation_changes",
+  "candidates": [
+    {
+      "candidate_id": "field_sample_road_water_crossings",
+      "type": "manual_validation",
+      "enabled": false,
+      "description": "Record coordinates where village or structure paths cross rivers, ravines, cliffs, or ocean-leak basins.",
+      "depends_on": [
+        "Atlas land/water coherence signoff"
+      ]
+    },
+    {
+      "candidate_id": "ascendant_route_bridge_helper",
+      "type": "future_helper_module",
+      "enabled": false,
+      "description": "Terrain-aware route helper that detects road/water/cliff crossings after generation and substitutes bridge/support pieces.",
+      "depends_on": [
+        "terrain validation",
+        "settlement policy",
+        "bridge palette decisions"
+      ]
+    },
+    {
+      "candidate_id": "region_road_material_palettes",
+      "type": "future_structure_palette",
+      "enabled": false,
+      "description": "Define Crownlands, Frostmarch, Sunreach, Verdant, and Stoneback road material palettes before authoring roads.",
+      "depends_on": [
+        "manual visual pass"
+      ]
+    },
+    {
+      "candidate_id": "towns_and_towers_bridge_gap_review",
+      "type": "manual_review",
+      "enabled": false,
+      "description": "Inspect Towns and Towers village streets for bridge gaps, cliff cuts, and island settlements in fresh terrain.",
+      "depends_on": [
+        "village injection remains untouched"
+      ]
+    },
+    {
+      "candidate_id": "yungs_bridges_route_linkage_review",
+      "type": "manual_review",
+      "enabled": false,
+      "description": "Field-check YUNG's Bridges as scenic landmarks and decide whether any should become route anchors later.",
+      "depends_on": [
+        "fresh-world bridge coordinates"
+      ]
+    }
+  ],
+  "explicitly_not_enabled": [
+    "new road generation",
+    "new bridge generation",
+    "village pool injection",
+    "road density changes",
+    "structure set rewrites"
+  ],
+  "validation": {
+    "candidate_rewrites_enabled": [],
+    "live_generation_changes_enabled": []
+  }
+}

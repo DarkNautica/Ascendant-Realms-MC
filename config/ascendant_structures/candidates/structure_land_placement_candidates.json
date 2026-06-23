@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-18T01:57:55+00:00",
+  "status": "disabled_review_only_not_loaded_by_minecraft",
+  "do_not_move_to_openloader_without_approval": true,
+  "candidate_scope": "land structures with manual water-island evidence or low-confidence land placement evidence",
+  "candidates": [
+    {
+      "structure_id": "iceandfire:fire_dragon_roost",
+      "structure_sets": [
+        "iceandfire:dragon_roost"
+      ],
+      "current_water_role": "none",
+      "current_required_terrain": "native_surface",
+      "evidence_source": [
+        "manual_live_observation:strong",
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "reported_or_detected_issue": [
+        "manual_water_island_placement_issue"
+      ],
+      "candidate_fix": "Review biome/tag or region-lock options that keep this land structure off ocean-scale water basins without changing all structures in its source mod.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "iceandfire:ice_dragon_roost",
+      "structure_sets": [
+        "iceandfire:dragon_roost"
+      ],
+      "current_water_role": "none",
+      "current_required_terrain": "native_surface",
+      "evidence_source": [
+        "manual_live_observation:strong",
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "reported_or_detected_issue": [
+        "manual_water_island_placement_issue"
+      ],
+      "candidate_fix": "Review biome/tag or region-lock options that keep this land structure off ocean-scale water basins without changing all structures in its source mod.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "iceandfire:lightning_dragon_roost",
+      "structure_sets": [
+        "iceandfire:dragon_roost"
+      ],
+      "current_water_role": "none",
+      "current_required_terrain": "native_surface",
+      "evidence_source": [
+        "manual_live_observation:strong",
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "reported_or_detected_issue": [
+        "manual_water_island_placement_issue"
+      ],
+      "candidate_fix": "Review biome/tag or region-lock options that keep this land structure off ocean-scale water basins without changing all structures in its source mod.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "idas:abandoned_vineyard",
+      "structure_sets": [
+        "idas:idas_common"
+      ],
+      "current_water_role": "none",
+      "current_required_terrain": "native_surface",
+      "evidence_source": [
+        "manual_live_observation:strong",
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "reported_or_detected_issue": [
+        "manual_water_island_placement_issue"
+      ],
+      "candidate_fix": "Review biome/tag or region-lock options that keep this land structure off ocean-scale water basins without changing all structures in its source mod.",
+      "live_enabled": false
+    },
+    {
+      "structure_id": "idas:haunted_manor",
+      "structure_sets": [
+        "idas:idas_common"
+      ],
+      "current_water_role": "none",
+      "current_required_terrain": "native_surface",
+      "evidence_source": [
+        "manual_live_observation:strong",
+        "biome_tag_or_selector:strong",
+        "structure_set_rules:strong",
+        "structure_json:strong",
+        "template_pool_or_nbt:strong",
+        "block_palette:strong",
+        "structure_registry_class:medium",
+        "registry_integration_hooks:medium",
+        "loot_policy_linkage:medium",
+        "worldgen_structure_type_or_step:medium",
+        "name_path_mod_label_hints:weak"
+      ],
+      "confidence": 100,
+      "reported_or_detected_issue": [
+        "manual_followup_required"
+      ],
+      "candidate_fix": "Review biome/tag or region-lock options that keep this land structure off ocean-scale water basins without changing all structures in its source mod.",
+      "live_enabled": false
+    }
+  ]
+}

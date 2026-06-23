@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "enabled": true,
+  "status": "active finite-world coordinate runtime",
+  "world_center": {
+    "x": 0,
+    "z": 0
+  },
+  "world_radius_blocks": 30000,
+  "worldborder": {
+    "enabled": true,
+    "diameter_blocks": 60000,
+    "warning_distance": 120,
+    "warning_time": 20
+  },
+  "sync_interval_ticks": 20,
+  "announce_region_changes": true,
+  "scoreboards": {
+    "region": "ar_atlas_region",
+    "ring": "ar_atlas_ring",
+    "sector": "ar_atlas_sector",
+    "distance": "ar_atlas_distance",
+    "x": "ar_atlas_x",
+    "z": "ar_atlas_z"
+  },
+  "region_ids": {
+    "hearthlands": 0,
+    "frostmarch": 1,
+    "sunreach": 2,
+    "verdant_coast": 3,
+    "stoneback_highlands": 4,
+    "north_east_marches": 5,
+    "north_west_marches": 6,
+    "south_east_wilds": 7,
+    "south_west_wilds": 8,
+    "outer_rim": 9,
+    "nether_front": 10,
+    "end_expanse": 11
+  },
+  "sector_ids": {
+    "center": 0,
+    "north": 1,
+    "south": 2,
+    "east": 3,
+    "west": 4,
+    "north_east": 5,
+    "north_west": 6,
+    "south_east": 7,
+    "south_west": 8,
+    "outer": 9,
+    "nether": 10,
+    "end": 11
+  },
+  "rings": [
+    {
+      "id": 0,
+      "name": "Hearthlands",
+      "min_distance": 0,
+      "max_distance": 1500,
+      "rank_band": "Unranked to E-Rank",
+      "loot_ceiling": "uncommon"
+    },
+    {
+      "id": 1,
+      "name": "Inner Wilds",
+      "min_distance": 1501,
+      "max_distance": 3500,
+      "rank_band": "E-Rank to D-Rank",
+      "loot_ceiling": "rare"
+    },
+    {
+      "id": 2,
+      "name": "Outer Marches",
+      "min_distance": 3501,
+      "max_distance": 6500,
+      "rank_band": "D-Rank to C-Rank",
+      "loot_ceiling": "epic"
+    },
+    {
+      "id": 3,
+      "name": "Ancient Frontiers",
+      "min_distance": 6501,
+      "max_distance": 10000,
+      "rank_band": "C-Rank to B-Rank",
+      "loot_ceiling": "legendary"
+    },
+    {
+      "id": 4,
+      "name": "Dragon Scars",
+      "min_distance": 10001,
+      "max_distance": 14000,
+      "rank_band": "B-Rank to A-Rank",
+      "loot_ceiling": "mythic"
+    },
+    {
+      "id": 5,
+      "name": "Corrupted Rim",
+      "min_distance": 14001,
+      "max_distance": 30000,
+      "rank_band": "A-Rank to S-Rank",
+      "loot_ceiling": "ascendant"
+    }
+  ],
+  "regions": [
+    {
+      "id": "hearthlands",
+      "display": "Hearthlands",
+      "sector": "center",
+      "color": "green",
+      "rule": "distance <= 650",
+      "design": "starter villages, safe roads, low-tier contracts, readable night danger"
+    },
+    {
+      "id": "frostmarch",
+      "display": "Frostmarch",
+      "sector": "north",
+      "color": "aqua",
+      "rule": "negative Z dominates outside Hearthlands",
+      "design": "snow, cold water, Aquamirae and ice survival pressure"
+    },
+    {
+      "id": "sunreach",
+      "display": "Sunreach",
+      "sector": "south",
+      "color": "gold",
+      "rule": "positive Z dominates outside Hearthlands",
+      "design": "desert, savanna, badlands, heat, raiders, fire/sun loot identity"
+    },
+    {
+      "id": "verdant_coast",
+      "display": "Verdant Coast",
+      "sector": "east",
+      "color": "dark_aqua",
+      "rule": "positive X dominates outside Hearthlands",
+      "design": "coasts, rivers, jungle/swamp routes, bridges and poison/water threats"
+    },
+    {
+      "id": "stoneback_highlands",
+      "display": "Stoneback Highlands",
+      "sector": "west",
+      "color": "gray",
+      "rule": "negative X dominates outside Hearthlands",
+      "design": "mountains, mines, cliffs, bridge logic, steel and gem identity"
+    }
+  ],
+  "implementation_notes": [
+    "KubeJS mirrors coordinates into scoreboards and applies the finite world border.",
+    "In Control areas use these coordinate boxes for immediate spawn guardrails.",
+    "The playable validation envelope is 30000 blocks from origin; the helper biome-source world_radius_blocks field remains 3000 because it controls north/south climate-gradient saturation, not the world border.",
+    "The helper biome-source outer_radius_blocks field is 50000 so generated terrain visible beyond the 30000-block square world border, including corners, keeps directional Atlas identity instead of snapping to the shared outer pool.",
+    "Old worlds and already-generated chunks are not valid evidence for terrain changes; use a fresh world or ungenerated chunks for Atlas validation."
+  ]
+}

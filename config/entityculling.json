@@ -1,0 +1,40 @@
+{
+  "configVersion": 7,
+  "renderNametagsThroughWalls": false,
+  "blockEntityWhitelist": [
+    "minecraft:beacon",
+    "create:rope_pulley",
+    "create:hose_pulley"
+  ],
+  "entityWhitelist": [
+    "minecraft:item_display",
+    "minecraft:block_display",
+    "minecraft:text_display",
+    "create:contraption",
+    "create:stationary_contraption",
+    "create:gantry_contraption",
+    "create:carriage_contraption"
+  ],
+  "tracingDistance": 96,
+  "debugMode": false,
+  "sleepDelay": 10,
+  "hitboxLimit": 50,
+  "captureRate": 5,
+  "tickCulling": true,
+  "tickCullingWhitelist": [
+    "minecraft:item_display",
+    "minecraft:block_display",
+    "minecraft:text_display",
+    "minecraft:firework_rocket",
+    "create:contraption",
+    "create:stationary_contraption",
+    "create:gantry_contraption",
+    "create:carriage_contraption"
+  ],
+  "disableF3": false,
+  "skipEntityCulling": false,
+  "skipBlockEntityCulling": false,
+  "blockEntityFrustumCulling": true,
+  "forceDisplayCulling": false,
+  "solidLeaves": false
+}

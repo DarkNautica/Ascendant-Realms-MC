@@ -1,0 +1,177 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T05:01:19Z",
+  "status": "audit_control_scaffold_only_no_visual_rewrite",
+  "canonical_source": "config/ascendant_index/gear_registry.json",
+  "canonical_palette": [
+    {
+      "id": "common",
+      "label": "Common",
+      "color": "#9CA3AF"
+    },
+    {
+      "id": "uncommon",
+      "label": "Uncommon",
+      "color": "#55FF55"
+    },
+    {
+      "id": "rare",
+      "label": "Rare",
+      "color": "#55AAFF"
+    },
+    {
+      "id": "epic",
+      "label": "Epic",
+      "color": "#D966FF"
+    },
+    {
+      "id": "legendary",
+      "label": "Legendary",
+      "color": "#FFE66D"
+    },
+    {
+      "id": "mythic",
+      "label": "Mythic",
+      "color": "#FF3B00"
+    },
+    {
+      "id": "ascendant",
+      "label": "Ascendant",
+      "color": "#E6FBFF"
+    }
+  ],
+  "important_note": "Item Borders must follow the assigned registry rarity color, not item display-name color.",
+  "rank_palette_note": {
+    "source": "config/ascendant_guild/nameplates.json",
+    "relationship": "Guild rank colors share the same visual family but are a separate semantic surface from item rarity.",
+    "palette": {
+      "unranked": {
+        "label": "Unranked",
+        "color": "#9CA3AF",
+        "frame": "thin_gray"
+      },
+      "e_rank": {
+        "label": "E-Rank",
+        "color": "#2E8B57",
+        "frame": "green_worn"
+      },
+      "d_rank": {
+        "label": "D-Rank",
+        "color": "#55FF55",
+        "frame": "green_clean"
+      },
+      "c_rank": {
+        "label": "C-Rank",
+        "color": "#55AAFF",
+        "frame": "blue_steel"
+      },
+      "b_rank": {
+        "label": "B-Rank",
+        "color": "#3366FF",
+        "frame": "blue_gold"
+      },
+      "a_rank": {
+        "label": "A-Rank",
+        "color": "#FFE66D",
+        "frame": "gold_engraved"
+      },
+      "s_rank": {
+        "label": "S-Rank",
+        "color": "#D966FF",
+        "frame": "violet_mythic"
+      },
+      "guild_staff": {
+        "label": "Guild",
+        "color": "#E6FBFF",
+        "frame": "guild_silver"
+      }
+    }
+  },
+  "item_borders": {
+    "path": "config/itemborders-common.toml",
+    "present": true,
+    "auto_borders": false,
+    "legendary_tooltips_sync": false,
+    "show_for_common": false,
+    "manual_border_counts_by_color": {
+      "#55AAFF": 511,
+      "#55FF55": 439,
+      "#9CA3AF": 9,
+      "#D966FF": 206,
+      "#E6FBFF": 5,
+      "#FF3B00": 88,
+      "#FFE66D": 202
+    },
+    "tangible_item_count": 1460,
+    "rarity_counts": {
+      "ascendant": 5,
+      "common": 9,
+      "epic": 206,
+      "legendary": 202,
+      "mythic": 88,
+      "rare": 511,
+      "uncommon": 439
+    }
+  },
+  "legendary_tooltips": {
+    "mod_present": true,
+    "policy": "Frame and tooltip background styling only; do not let it overwrite Item Borders rarity colors."
+  },
+  "loot_beams": {
+    "mod_present": true,
+    "policy": "Dropped loot beams should use rarity color and avoid item-name color.",
+    "known_boundary": "Loot Beams only has native rarity filters; exact Ascendant rarity mapping remains visual-policy guidance until a live hook exists."
+  },
+  "validation": {
+    "rarity_ids_missing_item_border_for_tangible_items": [],
+    "item_border_color_mismatches": [],
+    "rarity_palette_missing_item_border_colors": [],
+    "duplicate_item_border_entries": [],
+    "legendary_tooltips_conflict_risks": [],
+    "loot_beam_color_policy_conflicts": [],
+    "legacy_policy_color_drift": [
+      {
+        "file": "config/ascendant_index/rarity_schema.json",
+        "rarity": "common",
+        "policy_color": "#F2F2F2",
+        "canonical_color": "#9CA3AF"
+      },
+      {
+        "file": "config/ascendant_index/rarity_schema.json",
+        "rarity": "legendary",
+        "policy_color": "#FFD166",
+        "canonical_color": "#FFE66D"
+      },
+      {
+        "file": "config/ascendant_index/rarity_schema.json",
+        "rarity": "mythic",
+        "policy_color": "#FF6B35",
+        "canonical_color": "#FF3B00"
+      },
+      {
+        "file": "config/ascendant_index/rarity_schema.json",
+        "rarity": "ascendant",
+        "policy_color": "#7DF9FF",
+        "canonical_color": "#E6FBFF"
+      },
+      {
+        "file": "config/ascendant_core/loot_rarity_rules.json",
+        "rarity": "common",
+        "policy_color": "#F2F2F2",
+        "canonical_color": "#9CA3AF"
+      },
+      {
+        "file": "config/ascendant_core/loot_rarity_rules.json",
+        "rarity": "mythic",
+        "policy_color": "#FF6B35",
+        "canonical_color": "#FF3B00"
+      },
+      {
+        "file": "config/ascendant_core/loot_rarity_rules.json",
+        "rarity": "ascendant",
+        "policy_color": "#7DF9FF",
+        "canonical_color": "#E6FBFF"
+      }
+    ]
+  }
+}

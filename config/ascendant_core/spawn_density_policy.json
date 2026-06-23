@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "last_updated": "2026-06-22",
+  "status": "active_region_based_spawn_difficulty_pass",
+  "goal": "Exploration should feel dangerous immediately without time-based difficulty ramping. Daytime wilderness pressure should come primarily from daylight-safe modded mobs, while extra difficulty comes from Atlas region/ring identity instead of CRD, day count, or elapsed time.",
+  "live_files": [
+    "config/spawnbalanceutility-common.toml",
+    "config/majruszsdifficulty.json",
+    "config/incontrol/spawner.json",
+    "config/incontrol/spawn.json",
+    "config/ascendant_core/regional_difficulty_policy.json",
+    "kubejs/server_scripts/ascendant_regional_difficulty.js",
+    "config/ascendant_core/live_spawn_policy.json"
+  ],
+  "changes": {
+    "spawn_balance_utility": {
+      "minSpawnWeight": 20,
+      "maxSpawnWeight": 180,
+      "defaultSpawnWeightList": {
+        "minecraft:enderman": 18,
+        "minecraft:witch": 28,
+        "minecraft:spider": 75,
+        "minecraft:creeper": 70,
+        "minecraft:zombie": 28,
+        "minecraft:skeleton": 28,
+        "born_in_chaos_v1:dread_hound": 55,
+        "born_in_chaos_v1:mother_spider": 45,
+        "born_in_chaos_v1:lifestealer": 35,
+        "born_in_chaos_v1:scarlet_persecutor": 32,
+        "irons_spellbooks:cultist": 40,
+        "irons_spellbooks:magehunter_vindicator": 28,
+        "alexsmobs:tiger": 30,
+        "alexsmobs:grizzly_bear": 28,
+        "alexsmobs:rattlesnake": 40,
+        "mowziesmobs:naga": 22,
+        "mowziesmobs:foliaath": 28
+      }
+    },
+    "majruszsdifficulty": {
+      "time_or_crd_difficulty_scaling": "disabled; all is_scaled_by_crd flags are false and crd_penalty is 0.0 for all stages",
+      "regional_difficulty_scaling": "handled by config/ascendant_core/regional_difficulty_policy.json and kubejs/server_scripts/ascendant_regional_difficulty.js",
+      "spawn_rate_increaser": {
+        "__default": 2.1,
+        "expert": 2.1,
+        "master": 2.1
+      },
+      "mobs_spawn_stronger": {
+        "health_bonus": {
+          "__default": 0.25,
+          "expert": 0.25,
+          "master": 0.25
+        },
+        "damage_bonus": {
+          "__default": 0.15,
+          "expert": 0.15,
+          "master": 0.15
+        }
+      },
+      "mob_groups": {
+        "skeletons": {
+          "chance": 0.35,
+          "sidekicks_min": 2,
+          "sidekicks_max": 4
+        },
+        "undead": {
+          "chance": 0.32,
+          "sidekicks_min": 3,
+          "sidekicks_max": 5
+        },
+        "zombie_miners": {
+          "chance": 0.4,
+          "sidekicks_min": 2,
+          "sidekicks_max": 4
+        },
+        "piglins": {
+          "chance": 0.35,
+          "sidekicks_min": 2,
+          "sidekicks_max": 4
+        }
+      }
+    },
+    "incontrol_caps": {
+      "alexsmobs": 150,
+      "mowziesmobs": 32,
+      "born_in_chaos_v1": 72,
+      "aquamirae": 28,
+      "bossesrise": 10,
+      "iceandfire": 14,
+      "cataclysm": 14,
+      "block_factorys_bosses": 10,
+      "soulsweapons": 18,
+      "irons_spellbooks": 48,
+      "majruszsdifficulty": 26
+    },
+    "incontrol_hostile_spawner": {
+      "status": "active_modded_daytime_and_cave_hostile_injection",
+      "file": "config/incontrol/spawner.json",
+      "rule_count": 6,
+      "uses_biome_native_monsters": "cave-only; removed from open-sky daytime injection to avoid burning undead under sun",
+      "uses_daylight_bypass": true,
+      "surface_rules": [
+        "daylight-safe modded wilderness predators, raiders, casters, and elites",
+        "hot/arid daylight-safe modded hostile pool",
+        "cold/highland daylight-safe modded hostile pool",
+        "forest/jungle daylight-safe modded hostile pool",
+        "mage/raider daylight-safe modded pressure pool"
+      ],
+      "cave_rules": [
+        "biome-native cave monster reinforcement"
+      ],
+      "explicit_open_sky_burning_undead_policy": "Do not inject zombies, skeletons, strays, or other burning undead into open-sky daytime pools.",
+      "safety_controls": [
+        "No dragons are explicitly injected as common spawns.",
+        "No major structure bosses are made common by spawner.json.",
+        "Surface rules avoid village structure tags.",
+        "Rules use maxhostile, maxlocal, and maxthis caps."
+      ]
+    },
+    "regional_difficulty": {
+      "status": "active_region_based_difficulty_multiplier",
+      "file": "config/ascendant_core/regional_difficulty_policy.json",
+      "script": "kubejs/server_scripts/ascendant_regional_difficulty.js",
+      "source": "Atlas region and ring scoreboards",
+      "uses_time_or_day_count": false,
+      "regions": {
+        "hearthlands": 1.0,
+        "frostmarch": 1.18,
+        "sunreach": 1.2,
+        "verdant_coast": 1.16,
+        "stoneback_highlands": 1.2,
+        "north_east_marches": 1.28,
+        "north_west_marches": 1.3,
+        "south_east_wilds": 1.3,
+        "south_west_wilds": 1.34,
+        "outer_rim": 1.45
+      },
+      "behavior": [
+        "Eligible hostile mobs spawned near a player receive an Atlas region tag.",
+        "Regional profiles apply hidden strength, speed, or resistance effects according to region identity.",
+        "Far Atlas rings add a small extra wilderness edge without using elapsed time."
+      ]
+    }
+  },
+  "kept_controlled": [
+    "Hearthlands still denies routine boss/dragon-tier namespaces.",
+    "Sunreach still denies Aquamirae as desert filler.",
+    "Open-sky daytime spawner rules do not inject burning vanilla undead.",
+    "Difficulty multipliers are now region/ring based, not time/day-count based.",
+    "Dragons and named major bosses are not explicitly injected as routine spawner mobs."
+  ],
+  "superseded_notes": [
+    "The first density pass did not add spawner.json. The follow-up hostile pass now adds config/incontrol/spawner.json because natural spawn weights improved wildlife but did not create enough daytime enemies."
+  ],
+  "test_expectation": [
+    "Daytime open land should show multiple visible modded threats, not mostly zombies and skeletons burning in the sun.",
+    "Night should remain dangerous from the normal monster stack plus the stronger flat baseline.",
+    "Caves should remain busy through biome-native monster reinforcement.",
+    "The difficulty should feel dangerous immediately instead of ramping because a chunk has been inhabited longer.",
+    "The same hostile mob should be noticeably harsher in diagonal frontier and outer regions than in Hearthlands.",
+    "Villages should be watched for pressure even though surface rules still avoid village structure tags."
+  ]
+}

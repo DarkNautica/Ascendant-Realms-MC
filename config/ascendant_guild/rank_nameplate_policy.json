@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "status": "live_internal_forge_renderer",
+  "requested_reference_mod": {
+    "name": "CustomNameTags",
+    "url": "https://modrinth.com/mod/customnametags",
+    "decision": "do_not_install_fabric_jar_recreated_inside_ascendant_nametags",
+    "reason": "The attached/reference mod is Fabric/server-side, while Ascendant Realms is Forge 1.20.1. The needed player and hunter rank nameplate behavior is recreated in the modular Ascendant Nametags Forge helper jar."
+  },
+  "active_renderer": {
+    "players": "ascendant_nametags client RenderNameTagEvent override using ar_guild_rank and ar_skill_level",
+    "ai_hunters": "ascendant_nametags client RenderNameTagEvent override using ar_ai_hunter rank/profile tags",
+    "authored_npcs": "customnpcs_scripted_display_name plus helper-side bridges where needed",
+    "fallback": "minecraft_scoreboard_teams and ar_skill_level below-name objective remain as backup/context"
+  },
+  "player_nameplate": {
+    "below_name_objective": "ar_skill_level",
+    "rank_scoreboard": "ar_guild_rank",
+    "rank_source": "config/ascendant_core/runtime_rules.json rank_promotions plus ascendant_identity:rank/* functions",
+    "team_sync_function": "ascendant_identity:rank_examiner/sync_nameplate",
+    "teams": {
+      "unranked": "ar_rank_unranked",
+      "e_rank": "ar_rank_e",
+      "d_rank": "ar_rank_d",
+      "c_rank": "ar_rank_c",
+      "b_rank": "ar_rank_b",
+      "a_rank": "ar_rank_a",
+      "s_rank": "ar_rank_s"
+    }
+  },
+  "npc_nameplate": {
+    "script": "customnpcs/scripts/ecmascript/ascendant_npc_identity.js",
+    "profile_registry": "config/ascendant_guild/nameplates.json",
+    "format": "[Rank] Name | Lv.X Role",
+    "applies_to": [
+      "guild_clerk",
+      "rank_examiner",
+      "bounty_master",
+      "guild_arcanist",
+      "hunter_quartermaster",
+      "guard_captain",
+      "tavern_keeper",
+      "village_elder",
+      "wounded_hunter",
+      "mira_ash",
+      "darius_crowe",
+      "seren_valehart",
+      "kael_vorn",
+      "black_hound"
+    ]
+  },
+  "palette": {
+    "unranked": { "label": "Unranked", "minecraft_color": "gray", "hex": "#9CA3AF" },
+    "e_rank": { "label": "E-Rank", "minecraft_color": "dark_green", "hex": "#2E8B57" },
+    "d_rank": { "label": "D-Rank", "minecraft_color": "green", "hex": "#55FF55" },
+    "c_rank": { "label": "C-Rank", "minecraft_color": "aqua", "hex": "#55AAFF" },
+    "b_rank": { "label": "B-Rank", "minecraft_color": "blue", "hex": "#3366FF" },
+    "a_rank": { "label": "A-Rank", "minecraft_color": "gold", "hex": "#FFE66D" },
+    "s_rank": { "label": "S-Rank", "minecraft_color": "dark_purple", "hex": "#D966FF" }
+  },
+  "live_text_effects": {
+    "status": "implemented_in_ascendant_nametags_client_renderer",
+    "applies_to": [
+      "player_rank_nameplates",
+      "player_self_preview",
+      "ai_hunter_rank_nameplates"
+    ],
+    "notes": [
+      "Effects are world-space text rendering only; they do not change rank logic or progression.",
+      "Higher ranks use stronger glow passes and wider animated palettes.",
+      "The self-preview command uses the same renderer another player sees in third person."
+    ],
+    "styles": {
+      "unranked": {
+        "effect": "soft_slate_drift",
+        "animation_direction": "slow_left_to_right",
+        "glow_strength": "minimal"
+      },
+      "e_rank": {
+        "effect": "low_ember",
+        "animation_direction": "slow_upward_sweep",
+        "glow_strength": "subtle"
+      },
+      "d_rank": {
+        "effect": "emerald_sweep",
+        "animation_direction": "left_to_right",
+        "glow_strength": "subtle"
+      },
+      "c_rank": {
+        "effect": "tidal_shimmer",
+        "animation_direction": "right_to_left_wave",
+        "glow_strength": "moderate"
+      },
+      "b_rank": {
+        "effect": "arc_wave",
+        "animation_direction": "diagonal_wave",
+        "glow_strength": "moderate"
+      },
+      "a_rank": {
+        "effect": "solar_gleam",
+        "animation_direction": "fast_center_sweep",
+        "glow_strength": "strong"
+      },
+      "s_rank": {
+        "effect": "void_prism",
+        "animation_direction": "multi_color_prism_cycle",
+        "glow_strength": "strongest"
+      }
+    }
+  },
+  "rules": [
+    "Do not install Fabric-only nameplate mods into the Forge pack.",
+    "Do not use item rarity colors as player rank meaning unless the rank palette explicitly maps them.",
+    "Do not hard-gate content from this fallback layer.",
+    "Do not make rank evaluation a player command feature; commands are hidden plumbing and testing hooks only.",
+    "NPC rank must match npc_loadouts.json and nameplates.json."
+  ]
+}

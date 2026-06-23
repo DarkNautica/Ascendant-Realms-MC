@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "runtime_state": "planned_custom_mod",
+  "policy": "Only build custom Forge modules when data/config/KubeJS/Open Loader cannot safely provide the needed result. Do not remove gameplay systems first; root-cause and bridge them.",
+  "modules": [
+    {
+      "id": "ascendant_core",
+      "priority": "high",
+      "trigger": "multiple systems need synced registry data, debug commands, or typed runtime access",
+      "current_status": "data-first JSON contract and KubeJS loader implemented",
+      "first_features": ["registry loader", "server-to-client sync", "debug commands", "safe audit logging"]
+    },
+    {
+      "id": "ascendant_nameplates",
+      "priority": "very_high",
+      "trigger": "vanilla scoreboard and CustomNPCs labels cannot deliver polished dynamic rank/level/name UI",
+      "current_status": "data contract active; current fallback uses scoreboards and CustomNPCs display names",
+      "first_features": ["player rank plus level", "NPC rank plus role", "enemy threat labels", "passive mob suppression"]
+    },
+    {
+      "id": "ascendant_npc_runtime",
+      "priority": "high",
+      "trigger": "CustomNPCs scripted profiles cannot reliably equip, defend, path, or repair generated NPCs",
+      "current_status": "generated NPC profiles and spawn functions active for testing",
+      "first_features": ["apply profile command", "equipment renderer safety", "role behavior presets", "nearby NPC audit"]
+    },
+    {
+      "id": "ascendant_settlement_engine",
+      "priority": "medium_high",
+      "trigger": "datapack structure injection cannot avoid duplicates, bad facing, bad terrain, or third-party processor conflicts",
+      "current_status": "standalone Guild structures active; village-pool injection delayed",
+      "first_features": ["settlement role assignment", "one board per settlement", "NPC anchor spawning", "safe template placement"]
+    },
+    {
+      "id": "ascendant_atlas",
+      "priority": "medium_high",
+      "trigger": "coordinate/ring/region-aware progression cannot be enforced through config rules alone",
+      "current_status": "world_regions.json contract active",
+      "first_features": ["region resolver", "distance bands", "biome/theme overrides", "region debug overlay"]
+    },
+    {
+      "id": "ascendant_encounter_director",
+      "priority": "medium",
+      "trigger": "In Control plus existing configs cannot express player-rank-aware or structure-proximity-aware spawns",
+      "current_status": "mob_ecology.json contract active; spawn rules not generated yet",
+      "first_features": ["threat tier resolver", "spawn budget modifiers", "elite rarity controls", "settlement safety radius"]
+    }
+  ]
+}

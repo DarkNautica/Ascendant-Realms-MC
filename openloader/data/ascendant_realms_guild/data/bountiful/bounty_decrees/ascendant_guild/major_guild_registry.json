@@ -1,0 +1,9 @@
+{
+  "objectives": [
+    "ar_major_guild_objs"
+  ],
+  "rewards": [
+    "ar_major_guild_rews",
+    "_all_rews"
+  ]
+}

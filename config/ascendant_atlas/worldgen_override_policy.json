@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "status": "disabled_random_terralith_tectonic_baseline",
+  "worldgen_override_enabled": false,
+  "mode": "random_generation_restored",
+  "requested_by": "Jayden",
+  "requested_at": "2026-06-18",
+  "reason": "Jayden rejected the north/south/east/west Atlas terrain influence after hard biome and terrain cuts remained visible. The pack should return to normal random Tectonic/Terralith generation and tune structures/roads separately.",
+  "disabled_influence_files": [
+    "config/openloader/data/ascendant_realms_atlas/data/minecraft/dimension/overworld.json",
+    "config/openloader/data/ascendant_realms_atlas/data/minecraft/worldgen/density_function/overworld/continents.json",
+    "openloader/data/ascendant_realms_atlas/data/minecraft/dimension/overworld.json",
+    "openloader/data/ascendant_realms_atlas/data/minecraft/worldgen/density_function/overworld/continents.json"
+  ],
+  "active_expectation": {
+    "overworld_biome_source": "No Ascendant Atlas override. Use the normal modded Overworld biome source stack from Terralith/Tectonic and installed datapacks.",
+    "continentalness_bias": "No Ascendant Atlas atlas_land_bias density-function override.",
+    "helper_jar": "May remain installed for diagnostics/history, but it must not be referenced by active Overworld dimension or density-function JSON while this policy is disabled.",
+    "atlas_runtime": "Coordinate scoreboards, world border, docs, reports, and planning data may remain. They are not allowed to steer terrain/biome generation in this mode."
+  },
+  "fresh_world_required": true,
+  "old_world_warning": "Existing generated chunks can keep old Atlas-shaped terrain, old biome decisions, and old structure placement. Judge this rollback only in a fresh world or fully ungenerated chunks after syncing the active instance."
+}

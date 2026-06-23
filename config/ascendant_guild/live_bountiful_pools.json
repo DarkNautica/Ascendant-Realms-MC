@@ -1,0 +1,1097 @@
+{
+  "version": 1,
+  "status": "live Open Loader Bountiful pool summary for Ascendant Guild contracts",
+  "source": "config/openloader/data/ascendant_realms_guild/data/bountiful",
+  "selected_counts": {
+    "village_hunter_board": 79,
+    "town_guild_board": 23,
+    "major_guild_registry": 51
+  },
+  "selected_targets": {
+    "village_hunter_board": [
+      {
+        "target_id": "alexsmobs:anaconda",
+        "name": "Anaconda",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Alex's Mobs"
+      },
+      {
+        "target_id": "alexsmobs:bone_serpent",
+        "name": "Bone Serpent",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Alex's Mobs"
+      },
+      {
+        "target_id": "alexsmobs:crimson_mosquito",
+        "name": "Crimson Mosquito",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Alex's Mobs"
+      },
+      {
+        "target_id": "alexsmobs:crocodile",
+        "name": "Crocodile",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Alex's Mobs"
+      },
+      {
+        "target_id": "alexsmobs:dropbear",
+        "name": "Dropbear",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Alex's Mobs"
+      },
+      {
+        "target_id": "alexsmobs:frilled_shark",
+        "name": "Frilled Shark",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Alex's Mobs"
+      },
+      {
+        "target_id": "alexsmobs:grizzly_bear",
+        "name": "Grizzly Bear",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Alex's Mobs"
+      },
+      {
+        "target_id": "alexsmobs:mimic_octopus",
+        "name": "Mimic Octopus",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Alex's Mobs"
+      },
+      {
+        "target_id": "alexsmobs:mimicube",
+        "name": "Mimicube",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Alex's Mobs"
+      },
+      {
+        "target_id": "alexsmobs:sea_bear",
+        "name": "Sea Bear",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Alex's Mobs"
+      },
+      {
+        "target_id": "alexsmobs:tiger",
+        "name": "Tiger",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Alex's Mobs"
+      },
+      {
+        "target_id": "aquamirae:abyssal_scyphoid",
+        "name": "Abyssal Scyphoid",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Aquamirae"
+      },
+      {
+        "target_id": "aquamirae:eel",
+        "name": "Eel",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Aquamirae"
+      },
+      {
+        "target_id": "aquamirae:maw",
+        "name": "Maw",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Aquamirae"
+      },
+      {
+        "target_id": "aquamirae:maze_mother",
+        "name": "Mother of the Maze",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Aquamirae"
+      },
+      {
+        "target_id": "aquamirae:maze_rose",
+        "name": "Maze Rose",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Aquamirae"
+      },
+      {
+        "target_id": "aquamirae:pillagers_patrol",
+        "name": "Pillagers Patrol",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Aquamirae"
+      },
+      {
+        "target_id": "aquamirae:tortured_soul",
+        "name": "Tortured Soul",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Aquamirae"
+      },
+      {
+        "target_id": "artifacts:mimic",
+        "name": "Mimic",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Artifacts"
+      },
+      {
+        "target_id": "born_in_chaos_v1:baby_skeleton",
+        "name": "Baby Skeleton",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:baby_spider",
+        "name": "Baby Spider",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:barrel_zombie",
+        "name": "Barrel Zombie",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:bone_imp",
+        "name": "Bone Imp",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:bonescaller",
+        "name": "Bonescaller",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:decaying_zombie",
+        "name": "Decaying Zombie",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:decrepit_skeleton",
+        "name": "Decrepit Skeleton",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:diamond_termite",
+        "name": "Diamond Termite",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:felsteed",
+        "name": "Felsteed",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:firelight",
+        "name": "Firelight",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:infernal_spirit",
+        "name": "Infernal Spirit",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:krampus",
+        "name": "Krampus",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:krampus_henchman",
+        "name": "Krampus Henchman",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:lifestealer",
+        "name": "Lifestealer",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:lifestealer_true_form",
+        "name": "Lifestealer",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:maggot",
+        "name": "Corpse Maggot",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:missionary_raider",
+        "name": "Missionary",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:missioner",
+        "name": "Missionary",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:mother_spider",
+        "name": "Spiders Mother",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:mr_pumpkin",
+        "name": "Mr. Pumpkin",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:mrs_pumpkin",
+        "name": "Mrs Pumpkin",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:pumpkin_bruiser",
+        "name": "Pumpkin Bruiser",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:pumpkin_dunce",
+        "name": "Pumpkin Dunce",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:pumpkin_spirit",
+        "name": "Pumpkin Spirit",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:restless_spirit",
+        "name": "Restless Spirit",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:riding_felsteed",
+        "name": "Felsteed",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:riding_lords_felsteed",
+        "name": "Felsteed",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:scarlet_persecutor",
+        "name": "Scarlet Persecutor",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:seared_spirit",
+        "name": "Seared Spirit",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:senor_pumpkin",
+        "name": "Senor Pumpkin",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:siamese_skeletons",
+        "name": "Siamese Skeletons",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:siamese_skeletonsleft",
+        "name": "Siamese Skeleton",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:siamese_skeletonsright",
+        "name": "Siamese Skeleton",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:skeleton_demoman",
+        "name": "Skeleton Demoman",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:skeleton_thrasher",
+        "name": "Skeleton Thrasher",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:spirit_guide",
+        "name": "Spirit Guide",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:spirit_guide_assistant",
+        "name": "Spirit Guide Assistant",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:spiritof_chaos",
+        "name": "Spirit of Chaos",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:supreme_bonescaller",
+        "name": "Supreme Bonescaller",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:supreme_bonescaller_stage_2",
+        "name": "Supreme Bonescaller",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:swarmer",
+        "name": "Swarmer",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:zombie_bruiser",
+        "name": "Zombie Bruiser",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:zombie_clown",
+        "name": "Zombie Clown",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:zombie_fisherman",
+        "name": "Zombie Fisherman",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:zombie_lumberjack",
+        "name": "Zombie Lumberjack",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "irons_spellbooks:catacombs_zombie",
+        "name": "Catacombs Zombie",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Iron's Spells 'n Spellbooks"
+      },
+      {
+        "target_id": "irons_spellbooks:ice_spider",
+        "name": "Ice Spider",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Iron's Spells 'n Spellbooks"
+      },
+      {
+        "target_id": "mowziesmobs:baby_foliaath",
+        "name": "Baby Foliaath",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Mowzie's Mobs"
+      },
+      {
+        "target_id": "mowziesmobs:bluff",
+        "name": "Bluff",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Mowzie's Mobs"
+      },
+      {
+        "target_id": "mowziesmobs:elokosa_follower_howler",
+        "name": "Elokosa",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Mowzie's Mobs"
+      },
+      {
+        "target_id": "mowziesmobs:elokosa_howler",
+        "name": "Elokosa Howler",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Mowzie's Mobs"
+      },
+      {
+        "target_id": "mowziesmobs:foliaath",
+        "name": "Foliaath",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Mowzie's Mobs"
+      },
+      {
+        "target_id": "mowziesmobs:grottol",
+        "name": "Grottol",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Mowzie's Mobs"
+      },
+      {
+        "target_id": "mowziesmobs:naga",
+        "name": "Naga",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Mowzie's Mobs"
+      },
+      {
+        "target_id": "mowziesmobs:umvuthana",
+        "name": "Umvuthana",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Mowzie's Mobs"
+      },
+      {
+        "target_id": "mowziesmobs:umvuthana_crane",
+        "name": "Umvuthana Crane",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Mowzie's Mobs"
+      },
+      {
+        "target_id": "mowziesmobs:umvuthana_crane_player",
+        "name": "Umvuthana Crane",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Mowzie's Mobs"
+      },
+      {
+        "target_id": "mowziesmobs:umvuthana_follower_player",
+        "name": "Umvuthana",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Mowzie's Mobs"
+      },
+      {
+        "target_id": "mowziesmobs:umvuthana_follower_raptor",
+        "name": "Umvuthana",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Mowzie's Mobs"
+      },
+      {
+        "target_id": "mowziesmobs:umvuthana_raptor",
+        "name": "Umvuthana Raptor",
+        "threat_tier": "dangerous_hostile",
+        "reward_rarity": "rare",
+        "source_mod": "Mowzie's Mobs"
+      }
+    ],
+    "town_guild_board": [
+      {
+        "target_id": "alexsmobs:froststalker",
+        "name": "Froststalker",
+        "threat_tier": "elite",
+        "reward_rarity": "epic",
+        "source_mod": "Alex's Mobs"
+      },
+      {
+        "target_id": "alexsmobs:giant_squid",
+        "name": "Giant Squid",
+        "threat_tier": "elite",
+        "reward_rarity": "epic",
+        "source_mod": "Alex's Mobs"
+      },
+      {
+        "target_id": "born_in_chaos_v1:dire_hound_leader",
+        "name": "Dire Hound Leader",
+        "threat_tier": "elite",
+        "reward_rarity": "epic",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:door_knight",
+        "name": "Door Knight",
+        "threat_tier": "elite",
+        "reward_rarity": "epic",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:fallen_chaos_knight",
+        "name": "Fallen Chaos Knight",
+        "threat_tier": "elite",
+        "reward_rarity": "epic",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:nightmare_stalker",
+        "name": "Nightmare Stalker",
+        "threat_tier": "elite",
+        "reward_rarity": "epic",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "born_in_chaos_v1:phantom_creeper",
+        "name": "Phantom Creeper",
+        "threat_tier": "elite",
+        "reward_rarity": "epic",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "cataclysm:deepling_brute",
+        "name": "Deepling Brute",
+        "threat_tier": "elite",
+        "reward_rarity": "epic",
+        "source_mod": "cataclysm"
+      },
+      {
+        "target_id": "cataclysm:ignited_berserker",
+        "name": "Ignited Berserker",
+        "threat_tier": "elite",
+        "reward_rarity": "epic",
+        "source_mod": "cataclysm"
+      },
+      {
+        "target_id": "irons_spellbooks:citadel_keeper",
+        "name": "Ancient Knight",
+        "threat_tier": "elite",
+        "reward_rarity": "epic",
+        "source_mod": "Iron's Spells 'n Spellbooks"
+      },
+      {
+        "target_id": "majruszsdifficulty:cerberus",
+        "name": "Cerberus",
+        "threat_tier": "elite",
+        "reward_rarity": "epic",
+        "source_mod": "Majrusz's Progressive Difficulty"
+      },
+      {
+        "target_id": "majruszsdifficulty:creeperling",
+        "name": "Creeperling",
+        "threat_tier": "elite",
+        "reward_rarity": "epic",
+        "source_mod": "Majrusz's Progressive Difficulty"
+      },
+      {
+        "target_id": "majruszsdifficulty:cursed_armor",
+        "name": "Cursed Armor",
+        "threat_tier": "elite",
+        "reward_rarity": "epic",
+        "source_mod": "Majrusz's Progressive Difficulty"
+      },
+      {
+        "target_id": "majruszsdifficulty:giant",
+        "name": "Giant",
+        "threat_tier": "elite",
+        "reward_rarity": "epic",
+        "source_mod": "Majrusz's Progressive Difficulty"
+      },
+      {
+        "target_id": "majruszsdifficulty:illusioner",
+        "name": "Illusioner",
+        "threat_tier": "elite",
+        "reward_rarity": "epic",
+        "source_mod": "Majrusz's Progressive Difficulty"
+      },
+      {
+        "target_id": "majruszsdifficulty:tank",
+        "name": "Tank",
+        "threat_tier": "elite",
+        "reward_rarity": "epic",
+        "source_mod": "Majrusz's Progressive Difficulty"
+      },
+      {
+        "target_id": "quark:foxhound",
+        "name": "Foxhound",
+        "threat_tier": "elite",
+        "reward_rarity": "epic",
+        "source_mod": "Quark"
+      },
+      {
+        "target_id": "quark:wraith",
+        "name": "Wraith",
+        "threat_tier": "elite",
+        "reward_rarity": "epic",
+        "source_mod": "Quark"
+      },
+      {
+        "target_id": "soulsweapons:day_stalker",
+        "name": "Day Stalker",
+        "threat_tier": "elite",
+        "reward_rarity": "epic",
+        "source_mod": "Marium's Soulslike Weaponry"
+      },
+      {
+        "target_id": "soulsweapons:frost_giant",
+        "name": "Frost Giant",
+        "threat_tier": "elite",
+        "reward_rarity": "epic",
+        "source_mod": "Marium's Soulslike Weaponry"
+      },
+      {
+        "target_id": "soulsweapons:moonknight",
+        "name": "Fallen Icon",
+        "threat_tier": "elite",
+        "reward_rarity": "epic",
+        "source_mod": "Marium's Soulslike Weaponry"
+      },
+      {
+        "target_id": "soulsweapons:returning_knight",
+        "name": "Returning Knight",
+        "threat_tier": "elite",
+        "reward_rarity": "epic",
+        "source_mod": "Marium's Soulslike Weaponry"
+      },
+      {
+        "target_id": "soulsweapons:soul_reaper_ghost",
+        "name": "Familiar Ghost",
+        "threat_tier": "elite",
+        "reward_rarity": "epic",
+        "source_mod": "Marium's Soulslike Weaponry"
+      }
+    ],
+    "major_guild_registry": [
+      {
+        "target_id": "block_factorys_bosses:crossbow_pirate",
+        "name": "Crossbow Pirate",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "Bosses'Rise"
+      },
+      {
+        "target_id": "block_factorys_bosses:flaming_skeleton_guard_sword",
+        "name": "Flaming Ashlord Guard",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "Bosses'Rise"
+      },
+      {
+        "target_id": "block_factorys_bosses:frozen_skeleton",
+        "name": "Frozen Skeleton",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "Bosses'Rise"
+      },
+      {
+        "target_id": "block_factorys_bosses:kraken",
+        "name": "Nerakyss, The Kraken",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "Bosses'Rise"
+      },
+      {
+        "target_id": "block_factorys_bosses:pirate_captain",
+        "name": "Pirate Captain",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "Bosses'Rise"
+      },
+      {
+        "target_id": "block_factorys_bosses:pirate_rook",
+        "name": "Pirate Rook",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "Bosses'Rise"
+      },
+      {
+        "target_id": "block_factorys_bosses:sandworm",
+        "name": "Sirok, The Sandworm",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "Bosses'Rise"
+      },
+      {
+        "target_id": "block_factorys_bosses:soul_knight_wither_skeleton",
+        "name": "Wither Knight",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "Bosses'Rise"
+      },
+      {
+        "target_id": "block_factorys_bosses:soul_skeleton",
+        "name": "Soul Skeleton",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "Bosses'Rise"
+      },
+      {
+        "target_id": "block_factorys_bosses:underworld_knight",
+        "name": "Helvar, the Underworld Knight",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "Bosses'Rise"
+      },
+      {
+        "target_id": "block_factorys_bosses:yeti",
+        "name": "Skor, The Yeti",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "Bosses'Rise"
+      },
+      {
+        "target_id": "cataclysm:ancient_remnant",
+        "name": "Ancient Remnant",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "cataclysm"
+      },
+      {
+        "target_id": "cataclysm:ender_guardian",
+        "name": "Ender Guardian",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "cataclysm"
+      },
+      {
+        "target_id": "cataclysm:ignis",
+        "name": "Ignis",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "cataclysm"
+      },
+      {
+        "target_id": "cataclysm:maledictus",
+        "name": "Maledictus",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "cataclysm"
+      },
+      {
+        "target_id": "cataclysm:netherite_monstrosity",
+        "name": "Netherite Monstrosity",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "cataclysm"
+      },
+      {
+        "target_id": "cataclysm:old_netherite_monstrosity",
+        "name": "Old Netherite Monstrosity",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "cataclysm"
+      },
+      {
+        "target_id": "cataclysm:scylla",
+        "name": "Scylla",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "cataclysm"
+      },
+      {
+        "target_id": "cataclysm:scylla_ceraunus",
+        "name": "Ceraunus",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "cataclysm"
+      },
+      {
+        "target_id": "cataclysm:the_baby_leviathan",
+        "name": "The Baby Leviathan",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "cataclysm"
+      },
+      {
+        "target_id": "cataclysm:the_harbinger",
+        "name": "The Harbinger",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "cataclysm"
+      },
+      {
+        "target_id": "cataclysm:the_leviathan",
+        "name": "The Leviathan",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "cataclysm"
+      },
+      {
+        "target_id": "cataclysm:the_leviathan_immune",
+        "name": "The Leviathan is invincible outside of water!",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "cataclysm"
+      },
+      {
+        "target_id": "cataclysm:the_prowler",
+        "name": "The Prowler",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "cataclysm"
+      },
+      {
+        "target_id": "irons_spellbooks:dead_king",
+        "name": "The Dead King",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "Iron's Spells 'n Spellbooks"
+      },
+      {
+        "target_id": "irons_spellbooks:dead_king_soul",
+        "name": "Dead King Soul",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "Iron's Spells 'n Spellbooks"
+      },
+      {
+        "target_id": "irons_spellbooks:fire_boss",
+        "name": "Echo of Tyros, First Flamebearer",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "Iron's Spells 'n Spellbooks"
+      },
+      {
+        "target_id": "mowziesmobs:ferrous_wroughtnaut",
+        "name": "Ferrous Wroughtnaut",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "Mowzie's Mobs"
+      },
+      {
+        "target_id": "mowziesmobs:frostmaw",
+        "name": "Frostmaw",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "Mowzie's Mobs"
+      },
+      {
+        "target_id": "soulsweapons:accursed_lord_boss",
+        "name": "The Decaying King",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "Marium's Soulslike Weaponry"
+      },
+      {
+        "target_id": "soulsweapons:draugr_boss",
+        "name": "Old Champion's Remains",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "Marium's Soulslike Weaponry"
+      },
+      {
+        "target_id": "soulsweapons:moonknight_phase_2",
+        "name": "Harbinger of Moonlight",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "Marium's Soulslike Weaponry"
+      },
+      {
+        "target_id": "soulsweapons:night_prowler",
+        "name": "Night Prowler",
+        "threat_tier": "boss",
+        "reward_rarity": "legendary",
+        "source_mod": "Marium's Soulslike Weaponry"
+      },
+      {
+        "target_id": "alexsmobs:komodo_dragon",
+        "name": "Komodo Dragon",
+        "threat_tier": "dragon_tier",
+        "reward_rarity": "mythic",
+        "source_mod": "Alex's Mobs"
+      },
+      {
+        "target_id": "block_factorys_bosses:dragon_guard_sword",
+        "name": "Ashlord Guard",
+        "threat_tier": "dragon_tier",
+        "reward_rarity": "mythic",
+        "source_mod": "Bosses'Rise"
+      },
+      {
+        "target_id": "block_factorys_bosses:infernal_dragon",
+        "name": "Ashlord, The Infernal Dragon",
+        "threat_tier": "dragon_tier",
+        "reward_rarity": "mythic",
+        "source_mod": "Bosses'Rise"
+      },
+      {
+        "target_id": "born_in_chaos_v1:dread_hound",
+        "name": "Dread Hound",
+        "threat_tier": "dragon_tier",
+        "reward_rarity": "mythic",
+        "source_mod": "Born in Chaos "
+      },
+      {
+        "target_id": "iceandfire:cockatrice",
+        "name": "Cockatrice",
+        "threat_tier": "dragon_tier",
+        "reward_rarity": "mythic",
+        "source_mod": "Ice And Fire Community Edition"
+      },
+      {
+        "target_id": "iceandfire:cyclops",
+        "name": "Cyclops",
+        "threat_tier": "dragon_tier",
+        "reward_rarity": "mythic",
+        "source_mod": "Ice And Fire Community Edition"
+      },
+      {
+        "target_id": "iceandfire:dread_beast",
+        "name": "Dread Beast",
+        "threat_tier": "dragon_tier",
+        "reward_rarity": "mythic",
+        "source_mod": "Ice And Fire Community Edition"
+      },
+      {
+        "target_id": "iceandfire:dread_ghoul",
+        "name": "Dread Ghoul",
+        "threat_tier": "dragon_tier",
+        "reward_rarity": "mythic",
+        "source_mod": "Ice And Fire Community Edition"
+      },
+      {
+        "target_id": "iceandfire:dread_horse",
+        "name": "Dread Knight Horse",
+        "threat_tier": "dragon_tier",
+        "reward_rarity": "mythic",
+        "source_mod": "Ice And Fire Community Edition"
+      },
+      {
+        "target_id": "iceandfire:dread_knight",
+        "name": "Dread Knight",
+        "threat_tier": "dragon_tier",
+        "reward_rarity": "mythic",
+        "source_mod": "Ice And Fire Community Edition"
+      },
+      {
+        "target_id": "iceandfire:dread_lich",
+        "name": "Dread Lich",
+        "threat_tier": "dragon_tier",
+        "reward_rarity": "mythic",
+        "source_mod": "Ice And Fire Community Edition"
+      },
+      {
+        "target_id": "iceandfire:dread_queen",
+        "name": "Dread Queen",
+        "threat_tier": "dragon_tier",
+        "reward_rarity": "mythic",
+        "source_mod": "Ice And Fire Community Edition"
+      },
+      {
+        "target_id": "iceandfire:dread_scuttler",
+        "name": "Dread Scuttler",
+        "threat_tier": "dragon_tier",
+        "reward_rarity": "mythic",
+        "source_mod": "Ice And Fire Community Edition"
+      },
+      {
+        "target_id": "iceandfire:dread_thrall",
+        "name": "Dread Thrall",
+        "threat_tier": "dragon_tier",
+        "reward_rarity": "mythic",
+        "source_mod": "Ice And Fire Community Edition"
+      },
+      {
+        "target_id": "iceandfire:fire_dragon",
+        "name": "Fire Dragon",
+        "threat_tier": "dragon_tier",
+        "reward_rarity": "mythic",
+        "source_mod": "Ice And Fire Community Edition"
+      },
+      {
+        "target_id": "iceandfire:gorgon",
+        "name": "Gorgon",
+        "threat_tier": "dragon_tier",
+        "reward_rarity": "mythic",
+        "source_mod": "Ice And Fire Community Edition"
+      },
+      {
+        "target_id": "iceandfire:hydra",
+        "name": "Hydra",
+        "threat_tier": "dragon_tier",
+        "reward_rarity": "mythic",
+        "source_mod": "Ice And Fire Community Edition"
+      },
+      {
+        "target_id": "iceandfire:ice_dragon",
+        "name": "Ice Dragon",
+        "threat_tier": "dragon_tier",
+        "reward_rarity": "mythic",
+        "source_mod": "Ice And Fire Community Edition"
+      }
+    ]
+  },
+  "registry_candidates_seen": 310,
+  "friendly_namespaces_filtered": [
+    "customnpcs",
+    "easy_npc",
+    "humancompanions",
+    "mca",
+    "geckolib"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": { "type": "minecraft:uniform", "min": 1, "max": 2 },
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:bone", "weight": 4 },
+        { "type": "minecraft:item", "name": "kubejs:guild_mark", "weight": 4 },
+        { "type": "minecraft:item", "name": "irons_spellbooks:common_ink", "weight": 2 },
+        { "type": "minecraft:item", "name": "irons_spellbooks:uncommon_ink", "weight": 1 }
+      ]
+    }
+  ]
+}

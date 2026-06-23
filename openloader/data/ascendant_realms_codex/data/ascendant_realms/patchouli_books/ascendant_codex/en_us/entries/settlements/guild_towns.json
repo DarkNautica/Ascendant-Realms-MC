@@ -1,0 +1,11 @@
+{
+  "name": "Guild Towns",
+  "icon": "minecraft:stone_bricks",
+  "category": "ascendant_realms:settlements",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Major towns should be rare hubs with a Guild Hall, Hunter Board, Rank Examiner, Bounty Master, tavern, market, training yard, and visible rival hunters."
+    }
+  ]
+}

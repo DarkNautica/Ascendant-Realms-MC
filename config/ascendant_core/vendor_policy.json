@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "policy": "Guild vendors and quartermasters should sell preparation, not skip progression.",
+  "rank_unlocks": [
+    "Guild Mark",
+    "Hunter Seal",
+    "Ascendant Sigil"
+  ]
+}

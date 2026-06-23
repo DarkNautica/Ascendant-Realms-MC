@@ -1,0 +1,13 @@
+name = "IceAndFire Community Edition"
+filename = "IceAndFireCE-1.2.5-1.20.1-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VpmCsizY/versions/Rq1ofgUQ/IceAndFireCE-1.2.5-1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "a390207d113a9b91dfe260def978fe8f2925dd978958e8a4eb2f3ef92b9959023c6992ae244637db4fe66455060f3093eca3a502892536549c5a94cab1d1c61b"
+
+[update]
+[update.modrinth]
+mod-id = "VpmCsizY"
+version = "Rq1ofgUQ"

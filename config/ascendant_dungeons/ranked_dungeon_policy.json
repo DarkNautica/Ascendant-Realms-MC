@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "system_id": "ascendant_ranked_dungeons",
+  "status": "rank_slot_random_world_rifts_enabled",
+  "summary": "Random ranked dungeon rifts are enabled as a one-active-rift-per-rank world layer with Immersive Portals visual surfaces plus helper-owned fallback travel. /ascdungeon spawn_test_here, /ascdungeon open_test_rift, and /ascdungeon spawn_random_now create real generated dungeon instances. /ascdungeon spawn_visual_here and /ascdungeon spawn_test_all_ranks are visual-only gate-art checks. Generated dungeons build in ascendant_dungeons:ranked_dungeon with a safe entry room, connected command-built dungeon rooms, modded decor assets, rank-scaled modded enemy pools, bounded dungeon loot tables, a mandatory boss room, timed entrance rifts, boss-locked return gates, reports, and cleanup. The live scheduler can hold one D, one C, one B, one A, and one S rift at the same time for five active rifts total. This is still not the final authored dungeon event director.",
+  "portal_system": {
+    "primary_mod": "immersive_portals",
+    "required_mod_ids": [
+      "immersive_portals",
+      "imm_ptl_core",
+      "q_misc_util"
+    ],
+    "packwiz_metadata": "mods/immersive-portals-neoforge.pw.toml",
+    "active_portal_mode": "circular_teleportable_immersive_portal_with_helper_fallback",
+    "direct_portal_spawn_enabled": true,
+    "circular_special_shape_enabled": true,
+    "teleportable_surface_enabled": true,
+    "helper_walk_in_fallback_enabled": true,
+    "manual_spawn_test_enabled": true,
+    "random_world_spawn_enabled": true,
+    "item_display_billboard_enabled": false,
+    "item_display_fixed_facing_enabled": true,
+    "rank_scaled_gate_size_enabled": true,
+    "entrance_party_grace_window_seconds": 5,
+    "entrance_shrink_out_enabled": true,
+    "portal_safety_note": "The helper now creates circular Immersive Portals special-shape surfaces and marks them teleportable. Helper walk-in commands remain as fallback/admin plumbing, not the intended player-facing travel path."
+  },
+  "random_spawning": {
+    "enabled": true,
+    "current_limit": "one_active_rift_per_rank",
+    "maximum_active_rifts_global": 5,
+    "maximum_active_rifts_per_rank": 1,
+    "initial_delay_minutes_after_world_load": 12,
+    "attempt_interval_seconds": 90,
+    "attempt_chance": 0.16,
+    "spawn_model": "rare timed rifts selected by distance, rank weights, safe footing, and active-rift limit",
+    "forced_test_command": "/ascdungeon spawn_random_now"
+  },
+  "boss_exit_rules": {
+    "exit_gate_created_during_initial_generation": false,
+    "exit_gate_spawns_after_boss_defeat": true,
+    "fallback_return_command_locked_before_boss_defeat": true
+  },
+  "active_commands": [
+    "/ascdungeon status",
+    "/ascdungeon roll <rank>",
+    "/ascdungeon preview_here <rank>",
+    "/ascdungeon spawn_test_here <rank>",
+    "/ascdungeon spawn_visual_here <rank>",
+    "/ascdungeon spawn_test_all_ranks <spacing>",
+    "/ascdungeon open_test_rift <rank>",
+    "/ascdungeon spawn_random_now",
+    "/ascdungeon enter_latest",
+    "/ascdungeon return_latest",
+    "/ascdungeon cleanup_instance",
+    "/ascdungeon cleanup_rank <rank>",
+    "/ascdungeon cleanup_test",
+    "/ascdungeon dump_policy"
+  ],
+  "rank_ids": [
+    "d_rank",
+    "c_rank",
+    "b_rank",
+    "a_rank",
+    "s_rank"
+  ],
+  "safety_rules": {
+    "no_village_injection": true,
+    "no_structure_rewrites": true,
+    "no_loot_rewrites": true,
+    "no_recipe_gates": true,
+    "no_magic_gates": true,
+    "no_rank_hard_locks": true,
+    "fresh_world_required_for_spawn_tests": true,
+    "one_active_rift_per_rank_limit": true,
+    "maximum_active_rifts_global": 5,
+    "boss_locked_exit_gate": true
+  },
+  "acceptance_before_expanding_random_spawns": [
+    "Immersive Portals jar is present in the active instance.",
+    "Game starts without a portal-mod crash.",
+    "/ascdungeon status reports immersive_portals_loaded=true.",
+    "/ascdungeon spawn_random_now creates a timed world rift on safe ground.",
+    "Gate texture is fixed-facing, not billboarded toward the player.",
+    "Portal size varies by rank and higher ranks have larger ranges.",
+    "Walking into the gate enters the safe no-mob entry room.",
+    "No return gate exists before the boss is defeated.",
+    "Defeating the tagged boss opens the return gate.",
+    "The return gate sends the player back near the entrance.",
+    "/ascdungeon cleanup_instance removes the dungeon, entities, gate visuals, and portal surfaces.",
+    "Combat rooms spawn rank-appropriate modded enemies and use ascendant_dungeons entity loot tables.",
+    "Boss room ends each run and uses a rank-appropriate boss plus rank-bounded boss rewards."
+  ]
+}

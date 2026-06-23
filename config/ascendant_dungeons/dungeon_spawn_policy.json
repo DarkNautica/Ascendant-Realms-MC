@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "random_spawning_enabled": true,
+  "autonomous_world_scheduler_enabled": true,
+  "manual_preview_enabled": true,
+  "manual_spawn_testing_enabled": true,
+  "manual_spawn_test_commands": [
+    "/ascdungeon spawn_test_here <rank>",
+    "/ascdungeon spawn_visual_here <rank>",
+    "/ascdungeon spawn_test_all_ranks <spacing>",
+    "/ascdungeon spawn_random_now",
+    "/ascdungeon cleanup_test"
+  ],
+  "manual_command_behavior": {
+    "spawn_test_here": "creates a real generated dungeon instance and open entrance rift",
+    "open_test_rift": "creates a real generated dungeon instance and open entrance rift",
+    "spawn_random_now": "forces one timed random world rift and generated dungeon instance in an open rank slot",
+    "spawn_visual_here": "creates visual-only gate art and does not teleport",
+    "spawn_test_all_ranks": "creates a visual-only D/C/B/A/S lineup and does not teleport"
+  },
+  "manual_spawn_test_behavior": {
+    "creates_visible_ranked_entrance_frame": false,
+    "creates_frameless_ranked_gate_art": true,
+    "creates_static_fixed_facing_gate_art": true,
+    "creates_rank_scaled_gate_size": true,
+    "creates_portal_particles_and_sound": true,
+    "attempts_elite_holograms_creation": false,
+    "creates_fallback_armor_stand_nameplate": false,
+    "creates_invisible_light_blocks": true,
+    "writes_spawn_test_report": true,
+    "cross_dimensional_portal_entity_enabled": true,
+    "cross_dimensional_portal_entity_mode": "circular_teleportable_immersive_portals_surface_with_helper_fallback",
+    "immersive_portals_circular_shape_enabled": true,
+    "immersive_portals_teleportable_surface_enabled": true,
+    "item_gate_texture_has_transparent_aperture": true
+  },
+  "live_scheduler": {
+    "scope": "one_active_rift_per_rank",
+    "initial_delay_minutes_after_world_load": 12,
+    "attempt_interval_seconds": 90,
+    "attempt_chance": 0.16,
+    "maximum_active_rifts_global": 5,
+    "maximum_active_rifts_per_rank": 1,
+    "rank_slots": [
+      "d_rank",
+      "c_rank",
+      "b_rank",
+      "a_rank",
+      "s_rank"
+    ],
+    "spawn_attempt_requires_safe_footing": true,
+    "avoid_water_lava_ice_and_air_surfaces": true,
+    "forced_test_command": "/ascdungeon spawn_random_now",
+    "notes": "The helper supports one active dungeon instance per rank slot, for five active world rifts total. Random spawning is enabled as a controlled live-test layer, not a finished public event director."
+  },
+  "rift_duration_minutes_by_rank": {
+    "d_rank": 30,
+    "c_rank": 26,
+    "b_rank": 22,
+    "a_rank": 18,
+    "s_rank": 15
+  },
+  "spawn_range_blocks_by_rank": {
+    "d_rank": {
+      "min": 180,
+      "max": 380
+    },
+    "c_rank": {
+      "min": 220,
+      "max": 440
+    },
+    "b_rank": {
+      "min": 260,
+      "max": 520
+    },
+    "a_rank": {
+      "min": 320,
+      "max": 640
+    },
+    "s_rank": {
+      "min": 380,
+      "max": 760
+    }
+  },
+  "rank_spawn_weights": {
+    "d_rank": {
+      "base_weight": 45,
+      "minimum_distance": 0,
+      "maximum_distance": 7000
+    },
+    "c_rank": {
+      "base_weight": 35,
+      "minimum_distance": 2500,
+      "maximum_distance": 11000
+    },
+    "b_rank": {
+      "base_weight": 16,
+      "minimum_distance": 5000,
+      "maximum_distance": 18000
+    },
+    "a_rank": {
+      "base_weight": 4,
+      "minimum_distance": 9000,
+      "maximum_distance": 26000
+    },
+    "s_rank": {
+      "base_weight": 1,
+      "minimum_distance": 14000,
+      "maximum_distance": 30000
+    }
+  },
+  "runtime_rules": {
+    "higher_rank_rifts_are_rarer": true,
+    "higher_rank_rifts_are_larger": true,
+    "entrance_rift_expires": true,
+    "exit_gate_spawns_only_after_boss_defeat": true,
+    "no_exit_gate_before_boss_defeat": true,
+    "no_random_world_structure_rewrites": true,
+    "no_village_or_road_interaction": true
+  },
+  "still_disabled_until_later": [
+    "loot payout rewrites outside ascendant_dungeons loot tables",
+    "rank hard gates",
+    "party-aware ownership and invite rules",
+    "fully authored dungeon structure-pool generation"
+  ]
+}

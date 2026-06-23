@@ -1,0 +1,1820 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T02:37:09+00:00",
+  "status": "reconnaissance_only_no_worldgen_changes",
+  "scope": {
+    "adds_roads": false,
+    "adds_bridges": false,
+    "injects_villages": false,
+    "changes_live_generation": false
+  },
+  "summary": {
+    "road_sources": 6,
+    "path_or_travel_structures_detected": 68,
+    "path_structure_families": {
+      "born_in_chaos_[Forge]1.20.1_1.7.5": 1,
+      "human_companions": 1,
+      "integrated_dungeons_and_structures": 16,
+      "integrated_villages": 4,
+      "MoogsEndStructures-1.20-2.0.3": 1,
+      "minecraft-1.20.1": 7,
+      "minecraft_vanilla_villages": 4,
+      "MoogsSoaringStructures-1.20-2.1.0": 4,
+      "moogs_voyager_structures": 23,
+      "structory": 5,
+      "towns_and_towers": 2
+    },
+    "note": "Road evidence is mostly template-local village/path content, not a connected Atlas travel network."
+  },
+  "road_sources": [
+    {
+      "source_id": "minecraft:village_paths",
+      "mod_source": "Minecraft vanilla villages",
+      "config_path": null,
+      "structure_ids_or_templates": [
+        "minecraft:village_savanna",
+        "minecraft:village_plains",
+        "minecraft:village_snowy",
+        "minecraft:village_taiga"
+      ],
+      "biome_tags": "vanilla village biome tags",
+      "spacing_density": "minecraft:villages spacing 34 / separation 8 from generated audit",
+      "slope_behavior": "template and jigsaw terrain adaptation; not Atlas-aware",
+      "bridge_behavior": "not a reliable road bridge layer",
+      "known_failure_types": [
+        "bridge_absence_risk",
+        "slope_behavior_unknown",
+        "water_edge_or_crossing_risk"
+      ],
+      "recommendation": "keep_manual_review"
+    },
+    {
+      "source_id": "integrated_villages:path_networks",
+      "mod_source": "Integrated Villages",
+      "config_path": "config/integrated_villages-forge-1_20.toml",
+      "structure_ids_or_templates": [
+        "integrated_villages:mossy_mounds",
+        "integrated_villages:clockwork_village",
+        "integrated_villages:quark/minka_village",
+        "integrated_villages:pirate_village"
+      ],
+      "biome_tags": "integrated_villages biome tags plus OpenLoader repairs",
+      "spacing_density": "regular_villages spacing 64 / separation 32 from OpenLoader override",
+      "slope_behavior": "template-local paths; final slope handling needs in-game field review",
+      "bridge_behavior": "mossy_mounds has bridge templates; pirate_village has docks; not a general road network",
+      "known_failure_types": [
+        "bridge_absence_risk",
+        "dock_water_edge_risk",
+        "slope_behavior_unknown"
+      ],
+      "recommendation": "keep_but_review_paths_docks_and_local_bridges"
+    },
+    {
+      "source_id": "towns_and_towers:streets",
+      "mod_source": "Towns and Towers",
+      "config_path": "config/towns_and_towers/structure_rarity_new.json5",
+      "structure_ids_or_templates": [
+        "towns_and_towers:village_jungle",
+        "towns_and_towers:village_snowy_taiga"
+      ],
+      "biome_tags": "Towns and Towers structure biome tags",
+      "spacing_density": "towns 52/24, towers 48/22, other 36/14 from active config",
+      "slope_behavior": "village street templates; no terrain-aware Atlas road correction",
+      "bridge_behavior": "no direct bridge/dock template evidence found in jar scan",
+      "known_failure_types": [
+        "bridge_absence_risk",
+        "slope_behavior_unknown",
+        "village_town_overlap_risk"
+      ],
+      "recommendation": "keep_but_manual_review_before_settlement_work"
+    },
+    {
+      "source_id": "mvs:paths",
+      "mod_source": "Moog's Voyager Structures",
+      "config_path": null,
+      "structure_ids_or_templates": [
+        "mvs:paths"
+      ],
+      "biome_tags": "MVS structure biome tags",
+      "spacing_density": "spacing 35 / separation 12 from generated audit",
+      "slope_behavior": "small path landmark; terrain purpose unknown",
+      "bridge_behavior": "not a river crossing system",
+      "known_failure_types": [
+        "roads_to_nowhere_risk",
+        "purpose_not_connected_to_settlements"
+      ],
+      "recommendation": "manual_review_for_roads_to_nowhere"
+    },
+    {
+      "source_id": "supplementaries:way_sign",
+      "mod_source": "Supplementaries",
+      "config_path": null,
+      "structure_ids_or_templates": [
+        "supplementaries:way_sign"
+      ],
+      "biome_tags": "Supplementaries worldgen tags",
+      "spacing_density": "spacing 19 / separation 10 from structure density audit",
+      "slope_behavior": "not a road, but a travel marker that should not imply missing routes",
+      "bridge_behavior": "none",
+      "known_failure_types": [
+        "travel_marker_without_route_context"
+      ],
+      "recommendation": "keep_observe_only"
+    },
+    {
+      "source_id": "template_local_paths:idas_structory_humancompanions_moog",
+      "mod_source": "IDAS, Structory, Human Companions, Moog structures",
+      "config_path": null,
+      "structure_ids_or_templates": [
+        "idas:treetop_tavern",
+        "structory:outcast_villager_grassy",
+        "structory:ruin_grassy",
+        "idas:winter_wagon",
+        "structory:dense_forest_ruin",
+        "structory:graveyard",
+        "structory:abandoned_camp",
+        "mvs:big_oak_tree",
+        "mvs:tree_monument",
+        "humancompanions:oak_house",
+        "mvs:campsite",
+        "mvs:crystal",
+        "idas:ancient_statue/ancient_statue_plains",
+        "mvs:mineshaft",
+        "idas:lumber_camp/lumber_camp_acacia",
+        "idas:pillager_camp",
+        "idas:lumber_camp/lumber_camp_bygmahogany",
+        "idas:lumber_camp/lumber_camp_jungle",
+        "idas:lumber_camp/lumber_camp_bopmahogany",
+        "mvs:tall_house",
+        "mvs:house",
+        "idas:lumber_camp/lumber_camp_oak",
+        "idas:lumber_camp/lumber_camp_bopredwood",
+        "idas:lumber_camp/lumber_camp_dark_oak",
+        "idas:lumber_camp/lumber_camp_spruce",
+        "mvs:barn",
+        "mvs:mushroom_pond",
+        "mvs:gallows",
+        "mvs:small_ruin",
+        "idas:lumber_camp/lumber_camp_birch",
+        "mvs:small_copper_well",
+        "mvs:statue_ruins",
+        "mvs:paths",
+        "idas:lumber_camp/lumber_camp_bygredwood",
+        "mvs:lamp_chest",
+        "mvs:shed",
+        "mvs:stone_pillars",
+        "mvs:log_ruin",
+        "mvs:dark_oak_well",
+        "mvs:jungle_well",
+        "mvs:oak_well",
+        "mvs:horse_campsite",
+        "mvs:small_well",
+        "idas:ancient_portal/ancient_portal",
+        "idas:ancient_portal/nether_ancient_portal"
+      ],
+      "biome_tags": "per-mod structure biome tags",
+      "spacing_density": "varies by structure set; see template_local_path_risks",
+      "slope_behavior": "template-local paths/grounds only",
+      "bridge_behavior": "not a connected bridge system",
+      "known_failure_types": [
+        "local_path_edge_risk",
+        "slope_behavior_unknown"
+      ],
+      "recommendation": "keep_observe_only"
+    }
+  ],
+  "template_local_path_risks": [
+    {
+      "structure_id": "minecraft:village_savanna",
+      "source_mod": "minecraft-1.20.1",
+      "family": "minecraft_vanilla_villages",
+      "start_pool": "minecraft:village/savanna/town_centers",
+      "path_like_block_count": 501,
+      "water_block_count": 30,
+      "structure_sets": [
+        {
+          "salt": 10387312,
+          "separation": 8,
+          "source": "minecraft-1.20.1",
+          "spacing": 34,
+          "structure_set": "minecraft:villages"
+        }
+      ],
+      "recommendation": "keep_manual_review",
+      "known_failure_types": [
+        "bridge_absence_risk",
+        "high_template_path_volume",
+        "slope_behavior_unknown",
+        "water_edge_or_crossing_risk"
+      ]
+    },
+    {
+      "structure_id": "integrated_villages:mossy_mounds",
+      "source_mod": "integrated_villages-1.3.2+1.20.1-forge.jar",
+      "family": "integrated_villages",
+      "start_pool": "integrated_villages:mossy_mounds/party_tree/party_tree",
+      "path_like_block_count": 477,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 1982700828,
+          "separation": 32,
+          "source": "active-instance-openloader:ascendant_realms_world_integration",
+          "spacing": 64,
+          "structure_set": "integrated_villages:regular_villages"
+        }
+      ],
+      "recommendation": "keep_but_review_paths_docks_and_local_bridges",
+      "known_failure_types": [
+        "bridge_absence_risk",
+        "high_template_path_volume",
+        "slope_behavior_unknown"
+      ]
+    },
+    {
+      "structure_id": "minecraft:village_plains",
+      "source_mod": "minecraft-1.20.1",
+      "family": "minecraft_vanilla_villages",
+      "start_pool": "minecraft:village/plains/town_centers",
+      "path_like_block_count": 396,
+      "water_block_count": 50,
+      "structure_sets": [
+        {
+          "salt": 10387312,
+          "separation": 8,
+          "source": "minecraft-1.20.1",
+          "spacing": 34,
+          "structure_set": "minecraft:villages"
+        }
+      ],
+      "recommendation": "keep_manual_review",
+      "known_failure_types": [
+        "bridge_absence_risk",
+        "high_template_path_volume",
+        "slope_behavior_unknown",
+        "water_edge_or_crossing_risk"
+      ]
+    },
+    {
+      "structure_id": "minecraft:village_snowy",
+      "source_mod": "minecraft-1.20.1",
+      "family": "minecraft_vanilla_villages",
+      "start_pool": "minecraft:village/snowy/town_centers",
+      "path_like_block_count": 266,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 10387312,
+          "separation": 8,
+          "source": "minecraft-1.20.1",
+          "spacing": 34,
+          "structure_set": "minecraft:villages"
+        }
+      ],
+      "recommendation": "keep_manual_review",
+      "known_failure_types": [
+        "bridge_absence_risk",
+        "high_template_path_volume",
+        "slope_behavior_unknown"
+      ]
+    },
+    {
+      "structure_id": "minecraft:village_taiga",
+      "source_mod": "minecraft-1.20.1",
+      "family": "minecraft_vanilla_villages",
+      "start_pool": "minecraft:village/taiga/town_centers",
+      "path_like_block_count": 160,
+      "water_block_count": 38,
+      "structure_sets": [
+        {
+          "salt": 10387312,
+          "separation": 8,
+          "source": "minecraft-1.20.1",
+          "spacing": 34,
+          "structure_set": "minecraft:villages"
+        }
+      ],
+      "recommendation": "keep_manual_review",
+      "known_failure_types": [
+        "bridge_absence_risk",
+        "high_template_path_volume",
+        "slope_behavior_unknown",
+        "water_edge_or_crossing_risk"
+      ]
+    },
+    {
+      "structure_id": "idas:treetop_tavern",
+      "source_mod": "idas_forge-1.13.0+1.20.1.jar",
+      "family": "integrated_dungeons_and_structures",
+      "start_pool": "idas:treetop_tavern/treetop_tavern1",
+      "path_like_block_count": 157,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 169480670,
+          "separation": 12,
+          "source": "idas_forge-1.13.0+1.20.1.jar",
+          "spacing": 21,
+          "structure_set": "idas:idas_common"
+        }
+      ],
+      "recommendation": "manual_review_high_path_volume",
+      "known_failure_types": [
+        "high_template_path_volume"
+      ]
+    },
+    {
+      "structure_id": "towns_and_towers:village_jungle",
+      "source_mod": "Towns-and-Towers-1.12-Fabric+Forge.jar",
+      "family": "towns_and_towers",
+      "start_pool": "kaisyn:village/jungle_tribal/town_centers",
+      "path_like_block_count": 120,
+      "water_block_count": 8,
+      "structure_sets": [
+        {
+          "salt": 10587309,
+          "separation": 24,
+          "source": "Towns-and-Towers-1.12-Fabric+Forge.jar",
+          "spacing": 48,
+          "structure_set": "towns_and_towers:towns"
+        }
+      ],
+      "recommendation": "keep_but_manual_review_before_settlement_work",
+      "known_failure_types": [
+        "bridge_absence_risk",
+        "high_template_path_volume",
+        "slope_behavior_unknown",
+        "water_edge_or_crossing_risk"
+      ]
+    },
+    {
+      "structure_id": "structory:outcast_villager_grassy",
+      "source_mod": "Structory_1.20.x_v1.3.5.jar",
+      "family": "structory",
+      "start_pool": "structory:outcast_villager/grassy",
+      "path_like_block_count": 120,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 420,
+          "separation": 14,
+          "source": "Structory_1.20.x_v1.3.5.jar",
+          "spacing": 44,
+          "structure_set": "structory:outcast_villager"
+        }
+      ],
+      "recommendation": "manual_review_high_path_volume",
+      "known_failure_types": [
+        "high_template_path_volume"
+      ]
+    },
+    {
+      "structure_id": "structory:ruin_grassy",
+      "source_mod": "Structory_1.20.x_v1.3.5.jar",
+      "family": "structory",
+      "start_pool": "structory:ruin/grassy",
+      "path_like_block_count": 117,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 420,
+          "separation": 14,
+          "source": "Structory_1.20.x_v1.3.5.jar",
+          "spacing": 44,
+          "structure_set": "structory:outcast_villager"
+        }
+      ],
+      "recommendation": "manual_review_high_path_volume",
+      "known_failure_types": [
+        "high_template_path_volume"
+      ]
+    },
+    {
+      "structure_id": "towns_and_towers:village_snowy_taiga",
+      "source_mod": "Towns-and-Towers-1.12-Fabric+Forge.jar",
+      "family": "towns_and_towers",
+      "start_pool": "kaisyn:village/snowy_taiga_viking/town_centers",
+      "path_like_block_count": 90,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 10587309,
+          "separation": 24,
+          "source": "Towns-and-Towers-1.12-Fabric+Forge.jar",
+          "spacing": 48,
+          "structure_set": "towns_and_towers:towns"
+        }
+      ],
+      "recommendation": "keep_but_manual_review_before_settlement_work",
+      "known_failure_types": [
+        "bridge_absence_risk",
+        "slope_behavior_unknown"
+      ]
+    },
+    {
+      "structure_id": "idas:winter_wagon",
+      "source_mod": "idas_forge-1.13.0+1.20.1.jar",
+      "family": "integrated_dungeons_and_structures",
+      "start_pool": "idas:winter_wagon/winter_wagon",
+      "path_like_block_count": 76,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 169480670,
+          "separation": 12,
+          "source": "idas_forge-1.13.0+1.20.1.jar",
+          "spacing": 21,
+          "structure_set": "idas:idas_common"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "structory:dense_forest_ruin",
+      "source_mod": "Structory_1.20.x_v1.3.5.jar",
+      "family": "structory",
+      "start_pool": "structory:harvest/manor/ruin",
+      "path_like_block_count": 70,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 22427392,
+          "separation": 16,
+          "source": "Structory_1.20.x_v1.3.5.jar",
+          "spacing": 42,
+          "structure_set": "structory:old_manor"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "structory:graveyard",
+      "source_mod": "Structory_1.20.x_v1.3.5.jar",
+      "family": "structory",
+      "start_pool": "structory:harvest/chapel/graveyard",
+      "path_like_block_count": 66,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 420,
+          "separation": 14,
+          "source": "Structory_1.20.x_v1.3.5.jar",
+          "spacing": 44,
+          "structure_set": "structory:outcast_villager"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "structory:abandoned_camp",
+      "source_mod": "Structory_1.20.x_v1.3.5.jar",
+      "family": "structory",
+      "start_pool": "structory:harvest/camp",
+      "path_like_block_count": 64,
+      "water_block_count": 10,
+      "structure_sets": [
+        {
+          "salt": 420,
+          "separation": 14,
+          "source": "Structory_1.20.x_v1.3.5.jar",
+          "spacing": 44,
+          "structure_set": "structory:outcast_villager"
+        }
+      ],
+      "recommendation": "manual_review_water_edge_behavior",
+      "known_failure_types": [
+        "water_edge_or_crossing_risk"
+      ]
+    },
+    {
+      "structure_id": "mvs:big_oak_tree",
+      "source_mod": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "family": "moogs_voyager_structures",
+      "start_pool": "mvs:nature/big_oak_tree/start_pool",
+      "path_like_block_count": 60,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 269965421,
+          "separation": 26,
+          "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+          "spacing": 39,
+          "structure_set": "mvs:big_oak_tree"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "mss:white_house",
+      "source_mod": "MoogsSoaringStructures-1.20-2.1.0.jar",
+      "family": "MoogsSoaringStructures-1.20-2.1.0",
+      "start_pool": "mss:white_house/start_pool",
+      "path_like_block_count": 58,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 665411587,
+          "separation": 92,
+          "source": "MoogsSoaringStructures-1.20-2.1.0.jar",
+          "spacing": 125,
+          "structure_set": "mss:white_house"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "mvs:tree_monument",
+      "source_mod": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "family": "moogs_voyager_structures",
+      "start_pool": "mvs:ruins/tree_monument/start_pool",
+      "path_like_block_count": 49,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 699754652,
+          "separation": 65,
+          "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+          "spacing": 76,
+          "structure_set": "mvs:tree_monument"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "humancompanions:oak_house",
+      "source_mod": "humancompanions-1.20.1-1.7.6.jar",
+      "family": "human_companions",
+      "start_pool": "humancompanions:oak_pool",
+      "path_like_block_count": 44,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 1234567890,
+          "separation": 10,
+          "source": "humancompanions-1.20.1-1.7.6.jar",
+          "spacing": 15,
+          "structure_set": "humancompanions:companion_house"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "mvs:campsite",
+      "source_mod": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "family": "moogs_voyager_structures",
+      "start_pool": "mvs:other_decoration/campsite/start_pool",
+      "path_like_block_count": 44,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 818985846,
+          "separation": 30,
+          "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+          "spacing": 37,
+          "structure_set": "mvs:campsite"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "mvs:crystal",
+      "source_mod": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "family": "moogs_voyager_structures",
+      "start_pool": "mvs:crystal/temp",
+      "path_like_block_count": 40,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 469982354,
+          "separation": 62,
+          "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+          "spacing": 112,
+          "structure_set": "mvs:crystal"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "idas:ancient_statue/ancient_statue_plains",
+      "source_mod": "idas_forge-1.13.0+1.20.1.jar",
+      "family": "integrated_dungeons_and_structures",
+      "start_pool": "idas:ancient_statue/ancient_statue_plains",
+      "path_like_block_count": 37,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 169480673,
+          "separation": 20,
+          "source": "idas_forge-1.13.0+1.20.1.jar",
+          "spacing": 26,
+          "structure_set": "idas:idas_small"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "mvs:mineshaft",
+      "source_mod": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "family": "moogs_voyager_structures",
+      "start_pool": "mvs:mineshaft/mineshaft",
+      "path_like_block_count": 36,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 998373664,
+          "separation": 30,
+          "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+          "spacing": 42,
+          "structure_set": "mvs:mineshaft"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "idas:lumber_camp/lumber_camp_acacia",
+      "source_mod": "idas_forge-1.13.0+1.20.1.jar",
+      "family": "integrated_dungeons_and_structures",
+      "start_pool": "idas:lumber_camp/lumber_camp_acacia",
+      "path_like_block_count": 28,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 169480673,
+          "separation": 20,
+          "source": "idas_forge-1.13.0+1.20.1.jar",
+          "spacing": 26,
+          "structure_set": "idas:idas_small"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "idas:pillager_camp",
+      "source_mod": "idas_forge-1.13.0+1.20.1.jar",
+      "family": "integrated_dungeons_and_structures",
+      "start_pool": "idas:pillager_camp/pillager_camp",
+      "path_like_block_count": 23,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 169480673,
+          "separation": 20,
+          "source": "idas_forge-1.13.0+1.20.1.jar",
+          "spacing": 26,
+          "structure_set": "idas:idas_small"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "idas:lumber_camp/lumber_camp_bygmahogany",
+      "source_mod": "idas_forge-1.13.0+1.20.1.jar",
+      "family": "integrated_dungeons_and_structures",
+      "start_pool": "idas:lumber_camp/lumber_camp_bygmahogany",
+      "path_like_block_count": 20,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 169480673,
+          "separation": 20,
+          "source": "idas_forge-1.13.0+1.20.1.jar",
+          "spacing": 26,
+          "structure_set": "idas:idas_small"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "idas:lumber_camp/lumber_camp_jungle",
+      "source_mod": "idas_forge-1.13.0+1.20.1.jar",
+      "family": "integrated_dungeons_and_structures",
+      "start_pool": "idas:lumber_camp/lumber_camp_jungle",
+      "path_like_block_count": 20,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 169480673,
+          "separation": 20,
+          "source": "idas_forge-1.13.0+1.20.1.jar",
+          "spacing": 26,
+          "structure_set": "idas:idas_small"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "idas:lumber_camp/lumber_camp_bopmahogany",
+      "source_mod": "idas_forge-1.13.0+1.20.1.jar",
+      "family": "integrated_dungeons_and_structures",
+      "start_pool": "idas:lumber_camp/lumber_camp_bopmahogany",
+      "path_like_block_count": 19,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 169480673,
+          "separation": 20,
+          "source": "idas_forge-1.13.0+1.20.1.jar",
+          "spacing": 26,
+          "structure_set": "idas:idas_small"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "mvs:tall_house",
+      "source_mod": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "family": "moogs_voyager_structures",
+      "start_pool": "mvs:houses/tall_house/start_pool",
+      "path_like_block_count": 18,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 665569523,
+          "separation": 34,
+          "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+          "spacing": 42,
+          "structure_set": "mvs:tall_house"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "mvs:house",
+      "source_mod": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "family": "moogs_voyager_structures",
+      "start_pool": "mvs:houses/house/start_pool",
+      "path_like_block_count": 17,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 866369854,
+          "separation": 31,
+          "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+          "spacing": 38,
+          "structure_set": "mvs:house"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "mes:mythic_garden",
+      "source_mod": "MoogsEndStructures-1.20-2.0.3.jar",
+      "family": "MoogsEndStructures-1.20-2.0.3",
+      "start_pool": "mes:mythic_garden_start_pool",
+      "path_like_block_count": 16,
+      "water_block_count": 36,
+      "structure_sets": [
+        {
+          "salt": 985747587,
+          "separation": 20,
+          "source": "MoogsEndStructures-1.20-2.0.3.jar",
+          "spacing": 25,
+          "structure_set": "mes:mythic_garden"
+        }
+      ],
+      "recommendation": "manual_review_water_edge_behavior",
+      "known_failure_types": [
+        "water_edge_or_crossing_risk"
+      ]
+    },
+    {
+      "structure_id": "idas:lumber_camp/lumber_camp_oak",
+      "source_mod": "idas_forge-1.13.0+1.20.1.jar",
+      "family": "integrated_dungeons_and_structures",
+      "start_pool": "idas:lumber_camp/lumber_camp_oak",
+      "path_like_block_count": 14,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 169480673,
+          "separation": 20,
+          "source": "idas_forge-1.13.0+1.20.1.jar",
+          "spacing": 26,
+          "structure_set": "idas:idas_small"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "idas:lumber_camp/lumber_camp_bopredwood",
+      "source_mod": "idas_forge-1.13.0+1.20.1.jar",
+      "family": "integrated_dungeons_and_structures",
+      "start_pool": "idas:lumber_camp/lumber_camp_bopredwood",
+      "path_like_block_count": 13,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 169480673,
+          "separation": 20,
+          "source": "idas_forge-1.13.0+1.20.1.jar",
+          "spacing": 26,
+          "structure_set": "idas:idas_small"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "idas:lumber_camp/lumber_camp_dark_oak",
+      "source_mod": "idas_forge-1.13.0+1.20.1.jar",
+      "family": "integrated_dungeons_and_structures",
+      "start_pool": "idas:lumber_camp/lumber_camp_dark_oak",
+      "path_like_block_count": 13,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 169480673,
+          "separation": 20,
+          "source": "idas_forge-1.13.0+1.20.1.jar",
+          "spacing": 26,
+          "structure_set": "idas:idas_small"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "idas:lumber_camp/lumber_camp_spruce",
+      "source_mod": "idas_forge-1.13.0+1.20.1.jar",
+      "family": "integrated_dungeons_and_structures",
+      "start_pool": "idas:lumber_camp/lumber_camp_spruce",
+      "path_like_block_count": 13,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 169480673,
+          "separation": 20,
+          "source": "idas_forge-1.13.0+1.20.1.jar",
+          "spacing": 26,
+          "structure_set": "idas:idas_small"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "mvs:barn",
+      "source_mod": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "family": "moogs_voyager_structures",
+      "start_pool": "mvs:houses/barn/start_pool",
+      "path_like_block_count": 13,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 766544243,
+          "separation": 26,
+          "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+          "spacing": 31,
+          "structure_set": "mvs:barn"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "mvs:mushroom_pond",
+      "source_mod": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "family": "moogs_voyager_structures",
+      "start_pool": "mvs:nature/mushroom_pond/start_pool",
+      "path_like_block_count": 12,
+      "water_block_count": 3,
+      "structure_sets": [
+        {
+          "salt": 636984325,
+          "separation": 12,
+          "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+          "spacing": 48,
+          "structure_set": "mvs:mushroom_pond"
+        }
+      ],
+      "recommendation": "manual_review_water_edge_behavior",
+      "known_failure_types": [
+        "water_edge_or_crossing_risk"
+      ]
+    },
+    {
+      "structure_id": "mvs:gallows",
+      "source_mod": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "family": "moogs_voyager_structures",
+      "start_pool": "mvs:other/gallows/start_pool",
+      "path_like_block_count": 12,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 248956103,
+          "separation": 28,
+          "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+          "spacing": 36,
+          "structure_set": "mvs:gallows"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "mvs:small_ruin",
+      "source_mod": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "family": "moogs_voyager_structures",
+      "start_pool": "mvs:ruins/small_ruin/start_pool",
+      "path_like_block_count": 12,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 690254035,
+          "separation": 26,
+          "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+          "spacing": 38,
+          "structure_set": "mvs:small_ruin"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "idas:lumber_camp/lumber_camp_birch",
+      "source_mod": "idas_forge-1.13.0+1.20.1.jar",
+      "family": "integrated_dungeons_and_structures",
+      "start_pool": "idas:lumber_camp/lumber_camp_birch",
+      "path_like_block_count": 11,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 169480673,
+          "separation": 20,
+          "source": "idas_forge-1.13.0+1.20.1.jar",
+          "spacing": 26,
+          "structure_set": "idas:idas_small"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "mvs:small_copper_well",
+      "source_mod": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "family": "moogs_voyager_structures",
+      "start_pool": "mvs:well/small_copper_well/start_pool",
+      "path_like_block_count": 11,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 336692254,
+          "separation": 18,
+          "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+          "spacing": 24,
+          "structure_set": "mvs:other_wells"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "mvs:statue_ruins",
+      "source_mod": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "family": "moogs_voyager_structures",
+      "start_pool": "mvs:ruins/statue_ruins/start_pool",
+      "path_like_block_count": 11,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 696985421,
+          "separation": 30,
+          "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+          "spacing": 38,
+          "structure_set": "mvs:statue_ruins"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "mvs:paths",
+      "source_mod": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "family": "moogs_voyager_structures",
+      "start_pool": "mvs:nature/paths",
+      "path_like_block_count": 10,
+      "water_block_count": 4,
+      "structure_sets": [
+        {
+          "salt": 274893027,
+          "separation": 12,
+          "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+          "spacing": 35,
+          "structure_set": "mvs:paths"
+        }
+      ],
+      "recommendation": "manual_review_for_roads_to_nowhere",
+      "known_failure_types": [
+        "purpose_not_connected_to_settlements",
+        "roads_to_nowhere_risk",
+        "water_edge_or_crossing_risk"
+      ]
+    },
+    {
+      "structure_id": "idas:lumber_camp/lumber_camp_bygredwood",
+      "source_mod": "idas_forge-1.13.0+1.20.1.jar",
+      "family": "integrated_dungeons_and_structures",
+      "start_pool": "idas:lumber_camp/lumber_camp_bygredwood",
+      "path_like_block_count": 10,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 169480673,
+          "separation": 20,
+          "source": "idas_forge-1.13.0+1.20.1.jar",
+          "spacing": 26,
+          "structure_set": "idas:idas_small"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "mvs:lamp_chest",
+      "source_mod": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "family": "moogs_voyager_structures",
+      "start_pool": "mvs:other_decoration/lamp_chest/start_pool",
+      "path_like_block_count": 7,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 643656895,
+          "separation": 14,
+          "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+          "spacing": 45,
+          "structure_set": "mvs:lamp_chest"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "mvs:shed",
+      "source_mod": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "family": "moogs_voyager_structures",
+      "start_pool": "mvs:other/shed/start_pool",
+      "path_like_block_count": 7,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 532363685,
+          "separation": 23,
+          "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+          "spacing": 38,
+          "structure_set": "mvs:shed"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "mvs:stone_pillars",
+      "source_mod": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "family": "moogs_voyager_structures",
+      "start_pool": "mvs:ruins/stone_pillars/start_pool",
+      "path_like_block_count": 7,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 730087540,
+          "separation": 36,
+          "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+          "spacing": 42,
+          "structure_set": "mvs:stone_pillars"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "born_in_chaos_v1:farm",
+      "source_mod": "born_in_chaos_[Forge]1.20.1_1.7.5.jar",
+      "family": "born_in_chaos_[Forge]1.20.1_1.7.5",
+      "start_pool": "born_in_chaos_v1:farm",
+      "path_like_block_count": 6,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 373118085,
+          "separation": 6,
+          "source": "born_in_chaos_[Forge]1.20.1_1.7.5.jar",
+          "spacing": 65,
+          "structure_set": "born_in_chaos_v1:farm"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "mvs:log_ruin",
+      "source_mod": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "family": "moogs_voyager_structures",
+      "start_pool": "mvs:ruins/log_ruin/start_pool",
+      "path_like_block_count": 6,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 566588121,
+          "separation": 30,
+          "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+          "spacing": 55,
+          "structure_set": "mvs:log_ruin"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "mvs:dark_oak_well",
+      "source_mod": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "family": "moogs_voyager_structures",
+      "start_pool": "mvs:well/wells/dark_oak_well/start_pool",
+      "path_like_block_count": 4,
+      "water_block_count": 1,
+      "structure_sets": [
+        {
+          "salt": 336692254,
+          "separation": 18,
+          "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+          "spacing": 24,
+          "structure_set": "mvs:other_wells"
+        }
+      ],
+      "recommendation": "manual_review_water_edge_behavior",
+      "known_failure_types": [
+        "water_edge_or_crossing_risk"
+      ]
+    },
+    {
+      "structure_id": "mvs:jungle_well",
+      "source_mod": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "family": "moogs_voyager_structures",
+      "start_pool": "mvs:well/wells/jungle_well/start_pool",
+      "path_like_block_count": 4,
+      "water_block_count": 1,
+      "structure_sets": [
+        {
+          "salt": 336692254,
+          "separation": 18,
+          "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+          "spacing": 24,
+          "structure_set": "mvs:other_wells"
+        }
+      ],
+      "recommendation": "manual_review_water_edge_behavior",
+      "known_failure_types": [
+        "water_edge_or_crossing_risk"
+      ]
+    },
+    {
+      "structure_id": "mvs:oak_well",
+      "source_mod": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "family": "moogs_voyager_structures",
+      "start_pool": "mvs:well/wells/oak_well/start_pool",
+      "path_like_block_count": 4,
+      "water_block_count": 1,
+      "structure_sets": [
+        {
+          "salt": 336692254,
+          "separation": 18,
+          "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+          "spacing": 24,
+          "structure_set": "mvs:other_wells"
+        }
+      ],
+      "recommendation": "manual_review_water_edge_behavior",
+      "known_failure_types": [
+        "water_edge_or_crossing_risk"
+      ]
+    },
+    {
+      "structure_id": "mvs:horse_campsite",
+      "source_mod": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "family": "moogs_voyager_structures",
+      "start_pool": "mvs:other_decoration/horse_campsite",
+      "path_like_block_count": 2,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 299909574,
+          "separation": 17,
+          "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+          "spacing": 19,
+          "structure_set": "mvs:horse_campsite"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "mvs:small_well",
+      "source_mod": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+      "family": "moogs_voyager_structures",
+      "start_pool": "mvs:well/small_well/start_pool",
+      "path_like_block_count": 2,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 336692254,
+          "separation": 18,
+          "source": "MoogsVoyagerStructures-1.20-5.0.6.jar",
+          "spacing": 24,
+          "structure_set": "mvs:other_wells"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "mss:birch_river",
+      "source_mod": "MoogsSoaringStructures-1.20-2.1.0.jar",
+      "family": "MoogsSoaringStructures-1.20-2.1.0",
+      "start_pool": "mss:birch_river_start_pool",
+      "path_like_block_count": 0,
+      "water_block_count": 487,
+      "structure_sets": [
+        {
+          "salt": 33165454,
+          "separation": 34,
+          "source": "MoogsSoaringStructures-1.20-2.1.0.jar",
+          "spacing": 76,
+          "structure_set": "mss:birch_river"
+        }
+      ],
+      "recommendation": "manual_review_water_edge_behavior",
+      "known_failure_types": [
+        "water_edge_or_crossing_risk"
+      ]
+    },
+    {
+      "structure_id": "mss:cherry_river",
+      "source_mod": "MoogsSoaringStructures-1.20-2.1.0.jar",
+      "family": "MoogsSoaringStructures-1.20-2.1.0",
+      "start_pool": "mss:cherry_river_start_pool",
+      "path_like_block_count": 0,
+      "water_block_count": 228,
+      "structure_sets": [
+        {
+          "salt": 969875642,
+          "separation": 17,
+          "source": "MoogsSoaringStructures-1.20-2.1.0.jar",
+          "spacing": 53,
+          "structure_set": "mss:cherry_river"
+        }
+      ],
+      "recommendation": "manual_review_water_edge_behavior",
+      "known_failure_types": [
+        "water_edge_or_crossing_risk"
+      ]
+    },
+    {
+      "structure_id": "integrated_villages:clockwork_village",
+      "source_mod": "integrated_villages-1.3.2+1.20.1-forge.jar",
+      "family": "integrated_villages",
+      "start_pool": "integrated_villages:clockwork_village/path/fountain",
+      "path_like_block_count": 0,
+      "water_block_count": 191,
+      "structure_sets": [
+        {
+          "salt": 1982700828,
+          "separation": 32,
+          "source": "active-instance-openloader:ascendant_realms_world_integration",
+          "spacing": 64,
+          "structure_set": "integrated_villages:regular_villages"
+        }
+      ],
+      "recommendation": "keep_but_review_paths_docks_and_local_bridges",
+      "known_failure_types": [
+        "bridge_absence_risk",
+        "slope_behavior_unknown",
+        "water_edge_or_crossing_risk"
+      ]
+    },
+    {
+      "structure_id": "integrated_villages:quark/minka_village",
+      "source_mod": "integrated_villages-1.3.2+1.20.1-forge.jar",
+      "family": "integrated_villages",
+      "start_pool": "integrated_villages:minka_village/path/torii",
+      "path_like_block_count": 0,
+      "water_block_count": 45,
+      "structure_sets": [
+        {
+          "salt": 1982700828,
+          "separation": 32,
+          "source": "active-instance-openloader:ascendant_realms_world_integration",
+          "spacing": 64,
+          "structure_set": "integrated_villages:regular_villages"
+        }
+      ],
+      "recommendation": "keep_but_review_paths_docks_and_local_bridges",
+      "known_failure_types": [
+        "bridge_absence_risk",
+        "slope_behavior_unknown",
+        "water_edge_or_crossing_risk"
+      ]
+    },
+    {
+      "structure_id": "idas:ancient_portal/ancient_portal",
+      "source_mod": "idas_forge-1.13.0+1.20.1.jar",
+      "family": "integrated_dungeons_and_structures",
+      "start_pool": "idas:ancient_portal/ancient_portal1",
+      "path_like_block_count": 0,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 169481691,
+          "separation": 40,
+          "source": "idas_forge-1.13.0+1.20.1.jar",
+          "spacing": 60,
+          "structure_set": "idas:idas_underground_rare"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "idas:ancient_portal/nether_ancient_portal",
+      "source_mod": "idas_forge-1.13.0+1.20.1.jar",
+      "family": "integrated_dungeons_and_structures",
+      "start_pool": "idas:ancient_portal/nether_ancient_portal1",
+      "path_like_block_count": 0,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 169481692,
+          "separation": 20,
+          "source": "idas_forge-1.13.0+1.20.1.jar",
+          "spacing": 35,
+          "structure_set": "idas:idas_nether"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "integrated_villages:pirate_village",
+      "source_mod": "integrated_villages-1.3.2+1.20.1-forge.jar",
+      "family": "integrated_villages",
+      "start_pool": "integrated_villages:pirate_village/docks/docks",
+      "path_like_block_count": 0,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 1982700828,
+          "separation": 32,
+          "source": "active-instance-openloader:ascendant_realms_world_integration",
+          "spacing": 64,
+          "structure_set": "integrated_villages:regular_villages"
+        }
+      ],
+      "recommendation": "keep_but_review_paths_docks_and_local_bridges",
+      "known_failure_types": [
+        "bridge_absence_risk",
+        "slope_behavior_unknown"
+      ]
+    },
+    {
+      "structure_id": "minecraft:ruined_portal",
+      "source_mod": "minecraft-1.20.1",
+      "family": "minecraft-1.20.1",
+      "start_pool": null,
+      "path_like_block_count": 0,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 34222645,
+          "separation": 15,
+          "source": "minecraft-1.20.1",
+          "spacing": 40,
+          "structure_set": "minecraft:ruined_portals"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "minecraft:ruined_portal_desert",
+      "source_mod": "minecraft-1.20.1",
+      "family": "minecraft-1.20.1",
+      "start_pool": null,
+      "path_like_block_count": 0,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 34222645,
+          "separation": 15,
+          "source": "minecraft-1.20.1",
+          "spacing": 40,
+          "structure_set": "minecraft:ruined_portals"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "minecraft:ruined_portal_jungle",
+      "source_mod": "minecraft-1.20.1",
+      "family": "minecraft-1.20.1",
+      "start_pool": null,
+      "path_like_block_count": 0,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 34222645,
+          "separation": 15,
+          "source": "minecraft-1.20.1",
+          "spacing": 40,
+          "structure_set": "minecraft:ruined_portals"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "minecraft:ruined_portal_mountain",
+      "source_mod": "minecraft-1.20.1",
+      "family": "minecraft-1.20.1",
+      "start_pool": null,
+      "path_like_block_count": 0,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 34222645,
+          "separation": 15,
+          "source": "minecraft-1.20.1",
+          "spacing": 40,
+          "structure_set": "minecraft:ruined_portals"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "minecraft:ruined_portal_nether",
+      "source_mod": "minecraft-1.20.1",
+      "family": "minecraft-1.20.1",
+      "start_pool": null,
+      "path_like_block_count": 0,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 34222645,
+          "separation": 15,
+          "source": "minecraft-1.20.1",
+          "spacing": 40,
+          "structure_set": "minecraft:ruined_portals"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "minecraft:ruined_portal_ocean",
+      "source_mod": "minecraft-1.20.1",
+      "family": "minecraft-1.20.1",
+      "start_pool": null,
+      "path_like_block_count": 0,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 34222645,
+          "separation": 15,
+          "source": "minecraft-1.20.1",
+          "spacing": 40,
+          "structure_set": "minecraft:ruined_portals"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "minecraft:ruined_portal_swamp",
+      "source_mod": "minecraft-1.20.1",
+      "family": "minecraft-1.20.1",
+      "start_pool": null,
+      "path_like_block_count": 0,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 34222645,
+          "separation": 15,
+          "source": "minecraft-1.20.1",
+          "spacing": 40,
+          "structure_set": "minecraft:ruined_portals"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    },
+    {
+      "structure_id": "mss:nether_portal",
+      "source_mod": "MoogsSoaringStructures-1.20-2.1.0.jar",
+      "family": "MoogsSoaringStructures-1.20-2.1.0",
+      "start_pool": "mss:nether_portal_start_pool",
+      "path_like_block_count": 0,
+      "water_block_count": 0,
+      "structure_sets": [
+        {
+          "salt": 889985412,
+          "separation": 52,
+          "source": "MoogsSoaringStructures-1.20-2.1.0.jar",
+          "spacing": 69,
+          "structure_set": "mss:nether_portal"
+        }
+      ],
+      "recommendation": "keep_observe_only",
+      "known_failure_types": []
+    }
+  ],
+  "structure_set_spacing_evidence": [
+    {
+      "structure_set": "born_in_chaos_v1:farm",
+      "spacing": 65,
+      "separation": 6,
+      "salt": 373118085,
+      "source": "born_in_chaos_[Forge]1.20.1_1.7.5.jar"
+    },
+    {
+      "structure_set": "humancompanions:companion_house",
+      "spacing": 15,
+      "separation": 10,
+      "salt": 1234567890,
+      "source": "humancompanions-1.20.1-1.7.6.jar"
+    },
+    {
+      "structure_set": "idas:idas_common",
+      "spacing": 21,
+      "separation": 12,
+      "salt": 169480670,
+      "source": "idas_forge-1.13.0+1.20.1.jar"
+    },
+    {
+      "structure_set": "idas:idas_nether",
+      "spacing": 35,
+      "separation": 20,
+      "salt": 169481692,
+      "source": "idas_forge-1.13.0+1.20.1.jar"
+    },
+    {
+      "structure_set": "idas:idas_small",
+      "spacing": 26,
+      "separation": 20,
+      "salt": 169480673,
+      "source": "idas_forge-1.13.0+1.20.1.jar"
+    },
+    {
+      "structure_set": "idas:idas_underground_rare",
+      "spacing": 60,
+      "separation": 40,
+      "salt": 169481691,
+      "source": "idas_forge-1.13.0+1.20.1.jar"
+    },
+    {
+      "structure_set": "integrated_villages:regular_villages",
+      "spacing": 64,
+      "separation": 32,
+      "salt": 1982700828,
+      "source": "active-instance-openloader:ascendant_realms_world_integration"
+    },
+    {
+      "structure_set": "mes:mythic_garden",
+      "spacing": 25,
+      "separation": 20,
+      "salt": 985747587,
+      "source": "MoogsEndStructures-1.20-2.0.3.jar"
+    },
+    {
+      "structure_set": "minecraft:ruined_portals",
+      "spacing": 40,
+      "separation": 15,
+      "salt": 34222645,
+      "source": "minecraft-1.20.1"
+    },
+    {
+      "structure_set": "minecraft:villages",
+      "spacing": 34,
+      "separation": 8,
+      "salt": 10387312,
+      "source": "minecraft-1.20.1"
+    },
+    {
+      "structure_set": "mss:birch_river",
+      "spacing": 76,
+      "separation": 34,
+      "salt": 33165454,
+      "source": "MoogsSoaringStructures-1.20-2.1.0.jar"
+    },
+    {
+      "structure_set": "mss:cherry_river",
+      "spacing": 53,
+      "separation": 17,
+      "salt": 969875642,
+      "source": "MoogsSoaringStructures-1.20-2.1.0.jar"
+    },
+    {
+      "structure_set": "mss:nether_portal",
+      "spacing": 69,
+      "separation": 52,
+      "salt": 889985412,
+      "source": "MoogsSoaringStructures-1.20-2.1.0.jar"
+    },
+    {
+      "structure_set": "mss:white_house",
+      "spacing": 125,
+      "separation": 92,
+      "salt": 665411587,
+      "source": "MoogsSoaringStructures-1.20-2.1.0.jar"
+    },
+    {
+      "structure_set": "mvs:barn",
+      "spacing": 31,
+      "separation": 26,
+      "salt": 766544243,
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar"
+    },
+    {
+      "structure_set": "mvs:big_oak_tree",
+      "spacing": 39,
+      "separation": 26,
+      "salt": 269965421,
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar"
+    },
+    {
+      "structure_set": "mvs:campsite",
+      "spacing": 37,
+      "separation": 30,
+      "salt": 818985846,
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar"
+    },
+    {
+      "structure_set": "mvs:crystal",
+      "spacing": 112,
+      "separation": 62,
+      "salt": 469982354,
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar"
+    },
+    {
+      "structure_set": "mvs:gallows",
+      "spacing": 36,
+      "separation": 28,
+      "salt": 248956103,
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar"
+    },
+    {
+      "structure_set": "mvs:horse_campsite",
+      "spacing": 19,
+      "separation": 17,
+      "salt": 299909574,
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar"
+    },
+    {
+      "structure_set": "mvs:house",
+      "spacing": 38,
+      "separation": 31,
+      "salt": 866369854,
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar"
+    },
+    {
+      "structure_set": "mvs:lamp_chest",
+      "spacing": 45,
+      "separation": 14,
+      "salt": 643656895,
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar"
+    },
+    {
+      "structure_set": "mvs:log_ruin",
+      "spacing": 55,
+      "separation": 30,
+      "salt": 566588121,
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar"
+    },
+    {
+      "structure_set": "mvs:mineshaft",
+      "spacing": 42,
+      "separation": 30,
+      "salt": 998373664,
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar"
+    },
+    {
+      "structure_set": "mvs:mushroom_pond",
+      "spacing": 48,
+      "separation": 12,
+      "salt": 636984325,
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar"
+    },
+    {
+      "structure_set": "mvs:other_wells",
+      "spacing": 24,
+      "separation": 18,
+      "salt": 336692254,
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar"
+    },
+    {
+      "structure_set": "mvs:paths",
+      "spacing": 35,
+      "separation": 12,
+      "salt": 274893027,
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar"
+    },
+    {
+      "structure_set": "mvs:shed",
+      "spacing": 38,
+      "separation": 23,
+      "salt": 532363685,
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar"
+    },
+    {
+      "structure_set": "mvs:small_ruin",
+      "spacing": 38,
+      "separation": 26,
+      "salt": 690254035,
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar"
+    },
+    {
+      "structure_set": "mvs:statue_ruins",
+      "spacing": 38,
+      "separation": 30,
+      "salt": 696985421,
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar"
+    },
+    {
+      "structure_set": "mvs:stone_pillars",
+      "spacing": 42,
+      "separation": 36,
+      "salt": 730087540,
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar"
+    },
+    {
+      "structure_set": "mvs:tall_house",
+      "spacing": 42,
+      "separation": 34,
+      "salt": 665569523,
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar"
+    },
+    {
+      "structure_set": "mvs:tree_monument",
+      "spacing": 76,
+      "separation": 65,
+      "salt": 699754652,
+      "source": "MoogsVoyagerStructures-1.20-5.0.6.jar"
+    },
+    {
+      "structure_set": "structory:old_manor",
+      "spacing": 42,
+      "separation": 16,
+      "salt": 22427392,
+      "source": "Structory_1.20.x_v1.3.5.jar"
+    },
+    {
+      "structure_set": "structory:outcast_villager",
+      "spacing": 44,
+      "separation": 14,
+      "salt": 420,
+      "source": "Structory_1.20.x_v1.3.5.jar"
+    },
+    {
+      "structure_set": "towns_and_towers:towns",
+      "spacing": 48,
+      "separation": 24,
+      "salt": 10587309,
+      "source": "Towns-and-Towers-1.12-Fabric+Forge.jar"
+    }
+  ],
+  "validation": {
+    "active_road_bridge_generators_without_policy": [],
+    "road_sources_with_known_cliff_or_floating_failures": [
+      "minecraft:village_paths",
+      "integrated_villages:path_networks",
+      "towns_and_towers:streets",
+      "template_local_paths:idas_structory_humancompanions_moog"
+    ],
+    "road_sources_with_roads_to_nowhere_risk": [
+      "mvs:paths"
+    ],
+    "bridge_sources_without_crossing_strategy": [
+      "yungsbridges:bridges",
+      "integrated_villages:mossy_mounds_bridge"
+    ],
+    "travel_network_docs_missing": [],
+    "live_generation_changes_enabled": []
+  }
+}

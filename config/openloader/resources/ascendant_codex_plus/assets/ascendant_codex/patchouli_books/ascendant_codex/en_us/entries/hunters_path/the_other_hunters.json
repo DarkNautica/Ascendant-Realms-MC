@@ -1,0 +1,18 @@
+{
+  "category": "ascendant_codex:hunters_path",
+  "name": "The Other Hunters",
+  "icon": "minecraft:bow",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "A Living Ladder",
+      "text": "The rank ladder is not yours alone to climb. The realm is full of $(rune)other hunters$() walking the same path - earning renown, ranking up, and bettering their gear from their own fights, just as you do."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Rivalry & Respect",
+      "text": "Watch a rival win a fight it should not have, and you will understand the realm a little better. They are mirrors of what a hunter becomes.$(br2)For who they are and how dangerous they get, see $(l:ascendant_codex:threats/rival_hunters)Rival Hunters$()."
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "version": 1,
+  "pack": {
+    "name": "Ascendant Realms",
+    "minecraft": "1.20.1",
+    "loader": "Forge",
+    "forge": "47.4.20",
+    "pack_version": "0.1.0-alpha"
+  },
+  "status": "active data-first core integration layer",
+  "enabled": true,
+  "runtime_bridge": {
+    "kubejs_loader": "kubejs/server_scripts/ascendant_core_integration.js",
+    "runtime_rules": "config/ascendant_core/runtime_rules.json",
+    "openloader_fallback": "config/openloader/data/ascendant_realms_identity/data/ascendant_identity/functions/load.mcfunction",
+    "policy": "load registries, verify linked files, create shared objectives, do not inject risky gameplay rules without a dedicated owner"
+  },
+  "source_registries": {
+    "rarity_schema": "config/ascendant_index/rarity_schema.json",
+    "gear_registry": "config/ascendant_index/gear_registry.json",
+    "mob_registry": "config/ascendant_index/mob_registry.json",
+    "structure_registry": "config/ascendant_index/structure_registry.json",
+    "skill_hook_registry": "config/ascendant_index/skill_hook_registry.json",
+    "spawn_tuning_worklist": "config/ascendant_index/spawn_tuning_worklist.json",
+    "integration_matrix": "config/ascendant_index/integration_matrix.json",
+    "guild_ranks": "config/ascendant_guild/ranks.json",
+    "guild_bounties": "config/ascendant_guild/generated_bounty_targets.json",
+    "guild_loadouts": "config/ascendant_guild/npc_loadouts.json",
+    "guild_nameplates": "config/ascendant_guild/nameplates.json",
+    "settlements": "config/ascendant_settlements/settlement_unification.json",
+    "progression": "config/ascendant_progression/progression.json"
+  },
+  "core_domains": [
+    "ranks",
+    "regions",
+    "mob_ecology",
+    "structure_ecology",
+    "loot_and_rarity",
+    "npc_roles",
+    "materials",
+    "progression_hooks",
+    "runtime_rules",
+    "custom_modules"
+  ],
+  "domain_files": {
+    "ranks": "config/ascendant_core/rank_progression.json",
+    "regions": "config/ascendant_core/world_regions.json",
+    "mob_ecology": "config/ascendant_core/mob_ecology.json",
+    "structure_ecology": "config/ascendant_core/structure_ecology.json",
+    "loot_and_rarity": "config/ascendant_core/loot_rarity_rules.json",
+    "npc_roles": "config/ascendant_core/npc_role_contracts.json",
+    "materials": "config/ascendant_core/material_unification.json",
+    "progression_hooks": "config/ascendant_core/progression_hooks.json",
+    "runtime_rules": "config/ascendant_core/runtime_rules.json",
+    "custom_modules": "config/ascendant_core/custom_module_plan.json"
+  },
+  "runtime_scoreboards": [
+    {
+      "id": "ar_guild_rep",
+      "label": "Guild Rep",
+      "color": "gold",
+      "purpose": "shared rank and contract reputation counter"
+    },
+    {
+      "id": "ar_guild_rank",
+      "label": "Guild Rank",
+      "color": "gold",
+      "purpose": "numeric rank order mirror: unranked 0 through s_rank 6"
+    },
+    {
+      "id": "ar_bounties_done",
+      "label": "Bounties",
+      "color": "yellow",
+      "purpose": "completed Guild/Hunter contract count"
+    },
+    {
+      "id": "ar_structures_done",
+      "label": "Structures",
+      "color": "aqua",
+      "purpose": "structure clear milestone counter"
+    },
+    {
+      "id": "ar_bosses_done",
+      "label": "Bosses",
+      "color": "red",
+      "purpose": "major boss proof counter"
+    },
+    {
+      "id": "ar_dragons_done",
+      "label": "Dragons",
+      "color": "dark_purple",
+      "purpose": "dragon-tier proof counter"
+    },
+    {
+      "id": "ar_region_tier",
+      "label": "Region Tier",
+      "color": "dark_aqua",
+      "purpose": "future region/distance danger mirror"
+    },
+    {
+      "id": "ar_threat_tier",
+      "label": "Threat Tier",
+      "color": "dark_red",
+      "purpose": "future encounter/nameplate threat mirror"
+    },
+    {
+      "id": "ar_hunt_kills",
+      "label": "Hunt Kills",
+      "color": "green",
+      "purpose": "player-killed hostile/modded hunt counter; not the same as completed Bountiful contracts"
+    },
+    {
+      "id": "ar_elite_kills",
+      "label": "Elite Kills",
+      "color": "dark_purple",
+      "purpose": "elite, boss-adjacent, and major-threat proof counter"
+    },
+    {
+      "id": "ar_core_state",
+      "label": "AR Core",
+      "color": "gray",
+      "purpose": "internal validation and system state markers"
+    }
+  ],
+  "validation": {
+    "minimum_counts": {
+      "gear_total": 1000,
+      "mobs": 100,
+      "structures": 100,
+      "bounty_targets": 50,
+      "npc_profiles": 10,
+      "regions": 7,
+      "mob_ecology_groups": 7,
+      "structure_ecology_groups": 6,
+      "progression_hooks": 8
+    },
+    "required_runtime_states": [
+      "live",
+      "contract_active",
+      "planned_custom_mod"
+    ]
+  }
+}

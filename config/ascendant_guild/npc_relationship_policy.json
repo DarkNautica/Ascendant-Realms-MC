@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "status": "live_script_policy_v1",
+  "goal": "NPCs should feel like people with roles, duties, and trust boundaries. Players should not be able to walk up to any NPC and command them just because the NPC exists.",
+  "runtime_owner": {
+    "generated_customnpcs": "customnpcs/scripts/ecmascript/ascendant_npc_identity.js",
+    "spawn_generation": "scripts/generate-ascendant-guild-worldgen.py",
+    "future_runtime": "Ascendant NPC Runtime helper if deeper faction, schedule, companion, or escort behavior is needed"
+  },
+  "relationship_tiers": {
+    "stranger": {
+      "meaning": "NPC recognizes the player only as a nearby hunter or traveler.",
+      "allowed_behavior": [
+        "short role line",
+        "public warnings",
+        "public board direction"
+      ],
+      "blocked_behavior": [
+        "following",
+        "taking combat orders",
+        "private contracts",
+        "settlement authority",
+        "elite hunter cooperation"
+      ]
+    },
+    "familiar": {
+      "meaning": "NPC has spoken with the player enough to recognize them.",
+      "allowed_behavior": [
+        "more specific rumor or advice",
+        "future low-risk service hooks",
+        "future rank/currency checked trade hooks"
+      ],
+      "blocked_behavior": [
+        "instant companion behavior",
+        "guard command authority",
+        "rival hunter obedience"
+      ]
+    },
+    "trusted": {
+      "meaning": "NPC treats the player as a known contact, but not as their commander.",
+      "allowed_behavior": [
+        "trusted-contact dialogue",
+        "future quest/route/intel hooks",
+        "future authored cooperation events"
+      ],
+      "blocked_behavior": [
+        "generic follow-me behavior",
+        "unlimited combat support",
+        "free hireling conversion"
+      ]
+    }
+  },
+  "global_rules": [
+    "Default CustomNPCs hello text must be disabled; scripted profiles own their own interaction response.",
+    "Only explicit public-service roles may run hidden functions, and the player should not be told to type those commands.",
+    "Rank Examiner may run the internal rank-evaluation function because evaluation is a public Guild service, not obedience.",
+    "Social NPCs should stay anchored to their post unless a future quest explicitly moves them.",
+    "Rival hunters may cooperate only through authored rivalry, rescue, duel, bounty, or trust events.",
+    "Generic Human Companions remain under review; they should not become the main Guild NPC relationship system without a separate relation gate."
+  ],
+  "profile_policies": {
+    "guild_clerk": {
+      "relationship_gate": "guild_staff",
+      "command_policy": "explain_only",
+      "service_min_relation": "stranger",
+      "can_follow": false,
+      "can_take_orders": false
+    },
+    "bounty_master": {
+      "relationship_gate": "contract_broker",
+      "command_policy": "board_contracts_only",
+      "service_min_relation": "familiar",
+      "can_follow": false,
+      "can_take_orders": false
+    },
+    "rank_examiner": {
+      "relationship_gate": "public_authority",
+      "command_policy": "rank_evaluation_only",
+      "service_min_relation": "stranger",
+      "can_follow": false,
+      "can_take_orders": false
+    },
+    "guild_arcanist": {
+      "relationship_gate": "expert_advisor",
+      "command_policy": "lore_and_magic_advice_only",
+      "service_min_relation": "familiar",
+      "can_follow": false,
+      "can_take_orders": false
+    },
+    "hunter_quartermaster": {
+      "relationship_gate": "supplier",
+      "command_policy": "rank_limited_supply_only",
+      "service_min_relation": "familiar",
+      "can_follow": false,
+      "can_take_orders": false
+    },
+    "guard_captain": {
+      "relationship_gate": "settlement_guard",
+      "command_policy": "settlement_defense_only",
+      "service_min_relation": "trusted",
+      "can_follow": false,
+      "can_take_orders": false
+    },
+    "tavern_keeper": {
+      "relationship_gate": "rumor_source",
+      "command_policy": "rumors_only",
+      "service_min_relation": "stranger",
+      "can_follow": false,
+      "can_take_orders": false
+    },
+    "village_elder": {
+      "relationship_gate": "settlement_elder",
+      "command_policy": "local_needs_only",
+      "service_min_relation": "familiar",
+      "can_follow": false,
+      "can_take_orders": false
+    },
+    "wounded_hunter": {
+      "relationship_gate": "field_contact",
+      "command_policy": "warnings_and_rescue_hooks_only",
+      "service_min_relation": "familiar",
+      "can_follow": false,
+      "can_take_orders": false
+    },
+    "mira_ash": {
+      "relationship_gate": "rival_hunter",
+      "command_policy": "rival_dialogue_only",
+      "service_min_relation": "trusted",
+      "can_follow": false,
+      "can_take_orders": false
+    },
+    "darius_crowe": {
+      "relationship_gate": "rival_hunter",
+      "command_policy": "rival_dialogue_only",
+      "service_min_relation": "trusted",
+      "can_follow": false,
+      "can_take_orders": false
+    },
+    "seren_valehart": {
+      "relationship_gate": "rival_hunter",
+      "command_policy": "rival_dialogue_only",
+      "service_min_relation": "trusted",
+      "can_follow": false,
+      "can_take_orders": false
+    },
+    "kael_vorn": {
+      "relationship_gate": "elite_hunter",
+      "command_policy": "elite_hunter_dialogue_only",
+      "service_min_relation": "trusted",
+      "can_follow": false,
+      "can_take_orders": false
+    },
+    "black_hound": {
+      "relationship_gate": "mythic_hunter",
+      "command_policy": "mythic_hunter_dialogue_only",
+      "service_min_relation": "trusted",
+      "can_follow": false,
+      "can_take_orders": false
+    }
+  }
+}

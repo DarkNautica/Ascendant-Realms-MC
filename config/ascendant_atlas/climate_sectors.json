@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "sectors": [
+    {
+      "id": "center",
+      "display_name": "Crownlands",
+      "coordinate_rule": "near spawn; no hard biome-source lock yet",
+      "primary_regions": [
+        "crownlands"
+      ],
+      "biome_keywords": [
+        "plains",
+        "forest",
+        "meadow",
+        "cherry"
+      ]
+    },
+    {
+      "id": "north",
+      "display_name": "Frostmarch",
+      "coordinate_rule": "future Atlas module: negative Z",
+      "primary_regions": [
+        "frostmarch"
+      ],
+      "biome_keywords": [
+        "snow",
+        "frozen",
+        "ice",
+        "cold",
+        "taiga"
+      ]
+    },
+    {
+      "id": "south",
+      "display_name": "Sunreach",
+      "coordinate_rule": "future Atlas module: positive Z",
+      "primary_regions": [
+        "sunreach"
+      ],
+      "biome_keywords": [
+        "desert",
+        "badlands",
+        "savanna",
+        "scorched",
+        "hot"
+      ]
+    },
+    {
+      "id": "east",
+      "display_name": "Verdant Coast",
+      "coordinate_rule": "future Atlas module: positive X",
+      "primary_regions": [
+        "verdant_coast"
+      ],
+      "biome_keywords": [
+        "jungle",
+        "swamp",
+        "mangrove",
+        "ocean",
+        "coast",
+        "river"
+      ]
+    },
+    {
+      "id": "west",
+      "display_name": "Stoneback Highlands",
+      "coordinate_rule": "future Atlas module: negative X",
+      "primary_regions": [
+        "stoneback_highlands"
+      ],
+      "biome_keywords": [
+        "mountain",
+        "peak",
+        "slope",
+        "stony",
+        "windswept"
+      ]
+    }
+  ]
+}

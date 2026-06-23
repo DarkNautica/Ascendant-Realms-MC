@@ -1,0 +1,199 @@
+{
+  "version": 1,
+  "enabled": true,
+  "runtime_state": "live",
+  "policy": "First live Ascendant Core bridge. This mirrors region tier, promotes Guild rank from existing proof scoreboards, and awards conservative Guild reputation from player kills. It does not alter spawns, loot tables, mob stats, or structure generation.",
+  "sync_interval_ticks": 40,
+  "scoreboards": {
+    "rank_order": "ar_guild_rank",
+    "reputation": "ar_guild_rep",
+    "bounties_completed": "ar_bounties_done",
+    "structures_cleared": "ar_structures_done",
+    "bosses_defeated": "ar_bosses_done",
+    "dragons_defeated": "ar_dragons_done",
+    "region_tier": "ar_region_tier",
+    "threat_tier": "ar_threat_tier",
+    "hunt_kills": "ar_hunt_kills",
+    "elite_kills": "ar_elite_kills"
+  },
+  "rank_promotions": [
+    {
+      "rank": "e_rank",
+      "order": 1,
+      "function": "ascendant_identity:rank/e_rank",
+      "requirements": {
+        "reputation": 10
+      }
+    },
+    {
+      "rank": "d_rank",
+      "order": 2,
+      "function": "ascendant_identity:rank/d_rank",
+      "requirements": {
+        "reputation": 35,
+        "hunt_kills": 10
+      }
+    },
+    {
+      "rank": "c_rank",
+      "order": 3,
+      "function": "ascendant_identity:rank/c_rank",
+      "requirements": {
+        "reputation": 90,
+        "hunt_kills": 35
+      }
+    },
+    {
+      "rank": "b_rank",
+      "order": 4,
+      "function": "ascendant_identity:rank/b_rank",
+      "requirements": {
+        "reputation": 210,
+        "bosses_defeated": 1
+      }
+    },
+    {
+      "rank": "a_rank",
+      "order": 5,
+      "function": "ascendant_identity:rank/a_rank",
+      "requirements": {
+        "reputation": 500,
+        "bosses_defeated": 4
+      }
+    },
+    {
+      "rank": "s_rank",
+      "order": 6,
+      "function": "ascendant_identity:rank/s_rank",
+      "requirements": {
+        "reputation": 1200,
+        "bosses_defeated": 8,
+        "dragons_defeated": 2
+      }
+    }
+  ],
+  "region_tiers": [
+    {
+      "id": "hearthlands",
+      "tier": 0,
+      "dimension": "minecraft:overworld",
+      "max_distance": 1200
+    },
+    {
+      "id": "green_frontier",
+      "tier": 1,
+      "dimension": "minecraft:overworld",
+      "max_distance": 2500
+    },
+    {
+      "id": "outer_frontier",
+      "tier": 2,
+      "dimension": "minecraft:overworld",
+      "max_distance": 4200
+    },
+    {
+      "id": "deep_wilds",
+      "tier": 3,
+      "dimension": "minecraft:overworld",
+      "max_distance": 7000
+    },
+    {
+      "id": "dragon_scars",
+      "tier": 4,
+      "dimension": "minecraft:overworld",
+      "max_distance": 120000
+    },
+    {
+      "id": "nether_front",
+      "tier": 4,
+      "dimension": "minecraft:the_nether"
+    },
+    {
+      "id": "end_expanse",
+      "tier": 5,
+      "dimension": "minecraft:the_end"
+    }
+  ],
+  "kill_rewards": {
+    "common_hostile": {
+      "threat_tier": 1,
+      "reputation": 1,
+      "hunt_kills": 1
+    },
+    "village_pressure": {
+      "threat_tier": 2,
+      "reputation": 2,
+      "hunt_kills": 1
+    },
+    "regional_monster": {
+      "threat_tier": 3,
+      "reputation": 3,
+      "hunt_kills": 1
+    },
+    "elite_hunt": {
+      "threat_tier": 4,
+      "reputation": 8,
+      "hunt_kills": 1,
+      "elite_kills": 1
+    },
+    "boss": {
+      "threat_tier": 5,
+      "reputation": 75,
+      "hunt_kills": 1,
+      "elite_kills": 1,
+      "bosses_defeated": 1,
+      "announce": true
+    },
+    "dragon_tier": {
+      "threat_tier": 6,
+      "reputation": 125,
+      "hunt_kills": 1,
+      "elite_kills": 1,
+      "bosses_defeated": 1,
+      "dragons_defeated": 1,
+      "announce": true
+    }
+  },
+  "minecraft_hostiles": [
+    "minecraft:zombie",
+    "minecraft:husk",
+    "minecraft:drowned",
+    "minecraft:skeleton",
+    "minecraft:stray",
+    "minecraft:spider",
+    "minecraft:cave_spider",
+    "minecraft:creeper",
+    "minecraft:enderman",
+    "minecraft:witch",
+    "minecraft:pillager",
+    "minecraft:vindicator",
+    "minecraft:evoker",
+    "minecraft:ravager",
+    "minecraft:slime",
+    "minecraft:magma_cube",
+    "minecraft:blaze",
+    "minecraft:ghast",
+    "minecraft:wither_skeleton",
+    "minecraft:piglin_brute",
+    "minecraft:guardian",
+    "minecraft:elder_guardian",
+    "minecraft:warden",
+    "minecraft:wither",
+    "minecraft:ender_dragon"
+  ],
+  "namespace_roles": {
+    "alexsmobs": "regional_monster",
+    "aquamirae": "regional_monster",
+    "born_in_chaos_v1": "village_pressure",
+    "mowziesmobs": "elite_hunt",
+    "cataclysm": "boss",
+    "bossesrise": "boss",
+    "irons_spellbooks": "elite_hunt",
+    "iceandfire": "dragon_tier"
+  },
+  "entity_overrides": {
+    "minecraft:wither": "boss",
+    "minecraft:warden": "boss",
+    "minecraft:ender_dragon": "dragon_tier"
+  }
+}

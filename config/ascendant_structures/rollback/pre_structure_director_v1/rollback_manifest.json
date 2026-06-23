@@ -1,0 +1,128 @@
+{
+  "version": "structure_director_live_v1",
+  "generated_at": "2026-06-22T20:45:24+00:00",
+  "rollback_supported": true,
+  "disable_script": "scripts/disable-structure-director-live-v1.ps1",
+  "enable_script": "scripts/enable-structure-director-live-v1.ps1",
+  "files": [
+    {
+      "resource_path": "data/iceandfire/worldgen/structure_set/dragon_roost.json",
+      "source": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/worldgen/structure_set/dragon_roost.json",
+      "rollback_path": "config/ascendant_structures/rollback/pre_structure_director_v1/resources/data/iceandfire/worldgen/structure_set/dragon_roost.json",
+      "source_sha256": "EF64348A0D5A0C3D25E696C3089335E17BA2B6FA5C3E046EA9E1E6D89ADA46CF",
+      "live_sha256": "B7A01F66F7C2D077D4F14BA73E8A98B1F5914777101DA87B7C24B184ACF4BD65"
+    },
+    {
+      "resource_path": "data/iceandfire/worldgen/structure_set/dragon_cave.json",
+      "source": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/worldgen/structure_set/dragon_cave.json",
+      "rollback_path": "config/ascendant_structures/rollback/pre_structure_director_v1/resources/data/iceandfire/worldgen/structure_set/dragon_cave.json",
+      "source_sha256": "88C52B68467B5C436C585AFEDDAF19AEFDA6377AF78AD52BFB7854A95486D8B8",
+      "live_sha256": "9944B47AA20F4E2FF1E5A8ED6874CC49369271B019F255B7044A4F815818633C"
+    },
+    {
+      "resource_path": "data/iceandfire/worldgen/structure_set/siren_island.json",
+      "source": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/worldgen/structure_set/siren_island.json",
+      "rollback_path": "config/ascendant_structures/rollback/pre_structure_director_v1/resources/data/iceandfire/worldgen/structure_set/siren_island.json",
+      "source_sha256": "60114209870AB7B86450DAB3EA3621BEBA0436F6A8ABA571601892FE32B59821",
+      "live_sha256": "1FB759D4CDD541612AD512CD52A2E2AF35CD7FFC216D88749D8B5220C42DA106"
+    },
+    {
+      "resource_path": "data/idas/worldgen/structure_set/idas_rare.json",
+      "source": "idas_forge-1.13.0+1.20.1.jar!/data/idas/worldgen/structure_set/idas_rare.json",
+      "rollback_path": "config/ascendant_structures/rollback/pre_structure_director_v1/resources/data/idas/worldgen/structure_set/idas_rare.json",
+      "source_sha256": "57E0DDAF57FD652B0E70A5A627A3C13FE8152083C6F3CAE2AE55FFD9E7069748",
+      "live_sha256": "B156971252B5086688E09EEE570FFA6BA08771C3A02715C9724F911B3346EE30"
+    },
+    {
+      "resource_path": "data/idas/worldgen/structure_set/idas_ocean.json",
+      "source": "idas_forge-1.13.0+1.20.1.jar!/data/idas/worldgen/structure_set/idas_ocean.json",
+      "rollback_path": "config/ascendant_structures/rollback/pre_structure_director_v1/resources/data/idas/worldgen/structure_set/idas_ocean.json",
+      "source_sha256": "EF7B05CF39E886840F3B9ADBFC995407EFAE5C04CF5BF102E1F3736BBF1A682C",
+      "live_sha256": "1CC49E5B85C3E88C9F4D999006DB54661F034D974216EBCF3652C205348BD40F"
+    },
+    {
+      "resource_path": "data/betterdungeons/worldgen/structure_set/small_dungeons.json",
+      "source": "YungsBetterDungeons-1.20-Forge-4.0.4.jar!/data/betterdungeons/worldgen/structure_set/small_dungeons.json",
+      "rollback_path": "config/ascendant_structures/rollback/pre_structure_director_v1/resources/data/betterdungeons/worldgen/structure_set/small_dungeons.json",
+      "source_sha256": "DAAEDEA77EA593BB6138B4479C5ED23BFB7A9A5A3B0804FAC71FB0695AC41631",
+      "live_sha256": "43F134117EC29EED6529F25DB98362BF7AF99733336FE06EED5C39C2306BA906"
+    },
+    {
+      "resource_path": "data/bettermineshafts/worldgen/structure_set/mineshafts.json",
+      "source": "YungsBetterMineshafts-1.20-Forge-4.0.4.jar!/data/bettermineshafts/worldgen/structure_set/mineshafts.json",
+      "rollback_path": "config/ascendant_structures/rollback/pre_structure_director_v1/resources/data/bettermineshafts/worldgen/structure_set/mineshafts.json",
+      "source_sha256": "D98E64324146627DFF5D7D0D2893CAD780FAFDF50C649B7E280480D015E382B5",
+      "live_sha256": "C8C23DB1143FBCE0F718DCA21A76BE52E74F7CB7C68F5AC9A44B528F6975E4EF"
+    },
+    {
+      "resource_path": "data/aquamirae/worldgen/structure_set/surface.json",
+      "source": "config\\openloader\\data\\ascendant_realms_world_integration\\data\\aquamirae\\worldgen\\structure_set\\surface.json",
+      "rollback_path": "config/ascendant_structures/rollback/pre_structure_director_v1/resources/data/aquamirae/worldgen/structure_set/surface.json",
+      "source_sha256": "FB2B29BC7A733FADE3B14A903896C62F0AD09E6001FEAA2AC536D26F0625AF1B",
+      "live_sha256": "5502D890B14D4898E894E620FF89CB3ECA1E9D84357A36710DE29B5E63983B38"
+    },
+    {
+      "resource_path": "data/cataclysm/worldgen/structure_set/abandoned_structures.json",
+      "source": "L_Enders_Cataclysm-3.30.jar!/data/cataclysm/worldgen/structure_set/abandoned_structures.json",
+      "rollback_path": "config/ascendant_structures/rollback/pre_structure_director_v1/resources/data/cataclysm/worldgen/structure_set/abandoned_structures.json",
+      "source_sha256": "61D55DE742F4F26B8E911C6B912265EBD518A270559D16F5FA424C68860F73C0",
+      "live_sha256": "6BE2A84B67FD6BC4CAB48D2362625A829A485B1657474D967D19970838191436"
+    },
+    {
+      "resource_path": "data/cataclysm/worldgen/structure_set/amethyst_nest.json",
+      "source": "L_Enders_Cataclysm-3.30.jar!/data/cataclysm/worldgen/structure_set/amethyst_nest.json",
+      "rollback_path": "config/ascendant_structures/rollback/pre_structure_director_v1/resources/data/cataclysm/worldgen/structure_set/amethyst_nest.json",
+      "source_sha256": "DB631BD0C9BDA20FB5F8584B2003571B3855A2EE12E4F1B40677A02E75F5B4CC",
+      "live_sha256": "B652E6C60BF588360CEC5ECD013502CC6D94CEF7D5DFDF45838D0AF26D3A64D4"
+    },
+    {
+      "resource_path": "data/cataclysm/worldgen/structure_set/desert_structures.json",
+      "source": "L_Enders_Cataclysm-3.30.jar!/data/cataclysm/worldgen/structure_set/desert_structures.json",
+      "rollback_path": "config/ascendant_structures/rollback/pre_structure_director_v1/resources/data/cataclysm/worldgen/structure_set/desert_structures.json",
+      "source_sha256": "3A73BACFC258D7A0C77D2343E06CC59E95DF6AB538755431F632F970A2353114",
+      "live_sha256": "DFAB6200FE8EE319E1E10FC852E5E54A48AE20A30225281DAB185F0F5431940B"
+    },
+    {
+      "resource_path": "data/block_factorys_bosses/worldgen/structure_set/sandworm_nest.json",
+      "source": "block_factorys_bosses-2.1.2-forge-1.20.1.jar!/data/block_factorys_bosses/worldgen/structure_set/sandworm_nest.json",
+      "rollback_path": "config/ascendant_structures/rollback/pre_structure_director_v1/resources/data/block_factorys_bosses/worldgen/structure_set/sandworm_nest.json",
+      "source_sha256": "AAB1223DC74094625CB97F94F8EB746234F320E619F880FAD0699C618FFD27D0",
+      "live_sha256": "D246358A6321A369AB174F5D7B2C30A20830BEB606D4486A87B59E719B3FA8F1"
+    },
+    {
+      "resource_path": "data/block_factorys_bosses/worldgen/structure_set/yeti_hideout.json",
+      "source": "block_factorys_bosses-2.1.2-forge-1.20.1.jar!/data/block_factorys_bosses/worldgen/structure_set/yeti_hideout.json",
+      "rollback_path": "config/ascendant_structures/rollback/pre_structure_director_v1/resources/data/block_factorys_bosses/worldgen/structure_set/yeti_hideout.json",
+      "source_sha256": "EA9B028B95FACA880075EA0580952212B395C1A3894DBCA87593B8C66A7E16A2",
+      "live_sha256": "407FA35740045718D3A336ED13070660BB448DC9FF1E8D6F13C1011104DD35BF"
+    },
+    {
+      "resource_path": "data/towns_and_towers/worldgen/structure_set/towns.json",
+      "source": "Towns-and-Towers-1.12-Fabric+Forge.jar!/data/towns_and_towers/worldgen/structure_set/towns.json",
+      "rollback_path": "config/ascendant_structures/rollback/pre_structure_director_v1/resources/data/towns_and_towers/worldgen/structure_set/towns.json",
+      "source_sha256": "835E72CEB47047B1E05FAFACB10E95725C948B3329BF948283383476D12F794F",
+      "live_sha256": "FCC2BAAD048BE166AC07DBAFF9819D98AF9925C278D39FFB118903BD3D2C53C7"
+    },
+    {
+      "resource_path": "data/towns_and_towers/worldgen/structure_set/towers.json",
+      "source": "Towns-and-Towers-1.12-Fabric+Forge.jar!/data/towns_and_towers/worldgen/structure_set/towers.json",
+      "rollback_path": "config/ascendant_structures/rollback/pre_structure_director_v1/resources/data/towns_and_towers/worldgen/structure_set/towers.json",
+      "source_sha256": "C51892AA537918ECFCEA61CC4E6B1B1CF978E724833994C5B26CD1326C8EF98A",
+      "live_sha256": "504BFCFA8E912C17A2F3679E9BA7AC0EC7723EB7D4D25A6520A7CECB3F02130F"
+    },
+    {
+      "resource_path": "data/idas/worldgen/structure_set/idas_common.json",
+      "source": "idas_forge-1.13.0+1.20.1.jar!/data/idas/worldgen/structure_set/idas_common.json",
+      "rollback_path": "config/ascendant_structures/rollback/pre_structure_director_v1/resources/data/idas/worldgen/structure_set/idas_common.json",
+      "source_sha256": "C41054610674FAA9A2C16EE5323246F49A5301A1AF1CEF3B4839566BCE9FC0FC",
+      "live_sha256": "A4E98E4637E4E1ABB5ABD8722637A7BC5BD011E273FC2E8CA480A0BBE00019CC"
+    },
+    {
+      "resource_path": "data/idas/worldgen/structure/abandoned_vineyard.json",
+      "source": "idas_forge-1.13.0+1.20.1.jar!/data/idas/worldgen/structure/abandoned_vineyard.json",
+      "rollback_path": "config/ascendant_structures/rollback/pre_structure_director_v1/resources/data/idas/worldgen/structure/abandoned_vineyard.json",
+      "source_sha256": "A7F858AE20F93996AEE6401BE7EA49D77471F536F7372A12EBD99603BEAEF998",
+      "live_sha256": "8578C276C4E0775C28E0D78165FDECCC01DB12D44A19C4A0C4B0AC67425FAA73"
+    }
+  ]
+}

@@ -1,0 +1,553 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T04:48:43Z",
+  "status": "visual_identity_policy_only_no_world_placement",
+  "important_profession_ids": [
+    "guild_clerk",
+    "rank_examiner",
+    "bounty_master",
+    "guild_arcanist",
+    "hunter_quartermaster",
+    "guard_captain",
+    "tavern_keeper",
+    "village_elder",
+    "rival_hunter"
+  ],
+  "silhouettes": [
+    {
+      "profession_id": "guild_clerk",
+      "display_name": "Guild Clerk",
+      "role": "contracts, local registry, beginner guidance",
+      "preferred_tool": "Easy NPC",
+      "silhouette_read": "ledger cane, villager hat, simple robe, approachable Guild colors",
+      "required_visual_cues": [
+        "staff or cane",
+        "civilian hat",
+        "robe or clerk coat",
+        "no combat-heavy armor"
+      ],
+      "avoid_terms": [
+        "hoodie",
+        "jeans",
+        "modern civilian"
+      ],
+      "loadout_profile_id": "guild_clerk",
+      "nameplate_profile_id": "guild_clerk",
+      "rank": "d_rank",
+      "equipment": [
+        {
+          "slot": "mainhand",
+          "item_id": "irons_spellbooks:artificer_cane",
+          "name": "Artificer's Cane",
+          "rarity": "rare",
+          "player_obtainable": true,
+          "slot_note": "ledger cane / staff silhouette"
+        },
+        {
+          "slot": "head",
+          "item_id": "artifacts:villager_hat",
+          "name": "Villager Hat",
+          "rarity": "rare",
+          "player_obtainable": true,
+          "slot_note": "civilian Guild helper identity"
+        },
+        {
+          "slot": "chest",
+          "item_id": "immersive_armors:robe_chestplate",
+          "name": "Robe Chestplate",
+          "rarity": "uncommon",
+          "player_obtainable": true,
+          "slot_note": "simple robe silhouette"
+        }
+      ],
+      "gear_item_ids": [
+        "irons_spellbooks:artificer_cane",
+        "artifacts:villager_hat",
+        "immersive_armors:robe_chestplate"
+      ],
+      "uses_visual_only_skin": true,
+      "visual_only_skin_equivalent_item_note": "Bridge skin is visual identity only; visible gear IDs above are player-obtainable or intentionally curated.",
+      "applies_to_rival_roster_ids": []
+    },
+    {
+      "profession_id": "rank_examiner",
+      "display_name": "Rank Examiner",
+      "role": "formal public rank evaluation",
+      "preferred_tool": "Easy NPC",
+      "silhouette_read": "judgment blade, crown or formal headpiece, heroic armor",
+      "required_visual_cues": [
+        "authority headpiece",
+        "formal weapon",
+        "high-rank armor"
+      ],
+      "avoid_terms": [
+        "casual streetwear",
+        "plain villager clothing"
+      ],
+      "loadout_profile_id": "rank_examiner",
+      "nameplate_profile_id": "rank_examiner",
+      "rank": "b_rank",
+      "equipment": [
+        {
+          "slot": "mainhand",
+          "item_id": "irons_spellbooks:truthseeker",
+          "name": "Truthseeker",
+          "rarity": "epic",
+          "player_obtainable": true,
+          "slot_note": "judgment weapon and authority prop"
+        },
+        {
+          "slot": "head",
+          "item_id": "irons_spellbooks:gold_crown",
+          "name": "Iron's Crown",
+          "rarity": "epic",
+          "player_obtainable": true,
+          "slot_note": "rank authority marker"
+        },
+        {
+          "slot": "chest",
+          "item_id": "fantasy_armor:hero_chestplate",
+          "name": "Hero Chestplate",
+          "rarity": "legendary",
+          "player_obtainable": true,
+          "slot_note": "formal heroic armor"
+        }
+      ],
+      "gear_item_ids": [
+        "irons_spellbooks:truthseeker",
+        "irons_spellbooks:gold_crown",
+        "fantasy_armor:hero_chestplate"
+      ],
+      "uses_visual_only_skin": true,
+      "visual_only_skin_equivalent_item_note": "Bridge skin is visual identity only; visible gear IDs above are player-obtainable or intentionally curated.",
+      "applies_to_rival_roster_ids": []
+    },
+    {
+      "profession_id": "bounty_master",
+      "display_name": "Bounty Master",
+      "role": "contract board anchor and threat dispatcher",
+      "preferred_tool": "Easy NPC",
+      "silhouette_read": "crossbow, heavy field armor, practical hunter stance",
+      "required_visual_cues": [
+        "crossbow or sidearm",
+        "field armor",
+        "contract-board presence"
+      ],
+      "avoid_terms": [
+        "office modern",
+        "unarmed merchant only"
+      ],
+      "loadout_profile_id": "bounty_master",
+      "nameplate_profile_id": "bounty_master",
+      "rank": "c_rank",
+      "equipment": [
+        {
+          "slot": "mainhand",
+          "item_id": "minecraft:crossbow",
+          "name": "Crossbow",
+          "rarity": "uncommon",
+          "player_obtainable": true,
+          "slot_note": "contract hunter sidearm"
+        },
+        {
+          "slot": "head",
+          "item_id": "immersive_armors:heavy_helmet",
+          "name": "Heavy Helmet",
+          "rarity": "uncommon",
+          "player_obtainable": true,
+          "slot_note": "practical field armor"
+        },
+        {
+          "slot": "chest",
+          "item_id": "immersive_armors:heavy_chestplate",
+          "name": "Heavy Chestplate",
+          "rarity": "uncommon",
+          "player_obtainable": true,
+          "slot_note": "practical field armor"
+        }
+      ],
+      "gear_item_ids": [
+        "minecraft:crossbow",
+        "immersive_armors:heavy_helmet",
+        "immersive_armors:heavy_chestplate"
+      ],
+      "uses_visual_only_skin": true,
+      "visual_only_skin_equivalent_item_note": "Bridge skin is visual identity only; visible gear IDs above are player-obtainable or intentionally curated.",
+      "applies_to_rival_roster_ids": []
+    },
+    {
+      "profession_id": "guild_arcanist",
+      "display_name": "Guild Arcanist",
+      "role": "spell research, corruption warnings, magic contracts",
+      "preferred_tool": "Easy NPC",
+      "silhouette_read": "staff, visible spellbook, academy mage coat",
+      "required_visual_cues": [
+        "staff",
+        "spellbook",
+        "mage robe or coat"
+      ],
+      "avoid_terms": [
+        "mundane villager only",
+        "modern lab coat"
+      ],
+      "loadout_profile_id": "guild_arcanist",
+      "nameplate_profile_id": "guild_arcanist",
+      "rank": "b_rank",
+      "equipment": [
+        {
+          "slot": "mainhand",
+          "item_id": "irons_spellbooks:graybeard_staff",
+          "name": "Graybeard Staff",
+          "rarity": "rare",
+          "player_obtainable": true,
+          "slot_note": "visible spellcaster staff"
+        },
+        {
+          "slot": "offhand",
+          "item_id": "irons_spellbooks:diamond_spell_book",
+          "name": "Enchanted Spell Book",
+          "rarity": "epic",
+          "player_obtainable": true,
+          "slot_note": "spellbook identity"
+        },
+        {
+          "slot": "head",
+          "item_id": "irons_spellbooks:archevoker_helmet",
+          "name": "Archevoker Hat",
+          "rarity": "epic",
+          "player_obtainable": true,
+          "slot_note": "academy mage silhouette"
+        },
+        {
+          "slot": "chest",
+          "item_id": "irons_spellbooks:archevoker_chestplate",
+          "name": "Archevoker Coat",
+          "rarity": "epic",
+          "player_obtainable": true,
+          "slot_note": "academy mage silhouette"
+        }
+      ],
+      "gear_item_ids": [
+        "irons_spellbooks:graybeard_staff",
+        "irons_spellbooks:diamond_spell_book",
+        "irons_spellbooks:archevoker_helmet",
+        "irons_spellbooks:archevoker_chestplate"
+      ],
+      "uses_visual_only_skin": true,
+      "visual_only_skin_equivalent_item_note": "Bridge skin is visual identity only; visible gear IDs above are player-obtainable or intentionally curated.",
+      "applies_to_rival_roster_ids": []
+    },
+    {
+      "profession_id": "hunter_quartermaster",
+      "display_name": "Quartermaster",
+      "role": "supplies, exchange, rank vendor prototype",
+      "preferred_tool": "Easy NPC",
+      "silhouette_read": "utility armor, practical weapon, workshop gear",
+      "required_visual_cues": [
+        "supply-side weapon",
+        "workshop or utility armor",
+        "no luxury noble look"
+      ],
+      "avoid_terms": [
+        "modern shopkeeper",
+        "plain robe only"
+      ],
+      "loadout_profile_id": "hunter_quartermaster",
+      "nameplate_profile_id": "hunter_quartermaster",
+      "rank": "d_rank",
+      "equipment": [
+        {
+          "slot": "mainhand",
+          "item_id": "minecraft:iron_sword",
+          "name": "Iron Sword",
+          "rarity": "uncommon",
+          "player_obtainable": true,
+          "slot_note": "basic supply weapon"
+        },
+        {
+          "slot": "head",
+          "item_id": "immersive_armors:steampunk_helmet",
+          "name": "Steampunk Helmet",
+          "rarity": "uncommon",
+          "player_obtainable": true,
+          "slot_note": "utility workshop silhouette"
+        },
+        {
+          "slot": "chest",
+          "item_id": "immersive_armors:steampunk_chestplate",
+          "name": "Steampunk Chestplate",
+          "rarity": "uncommon",
+          "player_obtainable": true,
+          "slot_note": "utility workshop silhouette"
+        }
+      ],
+      "gear_item_ids": [
+        "minecraft:iron_sword",
+        "immersive_armors:steampunk_helmet",
+        "immersive_armors:steampunk_chestplate"
+      ],
+      "uses_visual_only_skin": true,
+      "visual_only_skin_equivalent_item_note": "Bridge skin is visual identity only; visible gear IDs above are player-obtainable or intentionally curated.",
+      "applies_to_rival_roster_ids": []
+    },
+    {
+      "profession_id": "guard_captain",
+      "display_name": "Guard Captain",
+      "role": "settlement defense and road danger warnings",
+      "preferred_tool": "CustomNPCs or Guard Villagers where combat is required",
+      "silhouette_read": "longsword, shield, warrior armor, clear captain profile",
+      "required_visual_cues": [
+        "sword",
+        "shield",
+        "warrior armor",
+        "settlement-defense colors"
+      ],
+      "avoid_terms": [
+        "civilian clothing",
+        "unarmed guard captain"
+      ],
+      "loadout_profile_id": "guard_captain",
+      "nameplate_profile_id": "guard_captain",
+      "rank": "c_rank",
+      "equipment": [
+        {
+          "slot": "mainhand",
+          "item_id": "simplyswords:iron_longsword",
+          "name": "Iron Longsword",
+          "rarity": "epic",
+          "player_obtainable": true,
+          "slot_note": "ranked guard weapon"
+        },
+        {
+          "slot": "offhand",
+          "item_id": "spartanshields:iron_basic_shield",
+          "name": "Iron Basic Shield",
+          "rarity": "rare",
+          "player_obtainable": true,
+          "slot_note": "ranked guard shield"
+        },
+        {
+          "slot": "head",
+          "item_id": "immersive_armors:warrior_helmet",
+          "name": "Warrior Helmet",
+          "rarity": "uncommon",
+          "player_obtainable": true,
+          "slot_note": "guard captain silhouette"
+        },
+        {
+          "slot": "chest",
+          "item_id": "immersive_armors:warrior_chestplate",
+          "name": "Warrior Chestplate",
+          "rarity": "uncommon",
+          "player_obtainable": true,
+          "slot_note": "guard captain silhouette"
+        }
+      ],
+      "gear_item_ids": [
+        "simplyswords:iron_longsword",
+        "spartanshields:iron_basic_shield",
+        "immersive_armors:warrior_helmet",
+        "immersive_armors:warrior_chestplate"
+      ],
+      "uses_visual_only_skin": true,
+      "visual_only_skin_equivalent_item_note": "Bridge skin is visual identity only; visible gear IDs above are player-obtainable or intentionally curated.",
+      "applies_to_rival_roster_ids": []
+    },
+    {
+      "profession_id": "tavern_keeper",
+      "display_name": "Tavern Keeper",
+      "role": "rumors, local hospitality, soft quest hints",
+      "preferred_tool": "Easy NPC",
+      "silhouette_read": "warm tavern clothing, rumor prop, visible noncombat role",
+      "required_visual_cues": [
+        "tavern prop",
+        "simple robe or apron-like clothing",
+        "noncombat posture"
+      ],
+      "avoid_terms": [
+        "modern bartender",
+        "full boss armor"
+      ],
+      "loadout_profile_id": "tavern_keeper",
+      "nameplate_profile_id": "tavern_keeper",
+      "rank": "d_rank",
+      "equipment": [
+        {
+          "slot": "mainhand",
+          "item_id": "artifacts:universal_attractor",
+          "name": "Universal Attractor",
+          "rarity": "rare",
+          "player_obtainable": true,
+          "slot_note": "odd rumor-keeper trinket"
+        },
+        {
+          "slot": "head",
+          "item_id": "artifacts:novelty_drinking_hat",
+          "name": "Novelty Drinking Hat",
+          "rarity": "rare",
+          "player_obtainable": true,
+          "slot_note": "tavern visual identity"
+        },
+        {
+          "slot": "chest",
+          "item_id": "immersive_armors:robe_chestplate",
+          "name": "Robe Chestplate",
+          "rarity": "uncommon",
+          "player_obtainable": true,
+          "slot_note": "civilian clothing"
+        }
+      ],
+      "gear_item_ids": [
+        "artifacts:universal_attractor",
+        "artifacts:novelty_drinking_hat",
+        "immersive_armors:robe_chestplate"
+      ],
+      "uses_visual_only_skin": true,
+      "visual_only_skin_equivalent_item_note": "Bridge skin is visual identity only; visible gear IDs above are player-obtainable or intentionally curated.",
+      "applies_to_rival_roster_ids": []
+    },
+    {
+      "profession_id": "village_elder",
+      "display_name": "Village Elder",
+      "role": "village memory, local stakes, settlement identity",
+      "preferred_tool": "Easy NPC",
+      "silhouette_read": "cane, villager hat, elder robe, low-threat posture",
+      "required_visual_cues": [
+        "cane or staff",
+        "simple headwear",
+        "elder robe"
+      ],
+      "avoid_terms": [
+        "modern civilian",
+        "heavy elite armor"
+      ],
+      "loadout_profile_id": "village_elder",
+      "nameplate_profile_id": "village_elder",
+      "rank": "d_rank",
+      "equipment": [
+        {
+          "slot": "mainhand",
+          "item_id": "irons_spellbooks:artificer_cane",
+          "name": "Artificer's Cane",
+          "rarity": "rare",
+          "player_obtainable": true,
+          "slot_note": "elder cane"
+        },
+        {
+          "slot": "head",
+          "item_id": "artifacts:villager_hat",
+          "name": "Villager Hat",
+          "rarity": "rare",
+          "player_obtainable": true,
+          "slot_note": "village authority marker"
+        },
+        {
+          "slot": "chest",
+          "item_id": "immersive_armors:robe_chestplate",
+          "name": "Robe Chestplate",
+          "rarity": "uncommon",
+          "player_obtainable": true,
+          "slot_note": "civilian clothing"
+        }
+      ],
+      "gear_item_ids": [
+        "irons_spellbooks:artificer_cane",
+        "artifacts:villager_hat",
+        "immersive_armors:robe_chestplate"
+      ],
+      "uses_visual_only_skin": true,
+      "visual_only_skin_equivalent_item_note": "Bridge skin is visual identity only; visible gear IDs above are player-obtainable or intentionally curated.",
+      "applies_to_rival_roster_ids": []
+    },
+    {
+      "profession_id": "rival_hunter",
+      "display_name": "Rival Hunter",
+      "role": "named hunters who communicate rank, class, and threat at a glance",
+      "preferred_tool": "CustomNPCs-Unofficial for combat-capable prototypes; Easy NPC for social versions",
+      "silhouette_read": "class-specific gear, visible rank palette, distinct weapon profile",
+      "required_visual_cues": [
+        "rank-coded nameplate",
+        "class-readable weapon",
+        "curated armor tier"
+      ],
+      "avoid_terms": [
+        "random gear soup",
+        "modern civilian skin",
+        "anonymous villager profile"
+      ],
+      "loadout_profile_id": null,
+      "nameplate_profile_id": null,
+      "rank": "varies_by_roster",
+      "equipment": [],
+      "gear_item_ids": [],
+      "uses_visual_only_skin": false,
+      "visual_only_skin_equivalent_item_note": "Generic role only. Individual rival entries provide concrete loadout gear and nameplate style.",
+      "applies_to_rival_roster_ids": [
+        "mira_ash",
+        "darius_crowe",
+        "seren_valehart",
+        "kael_vorn",
+        "black_hound"
+      ]
+    },
+    {
+      "profession_id": "wounded_hunter",
+      "display_name": "Wounded Hunter",
+      "role": "field warning and danger foreshadowing",
+      "preferred_tool": "CustomNPCs for encounter prototypes",
+      "silhouette_read": "bow, damaged-looking hunter armor, field survival read",
+      "required_visual_cues": [
+        "bow",
+        "hunter armor",
+        "injured or exhausted posture"
+      ],
+      "avoid_terms": [
+        "clean noble robe",
+        "modern explorer"
+      ],
+      "loadout_profile_id": "wounded_hunter",
+      "nameplate_profile_id": "wounded_hunter",
+      "rank": "c_rank",
+      "equipment": [
+        {
+          "slot": "mainhand",
+          "item_id": "minecraft:bow",
+          "name": "Bow",
+          "rarity": "common",
+          "player_obtainable": true,
+          "slot_note": "damaged scout weapon"
+        },
+        {
+          "slot": "head",
+          "item_id": "immersive_armors:bone_helmet",
+          "name": "Bone Helmet",
+          "rarity": "uncommon",
+          "player_obtainable": true,
+          "slot_note": "rough field gear"
+        },
+        {
+          "slot": "chest",
+          "item_id": "immersive_armors:bone_chestplate",
+          "name": "Bone Chestplate",
+          "rarity": "uncommon",
+          "player_obtainable": true,
+          "slot_note": "rough field gear"
+        }
+      ],
+      "gear_item_ids": [
+        "minecraft:bow",
+        "immersive_armors:bone_helmet",
+        "immersive_armors:bone_chestplate"
+      ],
+      "uses_visual_only_skin": true,
+      "visual_only_skin_equivalent_item_note": "Bridge skin is visual identity only; visible gear IDs above are player-obtainable or intentionally curated.",
+      "applies_to_rival_roster_ids": []
+    }
+  ],
+  "validation": {
+    "important_professions_missing_silhouette": [],
+    "important_professions_missing_loadout_profile": [],
+    "important_professions_missing_nameplate_profile": [],
+    "visual_only_skin_without_equivalent_item_note": []
+  }
+}

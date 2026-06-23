@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "rank_registry": [
+    {
+      "rank_id": "d_rank",
+      "display": "D-Rank Dungeon",
+      "player_status": "first public dungeon tier",
+      "minimum_distance_from_spawn": 1200,
+      "recommended_distance_ring": "inner_frontier",
+      "danger_tier": 2,
+      "loot_tier": "uncommon_to_rare",
+      "allowed_rarities": [
+        "common",
+        "uncommon",
+        "rare"
+      ],
+      "intended_party_size": "solo_or_duo",
+      "notes": "Small ruins, cellars, bandit depths, and first magical breaches. No boss-tier material payout."
+    },
+    {
+      "rank_id": "c_rank",
+      "display": "C-Rank Dungeon",
+      "player_status": "standard contract dungeon",
+      "minimum_distance_from_spawn": 2500,
+      "recommended_distance_ring": "regional_frontier",
+      "danger_tier": 3,
+      "loot_tier": "rare",
+      "allowed_rarities": [
+        "common",
+        "uncommon",
+        "rare"
+      ],
+      "intended_party_size": "solo_or_duo",
+      "notes": "Full dungeons with stronger spawns, spell scrolls, artifact chances, and regional material rewards."
+    },
+    {
+      "rank_id": "b_rank",
+      "display": "B-Rank Dungeon",
+      "player_status": "major dungeon",
+      "minimum_distance_from_spawn": 5000,
+      "recommended_distance_ring": "dangerous_wilds",
+      "danger_tier": 4,
+      "loot_tier": "rare_to_epic",
+      "allowed_rarities": [
+        "uncommon",
+        "rare",
+        "epic"
+      ],
+      "intended_party_size": "duo_recommended",
+      "notes": "Large dungeons, named threats, stronger magic, and controlled epic loot chances."
+    },
+    {
+      "rank_id": "a_rank",
+      "display": "A-Rank Dungeon",
+      "player_status": "elite breach",
+      "minimum_distance_from_spawn": 9000,
+      "recommended_distance_ring": "outer_wilds",
+      "danger_tier": 5,
+      "loot_tier": "epic_to_legendary",
+      "allowed_rarities": [
+        "rare",
+        "epic",
+        "legendary"
+      ],
+      "intended_party_size": "duo_or_prepared_solo",
+      "notes": "Boss-adjacent rifts and high-risk expeditions. Legendary rewards must stay rare and earned."
+    },
+    {
+      "rank_id": "s_rank",
+      "display": "S-Rank Dungeon",
+      "player_status": "ascendant breach",
+      "minimum_distance_from_spawn": 14000,
+      "recommended_distance_ring": "far_outer_wilds",
+      "danger_tier": 6,
+      "loot_tier": "legendary_to_mythic",
+      "allowed_rarities": [
+        "epic",
+        "legendary",
+        "mythic"
+      ],
+      "intended_party_size": "duo_endgame",
+      "notes": "Capstone-tier dungeon portals. Not enabled for autonomous spawning until boss, loot, and cleanup behavior are proven."
+    }
+  ]
+}

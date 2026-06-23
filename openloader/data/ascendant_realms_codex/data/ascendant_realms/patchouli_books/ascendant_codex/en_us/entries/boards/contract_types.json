@@ -1,0 +1,11 @@
+{
+  "name": "Contract Types",
+  "icon": "minecraft:paper",
+  "category": "ascendant_realms:boards",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Contracts should include village requests, monster hunts, dungeon contracts, rescues, rival-claimed contracts, and realm threats. The board should guide players into existing modded structures instead of leaving them to wander blindly."
+    }
+  ]
+}

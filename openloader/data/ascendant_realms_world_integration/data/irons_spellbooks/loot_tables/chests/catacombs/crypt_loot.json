@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "irons_spellbooks:magic_cloth"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "irons_spellbooks:arcane_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "irons_spellbooks:ancient_knowledge_fragment"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "irons_spellbooks:scroll"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:enchanted_golden_apple"
+        }
+      ]
+    }
+  ]
+}

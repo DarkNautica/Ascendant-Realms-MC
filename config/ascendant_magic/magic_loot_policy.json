@@ -1,0 +1,3450 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T04:18:12+00:00",
+  "status": "audit_control_scaffold_only_no_loot_rewrites",
+  "rules": [
+    "Spell loot must not bypass Atlas region, Guild rank, danger tier, or rarity budget.",
+    "Beginner magic can be discoverable through low-risk loot, but high-impact spells must move to bosses, dangerous structures, rare materials, or rank contracts.",
+    "High-tier magic found in low-tier loot remains review-only until a specific rewrite is approved."
+  ],
+  "magic_loot_sources": [
+    {
+      "source_id": "aquamirae:chests/maze_common_chest",
+      "source_mod": "Aquamirae",
+      "loot_context": "structure",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "aquamirae:dead_sea_scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "aquamirae:entities/eel",
+      "source_mod": "Aquamirae",
+      "loot_context": "mob",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "unranked_to_c_rank",
+      "danger_tier": 1,
+      "allowed_rarity_ceiling": "uncommon",
+      "magic_spell_items": [
+        "aquamirae:dead_sea_scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "aquamirae:entities/maw_random_item",
+      "source_mod": "Aquamirae",
+      "loot_context": "mob",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "unranked_to_c_rank",
+      "danger_tier": 1,
+      "allowed_rarity_ceiling": "uncommon",
+      "magic_spell_items": [
+        "aquamirae:dead_sea_scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "born_in_chaos_v1:entities/bonescaller",
+      "source_mod": "Born in Chaos ",
+      "loot_context": "mob",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "unranked_to_c_rank",
+      "danger_tier": 1,
+      "allowed_rarity_ceiling": "uncommon",
+      "magic_spell_items": [
+        "born_in_chaos_v1:staff_of_magic_arrows"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "born_in_chaos_v1:entities/bonescaller_not_despawn",
+      "source_mod": "Born in Chaos ",
+      "loot_context": "mob",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "unranked_to_c_rank",
+      "danger_tier": 1,
+      "allowed_rarity_ceiling": "uncommon",
+      "magic_spell_items": [
+        "born_in_chaos_v1:staff_of_magic_arrows"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "born_in_chaos_v1:entities/pumpkinhead",
+      "source_mod": "Born in Chaos ",
+      "loot_context": "mob",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "unranked_to_c_rank",
+      "danger_tier": 1,
+      "allowed_rarity_ceiling": "uncommon",
+      "magic_spell_items": [
+        "born_in_chaos_v1:pumpkinstaffa"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "born_in_chaos_v1:entities/supreme_bonescaller_stage_2",
+      "source_mod": "Born in Chaos ",
+      "loot_context": "mob",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "unranked_to_c_rank",
+      "danger_tier": 1,
+      "allowed_rarity_ceiling": "uncommon",
+      "magic_spell_items": [
+        "born_in_chaos_v1:staff_of_magic_arrows"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "iceandfire:chest/cyclops_cave",
+      "source_mod": "Ice And Fire Community Edition",
+      "loot_context": "dragon",
+      "atlas_region_allowance": [
+        "dragonbound",
+        "outer",
+        "corrupted"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "ascendant",
+      "magic_spell_items": [
+        "iceandfire:manuscript"
+      ],
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "source_id": "iceandfire:chest/fire_dragon_female_cave",
+      "source_mod": "Ice And Fire Community Edition",
+      "loot_context": "dragon",
+      "atlas_region_allowance": [
+        "dragonbound",
+        "outer",
+        "corrupted"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "ascendant",
+      "magic_spell_items": [
+        "iceandfire:manuscript"
+      ],
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "source_id": "iceandfire:chest/fire_dragon_male_cave",
+      "source_mod": "Ice And Fire Community Edition",
+      "loot_context": "dragon",
+      "atlas_region_allowance": [
+        "dragonbound",
+        "outer",
+        "corrupted"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "ascendant",
+      "magic_spell_items": [
+        "iceandfire:manuscript"
+      ],
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "source_id": "iceandfire:chest/fire_dragon_roost",
+      "source_mod": "Ice And Fire Community Edition",
+      "loot_context": "dragon",
+      "atlas_region_allowance": [
+        "dragonbound",
+        "outer",
+        "corrupted"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "ascendant",
+      "magic_spell_items": [
+        "iceandfire:manuscript"
+      ],
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "source_id": "iceandfire:chest/graveyard",
+      "source_mod": "Ice And Fire Community Edition",
+      "loot_context": "generic",
+      "atlas_region_allowance": [
+        "manual_review"
+      ],
+      "distance_ring_allowance": [
+        "manual_review"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "iceandfire:manuscript"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "iceandfire:chest/hydra_cave",
+      "source_mod": "Ice And Fire Community Edition",
+      "loot_context": "dragon",
+      "atlas_region_allowance": [
+        "dragonbound",
+        "outer",
+        "corrupted"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "ascendant",
+      "magic_spell_items": [
+        "iceandfire:manuscript"
+      ],
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "source_id": "iceandfire:chest/ice_dragon_female_cave",
+      "source_mod": "Ice And Fire Community Edition",
+      "loot_context": "dragon",
+      "atlas_region_allowance": [
+        "dragonbound",
+        "outer",
+        "corrupted"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "ascendant",
+      "magic_spell_items": [
+        "iceandfire:manuscript"
+      ],
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "source_id": "iceandfire:chest/ice_dragon_male_cave",
+      "source_mod": "Ice And Fire Community Edition",
+      "loot_context": "dragon",
+      "atlas_region_allowance": [
+        "dragonbound",
+        "outer",
+        "corrupted"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "ascendant",
+      "magic_spell_items": [
+        "iceandfire:manuscript"
+      ],
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "source_id": "iceandfire:chest/ice_dragon_roost",
+      "source_mod": "Ice And Fire Community Edition",
+      "loot_context": "dragon",
+      "atlas_region_allowance": [
+        "dragonbound",
+        "outer",
+        "corrupted"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "ascendant",
+      "magic_spell_items": [
+        "iceandfire:manuscript"
+      ],
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "source_id": "iceandfire:chest/lightning_dragon_female_cave",
+      "source_mod": "Ice And Fire Community Edition",
+      "loot_context": "dragon",
+      "atlas_region_allowance": [
+        "dragonbound",
+        "outer",
+        "corrupted"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "ascendant",
+      "magic_spell_items": [
+        "iceandfire:manuscript"
+      ],
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "source_id": "iceandfire:chest/lightning_dragon_male_cave",
+      "source_mod": "Ice And Fire Community Edition",
+      "loot_context": "dragon",
+      "atlas_region_allowance": [
+        "dragonbound",
+        "outer",
+        "corrupted"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "ascendant",
+      "magic_spell_items": [
+        "iceandfire:manuscript"
+      ],
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "source_id": "iceandfire:chest/lightning_dragon_roost",
+      "source_mod": "Ice And Fire Community Edition",
+      "loot_context": "dragon",
+      "atlas_region_allowance": [
+        "dragonbound",
+        "outer",
+        "corrupted"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "ascendant",
+      "magic_spell_items": [
+        "iceandfire:manuscript"
+      ],
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "source_id": "iceandfire:chest/mausoleum_chest",
+      "source_mod": "Ice And Fire Community Edition",
+      "loot_context": "generic",
+      "atlas_region_allowance": [
+        "manual_review"
+      ],
+      "distance_ring_allowance": [
+        "manual_review"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "iceandfire:manuscript"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "iceandfire:chest/village_scribe",
+      "source_mod": "Ice And Fire Community Edition",
+      "loot_context": "village",
+      "atlas_region_allowance": [
+        "hearthlands",
+        "crownlands",
+        "region_compatible_settlements"
+      ],
+      "distance_ring_allowance": [
+        "center",
+        "inner"
+      ],
+      "guild_rank_tier": "unranked_to_e_rank",
+      "danger_tier": 0,
+      "allowed_rarity_ceiling": "uncommon",
+      "magic_spell_items": [
+        "iceandfire:manuscript"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "idas:chests/dread_citadel/dread_citadel",
+      "source_mod": "Integrated Dungeons and Structures",
+      "loot_context": "boss",
+      "atlas_region_allowance": [
+        "outer",
+        "corrupted",
+        "boss_biome_specific"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "mythic",
+      "magic_spell_items": [
+        "iceandfire:manuscript"
+      ],
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "source_id": "idas:chests/dread_citadel/dread_citadel_library",
+      "source_mod": "Integrated Dungeons and Structures",
+      "loot_context": "boss",
+      "atlas_region_allowance": [
+        "outer",
+        "corrupted",
+        "boss_biome_specific"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "mythic",
+      "magic_spell_items": [
+        "iceandfire:manuscript"
+      ],
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "source_id": "idas:chests/dread_citadel/dread_citadel_throne",
+      "source_mod": "Integrated Dungeons and Structures",
+      "loot_context": "boss",
+      "atlas_region_allowance": [
+        "outer",
+        "corrupted",
+        "boss_biome_specific"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "mythic",
+      "magic_spell_items": [
+        "iceandfire:manuscript"
+      ],
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "source_id": "irons_spellbooks:blocks/alchemist_cauldron",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "block",
+      "atlas_region_allowance": [
+        "all"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "none",
+      "danger_tier": 0,
+      "allowed_rarity_ceiling": "common",
+      "magic_spell_items": [],
+      "recommended_action": "untouched"
+    },
+    {
+      "source_id": "irons_spellbooks:blocks/arcane_anvil",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "block",
+      "atlas_region_allowance": [
+        "all"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "none",
+      "danger_tier": 0,
+      "allowed_rarity_ceiling": "common",
+      "magic_spell_items": [],
+      "recommended_action": "untouched"
+    },
+    {
+      "source_id": "irons_spellbooks:blocks/arcane_debris",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "block",
+      "atlas_region_allowance": [
+        "all"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "none",
+      "danger_tier": 0,
+      "allowed_rarity_ceiling": "common",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_salvage"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:blocks/book_stack",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "block",
+      "atlas_region_allowance": [
+        "all"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "none",
+      "danger_tier": 0,
+      "allowed_rarity_ceiling": "common",
+      "magic_spell_items": [],
+      "recommended_action": "untouched"
+    },
+    {
+      "source_id": "irons_spellbooks:blocks/brazier",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "block",
+      "atlas_region_allowance": [
+        "all"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "none",
+      "danger_tier": 0,
+      "allowed_rarity_ceiling": "common",
+      "magic_spell_items": [],
+      "recommended_action": "untouched"
+    },
+    {
+      "source_id": "irons_spellbooks:blocks/brazier_soul",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "block",
+      "atlas_region_allowance": [
+        "all"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "none",
+      "danger_tier": 0,
+      "allowed_rarity_ceiling": "common",
+      "magic_spell_items": [],
+      "recommended_action": "untouched"
+    },
+    {
+      "source_id": "irons_spellbooks:blocks/deepslate_mithril_ore",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "block",
+      "atlas_region_allowance": [
+        "all"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "none",
+      "danger_tier": 0,
+      "allowed_rarity_ceiling": "common",
+      "magic_spell_items": [
+        "irons_spellbooks:deepslate_mithril_ore",
+        "irons_spellbooks:raw_mithril"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:blocks/firefly_jar",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "block",
+      "atlas_region_allowance": [
+        "all"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "none",
+      "danger_tier": 0,
+      "allowed_rarity_ceiling": "common",
+      "magic_spell_items": [],
+      "recommended_action": "untouched"
+    },
+    {
+      "source_id": "irons_spellbooks:blocks/ice_spider_egg",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "block",
+      "atlas_region_allowance": [
+        "all"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "none",
+      "danger_tier": 0,
+      "allowed_rarity_ceiling": "common",
+      "magic_spell_items": [],
+      "recommended_action": "untouched"
+    },
+    {
+      "source_id": "irons_spellbooks:blocks/inscription_table",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "block",
+      "atlas_region_allowance": [
+        "all"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "none",
+      "danger_tier": 0,
+      "allowed_rarity_ceiling": "common",
+      "magic_spell_items": [],
+      "recommended_action": "untouched"
+    },
+    {
+      "source_id": "irons_spellbooks:blocks/mithril_ore",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "block",
+      "atlas_region_allowance": [
+        "all"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "none",
+      "danger_tier": 0,
+      "allowed_rarity_ceiling": "common",
+      "magic_spell_items": [
+        "irons_spellbooks:mithril_ore",
+        "irons_spellbooks:raw_mithril"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:blocks/nether_brick_pillar",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "block",
+      "atlas_region_allowance": [
+        "all"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "none",
+      "danger_tier": 0,
+      "allowed_rarity_ceiling": "common",
+      "magic_spell_items": [],
+      "recommended_action": "untouched"
+    },
+    {
+      "source_id": "irons_spellbooks:blocks/pedestal",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "block",
+      "atlas_region_allowance": [
+        "all"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "none",
+      "danger_tier": 0,
+      "allowed_rarity_ceiling": "common",
+      "magic_spell_items": [],
+      "recommended_action": "untouched"
+    },
+    {
+      "source_id": "irons_spellbooks:blocks/portal_frame",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "block",
+      "atlas_region_allowance": [
+        "all"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "none",
+      "danger_tier": 0,
+      "allowed_rarity_ceiling": "common",
+      "magic_spell_items": [],
+      "recommended_action": "untouched"
+    },
+    {
+      "source_id": "irons_spellbooks:blocks/scroll_forge",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "block",
+      "atlas_region_allowance": [
+        "all"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "none",
+      "danger_tier": 0,
+      "allowed_rarity_ceiling": "common",
+      "magic_spell_items": [],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:blocks/tyros_statue",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "block",
+      "atlas_region_allowance": [
+        "all"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "none",
+      "danger_tier": 0,
+      "allowed_rarity_ceiling": "common",
+      "magic_spell_items": [],
+      "recommended_action": "untouched"
+    },
+    {
+      "source_id": "irons_spellbooks:blocks/wisewood_bookshelf",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "block",
+      "atlas_region_allowance": [
+        "all"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "none",
+      "danger_tier": 0,
+      "allowed_rarity_ceiling": "common",
+      "magic_spell_items": [
+        "irons_spellbooks:wisewood_bookshelf"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/additional_ancient_city_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:ancient_knowledge_fragment",
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:blank_rune",
+        "irons_spellbooks:ruined_book",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/additional_end_city_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "structure",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:ancient_knowledge_fragment",
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:blank_rune",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/additional_generic_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "structure",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:blank_rune",
+        "irons_spellbooks:rotten_spell_book",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/additional_good_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "structure",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:blank_rune",
+        "irons_spellbooks:rotten_spell_book",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/additional_library_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "structure",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:ancient_knowledge_fragment",
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:blank_rune",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/additional_nether_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "structure",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:blank_rune",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/additional_treasure_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "structure",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:ancient_knowledge_fragment",
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:blank_rune",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/battleground/burial_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "structure",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:blank_rune",
+        "irons_spellbooks:cinder_essence"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/bookshelf_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "structure",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/catacombs/coffin_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:rotten_spell_book",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/catacombs/crypt_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:ancient_knowledge_fragment",
+        "irons_spellbooks:arcane_ingot",
+        "irons_spellbooks:blank_rune",
+        "irons_spellbooks:blood_vial",
+        "irons_spellbooks:dead_king_phylactery_shard",
+        "irons_spellbooks:magic_cloth",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/catacombs/dead_king_vault",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:ancient_knowledge_fragment",
+        "irons_spellbooks:arcane_ingot",
+        "irons_spellbooks:blank_rune",
+        "irons_spellbooks:blood_vial",
+        "irons_spellbooks:dead_king_phylactery_shard",
+        "irons_spellbooks:magic_cloth",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/catacombs/hidden_trough_treasure",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:blank_rune",
+        "irons_spellbooks:rotten_spell_book",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/catacombs/pot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:music_disc_dead_king_lullaby"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/catacombs/wall_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:ancient_knowledge_fragment",
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:blank_rune",
+        "irons_spellbooks:rotten_spell_book",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/citadel/citadel_bookshelf",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "boss",
+      "atlas_region_allowance": [
+        "outer",
+        "corrupted",
+        "boss_biome_specific"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "mythic",
+      "magic_spell_items": [
+        "irons_spellbooks:ancient_knowledge_fragment",
+        "irons_spellbooks:chained_book",
+        "irons_spellbooks:disc_fragment_flame_still_burns",
+        "irons_spellbooks:furled_map",
+        "irons_spellbooks:ruined_book",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/citadel/citadel_vault",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "boss",
+      "atlas_region_allowance": [
+        "outer",
+        "corrupted",
+        "boss_biome_specific"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "mythic",
+      "magic_spell_items": [
+        "irons_spellbooks:ancient_knowledge_fragment",
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:blank_rune",
+        "irons_spellbooks:disc_fragment_flame_still_burns",
+        "irons_spellbooks:mithril_scrap",
+        "irons_spellbooks:pyrium_ingot",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/citadel/rampart_chest",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "boss",
+      "atlas_region_allowance": [
+        "outer",
+        "corrupted",
+        "boss_biome_specific"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "mythic",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:blank_rune",
+        "irons_spellbooks:keeper_flamberge",
+        "irons_spellbooks:ominous_bottle",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/citadel/rampart_supplies",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "boss",
+      "atlas_region_allowance": [
+        "outer",
+        "corrupted",
+        "boss_biome_specific"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "mythic",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:ominous_bottle"
+      ],
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/citadel/spawner_reward",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "boss",
+      "atlas_region_allowance": [
+        "outer",
+        "corrupted",
+        "boss_biome_specific"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "mythic",
+      "magic_spell_items": [
+        "irons_spellbooks:cinder_essence"
+      ],
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/component_storage",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "structure",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:shriving_stone"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/evoker_fort",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "structure",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/filler_storage_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "structure",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:blank_rune",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/generic_magic_treasure",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "structure",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:blank_rune",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/ice_spider_den/basement",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "structure",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:blank_rune",
+        "irons_spellbooks:frozen_bone",
+        "irons_spellbooks:ice_venom_vial"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/ice_spider_den/dungeon",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:blank_rune",
+        "irons_spellbooks:frozen_bone",
+        "irons_spellbooks:invisibility_elixir",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/ice_spider_den/pot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "structure",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:frozen_bone"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/ice_spider_den/spawner_reward",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "structure",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/ice_spider_den/tower",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/impaled_icebreaker/captain_quarters",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "structure",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:epic_ink",
+        "irons_spellbooks:permafrost_shard"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/magic_bookshelf_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "structure",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:ancient_knowledge_fragment",
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/mangrove_hut",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "structure",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/mangrove_hut/hidden_potion_storage",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "structure",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:netherward_tincture"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/mangrove_hut/potion_ingredient_storage",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "structure",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/mountain_tower/ice_barrel",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:affinity_ring",
+        "irons_spellbooks:frostward_ring",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/mountain_tower/mountain_tower",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:frozen_bone",
+        "irons_spellbooks:furled_map",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/priest_house",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "structure",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:divine_pearl",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/pyromancer_tower/burnt_chest",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:affinity_ring",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/pyromancer_tower/fire_ale_cask",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:fire_ale"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/pyromancer_tower/fire_ale_trove",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:fire_ale"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/pyromancer_tower/pot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:fire_ale"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/pyromancer_tower/pyromancer_basic_storage",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:blank_rune",
+        "irons_spellbooks:magic_cloth",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/pyromancer_tower/pyromancer_supplies",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/sewer_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "structure",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/trial_chambers/additional_ominous_spawner_consumable_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/trial_chambers/additional_ominous_vault_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:autoloader_crossbow",
+        "irons_spellbooks:scroll",
+        "irons_spellbooks:upgrade_orb",
+        "irons_spellbooks:visibility_ring",
+        "irons_spellbooks:weapon_parts"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/trial_chambers/additional_regular_vault_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:blank_rune",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/trial_chambers/additional_trial_chest_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:blank_rune",
+        "irons_spellbooks:magic_cloth",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/trial_chambers/pot_replacement",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:entities/additional_blaze_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "mob",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "unranked_to_c_rank",
+      "danger_tier": 1,
+      "allowed_rarity_ceiling": "uncommon",
+      "magic_spell_items": [
+        "irons_spellbooks:blaze_spell_book"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:entities/additional_dragon_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dragon",
+      "atlas_region_allowance": [
+        "dragonbound",
+        "outer",
+        "corrupted"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "ascendant",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:dragonskin"
+      ],
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "source_id": "irons_spellbooks:entities/additional_evoker_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "mob",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "unranked_to_c_rank",
+      "danger_tier": 1,
+      "allowed_rarity_ceiling": "uncommon",
+      "magic_spell_items": [
+        "irons_spellbooks:evoker_spell_book"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:entities/additional_hoglin_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "mob",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "unranked_to_c_rank",
+      "danger_tier": 1,
+      "allowed_rarity_ceiling": "uncommon",
+      "magic_spell_items": [
+        "irons_spellbooks:hogskin"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:entities/additional_stray_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "mob",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "unranked_to_c_rank",
+      "danger_tier": 1,
+      "allowed_rarity_ceiling": "uncommon",
+      "magic_spell_items": [
+        "irons_spellbooks:frozen_bone"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:entities/apothecarist",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "mob",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "unranked_to_c_rank",
+      "danger_tier": 1,
+      "allowed_rarity_ceiling": "uncommon",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:entities/archevoker",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "mob",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "unranked_to_c_rank",
+      "danger_tier": 1,
+      "allowed_rarity_ceiling": "uncommon",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:evocation_rune",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:entities/citadel_keeper",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "mob",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "unranked_to_c_rank",
+      "danger_tier": 1,
+      "allowed_rarity_ceiling": "uncommon",
+      "magic_spell_items": [
+        "irons_spellbooks:cinder_essence"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:entities/cryomancer",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "mob",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "unranked_to_c_rank",
+      "danger_tier": 1,
+      "allowed_rarity_ceiling": "uncommon",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:entities/cultist",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "mob",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "unranked_to_c_rank",
+      "danger_tier": 1,
+      "allowed_rarity_ceiling": "uncommon",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:entities/dead_king",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "mob",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "unranked_to_c_rank",
+      "danger_tier": 1,
+      "allowed_rarity_ceiling": "uncommon",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:blank_rune",
+        "irons_spellbooks:blood_staff",
+        "irons_spellbooks:necronomicon_spell_book",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:entities/dead_king_ominous",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "mob",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "unranked_to_c_rank",
+      "danger_tier": 1,
+      "allowed_rarity_ceiling": "uncommon",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:blank_rune",
+        "irons_spellbooks:scroll",
+        "irons_spellbooks:wicked_bone_ring"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:entities/dead_king_per_player",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "mob",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "unranked_to_c_rank",
+      "danger_tier": 1,
+      "allowed_rarity_ceiling": "uncommon",
+      "magic_spell_items": [
+        "irons_spellbooks:bone_key"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:entities/dead_king_per_player_ominous",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "mob",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "unranked_to_c_rank",
+      "danger_tier": 1,
+      "allowed_rarity_ceiling": "uncommon",
+      "magic_spell_items": [],
+      "recommended_action": "untouched"
+    },
+    {
+      "source_id": "irons_spellbooks:entities/fire_boss",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "boss",
+      "atlas_region_allowance": [
+        "outer",
+        "corrupted",
+        "boss_biome_specific"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "mythic",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:betrayer_signet",
+        "irons_spellbooks:cinder_essence",
+        "irons_spellbooks:decrepit_scythe",
+        "irons_spellbooks:divine_soulshard"
+      ],
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "source_id": "irons_spellbooks:entities/fire_boss_ominous",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "boss",
+      "atlas_region_allowance": [
+        "outer",
+        "corrupted",
+        "boss_biome_specific"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "mythic",
+      "magic_spell_items": [
+        "irons_spellbooks:blank_rune"
+      ],
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "source_id": "irons_spellbooks:entities/fire_boss_per_player",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "boss",
+      "atlas_region_allowance": [
+        "outer",
+        "corrupted",
+        "boss_biome_specific"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "mythic",
+      "magic_spell_items": [
+        "irons_spellbooks:decrepit_key"
+      ],
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "source_id": "irons_spellbooks:entities/fire_boss_per_player_ominous",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "boss",
+      "atlas_region_allowance": [
+        "outer",
+        "corrupted",
+        "boss_biome_specific"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "mythic",
+      "magic_spell_items": [],
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "source_id": "irons_spellbooks:entities/ice_spider",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "mob",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "unranked_to_c_rank",
+      "danger_tier": 1,
+      "allowed_rarity_ceiling": "uncommon",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:icy_fang"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:entities/necromancer",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "mob",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "unranked_to_c_rank",
+      "danger_tier": 1,
+      "allowed_rarity_ceiling": "uncommon",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:entities/priest",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "mob",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "unranked_to_c_rank",
+      "danger_tier": 1,
+      "allowed_rarity_ceiling": "uncommon",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:entities/pyromancer",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "mob",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "unranked_to_c_rank",
+      "danger_tier": 1,
+      "allowed_rarity_ceiling": "uncommon",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:magic_items/all_focuses",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "generic",
+      "atlas_region_allowance": [
+        "manual_review"
+      ],
+      "distance_ring_allowance": [
+        "manual_review"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:magic_items/basic_curios",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "generic",
+      "atlas_region_allowance": [
+        "manual_review"
+      ],
+      "distance_ring_allowance": [
+        "manual_review"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:affinity_ring",
+        "irons_spellbooks:cast_time_ring",
+        "irons_spellbooks:concentration_amulet",
+        "irons_spellbooks:conjurers_talisman",
+        "irons_spellbooks:cooldown_ring",
+        "irons_spellbooks:emerald_stoneplate_ring",
+        "irons_spellbooks:fireward_ring",
+        "irons_spellbooks:frostward_ring",
+        "irons_spellbooks:heavy_chain_necklace",
+        "irons_spellbooks:invisibility_ring",
+        "irons_spellbooks:poisonward_ring",
+        "irons_spellbooks:silver_ring",
+        "irons_spellbooks:teleportation_amulet"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:magic_items/decent_ink",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "generic",
+      "atlas_region_allowance": [
+        "manual_review"
+      ],
+      "distance_ring_allowance": [
+        "manual_review"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:common_ink",
+        "irons_spellbooks:epic_ink",
+        "irons_spellbooks:rare_ink",
+        "irons_spellbooks:uncommon_ink"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:magic_items/good_ink",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "generic",
+      "atlas_region_allowance": [
+        "manual_review"
+      ],
+      "distance_ring_allowance": [
+        "manual_review"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:common_ink",
+        "irons_spellbooks:epic_ink",
+        "irons_spellbooks:rare_ink",
+        "irons_spellbooks:uncommon_ink"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:magic_items/great_ink",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "generic",
+      "atlas_region_allowance": [
+        "manual_review"
+      ],
+      "distance_ring_allowance": [
+        "manual_review"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:epic_ink",
+        "irons_spellbooks:legendary_ink",
+        "irons_spellbooks:rare_ink",
+        "irons_spellbooks:uncommon_ink"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:magic_items/poor_ink",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "generic",
+      "atlas_region_allowance": [
+        "manual_review"
+      ],
+      "distance_ring_allowance": [
+        "manual_review"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:common_ink",
+        "irons_spellbooks:rare_ink",
+        "irons_spellbooks:uncommon_ink"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:magic_items/random_elixir",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "generic",
+      "atlas_region_allowance": [
+        "manual_review"
+      ],
+      "distance_ring_allowance": [
+        "manual_review"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:evasion_elixir",
+        "irons_spellbooks:greater_evasion_elixir",
+        "irons_spellbooks:greater_healing_potion",
+        "irons_spellbooks:greater_invisibility_elixir",
+        "irons_spellbooks:greater_oakskin_elixir",
+        "irons_spellbooks:invisibility_elixir",
+        "irons_spellbooks:oakskin_elixir"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:magic_items/random_potion_or_elixir",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "generic",
+      "atlas_region_allowance": [
+        "manual_review"
+      ],
+      "distance_ring_allowance": [
+        "manual_review"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:magic_items/reward_ink",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "generic",
+      "atlas_region_allowance": [
+        "manual_review"
+      ],
+      "distance_ring_allowance": [
+        "manual_review"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:epic_ink",
+        "irons_spellbooks:legendary_ink",
+        "irons_spellbooks:rare_ink"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:magic_items/scroll_pouch",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "generic",
+      "atlas_region_allowance": [
+        "manual_review"
+      ],
+      "distance_ring_allowance": [
+        "manual_review"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:magic_items/tincture_of_forgetfulness_reward",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "generic",
+      "atlas_region_allowance": [
+        "manual_review"
+      ],
+      "distance_ring_allowance": [
+        "manual_review"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:tincture_of_forgetfulness"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:spawners/catacombs/ominous_zombie_spawner",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:blank_rune",
+        "irons_spellbooks:dead_king_phylactery_shard",
+        "irons_spellbooks:ominous_bottle",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:spawners/catacombs/regular_zombie_spawner",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:dead_king_phylactery_shard",
+        "irons_spellbooks:ominous_bottle",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:test/ring_gen",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "generic",
+      "atlas_region_allowance": [
+        "manual_review"
+      ],
+      "distance_ring_allowance": [
+        "manual_review"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:affinity_ring"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:test/ring_gen_all_schools",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "generic",
+      "atlas_region_allowance": [
+        "manual_review"
+      ],
+      "distance_ring_allowance": [
+        "manual_review"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:affinity_ring"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:test/ring_gen_break_me",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "generic",
+      "atlas_region_allowance": [
+        "manual_review"
+      ],
+      "distance_ring_allowance": [
+        "manual_review"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:affinity_ring"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:test/scroll_gen",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "generic",
+      "atlas_region_allowance": [
+        "manual_review"
+      ],
+      "distance_ring_allowance": [
+        "manual_review"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:test/scroll_gen_fire",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "generic",
+      "atlas_region_allowance": [
+        "manual_review"
+      ],
+      "distance_ring_allowance": [
+        "manual_review"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:test/scroll_gen_force_eldritch",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "generic",
+      "atlas_region_allowance": [
+        "manual_review"
+      ],
+      "distance_ring_allowance": [
+        "manual_review"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:test/scroll_gen_magic_missile",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "generic",
+      "atlas_region_allowance": [
+        "manual_review"
+      ],
+      "distance_ring_allowance": [
+        "manual_review"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:test/scroll_gen_notforce_eldritch",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "generic",
+      "atlas_region_allowance": [
+        "manual_review"
+      ],
+      "distance_ring_allowance": [
+        "manual_review"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "majruszsdifficulty:gameplay/treasure_bag_pillager",
+      "source_mod": "Majrusz's Progressive Difficulty",
+      "loot_context": "generic",
+      "atlas_region_allowance": [
+        "manual_review"
+      ],
+      "distance_ring_allowance": [
+        "manual_review"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "majruszsdifficulty:evoker_fang_scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "majruszsdifficulty:gameplay/treasure_bag_warden",
+      "source_mod": "Majrusz's Progressive Difficulty",
+      "loot_context": "generic",
+      "atlas_region_allowance": [
+        "manual_review"
+      ],
+      "distance_ring_allowance": [
+        "manual_review"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "majruszsdifficulty:sonic_boom_scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "mowziesmobs:chests/monastery_chest",
+      "source_mod": "Mowzie's Mobs",
+      "loot_context": "structure",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "inner",
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "e_rank_to_b_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "mowziesmobs:sculptor_staff"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "mowziesmobs:entities/sculptor",
+      "source_mod": "Mowzie's Mobs",
+      "loot_context": "mob",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "unranked_to_c_rank",
+      "danger_tier": 1,
+      "allowed_rarity_ceiling": "uncommon",
+      "magic_spell_items": [
+        "mowziesmobs:sculptor_staff"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "soulsweapons:gameplay/chungus_bartering",
+      "source_mod": "Marium's Soulslike Weaponry",
+      "loot_context": "generic",
+      "atlas_region_allowance": [
+        "manual_review"
+      ],
+      "distance_ring_allowance": [
+        "manual_review"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "rare",
+      "magic_spell_items": [
+        "soulsweapons:chungus_staff"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "ascendant_guild:chests/frontier_guild_outpost",
+      "source_mod": "ascendant_guild",
+      "loot_context": "bounty",
+      "atlas_region_allowance": [
+        "atlas_region_matching_contract"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "board_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "legendary",
+      "magic_spell_items": [
+        "irons_spellbooks:common_ink"
+      ],
+      "recommended_action": "controlled"
+    },
+    {
+      "source_id": "idas:chests/archmages_tower/archmages_tower",
+      "source_mod": "Integrated Dungeons and Structures",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:magic_cloth",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "idas:chests/archmages_tower/archmages_tower_library",
+      "source_mod": "Integrated Dungeons and Structures",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:common_ink",
+        "irons_spellbooks:eldritch_manuscript",
+        "irons_spellbooks:uncommon_ink"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "idas:chests/archmages_tower/archmages_tower_treasure",
+      "source_mod": "Integrated Dungeons and Structures",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:ancient_knowledge_fragment",
+        "irons_spellbooks:arcane_ingot",
+        "irons_spellbooks:epic_ink",
+        "irons_spellbooks:legendary_spell_book",
+        "irons_spellbooks:rare_ink",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "idas:chests/enchantingtower/enchantingtower_basic_ars",
+      "source_mod": "Integrated Dungeons and Structures",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:common_ink",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "idas:chests/enchantingtower/enchantingtower_top_ars",
+      "source_mod": "Integrated Dungeons and Structures",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_ingot",
+        "irons_spellbooks:diamond_spell_book",
+        "irons_spellbooks:rare_ink",
+        "irons_spellbooks:scroll",
+        "irons_spellbooks:uncommon_ink"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/catacombs/crypt_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:ancient_knowledge_fragment",
+        "irons_spellbooks:arcane_ingot",
+        "irons_spellbooks:magic_cloth",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/citadel/citadel_tomes",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "boss",
+      "atlas_region_allowance": [
+        "outer",
+        "corrupted",
+        "boss_biome_specific"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "mythic",
+      "magic_spell_items": [
+        "irons_spellbooks:eldritch_manuscript",
+        "irons_spellbooks:rare_ink",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "source_id": "ascendant_guild:chests/frontier_guild_outpost",
+      "source_mod": "ascendant_guild",
+      "loot_context": "bounty",
+      "atlas_region_allowance": [
+        "atlas_region_matching_contract"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "board_rank",
+      "danger_tier": 2,
+      "allowed_rarity_ceiling": "legendary",
+      "magic_spell_items": [
+        "irons_spellbooks:common_ink"
+      ],
+      "recommended_action": "controlled"
+    },
+    {
+      "source_id": "idas:chests/archmages_tower/archmages_tower",
+      "source_mod": "Integrated Dungeons and Structures",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:magic_cloth",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "idas:chests/archmages_tower/archmages_tower_library",
+      "source_mod": "Integrated Dungeons and Structures",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:common_ink",
+        "irons_spellbooks:eldritch_manuscript",
+        "irons_spellbooks:uncommon_ink"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "idas:chests/archmages_tower/archmages_tower_treasure",
+      "source_mod": "Integrated Dungeons and Structures",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:ancient_knowledge_fragment",
+        "irons_spellbooks:arcane_ingot",
+        "irons_spellbooks:epic_ink",
+        "irons_spellbooks:legendary_spell_book",
+        "irons_spellbooks:rare_ink",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "idas:chests/enchantingtower/enchantingtower_basic_ars",
+      "source_mod": "Integrated Dungeons and Structures",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_essence",
+        "irons_spellbooks:common_ink",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "idas:chests/enchantingtower/enchantingtower_top_ars",
+      "source_mod": "Integrated Dungeons and Structures",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:arcane_ingot",
+        "irons_spellbooks:diamond_spell_book",
+        "irons_spellbooks:rare_ink",
+        "irons_spellbooks:scroll",
+        "irons_spellbooks:uncommon_ink"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/catacombs/crypt_loot",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "dungeon",
+      "atlas_region_allowance": [
+        "atlas_region_matching_structure"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "allowed_rarity_ceiling": "epic",
+      "magic_spell_items": [
+        "irons_spellbooks:ancient_knowledge_fragment",
+        "irons_spellbooks:arcane_ingot",
+        "irons_spellbooks:magic_cloth",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "manual_review"
+    },
+    {
+      "source_id": "irons_spellbooks:chests/citadel/citadel_tomes",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "loot_context": "boss",
+      "atlas_region_allowance": [
+        "outer",
+        "corrupted",
+        "boss_biome_specific"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_s_rank",
+      "danger_tier": 5,
+      "allowed_rarity_ceiling": "mythic",
+      "magic_spell_items": [
+        "irons_spellbooks:eldritch_manuscript",
+        "irons_spellbooks:rare_ink",
+        "irons_spellbooks:scroll"
+      ],
+      "recommended_action": "preserve_or_improve"
+    }
+  ],
+  "validation": {
+    "high_tier_spell_in_low_tier_loot": [
+      {
+        "id": "irons_spellbooks:ancient_knowledge_fragment",
+        "rarity": "legendary",
+        "source_id": "irons_spellbooks:chests/additional_ancient_city_loot",
+        "loot_context": "dungeon",
+        "guild_rank_tier": "d_rank_to_b_rank",
+        "allowed_rarity_ceiling": "epic"
+      },
+      {
+        "id": "irons_spellbooks:ancient_knowledge_fragment",
+        "rarity": "legendary",
+        "source_id": "irons_spellbooks:chests/additional_end_city_loot",
+        "loot_context": "structure",
+        "guild_rank_tier": "e_rank_to_b_rank",
+        "allowed_rarity_ceiling": "rare"
+      },
+      {
+        "id": "irons_spellbooks:ancient_knowledge_fragment",
+        "rarity": "legendary",
+        "source_id": "irons_spellbooks:chests/additional_library_loot",
+        "loot_context": "structure",
+        "guild_rank_tier": "e_rank_to_b_rank",
+        "allowed_rarity_ceiling": "rare"
+      },
+      {
+        "id": "irons_spellbooks:ancient_knowledge_fragment",
+        "rarity": "legendary",
+        "source_id": "irons_spellbooks:chests/additional_treasure_loot",
+        "loot_context": "structure",
+        "guild_rank_tier": "e_rank_to_b_rank",
+        "allowed_rarity_ceiling": "rare"
+      },
+      {
+        "id": "irons_spellbooks:ancient_knowledge_fragment",
+        "rarity": "legendary",
+        "source_id": "irons_spellbooks:chests/catacombs/crypt_loot",
+        "loot_context": "dungeon",
+        "guild_rank_tier": "d_rank_to_b_rank",
+        "allowed_rarity_ceiling": "epic"
+      },
+      {
+        "id": "irons_spellbooks:ancient_knowledge_fragment",
+        "rarity": "legendary",
+        "source_id": "irons_spellbooks:chests/catacombs/dead_king_vault",
+        "loot_context": "dungeon",
+        "guild_rank_tier": "d_rank_to_b_rank",
+        "allowed_rarity_ceiling": "epic"
+      },
+      {
+        "id": "irons_spellbooks:ancient_knowledge_fragment",
+        "rarity": "legendary",
+        "source_id": "irons_spellbooks:chests/catacombs/wall_loot",
+        "loot_context": "dungeon",
+        "guild_rank_tier": "d_rank_to_b_rank",
+        "allowed_rarity_ceiling": "epic"
+      },
+      {
+        "id": "irons_spellbooks:ancient_knowledge_fragment",
+        "rarity": "legendary",
+        "source_id": "irons_spellbooks:chests/magic_bookshelf_loot",
+        "loot_context": "structure",
+        "guild_rank_tier": "e_rank_to_b_rank",
+        "allowed_rarity_ceiling": "rare"
+      },
+      {
+        "id": "irons_spellbooks:ancient_knowledge_fragment",
+        "rarity": "legendary",
+        "source_id": "idas:chests/archmages_tower/archmages_tower_treasure",
+        "loot_context": "dungeon",
+        "guild_rank_tier": "d_rank_to_b_rank",
+        "allowed_rarity_ceiling": "epic"
+      },
+      {
+        "id": "irons_spellbooks:ancient_knowledge_fragment",
+        "rarity": "legendary",
+        "source_id": "irons_spellbooks:chests/catacombs/crypt_loot",
+        "loot_context": "dungeon",
+        "guild_rank_tier": "d_rank_to_b_rank",
+        "allowed_rarity_ceiling": "epic"
+      },
+      {
+        "id": "irons_spellbooks:ancient_knowledge_fragment",
+        "rarity": "legendary",
+        "source_id": "idas:chests/archmages_tower/archmages_tower_treasure",
+        "loot_context": "dungeon",
+        "guild_rank_tier": "d_rank_to_b_rank",
+        "allowed_rarity_ceiling": "epic"
+      },
+      {
+        "id": "irons_spellbooks:ancient_knowledge_fragment",
+        "rarity": "legendary",
+        "source_id": "irons_spellbooks:chests/catacombs/crypt_loot",
+        "loot_context": "dungeon",
+        "guild_rank_tier": "d_rank_to_b_rank",
+        "allowed_rarity_ceiling": "epic"
+      },
+      {
+        "id": "irons_spellbooks:dead_king_phylactery_shard",
+        "rarity": "legendary",
+        "source_id": "irons_spellbooks:chests/catacombs/crypt_loot",
+        "loot_context": "dungeon",
+        "guild_rank_tier": "d_rank_to_b_rank",
+        "allowed_rarity_ceiling": "epic"
+      },
+      {
+        "id": "irons_spellbooks:dead_king_phylactery_shard",
+        "rarity": "legendary",
+        "source_id": "irons_spellbooks:chests/catacombs/dead_king_vault",
+        "loot_context": "dungeon",
+        "guild_rank_tier": "d_rank_to_b_rank",
+        "allowed_rarity_ceiling": "epic"
+      },
+      {
+        "id": "irons_spellbooks:dead_king_phylactery_shard",
+        "rarity": "legendary",
+        "source_id": "irons_spellbooks:spawners/catacombs/ominous_zombie_spawner",
+        "loot_context": "dungeon",
+        "guild_rank_tier": "d_rank_to_b_rank",
+        "allowed_rarity_ceiling": "epic"
+      },
+      {
+        "id": "irons_spellbooks:dead_king_phylactery_shard",
+        "rarity": "legendary",
+        "source_id": "irons_spellbooks:spawners/catacombs/regular_zombie_spawner",
+        "loot_context": "dungeon",
+        "guild_rank_tier": "d_rank_to_b_rank",
+        "allowed_rarity_ceiling": "epic"
+      },
+      {
+        "id": "irons_spellbooks:legendary_ink",
+        "rarity": "mythic",
+        "source_id": "irons_spellbooks:magic_items/great_ink",
+        "loot_context": "generic",
+        "guild_rank_tier": "manual_review",
+        "allowed_rarity_ceiling": "rare"
+      },
+      {
+        "id": "irons_spellbooks:legendary_ink",
+        "rarity": "mythic",
+        "source_id": "irons_spellbooks:magic_items/reward_ink",
+        "loot_context": "generic",
+        "guild_rank_tier": "manual_review",
+        "allowed_rarity_ceiling": "rare"
+      },
+      {
+        "id": "irons_spellbooks:legendary_spell_book",
+        "rarity": "mythic",
+        "source_id": "idas:chests/archmages_tower/archmages_tower_treasure",
+        "loot_context": "dungeon",
+        "guild_rank_tier": "d_rank_to_b_rank",
+        "allowed_rarity_ceiling": "epic"
+      },
+      {
+        "id": "irons_spellbooks:legendary_spell_book",
+        "rarity": "mythic",
+        "source_id": "idas:chests/archmages_tower/archmages_tower_treasure",
+        "loot_context": "dungeon",
+        "guild_rank_tier": "d_rank_to_b_rank",
+        "allowed_rarity_ceiling": "epic"
+      },
+      {
+        "id": "irons_spellbooks:music_disc_dead_king_lullaby",
+        "rarity": "legendary",
+        "source_id": "irons_spellbooks:chests/catacombs/pot",
+        "loot_context": "dungeon",
+        "guild_rank_tier": "d_rank_to_b_rank",
+        "allowed_rarity_ceiling": "epic"
+      },
+      {
+        "id": "irons_spellbooks:necronomicon_spell_book",
+        "rarity": "legendary",
+        "source_id": "irons_spellbooks:entities/dead_king",
+        "loot_context": "mob",
+        "guild_rank_tier": "unranked_to_c_rank",
+        "allowed_rarity_ceiling": "uncommon"
+      },
+      {
+        "id": "soulsweapons:chungus_staff",
+        "rarity": "legendary",
+        "source_id": "soulsweapons:gameplay/chungus_bartering",
+        "loot_context": "generic",
+        "guild_rank_tier": "manual_review",
+        "allowed_rarity_ceiling": "rare"
+      }
+    ],
+    "missing_magic_loot_sources": [
+      "irons_spellbooks:arcane_shackle",
+      "irons_spellbooks:icicle",
+      "irons_spellbooks:flaming_strike",
+      "irons_spellbooks:frost_step",
+      "irons_spellbooks:invisibility",
+      "irons_spellbooks:gluttony",
+      "irons_spellbooks:shield",
+      "irons_spellbooks:fortify",
+      "irons_spellbooks:sculk_tentacles",
+      "irons_spellbooks:ice_tomb",
+      "irons_spellbooks:acid_orb",
+      "irons_spellbooks:lightning_lance",
+      "irons_spellbooks:counterspell",
+      "irons_spellbooks:firefly_swarm",
+      "irons_spellbooks:charge",
+      "irons_spellbooks:magic_missile",
+      "irons_spellbooks:divine_smite",
+      "irons_spellbooks:angel_wing",
+      "irons_spellbooks:telekinesis",
+      "irons_spellbooks:guiding_bolt",
+      "irons_spellbooks:creeper_revenge",
+      "irons_spellbooks:recall",
+      "irons_spellbooks:summon_polar_bear",
+      "irons_spellbooks:cleanse",
+      "irons_spellbooks:summon_ender_chest",
+      "irons_spellbooks:spectral_hammer",
+      "irons_spellbooks:magic_arrow",
+      "irons_spellbooks:snowball",
+      "irons_spellbooks:blight",
+      "irons_spellbooks:blessing_of_life",
+      "irons_spellbooks:ball_lightning",
+      "irons_spellbooks:burning_dash",
+      "irons_spellbooks:wither_skull",
+      "irons_spellbooks:heat_surge",
+      "irons_spellbooks:lob_creeper",
+      "irons_spellbooks:ice_spikes",
+      "irons_spellbooks:spider_aspect",
+      "irons_spellbooks:raise_hell",
+      "irons_spellbooks:touch_dig",
+      "irons_spellbooks:poison_arrow",
+      "irons_spellbooks:pocket_dimension",
+      "irons_spellbooks:acupuncture",
+      "irons_spellbooks:sonic_boom",
+      "irons_spellbooks:poison_splash",
+      "irons_spellbooks:volt_strike",
+      "irons_spellbooks:magma_bomb",
+      "irons_spellbooks:slow",
+      "irons_spellbooks:oakskin",
+      "irons_spellbooks:void_tentacles",
+      "irons_spellbooks:throw",
+      "irons_spellbooks:sacrifice",
+      "irons_spellbooks:arrow_volley",
+      "irons_spellbooks:shockwave",
+      "irons_spellbooks:frostbite",
+      "irons_spellbooks:echoing_strikes",
+      "irons_spellbooks:heartstop",
+      "irons_spellbooks:stomp",
+      "irons_spellbooks:blood_needles",
+      "irons_spellbooks:ascension",
+      "irons_spellbooks:evasion",
+      "irons_spellbooks:lightning_bolt",
+      "irons_spellbooks:fire_arrow",
+      "irons_spellbooks:wololo",
+      "irons_spellbooks:haste",
+      "irons_spellbooks:firebolt",
+      "irons_spellbooks:thunder_step",
+      "irons_spellbooks:starfall",
+      "irons_spellbooks:electrocute",
+      "irons_spellbooks:gust",
+      "irons_spellbooks:gravity_fissure",
+      "irons_spellbooks:frostwave",
+      "irons_spellbooks:root",
+      "irons_spellbooks:ice_block",
+      "irons_spellbooks:firecracker",
+      "irons_spellbooks:flaming_barrage",
+      "irons_spellbooks:blizzard",
+      "irons_spellbooks:summon_swords",
+      "irons_spellbooks:scorch",
+      "irons_spellbooks:devour",
+      "irons_spellbooks:sunbeam",
+      "botania:dreamwood_wand",
+      "botania:twig_wand",
+      "createbigcannons:cannon_crafting_wand",
+      "customnpcs:npcwand",
+      "easy_npc_config_ui:easy_npc_wand",
+      "irons_spellbooks:alchemical_trade_route",
+      "irons_spellbooks:antiquated_compass",
+      "irons_spellbooks:antiquated_compass_desc",
+      "irons_spellbooks:bloody_vellum",
+      "irons_spellbooks:casters_tea",
+      "irons_spellbooks:citadel_map",
+      "irons_spellbooks:claymore",
+      "irons_spellbooks:crypt_skull",
+      "irons_spellbooks:dev_staff",
+      "irons_spellbooks:eldritch_manuscript_desc",
+      "irons_spellbooks:enchanted_ward_amulet",
+      "irons_spellbooks:expulsion_ring",
+      "irons_spellbooks:failed_arctic_voyage_map",
+      "irons_spellbooks:firebrand",
+      "irons_spellbooks:furled_map_descriptor_framing",
+      "irons_spellbooks:handwritten_invoice",
+      "irons_spellbooks:hither_thither_wand",
+      "irons_spellbooks:ice_spider_den_map",
+      "irons_spellbooks:ice_spider_pheromones",
+      "irons_spellbooks:improved_blood_staff",
+      "irons_spellbooks:lightning_bottle",
+      "irons_spellbooks:lightning_rod",
+      "irons_spellbooks:lurker_ring",
+      "irons_spellbooks:music_disc_whispers_of_ice",
+      "irons_spellbooks:scroll_pouch",
+      "irons_spellbooks:shriving_stone_desc",
+      "irons_spellbooks:spell_book",
+      "irons_spellbooks:spell_slot_upgrade_desc",
+      "irons_spellbooks:staff_of_the_nines",
+      "irons_spellbooks:tarnished_crown",
+      "irons_spellbooks:tarnished_helmet",
+      "irons_spellbooks:unchained_book",
+      "irons_spellbooks:villager_spell_book",
+      "irons_spellbooks:wayward_compass_desc",
+      "irons_spellbooks:wimpy_spell_book",
+      "malum:totemic_staff",
+      "simplymore:template_quarterstaff",
+      "spectrum:constructors_staff",
+      "spectrum:exchanging_staff",
+      "spectrum:natures_staff",
+      "spectrum:radiance_staff",
+      "spectrum:staff_of_remembrance",
+      "titles:title_scroll_common",
+      "titles:title_scroll_uncommon"
+    ]
+  },
+  "summary": {
+    "magic_loot_sources": 154,
+    "high_tier_spell_low_tier_loot_warnings": 23,
+    "by_context": {
+      "structure": 24,
+      "mob": 24,
+      "dragon": 12,
+      "generic": 24,
+      "village": 1,
+      "boss": 14,
+      "block": 17,
+      "dungeon": 36,
+      "bounty": 2
+    }
+  }
+}

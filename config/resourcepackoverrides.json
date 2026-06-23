@@ -1,0 +1,115 @@
+{
+  "schema_version": 2,
+  "failed_reloads_per_session": 2,
+  "default_overrides": {
+    "force_compatible": true
+  },
+  "default_packs": [
+    "vanilla",
+    "mod_resources",
+    "generated/fragmentum_layer",
+    "builtin/2d_weapons",
+    "builtin/builtin_resource_packs/legacy_dead_king_resource_pack",
+    "builtin/enhanced_gow",
+    "builtin/fresh_animations_compat",
+    "builtin/legacy_2d",
+    "builtin/legacy_3d",
+    "file/Cubic Leaves 2.3 (performance).zip",
+    "file/EmbellishedStone-1.20.1-1.0.0.zip",
+    "file/Excalibur_V1.20.zip",
+    "file/FreshAnimations_v1.10.4.zip",
+    "file/Icon Fresh 1.2.zip",
+    "file/Icon Xaero's 1.22.zip",
+    "file/MCAR_VanillaMedieval_Universal_1.20.x_Only_Clothes_byDE4THR4SH_v4.zip",
+    "file/MedievalMusic.zip",
+    "file/Rename Compat Project.zip",
+    "file/STONEBORN+-+1.20-1.20.1+-+V3.2.3.zip",
+    "file/Simply Swords Reforged v1.zip",
+    "file/Vanilla Experience Plus.zip",
+    "file/cubic-sun-moon-v1.8.5.zip",
+    "file/Visual Titles 1.3.zip",
+    "file/Visual Travelers Titles Biomes Addon.zip",
+    "file/ascendant-realms-travelers-titles",
+    "file/ascendant-dungeon-gates",
+    "file/ascendant-realms-compat-fixes",
+    "file/ascendant-realms-buttons"
+  ],
+  "pack_overrides": {
+    "file/Cubic Leaves 2.3 (performance).zip": {
+      "required": true,
+      "force_compatible": true
+    },
+    "file/EmbellishedStone-1.20.1-1.0.0.zip": {
+      "required": true,
+      "force_compatible": true
+    },
+    "file/Excalibur_V1.20.zip": {
+      "required": true,
+      "force_compatible": true
+    },
+    "file/FreshAnimations_v1.10.4.zip": {
+      "required": true,
+      "force_compatible": true
+    },
+    "file/Icon Fresh 1.2.zip": {
+      "required": true,
+      "force_compatible": true
+    },
+    "file/Icon Xaero's 1.22.zip": {
+      "required": true,
+      "force_compatible": true
+    },
+    "file/MCAR_VanillaMedieval_Universal_1.20.x_Only_Clothes_byDE4THR4SH_v4.zip": {
+      "required": true,
+      "force_compatible": true
+    },
+    "file/MedievalMusic.zip": {
+      "required": true,
+      "force_compatible": true
+    },
+    "file/Rename Compat Project.zip": {
+      "required": true,
+      "force_compatible": true
+    },
+    "file/STONEBORN+-+1.20-1.20.1+-+V3.2.3.zip": {
+      "required": true,
+      "force_compatible": true
+    },
+    "file/Simply Swords Reforged v1.zip": {
+      "required": true,
+      "force_compatible": true
+    },
+    "file/Vanilla Experience Plus.zip": {
+      "required": true,
+      "force_compatible": true
+    },
+    "file/cubic-sun-moon-v1.8.5.zip": {
+      "required": true,
+      "force_compatible": true
+    },
+    "file/Visual Titles 1.3.zip": {
+      "required": true,
+      "force_compatible": true
+    },
+    "file/Visual Travelers Titles Biomes Addon.zip": {
+      "required": true,
+      "force_compatible": true
+    },
+    "file/ascendant-realms-travelers-titles": {
+      "required": true,
+      "force_compatible": true
+    },
+    "file/ascendant-dungeon-gates": {
+      "required": true,
+      "force_compatible": true
+    },
+    "file/ascendant-realms-compat-fixes": {
+      "required": true,
+      "force_compatible": true
+    },
+    "file/ascendant-realms-buttons": {
+      "required": true,
+      "force_compatible": true
+    }
+  }
+}

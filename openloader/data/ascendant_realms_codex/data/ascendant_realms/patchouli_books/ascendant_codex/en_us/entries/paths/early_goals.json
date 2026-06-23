@@ -1,0 +1,11 @@
+{
+  "name": "Early Goals",
+  "icon": "minecraft:campfire",
+  "category": "ascendant_realms:paths",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Find a village, inspect the Hunter Board, complete a local request, survive the road, clear a small structure, and return for evaluation. The world should explain itself through play."
+    }
+  ]
+}

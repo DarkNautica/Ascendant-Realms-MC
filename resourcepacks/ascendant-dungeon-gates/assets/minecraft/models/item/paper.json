@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/paper"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 9101
+      },
+      "model": "ascendant_dungeons:item/gate_blue"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9102
+      },
+      "model": "ascendant_dungeons:item/gate_green"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9103
+      },
+      "model": "ascendant_dungeons:item/gate_purple"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9104
+      },
+      "model": "ascendant_dungeons:item/gate_gold"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9105
+      },
+      "model": "ascendant_dungeons:item/gate_red"
+    }
+  ]
+}

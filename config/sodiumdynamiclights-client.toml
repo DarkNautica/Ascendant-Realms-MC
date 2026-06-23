@@ -1,0 +1,16 @@
+[sodiumdynamiclights]
+	#Lighting mode. FAST keeps the held/dropped-light feature while avoiding realtime recalculation cost.
+	#Allowed Values: OFF, SLOW, FAST, REALTIME
+	mode = "FAST"
+	#Enable entities light source.
+	entities = false
+	#Enable first-person player light source.
+	self = true
+	#Enable block entities light source.
+	block_entities = true
+	#Enables water-sensitive light sources check.
+	water_sensitive_check = true
+	#Allowed Values: OFF, SIMPLE, FANCY
+	tnt = "SIMPLE"
+	#Allowed Values: OFF, SIMPLE, FANCY
+	creeper = "OFF"

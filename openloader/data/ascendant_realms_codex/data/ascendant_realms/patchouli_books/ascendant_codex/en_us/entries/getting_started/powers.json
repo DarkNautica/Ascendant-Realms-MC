@@ -1,0 +1,28 @@
+{
+  "name": "Powers: Skills, Magic & Mana",
+  "icon": "minecraft:nether_star",
+  "category": "ascendant_realms:getting_started",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Three Pillars",
+      "text": "Your strength comes from three places working together:$(br2)$(rune)Skills$() — the Ascendant Web.$(br)$(rune)Spells$() — grimoires and mana.$(br)$(rune)Gear$() — rarity, sets, and loot.$(br2)Master a little of each before you chase a rank."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Ascendant Web",
+      "text": "Press $(gold)K$() to open the $(rune)Ascendant Web$(), your skill tree.$(br2)Every player $(gold)level$() grants a $(gold)skill point$(). Spend points across seven lanes — $(em)Warrior, Rogue, Ranger, Arcanist, Engineer, Survivalist, Dragonbound$() — to shape how you fight.$(br2)$(soft)Watch your level and XP on the HUD bar.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Spells & Mana",
+      "text": "Magic runs on $(rune)mana$(), the blue bar on your HUD.$(br2)$(gold)R$() — spell wheel.$(br)$(gold)V$() — cast selected spell.$(br)$(gold)Left Alt$() — spell-bar modifier.$(br2)Equip a $(em)spellbook$() and a school of magic to begin. Stronger spells demand more mana — and rarer books."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Gates & Beyond",
+      "text": "Across the realm, $(rune)Gates$() tear open — shimmering rifts to danger and reward. $(warn)Do not step through unprepared.$()$(br2)Color tells the threat: $(#7CF2FF)blue$() and $(#7CFF9E)green$() for the careful, $(#FFD98A)gold$() for the bold, $(#C79BFF)violet$() and $(#FF7A6E)red$() for the truly dangerous.$(br2)$(soft)More on Gates in a later edition.$()"
+    }
+  ]
+}

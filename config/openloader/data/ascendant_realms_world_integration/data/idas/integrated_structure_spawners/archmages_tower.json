@@ -1,0 +1,28 @@
+{
+  "mobs": [
+    {
+      "name": "minecraft:pillager",
+      "weight": 12
+    },
+    {
+      "name": "minecraft:illusioner",
+      "weight": 8
+    },
+    {
+      "name": "minecraft:vex",
+      "weight": 8
+    },
+    {
+      "name": "irons_spellbooks:archevoker",
+      "weight": 10
+    },
+    {
+      "name": "irons_spellbooks:cryomancer",
+      "weight": 6
+    },
+    {
+      "name": "irons_spellbooks:apothecarist",
+      "weight": 4
+    }
+  ]
+}

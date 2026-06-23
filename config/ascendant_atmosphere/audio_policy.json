@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T04:08:00+00:00",
+  "status": "audit_control_scaffold_only_no_audio_config_changes",
+  "audio_layers": [
+    {
+      "mod": "AmbientSounds",
+      "role": "biome/weather ambient texture",
+      "present": true,
+      "policy": "Use volume tuning before removal if regions sound too busy."
+    },
+    {
+      "mod": "Biome Music",
+      "role": "biome music variation",
+      "present": true,
+      "policy": "Future region playlists should map Atlas mood to biome pools, not names alone."
+    },
+    {
+      "mod": "Presence Footsteps",
+      "role": "ground material/body presence",
+      "present": true,
+      "policy": "Keep material feedback; verify snow/sand/stone footstep contrast in field tests."
+    },
+    {
+      "mod": "Sound Physics Remastered",
+      "role": "occlusion/reverb/spatial mix",
+      "present": true,
+      "policy": "Keep debug logging off; check caves/mountains for overpowering echo."
+    },
+    {
+      "mod": "Medieval Music",
+      "role": "resource-pack music identity",
+      "present": true,
+      "policy": "Supports broad fantasy tone; region-specific playlists remain future work."
+    }
+  ],
+  "region_audio_policy": [
+    {
+      "region_id": "hearthlands",
+      "music_mood": "warm medieval strings, light flute, calm travel themes",
+      "ambient_sound_mood": "meadow wind, birds, soft village distance, light leaves",
+      "danger_mood": "safe but not sterile; danger should be signposted and sparse"
+    },
+    {
+      "region_id": "frostmarch",
+      "music_mood": "low drones, lonely horns, glassy bells, restrained percussion",
+      "ambient_sound_mood": "cold wind, crunching snow, distant ice cracks, aurora quiet",
+      "danger_mood": "survival pressure, cold isolation, frozen-ocean threat"
+    },
+    {
+      "region_id": "sunreach",
+      "music_mood": "dry percussion, oud-like plucks, sparse desert travel lines",
+      "ambient_sound_mood": "dry wind, sand hiss, insects, distant heat shimmer",
+      "danger_mood": "exposed, thirsty, bright, predator-visible"
+    },
+    {
+      "region_id": "verdant_coast",
+      "music_mood": "lush strings, hand drums, rainstick-like texture, coastal motifs",
+      "ambient_sound_mood": "rainforest insects, frogs, surf, mangrove water, heavy leaves",
+      "danger_mood": "dense, alive, hard to see through, ambush-friendly"
+    },
+    {
+      "region_id": "stoneback_highlands",
+      "music_mood": "low drums, hammered strings, mountain horns, sparse stone ambience",
+      "ambient_sound_mood": "high wind, rock echoes, gravel steps, distant ravens or goats if present",
+      "danger_mood": "vertical, exposed, echoing, hard to cross"
+    },
+    {
+      "region_id": "north_east_marches",
+      "music_mood": "frost strings blended with wet coastal ambience",
+      "ambient_sound_mood": "cold surf, wet leaves, ice cracks, gulls if present",
+      "danger_mood": "cold coastal frontier"
+    },
+    {
+      "region_id": "north_west_marches",
+      "music_mood": "frost drones with mountain horns and stone percussion",
+      "ambient_sound_mood": "cold high wind, snow through pines, rockfall echoes",
+      "danger_mood": "cold, vertical, exposed"
+    },
+    {
+      "region_id": "south_east_wilds",
+      "music_mood": "humid percussion with desert plucks and low strings",
+      "ambient_sound_mood": "rain on hot leaves, insects, distant surf, dry thunder",
+      "danger_mood": "lush but heat-stressed and unstable"
+    },
+    {
+      "region_id": "south_west_wilds",
+      "music_mood": "desert percussion with stone drones and tense low brass",
+      "ambient_sound_mood": "dry cliff wind, grit, distant rockslide, sparse insects",
+      "danger_mood": "dry, cracked, remote, predator territory"
+    },
+    {
+      "region_id": "outer_rim",
+      "music_mood": "oppressive drones, broken choirs, sparse drums, corrupted ambience",
+      "ambient_sound_mood": "distant thunder, unnatural wind, low rumbles, hostile silence",
+      "danger_mood": "oppressive, ancient, high-rank, dangerous"
+    },
+    {
+      "region_id": "nether_front",
+      "music_mood": "low infernal drones, basalt percussion, distant ritual tones",
+      "ambient_sound_mood": "fire, basalt echoes, soul wind, lava pressure",
+      "danger_mood": "hostile, infernal, advanced"
+    },
+    {
+      "region_id": "end_expanse",
+      "music_mood": "void pads, distant choir, sparse crystalline pulses",
+      "ambient_sound_mood": "thin wind, chorus shimmer, void silence",
+      "danger_mood": "silent, alien, capstone"
+    }
+  ],
+  "config_evidence": {
+    "sound_physics": {
+      "enabled": true,
+      "evaluate_ambient_sounds": false,
+      "debug_logging": false
+    },
+    "resource_packs": {
+      "Visual Titles 1.3.zip": true,
+      "Visual Travelers Titles Biomes Addon.zip": true,
+      "ascendant-realms-travelers-titles": true,
+      "MedievalMusic.zip": true
+    }
+  },
+  "validation": {
+    "policy_references_missing_region_ids": [],
+    "audio_policy_documented": true
+  }
+}

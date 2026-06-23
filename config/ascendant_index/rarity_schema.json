@@ -1,0 +1,691 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-14T10:32:13.685Z",
+  "tiers": [
+    {
+      "id": "common",
+      "label": "Common",
+      "color": "#f2f2f2",
+      "use": "Baseline vanilla and routine supplies"
+    },
+    {
+      "id": "uncommon",
+      "label": "Uncommon",
+      "color": "#55ff55",
+      "use": "Early modded rewards and helpful utility"
+    },
+    {
+      "id": "rare",
+      "label": "Rare",
+      "color": "#55aaff",
+      "use": "Dangerous structure rewards and branch identity"
+    },
+    {
+      "id": "epic",
+      "label": "Epic",
+      "color": "#d966ff",
+      "use": "Elite hunts, major artifacts, and powerful spells"
+    },
+    {
+      "id": "legendary",
+      "label": "Legendary",
+      "color": "#ffd166",
+      "use": "Boss drops, dragon materials, and late-game gear"
+    },
+    {
+      "id": "mythic",
+      "label": "Mythic",
+      "color": "#ff6b35",
+      "use": "Dragon-tier and Cataclysm-tier chase rewards"
+    },
+    {
+      "id": "ascendant",
+      "label": "Ascendant",
+      "color": "#7df9ff",
+      "use": "Pack-defining capstones and named relics"
+    }
+  ],
+  "domains": {
+    "items": [
+      "common",
+      "uncommon",
+      "rare",
+      "epic",
+      "legendary",
+      "mythic",
+      "ascendant"
+    ],
+    "mobs": [
+      "ambient",
+      "common_hostile",
+      "dangerous_hostile",
+      "elite",
+      "boss",
+      "dragon_tier"
+    ],
+    "structures": [
+      "common_village",
+      "minor_ruin",
+      "dangerous_dungeon",
+      "rare_landmark",
+      "boss_arena",
+      "dragon_tier_zone"
+    ],
+    "skills": [
+      "early_utility",
+      "branch_identity",
+      "specialization",
+      "capstone",
+      "cross_system_milestone"
+    ],
+    "bounties": [
+      "routine",
+      "dangerous",
+      "elite",
+      "boss",
+      "dragon"
+    ]
+  },
+  "entries_needing_rarity": [
+    {
+      "name": "Alex's Delight",
+      "metadata": "mods/alexs-delight.pw.toml",
+      "category": "Cohesion / Recipes / Tags",
+      "side": "both",
+      "rarity_scope": "Conditional",
+      "integration_target": "Recipe unification, block palettes, village/dungeon integration"
+    },
+    {
+      "name": "Almost Unified",
+      "metadata": "mods/almostunified.pw.toml",
+      "category": "Cohesion / Recipes / Tags",
+      "side": "both",
+      "rarity_scope": "Conditional",
+      "integration_target": "Recipe unification, block palettes, village/dungeon integration"
+    },
+    {
+      "name": "Almost Unify Everything",
+      "metadata": "mods/almost-unify-everything.pw.toml",
+      "category": "Cohesion / Recipes / Tags",
+      "side": "both",
+      "rarity_scope": "Conditional",
+      "integration_target": "Recipe unification, block palettes, village/dungeon integration"
+    },
+    {
+      "name": "Amendments",
+      "metadata": "mods/amendments.pw.toml",
+      "category": "Cohesion / Recipes / Tags",
+      "side": "both",
+      "rarity_scope": "Conditional",
+      "integration_target": "Recipe unification, block palettes, village/dungeon integration"
+    },
+    {
+      "name": "Create",
+      "metadata": "mods/create.pw.toml",
+      "category": "Cohesion / Recipes / Tags",
+      "side": "both",
+      "rarity_scope": "Conditional",
+      "integration_target": "Recipe unification, block palettes, village/dungeon integration"
+    },
+    {
+      "name": "Create Slice & Dice",
+      "metadata": "mods/slice-and-dice.pw.toml",
+      "category": "Cohesion / Recipes / Tags",
+      "side": "both",
+      "rarity_scope": "Conditional",
+      "integration_target": "Recipe unification, block palettes, village/dungeon integration"
+    },
+    {
+      "name": "Create: Structures Arise",
+      "metadata": "mods/create-structures-arise.pw.toml",
+      "category": "Cohesion / Recipes / Tags",
+      "side": "both",
+      "rarity_scope": "Conditional",
+      "integration_target": "Recipe unification, block palettes, village/dungeon integration"
+    },
+    {
+      "name": "Decorative Blocks",
+      "metadata": "mods/decorative-blocks.pw.toml",
+      "category": "Cohesion / Recipes / Tags",
+      "side": "both",
+      "rarity_scope": "Conditional",
+      "integration_target": "Recipe unification, block palettes, village/dungeon integration"
+    },
+    {
+      "name": "Every Compat (Wood Good)",
+      "metadata": "mods/every-compat.pw.toml",
+      "category": "Cohesion / Recipes / Tags",
+      "side": "both",
+      "rarity_scope": "Conditional",
+      "integration_target": "Recipe unification, block palettes, village/dungeon integration"
+    },
+    {
+      "name": "Farmer's Delight",
+      "metadata": "mods/farmers-delight.pw.toml",
+      "category": "Cohesion / Recipes / Tags",
+      "side": "both",
+      "rarity_scope": "Conditional",
+      "integration_target": "Recipe unification, block palettes, village/dungeon integration"
+    },
+    {
+      "name": "Handcrafted",
+      "metadata": "mods/handcrafted.pw.toml",
+      "category": "Cohesion / Recipes / Tags",
+      "side": "both",
+      "rarity_scope": "Conditional",
+      "integration_target": "Recipe unification, block palettes, village/dungeon integration"
+    },
+    {
+      "name": "KubeJS",
+      "metadata": "mods/kubejs.pw.toml",
+      "category": "Cohesion / Recipes / Tags",
+      "side": "both",
+      "rarity_scope": "Conditional",
+      "integration_target": "Recipe unification, block palettes, village/dungeon integration"
+    },
+    {
+      "name": "Macaw's Bridges",
+      "metadata": "mods/macaws-bridges.pw.toml",
+      "category": "Cohesion / Recipes / Tags",
+      "side": "both",
+      "rarity_scope": "Conditional",
+      "integration_target": "Recipe unification, block palettes, village/dungeon integration"
+    },
+    {
+      "name": "Macaw's Fences and Walls",
+      "metadata": "mods/macaws-fences-and-walls.pw.toml",
+      "category": "Cohesion / Recipes / Tags",
+      "side": "both",
+      "rarity_scope": "Conditional",
+      "integration_target": "Recipe unification, block palettes, village/dungeon integration"
+    },
+    {
+      "name": "Macaw's Lights and Lamps",
+      "metadata": "mods/macaws-lights-and-lamps.pw.toml",
+      "category": "Cohesion / Recipes / Tags",
+      "side": "both",
+      "rarity_scope": "Conditional",
+      "integration_target": "Recipe unification, block palettes, village/dungeon integration"
+    },
+    {
+      "name": "Open Loader",
+      "metadata": "mods/open-loader.pw.toml",
+      "category": "Cohesion / Recipes / Tags",
+      "side": "both",
+      "rarity_scope": "Conditional",
+      "integration_target": "Recipe unification, block palettes, village/dungeon integration"
+    },
+    {
+      "name": "Polymorph",
+      "metadata": "mods/polymorph.pw.toml",
+      "category": "Cohesion / Recipes / Tags",
+      "side": "both",
+      "rarity_scope": "Conditional",
+      "integration_target": "Recipe unification, block palettes, village/dungeon integration"
+    },
+    {
+      "name": "Quark",
+      "metadata": "mods/quark.pw.toml",
+      "category": "Cohesion / Recipes / Tags",
+      "side": "both",
+      "rarity_scope": "Conditional",
+      "integration_target": "Recipe unification, block palettes, village/dungeon integration"
+    },
+    {
+      "name": "Supplementaries",
+      "metadata": "mods/supplementaries.pw.toml",
+      "category": "Cohesion / Recipes / Tags",
+      "side": "both",
+      "rarity_scope": "Conditional",
+      "integration_target": "Recipe unification, block palettes, village/dungeon integration"
+    },
+    {
+      "name": "Zeta",
+      "metadata": "mods/zeta.pw.toml",
+      "category": "Cohesion / Recipes / Tags",
+      "side": "both",
+      "rarity_scope": "Conditional",
+      "integration_target": "Recipe unification, block palettes, village/dungeon integration"
+    },
+    {
+      "name": "Better Combat",
+      "metadata": "mods/better-combat.pw.toml",
+      "category": "Combat / Gear",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Item rarity, combat roles, skill synergies, loot tiers"
+    },
+    {
+      "name": "Combat Roll",
+      "metadata": "mods/combat-roll.pw.toml",
+      "category": "Combat / Gear",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Item rarity, combat roles, skill synergies, loot tiers"
+    },
+    {
+      "name": "Create Big Cannons",
+      "metadata": "mods/create-big-cannons.pw.toml",
+      "category": "Combat / Gear",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Item rarity, combat roles, skill synergies, loot tiers"
+    },
+    {
+      "name": "Immersive Armors",
+      "metadata": "mods/immersive-armors.pw.toml",
+      "category": "Combat / Gear",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Item rarity, combat roles, skill synergies, loot tiers"
+    },
+    {
+      "name": "Marium's Soulslike Weaponry",
+      "metadata": "mods/mariums-soulslike-weaponry.pw.toml",
+      "category": "Combat / Gear",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Item rarity, combat roles, skill synergies, loot tiers"
+    },
+    {
+      "name": "Projectile Damage Attribute",
+      "metadata": "mods/projectile-damage-attribute.pw.toml",
+      "category": "Combat / Gear",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Item rarity, combat roles, skill synergies, loot tiers"
+    },
+    {
+      "name": "Simply Swords",
+      "metadata": "mods/simply-swords.pw.toml",
+      "category": "Combat / Gear",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Item rarity, combat roles, skill synergies, loot tiers"
+    },
+    {
+      "name": "Spartan Shields",
+      "metadata": "mods/spartan-shields.pw.toml",
+      "category": "Combat / Gear",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Item rarity, combat roles, skill synergies, loot tiers"
+    },
+    {
+      "name": "Artifacts",
+      "metadata": "mods/artifacts.pw.toml",
+      "category": "Loot / Contracts",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Loot tiers, bounty rewards, artifact rarity, reward visibility"
+    },
+    {
+      "name": "Bountiful",
+      "metadata": "mods/bountiful.pw.toml",
+      "category": "Loot / Contracts",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Loot tiers, bounty rewards, artifact rarity, reward visibility"
+    },
+    {
+      "name": "Loot Beams: Relooted!",
+      "metadata": "mods/loot-beams.pw.toml",
+      "category": "Loot / Contracts",
+      "side": "client",
+      "rarity_scope": "Required",
+      "integration_target": "Loot tiers, bounty rewards, artifact rarity, reward visibility"
+    },
+    {
+      "name": "Loot Integrations",
+      "metadata": "mods/loot-integrations.pw.toml",
+      "category": "Loot / Contracts",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Loot tiers, bounty rewards, artifact rarity, reward visibility"
+    },
+    {
+      "name": "Loot Journal: Pickup Notifier",
+      "metadata": "mods/loot-journal.pw.toml",
+      "category": "Loot / Contracts",
+      "side": "client",
+      "rarity_scope": "Required",
+      "integration_target": "Loot tiers, bounty rewards, artifact rarity, reward visibility"
+    },
+    {
+      "name": "Iron's Lib",
+      "metadata": "mods/irons-lib.pw.toml",
+      "category": "Magic",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Spell rarity, arcanist milestones, scroll/book loot tiers"
+    },
+    {
+      "name": "Iron's Spells 'n Spellbooks",
+      "metadata": "mods/irons-spells-n-spellbooks.pw.toml",
+      "category": "Magic",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Spell rarity, arcanist milestones, scroll/book loot tiers"
+    },
+    {
+      "name": "Obscure API",
+      "metadata": "mods/obscure-api.pw.toml",
+      "category": "Magic",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Spell rarity, arcanist milestones, scroll/book loot tiers"
+    },
+    {
+      "name": "Aquamirae",
+      "metadata": "mods/aquamirae.pw.toml",
+      "category": "Mobs / Bosses",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Mob tiers, spawn ecology, drops, bounties, skill milestones"
+    },
+    {
+      "name": "Born in Chaos",
+      "metadata": "mods/borninchaos.pw.toml",
+      "category": "Mobs / Bosses",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Mob tiers, spawn ecology, drops, bounties, skill milestones"
+    },
+    {
+      "name": "Bosses'Rise",
+      "metadata": "mods/bossesrise.pw.toml",
+      "category": "Mobs / Bosses",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Mob tiers, spawn ecology, drops, bounties, skill milestones"
+    },
+    {
+      "name": "IceAndFire Community Edition",
+      "metadata": "mods/iceandfire-ce.pw.toml",
+      "category": "Mobs / Bosses",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Mob tiers, spawn ecology, drops, bounties, skill milestones"
+    },
+    {
+      "name": "L_Ender's Cataclysm",
+      "metadata": "mods/l_enders-cataclysm.pw.toml",
+      "category": "Mobs / Bosses",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Mob tiers, spawn ecology, drops, bounties, skill milestones"
+    },
+    {
+      "name": "Mowzie's Mobs",
+      "metadata": "mods/mowzies-mobs.pw.toml",
+      "category": "Mobs / Bosses",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Mob tiers, spawn ecology, drops, bounties, skill milestones"
+    },
+    {
+      "name": "Improved Mobs (Forge, NeoForge)",
+      "metadata": "mods/improved-mobs.pw.toml",
+      "category": "Skills / Difficulty",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Progression curve, enemy scaling, skill-point pacing"
+    },
+    {
+      "name": "In Control!",
+      "metadata": "mods/in-control.pw.toml",
+      "category": "Skills / Difficulty",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Progression curve, enemy scaling, skill-point pacing"
+    },
+    {
+      "name": "Majrusz Library",
+      "metadata": "mods/majrusz-library.pw.toml",
+      "category": "Skills / Difficulty",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Progression curve, enemy scaling, skill-point pacing"
+    },
+    {
+      "name": "Majrusz's Progressive Difficulty",
+      "metadata": "mods/majruszs-progressive-difficulty.pw.toml",
+      "category": "Skills / Difficulty",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Progression curve, enemy scaling, skill-point pacing"
+    },
+    {
+      "name": "Pufferfish's Attributes",
+      "metadata": "mods/attributes.pw.toml",
+      "category": "Skills / Difficulty",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Progression curve, enemy scaling, skill-point pacing"
+    },
+    {
+      "name": "Pufferfish's Skills",
+      "metadata": "mods/skills.pw.toml",
+      "category": "Skills / Difficulty",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Progression curve, enemy scaling, skill-point pacing"
+    },
+    {
+      "name": "Scaling Health",
+      "metadata": "mods/scaling-health.pw.toml",
+      "category": "Skills / Difficulty",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Progression curve, enemy scaling, skill-point pacing"
+    },
+    {
+      "name": "Spawn Balance Utility",
+      "metadata": "mods/spawn-balance-utility.pw.toml",
+      "category": "Skills / Difficulty",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Progression curve, enemy scaling, skill-point pacing"
+    },
+    {
+      "name": " Integrated Dungeons and Structures",
+      "metadata": "mods/idas.pw.toml",
+      "category": "Worldgen / Structures",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Structure rarity, biome placement, loot pools, bounty hooks"
+    },
+    {
+      "name": "Fantasy Armor (Medieval Series)",
+      "metadata": "mods/fantasy_armor.pw.toml",
+      "category": "Worldgen / Structures",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Structure rarity, biome placement, loot pools, bounty hooks"
+    },
+    {
+      "name": "Guard Villagers",
+      "metadata": "mods/guard-villagers.pw.toml",
+      "category": "Worldgen / Structures",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Structure rarity, biome placement, loot pools, bounty hooks"
+    },
+    {
+      "name": "Integrated API",
+      "metadata": "mods/integrated-api.pw.toml",
+      "category": "Worldgen / Structures",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Structure rarity, biome placement, loot pools, bounty hooks"
+    },
+    {
+      "name": "Integrated Villages",
+      "metadata": "mods/integrated-villages.pw.toml",
+      "category": "Worldgen / Structures",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Structure rarity, biome placement, loot pools, bounty hooks"
+    },
+    {
+      "name": "MCA Reborn [Fabric/Forge]",
+      "metadata": "mods/minecraft-comes-alive-reborn.pw.toml",
+      "category": "Worldgen / Structures",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Structure rarity, biome placement, loot pools, bounty hooks"
+    },
+    {
+      "name": "Medieval Buildings [End Edition]",
+      "metadata": "mods/medieval-buildings-end-edition.pw.toml",
+      "category": "Worldgen / Structures",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Structure rarity, biome placement, loot pools, bounty hooks"
+    },
+    {
+      "name": "Medieval Buildings [Nether Edition]",
+      "metadata": "mods/medieval-buildings-nether-edition.pw.toml",
+      "category": "Worldgen / Structures",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Structure rarity, biome placement, loot pools, bounty hooks"
+    },
+    {
+      "name": "MES - Moog's End Structures",
+      "metadata": "mods/mes-moogs-end-structures.pw.toml",
+      "category": "Worldgen / Structures",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Structure rarity, biome placement, loot pools, bounty hooks"
+    },
+    {
+      "name": "Moog's Structure Lib (moogs_structures)",
+      "metadata": "mods/moogs-structure-lib.pw.toml",
+      "category": "Worldgen / Structures",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Structure rarity, biome placement, loot pools, bounty hooks"
+    },
+    {
+      "name": "MSS - Moog's Soaring Structures",
+      "metadata": "mods/mss-moogs-soaring-structures.pw.toml",
+      "category": "Worldgen / Structures",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Structure rarity, biome placement, loot pools, bounty hooks"
+    },
+    {
+      "name": "MVS - Moog's Voyager Structures",
+      "metadata": "mods/moogs-voyager-structures.pw.toml",
+      "category": "Worldgen / Structures",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Structure rarity, biome placement, loot pools, bounty hooks"
+    },
+    {
+      "name": "Sparse Structures",
+      "metadata": "mods/sparsestructures.pw.toml",
+      "category": "Worldgen / Structures",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Structure rarity, biome placement, loot pools, bounty hooks"
+    },
+    {
+      "name": "Structory",
+      "metadata": "mods/structory.pw.toml",
+      "category": "Worldgen / Structures",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Structure rarity, biome placement, loot pools, bounty hooks"
+    },
+    {
+      "name": "Tectonic",
+      "metadata": "mods/tectonic.pw.toml",
+      "category": "Worldgen / Structures",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Structure rarity, biome placement, loot pools, bounty hooks"
+    },
+    {
+      "name": "Terralith",
+      "metadata": "mods/terralith.pw.toml",
+      "category": "Worldgen / Structures",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Structure rarity, biome placement, loot pools, bounty hooks"
+    },
+    {
+      "name": "Towns and Towers",
+      "metadata": "mods/towns-and-towers.pw.toml",
+      "category": "Worldgen / Structures",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Structure rarity, biome placement, loot pools, bounty hooks"
+    },
+    {
+      "name": "Villager Names",
+      "metadata": "mods/villager-names-serilum.pw.toml",
+      "category": "Worldgen / Structures",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Structure rarity, biome placement, loot pools, bounty hooks"
+    },
+    {
+      "name": "Villages&Pillages",
+      "metadata": "mods/villages-and-pillages.pw.toml",
+      "category": "Worldgen / Structures",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Structure rarity, biome placement, loot pools, bounty hooks"
+    },
+    {
+      "name": "YUNG's API",
+      "metadata": "mods/yungs-api.pw.toml",
+      "category": "Worldgen / Structures",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Structure rarity, biome placement, loot pools, bounty hooks"
+    },
+    {
+      "name": "YUNG's Better Dungeons",
+      "metadata": "mods/yungs-better-dungeons.pw.toml",
+      "category": "Worldgen / Structures",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Structure rarity, biome placement, loot pools, bounty hooks"
+    },
+    {
+      "name": "YUNG's Better Mineshafts",
+      "metadata": "mods/yungs-better-mineshafts.pw.toml",
+      "category": "Worldgen / Structures",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Structure rarity, biome placement, loot pools, bounty hooks"
+    },
+    {
+      "name": "YUNG's Better Strongholds",
+      "metadata": "mods/yungs-better-strongholds.pw.toml",
+      "category": "Worldgen / Structures",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Structure rarity, biome placement, loot pools, bounty hooks"
+    },
+    {
+      "name": "YUNG's Bridges",
+      "metadata": "mods/yungs-bridges.pw.toml",
+      "category": "Worldgen / Structures",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Structure rarity, biome placement, loot pools, bounty hooks"
+    },
+    {
+      "name": "YUNG's Extras",
+      "metadata": "mods/yungs-extras.pw.toml",
+      "category": "Worldgen / Structures",
+      "side": "both",
+      "rarity_scope": "Required",
+      "integration_target": "Structure rarity, biome placement, loot pools, bounty hooks"
+    }
+  ]
+}

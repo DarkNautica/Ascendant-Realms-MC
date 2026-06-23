@@ -1,0 +1,1394 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T02:04:15+00:00",
+  "source_registry": "config/ascendant_index/mob_registry.json",
+  "bosses": [
+    {
+      "entity_id": "alexsmobs:komodo_dragon",
+      "name": "Komodo Dragon",
+      "source_mod": "Alex's Mobs",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "block_factorys_bosses:crossbow_pirate",
+      "name": "Crossbow Pirate",
+      "source_mod": "Bosses'Rise",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "block_factorys_bosses:dragon_guard_sword",
+      "name": "Ashlord Guard",
+      "source_mod": "Bosses'Rise",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "block_factorys_bosses:flaming_skeleton_guard_sword",
+      "name": "Flaming Ashlord Guard",
+      "source_mod": "Bosses'Rise",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "block_factorys_bosses:frozen_skeleton",
+      "name": "Frozen Skeleton",
+      "source_mod": "Bosses'Rise",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "block_factorys_bosses:infernal_dragon",
+      "name": "Ashlord, The Infernal Dragon",
+      "source_mod": "Bosses'Rise",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "block_factorys_bosses:kraken",
+      "name": "Nerakyss, The Kraken",
+      "source_mod": "Bosses'Rise",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "block_factorys_bosses:pirate_captain",
+      "name": "Pirate Captain",
+      "source_mod": "Bosses'Rise",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "block_factorys_bosses:pirate_rook",
+      "name": "Pirate Rook",
+      "source_mod": "Bosses'Rise",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "block_factorys_bosses:sandworm",
+      "name": "Sirok, The Sandworm",
+      "source_mod": "Bosses'Rise",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "block_factorys_bosses:soul_knight_wither_skeleton",
+      "name": "Wither Knight",
+      "source_mod": "Bosses'Rise",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "block_factorys_bosses:soul_skeleton",
+      "name": "Soul Skeleton",
+      "source_mod": "Bosses'Rise",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "block_factorys_bosses:underworld_knight",
+      "name": "Helvar, the Underworld Knight",
+      "source_mod": "Bosses'Rise",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "block_factorys_bosses:yeti",
+      "name": "Skor, The Yeti",
+      "source_mod": "Bosses'Rise",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "born_in_chaos_v1:dread_hound",
+      "name": "Dread Hound",
+      "source_mod": "Born in Chaos ",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "born_in_chaos_v1:dread_hound_not_despawn",
+      "name": "Dread Hound",
+      "source_mod": "Born in Chaos ",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "cataclysm:ancient_ancient_remnant",
+      "name": "Ancient Ancient Remnant",
+      "source_mod": "cataclysm",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "cataclysm:ancient_remnant",
+      "name": "Ancient Remnant",
+      "source_mod": "cataclysm",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "cataclysm:ender_guardian",
+      "name": "Ender Guardian",
+      "source_mod": "cataclysm",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "cataclysm:ignis",
+      "name": "Ignis",
+      "source_mod": "cataclysm",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "cataclysm:maledictus",
+      "name": "Maledictus",
+      "source_mod": "cataclysm",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "cataclysm:netherite_monstrosity",
+      "name": "Netherite Monstrosity",
+      "source_mod": "cataclysm",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "cataclysm:old_netherite_monstrosity",
+      "name": "Old Netherite Monstrosity",
+      "source_mod": "cataclysm",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "cataclysm:scylla",
+      "name": "Scylla",
+      "source_mod": "cataclysm",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "cataclysm:scylla_ceraunus",
+      "name": "Ceraunus",
+      "source_mod": "cataclysm",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "cataclysm:the_baby_leviathan",
+      "name": "The Baby Leviathan",
+      "source_mod": "cataclysm",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "cataclysm:the_harbinger",
+      "name": "The Harbinger",
+      "source_mod": "cataclysm",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "cataclysm:the_leviathan",
+      "name": "The Leviathan",
+      "source_mod": "cataclysm",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "cataclysm:the_leviathan_immune",
+      "name": "The Leviathan is invincible outside of water!",
+      "source_mod": "cataclysm",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "cataclysm:the_prowler",
+      "name": "The Prowler",
+      "source_mod": "cataclysm",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "customnpcs:npcdragon",
+      "name": "CNpc Dragon",
+      "source_mod": "Custom NPCs",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "iceandfire:black_frost_dragon",
+      "name": "Black Frost",
+      "source_mod": "Ice And Fire Community Edition",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "iceandfire:cockatrice",
+      "name": "Cockatrice",
+      "source_mod": "Ice And Fire Community Edition",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "iceandfire:cockatrice_egg",
+      "name": "Cockatrice Egg",
+      "source_mod": "Ice And Fire Community Edition",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "iceandfire:cyclops",
+      "name": "Cyclops",
+      "source_mod": "Ice And Fire Community Edition",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "iceandfire:dragon_egg",
+      "name": "Dragon Egg",
+      "source_mod": "Ice And Fire Community Edition",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "iceandfire:dragon_skull",
+      "name": "Dragon Skull",
+      "source_mod": "Ice And Fire Community Edition",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "iceandfire:dread_beast",
+      "name": "Dread Beast",
+      "source_mod": "Ice And Fire Community Edition",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "iceandfire:dread_ghoul",
+      "name": "Dread Ghoul",
+      "source_mod": "Ice And Fire Community Edition",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "iceandfire:dread_horse",
+      "name": "Dread Knight Horse",
+      "source_mod": "Ice And Fire Community Edition",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "iceandfire:dread_knight",
+      "name": "Dread Knight",
+      "source_mod": "Ice And Fire Community Edition",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "iceandfire:dread_lich",
+      "name": "Dread Lich",
+      "source_mod": "Ice And Fire Community Edition",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "iceandfire:dread_lich_skull",
+      "name": "Dread Lich Skull",
+      "source_mod": "Ice And Fire Community Edition",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "iceandfire:dread_queen",
+      "name": "Dread Queen",
+      "source_mod": "Ice And Fire Community Edition",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "iceandfire:dread_scuttler",
+      "name": "Dread Scuttler",
+      "source_mod": "Ice And Fire Community Edition",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "iceandfire:dread_thrall",
+      "name": "Dread Thrall",
+      "source_mod": "Ice And Fire Community Edition",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "iceandfire:fire_dragon",
+      "name": "Fire Dragon",
+      "source_mod": "Ice And Fire Community Edition",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "iceandfire:fire_dragon_charge",
+      "name": "Dragon Fire Charge",
+      "source_mod": "Ice And Fire Community Edition",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "iceandfire:gorgon",
+      "name": "Gorgon",
+      "source_mod": "Ice And Fire Community Edition",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "iceandfire:hydra",
+      "name": "Hydra",
+      "source_mod": "Ice And Fire Community Edition",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "iceandfire:hydra_breath",
+      "name": "Hydra Breath",
+      "source_mod": "Ice And Fire Community Edition",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "iceandfire:ice_dragon",
+      "name": "Ice Dragon",
+      "source_mod": "Ice And Fire Community Edition",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "iceandfire:ice_dragon_charge",
+      "name": "Dragon Ice Charge",
+      "source_mod": "Ice And Fire Community Edition",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "iceandfire:lightning_dragon",
+      "name": "Lightning Dragon",
+      "source_mod": "Ice And Fire Community Edition",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "iceandfire:lightning_dragon_charge",
+      "name": "Dragon Lightning Charge",
+      "source_mod": "Ice And Fire Community Edition",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "irons_spellbooks:dead_king",
+      "name": "The Dead King",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "irons_spellbooks:dead_king_corpse",
+      "name": "Skeleton",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "irons_spellbooks:dead_king_soul",
+      "name": "Dead King Soul",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "irons_spellbooks:dragon_breath",
+      "name": "Dragon Breath",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "irons_spellbooks:dragon_breath_pool",
+      "name": "Dragon Breath",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "irons_spellbooks:fire_boss",
+      "name": "Echo of Tyros, First Flamebearer",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "mowziesmobs:ferrous_wroughtnaut",
+      "name": "Ferrous Wroughtnaut",
+      "source_mod": "Mowzie's Mobs",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "mowziesmobs:frostmaw",
+      "name": "Frostmaw",
+      "source_mod": "Mowzie's Mobs",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "soulsweapons:accursed_lord_boss",
+      "name": "The Decaying King",
+      "source_mod": "Marium's Soulslike Weaponry",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "soulsweapons:draugr_boss",
+      "name": "Old Champion's Remains",
+      "source_mod": "Marium's Soulslike Weaponry",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "soulsweapons:leviathan_axe_entity",
+      "name": "Leviathan Axe",
+      "source_mod": "Marium's Soulslike Weaponry",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "soulsweapons:moonknight_phase_2",
+      "name": "Harbinger of Moonlight",
+      "source_mod": "Marium's Soulslike Weaponry",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "soulsweapons:night_prowler",
+      "name": "Night Prowler",
+      "source_mod": "Marium's Soulslike Weaponry",
+      "boss_reward_tier": "boss",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "danger_tier": 4,
+      "minimum_rarity": "epic",
+      "allowed_rarity_ceiling": "mythic",
+      "material_tier": "boss",
+      "gear_tier": "late_game",
+      "recommended_action": "preserve_or_improve"
+    },
+    {
+      "entity_id": "soulsweapons:swordspear_entity",
+      "name": "Dragonslayer Swordspear",
+      "source_mod": "Marium's Soulslike Weaponry",
+      "boss_reward_tier": "dragon",
+      "atlas_region_allowance": [
+        "spawn_region_matching_entity"
+      ],
+      "distance_ring_allowance": [
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "a_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "legendary",
+      "allowed_rarity_ceiling": "ascendant",
+      "material_tier": "dragon",
+      "gear_tier": "capstone",
+      "recommended_action": "preserve_or_improve"
+    }
+  ],
+  "summary": {
+    "total_boss_reward_entries": 69,
+    "by_reward_tier": {
+      "boss": 36,
+      "dragon": 33
+    }
+  }
+}

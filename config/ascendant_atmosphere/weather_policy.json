@@ -1,0 +1,172 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T04:08:00+00:00",
+  "status": "audit_control_scaffold_only_no_weather_config_changes",
+  "weather_layers": [
+    {
+      "mod": "Weather2",
+      "role": "major storm/weather layer",
+      "config_path": "config/Weather2/Snow.toml",
+      "policy": "Keep conservative. Snowstorm buildup must stay blocked outside cold biomes."
+    },
+    {
+      "mod": "Serene Seasons",
+      "role": "season color and weather-frequency layer",
+      "config_path": "config/sereneseasons/seasons.toml",
+      "policy": "Season color is welcome, blanket snow/ice generation stays off."
+    },
+    {
+      "mod": "Snow Real Magic",
+      "role": "snow visual/accumulation layer",
+      "config_path": "config/snowrealmagic-common.yaml",
+      "policy": "Warm biome melt and winter-only accumulation must remain on."
+    },
+    {
+      "mod": "Auroras",
+      "role": "night sky atmosphere, strongest in Frostmarch and cold outer regions",
+      "config_path": null,
+      "policy": "Visual layer only; do not use it as proof of cold climate correctness."
+    },
+    {
+      "mod": "Enhanced Celestials",
+      "role": "moon/event atmosphere",
+      "config_path": null,
+      "policy": "Use for danger mood but do not let event pressure replace Atlas progression."
+    }
+  ],
+  "region_weather_policy": [
+    {
+      "region_id": "hearthlands",
+      "weather_mood": "temperate rain and fair skies; storms should feel rare and readable",
+      "season_behavior": "visible seasonal color shifts without heavy snow or ice conversion",
+      "snow_ice_permission": {
+        "allow_snow_buildup": false,
+        "allow_ice_buildup": false,
+        "reason": "starter region must remain temperate and beginner-friendly"
+      }
+    },
+    {
+      "region_id": "frostmarch",
+      "weather_mood": "snow, blizzards, frozen fog, and hard winter visibility where safe",
+      "season_behavior": "winter may be visually strong; snow and ice are region-appropriate",
+      "snow_ice_permission": {
+        "allow_snow_buildup": true,
+        "allow_ice_buildup": true,
+        "reason": "cold-intended region"
+      }
+    },
+    {
+      "region_id": "sunreach",
+      "weather_mood": "dry, hot, dusty, storm-scarred; rain should be uncommon and snow forbidden",
+      "season_behavior": "season color can shift plants, but winter must not whiten the region",
+      "snow_ice_permission": {
+        "allow_snow_buildup": false,
+        "allow_ice_buildup": false,
+        "reason": "warm/arid region; previous warm snow bug must not return"
+      }
+    },
+    {
+      "region_id": "verdant_coast",
+      "weather_mood": "wet, lush, stormy, coastal; lightning and heavy rain fit better than snow",
+      "season_behavior": "wet seasons can feel strong; foliage shifts should stay lush",
+      "snow_ice_permission": {
+        "allow_snow_buildup": false,
+        "allow_ice_buildup": false,
+        "reason": "wet/coastal does not mean cold"
+      }
+    },
+    {
+      "region_id": "stoneback_highlands",
+      "weather_mood": "windy, mountainous, exposed; rain and fog fit, broad snow does not",
+      "season_behavior": "cool seasonal color is fine; Atlas removed snow-risk west biomes for a reason",
+      "snow_ice_permission": {
+        "allow_snow_buildup": false,
+        "allow_ice_buildup": false,
+        "reason": "west is highland/mountain-first, not Frostmarch snow identity"
+      }
+    },
+    {
+      "region_id": "north_east_marches",
+      "weather_mood": "cold coastal storms, sleet-like mood, frozen crossings",
+      "season_behavior": "snow is allowed where the selected biome data is cold",
+      "snow_ice_permission": {
+        "allow_snow_buildup": true,
+        "allow_ice_buildup": true,
+        "reason": "cold diagonal blend with Frostmarch"
+      }
+    },
+    {
+      "region_id": "north_west_marches",
+      "weather_mood": "cold mountain weather; snow allowed where biome data supports it",
+      "season_behavior": "winter identity can be visible but should still read mountainous",
+      "snow_ice_permission": {
+        "allow_snow_buildup": true,
+        "allow_ice_buildup": true,
+        "reason": "cold diagonal blend with Frostmarch"
+      }
+    },
+    {
+      "region_id": "south_east_wilds",
+      "weather_mood": "hot coastal storms and monsoon mood; no snow",
+      "season_behavior": "wet/dry seasonal contrast, no winter whitening",
+      "snow_ice_permission": {
+        "allow_snow_buildup": false,
+        "allow_ice_buildup": false,
+        "reason": "warm diagonal blend"
+      }
+    },
+    {
+      "region_id": "south_west_wilds",
+      "weather_mood": "hot, arid, storm-carved; no snow or cold-season buildup",
+      "season_behavior": "dry winter colors only; no snow accumulation",
+      "snow_ice_permission": {
+        "allow_snow_buildup": false,
+        "allow_ice_buildup": false,
+        "reason": "warm/arid diagonal blend"
+      }
+    },
+    {
+      "region_id": "outer_rim",
+      "weather_mood": "dangerous, oppressive, region-by-biome; do not blanket snow warm samples",
+      "season_behavior": "season behavior must follow actual biome climate; corruption should not become random snow",
+      "snow_ice_permission": {
+        "allow_snow_buildup": "conditional_cold_biome_only",
+        "allow_ice_buildup": "conditional_cold_biome_only",
+        "reason": "outer pool includes both cold and hot biomes"
+      }
+    },
+    {
+      "region_id": "nether_front",
+      "weather_mood": "dimension atmosphere only; no Overworld storm control",
+      "season_behavior": "no Serene Seasons behavior expected",
+      "snow_ice_permission": {
+        "allow_snow_buildup": false,
+        "allow_ice_buildup": false,
+        "reason": "Nether dimension"
+      }
+    },
+    {
+      "region_id": "end_expanse",
+      "weather_mood": "dimension atmosphere only; no Overworld storm control",
+      "season_behavior": "no Serene Seasons behavior expected",
+      "snow_ice_permission": {
+        "allow_snow_buildup": false,
+        "allow_ice_buildup": false,
+        "reason": "End dimension"
+      }
+    }
+  ],
+  "config_evidence": {
+    "weather2_allow_outside_cold_biomes": true,
+    "serene_blanket_snow_ice_disabled": true,
+    "snow_real_magic_melts_warm_biomes": true,
+    "snow_real_magic_winter_only": true,
+    "snow_real_magic_snowfall_accumulation_disabled": true
+  },
+  "validation": {
+    "warm_regions_allowing_snow_buildup": [],
+    "weather2_allows_outside_cold_snow": false,
+    "serene_seasons_blanket_snow_enabled": false,
+    "snow_real_magic_warm_melt_disabled": false
+  }
+}

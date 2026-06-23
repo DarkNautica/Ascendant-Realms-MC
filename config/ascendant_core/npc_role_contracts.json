@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "source_registries": {
+    "roster": "config/ascendant_guild/npc_roster.json",
+    "profiles": "config/ascendant_guild/generated_npc_profiles.json",
+    "loadouts": "config/ascendant_guild/npc_loadouts.json",
+    "nameplates": "config/ascendant_guild/nameplates.json"
+  },
+  "runtime_state": "contract_active",
+  "policy": "Important NPCs must be generated from profiles, use MCA-medieval-style skins where possible, visibly carry/wear real indexed gear, and have a gameplay purpose. Jayden should not have to hand-build the standard set.",
+  "roles": [
+    {
+      "id": "guild_clerk",
+      "rank": "d_rank",
+      "behavior": "social anchor; explains Guild, ranks, contracts, and Codex",
+      "gear_profile": "guild_clerk",
+      "spawn_contexts": ["starter_guild_staff", "frontier_guild_outpost"],
+      "interaction_owner": "CustomNPCs script now; Ascendant NPC Runtime later"
+    },
+    {
+      "id": "rank_examiner",
+      "rank": "b_rank",
+      "behavior": "rank-trial authority; must never show as Unranked",
+      "gear_profile": "rank_examiner",
+      "spawn_contexts": ["starter_guild_staff", "frontier_guild_outpost"],
+      "interaction_owner": "CustomNPCs script now; FTB Quest/rank hooks later"
+    },
+    {
+      "id": "bounty_master",
+      "rank": "c_rank",
+      "behavior": "points players to Bountiful contracts and danger tiers",
+      "gear_profile": "bounty_master",
+      "spawn_contexts": ["hunter_board_village_standard", "frontier_guild_outpost"],
+      "interaction_owner": "CustomNPCs script now; Bountiful/FTB hooks later"
+    },
+    {
+      "id": "guard_captain",
+      "rank": "c_rank",
+      "behavior": "settlement defense identity and local threat warnings",
+      "gear_profile": "guard_captain",
+      "spawn_contexts": ["frontier_guild_outpost", "larger_towns"],
+      "interaction_owner": "CustomNPCs or Guard Villagers bridge later"
+    },
+    {
+      "id": "guild_arcanist",
+      "rank": "b_rank",
+      "behavior": "explains Iron's Spells, scroll limits, magic loot, and Arcanist path",
+      "gear_profile": "guild_arcanist",
+      "spawn_contexts": ["frontier_guild_outpost", "magic_enclave"],
+      "interaction_owner": "CustomNPCs script now; Iron's Spells hooks later"
+    },
+    {
+      "id": "rival_hunter",
+      "rank": "c_rank_plus",
+      "behavior": "world flavor and future competitive hunter encounters",
+      "gear_profile": "named_rival",
+      "spawn_contexts": ["roadside_hunter_camp", "rival_camp", "major_contract"],
+      "interaction_owner": "CustomNPCs now; Ascendant NPC Runtime for combat logic later"
+    },
+    {
+      "id": "village_elder",
+      "rank": "d_rank",
+      "behavior": "local settlement identity, rumors, and threat warnings",
+      "gear_profile": "village_elder",
+      "spawn_contexts": ["villages_and_towns"],
+      "interaction_owner": "Easy NPC or MCA-friendly flow later"
+    }
+  ],
+  "equipment_rules": [
+    "Every visible weapon, shield, armor piece, hat, or relic must exist in config/ascendant_index/gear_registry.json.",
+    "NPC gear can be no-drop identity gear; rival and combat NPC drops must be deliberately authored.",
+    "Social NPCs should use readable silhouettes, not random max-tier gear.",
+    "Rival hunters can exceed local tier only with an explicit story/drop policy."
+  ],
+  "next_live_rules": [
+    "Use generated_npc_profiles.json and spawn_set functions for standard NPC sets.",
+    "If CustomNPCs behavior cannot defend settlements or hold formation, build Ascendant NPC Runtime instead of manually scripting every NPC."
+  ]
+}

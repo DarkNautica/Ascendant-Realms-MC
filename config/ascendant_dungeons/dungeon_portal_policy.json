@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "portal_owner": "immersive_portals",
+  "portal_dependency": {
+    "packwiz_file": "mods/immersive-portals-neoforge.pw.toml",
+    "expected_filename": "immersive-portals-3.0.7-all.jar",
+    "required_mod_ids": [
+      "immersive_portals",
+      "imm_ptl_core",
+      "q_misc_util"
+    ],
+    "required_dependency_mods": [
+      "cloth_config"
+    ]
+  },
+  "rift_profiles": [
+    {
+      "profile_id": "thin_blue_breach",
+      "ranks": [
+        "d_rank",
+        "c_rank"
+      ],
+      "width": 3.0,
+      "height": 4.0,
+      "visual_intent": "small stable contract gate",
+      "cleanup_required": true
+    },
+    {
+      "profile_id": "fractured_gold_breach",
+      "ranks": [
+        "b_rank",
+        "a_rank"
+      ],
+      "width": 4.0,
+      "height": 5.0,
+      "visual_intent": "larger dangerous rift",
+      "cleanup_required": true
+    },
+    {
+      "profile_id": "ascendant_black_breach",
+      "ranks": [
+        "s_rank"
+      ],
+      "width": 5.0,
+      "height": 6.0,
+      "visual_intent": "rare endgame breach",
+      "cleanup_required": true
+    }
+  ],
+  "spawn_behavior": {
+    "direct_helper_spawn_enabled": true,
+    "manual_spawn_test_entrance_enabled": true,
+    "random_world_spawn_enabled": true,
+    "command_bridge_enabled": false,
+    "api_bridge_enabled": true,
+    "api_bridge_mode": "circular_teleportable_immersive_portal_with_helper_fallback",
+    "immersive_portals_teleportable_surface_enabled": true,
+    "immersive_portals_circular_special_shape_enabled": true,
+    "helper_walk_in_fallback_enabled": true,
+    "item_aperture_center_transparent": true,
+    "visible_frame_blocks_enabled": false,
+    "invisible_light_blocks_enabled": true,
+    "rank_colored_particles_enabled": true,
+    "nearby_ambient_sound_enabled": true,
+    "elite_hologram_auto_creation_enabled": false,
+    "item_display_billboard_enabled": false,
+    "item_display_fixed_facing_enabled": true,
+    "entrance_close_delay_after_first_entry_seconds": 5,
+    "entrance_shrink_out_enabled": true,
+    "entrance_shrink_duration_seconds": 1.6,
+    "exit_gate_locked_until_boss_defeated": true,
+    "return_gate_spawns_after_boss_defeat": true,
+    "preview_reports_enabled": true,
+    "next_step": "Use /ascdungeon spawn_random_now to validate a timed random world rift, then enter, defeat the boss, confirm the return gate appears, and cleanup."
+  },
+  "rank_scale_ranges": {
+    "d_rank": {
+      "min": 3.8,
+      "max": 4.7
+    },
+    "c_rank": {
+      "min": 4.2,
+      "max": 5.3
+    },
+    "b_rank": {
+      "min": 4.9,
+      "max": 6.4
+    },
+    "a_rank": {
+      "min": 5.8,
+      "max": 7.5
+    },
+    "s_rank": {
+      "min": 6.8,
+      "max": 9.0
+    }
+  },
+  "boss_exit_rules": {
+    "exit_gate_created_during_initial_generation": false,
+    "exit_gate_trigger": "ascdungeon_boss entity with matching instance tag no longer exists after player has entered",
+    "fallback_return_command_locked_before_boss_defeat": true,
+    "entrance_can_expire_after_entry": true,
+    "entrance_first_entry_behavior": "keep_open_for_5_seconds_then_shrink_out"
+  },
+  "safety": {
+    "requires_return_portal": true,
+    "requires_cleanup_record": true,
+    "requires_active_rift_limit": true,
+    "requires_chunk_safety_check": true,
+    "requires_no_random_enable_until_tested": false,
+    "requires_one_active_rift_per_rank_limit_for_current_helper": true,
+    "maximum_active_rifts_global": 5
+  }
+}

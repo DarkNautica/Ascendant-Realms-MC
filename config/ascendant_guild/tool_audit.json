@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "installed": [
+    "Bountiful",
+    "Guard Villagers",
+    "Villager Names",
+    "Supplementaries",
+    "KubeJS",
+    "Open Loader",
+    "In Control",
+    "Titles",
+    "Integrated Villages",
+    "IDAS",
+    "Loot Integrations",
+    "Patchouli",
+    "FTB Quests",
+    "FTB Ranks",
+    "Easy NPC",
+    "CustomNPCs-Unofficial",
+    "Human Companions",
+    "MCA Reborn"
+  ],
+  "delayed": [
+    {
+      "name": "FTB quest chapter data",
+      "reason": "Installed, but actual quest chapters should be created in-game/exported or generated after confirming current FTB Quests SNBT format."
+    },
+    {
+      "name": "FTB rank config",
+      "reason": "Installed, but public rank assignment config should be generated after first boot creates the expected config structure."
+    }
+  ]
+}

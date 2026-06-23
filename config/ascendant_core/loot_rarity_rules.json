@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "source_registry": "config/ascendant_index/gear_registry.json",
+  "runtime_state": "live",
+  "active_presenters": {
+    "item_borders": "config/itemborders-common.toml",
+    "tooltips": "kubejs/client_scripts/ascendant_rarity_tooltips.js",
+    "loot_beams": "config/lootbeams-client.toml",
+    "legendary_tooltips": "mods/legendary-tooltips.pw.toml"
+  },
+  "tiers": [
+    {
+      "id": "common",
+      "label": "Common",
+      "color": "#F2F2F2",
+      "bold": false,
+      "loot_beam": false,
+      "rank_floor": "unranked",
+      "rank_ceiling_for_routine_rewards": "e_rank",
+      "use": "vanilla baselines and routine supplies"
+    },
+    {
+      "id": "uncommon",
+      "label": "Uncommon",
+      "color": "#55FF55",
+      "bold": false,
+      "loot_beam": false,
+      "rank_floor": "unranked",
+      "rank_ceiling_for_routine_rewards": "d_rank",
+      "use": "early modded utility and basic combat upgrades"
+    },
+    {
+      "id": "rare",
+      "label": "Rare",
+      "color": "#55AAFF",
+      "bold": false,
+      "loot_beam": false,
+      "rank_floor": "d_rank",
+      "rank_ceiling_for_routine_rewards": "c_rank",
+      "use": "dangerous structure rewards and branch identity pieces"
+    },
+    {
+      "id": "epic",
+      "label": "Epic",
+      "color": "#D966FF",
+      "bold": false,
+      "loot_beam": true,
+      "rank_floor": "c_rank",
+      "rank_ceiling_for_routine_rewards": "b_rank",
+      "use": "elite hunts, strong spells, and serious artifacts"
+    },
+    {
+      "id": "legendary",
+      "label": "LEGENDARY",
+      "color": "#FFE66D",
+      "bold": true,
+      "loot_beam": true,
+      "rank_floor": "b_rank",
+      "rank_ceiling_for_routine_rewards": "a_rank",
+      "use": "boss drops, dragon materials, and late-game signature gear"
+    },
+    {
+      "id": "mythic",
+      "label": "MYTHIC",
+      "color": "#FF6B35",
+      "bold": true,
+      "loot_beam": true,
+      "rank_floor": "a_rank",
+      "rank_ceiling_for_routine_rewards": "s_rank",
+      "use": "dragon-tier and Cataclysm-tier chase rewards"
+    },
+    {
+      "id": "ascendant",
+      "label": "ASCENDANT",
+      "color": "#7DF9FF",
+      "bold": true,
+      "loot_beam": true,
+      "rank_floor": "s_rank",
+      "rank_ceiling_for_routine_rewards": "s_rank",
+      "use": "pack-defining capstones and named relics"
+    }
+  ],
+  "display_order": [
+    "native damage/speed/stat lines",
+    "ascendant rarity label",
+    "mod-provided behavior text",
+    "enchantments/effects",
+    "debug text only when advanced tooltips are explicitly enabled by a future tool"
+  ],
+  "reward_rules": {
+    "village_chests": ["common", "uncommon"],
+    "hunter_board_village": ["common", "uncommon", "rare"],
+    "town_guild_board": ["uncommon", "rare", "epic"],
+    "major_guild_registry": ["rare", "epic", "legendary"],
+    "major_boss": ["epic", "legendary", "mythic"],
+    "dragon_tier": ["legendary", "mythic", "ascendant"]
+  },
+  "next_live_rules": [
+    "Generate Bountiful reward pools from reward_rules after exact item samples are approved.",
+    "Generate Open Loader loot-table injections for structure groups, starting with low-risk guild containers.",
+    "Keep backend reason/index/effect fields hidden from player tooltips."
+  ]
+}

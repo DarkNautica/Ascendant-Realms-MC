@@ -1,0 +1,287 @@
+{
+  "version": 1,
+  "last_updated": "2026-06-22",
+  "status": "active_region_based_difficulty_multiplier",
+  "enabled": true,
+  "goal": "Keep Ascendant Realms dangerous immediately, but make the difficulty multiplier come from Atlas region identity instead of time, day count, or chunk residence duration.",
+  "implementation": {
+    "runtime_script": "kubejs/server_scripts/ascendant_regional_difficulty.js",
+    "region_scoreboard": "ar_atlas_region",
+    "ring_scoreboard": "ar_atlas_ring",
+    "uses_day_count": false,
+    "uses_time_of_day": false,
+    "uses_crd": false,
+    "nearest_player_radius": 112
+  },
+  "eligibility": {
+    "hostile_only": true,
+    "exclude_players": true,
+    "exclude_npc_namespaces": [
+      "customnpcs",
+      "easy_npc",
+      "mca"
+    ],
+    "excluded_entity_ids": [
+      "minecraft:player",
+      "minecraft:armor_stand",
+      "minecraft:item",
+      "minecraft:experience_orb",
+      "minecraft:ender_dragon",
+      "minecraft:wither"
+    ],
+    "notes": [
+      "This layer does not add boss or dragon spawns.",
+      "This layer only strengthens eligible hostiles that already spawned from vanilla, modded, Spawn Balance Utility, or In Control rules.",
+      "Open-sky daylight burning undead are still not injected by the Ascendant spawner rules."
+    ]
+  },
+  "region_profiles": {
+    "hearthlands": {
+      "atlas_region_id": 0,
+      "display": "Hearthlands",
+      "pressure_multiplier": 1.0,
+      "tags": [
+        "ar_region_hearthlands"
+      ],
+      "effects": [],
+      "notes": "Starter region uses the strong baseline but receives no extra regional combat buff."
+    },
+    "frostmarch": {
+      "atlas_region_id": 1,
+      "display": "Frostmarch",
+      "pressure_multiplier": 1.18,
+      "tags": [
+        "ar_region_frostmarch"
+      ],
+      "effects": [
+        {
+          "id": "minecraft:resistance",
+          "duration_seconds": 999999,
+          "amplifier": 0,
+          "hide_particles": true
+        }
+      ],
+      "notes": "Cold-region enemies are harder to wear down without making all north spawns boss-tier."
+    },
+    "sunreach": {
+      "atlas_region_id": 2,
+      "display": "Sunreach",
+      "pressure_multiplier": 1.2,
+      "tags": [
+        "ar_region_sunreach"
+      ],
+      "effects": [
+        {
+          "id": "minecraft:speed",
+          "duration_seconds": 999999,
+          "amplifier": 0,
+          "hide_particles": true
+        },
+        {
+          "id": "minecraft:strength",
+          "duration_seconds": 999999,
+          "amplifier": 0,
+          "hide_particles": true
+        }
+      ],
+      "notes": "Hot/arid enemies should feel aggressive and fast, not just numerous."
+    },
+    "verdant_coast": {
+      "atlas_region_id": 3,
+      "display": "Verdant Coast",
+      "pressure_multiplier": 1.16,
+      "tags": [
+        "ar_region_verdant_coast"
+      ],
+      "effects": [
+        {
+          "id": "minecraft:speed",
+          "duration_seconds": 999999,
+          "amplifier": 0,
+          "hide_particles": true
+        }
+      ],
+      "notes": "Wet/forest/coastal enemies get ambush pressure without turning every jungle into a boss gauntlet."
+    },
+    "stoneback_highlands": {
+      "atlas_region_id": 4,
+      "display": "Stoneback Highlands",
+      "pressure_multiplier": 1.2,
+      "tags": [
+        "ar_region_stoneback_highlands"
+      ],
+      "effects": [
+        {
+          "id": "minecraft:resistance",
+          "duration_seconds": 999999,
+          "amplifier": 0,
+          "hide_particles": true
+        },
+        {
+          "id": "minecraft:strength",
+          "duration_seconds": 999999,
+          "amplifier": 0,
+          "hide_particles": true
+        }
+      ],
+      "notes": "Highland enemies should read as sturdy and dangerous."
+    },
+    "north_east_marches": {
+      "atlas_region_id": 5,
+      "display": "North-East Marches",
+      "pressure_multiplier": 1.28,
+      "tags": [
+        "ar_region_north_east_marches"
+      ],
+      "effects": [
+        {
+          "id": "minecraft:speed",
+          "duration_seconds": 999999,
+          "amplifier": 0,
+          "hide_particles": true
+        },
+        {
+          "id": "minecraft:resistance",
+          "duration_seconds": 999999,
+          "amplifier": 0,
+          "hide_particles": true
+        }
+      ],
+      "notes": "Diagonal frontier pressure is intentionally higher than cardinal regions."
+    },
+    "north_west_marches": {
+      "atlas_region_id": 6,
+      "display": "North-West Marches",
+      "pressure_multiplier": 1.3,
+      "tags": [
+        "ar_region_north_west_marches"
+      ],
+      "effects": [
+        {
+          "id": "minecraft:strength",
+          "duration_seconds": 999999,
+          "amplifier": 0,
+          "hide_particles": true
+        },
+        {
+          "id": "minecraft:resistance",
+          "duration_seconds": 999999,
+          "amplifier": 0,
+          "hide_particles": true
+        }
+      ],
+      "notes": "Cold highland frontier spawns get the toughest diagonal profile."
+    },
+    "south_east_wilds": {
+      "atlas_region_id": 7,
+      "display": "South-East Wilds",
+      "pressure_multiplier": 1.3,
+      "tags": [
+        "ar_region_south_east_wilds"
+      ],
+      "effects": [
+        {
+          "id": "minecraft:speed",
+          "duration_seconds": 999999,
+          "amplifier": 1,
+          "hide_particles": true
+        },
+        {
+          "id": "minecraft:strength",
+          "duration_seconds": 999999,
+          "amplifier": 0,
+          "hide_particles": true
+        }
+      ],
+      "notes": "Hot/wet frontier enemies lean fast and aggressive."
+    },
+    "south_west_wilds": {
+      "atlas_region_id": 8,
+      "display": "South-West Wilds",
+      "pressure_multiplier": 1.34,
+      "tags": [
+        "ar_region_south_west_wilds"
+      ],
+      "effects": [
+        {
+          "id": "minecraft:strength",
+          "duration_seconds": 999999,
+          "amplifier": 1,
+          "hide_particles": true
+        },
+        {
+          "id": "minecraft:resistance",
+          "duration_seconds": 999999,
+          "amplifier": 0,
+          "hide_particles": true
+        }
+      ],
+      "notes": "Arid highland frontier enemies are the harshest normal overworld profile."
+    },
+    "outer_rim": {
+      "atlas_region_id": 9,
+      "display": "Outer Rim",
+      "pressure_multiplier": 1.45,
+      "tags": [
+        "ar_region_outer_rim"
+      ],
+      "effects": [
+        {
+          "id": "minecraft:speed",
+          "duration_seconds": 999999,
+          "amplifier": 1,
+          "hide_particles": true
+        },
+        {
+          "id": "minecraft:strength",
+          "duration_seconds": 999999,
+          "amplifier": 1,
+          "hide_particles": true
+        },
+        {
+          "id": "minecraft:resistance",
+          "duration_seconds": 999999,
+          "amplifier": 0,
+          "hide_particles": true
+        }
+      ],
+      "notes": "Outside/edge regions are dangerous without relying on time-based escalation."
+    }
+  },
+  "ring_escalation": {
+    "enabled": true,
+    "notes": "Distance rings are Atlas location context, not time progression. This adds a small extra edge to far-ring wilderness without changing the world over time.",
+    "profiles": [
+      {
+        "min_ring": 3,
+        "tag": "ar_region_far_ring",
+        "effects": [
+          {
+            "id": "minecraft:resistance",
+            "duration_seconds": 999999,
+            "amplifier": 0,
+            "hide_particles": true
+          }
+        ]
+      },
+      {
+        "min_ring": 5,
+        "tag": "ar_region_outer_ring",
+        "effects": [
+          {
+            "id": "minecraft:strength",
+            "duration_seconds": 999999,
+            "amplifier": 1,
+            "hide_particles": true
+          }
+        ]
+      }
+    ]
+  },
+  "test_expectation": [
+    "The same biome can feel easier or harder depending on Atlas region, because hostile mobs receive region tags/effects when they spawn near a player.",
+    "Difficulty no longer ramps just because time has passed or a chunk has existed longer.",
+    "Daytime enemies should be mostly daylight-safe modded mobs from the active In Control spawner pools.",
+    "Hearthlands should still be playable for early co-op, while diagonal frontier and outer regions should feel noticeably harsher."
+  ]
+}

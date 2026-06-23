@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "policy": "Loot rewards must follow structure tier, danger tier, and rarity registry.",
+  "rarity_ceiling_by_tier": {
+    "0": "uncommon",
+    "1": "rare",
+    "2": "epic",
+    "3": "legendary",
+    "4": "mythic",
+    "5": "ascendant"
+  }
+}

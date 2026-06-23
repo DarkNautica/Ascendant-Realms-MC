@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "coast_allowed_hydrology_classes": [
+    "coast",
+    "ocean",
+    "deep_ocean"
+  ],
+  "coast_allowed_pools": [
+    "east",
+    "north_east",
+    "south_east",
+    "north",
+    "south",
+    "outer"
+  ],
+  "land_first_regions_require_physical_water_evidence": true,
+  "ocean_biome_requires_low_query_y_or_ocean_hydrology": true
+}

@@ -1,0 +1,70 @@
+{
+  "content": {
+    "ar_rew_ascendant_sigil": {
+      "type": "item",
+      "content": "kubejs:ascendant_sigil",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 8500,
+      "weightMult": 0.5,
+      "rarity": "LEGENDARY"
+    },
+    "ar_rew_hunter_seals": {
+      "type": "item",
+      "content": "kubejs:hunter_seal",
+      "amount": {
+        "min": 2,
+        "max": 5
+      },
+      "unitWorth": 2200,
+      "weightMult": 0.6,
+      "rarity": "RARE"
+    },
+    "ar_rew_diamond": {
+      "type": "item",
+      "content": "minecraft:diamond",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 3000,
+      "weightMult": 0.25,
+      "rarity": "EPIC"
+    },
+    "ar_rew_totem": {
+      "type": "item",
+      "content": "minecraft:totem_of_undying",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 4500,
+      "weightMult": 0.12,
+      "rarity": "LEGENDARY"
+    },
+    "ar_rew_netherite_scrap": {
+      "type": "item",
+      "content": "minecraft:netherite_scrap",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 5200,
+      "weightMult": 0.08,
+      "rarity": "LEGENDARY"
+    },
+    "ar_rew_echo_shard": {
+      "type": "item",
+      "content": "minecraft:echo_shard",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 4000,
+      "weightMult": 0.1,
+      "rarity": "EPIC"
+    }
+  }
+}

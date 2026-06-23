@@ -1,0 +1,23 @@
+{
+  "category": "ascendant_codex:hunters_path",
+  "name": "Earning Your Rank",
+  "icon": "minecraft:writable_book",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "How You Rise",
+      "text": "The Guild judges your record, not a checklist. What counts:$(br2)$(li)Bounties completed$(li)Bosses and dangerous mobs slain$(li)Structures and dungeons cleared"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "...And More",
+      "text": "$(li)Dimensions discovered$(li)Villages defended$(li)Rare gear and magic milestones$(br2)$(soft)No single deed makes a rank - it is the weight of all of them.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Reputation",
+      "text": "Hunting recognized threats and finishing contracts builds standing with the Guild. Track your goals in the $(gold)Quest Log$() ($(gold)L$()).$(br2)$(soft)Rank is the realm noticing you - chase deeds, and the title follows.$()"
+    }
+  ]
+}

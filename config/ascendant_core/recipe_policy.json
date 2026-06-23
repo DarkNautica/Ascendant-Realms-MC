@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "policy": "KubeJS may add/remove/replace recipes only when the progression tier and canonical material owner are documented.",
+  "rules": [
+    "No legendary, mythic, or ascendant gear may have a vanilla-only basic recipe.",
+    "Boss, dragon, and realm gear must require proof materials or ranked seals.",
+    "Almost Unified owns broad duplicate recipe cleanup before hand-written KubeJS rewrites."
+  ]
+}

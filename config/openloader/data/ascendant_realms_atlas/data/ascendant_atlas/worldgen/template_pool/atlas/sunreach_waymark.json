@@ -1,0 +1,15 @@
+{
+  "name": "ascendant_atlas:atlas/sunreach_waymark",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "ascendant_atlas:atlas/sunreach_waymark",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

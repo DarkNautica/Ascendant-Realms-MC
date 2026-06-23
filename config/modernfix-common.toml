@@ -1,0 +1,3 @@
+# These JEI plugins are kept on the main thread because async JEI startup has
+# already produced warnings in this pack's UI integration stack.
+blacklist_async_jei_plugins = ["jepb:jei_plugin"]

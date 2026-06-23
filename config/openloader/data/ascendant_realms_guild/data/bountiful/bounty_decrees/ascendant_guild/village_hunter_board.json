@@ -1,0 +1,9 @@
+{
+  "objectives": [
+    "ar_village_hunter_objs"
+  ],
+  "rewards": [
+    "ar_village_hunter_rews",
+    "_all_rews"
+  ]
+}

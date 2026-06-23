@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T02:11:41+00:00",
+  "status": "candidate_plan_only_no_hard_gates_enabled",
+  "rarity_gate_ladder": {
+    "common": {
+      "guild_rank": "unranked",
+      "atlas_ring": "center",
+      "recipe_tier": "tier_0_baseline",
+      "material_tier": "mundane"
+    },
+    "uncommon": {
+      "guild_rank": "e_rank",
+      "atlas_ring": "center_to_inner",
+      "recipe_tier": "tier_1_early",
+      "material_tier": "mundane_to_regional"
+    },
+    "rare": {
+      "guild_rank": "d_rank",
+      "atlas_ring": "inner_to_middle",
+      "recipe_tier": "tier_2_regional",
+      "material_tier": "regional"
+    },
+    "epic": {
+      "guild_rank": "c_rank_to_b_rank",
+      "atlas_ring": "middle",
+      "recipe_tier": "tier_3_advanced",
+      "material_tier": "refined_or_structure"
+    },
+    "legendary": {
+      "guild_rank": "b_rank_to_a_rank",
+      "atlas_ring": "outer",
+      "recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof"
+    },
+    "mythic": {
+      "guild_rank": "a_rank_to_s_rank",
+      "atlas_ring": "outer_to_edge",
+      "recipe_tier": "tier_5_dragon",
+      "material_tier": "dragon_or_capstone"
+    },
+    "ascendant": {
+      "guild_rank": "s_rank",
+      "atlas_ring": "edge",
+      "recipe_tier": "tier_6_ascendant",
+      "material_tier": "ascendant_capstone"
+    }
+  },
+  "rules": [
+    "Legendary/mythic/ascendant gear cannot be craftable from basic vanilla-only materials.",
+    "High-tier magic requires high-tier materials, boss drops, structures, or rank progression.",
+    "Duplicate material recipes should use Ascendant canonical materials after Almost Unified review.",
+    "Endgame weapons should not be craftable before their corresponding loot/danger tier.",
+    "Storage/QoL should remain useful but not trivialize exploration and loot pacing.",
+    "Food recipes can remain generous unless they break combat balance or progression."
+  ]
+}

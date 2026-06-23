@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "runtime_state": "live",
+  "active_tools": {
+    "almost_unified": "mods/almostunified.pw.toml",
+    "almost_unify_everything": "mods/almost-unify-everything.pw.toml",
+    "polymorph": "mods/polymorph.pw.toml",
+    "kubejs_recipes": "kubejs/server_scripts/ascendant_recipes.js",
+    "kubejs_tags": "kubejs/server_scripts/ascendant_tags.js"
+  },
+  "policy": "Almost Unified and Polymorph handle duplicate materials first. KubeJS should only add explicit recipes/tags after a real JEI conflict, missing progression bridge, or player-facing recipe gap is observed.",
+  "material_groups": [
+    {
+      "id": "metals_and_plates",
+      "owners": ["almost_unified", "almost_unify_everything"],
+      "mods": ["create", "iceandfire", "cataclysm", "soulsweapons", "spartanshields"],
+      "goal": "avoid duplicate ingots/plates/gears cluttering crafting and reward loops",
+      "runtime_action": "active unification first; exact KubeJS recipes only after JEI review"
+    },
+    {
+      "id": "wood_and_settlement_blocks",
+      "owners": ["every_compat", "supplementaries", "macaws", "handcrafted"],
+      "mods": ["everycomp", "supplementaries", "macawsbridges", "mcwlights", "handcrafted", "decorative_blocks"],
+      "goal": "make villages, camps, bridges, and interiors share a believable palette",
+      "runtime_action": "active through Every Compat; settlement templates choose palette manually"
+    },
+    {
+      "id": "food_and_hunting",
+      "owners": ["farmers_delight", "alexs_delight", "create_slice_and_dice"],
+      "mods": ["farmersdelight", "alexsdelight", "sliceanddice", "create"],
+      "goal": "make animal drops, village kitchens, travel supplies, and Survivalist progression connect",
+      "runtime_action": "active mods installed; deeper recipes remain KubeJS-gated"
+    },
+    {
+      "id": "magic_and_boss_materials",
+      "owners": ["iron_spells", "cataclysm", "marium", "iceandfire"],
+      "mods": ["irons_spellbooks", "cataclysm", "soulsweapons", "iceandfire"],
+      "goal": "turn spell, boss, and dragon materials into tiered craft/progression proof",
+      "runtime_action": "contract active; final bridge needs loot/bounty/quest pass"
+    }
+  ],
+  "kubejs_guardrails": [
+    "Do not rewrite broad recipe families without first checking Almost Unified output.",
+    "Do not hide items until Item Obliterator or a KubeJS removal pass has a documented replacement path.",
+    "Prefer tags for category logic and exact item IDs for capstone rewards."
+  ]
+}

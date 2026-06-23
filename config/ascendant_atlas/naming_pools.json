@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "regions": {
+    "crownlands": [
+      "Halewick",
+      "Brindleford",
+      "Eastmere",
+      "Oakrest"
+    ],
+    "frostmarch": [
+      "Frostmere",
+      "Kaldvik",
+      "Whitehall",
+      "Rimeford"
+    ],
+    "sunreach": [
+      "Varnsun",
+      "Ashmarket",
+      "Redvale",
+      "Sirocco Rest"
+    ],
+    "verdant_coast": [
+      "Mossbay",
+      "Greenwater",
+      "Reedcross",
+      "Stormfen"
+    ],
+    "stoneback_highlands": [
+      "Varnhold",
+      "Highmere",
+      "Stonegate",
+      "Ironwick"
+    ]
+  }
+}

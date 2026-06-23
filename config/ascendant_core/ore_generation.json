@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "policy": "Do not let every installed mod define progression ore access independently.",
+  "live_state": "audit_and_contract_only",
+  "future_enforcement": [
+    "disable duplicate ore gen in owning mod configs when clear",
+    "use Open Loader datapack features for custom ore sources",
+    "use Ascendant Atlas Forge module for coordinate/ring locks if datapacks are insufficient"
+  ]
+}

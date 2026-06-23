@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "generated_by": "scripts/generate-ascendant-atlas-worldgen.py",
+  "status": "pending_in_game_command",
+  "report": "transition_transects_latest.json",
+  "note": "Run the matching /ascatlas command in a fresh generated world to replace this source placeholder."
+}

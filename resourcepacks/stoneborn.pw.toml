@@ -1,0 +1,13 @@
+name = "STONEBORN UI Overhaul"
+filename = "STONEBORN+-+1.20-1.20.1+-+V3.2.3.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/zQHARVIr/versions/fLnBOa5o/STONEBORN%2B-%2B1.20-1.20.1%2B-%2BV3.2.3.zip"
+hash-format = "sha512"
+hash = "c4b8549bbeb2d4f3846e4a270e7db8b74d589c413ac710725a81f8f994aeffa3a1c7db247d42b4203bf732ad233a8933ef80169d301a01f503c30d9c61eaaf5d"
+
+[update]
+[update.modrinth]
+mod-id = "zQHARVIr"
+version = "fLnBOa5o"

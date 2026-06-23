@@ -1,0 +1,300 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T04:08:00+00:00",
+  "status": "audit_control_scaffold_only_no_live_atmosphere_changes",
+  "scope": {
+    "changes_terrain": false,
+    "changes_mobs": false,
+    "changes_ores": false,
+    "changes_structures": false,
+    "changes_weather_configs": false,
+    "changes_audio_configs": false,
+    "changes_title_resource_pack": false
+  },
+  "known_region_ids": [
+    "hearthlands",
+    "frostmarch",
+    "sunreach",
+    "verdant_coast",
+    "stoneback_highlands",
+    "north_east_marches",
+    "north_west_marches",
+    "south_east_wilds",
+    "south_west_wilds",
+    "outer_rim",
+    "nether_front",
+    "end_expanse"
+  ],
+  "warm_regions": [
+    "end_expanse",
+    "hearthlands",
+    "nether_front",
+    "south_east_wilds",
+    "south_west_wilds",
+    "stoneback_highlands",
+    "sunreach",
+    "verdant_coast"
+  ],
+  "regions": [
+    {
+      "region_id": "hearthlands",
+      "aliases": [
+        "crownlands",
+        "center"
+      ],
+      "atlas_pool": "center",
+      "display_name": "The Crownlands",
+      "subtitle_flavor": "Safe roads, soft weather, and the first promise of the realm.",
+      "music_mood": "warm medieval strings, light flute, calm travel themes",
+      "ambient_sound_mood": "meadow wind, birds, soft village distance, light leaves",
+      "weather_mood": "temperate rain and fair skies; storms should feel rare and readable",
+      "particle_visual_notes": "subtle pollen, leaves, fireflies, gentle camp smoke near authored spaces",
+      "season_behavior": "visible seasonal color shifts without heavy snow or ice conversion",
+      "snow_ice_permission": {
+        "allow_snow_buildup": false,
+        "allow_ice_buildup": false,
+        "reason": "starter region must remain temperate and beginner-friendly"
+      },
+      "danger_mood": "safe but not sterile; danger should be signposted and sparse",
+      "title_color": "f0d68a"
+    },
+    {
+      "region_id": "frostmarch",
+      "aliases": [
+        "north"
+      ],
+      "atlas_pool": "north",
+      "display_name": "The Frostmarch",
+      "subtitle_flavor": "Cold wind, old ice, and the long white road north.",
+      "music_mood": "low drones, lonely horns, glassy bells, restrained percussion",
+      "ambient_sound_mood": "cold wind, crunching snow, distant ice cracks, aurora quiet",
+      "weather_mood": "snow, blizzards, frozen fog, and hard winter visibility where safe",
+      "particle_visual_notes": "windblown snow, frost motes, aurora-lit nights, icy breath",
+      "season_behavior": "winter may be visually strong; snow and ice are region-appropriate",
+      "snow_ice_permission": {
+        "allow_snow_buildup": true,
+        "allow_ice_buildup": true,
+        "reason": "cold-intended region"
+      },
+      "danger_mood": "survival pressure, cold isolation, frozen-ocean threat",
+      "title_color": "9bd8ff"
+    },
+    {
+      "region_id": "sunreach",
+      "aliases": [
+        "south"
+      ],
+      "atlas_pool": "south",
+      "display_name": "Sunreach",
+      "subtitle_flavor": "Red dust, bright heat, and caravan tracks under a hard sky.",
+      "music_mood": "dry percussion, oud-like plucks, sparse desert travel lines",
+      "ambient_sound_mood": "dry wind, sand hiss, insects, distant heat shimmer",
+      "weather_mood": "dry, hot, dusty, storm-scarred; rain should be uncommon and snow forbidden",
+      "particle_visual_notes": "dust, ash flecks in scarred areas, heat-haze color grading where possible",
+      "season_behavior": "season color can shift plants, but winter must not whiten the region",
+      "snow_ice_permission": {
+        "allow_snow_buildup": false,
+        "allow_ice_buildup": false,
+        "reason": "warm/arid region; previous warm snow bug must not return"
+      },
+      "danger_mood": "exposed, thirsty, bright, predator-visible",
+      "title_color": "d99a4e"
+    },
+    {
+      "region_id": "verdant_coast",
+      "aliases": [
+        "east"
+      ],
+      "atlas_pool": "east",
+      "display_name": "The Verdant Coast",
+      "subtitle_flavor": "Rain-wet leaves, river mouths, and the sound of distant surf.",
+      "music_mood": "lush strings, hand drums, rainstick-like texture, coastal motifs",
+      "ambient_sound_mood": "rainforest insects, frogs, surf, mangrove water, heavy leaves",
+      "weather_mood": "wet, lush, stormy, coastal; lightning and heavy rain fit better than snow",
+      "particle_visual_notes": "mist, rain streaks, water drips, pollen, fireflies in humid nights",
+      "season_behavior": "wet seasons can feel strong; foliage shifts should stay lush",
+      "snow_ice_permission": {
+        "allow_snow_buildup": false,
+        "allow_ice_buildup": false,
+        "reason": "wet/coastal does not mean cold"
+      },
+      "danger_mood": "dense, alive, hard to see through, ambush-friendly",
+      "title_color": "59bd70"
+    },
+    {
+      "region_id": "stoneback_highlands",
+      "aliases": [
+        "west"
+      ],
+      "atlas_pool": "west",
+      "display_name": "The Stoneback Highlands",
+      "subtitle_flavor": "Stone roads, echoing cliffs, and wind over old watchfires.",
+      "music_mood": "low drums, hammered strings, mountain horns, sparse stone ambience",
+      "ambient_sound_mood": "high wind, rock echoes, gravel steps, distant ravens or goats if present",
+      "weather_mood": "windy, mountainous, exposed; rain and fog fit, broad snow does not",
+      "particle_visual_notes": "mountain mist, dust off cliff faces, falling leaves in high forests",
+      "season_behavior": "cool seasonal color is fine; Atlas removed snow-risk west biomes for a reason",
+      "snow_ice_permission": {
+        "allow_snow_buildup": false,
+        "allow_ice_buildup": false,
+        "reason": "west is highland/mountain-first, not Frostmarch snow identity"
+      },
+      "danger_mood": "vertical, exposed, echoing, hard to cross",
+      "title_color": "c7b27a"
+    },
+    {
+      "region_id": "north_east_marches",
+      "aliases": [
+        "north_east"
+      ],
+      "atlas_pool": "north_east",
+      "display_name": "The North-East Marches",
+      "subtitle_flavor": "Cold rain, frozen river mouths, and dark coastal timber.",
+      "music_mood": "frost strings blended with wet coastal ambience",
+      "ambient_sound_mood": "cold surf, wet leaves, ice cracks, gulls if present",
+      "weather_mood": "cold coastal storms, sleet-like mood, frozen crossings",
+      "particle_visual_notes": "mist, sleet, frost motes, spray over ice",
+      "season_behavior": "snow is allowed where the selected biome data is cold",
+      "snow_ice_permission": {
+        "allow_snow_buildup": true,
+        "allow_ice_buildup": true,
+        "reason": "cold diagonal blend with Frostmarch"
+      },
+      "danger_mood": "cold coastal frontier",
+      "title_color": "7fcfb8"
+    },
+    {
+      "region_id": "north_west_marches",
+      "aliases": [
+        "north_west"
+      ],
+      "atlas_pool": "north_west",
+      "display_name": "The North-West Marches",
+      "subtitle_flavor": "Wind-cut ridges, black pines, and snow in the high passes.",
+      "music_mood": "frost drones with mountain horns and stone percussion",
+      "ambient_sound_mood": "cold high wind, snow through pines, rockfall echoes",
+      "weather_mood": "cold mountain weather; snow allowed where biome data supports it",
+      "particle_visual_notes": "windblown snow, cliff dust, frost on stone",
+      "season_behavior": "winter identity can be visible but should still read mountainous",
+      "snow_ice_permission": {
+        "allow_snow_buildup": true,
+        "allow_ice_buildup": true,
+        "reason": "cold diagonal blend with Frostmarch"
+      },
+      "danger_mood": "cold, vertical, exposed",
+      "title_color": "a7c7d9"
+    },
+    {
+      "region_id": "south_east_wilds",
+      "aliases": [
+        "south_east"
+      ],
+      "atlas_pool": "south_east",
+      "display_name": "The South-East Wilds",
+      "subtitle_flavor": "Hot rain, red mud, and green growth fighting the desert.",
+      "music_mood": "humid percussion with desert plucks and low strings",
+      "ambient_sound_mood": "rain on hot leaves, insects, distant surf, dry thunder",
+      "weather_mood": "hot coastal storms and monsoon mood; no snow",
+      "particle_visual_notes": "mist, dust after rain, fireflies, humid haze",
+      "season_behavior": "wet/dry seasonal contrast, no winter whitening",
+      "snow_ice_permission": {
+        "allow_snow_buildup": false,
+        "allow_ice_buildup": false,
+        "reason": "warm diagonal blend"
+      },
+      "danger_mood": "lush but heat-stressed and unstable",
+      "title_color": "9fc96c"
+    },
+    {
+      "region_id": "south_west_wilds",
+      "aliases": [
+        "south_west"
+      ],
+      "atlas_pool": "south_west",
+      "display_name": "The South-West Wilds",
+      "subtitle_flavor": "Broken mesas, dry canyons, and wind grinding stone to dust.",
+      "music_mood": "desert percussion with stone drones and tense low brass",
+      "ambient_sound_mood": "dry cliff wind, grit, distant rockslide, sparse insects",
+      "weather_mood": "hot, arid, storm-carved; no snow or cold-season buildup",
+      "particle_visual_notes": "red dust, canyon haze, ash flecks near scarred terrain",
+      "season_behavior": "dry winter colors only; no snow accumulation",
+      "snow_ice_permission": {
+        "allow_snow_buildup": false,
+        "allow_ice_buildup": false,
+        "reason": "warm/arid diagonal blend"
+      },
+      "danger_mood": "dry, cracked, remote, predator territory",
+      "title_color": "c98d57"
+    },
+    {
+      "region_id": "outer_rim",
+      "aliases": [
+        "outer",
+        "deep_wilds",
+        "dragon_scars"
+      ],
+      "atlas_pool": "outer",
+      "display_name": "The Outer Rim",
+      "subtitle_flavor": "The map thins, the sky bruises, and old powers press close.",
+      "music_mood": "oppressive drones, broken choirs, sparse drums, corrupted ambience",
+      "ambient_sound_mood": "distant thunder, unnatural wind, low rumbles, hostile silence",
+      "weather_mood": "dangerous, oppressive, region-by-biome; do not blanket snow warm samples",
+      "particle_visual_notes": "embers, ash, strange motes, dark fog near authored danger zones",
+      "season_behavior": "season behavior must follow actual biome climate; corruption should not become random snow",
+      "snow_ice_permission": {
+        "allow_snow_buildup": "conditional_cold_biome_only",
+        "allow_ice_buildup": "conditional_cold_biome_only",
+        "reason": "outer pool includes both cold and hot biomes"
+      },
+      "danger_mood": "oppressive, ancient, high-rank, dangerous",
+      "title_color": "8c78a8"
+    },
+    {
+      "region_id": "nether_front",
+      "aliases": [
+        "nether"
+      ],
+      "atlas_pool": null,
+      "display_name": "The Nether Front",
+      "subtitle_flavor": "Heat, basalt, and warlight beyond the Overworld line.",
+      "music_mood": "low infernal drones, basalt percussion, distant ritual tones",
+      "ambient_sound_mood": "fire, basalt echoes, soul wind, lava pressure",
+      "weather_mood": "dimension atmosphere only; no Overworld storm control",
+      "particle_visual_notes": "embers, ash, smoke, heat shimmer",
+      "season_behavior": "no Serene Seasons behavior expected",
+      "snow_ice_permission": {
+        "allow_snow_buildup": false,
+        "allow_ice_buildup": false,
+        "reason": "Nether dimension"
+      },
+      "danger_mood": "hostile, infernal, advanced",
+      "title_color": "c85a48"
+    },
+    {
+      "region_id": "end_expanse",
+      "aliases": [
+        "end"
+      ],
+      "atlas_pool": null,
+      "display_name": "The End Expanse",
+      "subtitle_flavor": "A silent horizon where the world stops answering.",
+      "music_mood": "void pads, distant choir, sparse crystalline pulses",
+      "ambient_sound_mood": "thin wind, chorus shimmer, void silence",
+      "weather_mood": "dimension atmosphere only; no Overworld storm control",
+      "particle_visual_notes": "void motes, chorus particles, pale glows",
+      "season_behavior": "no Serene Seasons behavior expected",
+      "snow_ice_permission": {
+        "allow_snow_buildup": false,
+        "allow_ice_buildup": false,
+        "reason": "End dimension"
+      },
+      "danger_mood": "silent, alien, capstone",
+      "title_color": "b78cff"
+    }
+  ],
+  "validation": {
+    "missing_region_atmosphere": [],
+    "warm_regions_allowing_snow_buildup": [],
+    "policy_references_missing_region_ids": []
+  }
+}

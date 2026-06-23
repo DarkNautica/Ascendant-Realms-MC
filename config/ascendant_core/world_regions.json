@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "runtime_state": "coordinate_runtime_active",
+  "policy": "World regions are authored progression zones. KubeJS now mirrors a finite 3000-block Atlas map into scoreboards and In Control uses coordinate areas for immediate spawn guardrails. Terralith/Tectonic biome-source replacement is not live yet; use an Ascendant Atlas helper module only where configs/datapacks cannot safely express the rule.",
+  "scoreboard": "ar_region_tier",
+  "regions": [
+    {
+      "id": "hearthlands",
+      "tier": 0,
+      "distance_hint_blocks": [0, 1200],
+      "biome_themes": ["plains", "forest", "meadow", "river"],
+      "rank_band": ["unranked", "e_rank"],
+      "loot_range": ["common", "uncommon"],
+      "structure_roles": ["vanilla_village", "small_hunter_board", "farmstead", "safe_road"],
+      "mob_roles": ["wildlife", "common_hostile", "rare_village_pressure"],
+      "design_goal": "hard at night, readable in daylight, good for first multiplayer base"
+    },
+    {
+      "id": "green_frontier",
+      "tier": 1,
+      "distance_hint_blocks": [900, 2500],
+      "biome_themes": ["forest", "old_growth", "taiga", "stony_peaks"],
+      "rank_band": ["e_rank", "d_rank", "c_rank"],
+      "loot_range": ["uncommon", "rare", "epic"],
+      "structure_roles": ["roadside_hunter_camp", "towns_and_towers", "structory", "yung_minor"],
+      "mob_roles": ["alexs_wildlife", "borninchaos_night", "common_elite"],
+      "design_goal": "first real exploration layer with contracts, camps, and visible progression"
+    },
+    {
+      "id": "frozen_reaches",
+      "tier": 2,
+      "distance_hint_blocks": [1400, 4200],
+      "biome_themes": ["snowy", "frozen", "ice", "cold_ocean"],
+      "rank_band": ["d_rank", "c_rank", "b_rank"],
+      "loot_range": ["rare", "epic", "legendary"],
+      "structure_roles": ["aquamirae_outpost", "mss", "mes", "medieval_nether_if_dimension_safe"],
+      "mob_roles": ["aquamirae", "snow_pressure", "mowzie_rare"],
+      "design_goal": "cold survival, coastal danger, and distinct Aquamirae/ice contracts"
+    },
+    {
+      "id": "scorched_south",
+      "tier": 2,
+      "distance_hint_blocks": [1400, 4200],
+      "biome_themes": ["desert", "badlands", "savanna", "windswept"],
+      "rank_band": ["d_rank", "c_rank", "b_rank"],
+      "loot_range": ["rare", "epic", "legendary"],
+      "structure_roles": ["desert_village", "mowzie_encounter", "yung_desert", "frontier_guild_outpost"],
+      "mob_roles": ["mowzie_rare", "borninchaos_night", "hostile_beast"],
+      "design_goal": "scarce safety, strong landmarks, hotter combat pressure"
+    },
+    {
+      "id": "deep_wilds",
+      "tier": 3,
+      "distance_hint_blocks": [2600, 7000],
+      "biome_themes": ["jungle", "dark_forest", "swamp", "ancient"],
+      "rank_band": ["c_rank", "b_rank", "a_rank"],
+      "loot_range": ["epic", "legendary", "mythic"],
+      "structure_roles": ["idas", "moog_major", "yung_major", "rival_camp"],
+      "mob_roles": ["elite_hostile", "mowzie_rare", "borninchaos_pressure"],
+      "design_goal": "dense danger and strong reward density without village spam"
+    },
+    {
+      "id": "dragon_scars",
+      "tier": 4,
+      "distance_hint_blocks": [4200, 12000],
+      "biome_themes": ["mountain", "volcanic", "charred", "remote"],
+      "rank_band": ["b_rank", "a_rank", "s_rank"],
+      "loot_range": ["legendary", "mythic", "ascendant"],
+      "structure_roles": ["iceandfire_dragon", "cataclysm", "marium", "major_guild_registry"],
+      "mob_roles": ["dragon_tier", "boss", "elite"],
+      "design_goal": "late-game warning layer where unprepared players can still get erased"
+    },
+    {
+      "id": "nether_front",
+      "tier": 4,
+      "dimension": "minecraft:the_nether",
+      "rank_band": ["b_rank", "a_rank", "s_rank"],
+      "loot_range": ["legendary", "mythic", "ascendant"],
+      "structure_roles": ["nether_structures", "cataclysm", "medieval_nether"],
+      "mob_roles": ["nether_elite", "boss", "fire_magic"],
+      "design_goal": "hostile progression layer with strong material and boss hooks"
+    },
+    {
+      "id": "end_expanse",
+      "tier": 5,
+      "dimension": "minecraft:the_end",
+      "rank_band": ["a_rank", "s_rank"],
+      "loot_range": ["mythic", "ascendant"],
+      "structure_roles": ["mes", "end_boss", "capstone_relic"],
+      "mob_roles": ["end_elite", "boss", "capstone"],
+      "design_goal": "final exploration and Ascendant-tier reward identity"
+    }
+  ]
+}

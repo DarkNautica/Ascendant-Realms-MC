@@ -1,0 +1,1759 @@
+{
+  "version": 1,
+  "status": "manual_locate_test_plan_no_live_generation_changes",
+  "fresh_world_required": true,
+  "global_rules": [
+    "Use a fresh validation world or ungenerated chunks.",
+    "Do not judge structure density in old chunks.",
+    "Record coordinates, biome, Atlas region, structure ID, nearby structures, and screenshots for failures.",
+    "Use spectator/creative flight for review; do not enable region locks or live overrides from this file directly."
+  ],
+  "priority_locate_commands": [
+    {
+      "structure_id": "idas:abandonedhouse",
+      "command": "/locate structure idas:abandonedhouse",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:apothecary_abode",
+      "command": "/locate structure idas:apothecary_abode",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:bearclaw_inn",
+      "command": "/locate structure idas:bearclaw_inn",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:beekeepers_house",
+      "command": "/locate structure idas:beekeepers_house",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:botanist",
+      "command": "/locate structure idas:botanist",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:brickhouse",
+      "command": "/locate structure idas:brickhouse",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:castle",
+      "command": "/locate structure idas:castle",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:desert_ruins",
+      "command": "/locate structure idas:desert_ruins",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:dig_site/dig_site",
+      "command": "/locate structure idas:dig_site/dig_site",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:dig_site/dig_site_desert",
+      "command": "/locate structure idas:dig_site/dig_site_desert",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:enchantingtower",
+      "command": "/locate structure idas:enchantingtower",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:farmhouse",
+      "command": "/locate structure idas:farmhouse",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:fishermans_lodge",
+      "command": "/locate structure idas:fishermans_lodge",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:haunted_manor",
+      "command": "/locate structure idas:haunted_manor",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:hermits_hollow",
+      "command": "/locate structure idas:hermits_hollow",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:hunters_cabin",
+      "command": "/locate structure idas:hunters_cabin",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:mason_house",
+      "command": "/locate structure idas:mason_house",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:redhorn_guild",
+      "command": "/locate structure idas:redhorn_guild",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:ruined_church",
+      "command": "/locate structure idas:ruined_church",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:ruined_fort",
+      "command": "/locate structure idas:ruined_fort",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:ruined_well",
+      "command": "/locate structure idas:ruined_well",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:the_log",
+      "command": "/locate structure idas:the_log",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:treetop_tavern",
+      "command": "/locate structure idas:treetop_tavern",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:tudor_pub",
+      "command": "/locate structure idas:tudor_pub",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:wacky_wares",
+      "command": "/locate structure idas:wacky_wares",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:winter_wagon",
+      "command": "/locate structure idas:winter_wagon",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:witches_treestump",
+      "command": "/locate structure idas:witches_treestump",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:wizard_tower",
+      "command": "/locate structure idas:wizard_tower",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "structory:swamp_ruin",
+      "command": "/locate structure structory:swamp_ruin",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "aquamirae:outpost",
+      "command": "/locate structure aquamirae:outpost",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "aquamirae:surface/arch",
+      "command": "/locate structure aquamirae:surface/arch",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "aquamirae:surface/spiral",
+      "command": "/locate structure aquamirae:surface/spiral",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "betterdungeons:small_nether_dungeon",
+      "command": "/locate structure betterdungeons:small_nether_dungeon",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "block_factorys_bosses:dragon_tower",
+      "command": "/locate structure block_factorys_bosses:dragon_tower",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "block_factorys_bosses:kraken_ship",
+      "command": "/locate structure block_factorys_bosses:kraken_ship",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "block_factorys_bosses:underworld_arena",
+      "command": "/locate structure block_factorys_bosses:underworld_arena",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "cataclysm:acropolis",
+      "command": "/locate structure cataclysm:acropolis",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "cataclysm:ancient_factory",
+      "command": "/locate structure cataclysm:ancient_factory",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "cataclysm:burning_arena",
+      "command": "/locate structure cataclysm:burning_arena",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "cataclysm:cursed_pyramid",
+      "command": "/locate structure cataclysm:cursed_pyramid",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    }
+  ],
+  "water_structure_locate_commands": [
+    {
+      "structure_id": "create_structures_arise:pillager_boat",
+      "command": "/locate structure create_structures_arise:pillager_boat",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "iceandfire:siren_island",
+      "command": "/locate structure iceandfire:siren_island",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:iceandfire/sirens_cove",
+      "command": "/locate structure idas:iceandfire/sirens_cove",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:sunken_ship/sunken_ship",
+      "command": "/locate structure idas:sunken_ship/sunken_ship",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:sunken_ship/sunken_ship_coral",
+      "command": "/locate structure idas:sunken_ship/sunken_ship_coral",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:sunken_ship/sunken_ship_ruins",
+      "command": "/locate structure idas:sunken_ship/sunken_ship_ruins",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "integrated_villages:pirate_village",
+      "command": "/locate structure integrated_villages:pirate_village",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "minecraft:mineshaft",
+      "command": "/locate structure minecraft:mineshaft",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "minecraft:monument",
+      "command": "/locate structure minecraft:monument",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "minecraft:ruined_portal_ocean",
+      "command": "/locate structure minecraft:ruined_portal_ocean",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "minecraft:shipwreck",
+      "command": "/locate structure minecraft:shipwreck",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "mowziesmobs:frostmaw_spawn",
+      "command": "/locate structure mowziesmobs:frostmaw_spawn",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "mowziesmobs:monastery",
+      "command": "/locate structure mowziesmobs:monastery",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "mowziesmobs:umvuthana_grove",
+      "command": "/locate structure mowziesmobs:umvuthana_grove",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "mowziesmobs:wrought_chamber",
+      "command": "/locate structure mowziesmobs:wrought_chamber",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "mss:palm_island",
+      "command": "/locate structure mss:palm_island",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "mvs:ocean_tower",
+      "command": "/locate structure mvs:ocean_tower",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "mvs:rare_well",
+      "command": "/locate structure mvs:rare_well",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "mvs:small_ship",
+      "command": "/locate structure mvs:small_ship",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "mvs:well",
+      "command": "/locate structure mvs:well",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "structory:boat",
+      "command": "/locate structure structory:boat",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "towns_and_towers:pillager_outpost_ocean",
+      "command": "/locate structure towns_and_towers:pillager_outpost_ocean",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    }
+  ],
+  "sky_structure_locate_commands": [
+    {
+      "structure_id": "cataclysm:acropolis",
+      "command": "/locate structure cataclysm:acropolis",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "create_structures_arise:createairdrop",
+      "command": "/locate structure create_structures_arise:createairdrop",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "create_structures_arise:createminiskyvillage",
+      "command": "/locate structure create_structures_arise:createminiskyvillage",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "create_structures_arise:pillagersteampunkairship",
+      "command": "/locate structure create_structures_arise:pillagersteampunkairship",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "integrated_villages:airship_village",
+      "command": "/locate structure integrated_villages:airship_village",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "medievalend:ship",
+      "command": "/locate structure medievalend:ship",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "mss:arena",
+      "command": "/locate structure mss:arena",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "mss:diorite_house",
+      "command": "/locate structure mss:diorite_house",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "mss:large_tower",
+      "command": "/locate structure mss:large_tower",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "mss:white_house",
+      "command": "/locate structure mss:white_house",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "terralith:mage_tower_autumn",
+      "command": "/locate structure terralith:mage_tower_autumn",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "terralith:mage_tower_spring",
+      "command": "/locate structure terralith:mage_tower_spring",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "terralith:mage_tower_summer",
+      "command": "/locate structure terralith:mage_tower_summer",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "terralith:mage_tower_winter",
+      "command": "/locate structure terralith:mage_tower_winter",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    }
+  ],
+  "boss_structure_locate_commands": [
+    {
+      "structure_id": "block_factorys_bosses:dragon_tower",
+      "command": "/locate structure block_factorys_bosses:dragon_tower",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "block_factorys_bosses:kraken_ship",
+      "command": "/locate structure block_factorys_bosses:kraken_ship",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "block_factorys_bosses:sandworm_nest",
+      "command": "/locate structure block_factorys_bosses:sandworm_nest",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "block_factorys_bosses:underworld_arena",
+      "command": "/locate structure block_factorys_bosses:underworld_arena",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "block_factorys_bosses:yeti_hideout",
+      "command": "/locate structure block_factorys_bosses:yeti_hideout",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "cataclysm:abandoned_spire",
+      "command": "/locate structure cataclysm:abandoned_spire",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "cataclysm:abandoned_temple",
+      "command": "/locate structure cataclysm:abandoned_temple",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "cataclysm:abandoned_village",
+      "command": "/locate structure cataclysm:abandoned_village",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "cataclysm:acropolis",
+      "command": "/locate structure cataclysm:acropolis",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "cataclysm:amethyst_nest",
+      "command": "/locate structure cataclysm:amethyst_nest",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "cataclysm:ancient_factory",
+      "command": "/locate structure cataclysm:ancient_factory",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "cataclysm:burning_arena",
+      "command": "/locate structure cataclysm:burning_arena",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "cataclysm:cursed_pyramid",
+      "command": "/locate structure cataclysm:cursed_pyramid",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "cataclysm:desert_occupied_village",
+      "command": "/locate structure cataclysm:desert_occupied_village",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "cataclysm:desert_site",
+      "command": "/locate structure cataclysm:desert_site",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "cataclysm:frosted_prison",
+      "command": "/locate structure cataclysm:frosted_prison",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "cataclysm:ruined_citadel",
+      "command": "/locate structure cataclysm:ruined_citadel",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "cataclysm:soul_black_smith",
+      "command": "/locate structure cataclysm:soul_black_smith",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "cataclysm:sunken_city",
+      "command": "/locate structure cataclysm:sunken_city",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "iceandfire:cyclops_cave",
+      "command": "/locate structure iceandfire:cyclops_cave",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "iceandfire:fire_dragon_cave",
+      "command": "/locate structure iceandfire:fire_dragon_cave",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "iceandfire:fire_dragon_roost",
+      "command": "/locate structure iceandfire:fire_dragon_roost",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "iceandfire:gorgon_temple",
+      "command": "/locate structure iceandfire:gorgon_temple",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "iceandfire:graveyard",
+      "command": "/locate structure iceandfire:graveyard",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "iceandfire:hydra_cave",
+      "command": "/locate structure iceandfire:hydra_cave",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "iceandfire:ice_dragon_cave",
+      "command": "/locate structure iceandfire:ice_dragon_cave",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "iceandfire:ice_dragon_roost",
+      "command": "/locate structure iceandfire:ice_dragon_roost",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "iceandfire:lightning_dragon_cave",
+      "command": "/locate structure iceandfire:lightning_dragon_cave",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "iceandfire:lightning_dragon_roost",
+      "command": "/locate structure iceandfire:lightning_dragon_roost",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "iceandfire:mausoleum",
+      "command": "/locate structure iceandfire:mausoleum",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    }
+  ],
+  "dungeon_structure_locate_commands": [
+    {
+      "structure_id": "betterdungeons:skeleton_dungeon",
+      "command": "/locate structure betterdungeons:skeleton_dungeon",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "betterdungeons:small_dungeon",
+      "command": "/locate structure betterdungeons:small_dungeon",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "betterdungeons:spider_dungeon",
+      "command": "/locate structure betterdungeons:spider_dungeon",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "betterdungeons:zombie_dungeon",
+      "command": "/locate structure betterdungeons:zombie_dungeon",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "bettermineshafts:mineshaft_acacia",
+      "command": "/locate structure bettermineshafts:mineshaft_acacia",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "bettermineshafts:mineshaft_desert",
+      "command": "/locate structure bettermineshafts:mineshaft_desert",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "bettermineshafts:mineshaft_dripstone",
+      "command": "/locate structure bettermineshafts:mineshaft_dripstone",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "bettermineshafts:mineshaft_ice",
+      "command": "/locate structure bettermineshafts:mineshaft_ice",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "bettermineshafts:mineshaft_jungle",
+      "command": "/locate structure bettermineshafts:mineshaft_jungle",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "bettermineshafts:mineshaft_lush",
+      "command": "/locate structure bettermineshafts:mineshaft_lush",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "bettermineshafts:mineshaft_mesa",
+      "command": "/locate structure bettermineshafts:mineshaft_mesa",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "bettermineshafts:mineshaft_mushroom",
+      "command": "/locate structure bettermineshafts:mineshaft_mushroom",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "bettermineshafts:mineshaft_oak",
+      "command": "/locate structure bettermineshafts:mineshaft_oak",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "bettermineshafts:mineshaft_overgrown",
+      "command": "/locate structure bettermineshafts:mineshaft_overgrown",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "bettermineshafts:mineshaft_red_desert",
+      "command": "/locate structure bettermineshafts:mineshaft_red_desert",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "bettermineshafts:mineshaft_spruce",
+      "command": "/locate structure bettermineshafts:mineshaft_spruce",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "bettermineshafts:mineshaft_spruce_snowy",
+      "command": "/locate structure bettermineshafts:mineshaft_spruce_snowy",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "betterstrongholds:stronghold",
+      "command": "/locate structure betterstrongholds:stronghold",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "born_in_chaos_v1:dark_tower_forest",
+      "command": "/locate structure born_in_chaos_v1:dark_tower_forest",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "born_in_chaos_v1:dark_tower_plain",
+      "command": "/locate structure born_in_chaos_v1:dark_tower_plain",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "born_in_chaos_v1:dark_tower_taiga",
+      "command": "/locate structure born_in_chaos_v1:dark_tower_taiga",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "born_in_chaos_v1:observation_tower_forest",
+      "command": "/locate structure born_in_chaos_v1:observation_tower_forest",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "born_in_chaos_v1:observation_tower_plains",
+      "command": "/locate structure born_in_chaos_v1:observation_tower_plains",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "create_structures_arise:create_dungeon_base",
+      "command": "/locate structure create_structures_arise:create_dungeon_base",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "create_structures_arise:create_ruined_castle",
+      "command": "/locate structure create_structures_arise:create_ruined_castle",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "create_structures_arise:crimsite_tower",
+      "command": "/locate structure create_structures_arise:crimsite_tower",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "create_structures_arise:towerofochrum",
+      "command": "/locate structure create_structures_arise:towerofochrum",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:abandoned_lighthouse",
+      "command": "/locate structure idas:abandoned_lighthouse",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:abandoned_vineyard",
+      "command": "/locate structure idas:abandoned_vineyard",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:abandonedhouse",
+      "command": "/locate structure idas:abandonedhouse",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    }
+  ],
+  "village_or_town_locate_commands": [
+    {
+      "structure_id": "aquamirae:outpost",
+      "command": "/locate structure aquamirae:outpost",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "create_structures_arise:createminiskyvillage",
+      "command": "/locate structure create_structures_arise:createminiskyvillage",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:desert_camp/desert_camp",
+      "command": "/locate structure idas:desert_camp/desert_camp",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:desert_camp/desert_camp_bygwindswept",
+      "command": "/locate structure idas:desert_camp/desert_camp_bygwindswept",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:desert_camp/desert_camp_orange",
+      "command": "/locate structure idas:desert_camp/desert_camp_orange",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:desert_camp/desert_camp_red",
+      "command": "/locate structure idas:desert_camp/desert_camp_red",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:desert_market/desert_market",
+      "command": "/locate structure idas:desert_market/desert_market",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:desert_market/desert_market_orange",
+      "command": "/locate structure idas:desert_market/desert_market_orange",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:desert_market/desert_market_red",
+      "command": "/locate structure idas:desert_market/desert_market_red",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:lumber_camp/lumber_camp_acacia",
+      "command": "/locate structure idas:lumber_camp/lumber_camp_acacia",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:lumber_camp/lumber_camp_birch",
+      "command": "/locate structure idas:lumber_camp/lumber_camp_birch",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:lumber_camp/lumber_camp_bopmahogany",
+      "command": "/locate structure idas:lumber_camp/lumber_camp_bopmahogany",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:lumber_camp/lumber_camp_bopredwood",
+      "command": "/locate structure idas:lumber_camp/lumber_camp_bopredwood",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:lumber_camp/lumber_camp_bygmahogany",
+      "command": "/locate structure idas:lumber_camp/lumber_camp_bygmahogany",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:lumber_camp/lumber_camp_bygredwood",
+      "command": "/locate structure idas:lumber_camp/lumber_camp_bygredwood",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:lumber_camp/lumber_camp_dark_oak",
+      "command": "/locate structure idas:lumber_camp/lumber_camp_dark_oak",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:lumber_camp/lumber_camp_jungle",
+      "command": "/locate structure idas:lumber_camp/lumber_camp_jungle",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:lumber_camp/lumber_camp_oak",
+      "command": "/locate structure idas:lumber_camp/lumber_camp_oak",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:lumber_camp/lumber_camp_spruce",
+      "command": "/locate structure idas:lumber_camp/lumber_camp_spruce",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:pillager_camp",
+      "command": "/locate structure idas:pillager_camp",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:redhorn_guild",
+      "command": "/locate structure idas:redhorn_guild",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:underground_camp/underground_camp",
+      "command": "/locate structure idas:underground_camp/underground_camp",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:underground_camp/underground_camp_deep",
+      "command": "/locate structure idas:underground_camp/underground_camp_deep",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "idas:washing_camp",
+      "command": "/locate structure idas:washing_camp",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "integrated_villages:airship_village",
+      "command": "/locate structure integrated_villages:airship_village",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "integrated_villages:cabin_village",
+      "command": "/locate structure integrated_villages:cabin_village",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "integrated_villages:clockwork_village",
+      "command": "/locate structure integrated_villages:clockwork_village",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "integrated_villages:kutcha_village",
+      "command": "/locate structure integrated_villages:kutcha_village",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "integrated_villages:marketstead_village",
+      "command": "/locate structure integrated_villages:marketstead_village",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    },
+    {
+      "structure_id": "integrated_villages:mediterranean_village",
+      "command": "/locate structure integrated_villages:mediterranean_village",
+      "inspection_focus": [
+        "Does it match Atlas region identity?",
+        "Does it overlap nearby structures, roads, villages, water, cliffs, or terrain seams?",
+        "Does loot/danger feel correct for the ring?"
+      ]
+    }
+  ],
+  "candidate_override_sets_to_review": [
+    {
+      "structure_set": "block_factorys_bosses:sandworm_nest",
+      "current_spacing": 45,
+      "proposed_spacing": 96,
+      "suggested_fix_type": "boss_or_dragon_should_be_rare"
+    },
+    {
+      "structure_set": "block_factorys_bosses:yeti_hideout",
+      "current_spacing": 30,
+      "proposed_spacing": 96,
+      "suggested_fix_type": "boss_or_dragon_should_be_rare"
+    },
+    {
+      "structure_set": "cataclysm:abandoned_structures",
+      "current_spacing": 30,
+      "proposed_spacing": 96,
+      "suggested_fix_type": "boss_or_dragon_should_be_rare"
+    },
+    {
+      "structure_set": "cataclysm:amethyst_nest",
+      "current_spacing": 32,
+      "proposed_spacing": 96,
+      "suggested_fix_type": "boss_or_dragon_should_be_rare"
+    },
+    {
+      "structure_set": "cataclysm:desert_structures",
+      "current_spacing": 30,
+      "proposed_spacing": 96,
+      "suggested_fix_type": "boss_or_dragon_should_be_rare"
+    },
+    {
+      "structure_set": "iceandfire:cyclops_cave",
+      "current_spacing": 10,
+      "proposed_spacing": 96,
+      "suggested_fix_type": "boss_or_dragon_should_be_rare"
+    },
+    {
+      "structure_set": "iceandfire:dragon_cave",
+      "current_spacing": 18,
+      "proposed_spacing": 96,
+      "suggested_fix_type": "boss_or_dragon_should_be_rare"
+    },
+    {
+      "structure_set": "iceandfire:dragon_roost",
+      "current_spacing": 15,
+      "proposed_spacing": 96,
+      "suggested_fix_type": "boss_or_dragon_should_be_rare"
+    },
+    {
+      "structure_set": "iceandfire:gorgon_temple",
+      "current_spacing": 32,
+      "proposed_spacing": 96,
+      "suggested_fix_type": "boss_or_dragon_should_be_rare"
+    },
+    {
+      "structure_set": "iceandfire:graveyard",
+      "current_spacing": 28,
+      "proposed_spacing": 96,
+      "suggested_fix_type": "boss_or_dragon_should_be_rare"
+    },
+    {
+      "structure_set": "iceandfire:hydra_cave",
+      "current_spacing": 10,
+      "proposed_spacing": 96,
+      "suggested_fix_type": "boss_or_dragon_should_be_rare"
+    },
+    {
+      "structure_set": "iceandfire:mausoleum",
+      "current_spacing": 32,
+      "proposed_spacing": 96,
+      "suggested_fix_type": "boss_or_dragon_should_be_rare"
+    },
+    {
+      "structure_set": "iceandfire:pixie_village",
+      "current_spacing": 12,
+      "proposed_spacing": 96,
+      "suggested_fix_type": "boss_or_dragon_should_be_rare"
+    },
+    {
+      "structure_set": "iceandfire:siren_island",
+      "current_spacing": 20,
+      "proposed_spacing": 96,
+      "suggested_fix_type": "boss_or_dragon_should_be_rare"
+    },
+    {
+      "structure_set": "idas:idas_ocean",
+      "current_spacing": 35,
+      "proposed_spacing": 96,
+      "suggested_fix_type": "boss_or_dragon_should_be_rare"
+    },
+    {
+      "structure_set": "idas:idas_rare",
+      "current_spacing": 45,
+      "proposed_spacing": 96,
+      "suggested_fix_type": "boss_or_dragon_should_be_rare"
+    },
+    {
+      "structure_set": "betterdungeons:small_dungeons",
+      "current_spacing": 10,
+      "proposed_spacing": 32,
+      "suggested_fix_type": "dungeon_density_review"
+    },
+    {
+      "structure_set": "bettermineshafts:mineshafts",
+      "current_spacing": 1,
+      "proposed_spacing": 32,
+      "suggested_fix_type": "dungeon_density_review"
+    },
+    {
+      "structure_set": "idas:idas_common",
+      "current_spacing": 21,
+      "proposed_spacing": 32,
+      "suggested_fix_type": "dungeon_density_review"
+    },
+    {
+      "structure_set": "minecraft:mineshafts",
+      "current_spacing": 1,
+      "proposed_spacing": 32,
+      "suggested_fix_type": "dungeon_density_review"
+    },
+    {
+      "structure_set": "mvs:small_tower_well",
+      "current_spacing": 23,
+      "proposed_spacing": 32,
+      "suggested_fix_type": "dungeon_density_review"
+    },
+    {
+      "structure_set": "terralith:underground",
+      "current_spacing": 11,
+      "proposed_spacing": 32,
+      "suggested_fix_type": "dungeon_density_review"
+    },
+    {
+      "structure_set": "terralith:underground_dungeon",
+      "current_spacing": 9,
+      "proposed_spacing": 32,
+      "suggested_fix_type": "dungeon_density_review"
+    },
+    {
+      "structure_set": "aquamirae:outpost",
+      "current_spacing": 18,
+      "proposed_spacing": 28,
+      "suggested_fix_type": "general_visible_density_review"
+    },
+    {
+      "structure_set": "aquamirae:surface",
+      "current_spacing": 20,
+      "proposed_spacing": 28,
+      "suggested_fix_type": "general_visible_density_review"
+    },
+    {
+      "structure_set": "betterdungeons:small_nether_dungeons",
+      "current_spacing": 16,
+      "proposed_spacing": 28,
+      "suggested_fix_type": "general_visible_density_review"
+    },
+    {
+      "structure_set": "humancompanions:companion_house",
+      "current_spacing": 15,
+      "proposed_spacing": 28,
+      "suggested_fix_type": "general_visible_density_review"
+    },
+    {
+      "structure_set": "mes:enderpin_spikes",
+      "current_spacing": 13,
+      "proposed_spacing": 28,
+      "suggested_fix_type": "general_visible_density_review"
+    },
+    {
+      "structure_set": "mes:ruined_pillar",
+      "current_spacing": 10,
+      "proposed_spacing": 28,
+      "suggested_fix_type": "general_visible_density_review"
+    },
+    {
+      "structure_set": "minecraft:ancient_cities",
+      "current_spacing": 24,
+      "proposed_spacing": 28,
+      "suggested_fix_type": "general_visible_density_review"
+    },
+    {
+      "structure_set": "minecraft:buried_treasures",
+      "current_spacing": 1,
+      "proposed_spacing": 28,
+      "suggested_fix_type": "general_visible_density_review"
+    },
+    {
+      "structure_set": "minecraft:end_cities",
+      "current_spacing": 20,
+      "proposed_spacing": 28,
+      "suggested_fix_type": "general_visible_density_review"
+    },
+    {
+      "structure_set": "minecraft:nether_fossils",
+      "current_spacing": 2,
+      "proposed_spacing": 28,
+      "suggested_fix_type": "general_visible_density_review"
+    },
+    {
+      "structure_set": "minecraft:ocean_ruins",
+      "current_spacing": 20,
+      "proposed_spacing": 28,
+      "suggested_fix_type": "general_visible_density_review"
+    },
+    {
+      "structure_set": "minecraft:pillager_outposts",
+      "current_spacing": 32,
+      "proposed_spacing": 32,
+      "suggested_fix_type": "general_visible_density_review"
+    },
+    {
+      "structure_set": "mowziesmobs:wrought_chambers",
+      "current_spacing": 15,
+      "proposed_spacing": 28,
+      "suggested_fix_type": "general_visible_density_review"
+    },
+    {
+      "structure_set": "mvs:acacia_tree",
+      "current_spacing": 18,
+      "proposed_spacing": 28,
+      "suggested_fix_type": "general_visible_density_review"
+    },
+    {
+      "structure_set": "mvs:bench",
+      "current_spacing": 18,
+      "proposed_spacing": 28,
+      "suggested_fix_type": "general_visible_density_review"
+    },
+    {
+      "structure_set": "mvs:birch_tree",
+      "current_spacing": 18,
+      "proposed_spacing": 28,
+      "suggested_fix_type": "general_visible_density_review"
+    },
+    {
+      "structure_set": "mvs:cherry_tree",
+      "current_spacing": 18,
+      "proposed_spacing": 28,
+      "suggested_fix_type": "general_visible_density_review"
+    }
+  ]
+}

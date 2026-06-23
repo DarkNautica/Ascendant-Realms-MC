@@ -1,0 +1,6 @@
+tellraw @p [{"text":"=== Ascendant Shadow Army ===","color":"dark_purple","bold":true}]
+tellraw @p [{"text":"1) Enable the ","color":"gray"},{"text":"Ascendant Shadow Army","color":"aqua"},{"text":" resource pack (Options > Resource Packs).","color":"gray"}]
+tellraw @p [{"text":"/function ascendant_shadow:preview","color":"aqua"},{"text":" - frozen line of every shadow mob, with glowing aura.","color":"gray"}]
+tellraw @p [{"text":"/function ascendant_shadow:aura","color":"aqua"},{"text":" - add the glowing aura to nearby mobs.","color":"gray"}]
+tellraw @p [{"text":"/function ascendant_shadow:eggs","color":"aqua"},{"text":" - get spawn eggs of all shadow mobs.","color":"gray"}]
+tellraw @p [{"text":"/function ascendant_shadow:clear","color":"aqua"},{"text":" - remove preview + aura.","color":"gray"}]

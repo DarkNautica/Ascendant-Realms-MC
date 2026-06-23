@@ -1,0 +1,2 @@
+Ascendant Realms v{"placeholder":"json","values":{"source":"/config/fancymenu/assets/ascendant_pack_meta.json","json_path":"$.version"}}
+{"placeholder":"loadedmods"} Mods

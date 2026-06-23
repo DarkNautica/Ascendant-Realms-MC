@@ -1,0 +1,410 @@
+[
+  {
+    "mob": [
+      "alexsmobs:tiger",
+      "alexsmobs:grizzly_bear",
+      "alexsmobs:crocodile",
+      "alexsmobs:rattlesnake",
+      "alexsmobs:tarantula_hawk",
+      "alexsmobs:dropbear",
+      "born_in_chaos_v1:dread_hound",
+      "born_in_chaos_v1:mother_spider",
+      "born_in_chaos_v1:lifestealer",
+      "born_in_chaos_v1:scarlet_persecutor",
+      "born_in_chaos_v1:missioner",
+      "irons_spellbooks:archevoker",
+      "irons_spellbooks:cultist",
+      "irons_spellbooks:magehunter_vindicator",
+      "mowziesmobs:naga",
+      "mowziesmobs:foliaath",
+      "soulsweapons:forlorn",
+      "soulsweapons:returning_knight"
+    ],
+    "weights": [
+      8,
+      7,
+      5,
+      8,
+      6,
+      5,
+      10,
+      7,
+      5,
+      5,
+      6,
+      4,
+      6,
+      4,
+      4,
+      5,
+      3,
+      3
+    ],
+    "addscoreboardtags": [
+      "ascendant_daylight_safe_hostile",
+      "ascendant_modded_surface_hostile"
+    ],
+    "attempts": 42,
+    "persecond": 0.72,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5,
+      "groupdistance": 9
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 28,
+      "maxdist": 104,
+      "minheight": 48,
+      "maxheight": 240,
+      "norestrictions": true,
+      "sturdy": true,
+      "maxthis": 48,
+      "maxhostile": 150,
+      "maxlocal": 28,
+      "and": {
+        "seesky": true,
+        "biometags": [
+          "minecraft:is_forest",
+          "minecraft:is_jungle",
+          "minecraft:is_mountain",
+          "minecraft:is_savanna",
+          "minecraft:is_taiga",
+          "minecraft:is_badlands",
+          "forge:is_plains",
+          "forge:is_forest",
+          "forge:is_jungle",
+          "forge:is_mountain",
+          "forge:is_savanna",
+          "forge:is_desert",
+          "forge:is_hot/overworld",
+          "forge:is_cold/overworld"
+        ]
+      },
+      "not": {
+        "structuretags": [
+          "minecraft:village",
+          "minecraft:is_village"
+        ]
+      }
+    }
+  },
+  {
+    "mob": [
+      "alexsmobs:guster",
+      "alexsmobs:rattlesnake",
+      "alexsmobs:tarantula_hawk",
+      "alexsmobs:tusklin",
+      "iceandfire:deathworm",
+      "iceandfire:cockatrice",
+      "iceandfire:stymphalian_bird",
+      "born_in_chaos_v1:firelight",
+      "born_in_chaos_v1:scarlet_persecutor",
+      "born_in_chaos_v1:pumpkin_bruiser",
+      "irons_spellbooks:pyromancer",
+      "cataclysm:wadjet",
+      "cataclysm:kobolediator"
+    ],
+    "weights": [
+      8,
+      9,
+      7,
+      5,
+      5,
+      4,
+      4,
+      6,
+      5,
+      5,
+      4,
+      3,
+      2
+    ],
+    "addscoreboardtags": [
+      "ascendant_daylight_safe_hostile",
+      "ascendant_hot_region_hostile"
+    ],
+    "attempts": 34,
+    "persecond": 0.42,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4,
+      "groupdistance": 8
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 30,
+      "maxdist": 104,
+      "minheight": 50,
+      "maxheight": 240,
+      "norestrictions": true,
+      "sturdy": true,
+      "maxthis": 42,
+      "maxhostile": 150,
+      "maxlocal": 28,
+      "and": {
+        "seesky": true,
+        "biometags": [
+          "minecraft:is_badlands",
+          "minecraft:is_savanna",
+          "forge:is_desert",
+          "forge:is_hot/overworld"
+        ]
+      },
+      "not": {
+        "structuretags": [
+          "minecraft:village",
+          "minecraft:is_village"
+        ]
+      }
+    }
+  },
+  {
+    "mob": [
+      "alexsmobs:froststalker",
+      "alexsmobs:snow_leopard",
+      "alexsmobs:grizzly_bear",
+      "irons_spellbooks:cryomancer",
+      "irons_spellbooks:ice_spider",
+      "mowziesmobs:naga",
+      "soulsweapons:frost_giant",
+      "soulsweapons:rime_spectre",
+      "iceandfire:troll"
+    ],
+    "weights": [
+      7,
+      6,
+      4,
+      5,
+      8,
+      4,
+      2,
+      3,
+      3
+    ],
+    "addscoreboardtags": [
+      "ascendant_daylight_safe_hostile",
+      "ascendant_cold_highland_hostile"
+    ],
+    "attempts": 32,
+    "persecond": 0.38,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4,
+      "groupdistance": 8
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 30,
+      "maxdist": 104,
+      "minheight": 50,
+      "maxheight": 250,
+      "norestrictions": true,
+      "sturdy": true,
+      "maxthis": 38,
+      "maxhostile": 150,
+      "maxlocal": 26,
+      "and": {
+        "seesky": true,
+        "biometags": [
+          "minecraft:is_taiga",
+          "minecraft:is_mountain",
+          "forge:is_cold/overworld",
+          "forge:is_mountain"
+        ]
+      },
+      "not": {
+        "structuretags": [
+          "minecraft:village",
+          "minecraft:is_village"
+        ]
+      }
+    }
+  },
+  {
+    "mob": [
+      "alexsmobs:anaconda",
+      "alexsmobs:tiger",
+      "alexsmobs:dropbear",
+      "alexsmobs:gorilla",
+      "alexsmobs:crocodile",
+      "born_in_chaos_v1:mother_spider",
+      "born_in_chaos_v1:baby_spider",
+      "born_in_chaos_v1:dire_hound_leader",
+      "born_in_chaos_v1:lifestealer",
+      "mowziesmobs:foliaath",
+      "mowziesmobs:naga",
+      "mowziesmobs:umvuthana_raptor",
+      "irons_spellbooks:cultist",
+      "irons_spellbooks:archevoker",
+      "irons_spellbooks:wisp"
+    ],
+    "weights": [
+      5,
+      7,
+      6,
+      3,
+      4,
+      8,
+      10,
+      4,
+      5,
+      7,
+      5,
+      3,
+      6,
+      4,
+      4
+    ],
+    "addscoreboardtags": [
+      "ascendant_daylight_safe_hostile",
+      "ascendant_forest_jungle_hostile"
+    ],
+    "attempts": 36,
+    "persecond": 0.48,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5,
+      "groupdistance": 8
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 28,
+      "maxdist": 104,
+      "minheight": 50,
+      "maxheight": 240,
+      "norestrictions": true,
+      "sturdy": true,
+      "maxthis": 46,
+      "maxhostile": 150,
+      "maxlocal": 28,
+      "and": {
+        "seesky": true,
+        "biometags": [
+          "minecraft:is_forest",
+          "minecraft:is_jungle",
+          "forge:is_forest",
+          "forge:is_jungle",
+          "forge:is_swamp"
+        ]
+      },
+      "not": {
+        "structuretags": [
+          "minecraft:village",
+          "minecraft:is_village"
+        ]
+      }
+    }
+  },
+  {
+    "mob": [
+      "irons_spellbooks:magehunter_vindicator",
+      "irons_spellbooks:pyromancer",
+      "irons_spellbooks:cryomancer",
+      "irons_spellbooks:necromancer",
+      "irons_spellbooks:cultist",
+      "born_in_chaos_v1:missioner",
+      "born_in_chaos_v1:missionary_raider",
+      "born_in_chaos_v1:door_knight",
+      "soulsweapons:dark_sorcerer",
+      "soulsweapons:day_stalker",
+      "soulsweapons:forlorn",
+      "soulsweapons:evil_forlorn",
+      "cataclysm:endermaptera",
+      "cataclysm:amethyst_crab"
+    ],
+    "weights": [
+      5,
+      4,
+      4,
+      3,
+      6,
+      6,
+      4,
+      3,
+      3,
+      2,
+      4,
+      2,
+      4,
+      3
+    ],
+    "addscoreboardtags": [
+      "ascendant_daylight_safe_hostile",
+      "ascendant_mage_raider_hostile"
+    ],
+    "attempts": 30,
+    "persecond": 0.32,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 8
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 32,
+      "maxdist": 112,
+      "minheight": 50,
+      "maxheight": 245,
+      "norestrictions": true,
+      "sturdy": true,
+      "maxthis": 34,
+      "maxhostile": 150,
+      "maxlocal": 24,
+      "and": {
+        "seesky": true,
+        "biometags": [
+          "minecraft:is_forest",
+          "minecraft:is_jungle",
+          "minecraft:is_mountain",
+          "minecraft:is_savanna",
+          "minecraft:is_taiga",
+          "minecraft:is_badlands",
+          "forge:is_plains",
+          "forge:is_forest",
+          "forge:is_jungle",
+          "forge:is_mountain",
+          "forge:is_savanna",
+          "forge:is_desert",
+          "forge:is_hot/overworld",
+          "forge:is_cold/overworld"
+        ]
+      },
+      "not": {
+        "structuretags": [
+          "minecraft:village",
+          "minecraft:is_village"
+        ]
+      }
+    }
+  },
+  {
+    "mobsfrombiome": "monster",
+    "addscoreboardtags": [
+      "ascendant_cave_hostile",
+      "ascendant_biome_native_hostile"
+    ],
+    "attempts": 34,
+    "persecond": 0.46,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5,
+      "groupdistance": 8
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 92,
+      "minheight": -40,
+      "maxheight": 90,
+      "norestrictions": true,
+      "sturdy": true,
+      "maxthis": 48,
+      "maxhostile": 160,
+      "maxlocal": 30,
+      "and": {
+        "cave": true
+      }
+    }
+  }
+]

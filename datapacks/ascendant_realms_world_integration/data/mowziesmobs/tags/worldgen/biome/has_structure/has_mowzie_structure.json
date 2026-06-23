@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:is_overworld",
+      "required": false
+    },
+    {
+      "id": "#terralith:overworld",
+      "required": false
+    },
+    {
+      "id": "#terralith:collections/overworld",
+      "required": false
+    },
+    {
+      "id": "#terralith:is_mountain",
+      "required": false
+    },
+    {
+      "id": "#terralith:is_jungle",
+      "required": false
+    },
+    {
+      "id": "#terralith:is_forest",
+      "required": false
+    },
+    {
+      "id": "#terralith:is_savanna",
+      "required": false
+    }
+  ]
+}

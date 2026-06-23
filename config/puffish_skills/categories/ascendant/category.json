@@ -1,0 +1,26 @@
+{
+  "unlocked_by_default": true,
+  "starting_points": 2,
+  "title": "Ascendant Web",
+  "description": "One unified progression web with cleaner branch lanes for combat, magic, travel, crafting, hunting, survival, and dragon-tier mastery.",
+  "icon": {
+    "type": "texture",
+    "data": {
+      "texture": "ascendant:textures/skilltree/icons/ascendant_oath.png"
+    }
+  },
+  "background": {
+    "texture": "ascendant:textures/skilltree/background.png",
+    "width": 1024,
+    "height": 1024,
+    "position": "fill"
+  },
+  "colors": {
+    "connections": {
+      "unlocked": {
+        "fill": "#d4f2ff",
+        "stroke": "#74e4ff"
+      }
+    }
+  }
+}

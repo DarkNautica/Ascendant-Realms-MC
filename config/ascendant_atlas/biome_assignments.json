@@ -1,0 +1,8176 @@
+{
+  "version": 1,
+  "count": 756,
+  "assignments": [
+    {
+      "biome": "alexsmobs:biome/skreechers_can_spawn_wardens",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "alexsmobs:biome/spawns_desert_crocodiles",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "alexsmobs:biome/spawns_huge_catfish",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "alexsmobs:biome/spawns_murmurs_ignore_height",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "alexsmobs:biome/spawns_nether_tarantula_hawks",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "alexsmobs:biome/spawns_red_gusters",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "alexsmobs:biome/spawns_soul_gusters",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "alexsmobs:biome/spawns_white_mantis_shrimp",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "alexsmobs:biome/spawns_white_seals",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "aquamirae:biome/ice_maze",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "betterdungeons:biome/has_structure/skeleton_dungeon",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "betterdungeons:biome/has_structure/small_dungeon",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "betterdungeons:biome/has_structure/small_nether_dungeon",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "betterdungeons:biome/has_structure/spider_dungeon",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "betterdungeons:biome/has_structure/zombie_dungeon",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "bettermineshafts:biome/has_structure/better_mineshaft_acacia",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "bettermineshafts:biome/has_structure/better_mineshaft_desert",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "bettermineshafts:biome/has_structure/better_mineshaft_dripstone",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "bettermineshafts:biome/has_structure/better_mineshaft_ice",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "bettermineshafts:biome/has_structure/better_mineshaft_jungle",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "bettermineshafts:biome/has_structure/better_mineshaft_lush",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "bettermineshafts:biome/has_structure/better_mineshaft_mesa",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "bettermineshafts:biome/has_structure/better_mineshaft_mushroom",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "bettermineshafts:biome/has_structure/better_mineshaft_oak",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "bettermineshafts:biome/has_structure/better_mineshaft_overgrown",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "bettermineshafts:biome/has_structure/better_mineshaft_red_desert",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "bettermineshafts:biome/has_structure/better_mineshaft_spruce",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "bettermineshafts:biome/has_structure/better_mineshaft_spruce_snowy",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "betterstrongholds:biome/has_structure/better_stronghold",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "biome_tag_villagers:biome/villager_desert",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "biome_tag_villagers:biome/villager_jungle",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "biome_tag_villagers:biome/villager_savanna",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "biome_tag_villagers:biome/villager_snowy",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "biome_tag_villagers:biome/villager_swamp",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "biome_tag_villagers:biome/villager_taiga",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "block_factorys_bosses:biome/dragon_tower",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "block_factorys_bosses:biome/kraken_ship",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "block_factorys_bosses:biome/sandworm_nest",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "block_factorys_bosses:biome/underworld_arena",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "block_factorys_bosses:biome/yeti_hideout",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "c:biome/aquatic",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "c:biome/aquatic_icy",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "c:biome/badlands",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "c:biome/beach",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "c:biome/caves",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "c:biome/climate_cold",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "c:biome/climate_dry",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "c:biome/climate_hot",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "c:biome/climate_temperate",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "c:biome/climate_wet",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "c:biome/dead",
+      "region": "deep_wilds",
+      "sector": "outer_wilds",
+      "danger_tier": 3,
+      "settlement_types": [
+        "frontier_camp",
+        "ruined_settlement"
+      ]
+    },
+    {
+      "biome": "c:biome/deep_ocean",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "c:biome/desert",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "c:biome/extreme_hills",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "c:biome/floral",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "c:biome/flower_forests",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "c:biome/forest",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "c:biome/icy",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "c:biome/jungle",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "c:biome/mesa",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "c:biome/mountain",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "c:biome/mountain_peak",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "c:biome/mountain_slope",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "c:biome/mushroom",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "c:biome/no_default_monsters",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "c:biome/ocean",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "c:biome/plains",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "c:biome/river",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "c:biome/savanna",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "c:biome/shallow_ocean",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "c:biome/snowy",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "c:biome/snowy_plains",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "c:biome/stony_shores",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "c:biome/swamp",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "c:biome/taiga",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "c:biome/tree_coniferous",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "c:biome/tree_deciduous",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "c:biome/tree_jungle",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "c:biome/tree_savanna",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "c:biome/vegetation_dense",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "c:biome/vegetation_sparse",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "c:biome/wasteland",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "cataclysm:biome/amethyst_crab_spawn",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "cataclysm:biome/deeplings_spawn",
+      "region": "deep_wilds",
+      "sector": "outer_wilds",
+      "danger_tier": 3,
+      "settlement_types": [
+        "frontier_camp",
+        "ruined_settlement"
+      ]
+    },
+    {
+      "biome": "cataclysm:biome/has_structure/acropolis_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "cataclysm:biome/has_structure/ancient_factory_biomes",
+      "region": "deep_wilds",
+      "sector": "outer_wilds",
+      "danger_tier": 3,
+      "settlement_types": [
+        "frontier_camp",
+        "ruined_settlement"
+      ]
+    },
+    {
+      "biome": "cataclysm:biome/has_structure/burning_arena_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "cataclysm:biome/has_structure/cursed_pyramid_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "cataclysm:biome/has_structure/frosted_prison_biomes",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "cataclysm:biome/has_structure/ruined_citadel_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "cataclysm:biome/has_structure/soul_black_smith_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "cataclysm:biome/has_structure/sunken_city_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "cataclysm:biome/koboleton_spawn",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "cataclysm:biome/required_sunken_city_surrounding",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "create_structures_arise:biome/airborne_structure_avoid_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "create_structures_arise:biome/airborne_structure_avoid_biomes_o_plenty_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "create_structures_arise:biome/airborne_structure_avoid_tectonic_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "create_structures_arise:biome/airborne_structure_avoid_terralith_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "create_structures_arise:biome/airborne_structure_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "create_structures_arise:biome/structure_land_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "forge:biome/is_cold/overworld",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "forge:biome/is_coniferous",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "forge:biome/is_dense/overworld",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "forge:biome/is_desert",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "forge:biome/is_dry/overworld",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "forge:biome/is_hot/overworld",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "forge:biome/is_lush",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "forge:biome/is_magical",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "forge:biome/is_mountain",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "forge:biome/is_mushroom",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "forge:biome/is_overworld",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "forge:biome/is_peak",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "forge:biome/is_plains",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "forge:biome/is_plateau",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "forge:biome/is_rare",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "forge:biome/is_sandy",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "forge:biome/is_slope",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "forge:biome/is_snowy",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "forge:biome/is_sparse/overworld",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "forge:biome/is_spooky",
+      "region": "deep_wilds",
+      "sector": "outer_wilds",
+      "danger_tier": 3,
+      "settlement_types": [
+        "frontier_camp",
+        "ruined_settlement"
+      ]
+    },
+    {
+      "biome": "forge:biome/is_swamp",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "forge:biome/is_underground",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "forge:biome/is_wasteland",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "forge:biome/is_water",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "forge:biome/is_wet/overworld",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "forge:biome/no_default_monsters",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "humancompanions:biome/has_structure/acacia_house",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "humancompanions:biome/has_structure/birch_house",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "humancompanions:biome/has_structure/dark_oak_house",
+      "region": "deep_wilds",
+      "sector": "outer_wilds",
+      "danger_tier": 3,
+      "settlement_types": [
+        "frontier_camp",
+        "ruined_settlement"
+      ]
+    },
+    {
+      "biome": "humancompanions:biome/has_structure/oak_birch_house",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "humancompanions:biome/has_structure/oak_house",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "humancompanions:biome/has_structure/sandstone_house",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "humancompanions:biome/has_structure/spruce_house",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "humancompanions:biome/has_structure/terracotta_house",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/entity_gen/amphithere",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/entity_gen/cockatrice",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/entity_gen/deathworm",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/entity_gen/hippocampus",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/entity_gen/hippogryph",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/entity_gen/hippogryph_black",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/entity_gen/hippogryph_brown",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/entity_gen/hippogryph_chestnut",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/entity_gen/hippogryph_creamy",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/entity_gen/hippogryph_dark_brown",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/entity_gen/hippogryph_gray",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/entity_gen/hippogryph_white",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/entity_gen/sea_serpent",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/entity_gen/stymphalian_bird",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/entity_gen/troll",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/entity_gen/troll_forest",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/entity_gen/troll_mountain",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/entity_gen/troll_snowy",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/entity_gen/wandering_cyclops",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/is_dreadland",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/ore_gen/sapphire",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/ore_gen/silver",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/structure_gen/cyclops_cave",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/structure_gen/fire",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/structure_gen/gorgon_temple",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/structure_gen/graveyard",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/structure_gen/hydra_cave",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/structure_gen/ice",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/structure_gen/lightning",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/structure_gen/mausoleum",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/structure_gen/no_graveyard",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/structure_gen/pixie_village",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:biome/structure_gen/siren_island",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:dread_forest",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "iceandfire:dread_plain",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasany_forests",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasany_taiga",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasbadlands",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasbamboos",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasbeaches",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasbirch_forests",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasblack_deserts",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idascaves",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasdark_oak_forests",
+      "region": "deep_wilds",
+      "sector": "outer_wilds",
+      "danger_tier": 3,
+      "settlement_types": [
+        "frontier_camp",
+        "ruined_settlement"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasdeep_oceans",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasdeserts",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasend_island_land",
+      "region": "end_expanse",
+      "sector": "end",
+      "danger_tier": 5,
+      "settlement_types": []
+    },
+    {
+      "biome": "idas:biome/collections/idasend_voids",
+      "region": "end_expanse",
+      "sector": "end",
+      "danger_tier": 5,
+      "settlement_types": []
+    },
+    {
+      "biome": "idas:biome/collections/idasfloral",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasflower_forests",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasgiant_taigas",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasgiant_trees",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idashills",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasicy",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasjungles",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasmangroves",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasmeadows",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasmountains",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasmushrooms",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasnether",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasnether_basalts",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasnether_crimson_forests",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasnether_souls",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasnether_warped_forests",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasnether_wastes",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasoceans",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasorange_deserts",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasoverworld",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasplains",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasregular_forests",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasrivers",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasrocky_mountains",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idassavannas",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idassnowy_forests",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idassnowy_mountains",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idassnowy_plains",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasspooky_forests",
+      "region": "deep_wilds",
+      "sector": "outer_wilds",
+      "danger_tier": 3,
+      "settlement_types": [
+        "frontier_camp",
+        "ruined_settlement"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasstony_shores",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasswamps",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idastaigas",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasvanilla_deserts",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idasvanilla_jungles",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idaswarm_beaches",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/collections/idaswindswept_deserts",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/abandonedhouse_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/acacia_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/ancient_mines_biomes",
+      "region": "deep_wilds",
+      "sector": "outer_wilds",
+      "danger_tier": 3,
+      "settlement_types": [
+        "frontier_camp",
+        "ruined_settlement"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/ancient_portal_biomes",
+      "region": "deep_wilds",
+      "sector": "outer_wilds",
+      "danger_tier": 3,
+      "settlement_types": [
+        "frontier_camp",
+        "ruined_settlement"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/apothecary_abode_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/archmages_tower_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/bazaar_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/beaches",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/bearclaw_inn_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/beekeepers_house_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/birch_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/black_desert_biomes",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/bopmohogany_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/bopredwood_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/byg_redwood_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/bygmohogany_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/dark_oak_biomes",
+      "region": "deep_wilds",
+      "sector": "outer_wilds",
+      "danger_tier": 3,
+      "settlement_types": [
+        "frontier_camp",
+        "ruined_settlement"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/desert_biomes",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/dig_site_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/dread_citadel_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/farmhouse_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/fishermans_lodge_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/floral",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/forest_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/frozen_crypt_biomes",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/hauntedhouse_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/hermits_hollow_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/hunters_cabin_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/jungle_biomes",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/necromancers_spire_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/nether_biomes",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/oak_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/orange_desert_biomes",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/pillager_fortress_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/polar_bear_den_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/red_desert_biomes",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/redhorn_guild_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/ruins_of_the_deep_biomes",
+      "region": "deep_wilds",
+      "sector": "outer_wilds",
+      "danger_tier": 3,
+      "settlement_types": [
+        "frontier_camp",
+        "ruined_settlement"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/savannas",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/sirens_cove_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/spruce_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/sunken_ship_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/sunken_ship_coral_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/tinkers_workshop_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/train_ruins_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/tree_of_wisdom_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/treetop_tavern_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/vanilla_desert_biomes",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/vanilla_jungle_biomes",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/windswept_desert_biomes",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/windswept_shrine_biomes",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/winter_wagon_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/witches_treestump_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "idas:biome/has_structure/wizardtower_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/any_forests",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/any_taiga",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/badlands",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/bamboos",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/beaches",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/birch_forests",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/caves",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/dark_oak_forests",
+      "region": "deep_wilds",
+      "sector": "outer_wilds",
+      "danger_tier": 3,
+      "settlement_types": [
+        "frontier_camp",
+        "ruined_settlement"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/deep_oceans",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/deserts",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/end_island_land",
+      "region": "end_expanse",
+      "sector": "end",
+      "danger_tier": 5,
+      "settlement_types": []
+    },
+    {
+      "biome": "integrated_api:biome/collections/end_voids",
+      "region": "end_expanse",
+      "sector": "end",
+      "danger_tier": 5,
+      "settlement_types": []
+    },
+    {
+      "biome": "integrated_api:biome/collections/floral",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/flower_forests",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/giant_taigas",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/giant_trees",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/hills",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/icy",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/jungles",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/mangroves",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/meadows",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/mountains",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/mushrooms",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/nether",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/nether_basalts",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/nether_crimson_forests",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/nether_souls",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/nether_warped_forests",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/nether_wastes",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/oceans",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/orange_deserts",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/overworld",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/plains",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/regular_forests",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/rivers",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/rocky_mountains",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/savannas",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/snowy_forests",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/snowy_mountains",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/snowy_plains",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/spooky_forests",
+      "region": "deep_wilds",
+      "sector": "outer_wilds",
+      "danger_tier": 3,
+      "settlement_types": [
+        "frontier_camp",
+        "ruined_settlement"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/stony_shores",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/swamps",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/taigas",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/vanilla_deserts",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/vanilla_jungles",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/warm_beaches",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "integrated_api:biome/collections/windswept_deserts",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/any_forests",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/any_taiga",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/badlands",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/bamboos",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/beaches",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/birch_forests",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/caves",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/dark_oak_forests",
+      "region": "deep_wilds",
+      "sector": "outer_wilds",
+      "danger_tier": 3,
+      "settlement_types": [
+        "frontier_camp",
+        "ruined_settlement"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/deep_oceans",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/deserts",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/end_island_land",
+      "region": "end_expanse",
+      "sector": "end",
+      "danger_tier": 5,
+      "settlement_types": []
+    },
+    {
+      "biome": "integrated_villages:biome/collections/end_voids",
+      "region": "end_expanse",
+      "sector": "end",
+      "danger_tier": 5,
+      "settlement_types": []
+    },
+    {
+      "biome": "integrated_villages:biome/collections/floral",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/flower_forests",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/giant_taigas",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/giant_trees",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/hills",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/icy",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/jungles",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/mangroves",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/meadows",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/mountains",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/mushrooms",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/nether",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/nether_basalts",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/nether_crimson_forests",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/nether_souls",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/nether_warped_forests",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/nether_wastes",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/oceans",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/orange_deserts",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/overworld",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/plains",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/regular_forests",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/rivers",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/rocky_mountains",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/savannas",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/snowy_forests",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/snowy_mountains",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/snowy_plains",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/spooky_forests",
+      "region": "deep_wilds",
+      "sector": "outer_wilds",
+      "danger_tier": 3,
+      "settlement_types": [
+        "frontier_camp",
+        "ruined_settlement"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/stony_shores",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/swamps",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/taigas",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/vanilla_deserts",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/vanilla_jungles",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/warm_beaches",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/collections/windswept_deserts",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/has_structure/airship_village_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/has_structure/cabin_village_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/has_structure/clockwork_village_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/has_structure/kutcha_village_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/has_structure/marketstead_village_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/has_structure/mediterranean_village_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/has_structure/minka_village_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/has_structure/mossy_mounds_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/has_structure/oasis_village_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/has_structure/pirate_village_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/has_structure/pirate_village_ocean_biomes",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/has_structure/swamp_village_biomes",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "integrated_villages:biome/has_structure/tavern_village_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "irons_spellbooks:biome/has_structure/catacombs",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "irons_spellbooks:biome/has_structure/evoker_fort",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "irons_spellbooks:biome/has_structure/ice_spider_den",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "irons_spellbooks:biome/has_structure/impaled_icebreaker",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "irons_spellbooks:biome/has_structure/mangrove_hut",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "irons_spellbooks:biome/has_structure/mountain_tower",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "irons_spellbooks:biome/has_structure/pyromancer_tower",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "irons_spellbooks:biome/ice_spider_patrols",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "medieval_nether:biome/has_structure/castle",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "medieval_nether:biome/has_structure/dome",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "medieval_nether:biome/has_structure/house",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "medieval_nether:biome/has_structure/ship",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "medieval_nether:biome/has_structure/shrine",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "medievalend:biome/has_structure/castle",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "medievalend:biome/has_structure/house",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "medievalend:biome/has_structure/pyramid",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "medievalend:biome/has_structure/ship",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "medievalend:biome/has_structure/shrine",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "mes:biome/has_structure/end_biomes",
+      "region": "end_expanse",
+      "sector": "end",
+      "danger_tier": 5,
+      "settlement_types": []
+    },
+    {
+      "biome": "minecraft:badlands",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:bamboo_jungle",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:basalt_deltas",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "minecraft:beach",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/allows_surface_slime_spawns",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/has_structure/desert_pyramid",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/has_structure/igloo",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/has_structure/jungle_temple",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/has_structure/mineshaft",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/has_structure/pillager_outpost",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/has_structure/ruined_portal_desert",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/has_structure/ruined_portal_mountain",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/has_structure/ruined_portal_swamp",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/has_structure/stronghold",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/has_structure/trail_ruins",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/has_structure/village_desert",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/has_structure/village_plains",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/has_structure/village_savanna",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/has_structure/village_snowy",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/has_structure/village_taiga",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/has_structure/woodland_mansion",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/is_badlands",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/is_beach",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/is_forest",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/is_hill",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/is_jungle",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/is_mountain",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/is_overworld",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/is_river",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/is_savanna",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/is_taiga",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/mineshaft_blocking",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/required_ocean_monument_surrounding",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/snow_golem_melts",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/spawns_cold_variant_frogs",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/spawns_snow_foxes",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/spawns_warm_variant_frogs",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "minecraft:biome/stronghold_biased_to",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "minecraft:birch_forest",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "minecraft:cherry_grove",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "minecraft:cold_ocean",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "minecraft:crimson_forest",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "minecraft:dark_forest",
+      "region": "deep_wilds",
+      "sector": "outer_wilds",
+      "danger_tier": 3,
+      "settlement_types": [
+        "frontier_camp",
+        "ruined_settlement"
+      ]
+    },
+    {
+      "biome": "minecraft:deep_dark",
+      "region": "deep_wilds",
+      "sector": "outer_wilds",
+      "danger_tier": 3,
+      "settlement_types": [
+        "frontier_camp",
+        "ruined_settlement"
+      ]
+    },
+    {
+      "biome": "minecraft:deep_frozen_ocean",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "minecraft:deep_ocean",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:desert",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:dripstone_caves",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "minecraft:end_barrens",
+      "region": "end_expanse",
+      "sector": "end",
+      "danger_tier": 5,
+      "settlement_types": []
+    },
+    {
+      "biome": "minecraft:end_highlands",
+      "region": "end_expanse",
+      "sector": "end",
+      "danger_tier": 5,
+      "settlement_types": []
+    },
+    {
+      "biome": "minecraft:end_midlands",
+      "region": "end_expanse",
+      "sector": "end",
+      "danger_tier": 5,
+      "settlement_types": []
+    },
+    {
+      "biome": "minecraft:eroded_badlands",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:flower_forest",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "minecraft:forest",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "minecraft:frozen_ocean",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "minecraft:frozen_peaks",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "minecraft:frozen_river",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "minecraft:grove",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "minecraft:ice_spikes",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "minecraft:jagged_peaks",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "minecraft:jungle",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:lukewarm_ocean",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:lush_caves",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "minecraft:mangrove_swamp",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:meadow",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "minecraft:mushroom_fields",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "minecraft:nether_wastes",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "minecraft:ocean",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:old_growth_birch_forest",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "minecraft:old_growth_pine_taiga",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "minecraft:old_growth_spruce_taiga",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "minecraft:plains",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "minecraft:river",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:savanna",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:savanna_plateau",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:small_end_islands",
+      "region": "end_expanse",
+      "sector": "end",
+      "danger_tier": 5,
+      "settlement_types": []
+    },
+    {
+      "biome": "minecraft:snowy_plains",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "minecraft:snowy_slopes",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "minecraft:snowy_taiga",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "minecraft:soul_sand_valley",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "minecraft:sparse_jungle",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:stony_peaks",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "minecraft:stony_shore",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "minecraft:sunflower_plains",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "minecraft:swamp",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:taiga",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "minecraft:the_end",
+      "region": "end_expanse",
+      "sector": "end",
+      "danger_tier": 5,
+      "settlement_types": []
+    },
+    {
+      "biome": "minecraft:warm_ocean",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:warped_forest",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "minecraft:windswept_forest",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "minecraft:windswept_hills",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "minecraft:windswept_savanna",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "minecraft:wooded_badlands",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "mowziesmobs:biome/has_structure/has_mowzie_structure",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "mowziesmobs:biome/is_magical",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "mss:biome/has_structure/badlands_biomes",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "mss:biome/has_structure/birch_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "mss:biome/has_structure/cherry_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "mss:biome/has_structure/cold_biomes",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "mss:biome/has_structure/desert_biomes",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "mss:biome/has_structure/jungle_biomes",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "mss:biome/has_structure/mangrove_biomes",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "mss:biome/has_structure/mountain_biomes",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "mss:biome/has_structure/mushroom_island_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "mss:biome/has_structure/ocean_biomes",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "mss:biome/has_structure/overworld_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "mss:biome/has_structure/red_sand_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "mss:biome/has_structure/snowy_biomes",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "mss:biome/has_structure/swampy_biomes",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "mss:biome/has_structure/taiga_biomes",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "mvs:biome/is_beach",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "mvs:biome/is_birch_forest",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "mvs:biome/is_dark_forest",
+      "region": "deep_wilds",
+      "sector": "outer_wilds",
+      "danger_tier": 3,
+      "settlement_types": [
+        "frontier_camp",
+        "ruined_settlement"
+      ]
+    },
+    {
+      "biome": "mvs:biome/is_deep_ocean",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "mvs:biome/is_desert",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "mvs:biome/is_end",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "mvs:biome/is_floral",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "mvs:biome/is_forest",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "mvs:biome/is_jungle",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "mvs:biome/is_mountain",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "mvs:biome/is_mushroom",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "mvs:biome/is_nether",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "mvs:biome/is_ocean",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "mvs:biome/is_on_land_overworld",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "mvs:biome/is_overworld",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "mvs:biome/is_plains",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "mvs:biome/is_savanna",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "mvs:biome/is_snowy",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "mvs:biome/is_swamp",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "mvs:biome/is_taiga",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "mvs:biome/primary_wood_type/cherry",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "mvs:biome/primary_wood_type/crimson",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "mvs:biome/primary_wood_type/mangrove",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "mvs:biome/snowy_biomes",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "quark:biome/has_fallen_acacia",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "quark:biome/has_fallen_birch",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "quark:biome/has_fallen_cherry",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "quark:biome/has_fallen_dark_oak",
+      "region": "deep_wilds",
+      "sector": "outer_wilds",
+      "danger_tier": 3,
+      "settlement_types": [
+        "frontier_camp",
+        "ruined_settlement"
+      ]
+    },
+    {
+      "biome": "quark:biome/has_fallen_jungle",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "quark:biome/has_fallen_mangrove",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "quark:biome/has_fallen_oak",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "quark:biome/has_fallen_spruce",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "quark:biome/has_lower_fallen_tree_density",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "quark:glimmering_weald",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "sereneseasons:biome/blacklisted_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "sereneseasons:biome/infertile_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "sereneseasons:biome/lesser_color_change_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "sereneseasons:biome/tropical_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "structory:biome/has_structure/boat",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "structory:biome/has_structure/chapel",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "structory:biome/has_structure/firetower",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "structory:biome/has_structure/jungle_well",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "structory:biome/has_structure/northern_ruin",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "structory:biome/has_structure/old_manor",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "structory:biome/has_structure/outcast_villager_desert",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "structory:biome/has_structure/outcast_villager_grassy",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "structory:biome/has_structure/ruin_taiga",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "structures_arise:biome/landbiomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "structures_arise:biome/oceans",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "terralith:alpha_islands",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:alpha_islands_winter",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:alpine_grove",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:alpine_highlands",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:amethyst_canyon",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:amethyst_rainforest",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:ancient_sands",
+      "region": "deep_wilds",
+      "sector": "outer_wilds",
+      "danger_tier": 3,
+      "settlement_types": [
+        "frontier_camp",
+        "ruined_settlement"
+      ]
+    },
+    {
+      "biome": "terralith:arid_highlands",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:ashen_savanna",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "terralith:basalt_cliffs",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "terralith:biome/all_terralith_biomes",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:biome/all_terralith_biomes_no_mineshafts",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:biome/cliffs",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "terralith:biome/has_structure/desert_outpost",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "terralith:biome/has_structure/fortified_desert_village",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "terralith:biome/has_structure/fortified_village",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:biome/has_structure/frosted_dungeon",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "terralith:biome/has_structure/giant_bee_hive",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:biome/has_structure/igloo",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:biome/has_structure/mage_complex",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:biome/has_structure/mage_tower",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:biome/has_structure/mining_outpost",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:biome/has_structure/none",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:biome/has_structure/oak_cabin",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:biome/has_structure/old_refinery",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:biome/has_structure/rubble_desert",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "terralith:biome/has_structure/rubble_forest",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:biome/has_structure/rubble_jungle",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "terralith:biome/has_structure/rubble_mesa",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:biome/has_structure/rubble_mountain",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "terralith:biome/has_structure/rubble_taiga",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "terralith:biome/has_structure/spire",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:biome/has_structure/sunken_tower",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:biome/has_structure/valley_lodge",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:biome/has_structure/witch_hut",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:biome/highlands",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:biome/mystical",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:biome/shrublands",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:biome/skylands",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:biome/volcanic",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "terralith:birch_taiga",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "terralith:blooming_plateau",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:blooming_valley",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:brushland",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:bryce_canyon",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:caldera",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:cave/andesite_caves",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "terralith:cave/crystal_caves",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "terralith:cave/deep_caves",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "terralith:cave/desert_caves",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "terralith:cave/diorite_caves",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "terralith:cave/frostfire_caves",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "terralith:cave/fungal_caves",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "terralith:cave/granite_caves",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "terralith:cave/ice_caves",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "terralith:cave/infested_caves",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "terralith:cave/mantle_caves",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "terralith:cave/thermal_caves",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "terralith:cave/tuff_caves",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "terralith:cave/underground_jungle",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "terralith:cloud_forest",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:cold_shrubland",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "terralith:desert_canyon",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "terralith:desert_oasis",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "terralith:desert_spires",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "terralith:emerald_peaks",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "terralith:forested_highlands",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:fractured_savanna",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "terralith:frozen_cliffs",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "terralith:glacial_chasm",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:granite_cliffs",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "terralith:gravel_beach",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "terralith:gravel_desert",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "terralith:haze_mountain",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "terralith:highlands",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:hot_shrubland",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:ice_marsh",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "terralith:jungle_mountains",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "terralith:lavender_forest",
+      "region": "end_expanse",
+      "sector": "end",
+      "danger_tier": 5,
+      "settlement_types": []
+    },
+    {
+      "biome": "terralith:lavender_valley",
+      "region": "end_expanse",
+      "sector": "end",
+      "danger_tier": 5,
+      "settlement_types": []
+    },
+    {
+      "biome": "terralith:lush_desert",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "terralith:lush_valley",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:mirage_isles",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:moonlight_grove",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:moonlight_valley",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:mountain_steppe",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "terralith:orchid_swamp",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "terralith:painted_mountains",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "terralith:red_oasis",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:rocky_jungle",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "terralith:rocky_mountains",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "terralith:rocky_shrubland",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:sakura_grove",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:sakura_valley",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:sandstone_valley",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:savanna_badlands",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "terralith:savanna_slopes",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "terralith:scarlet_mountains",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "terralith:shield",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:shield_clearing",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:shrubland",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:siberian_grove",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:siberian_taiga",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "terralith:skylands",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:skylands_autumn",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:skylands_spring",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:skylands_summer",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:skylands_winter",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:snowy_badlands",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "terralith:snowy_cherry_grove",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "terralith:snowy_maple_forest",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "terralith:snowy_shield",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "terralith:steppe",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:stony_spires",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "terralith:temperate_highlands",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:tropical_jungle",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "terralith:valley_clearing",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:volcanic_crater",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "terralith:volcanic_peaks",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "terralith:warm_river",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "terralith:warped_mesa",
+      "region": "nether_front",
+      "sector": "nether",
+      "danger_tier": 4,
+      "settlement_types": [
+        "fortified_outpost"
+      ]
+    },
+    {
+      "biome": "terralith:white_cliffs",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "terralith:white_mesa",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:windswept_spires",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "terralith:wintry_forest",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:wintry_lowlands",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:yellowstone",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "terralith:yosemite_cliffs",
+      "region": "stoneback_highlands",
+      "sector": "west",
+      "danger_tier": 2,
+      "settlement_types": [
+        "mining_village",
+        "watch_post",
+        "guild_town"
+      ]
+    },
+    {
+      "biome": "terralith:yosemite_lowlands",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/exclusives/pillager_outpost_classic",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/exclusives/pillager_outpost_iberian",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/exclusives/pillager_outpost_mediterranean",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/exclusives/pillager_outpost_oriental",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/exclusives/pillager_outpost_rustic",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/exclusives/pillager_outpost_swedish",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/exclusives/pillager_outpost_tudor",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/exclusives/village_classic",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/exclusives/village_iberian",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/exclusives/village_mediterranean",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/exclusives/village_nilotic",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/exclusives/village_oriental",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/exclusives/village_piglin",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/exclusives/village_rustic",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/exclusives/village_swedish",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/exclusives/village_tudor",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/pillager_outpost_badlands",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/pillager_outpost_beach",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/pillager_outpost_birch_forest",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/pillager_outpost_deep_oceans",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/pillager_outpost_desert",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/pillager_outpost_flower_forest",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/pillager_outpost_forest",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/pillager_outpost_grove",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/pillager_outpost_jungle",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/pillager_outpost_meadow",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/pillager_outpost_mushroom_fields",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/pillager_outpost_old_growth_taiga",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/pillager_outpost_savanna",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/pillager_outpost_savanna_plateau",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/pillager_outpost_snowy_beach",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/pillager_outpost_snowy_plains",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/pillager_outpost_snowy_slopes",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/pillager_outpost_snowy_taiga",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/pillager_outpost_sparse_jungle",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/pillager_outpost_sunflower_plains",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/pillager_outpost_swamp",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/pillager_outpost_taiga",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/pillager_outpost_wooded_badlands",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/shallow_oceans_wreckage",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/village_badlands_pueblo",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/village_beach_lighthouse",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/village_birch_forest_romanian",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/village_deep_oceans_ships",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/village_flower_forest_japanese",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/village_forest_ruins",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/village_grove_villager_outpost",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/village_jungle_tribal",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/village_meadow_swiss",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/village_mushroom_fields_fantasy",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/village_old_growth_taiga_polish",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/village_savanna_plateau_ramshackled",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/village_snowy_slopes_inn",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/village_snowy_taiga_viking",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/village_sparse_jungle_polynesian",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/village_sunflower_plains_farm",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/village_swamp_boat",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "towns_and_towers:biome/has_structure/village_wooded_badlands_tipi",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "travelerstitles:biome/is_underground",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "villagesandpillages:biome/has_structure/village_witch",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "yungsbridges:biome/collections/badlands",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "yungsbridges:biome/collections/jungle",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "yungsbridges:biome/collections/savanna",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "yungsbridges:biome/collections/taiga",
+      "region": "frostmarch",
+      "sector": "north",
+      "danger_tier": 2,
+      "settlement_types": [
+        "village",
+        "frontier_camp",
+        "cold_port"
+      ]
+    },
+    {
+      "biome": "yungsbridges:biome/has_structure/bridge",
+      "region": "crownlands",
+      "sector": "center",
+      "danger_tier": 0,
+      "settlement_types": [
+        "hamlet",
+        "village",
+        "large_village"
+      ]
+    },
+    {
+      "biome": "yungsextras:biome/has_structure/desert_decorations",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    },
+    {
+      "biome": "yungsextras:biome/has_structure/swamp_structures",
+      "region": "verdant_coast",
+      "sector": "east",
+      "danger_tier": 2,
+      "settlement_types": [
+        "fishing_village",
+        "river_market",
+        "frontier_camp"
+      ]
+    },
+    {
+      "biome": "yungsextras:biome/has_structure/vanilla_desert_well",
+      "region": "sunreach",
+      "sector": "south",
+      "danger_tier": 2,
+      "settlement_types": [
+        "oasis_village",
+        "market_town",
+        "road_camp"
+      ]
+    }
+  ]
+}

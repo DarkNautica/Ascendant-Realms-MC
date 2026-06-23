@@ -1,0 +1,32 @@
+{
+  "name": "Welcome, Hunter",
+  "icon": "minecraft:ender_eye",
+  "category": "ascendant_realms:getting_started",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:image",
+      "images": [
+        "ascendant_realms:textures/gui/codex/banner_getting_started.png"
+      ],
+      "title": "Ascendant Codex",
+      "border": false,
+      "text": "$(soft)First Edition$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Welcome, Hunter",
+      "text": "The realm of $(rune)Ascendant$() is no quiet frontier. Villages need protectors, the Guild keeps the ledger of who is worth their salt, and the roads between are thick with $(em)contracts, rivals, and worse$().$(br2)You begin as $(soft)nobody$() — $(gold)Unranked$(). What you become is written by what you survive."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Loop",
+      "text": "$(rune)Explore$() to find settlements and danger.$(br)$(rune)Hunt$() the contracts on each $(gold)Hunter Board$().$(br)$(rune)Grow$() — every level earns a $(gold)skill point$().$(br)$(rune)Rank up$() by proving yourself to the Guild.$(br2)$(soft)The world explains itself through play. This book is only your first lantern.$()"
+    },
+    {
+      "type": "patchouli:quote",
+      "title": "— The Guild",
+      "text": "Your name matters when people know what you survived."
+    }
+  ]
+}

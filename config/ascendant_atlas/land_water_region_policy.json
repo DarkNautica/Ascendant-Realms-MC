@@ -1,0 +1,207 @@
+{
+  "version": 1,
+  "status": "disabled_random_terralith_tectonic_baseline",
+  "generated_at": "2026-06-17",
+  "purpose": "Historical land/water policy record only. Jayden rejected the Atlas coordinate-directed terrain approach after hard biome and terrain cuts remained visible. Live terrain should return to normal random Tectonic/Terralith generation; structure and road tuning should happen separately.",
+  "enabled": false,
+  "mode": "random_generation_restored",
+  "land_first_regions": [
+    "sunreach",
+    "stoneback",
+    "stoneback_highlands",
+    "south_east",
+    "south_east_wilds",
+    "southwest",
+    "south_west",
+    "south_west_wilds",
+    "west",
+    "south"
+  ],
+  "water_allowed": {
+    "rivers": true,
+    "small_lakes": true,
+    "oases": true,
+    "mountain_lakes": true,
+    "coastlines": true,
+    "ocean_scale_basins": false
+  },
+  "preserve_water_features": {
+    "rivers": true,
+    "small_lakes": true,
+    "oases": true,
+    "mountain_lakes": true,
+    "coastlines": true
+  },
+  "block_water_features": {
+    "ocean_scale_basins_in_land_first_regions": true,
+    "basin_leaks_in_land_first_regions": true
+  },
+  "ocean_allowed_regions": [
+    "verdant_coast",
+    "east_far_coast",
+    "frostmarch_ocean",
+    "explicit_coast",
+    "outer_ocean"
+  ],
+  "max_local_water_ratio_for_land_first": 0.35,
+  "max_ocean_body_radius_for_land_first": 96,
+  "debug_logging": true,
+  "prototype_behavior": {
+    "live_terrain_mutation": false,
+    "prototype_option": "disabled_random_terralith_tectonic_baseline",
+    "fresh_chunks_only": true,
+    "generator_replaced": false,
+    "noise_settings_changed": false,
+    "density_function_override_changed": false,
+    "density_function_override": "disabled",
+    "land_bias_density_function": "disabled",
+    "world_radius_blocks": 12000,
+    "south_east_ocean_biomes_removed": true,
+    "soft_sector_boundaries": true,
+    "commands": [
+      "/ascatlas terrain_probe <x> <z>",
+      "/ascatlas terrain_probe_here",
+      "/ascatlas sample_land_water <radius> <step>",
+      "/ascatlas dump_land_water_policy",
+      "/ascatlas dump_terrain_noise_policy"
+    ],
+    "rollback": "Remove the Atlas continents density-function override or set its atlas_land_bias enabled flag false, then rebuild/sync the helper jar if needed. Keep the rejected post-generation terrain_correction.enabled=false."
+  },
+  "global_rules": {
+    "single_water_sample_is_not_failure": true,
+    "ocean_scale_water_in_land_first_regions_is_failure": true,
+    "sea_level_62_63_is_normal": true,
+    "biome_pool_mismatch_required_for_biome_leak": true,
+    "terrain_noise_water_can_fail_even_when_biome_pool_matches": true
+  },
+  "regions": {
+    "hearthlands": {
+      "land_water_identity": "temperate_beginner_land_first",
+      "ocean_scale_basins": "blocked",
+      "basin_leaks": "blocked",
+      "allowed_water": [
+        "river",
+        "pond",
+        "small_lake",
+        "gentle_wetland_edge"
+      ],
+      "disallowed_water": [
+        "deep_ocean_basin",
+        "ocean_scale_inland_sea"
+      ],
+      "target_land_bias": "high",
+      "manual_visual_goal": "Beginner-friendly mixed land with readable rivers and small lakes."
+    },
+    "frostmarch": {
+      "land_water_identity": "cold_land_with_frozen_sea_pockets",
+      "ocean_scale_basins": "allowed_only_in_explicit_frozen_ocean_or_coastal_sectors",
+      "basin_leaks": "blocked_in_land_tundra_or_mountain_sectors",
+      "allowed_water": [
+        "frozen_river",
+        "frozen_lake",
+        "mountain_lake",
+        "frozen_ocean",
+        "ice_sheet",
+        "coastline"
+      ],
+      "disallowed_water": [
+        "warm_ocean",
+        "temperate_ocean",
+        "deep_unfrozen_ocean_basin_in_land_sector"
+      ],
+      "target_land_bias": "medium_high",
+      "manual_visual_goal": "Progressively colder north with land, tundra, mountains, frozen seas, and ice where intended."
+    },
+    "sunreach": {
+      "land_water_identity": "arid_land_first",
+      "ocean_scale_basins": "blocked",
+      "basin_leaks": "blocked",
+      "allowed_water": [
+        "river",
+        "oasis",
+        "small_lake",
+        "dry_wash",
+        "coastline_transition"
+      ],
+      "disallowed_water": [
+        "deep_ocean_basin",
+        "ocean_scale_inland_sea",
+        "large_badlands_ocean_floor_basin",
+        "island_village_over_inland_ocean"
+      ],
+      "target_land_bias": "very_high",
+      "manual_visual_goal": "Arid, sandy, stony, badlands, and savannah land should dominate. Water should read as river, oasis, lake, or coast, not ocean."
+    },
+    "verdant_coast": {
+      "land_water_identity": "wet_coastal_oceanic",
+      "ocean_scale_basins": "allowed_in_coastal_or_ocean_sectors",
+      "basin_leaks": "manual_review_if_inland",
+      "allowed_water": [
+        "river",
+        "lake",
+        "wetland",
+        "coastline",
+        "warm_ocean",
+        "lukewarm_ocean",
+        "stormy_sea"
+      ],
+      "disallowed_water": [
+        "frozen_ocean_outside_blend",
+        "dry_region_ocean_floor_basin"
+      ],
+      "target_land_bias": "mixed",
+      "manual_visual_goal": "Wet, lush, coastal, and stormy. Real ocean/coast identity is expected here."
+    },
+    "stoneback": {
+      "land_water_identity": "highland_mountain_land_first",
+      "ocean_scale_basins": "blocked",
+      "basin_leaks": "blocked",
+      "allowed_water": [
+        "river",
+        "mountain_lake",
+        "small_lake",
+        "snowmelt_stream",
+        "coastline_transition"
+      ],
+      "disallowed_water": [
+        "deep_ocean_basin",
+        "ocean_scale_inland_sea",
+        "large_highland_ocean_floor_basin",
+        "island_village_over_inland_ocean"
+      ],
+      "target_land_bias": "very_high",
+      "manual_visual_goal": "Mountain, plateau, cliff, stony highland, and passes should dominate. Water should read as rivers or mountain lakes."
+    },
+    "south_east_wilds": {
+      "land_water_identity": "warm_wet_arid_transition_land_first",
+      "ocean_scale_basins": "blocked",
+      "basin_leaks": "blocked",
+      "allowed_water": [
+        "river",
+        "warm_river",
+        "wetland",
+        "oasis",
+        "small_lake"
+      ],
+      "disallowed_water": [
+        "minecraft:ocean",
+        "minecraft:deep_ocean",
+        "minecraft:lukewarm_ocean",
+        "minecraft:deep_lukewarm_ocean",
+        "minecraft:warm_ocean",
+        "ocean_only_boat_or_island_structure_context"
+      ],
+      "target_land_bias": "high",
+      "manual_visual_goal": "Southeast should blend jungle, savanna, badlands, oasis, and wetland features without labeling high land as ocean or cutting terrain along straight zone lines."
+    }
+  },
+  "validation_targets": {
+    "source_biome_pool_mismatches": 0,
+    "surface_biome_pool_mismatches": 0,
+    "cave_like_surface_biomes": 0,
+    "snow_outside_cold_regions": 0,
+    "east_west_snowy_mismatches": 0,
+    "land_first_ocean_leaks": 0,
+    "land_first_basin_leaks": 0
+  }
+}

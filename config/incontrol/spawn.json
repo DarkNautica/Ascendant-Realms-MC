@@ -1,0 +1,159 @@
+[
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "alexsmobs",
+    "mincount": {
+      "amount": 150,
+      "mod": "alexsmobs",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "mowziesmobs",
+    "mincount": {
+      "amount": 32,
+      "mod": "mowziesmobs",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "born_in_chaos_v1",
+    "mincount": {
+      "amount": 72,
+      "mod": "born_in_chaos_v1",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "aquamirae",
+    "mincount": {
+      "amount": 28,
+      "mod": "aquamirae",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "bossesrise",
+    "mincount": {
+      "amount": 10,
+      "mod": "bossesrise",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "iceandfire",
+    "mincount": {
+      "amount": 14,
+      "mod": "iceandfire",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "cataclysm",
+    "mincount": {
+      "amount": 14,
+      "mod": "cataclysm",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "block_factorys_bosses",
+    "mincount": {
+      "amount": 10,
+      "mod": "block_factorys_bosses",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "soulsweapons",
+    "mincount": {
+      "amount": 18,
+      "mod": "soulsweapons",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "irons_spellbooks",
+    "mincount": {
+      "amount": 48,
+      "mod": "irons_spellbooks",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "majruszsdifficulty",
+    "mincount": {
+      "amount": 26,
+      "mod": "majruszsdifficulty",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "area": "ar_hearthlands",
+    "mod": [
+      "aquamirae",
+      "bossesrise",
+      "cataclysm",
+      "block_factorys_bosses",
+      "iceandfire",
+      "soulsweapons"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "area": "ar_hearthlands",
+    "mod": "mowziesmobs",
+    "random": 0.4,
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "area": "ar_hearthlands",
+    "mod": "born_in_chaos_v1",
+    "random": 0.25,
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "area": "ar_sunreach",
+    "mod": "aquamirae",
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "area": "ar_stoneback_highlands",
+    "mod": "aquamirae",
+    "random": 0.5,
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "area": "ar_frostmarch",
+    "mod": "iceandfire",
+    "random": 0.45,
+    "result": "deny"
+  }
+]

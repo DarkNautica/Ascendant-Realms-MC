@@ -1,0 +1,262 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T04:37:26+00:00",
+  "status": "audit_control_scaffold_only_no_region_locks",
+  "source": {
+    "atlas_regions": "config/ascendant_atlas/regions.json",
+    "difficulty_rings": "config/ascendant_atlas/difficulty_rings.json",
+    "world_regions": "config/ascendant_core/world_regions.json"
+  },
+  "region_readiness": [
+    {
+      "region_id": "crownlands",
+      "display_name": "The Crownlands",
+      "atlas_tier": 0,
+      "sector": "center",
+      "recommended_ranks": [
+        "unranked",
+        "e_rank"
+      ],
+      "recommended_distance_rings": [
+        "center"
+      ],
+      "recommended_mob_threat_range": [
+        0,
+        2
+      ],
+      "recommended_gear_ceiling": "uncommon",
+      "bounty_tiers": [
+        "local_errand",
+        "wildlife_control"
+      ],
+      "readiness_notes": [
+        "Guidance only; do not teleport-lock or gate regions yet.",
+        "Use Atlas validation and manual terrain review before promising region pacing."
+      ]
+    },
+    {
+      "region_id": "frostmarch",
+      "display_name": "The Frostmarch",
+      "atlas_tier": 2,
+      "sector": "north",
+      "recommended_ranks": [
+        "d_rank",
+        "c_rank"
+      ],
+      "recommended_distance_rings": [
+        "middle"
+      ],
+      "recommended_mob_threat_range": [
+        2,
+        4
+      ],
+      "recommended_gear_ceiling": "legendary",
+      "bounty_tiers": [
+        "small_ruin",
+        "rival_sighting"
+      ],
+      "readiness_notes": [
+        "Guidance only; do not teleport-lock or gate regions yet.",
+        "Use Atlas validation and manual terrain review before promising region pacing."
+      ]
+    },
+    {
+      "region_id": "sunreach",
+      "display_name": "Sunreach",
+      "atlas_tier": 2,
+      "sector": "south",
+      "recommended_ranks": [
+        "d_rank",
+        "c_rank"
+      ],
+      "recommended_distance_rings": [
+        "middle"
+      ],
+      "recommended_mob_threat_range": [
+        2,
+        4
+      ],
+      "recommended_gear_ceiling": "legendary",
+      "bounty_tiers": [
+        "small_ruin",
+        "rival_sighting"
+      ],
+      "readiness_notes": [
+        "Guidance only; do not teleport-lock or gate regions yet.",
+        "Use Atlas validation and manual terrain review before promising region pacing."
+      ]
+    },
+    {
+      "region_id": "verdant_coast",
+      "display_name": "The Verdant Coast",
+      "atlas_tier": 2,
+      "sector": "east",
+      "recommended_ranks": [
+        "d_rank",
+        "c_rank"
+      ],
+      "recommended_distance_rings": [
+        "middle"
+      ],
+      "recommended_mob_threat_range": [
+        2,
+        4
+      ],
+      "recommended_gear_ceiling": "epic",
+      "bounty_tiers": [
+        "small_ruin",
+        "rival_sighting"
+      ],
+      "readiness_notes": [
+        "Guidance only; do not teleport-lock or gate regions yet.",
+        "Use Atlas validation and manual terrain review before promising region pacing."
+      ]
+    },
+    {
+      "region_id": "stoneback_highlands",
+      "display_name": "The Stoneback Highlands",
+      "atlas_tier": 2,
+      "sector": "west",
+      "recommended_ranks": [
+        "d_rank",
+        "c_rank"
+      ],
+      "recommended_distance_rings": [
+        "middle"
+      ],
+      "recommended_mob_threat_range": [
+        2,
+        4
+      ],
+      "recommended_gear_ceiling": "legendary",
+      "bounty_tiers": [
+        "small_ruin",
+        "rival_sighting"
+      ],
+      "readiness_notes": [
+        "Guidance only; do not teleport-lock or gate regions yet.",
+        "Use Atlas validation and manual terrain review before promising region pacing."
+      ]
+    },
+    {
+      "region_id": "deep_wilds",
+      "display_name": "The Deep Wilds",
+      "atlas_tier": 3,
+      "sector": "outer_wilds",
+      "recommended_ranks": [
+        "c_rank",
+        "b_rank"
+      ],
+      "recommended_distance_rings": [
+        "middle",
+        "outer"
+      ],
+      "recommended_mob_threat_range": [
+        3,
+        5
+      ],
+      "recommended_gear_ceiling": "mythic",
+      "bounty_tiers": [
+        "rival_sighting",
+        "arcane_recovery"
+      ],
+      "readiness_notes": [
+        "Guidance only; do not teleport-lock or gate regions yet.",
+        "Use Atlas validation and manual terrain review before promising region pacing."
+      ]
+    },
+    {
+      "region_id": "dragon_scars",
+      "display_name": "The Dragon Scars",
+      "atlas_tier": 4,
+      "sector": "outer_highlands",
+      "recommended_ranks": [
+        "b_rank",
+        "a_rank"
+      ],
+      "recommended_distance_rings": [
+        "outer",
+        "edge"
+      ],
+      "recommended_mob_threat_range": [
+        4,
+        6
+      ],
+      "recommended_gear_ceiling": "ascendant",
+      "bounty_tiers": [
+        "arcane_recovery",
+        "boss_hunt"
+      ],
+      "readiness_notes": [
+        "Guidance only; do not teleport-lock or gate regions yet.",
+        "Use Atlas validation and manual terrain review before promising region pacing."
+      ]
+    },
+    {
+      "region_id": "nether_front",
+      "display_name": "The Nether Front",
+      "atlas_tier": 4,
+      "sector": "nether",
+      "recommended_ranks": [
+        "b_rank",
+        "a_rank"
+      ],
+      "recommended_distance_rings": [
+        "outer",
+        "edge"
+      ],
+      "recommended_mob_threat_range": [
+        4,
+        6
+      ],
+      "recommended_gear_ceiling": "mythic",
+      "bounty_tiers": [
+        "arcane_recovery",
+        "boss_hunt"
+      ],
+      "readiness_notes": [
+        "Guidance only; do not teleport-lock or gate regions yet.",
+        "Use Atlas validation and manual terrain review before promising region pacing."
+      ]
+    },
+    {
+      "region_id": "end_expanse",
+      "display_name": "The End Expanse",
+      "atlas_tier": 5,
+      "sector": "end",
+      "recommended_ranks": [
+        "a_rank",
+        "s_rank"
+      ],
+      "recommended_distance_rings": [
+        "edge"
+      ],
+      "recommended_mob_threat_range": [
+        5,
+        6
+      ],
+      "recommended_gear_ceiling": "ascendant",
+      "bounty_tiers": [
+        "boss_hunt",
+        "ascendant_relic"
+      ],
+      "readiness_notes": [
+        "Guidance only; do not teleport-lock or gate regions yet.",
+        "Use Atlas validation and manual terrain review before promising region pacing."
+      ]
+    }
+  ],
+  "validation": {
+    "policy_references_missing_regions": [],
+    "starter_region_threat_excess": [],
+    "missing_ranks": [],
+    "rank_policy_references_missing_regions": [],
+    "gear_rarities_without_rank_policy": [],
+    "magic_tiers_without_rank_policy": [],
+    "skill_unlock_policy_references_missing_skill_ids": []
+  },
+  "summary": {
+    "region_count": 9,
+    "starter_region_count": 1
+  }
+}

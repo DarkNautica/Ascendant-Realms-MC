@@ -1,0 +1,22 @@
+dist/
+server-pack-staging/
+packwiz-cache/
+.packwizcache/
+local-mods/
+_incoming/
+__pycache__/
+*.pyc
+logs/
+crash-reports/
+world/
+*.zip
+*.mrpack
+
+# Most mods are downloaded by packwiz metadata. These two are pack-owned helper jars
+# and must be committed so GitHub can serve them to Prism/packwiz-installer.
+mods/*.jar
+!mods/ascendant-atlas-regions-0.1.0.jar
+!mods/ascendant-nametags-0.1.0.jar
+
+.DS_Store
+Thumbs.db

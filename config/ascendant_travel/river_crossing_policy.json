@@ -1,0 +1,454 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T02:37:09+00:00",
+  "status": "reconnaissance_only_no_worldgen_changes",
+  "water_review_source": "config\\ascendant_atlas\\reports\\water_surface_samples_latest.json",
+  "water_review_summary": {
+    "total_water_samples": 58,
+    "target_south_west_water_samples": 31,
+    "manual_reviewed_water_samples": 19,
+    "manual_reviewed_target_water_samples": 19,
+    "visually_confirmed_ocean_leak_samples": 15,
+    "water_samples_by_region": {
+      "outer_rim": 11,
+      "south_east_wilds": 3,
+      "south_west_wilds": 2,
+      "stoneback_highlands": 14,
+      "sunreach": 15,
+      "verdant_coast": 13
+    },
+    "water_samples_by_biome_id": {
+      "minecraft:badlands": 11,
+      "minecraft:beach": 1,
+      "minecraft:deep_lukewarm_ocean": 2,
+      "minecraft:deep_ocean": 1,
+      "minecraft:eroded_badlands": 7,
+      "minecraft:mangrove_swamp": 3,
+      "minecraft:river": 2,
+      "minecraft:savanna_plateau": 1,
+      "minecraft:swamp": 1,
+      "minecraft:windswept_forest": 1,
+      "minecraft:windswept_gravelly_hills": 1,
+      "minecraft:windswept_hills": 2,
+      "terralith:alpine_highlands": 1,
+      "terralith:ancient_sands": 2,
+      "terralith:arid_highlands": 3,
+      "terralith:fractured_savanna": 1,
+      "terralith:haze_mountain": 1,
+      "terralith:painted_mountains": 3,
+      "terralith:red_oasis": 3,
+      "terralith:rocky_mountains": 2,
+      "terralith:stony_spires": 1,
+      "terralith:warm_river": 3,
+      "terralith:white_mesa": 3,
+      "terralith:yosemite_cliffs": 1,
+      "terralith:yosemite_lowlands": 1
+    },
+    "water_samples_by_ring": {
+      "tier_1_inner_wilds": 1,
+      "tier_2_outer_marches": 1,
+      "tier_3_ancient_frontiers": 4,
+      "tier_4_dragon_scars": 7,
+      "tier_5_corrupted_rim": 45
+    },
+    "water_samples_by_classification": {
+      "acceptable_coastline": 10,
+      "acceptable_lake": 10,
+      "acceptable_mountain_lake": 11,
+      "acceptable_oasis": 3,
+      "acceptable_river": 9,
+      "ocean_leak": 15
+    },
+    "issue_kind": "terrain/noise ocean leak",
+    "is_biome_pool_leakage": false,
+    "is_terrain_noise_water_placement": true,
+    "assessment": "Automated Atlas validation passed, but manual review confirmed 15 south/west ocean-leak samples. This is terrain/noise water placement, not biome-pool leakage."
+  },
+  "water_samples_by_classification": {
+    "acceptable_coastline": 10,
+    "acceptable_lake": 10,
+    "acceptable_mountain_lake": 11,
+    "acceptable_oasis": 3,
+    "acceptable_river": 9,
+    "ocean_leak": 15
+  },
+  "water_samples_by_region": {
+    "outer_rim": 11,
+    "south_east_wilds": 3,
+    "south_west_wilds": 2,
+    "stoneback_highlands": 14,
+    "sunreach": 15,
+    "verdant_coast": 13
+  },
+  "confirmed_ocean_leaks": [
+    {
+      "x": -25000,
+      "z": -5000,
+      "region": "stoneback_highlands",
+      "classification": "ocean_leak",
+      "biome": "minecraft:windswept_hills",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": -20000,
+      "z": 5000,
+      "region": "stoneback_highlands",
+      "classification": "ocean_leak",
+      "biome": "terralith:haze_mountain",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": -20000,
+      "z": 20000,
+      "region": "south_west_wilds",
+      "classification": "ocean_leak",
+      "biome": "minecraft:badlands",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": -15000,
+      "z": 15000,
+      "region": "south_west_wilds",
+      "classification": "ocean_leak",
+      "biome": "minecraft:eroded_badlands",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": -5000,
+      "z": 15000,
+      "region": "sunreach",
+      "classification": "ocean_leak",
+      "biome": "minecraft:badlands",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": -5000,
+      "z": 20000,
+      "region": "sunreach",
+      "classification": "ocean_leak",
+      "biome": "minecraft:eroded_badlands",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": 0,
+      "z": 10000,
+      "region": "sunreach",
+      "classification": "ocean_leak",
+      "biome": "terralith:white_mesa",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": 0,
+      "z": 15000,
+      "region": "sunreach",
+      "classification": "ocean_leak",
+      "biome": "minecraft:badlands",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": 0,
+      "z": 25000,
+      "region": "sunreach",
+      "classification": "ocean_leak",
+      "biome": "minecraft:badlands",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": 0,
+      "z": 30000,
+      "region": "sunreach",
+      "classification": "ocean_leak",
+      "biome": "minecraft:badlands",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": 5000,
+      "z": 10000,
+      "region": "sunreach",
+      "classification": "ocean_leak",
+      "biome": "terralith:arid_highlands",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": 5000,
+      "z": 15000,
+      "region": "sunreach",
+      "classification": "ocean_leak",
+      "biome": "terralith:arid_highlands",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": 5000,
+      "z": 20000,
+      "region": "sunreach",
+      "classification": "ocean_leak",
+      "biome": "minecraft:eroded_badlands",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": 15000,
+      "z": 25000,
+      "region": "sunreach",
+      "classification": "ocean_leak",
+      "biome": "minecraft:badlands",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": 0,
+      "z": 12000,
+      "region": "sunreach",
+      "classification": "ocean_leak",
+      "biome": "terralith:white_mesa",
+      "surface_y": 63,
+      "suggested_teleport": null
+    }
+  ],
+  "acceptable_crossing_examples": [
+    {
+      "x": -30000,
+      "z": 0,
+      "region": "stoneback_highlands",
+      "classification": "acceptable_river",
+      "biome": "terralith:stony_spires",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": -25000,
+      "z": 5000,
+      "region": "stoneback_highlands",
+      "classification": "acceptable_mountain_lake",
+      "biome": "terralith:painted_mountains",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": -25000,
+      "z": 10000,
+      "region": "stoneback_highlands",
+      "classification": "acceptable_mountain_lake",
+      "biome": "terralith:painted_mountains",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": -20000,
+      "z": 0,
+      "region": "stoneback_highlands",
+      "classification": "acceptable_mountain_lake",
+      "biome": "minecraft:windswept_hills",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": -20000,
+      "z": 10000,
+      "region": "stoneback_highlands",
+      "classification": "acceptable_mountain_lake",
+      "biome": "terralith:yosemite_cliffs",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": -20000,
+      "z": 30000,
+      "region": "outer_rim",
+      "classification": "acceptable_oasis",
+      "biome": "terralith:red_oasis",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": -15000,
+      "z": -10000,
+      "region": "stoneback_highlands",
+      "classification": "acceptable_mountain_lake",
+      "biome": "terralith:rocky_mountains",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": -15000,
+      "z": 0,
+      "region": "stoneback_highlands",
+      "classification": "acceptable_mountain_lake",
+      "biome": "minecraft:windswept_forest",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": -15000,
+      "z": 5000,
+      "region": "stoneback_highlands",
+      "classification": "acceptable_mountain_lake",
+      "biome": "terralith:yosemite_lowlands",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": -15000,
+      "z": 10000,
+      "region": "stoneback_highlands",
+      "classification": "acceptable_mountain_lake",
+      "biome": "terralith:painted_mountains",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": -10000,
+      "z": -5000,
+      "region": "stoneback_highlands",
+      "classification": "acceptable_mountain_lake",
+      "biome": "terralith:rocky_mountains",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": -10000,
+      "z": 0,
+      "region": "stoneback_highlands",
+      "classification": "acceptable_mountain_lake",
+      "biome": "terralith:alpine_highlands",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": -10000,
+      "z": 15000,
+      "region": "sunreach",
+      "classification": "acceptable_oasis",
+      "biome": "terralith:red_oasis",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": 0,
+      "z": 20000,
+      "region": "sunreach",
+      "classification": "acceptable_river",
+      "biome": "terralith:arid_highlands",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": 5000,
+      "z": 0,
+      "region": "verdant_coast",
+      "classification": "acceptable_river",
+      "biome": "terralith:warm_river",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": 5000,
+      "z": 5000,
+      "region": "south_east_wilds",
+      "classification": "acceptable_oasis",
+      "biome": "terralith:red_oasis",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": 10000,
+      "z": -5000,
+      "region": "verdant_coast",
+      "classification": "acceptable_river",
+      "biome": "minecraft:river",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": 10000,
+      "z": 0,
+      "region": "verdant_coast",
+      "classification": "acceptable_coastline",
+      "biome": "minecraft:beach",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": 10000,
+      "z": 5000,
+      "region": "verdant_coast",
+      "classification": "acceptable_coastline",
+      "biome": "minecraft:mangrove_swamp",
+      "surface_y": 63,
+      "suggested_teleport": null
+    },
+    {
+      "x": 10000,
+      "z": 15000,
+      "region": "sunreach",
+      "classification": "acceptable_river",
+      "biome": "minecraft:eroded_badlands",
+      "surface_y": 63,
+      "suggested_teleport": null
+    }
+  ],
+  "rules": [
+    {
+      "region": "hearthlands",
+      "strategy": "safe low-grade roads; short timber or stone bridges over small rivers; avoid dangerous cliffs near spawn"
+    },
+    {
+      "region": "sunreach",
+      "strategy": "caravan roads, dry washes, rare oases, and small river bridges; avoid ocean-like basins as road anchors"
+    },
+    {
+      "region": "frostmarch",
+      "strategy": "snow roads, frozen crossings, mountain passes, and sturdy cold-weather bridges"
+    },
+    {
+      "region": "stoneback_highlands",
+      "strategy": "passes, switchbacks, tunnels, mountain bridges, and supported roads instead of straight cliff paths"
+    },
+    {
+      "region": "verdant_coast",
+      "strategy": "river bridges, docks, swamp boardwalks, port roads, and coastal crossings"
+    },
+    {
+      "region": "outer_rim",
+      "strategy": "dangerous, sparse routes; ruins, broken bridges, and difficult crossings are acceptable when intentional"
+    }
+  ],
+  "bridge_source_linkage": [
+    {
+      "source_id": "yungsbridges:bridges",
+      "linkage_status": "standalone_landmark_not_route_linked",
+      "action": "manual_review_before_using_as_travel_network_solution"
+    },
+    {
+      "source_id": "macaws_bridges:palette",
+      "linkage_status": "palette_for_future_authored_or_helper_bridge_pieces",
+      "action": "keep_palette_only"
+    },
+    {
+      "source_id": "integrated_villages:mossy_mounds_bridge",
+      "linkage_status": "local_template_bridge_only",
+      "action": "field_review_bridge_fit"
+    }
+  ],
+  "validation": {
+    "bridge_sources_without_crossing_strategy": [
+      "yungsbridges:bridges",
+      "integrated_villages:mossy_mounds_bridge"
+    ],
+    "ocean_leak_samples_blocking_route_design": 0,
+    "atlas_water_blocker_note": "Historical Atlas ocean-leak evidence is superseded by the 2026-06-18 random-worldgen rollback. Reassess roads and crossings in a fresh random Tectonic/Terralith world.",
+    "live_generation_changes_enabled": []
+  }
+}

@@ -1,0 +1,3329 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T04:18:12+00:00",
+  "status": "audit_control_scaffold_only_no_hard_gates",
+  "source": {
+    "gear_registry": "config/ascendant_index/gear_registry.json",
+    "collection": "spells"
+  },
+  "spells": [
+    {
+      "id": "irons_spellbooks:healing_circle",
+      "name": "Healing Circle",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "holy",
+      "rarity": "epic",
+      "guild_rank_tier": "c_rank_to_b_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "middle",
+      "allowed_loot_tier": "tier_3_advanced",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "structure_or_rank_contract_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:arcane_shackle",
+      "name": "Arcane Shackle",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "evocation",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "stoneback_highlands",
+        "outer_rim",
+        "hearthlands"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:icicle",
+      "name": "Icicle",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "ice",
+      "rarity": "rare",
+      "guild_rank_tier": "d_rank",
+      "atlas_region_affinity": [
+        "frostmarch",
+        "north_west_marches",
+        "north_east_marches"
+      ],
+      "atlas_distance_ring": "inner_to_middle",
+      "allowed_loot_tier": "tier_2_regional",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:black_hole",
+      "name": "Black Hole",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "void",
+      "rarity": "legendary",
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "atlas_region_affinity": [
+        "outer_rim",
+        "end_expanse",
+        "nether_front"
+      ],
+      "atlas_distance_ring": "outer",
+      "allowed_loot_tier": "tier_4_boss",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "boss_or_dangerous_structure_recommended"
+      ],
+      "progression_band": "late",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "High-tier magic should require boss, dangerous-structure, rare-material, or rank-contract proof.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:flaming_strike",
+      "name": "Flaming Strike",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "fire",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "sunreach",
+        "south_east_wilds",
+        "nether_front"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:frost_step",
+      "name": "Frost Step",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "ice",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "frostmarch",
+        "north_west_marches",
+        "north_east_marches"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:invisibility",
+      "name": "Invisibility",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:gluttony",
+      "name": "Gluttony",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:wall_of_fire",
+      "name": "Wall of Fire",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "fire",
+      "rarity": "epic",
+      "guild_rank_tier": "c_rank_to_b_rank",
+      "atlas_region_affinity": [
+        "sunreach",
+        "south_east_wilds",
+        "nether_front"
+      ],
+      "atlas_distance_ring": "middle",
+      "allowed_loot_tier": "tier_3_advanced",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "structure_or_rank_contract_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:shield",
+      "name": "Shield",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "rare",
+      "guild_rank_tier": "d_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "inner_to_middle",
+      "allowed_loot_tier": "tier_2_regional",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:fang_ward",
+      "name": "Fang Ward",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "nature",
+      "rarity": "epic",
+      "guild_rank_tier": "c_rank_to_b_rank",
+      "atlas_region_affinity": [
+        "verdant_coast",
+        "south_east_wilds",
+        "hearthlands"
+      ],
+      "atlas_distance_ring": "middle",
+      "allowed_loot_tier": "tier_3_advanced",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "structure_or_rank_contract_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:fortify",
+      "name": "Fortify",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:thunderstorm",
+      "name": "Thunderstorm",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "lightning",
+      "rarity": "epic",
+      "guild_rank_tier": "c_rank_to_b_rank",
+      "atlas_region_affinity": [
+        "verdant_coast",
+        "stoneback_highlands",
+        "south_east_wilds"
+      ],
+      "atlas_distance_ring": "middle",
+      "allowed_loot_tier": "tier_3_advanced",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "structure_or_rank_contract_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:sculk_tentacles",
+      "name": "Sculk Tentacles",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:chain_creeper",
+      "name": "Chain Creeper",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "epic",
+      "guild_rank_tier": "c_rank_to_b_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "middle",
+      "allowed_loot_tier": "tier_3_advanced",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "structure_or_rank_contract_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:ice_tomb",
+      "name": "Ice Tomb",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "ice",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "frostmarch",
+        "north_west_marches",
+        "north_east_marches"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:acid_orb",
+      "name": "Acid Spit",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:cloud_of_regeneration",
+      "name": "Cloud of Regeneration",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "epic",
+      "guild_rank_tier": "c_rank_to_b_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "middle",
+      "allowed_loot_tier": "tier_3_advanced",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "structure_or_rank_contract_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:abyssal_shroud",
+      "name": "Abyssal Shroud",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "eldritch",
+      "rarity": "legendary",
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "atlas_region_affinity": [
+        "outer_rim",
+        "end_expanse",
+        "north_east_marches"
+      ],
+      "atlas_distance_ring": "outer",
+      "allowed_loot_tier": "tier_4_boss",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "boss_or_dangerous_structure_recommended"
+      ],
+      "progression_band": "late",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "High-tier magic should require boss, dangerous-structure, rare-material, or rank-contract proof.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:lightning_lance",
+      "name": "Lightning Lance",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "lightning",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "verdant_coast",
+        "stoneback_highlands",
+        "south_east_wilds"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:counterspell",
+      "name": "Counterspell",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:firefly_swarm",
+      "name": "Firefly Swarm",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "fire",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "sunreach",
+        "south_east_wilds",
+        "nether_front"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:charge",
+      "name": "Charge",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "lightning",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "verdant_coast",
+        "stoneback_highlands",
+        "south_east_wilds"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:magic_missile",
+      "name": "Magic Missile",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "evocation",
+      "rarity": "rare",
+      "guild_rank_tier": "d_rank",
+      "atlas_region_affinity": [
+        "stoneback_highlands",
+        "outer_rim",
+        "hearthlands"
+      ],
+      "atlas_distance_ring": "inner_to_middle",
+      "allowed_loot_tier": "tier_2_regional",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:divine_smite",
+      "name": "Divine Smite",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "nature",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "verdant_coast",
+        "south_east_wilds",
+        "hearthlands"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:planar_sight",
+      "name": "Planar Sight",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "ender",
+      "rarity": "legendary",
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "atlas_region_affinity": [
+        "end_expanse",
+        "outer_rim",
+        "stoneback_highlands"
+      ],
+      "atlas_distance_ring": "outer",
+      "allowed_loot_tier": "tier_4_boss",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "boss_or_dangerous_structure_recommended"
+      ],
+      "progression_band": "late",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "High-tier magic should require boss, dangerous-structure, rare-material, or rank-contract proof.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:angel_wing",
+      "name": "Angel Wings",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "holy",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:telekinesis",
+      "name": "Telekinesis",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "evocation",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "stoneback_highlands",
+        "outer_rim",
+        "hearthlands"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:guiding_bolt",
+      "name": "Guiding Bolt",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "holy",
+      "rarity": "rare",
+      "guild_rank_tier": "d_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "inner_to_middle",
+      "allowed_loot_tier": "tier_2_regional",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:fang_strike",
+      "name": "Fang Strike",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "nature",
+      "rarity": "epic",
+      "guild_rank_tier": "c_rank_to_b_rank",
+      "atlas_region_affinity": [
+        "verdant_coast",
+        "south_east_wilds",
+        "hearthlands"
+      ],
+      "atlas_distance_ring": "middle",
+      "allowed_loot_tier": "tier_3_advanced",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "structure_or_rank_contract_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:creeper_revenge",
+      "name": "Revenge of the Creeper",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:recall",
+      "name": "Recall",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "ender",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "end_expanse",
+        "outer_rim",
+        "stoneback_highlands"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:summon_polar_bear",
+      "name": "Summon Polar Bear",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "evocation",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "stoneback_highlands",
+        "outer_rim",
+        "hearthlands"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:cleanse",
+      "name": "Cleanse",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:shadow_slash",
+      "name": "Shadow Slash",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "eldritch",
+      "rarity": "epic",
+      "guild_rank_tier": "c_rank_to_b_rank",
+      "atlas_region_affinity": [
+        "outer_rim",
+        "end_expanse",
+        "north_east_marches"
+      ],
+      "atlas_distance_ring": "middle",
+      "allowed_loot_tier": "tier_3_advanced",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "structure_or_rank_contract_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:wisp",
+      "name": "Wisp",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "nature",
+      "rarity": "epic",
+      "guild_rank_tier": "c_rank_to_b_rank",
+      "atlas_region_affinity": [
+        "verdant_coast",
+        "south_east_wilds",
+        "hearthlands"
+      ],
+      "atlas_distance_ring": "middle",
+      "allowed_loot_tier": "tier_3_advanced",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "structure_or_rank_contract_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:summon_ender_chest",
+      "name": "Summon Ender Chest",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "ender",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "end_expanse",
+        "outer_rim",
+        "stoneback_highlands"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:spectral_hammer",
+      "name": "Spectral Hammer",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "evocation",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "stoneback_highlands",
+        "outer_rim",
+        "hearthlands"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:magic_arrow",
+      "name": "Magic Arrow",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "evocation",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "stoneback_highlands",
+        "outer_rim",
+        "hearthlands"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:snowball",
+      "name": "Snowball",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "ice",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "frostmarch",
+        "north_west_marches",
+        "north_east_marches"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:blight",
+      "name": "Blight",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "holy",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:blood_slash",
+      "name": "Blood Slash",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "blood",
+      "rarity": "epic",
+      "guild_rank_tier": "c_rank_to_b_rank",
+      "atlas_region_affinity": [
+        "outer_rim",
+        "south_west_wilds",
+        "nether_front"
+      ],
+      "atlas_distance_ring": "middle",
+      "allowed_loot_tier": "tier_3_advanced",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "structure_or_rank_contract_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:fireball",
+      "name": "Fireball",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "fire",
+      "rarity": "epic",
+      "guild_rank_tier": "c_rank_to_b_rank",
+      "atlas_region_affinity": [
+        "sunreach",
+        "south_east_wilds",
+        "nether_front"
+      ],
+      "atlas_distance_ring": "middle",
+      "allowed_loot_tier": "tier_3_advanced",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "structure_or_rank_contract_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:blessing_of_life",
+      "name": "Blessing of Life",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "holy",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:eldritch_blast",
+      "name": "Eldritch Blast",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "eldritch",
+      "rarity": "legendary",
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "atlas_region_affinity": [
+        "outer_rim",
+        "end_expanse",
+        "north_east_marches"
+      ],
+      "atlas_distance_ring": "outer",
+      "allowed_loot_tier": "tier_4_boss",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "boss_or_dangerous_structure_recommended"
+      ],
+      "progression_band": "late",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "High-tier magic should require boss, dangerous-structure, rare-material, or rank-contract proof.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:ball_lightning",
+      "name": "Ball Lightning",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "lightning",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "verdant_coast",
+        "stoneback_highlands",
+        "south_east_wilds"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:portal",
+      "name": "Portal",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "ender",
+      "rarity": "legendary",
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "atlas_region_affinity": [
+        "end_expanse",
+        "outer_rim",
+        "stoneback_highlands"
+      ],
+      "atlas_distance_ring": "outer",
+      "allowed_loot_tier": "tier_4_boss",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "boss_or_dangerous_structure_recommended"
+      ],
+      "progression_band": "late",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "High-tier magic should require boss, dangerous-structure, rare-material, or rank-contract proof.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:chain_lightning",
+      "name": "Chain Lightning",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "lightning",
+      "rarity": "epic",
+      "guild_rank_tier": "c_rank_to_b_rank",
+      "atlas_region_affinity": [
+        "verdant_coast",
+        "stoneback_highlands",
+        "south_east_wilds"
+      ],
+      "atlas_distance_ring": "middle",
+      "allowed_loot_tier": "tier_3_advanced",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "structure_or_rank_contract_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:burning_dash",
+      "name": "Burning Dash",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "fire",
+      "rarity": "rare",
+      "guild_rank_tier": "d_rank",
+      "atlas_region_affinity": [
+        "sunreach",
+        "south_east_wilds",
+        "nether_front"
+      ],
+      "atlas_distance_ring": "inner_to_middle",
+      "allowed_loot_tier": "tier_2_regional",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:wither_skull",
+      "name": "Wither Skull",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "void",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "outer_rim",
+        "end_expanse",
+        "nether_front"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:heat_surge",
+      "name": "Heat Surge",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "fire",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "sunreach",
+        "south_east_wilds",
+        "nether_front"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:lob_creeper",
+      "name": "Lob Creeper",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:fang_swirl",
+      "name": "Fang Swirl",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "nature",
+      "rarity": "epic",
+      "guild_rank_tier": "c_rank_to_b_rank",
+      "atlas_region_affinity": [
+        "verdant_coast",
+        "south_east_wilds",
+        "hearthlands"
+      ],
+      "atlas_distance_ring": "middle",
+      "allowed_loot_tier": "tier_3_advanced",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "structure_or_rank_contract_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:ice_spikes",
+      "name": "Ice Spikes",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "ice",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "frostmarch",
+        "north_west_marches",
+        "north_east_marches"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:spider_aspect",
+      "name": "Aspect of the Spider",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "nature",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "verdant_coast",
+        "south_east_wilds",
+        "hearthlands"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:raise_hell",
+      "name": "Raise Hell",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:touch_dig",
+      "name": "Touch Dig",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:poison_arrow",
+      "name": "Poison Arrow",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "nature",
+      "rarity": "rare",
+      "guild_rank_tier": "d_rank",
+      "atlas_region_affinity": [
+        "verdant_coast",
+        "south_east_wilds",
+        "hearthlands"
+      ],
+      "atlas_distance_ring": "inner_to_middle",
+      "allowed_loot_tier": "tier_2_regional",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:pocket_dimension",
+      "name": "Pocket Dimension",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "ender",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "end_expanse",
+        "outer_rim",
+        "stoneback_highlands"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:heal",
+      "name": "Heal",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "holy",
+      "rarity": "epic",
+      "guild_rank_tier": "c_rank_to_b_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "middle",
+      "allowed_loot_tier": "tier_3_advanced",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "structure_or_rank_contract_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:acupuncture",
+      "name": "Acupuncture",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:dragon_breath",
+      "name": "Dragon's Breath",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "evocation",
+      "rarity": "legendary",
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "atlas_region_affinity": [
+        "stoneback_highlands",
+        "outer_rim",
+        "hearthlands"
+      ],
+      "atlas_distance_ring": "outer",
+      "allowed_loot_tier": "tier_4_boss",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "boss_or_dangerous_structure_recommended"
+      ],
+      "progression_band": "late",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "High-tier magic should require boss, dangerous-structure, rare-material, or rank-contract proof.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:sonic_boom",
+      "name": "Sonic Boom",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:poison_splash",
+      "name": "Poison Splash",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "nature",
+      "rarity": "rare",
+      "guild_rank_tier": "d_rank",
+      "atlas_region_affinity": [
+        "verdant_coast",
+        "south_east_wilds",
+        "hearthlands"
+      ],
+      "atlas_distance_ring": "inner_to_middle",
+      "allowed_loot_tier": "tier_2_regional",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:volt_strike",
+      "name": "Volt Strike",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "lightning",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "verdant_coast",
+        "stoneback_highlands",
+        "south_east_wilds"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:magma_bomb",
+      "name": "Magma Bomb",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "fire",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "sunreach",
+        "south_east_wilds",
+        "nether_front"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:slow",
+      "name": "Slow",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "rare",
+      "guild_rank_tier": "d_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "inner_to_middle",
+      "allowed_loot_tier": "tier_2_regional",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:poison_breath",
+      "name": "Poison Spray",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "nature",
+      "rarity": "epic",
+      "guild_rank_tier": "c_rank_to_b_rank",
+      "atlas_region_affinity": [
+        "verdant_coast",
+        "south_east_wilds",
+        "hearthlands"
+      ],
+      "atlas_distance_ring": "middle",
+      "allowed_loot_tier": "tier_3_advanced",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "structure_or_rank_contract_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:oakskin",
+      "name": "Oakskin",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "nature",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "verdant_coast",
+        "south_east_wilds",
+        "hearthlands"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:blaze_storm",
+      "name": "Blaze Storm",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "fire",
+      "rarity": "epic",
+      "guild_rank_tier": "c_rank_to_b_rank",
+      "atlas_region_affinity": [
+        "sunreach",
+        "south_east_wilds",
+        "nether_front"
+      ],
+      "atlas_distance_ring": "middle",
+      "allowed_loot_tier": "tier_3_advanced",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "structure_or_rank_contract_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:void_tentacles",
+      "name": "Void Tentacles",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "void",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "outer_rim",
+        "end_expanse",
+        "nether_front"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:earthquake",
+      "name": "Earthquake",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "epic",
+      "guild_rank_tier": "c_rank_to_b_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "middle",
+      "allowed_loot_tier": "tier_3_advanced",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "structure_or_rank_contract_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:throw",
+      "name": "Throw",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "evocation",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "stoneback_highlands",
+        "outer_rim",
+        "hearthlands"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:sacrifice",
+      "name": "Sacrifice",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "ice",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "frostmarch",
+        "north_west_marches",
+        "north_east_marches"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:arrow_volley",
+      "name": "Arrow Volley",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "evocation",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "stoneback_highlands",
+        "outer_rim",
+        "hearthlands"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:shockwave",
+      "name": "Shockwave",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "lightning",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "verdant_coast",
+        "stoneback_highlands",
+        "south_east_wilds"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:frostbite",
+      "name": "Frostbite",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "ice",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "frostmarch",
+        "north_west_marches",
+        "north_east_marches"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:echoing_strikes",
+      "name": "Echoing Strikes",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:heartstop",
+      "name": "Heartstop",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "blood",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "outer_rim",
+        "south_west_wilds",
+        "nether_front"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:stomp",
+      "name": "Stomp",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "evocation",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "stoneback_highlands",
+        "outer_rim",
+        "hearthlands"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:blood_needles",
+      "name": "Blood Needles",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "blood",
+      "rarity": "rare",
+      "guild_rank_tier": "d_rank",
+      "atlas_region_affinity": [
+        "outer_rim",
+        "south_west_wilds",
+        "nether_front"
+      ],
+      "atlas_distance_ring": "inner_to_middle",
+      "allowed_loot_tier": "tier_2_regional",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:ascension",
+      "name": "Ascension",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:evasion",
+      "name": "Evasion",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:lightning_bolt",
+      "name": "Lightning Bolt",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "lightning",
+      "rarity": "rare",
+      "guild_rank_tier": "d_rank",
+      "atlas_region_affinity": [
+        "verdant_coast",
+        "stoneback_highlands",
+        "south_east_wilds"
+      ],
+      "atlas_distance_ring": "inner_to_middle",
+      "allowed_loot_tier": "tier_2_regional",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:fire_arrow",
+      "name": "Fire Arrow",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "fire",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "sunreach",
+        "south_east_wilds",
+        "nether_front"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:wololo",
+      "name": "Wololo",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:haste",
+      "name": "Haste",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:greater_heal",
+      "name": "Greater Heal",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "holy",
+      "rarity": "epic",
+      "guild_rank_tier": "c_rank_to_b_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "middle",
+      "allowed_loot_tier": "tier_3_advanced",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "structure_or_rank_contract_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:firebolt",
+      "name": "Firebolt",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "fire",
+      "rarity": "rare",
+      "guild_rank_tier": "d_rank",
+      "atlas_region_affinity": [
+        "sunreach",
+        "south_east_wilds",
+        "nether_front"
+      ],
+      "atlas_distance_ring": "inner_to_middle",
+      "allowed_loot_tier": "tier_2_regional",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:ray_of_siphoning",
+      "name": "Ray of Siphoning",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "blood",
+      "rarity": "epic",
+      "guild_rank_tier": "c_rank_to_b_rank",
+      "atlas_region_affinity": [
+        "outer_rim",
+        "south_west_wilds",
+        "nether_front"
+      ],
+      "atlas_distance_ring": "middle",
+      "allowed_loot_tier": "tier_3_advanced",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "structure_or_rank_contract_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:raise_dead",
+      "name": "Raise Dead",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "void",
+      "rarity": "legendary",
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "atlas_region_affinity": [
+        "outer_rim",
+        "end_expanse",
+        "nether_front"
+      ],
+      "atlas_distance_ring": "outer",
+      "allowed_loot_tier": "tier_4_boss",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "boss_or_dangerous_structure_recommended"
+      ],
+      "progression_band": "late",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "High-tier magic should require boss, dangerous-structure, rare-material, or rank-contract proof.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:thunder_step",
+      "name": "Thunderstep",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "lightning",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "verdant_coast",
+        "stoneback_highlands",
+        "south_east_wilds"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:starfall",
+      "name": "Starfall",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:electrocute",
+      "name": "Electrocute",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "lightning",
+      "rarity": "rare",
+      "guild_rank_tier": "d_rank",
+      "atlas_region_affinity": [
+        "verdant_coast",
+        "stoneback_highlands",
+        "south_east_wilds"
+      ],
+      "atlas_distance_ring": "inner_to_middle",
+      "allowed_loot_tier": "tier_2_regional",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:gust",
+      "name": "Gust",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:cone_of_cold",
+      "name": "Cone of Cold",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "ice",
+      "rarity": "epic",
+      "guild_rank_tier": "c_rank_to_b_rank",
+      "atlas_region_affinity": [
+        "frostmarch",
+        "north_west_marches",
+        "north_east_marches"
+      ],
+      "atlas_distance_ring": "middle",
+      "allowed_loot_tier": "tier_3_advanced",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "structure_or_rank_contract_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:teleport",
+      "name": "Teleport",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "ender",
+      "rarity": "epic",
+      "guild_rank_tier": "c_rank_to_b_rank",
+      "atlas_region_affinity": [
+        "end_expanse",
+        "outer_rim",
+        "stoneback_highlands"
+      ],
+      "atlas_distance_ring": "middle",
+      "allowed_loot_tier": "tier_3_advanced",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "structure_or_rank_contract_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:gravity_fissure",
+      "name": "Gravity Fissure",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:frostwave",
+      "name": "Frostwave",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "ice",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "frostmarch",
+        "north_west_marches",
+        "north_east_marches"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:root",
+      "name": "Root",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "nature",
+      "rarity": "rare",
+      "guild_rank_tier": "d_rank",
+      "atlas_region_affinity": [
+        "verdant_coast",
+        "south_east_wilds",
+        "hearthlands"
+      ],
+      "atlas_distance_ring": "inner_to_middle",
+      "allowed_loot_tier": "tier_2_regional",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:summon_horse",
+      "name": "Summon Horse",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "evocation",
+      "rarity": "legendary",
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "atlas_region_affinity": [
+        "stoneback_highlands",
+        "outer_rim",
+        "hearthlands"
+      ],
+      "atlas_distance_ring": "outer",
+      "allowed_loot_tier": "tier_4_boss",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "boss_or_dangerous_structure_recommended"
+      ],
+      "progression_band": "late",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "High-tier magic should require boss, dangerous-structure, rare-material, or rank-contract proof.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:ice_block",
+      "name": "Ice Block",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "ice",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "frostmarch",
+        "north_west_marches",
+        "north_east_marches"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:firecracker",
+      "name": "Firecracker",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "fire",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "sunreach",
+        "south_east_wilds",
+        "nether_front"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:fire_breath",
+      "name": "Fire Breath",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "fire",
+      "rarity": "epic",
+      "guild_rank_tier": "c_rank_to_b_rank",
+      "atlas_region_affinity": [
+        "sunreach",
+        "south_east_wilds",
+        "nether_front"
+      ],
+      "atlas_distance_ring": "middle",
+      "allowed_loot_tier": "tier_3_advanced",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "structure_or_rank_contract_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:flaming_barrage",
+      "name": "Flaming Barrage",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "fire",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "sunreach",
+        "south_east_wilds",
+        "nether_front"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:blizzard",
+      "name": "Blizzard",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "ice",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "frostmarch",
+        "north_west_marches",
+        "north_east_marches"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:summon_vex",
+      "name": "Summon Vex",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "void",
+      "rarity": "legendary",
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "atlas_region_affinity": [
+        "outer_rim",
+        "end_expanse",
+        "nether_front"
+      ],
+      "atlas_distance_ring": "outer",
+      "allowed_loot_tier": "tier_4_boss",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "boss_or_dangerous_structure_recommended"
+      ],
+      "progression_band": "late",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "High-tier magic should require boss, dangerous-structure, rare-material, or rank-contract proof.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:summon_swords",
+      "name": "Summon Swords",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "evocation",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "stoneback_highlands",
+        "outer_rim",
+        "hearthlands"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:scorch",
+      "name": "Scorch",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "fire",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "sunreach",
+        "south_east_wilds",
+        "nether_front"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:devour",
+      "name": "Devour",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "arcane",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "hearthlands",
+        "crownlands",
+        "outer_rim"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:ray_of_frost",
+      "name": "Ray of Frost",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "ice",
+      "rarity": "epic",
+      "guild_rank_tier": "c_rank_to_b_rank",
+      "atlas_region_affinity": [
+        "frostmarch",
+        "north_west_marches",
+        "north_east_marches"
+      ],
+      "atlas_distance_ring": "middle",
+      "allowed_loot_tier": "tier_3_advanced",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "structure_or_rank_contract_recommended"
+      ],
+      "progression_band": "mid",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:sunbeam",
+      "name": "Sunbeam",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "fire",
+      "rarity": "uncommon",
+      "guild_rank_tier": "e_rank",
+      "atlas_region_affinity": [
+        "sunreach",
+        "south_east_wilds",
+        "nether_front"
+      ],
+      "atlas_distance_ring": "center_to_inner",
+      "allowed_loot_tier": "tier_1_early",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "loot_or_vendor_recommended"
+      ],
+      "progression_band": "early",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    },
+    {
+      "id": "irons_spellbooks:blood_step",
+      "name": "Blood Step",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_mod_id": "irons_spellbooks",
+      "type": "spell",
+      "school": "blood",
+      "rarity": "legendary",
+      "guild_rank_tier": "b_rank_to_a_rank",
+      "atlas_region_affinity": [
+        "outer_rim",
+        "south_west_wilds",
+        "nether_front"
+      ],
+      "atlas_distance_ring": "outer",
+      "allowed_loot_tier": "tier_4_boss",
+      "recipe_tier_if_craftable": "not_craftable_or_not_found",
+      "intended_acquisition_method": [
+        "boss_or_dangerous_structure_recommended"
+      ],
+      "progression_band": "late",
+      "loot_sources": [],
+      "recipe_sources": [],
+      "notes": [
+        "School/type assignment evidence: keyword_from_id_name_or_registry_reason.",
+        "Audit-only policy; no hard gate or spell rewrite is enabled.",
+        "High-tier magic should require boss, dangerous-structure, rare-material, or rank-contract proof.",
+        "No direct recipe or loot source found in current scans; acquisition needs manual placement review."
+      ]
+    }
+  ],
+  "validation": {
+    "missing_rank_or_region_tier": [],
+    "missing_acquisition_method": []
+  },
+  "summary": {
+    "entries": 113,
+    "by_rarity": {
+      "epic": 23,
+      "uncommon": 67,
+      "rare": 13,
+      "legendary": 10
+    },
+    "by_school": {
+      "holy": 7,
+      "evocation": 12,
+      "ice": 12,
+      "void": 5,
+      "fire": 15,
+      "arcane": 27,
+      "nature": 11,
+      "lightning": 10,
+      "eldritch": 3,
+      "ender": 6,
+      "blood": 5
+    },
+    "by_progression_band": {
+      "mid": 36,
+      "early": 67,
+      "late": 10
+    }
+  }
+}

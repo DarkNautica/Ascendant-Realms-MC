@@ -1,0 +1,13 @@
+name = "Ascendant Realms"
+author = "Jayden"
+version = "0.1.0-alpha"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "9493169b8876c2f9bbae2e4a15cc8f5c1c895ae96a4b62ecd6bb724f10cdc14d"
+
+[versions]
+forge = "47.4.20"
+minecraft = "1.20.1"

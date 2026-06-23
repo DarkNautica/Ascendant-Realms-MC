@@ -1,0 +1,2194 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T02:04:15+00:00",
+  "source": "config/openloader/data/ascendant_realms_guild/data/bountiful/bounty_pools",
+  "entries": [
+    {
+      "pool_id": "ar_major_guild_objs",
+      "source_file": "config/openloader/data/ascendant_realms_guild/data/bountiful/bounty_pools/ascendant_guild/ar_major_guild_objs.json",
+      "board": "manual_review",
+      "loot_context": "bounty",
+      "atlas_region_allowance": [
+        "atlas_region_matching_contract"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "minimum_rarity": "common",
+      "allowed_rarity_ceiling": "rare",
+      "material_tier": "contract_currency",
+      "gear_tier": "rank_reward",
+      "recommended_action": "controlled",
+      "currency_items": [],
+      "rewards": [
+        {
+          "reward_id": "major_contract_01_crossbow_pirate",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_02_flaming_ashlord_guard",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_03_frozen_skeleton",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_04_nerakyss_the_kraken",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_05_pirate_captain",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_06_pirate_rook",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_07_sirok_the_sandworm",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_08_wither_knight",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_09_soul_skeleton",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_10_helvar_the_underworld_knight",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_11_skor_the_yeti",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_12_ancient_remnant",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_13_ender_guardian",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_14_ignis",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_15_maledictus",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_16_netherite_monstrosity",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_17_old_netherite_monstrosity",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_18_scylla",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_19_ceraunus",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_20_the_baby_leviathan",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_21_the_harbinger",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_22_the_leviathan",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_23_the_leviathan_is_invincible_outside_of_water",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_24_the_prowler",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_25_the_dead_king",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_26_dead_king_soul",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_27_echo_of_tyros_first_flamebearer",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_28_ferrous_wroughtnaut",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_29_frostmaw",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_30_the_decaying_king",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_31_old_champion_s_remains",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_32_harbinger_of_moonlight",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_33_night_prowler",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 7600,
+          "weightMult": 0.15,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "major_contract_34_komodo_dragon",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 11000,
+          "weightMult": 0.08,
+          "declared_rarity": "legendary"
+        },
+        {
+          "reward_id": "major_contract_35_ashlord_guard",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 11000,
+          "weightMult": 0.08,
+          "declared_rarity": "legendary"
+        },
+        {
+          "reward_id": "major_contract_36_ashlord_the_infernal_dragon",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 11000,
+          "weightMult": 0.08,
+          "declared_rarity": "legendary"
+        },
+        {
+          "reward_id": "major_contract_37_dread_hound",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 11000,
+          "weightMult": 0.08,
+          "declared_rarity": "legendary"
+        },
+        {
+          "reward_id": "major_contract_38_cockatrice",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 11000,
+          "weightMult": 0.08,
+          "declared_rarity": "legendary"
+        },
+        {
+          "reward_id": "major_contract_39_cyclops",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 11000,
+          "weightMult": 0.08,
+          "declared_rarity": "legendary"
+        },
+        {
+          "reward_id": "major_contract_40_dread_beast",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 11000,
+          "weightMult": 0.08,
+          "declared_rarity": "legendary"
+        },
+        {
+          "reward_id": "major_contract_41_dread_ghoul",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 11000,
+          "weightMult": 0.08,
+          "declared_rarity": "legendary"
+        },
+        {
+          "reward_id": "major_contract_42_dread_knight_horse",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 11000,
+          "weightMult": 0.08,
+          "declared_rarity": "legendary"
+        },
+        {
+          "reward_id": "major_contract_43_dread_knight",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 11000,
+          "weightMult": 0.08,
+          "declared_rarity": "legendary"
+        },
+        {
+          "reward_id": "major_contract_44_dread_lich",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 11000,
+          "weightMult": 0.08,
+          "declared_rarity": "legendary"
+        },
+        {
+          "reward_id": "major_contract_45_dread_queen",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 11000,
+          "weightMult": 0.08,
+          "declared_rarity": "legendary"
+        },
+        {
+          "reward_id": "major_contract_46_dread_scuttler",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 11000,
+          "weightMult": 0.08,
+          "declared_rarity": "legendary"
+        },
+        {
+          "reward_id": "major_contract_47_dread_thrall",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 11000,
+          "weightMult": 0.08,
+          "declared_rarity": "legendary"
+        },
+        {
+          "reward_id": "major_contract_48_fire_dragon",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 11000,
+          "weightMult": 0.08,
+          "declared_rarity": "legendary"
+        },
+        {
+          "reward_id": "major_contract_49_gorgon",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 11000,
+          "weightMult": 0.08,
+          "declared_rarity": "legendary"
+        },
+        {
+          "reward_id": "major_contract_50_hydra",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 11000,
+          "weightMult": 0.08,
+          "declared_rarity": "legendary"
+        },
+        {
+          "reward_id": "major_contract_51_ice_dragon",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 11000,
+          "weightMult": 0.08,
+          "declared_rarity": "legendary"
+        }
+      ]
+    },
+    {
+      "pool_id": "ar_major_guild_rews",
+      "source_file": "config/openloader/data/ascendant_realms_guild/data/bountiful/bounty_pools/ascendant_guild/ar_major_guild_rews.json",
+      "board": "major_guild_registry",
+      "loot_context": "bounty",
+      "atlas_region_allowance": [
+        "atlas_region_matching_contract"
+      ],
+      "distance_ring_allowance": [
+        "middle",
+        "outer",
+        "edge"
+      ],
+      "guild_rank_tier": "b_rank_to_s_rank",
+      "danger_tier": 5,
+      "minimum_rarity": "common",
+      "allowed_rarity_ceiling": "legendary",
+      "material_tier": "contract_currency",
+      "gear_tier": "rank_reward",
+      "recommended_action": "controlled",
+      "currency_items": [
+        "kubejs:hunter_seal",
+        "kubejs:ascendant_sigil"
+      ],
+      "rewards": [
+        {
+          "reward_id": "ar_rew_ascendant_sigil",
+          "type": "item",
+          "item_id": "kubejs:ascendant_sigil",
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 8500,
+          "weightMult": 0.5,
+          "declared_rarity": "legendary"
+        },
+        {
+          "reward_id": "ar_rew_hunter_seals",
+          "type": "item",
+          "item_id": "kubejs:hunter_seal",
+          "amount": {
+            "min": 2,
+            "max": 5
+          },
+          "unitWorth": 2200,
+          "weightMult": 0.6,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "ar_rew_diamond",
+          "type": "item",
+          "item_id": "minecraft:diamond",
+          "amount": {
+            "min": 1,
+            "max": 4
+          },
+          "unitWorth": 3000,
+          "weightMult": 0.25,
+          "declared_rarity": "epic"
+        },
+        {
+          "reward_id": "ar_rew_totem",
+          "type": "item",
+          "item_id": "minecraft:totem_of_undying",
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 4500,
+          "weightMult": 0.12,
+          "declared_rarity": "legendary"
+        },
+        {
+          "reward_id": "ar_rew_netherite_scrap",
+          "type": "item",
+          "item_id": "minecraft:netherite_scrap",
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 5200,
+          "weightMult": 0.08,
+          "declared_rarity": "legendary"
+        },
+        {
+          "reward_id": "ar_rew_echo_shard",
+          "type": "item",
+          "item_id": "minecraft:echo_shard",
+          "amount": {
+            "min": 1,
+            "max": 3
+          },
+          "unitWorth": 4000,
+          "weightMult": 0.1,
+          "declared_rarity": "epic"
+        }
+      ]
+    },
+    {
+      "pool_id": "ar_town_guild_objs",
+      "source_file": "config/openloader/data/ascendant_realms_guild/data/bountiful/bounty_pools/ascendant_guild/ar_town_guild_objs.json",
+      "board": "manual_review",
+      "loot_context": "bounty",
+      "atlas_region_allowance": [
+        "atlas_region_matching_contract"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "minimum_rarity": "common",
+      "allowed_rarity_ceiling": "rare",
+      "material_tier": "contract_currency",
+      "gear_tier": "rank_reward",
+      "recommended_action": "controlled",
+      "currency_items": [],
+      "rewards": [
+        {
+          "reward_id": "town_contract_01_froststalker",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 2600,
+          "weightMult": 0.38,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "town_contract_02_giant_squid",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 2600,
+          "weightMult": 0.38,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "town_contract_03_dire_hound_leader",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 2600,
+          "weightMult": 0.38,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "town_contract_04_door_knight",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 2600,
+          "weightMult": 0.38,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "town_contract_05_fallen_chaos_knight",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 2600,
+          "weightMult": 0.38,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "town_contract_06_nightmare_stalker",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 2600,
+          "weightMult": 0.38,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "town_contract_07_phantom_creeper",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 2600,
+          "weightMult": 0.38,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "town_contract_08_deepling_brute",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 2600,
+          "weightMult": 0.38,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "town_contract_09_ignited_berserker",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 2600,
+          "weightMult": 0.38,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "town_contract_10_ancient_knight",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 2600,
+          "weightMult": 0.38,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "town_contract_11_cerberus",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 2600,
+          "weightMult": 0.38,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "town_contract_12_creeperling",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 2600,
+          "weightMult": 0.38,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "town_contract_13_cursed_armor",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 2600,
+          "weightMult": 0.38,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "town_contract_14_giant",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 2600,
+          "weightMult": 0.38,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "town_contract_15_illusioner",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 2600,
+          "weightMult": 0.38,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "town_contract_16_tank",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 2600,
+          "weightMult": 0.38,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "town_contract_17_foxhound",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 2600,
+          "weightMult": 0.38,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "town_contract_18_wraith",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 2600,
+          "weightMult": 0.38,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "town_contract_19_day_stalker",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 2600,
+          "weightMult": 0.38,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "town_contract_20_frost_giant",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 2600,
+          "weightMult": 0.38,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "town_contract_21_fallen_icon",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 2600,
+          "weightMult": 0.38,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "town_contract_22_returning_knight",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 2600,
+          "weightMult": 0.38,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "town_contract_23_familiar_ghost",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 1
+          },
+          "unitWorth": 2600,
+          "weightMult": 0.38,
+          "declared_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "pool_id": "ar_town_guild_rews",
+      "source_file": "config/openloader/data/ascendant_realms_guild/data/bountiful/bounty_pools/ascendant_guild/ar_town_guild_rews.json",
+      "board": "town_guild_board",
+      "loot_context": "bounty",
+      "atlas_region_allowance": [
+        "atlas_region_matching_contract"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "d_rank_to_b_rank",
+      "danger_tier": 3,
+      "minimum_rarity": "common",
+      "allowed_rarity_ceiling": "epic",
+      "material_tier": "contract_currency",
+      "gear_tier": "rank_reward",
+      "recommended_action": "controlled",
+      "currency_items": [
+        "kubejs:guild_mark",
+        "kubejs:hunter_seal"
+      ],
+      "rewards": [
+        {
+          "reward_id": "ar_rew_hunter_seal",
+          "type": "item",
+          "item_id": "kubejs:hunter_seal",
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 2200,
+          "weightMult": 0.8,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "ar_rew_guild_marks",
+          "type": "item",
+          "item_id": "kubejs:guild_mark",
+          "amount": {
+            "min": 4,
+            "max": 10
+          },
+          "unitWorth": 700,
+          "weightMult": 0.8,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "ar_rew_iron",
+          "type": "item",
+          "item_id": "minecraft:iron_ingot",
+          "amount": {
+            "min": 4,
+            "max": 16
+          },
+          "unitWorth": 250,
+          "weightMult": 0.35,
+          "declared_rarity": null
+        },
+        {
+          "reward_id": "ar_rew_xp_bottle",
+          "type": "item",
+          "item_id": "minecraft:experience_bottle",
+          "amount": {
+            "min": 3,
+            "max": 12
+          },
+          "unitWorth": 600,
+          "weightMult": 0.4,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "ar_rew_gold",
+          "type": "item",
+          "item_id": "minecraft:gold_ingot",
+          "amount": {
+            "min": 3,
+            "max": 10
+          },
+          "unitWorth": 500,
+          "weightMult": 0.28,
+          "declared_rarity": "rare"
+        },
+        {
+          "reward_id": "ar_rew_ender_pearl",
+          "type": "item",
+          "item_id": "minecraft:ender_pearl",
+          "amount": {
+            "min": 1,
+            "max": 3
+          },
+          "unitWorth": 900,
+          "weightMult": 0.16,
+          "declared_rarity": "rare"
+        }
+      ]
+    },
+    {
+      "pool_id": "ar_village_hunter_objs",
+      "source_file": "config/openloader/data/ascendant_realms_guild/data/bountiful/bounty_pools/ascendant_guild/ar_village_hunter_objs.json",
+      "board": "manual_review",
+      "loot_context": "bounty",
+      "atlas_region_allowance": [
+        "atlas_region_matching_contract"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "manual_review",
+      "danger_tier": 2,
+      "minimum_rarity": "common",
+      "allowed_rarity_ceiling": "rare",
+      "material_tier": "contract_currency",
+      "gear_tier": "rank_reward",
+      "recommended_action": "controlled",
+      "currency_items": [],
+      "rewards": [
+        {
+          "reward_id": "village_hunt_01_anaconda",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_02_bone_serpent",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_03_crimson_mosquito",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_04_crocodile",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_05_dropbear",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_06_frilled_shark",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_07_grizzly_bear",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_08_mimic_octopus",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_09_mimicube",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_10_sea_bear",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_11_tiger",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_12_abyssal_scyphoid",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_13_eel",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_14_maw",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_15_mother_of_the_maze",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_16_maze_rose",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_17_pillagers_patrol",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_18_tortured_soul",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_19_mimic",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_20_baby_skeleton",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_21_baby_spider",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_22_barrel_zombie",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_23_bone_imp",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_24_bonescaller",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_25_decaying_zombie",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_26_decrepit_skeleton",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_27_diamond_termite",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_28_felsteed",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_29_firelight",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_30_infernal_spirit",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_31_krampus",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_32_krampus_henchman",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_33_lifestealer",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_34_lifestealer",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_35_corpse_maggot",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_36_missionary",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_37_missionary",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_38_spiders_mother",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_39_mr_pumpkin",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_40_mrs_pumpkin",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_41_pumpkin_bruiser",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_42_pumpkin_dunce",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_43_pumpkin_spirit",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_44_restless_spirit",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_45_felsteed",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_46_felsteed",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_47_scarlet_persecutor",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_48_seared_spirit",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_49_senor_pumpkin",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_50_siamese_skeletons",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_51_siamese_skeleton",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_52_siamese_skeleton",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_53_skeleton_demoman",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_54_skeleton_thrasher",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_55_spirit_guide",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_56_spirit_guide_assistant",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_57_spirit_of_chaos",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_58_supreme_bonescaller",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_59_supreme_bonescaller",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_60_swarmer",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_61_zombie_bruiser",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_62_zombie_clown",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_63_zombie_fisherman",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_64_zombie_lumberjack",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_65_catacombs_zombie",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_66_ice_spider",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_67_baby_foliaath",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_68_bluff",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_69_elokosa",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_70_elokosa_howler",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_71_foliaath",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_72_grottol",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_73_naga",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_74_umvuthana",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_75_umvuthana_crane",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_76_umvuthana_crane",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_77_umvuthana",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_78_umvuthana",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "village_hunt_79_umvuthana_raptor",
+          "type": "entity",
+          "item_id": null,
+          "amount": {
+            "min": 1,
+            "max": 2
+          },
+          "unitWorth": 900,
+          "weightMult": 0.55,
+          "declared_rarity": "uncommon"
+        }
+      ]
+    },
+    {
+      "pool_id": "ar_village_hunter_rews",
+      "source_file": "config/openloader/data/ascendant_realms_guild/data/bountiful/bounty_pools/ascendant_guild/ar_village_hunter_rews.json",
+      "board": "village_hunter_board",
+      "loot_context": "bounty",
+      "atlas_region_allowance": [
+        "atlas_region_matching_contract"
+      ],
+      "distance_ring_allowance": [
+        "all"
+      ],
+      "guild_rank_tier": "unranked_to_e_rank",
+      "danger_tier": 1,
+      "minimum_rarity": "common",
+      "allowed_rarity_ceiling": "rare",
+      "material_tier": "contract_currency",
+      "gear_tier": "rank_reward",
+      "recommended_action": "controlled",
+      "currency_items": [
+        "kubejs:guild_mark"
+      ],
+      "rewards": [
+        {
+          "reward_id": "ar_rew_guild_mark",
+          "type": "item",
+          "item_id": "kubejs:guild_mark",
+          "amount": {
+            "min": 1,
+            "max": 4
+          },
+          "unitWorth": 700,
+          "weightMult": 1.2,
+          "declared_rarity": "uncommon"
+        },
+        {
+          "reward_id": "ar_rew_emeralds",
+          "type": "item",
+          "item_id": "minecraft:emerald",
+          "amount": {
+            "min": 3,
+            "max": 12
+          },
+          "unitWorth": 1000,
+          "weightMult": 1.0,
+          "declared_rarity": null
+        },
+        {
+          "reward_id": "ar_rew_arrows",
+          "type": "item",
+          "item_id": "minecraft:arrow",
+          "amount": {
+            "min": 8,
+            "max": 24
+          },
+          "unitWorth": 120,
+          "weightMult": 0.55,
+          "declared_rarity": null
+        },
+        {
+          "reward_id": "ar_rew_cooked_beef",
+          "type": "item",
+          "item_id": "minecraft:cooked_beef",
+          "amount": {
+            "min": 2,
+            "max": 8
+          },
+          "unitWorth": 180,
+          "weightMult": 0.4,
+          "declared_rarity": null
+        },
+        {
+          "reward_id": "ar_rew_experience_bottle",
+          "type": "item",
+          "item_id": "minecraft:experience_bottle",
+          "amount": {
+            "min": 1,
+            "max": 4
+          },
+          "unitWorth": 450,
+          "weightMult": 0.35,
+          "declared_rarity": "uncommon"
+        }
+      ]
+    }
+  ],
+  "missing_item_references": [],
+  "summary": {
+    "total_pools": 6,
+    "reward_item_count": 170
+  }
+}

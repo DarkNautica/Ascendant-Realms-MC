@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "ranks": [
+    {
+      "id": "unranked",
+      "order": 0,
+      "name": "Unranked",
+      "prefix": "[Unranked]",
+      "color": "gray",
+      "description": "Not formally recognized by the Guild.",
+      "evaluation_hint": "Starting state for new players or visitors.",
+      "suggested_requirements": {
+        "guild_reputation": 0,
+        "bounties_completed": 0,
+        "structure_clears": 0,
+        "boss_kills": 0,
+        "notes": "No gate."
+      }
+    },
+    {
+      "id": "e_rank",
+      "order": 1,
+      "name": "E-Rank",
+      "prefix": "[E-Rank]",
+      "color": "dark_green",
+      "description": "A barely registered hunter trusted with simple village requests.",
+      "evaluation_hint": "Prove survival basics and complete a small local request.",
+      "suggested_requirements": {
+        "guild_reputation": 10,
+        "bounties_completed": 1,
+        "structure_clears": 0,
+        "boss_kills": 0,
+        "notes": "Early game. No dungeon clear required."
+      }
+    },
+    {
+      "id": "d_rank",
+      "order": 2,
+      "name": "D-Rank",
+      "prefix": "[D-Rank]",
+      "color": "green",
+      "description": "A field adventurer who can protect a village from common threats.",
+      "evaluation_hint": "Complete multiple village requests and survive basic monster hunts.",
+      "suggested_requirements": {
+        "guild_reputation": 35,
+        "bounties_completed": 3,
+        "structure_clears": 1,
+        "boss_kills": 0,
+        "notes": "Should happen after the player has basic gear and one small structure clear."
+      }
+    },
+    {
+      "id": "c_rank",
+      "order": 3,
+      "name": "C-Rank",
+      "prefix": "[C-Rank]",
+      "color": "aqua",
+      "description": "A licensed monster hunter trusted with crypts, towers, and dangerous roads.",
+      "evaluation_hint": "Clear real structures, complete contract chains, and prove combat competence.",
+      "suggested_requirements": {
+        "guild_reputation": 90,
+        "bounties_completed": 8,
+        "structure_clears": 3,
+        "boss_kills": 0,
+        "notes": "First real social recognition tier."
+      }
+    },
+    {
+      "id": "b_rank",
+      "order": 4,
+      "name": "B-Rank",
+      "prefix": "[B-Rank]",
+      "color": "blue",
+      "description": "An elite hunter able to clear serious dungeons and survive modded threats.",
+      "evaluation_hint": "Defeat elite mobs, clear larger structures, and outpace rival hunters.",
+      "suggested_requirements": {
+        "guild_reputation": 210,
+        "bounties_completed": 18,
+        "structure_clears": 8,
+        "boss_kills": 1,
+        "notes": "Should require a meaningful boss or miniboss proof."
+      }
+    },
+    {
+      "id": "a_rank",
+      "order": 5,
+      "name": "A-Rank",
+      "prefix": "[A-Rank]",
+      "color": "gold",
+      "description": "A realm-class fighter called when towns expect disaster.",
+      "evaluation_hint": "Defeat major bosses, protect high-risk settlements, and handle dragon-tier zones.",
+      "suggested_requirements": {
+        "guild_reputation": 500,
+        "bounties_completed": 35,
+        "structure_clears": 18,
+        "boss_kills": 4,
+        "notes": "Late midgame. Should not happen from ordinary grind."
+      }
+    },
+    {
+      "id": "s_rank",
+      "order": 6,
+      "name": "S-Rank",
+      "prefix": "[S-Rank]",
+      "color": "dark_purple",
+      "description": "An ascendant-class anomaly whose actions become public history.",
+      "evaluation_hint": "Clear realm-level threats and prove command of the full pack stack.",
+      "suggested_requirements": {
+        "guild_reputation": 1200,
+        "bounties_completed": 60,
+        "structure_clears": 35,
+        "boss_kills": 10,
+        "notes": "Endgame myth tier. Should require curated achievements, not simple counters."
+      }
+    }
+  ]
+}

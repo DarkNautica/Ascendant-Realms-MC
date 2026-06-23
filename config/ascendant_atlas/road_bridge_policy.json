@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "status": "active policy; helper module required for terrain-aware road replacement",
+  "goal": "Roads should connect settlements and camps without carving nonsense paths over rivers, cliffs, or steep terrain.",
+  "installed_bridge_layers": [
+    "YUNG's Bridges generates standalone world bridges.",
+    "Macaw's Bridges supplies buildable medieval bridge blocks.",
+    "Macaw's Lights and Lamps supplies wall lanterns for custom guild structures."
+  ],
+  "rules": [
+    {
+      "id": "river_crossings_need_bridges",
+      "rule": "When an authored road crosses water or a ravine, prefer a bridge structure/piece instead of a flat path.",
+      "current_owner": "manual structure templates and future helper module"
+    },
+    {
+      "id": "steep_roads_need_supports",
+      "rule": "Roads should not float or shear through cliffs. Use stair/bridge/support pieces when elevation changes sharply.",
+      "current_owner": "manual structure templates and future helper module"
+    },
+    {
+      "id": "region_materials",
+      "rule": "Road/bridge materials should follow region identity: spruce/cobble north, sandstone/acacia south, jungle/mangrove east, stone/dark-oak west.",
+      "current_owner": "Ascendant Atlas structure template policy"
+    },
+    {
+      "id": "avoid_village_stack",
+      "rule": "Village-connected roads should respect the widened village structure spacing and should not force multiple full village systems into one footprint.",
+      "current_owner": "Sparse Structures, Towns and Towers, Integrated Villages, Ascendant Guild spacing"
+    }
+  ],
+  "implementation_boundary": [
+    "Datapacks can define bridge structures and village pieces.",
+    "Existing mods can generate their own bridges and roads.",
+    "A helper module is required to inspect generated terrain, detect a road/ravine/river crossing, and substitute Macaw/YUNG-style bridge pieces dynamically."
+  ],
+  "fresh_world_checks": [
+    "Roads should not visibly float over water or cliffs near spawn villages.",
+    "YUNG's Bridges should still generate natural bridge landmarks.",
+    "Custom guild camp lanterns should use wall lantern variants when attached to walls.",
+    "If a road crosses a river without a bridge, record coordinates for helper-module route logic."
+  ]
+}

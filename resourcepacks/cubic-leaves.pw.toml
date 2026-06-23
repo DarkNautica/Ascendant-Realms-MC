@@ -1,0 +1,13 @@
+name = "Cubic Leaves"
+filename = "Cubic Leaves 2.3 (performance).zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/6nx7bid1/versions/rtyFdBOa/Cubic%20Leaves%202.3%20%28performance%29.zip"
+hash-format = "sha512"
+hash = "aa7c353a6837df31a5d5ff0e72ae002eb7e04f10d425488f7659ab579bf1829d1742440467e13c46c8b6bb8ef35aae450fbd8f5383246dbf788af5d708948310"
+
+[update]
+[update.modrinth]
+mod-id = "6nx7bid1"
+version = "rtyFdBOa"

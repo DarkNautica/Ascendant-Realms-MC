@@ -1,0 +1,11 @@
+{
+  "name": "Villages Matter",
+  "icon": "minecraft:oak_door",
+  "category": "ascendant_realms:settlements",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Villages are not decoration. They need guards, names, boards, requests, nearby dangers, and reasons to return. A protected village should feel different from a neglected one."
+    }
+  ]
+}

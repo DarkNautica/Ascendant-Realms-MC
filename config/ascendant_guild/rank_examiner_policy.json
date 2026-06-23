@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "status": "live_function_bridge_not_final_quest_trial",
+  "npc_profile_id": "rank_examiner",
+  "interaction_script": "customnpcs/scripts/ecmascript/ascendant_npc_identity.js",
+  "evaluation_function": "ascendant_identity:rank_examiner/evaluate",
+  "debug_function": "ascendant_identity:rank_examiner/debug_scores",
+  "sync_function": "ascendant_identity:rank_examiner/sync_nameplate",
+  "scoreboards_read": [
+    "ar_guild_rank",
+    "ar_guild_rep",
+    "ar_hunt_kills",
+    "ar_elite_kills",
+    "ar_bounties_done",
+    "ar_structures_done",
+    "ar_bosses_done",
+    "ar_dragons_done",
+    "ar_skill_level",
+    "ar_skill_sp"
+  ],
+  "rank_trials": [
+    {
+      "rank": "e_rank",
+      "order": 1,
+      "function": "ascendant_identity:rank/e_rank",
+      "requirements": { "ar_guild_rep": 10 }
+    },
+    {
+      "rank": "d_rank",
+      "order": 2,
+      "function": "ascendant_identity:rank/d_rank",
+      "requirements": { "ar_guild_rep": 35, "ar_hunt_kills": 10 }
+    },
+    {
+      "rank": "c_rank",
+      "order": 3,
+      "function": "ascendant_identity:rank/c_rank",
+      "requirements": { "ar_guild_rep": 90, "ar_hunt_kills": 35 }
+    },
+    {
+      "rank": "b_rank",
+      "order": 4,
+      "function": "ascendant_identity:rank/b_rank",
+      "requirements": { "ar_guild_rep": 210, "ar_bosses_done": 1 }
+    },
+    {
+      "rank": "a_rank",
+      "order": 5,
+      "function": "ascendant_identity:rank/a_rank",
+      "requirements": { "ar_guild_rep": 500, "ar_bosses_done": 4 }
+    },
+    {
+      "rank": "s_rank",
+      "order": 6,
+      "function": "ascendant_identity:rank/s_rank",
+      "requirements": { "ar_guild_rep": 1200, "ar_bosses_done": 8, "ar_dragons_done": 2 }
+    }
+  ],
+  "current_behavior": [
+    "Interacting with a Rank Examiner CustomNPC runs the evaluation as the interacting player.",
+    "The manual command /function ascendant_identity:rank_examiner/evaluate is an admin/test hook only, not a player-facing feature.",
+    "The function shows proof counters, promotes the player if requirements are met, and refreshes the visible player rank team.",
+    "If the CustomNPC bridge cannot execute, the NPC reports that the Guild ledger is unavailable instead of telling the player to type a command."
+  ],
+  "future_upgrade": [
+    "Replace simple score thresholds with authored FTB Quest rank trials.",
+    "Tie bounties completed, structures cleared, dungeon boss kills, regional discoveries, and rival events into the trial matrix.",
+    "Keep the public rank display separate from the Ascendant Web skill level."
+  ]
+}

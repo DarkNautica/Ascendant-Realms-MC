@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "system_id": "ascendant_dungeon_holograms",
+  "status": "installed_but_helper_auto_creation_suppressed",
+  "hologram_owner": "elite_holograms",
+  "packwiz_metadata": "mods/elite-holograms.pw.toml",
+  "expected_filename": "EliteHolograms-1.20.1-1.1.0.jar",
+  "purpose": "World-space styled rank text for Ascendant ranked dungeon rifts.",
+  "creation_enabled": false,
+  "creation_scope": "manual_spawn_test_only",
+  "creation_gate": "Elite Holograms remains installed for future styled world-space rank text, but helper auto-creation is disabled because spawned holograms currently show an editor instruction helper line. Current dungeon gates use frameless item-display gate art, rank-colored particles, invisible light, and ambient sound instead.",
+  "placement": {
+    "anchor": "dungeon_rift_origin",
+    "y_offset_blocks": 3.2,
+    "visible_distance_blocks": 64,
+    "cleanup_with_rift": true,
+    "avoid_permanent_world_spam": true
+  },
+  "rank_styles": {
+    "d_rank": {
+      "title": "<gradient:#7EE7FF:#B9F7FF><bold>D-RANK DUNGEON</bold></gradient>",
+      "accent": "#7EE7FF",
+      "lines": [
+        "<gradient:#7EE7FF:#B9F7FF><bold>D-RANK DUNGEON</bold></gradient>",
+        "<gray>{display}</gray>",
+        "<dark_gray>Danger {danger_tier} | Loot {loot_tier}</dark_gray>"
+      ]
+    },
+    "c_rank": {
+      "title": "<gradient:#76FF9D:#D0FFC5><bold>C-RANK DUNGEON</bold></gradient>",
+      "accent": "#76FF9D",
+      "lines": [
+        "<gradient:#76FF9D:#D0FFC5><bold>C-RANK DUNGEON</bold></gradient>",
+        "<gray>{display}</gray>",
+        "<dark_gray>Danger {danger_tier} | Loot {loot_tier}</dark_gray>"
+      ]
+    },
+    "b_rank": {
+      "title": "<gradient:#B783FF:#F1C4FF><bold>B-RANK DUNGEON</bold></gradient>",
+      "accent": "#B783FF",
+      "lines": [
+        "<gradient:#B783FF:#F1C4FF><bold>B-RANK DUNGEON</bold></gradient>",
+        "<gray>{display}</gray>",
+        "<dark_gray>Danger {danger_tier} | Loot {loot_tier}</dark_gray>"
+      ]
+    },
+    "a_rank": {
+      "title": "<gradient:#FFD166:#FF7A59><bold>A-RANK DUNGEON</bold></gradient>",
+      "accent": "#FFD166",
+      "lines": [
+        "<gradient:#FFD166:#FF7A59><bold>A-RANK DUNGEON</bold></gradient>",
+        "<gray>{display}</gray>",
+        "<dark_gray>Danger {danger_tier} | Loot {loot_tier}</dark_gray>"
+      ]
+    },
+    "s_rank": {
+      "title": "<gradient:#FFFFFF:#FF3B8A><bold>S-RANK DUNGEON</bold></gradient>",
+      "accent": "#FF3B8A",
+      "lines": [
+        "<gradient:#FFFFFF:#FF3B8A><bold>S-RANK DUNGEON</bold></gradient>",
+        "<gray>{display}</gray>",
+        "<dark_gray>Danger {danger_tier} | Loot {loot_tier}</dark_gray>"
+      ]
+    }
+  },
+  "test_plan": [
+    "Confirm the game starts with Elite Holograms installed.",
+    "Confirm the Elite Holograms command root is available.",
+    "Run /ascdungeon spawn_visual_here d_rank and confirm no yellow Elite Holograms edit-instruction helper text appears above the ranked entrance.",
+    "Run /ascdungeon spawn_test_all_ranks 12 and confirm D/C/B/A/S rank colors read through gate art and particles.",
+    "Run /ascdungeon cleanup_test and confirm temporary gate visuals, invisible light, and any old fallback nameplates disappear.",
+    "Only then enable autonomous helper-driven dungeon-rift hologram creation."
+  ]
+}

@@ -1,0 +1,3636 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T02:11:41+00:00",
+  "summary": {
+    "high_risk_count": 109,
+    "by_status": {
+      "bypass": 28,
+      "duplicate": 56,
+      "too_cheap": 25
+    },
+    "invalid_json_count": 0
+  },
+  "entries": [
+    {
+      "item_id": "born_in_chaos_v1:death_totem",
+      "recipe_id": "born_in_chaos_v1:death_totem_k",
+      "source_mod": "Born in Chaos ",
+      "source_namespace": "born_in_chaos_v1",
+      "source_kind": "installed_mod_jar",
+      "source_file": "born_in_chaos_[Forge]1.20.1_1.7.5.jar!/data/born_in_chaos_v1/recipes/death_totem_k.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "born_in_chaos_v1:ethereal_spirit",
+        "born_in_chaos_v1:seedof_chaos",
+        "born_in_chaos_v1:shattered_skull",
+        "#d_dub"
+      ],
+      "ingredient_items": [
+        "born_in_chaos_v1:ethereal_spirit",
+        "born_in_chaos_v1:seedof_chaos",
+        "born_in_chaos_v1:shattered_skull"
+      ],
+      "ingredient_tags": [
+        "d_dub"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "general",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "too_cheap",
+      "reason": "High-rarity output does not require enough high-tier ingredients.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression."
+    },
+    {
+      "item_id": "born_in_chaos_v1:darkwarblade",
+      "recipe_id": "born_in_chaos_v1:great_dark_crusher_k",
+      "source_mod": "Born in Chaos ",
+      "source_namespace": "born_in_chaos_v1",
+      "source_kind": "installed_mod_jar",
+      "source_file": "born_in_chaos_[Forge]1.20.1_1.7.5.jar!/data/born_in_chaos_v1/recipes/great_dark_crusher_k.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "born_in_chaos_v1:bone_handle",
+        "born_in_chaos_v1:dark_metal_block"
+      ],
+      "ingredient_items": [
+        "born_in_chaos_v1:bone_handle",
+        "born_in_chaos_v1:dark_metal_block"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "weapon",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "too_cheap",
+      "reason": "High-rarity output does not require enough high-tier ingredients.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression."
+    },
+    {
+      "item_id": "born_in_chaos_v1:great_reaper_axe",
+      "recipe_id": "born_in_chaos_v1:great_reaper_ax_k",
+      "source_mod": "Born in Chaos ",
+      "source_namespace": "born_in_chaos_v1",
+      "source_kind": "installed_mod_jar",
+      "source_file": "born_in_chaos_[Forge]1.20.1_1.7.5.jar!/data/born_in_chaos_v1/recipes/great_reaper_ax_k.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "born_in_chaos_v1:bone_handle",
+        "born_in_chaos_v1:dark_metal_ingot"
+      ],
+      "ingredient_items": [
+        "born_in_chaos_v1:bone_handle",
+        "born_in_chaos_v1:dark_metal_ingot"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "weapon",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "too_cheap",
+      "reason": "High-rarity output does not require enough high-tier ingredients.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression."
+    },
+    {
+      "item_id": "born_in_chaos_v1:intoxicating_dagger",
+      "recipe_id": "born_in_chaos_v1:intoxicating_dagger_k",
+      "source_mod": "Born in Chaos ",
+      "source_namespace": "born_in_chaos_v1",
+      "source_kind": "installed_mod_jar",
+      "source_file": "born_in_chaos_[Forge]1.20.1_1.7.5.jar!/data/born_in_chaos_v1/recipes/intoxicating_dagger_k.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "born_in_chaos_v1:bone_handle",
+        "born_in_chaos_v1:dark_metal_ingot",
+        "born_in_chaos_v1:intoxicating_decoction"
+      ],
+      "ingredient_items": [
+        "born_in_chaos_v1:bone_handle",
+        "born_in_chaos_v1:dark_metal_ingot",
+        "born_in_chaos_v1:intoxicating_decoction"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "weapon",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "too_cheap",
+      "reason": "High-rarity output does not require enough high-tier ingredients.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression."
+    },
+    {
+      "item_id": "born_in_chaos_v1:skullbreaker_hammer",
+      "recipe_id": "born_in_chaos_v1:skull_crusher_k",
+      "source_mod": "Born in Chaos ",
+      "source_namespace": "born_in_chaos_v1",
+      "source_kind": "installed_mod_jar",
+      "source_file": "born_in_chaos_[Forge]1.20.1_1.7.5.jar!/data/born_in_chaos_v1/recipes/skull_crusher_k.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "born_in_chaos_v1:bone_handle",
+        "born_in_chaos_v1:dark_metal_block"
+      ],
+      "ingredient_items": [
+        "born_in_chaos_v1:bone_handle",
+        "born_in_chaos_v1:dark_metal_block"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "weapon",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "too_cheap",
+      "reason": "High-rarity output does not require enough high-tier ingredients.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression."
+    },
+    {
+      "item_id": "born_in_chaos_v1:soul_cutlass",
+      "recipe_id": "born_in_chaos_v1:soul_saber_k",
+      "source_mod": "Born in Chaos ",
+      "source_namespace": "born_in_chaos_v1",
+      "source_kind": "installed_mod_jar",
+      "source_file": "born_in_chaos_[Forge]1.20.1_1.7.5.jar!/data/born_in_chaos_v1/recipes/soul_saber_k.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "born_in_chaos_v1:bone_handle",
+        "born_in_chaos_v1:dark_metal_ingot",
+        "born_in_chaos_v1:dark_metal_nugget",
+        "born_in_chaos_v1:nightmare_claw"
+      ],
+      "ingredient_items": [
+        "born_in_chaos_v1:bone_handle",
+        "born_in_chaos_v1:dark_metal_ingot",
+        "born_in_chaos_v1:dark_metal_nugget",
+        "born_in_chaos_v1:nightmare_claw"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "mythic",
+      "output_domain": "weapon",
+      "intended_guild_rank": "a_rank_to_s_rank",
+      "intended_atlas_distance_ring": "outer_to_edge",
+      "intended_recipe_tier": "tier_5_dragon",
+      "material_tier": "dragon_or_capstone",
+      "recipe_status": "too_cheap",
+      "reason": "High-rarity output does not require enough high-tier ingredients.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression."
+    },
+    {
+      "item_id": "galosphere:silver_ingot",
+      "recipe_id": "create:blasting/silver_ingot_compat_galosphere",
+      "source_mod": "Create",
+      "source_namespace": "create",
+      "source_kind": "installed_mod_jar",
+      "source_file": "create-1.20.1-6.0.8.jar!/data/create/recipes/blasting/silver_ingot_compat_galosphere.json",
+      "recipe_type": "minecraft:blasting",
+      "current_ingredients": [
+        "create:crushed_raw_silver"
+      ],
+      "ingredient_items": [
+        "create:crushed_raw_silver"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "common",
+      "output_domain": "material",
+      "intended_guild_rank": "unranked",
+      "intended_atlas_distance_ring": "center",
+      "intended_recipe_tier": "tier_0_baseline",
+      "material_tier": "mundane",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "silver",
+          "canonical_item": "iceandfire:silver_ingot",
+          "observed_reference": "galosphere:silver_ingot"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "oreganized:silver_ingot",
+      "recipe_id": "create:blasting/silver_ingot_compat_oreganized",
+      "source_mod": "Create",
+      "source_namespace": "create",
+      "source_kind": "installed_mod_jar",
+      "source_file": "create-1.20.1-6.0.8.jar!/data/create/recipes/blasting/silver_ingot_compat_oreganized.json",
+      "recipe_type": "minecraft:blasting",
+      "current_ingredients": [
+        "create:crushed_raw_silver"
+      ],
+      "ingredient_items": [
+        "create:crushed_raw_silver"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "common",
+      "output_domain": "material",
+      "intended_guild_rank": "unranked",
+      "intended_atlas_distance_ring": "center",
+      "intended_recipe_tier": "tier_0_baseline",
+      "material_tier": "mundane",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "silver",
+          "canonical_item": "iceandfire:silver_ingot",
+          "observed_reference": "oreganized:silver_ingot"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "thermal:silver_ingot",
+      "recipe_id": "create:blasting/silver_ingot_compat_thermal",
+      "source_mod": "Create",
+      "source_namespace": "create",
+      "source_kind": "installed_mod_jar",
+      "source_file": "create-1.20.1-6.0.8.jar!/data/create/recipes/blasting/silver_ingot_compat_thermal.json",
+      "recipe_type": "minecraft:blasting",
+      "current_ingredients": [
+        "create:crushed_raw_silver"
+      ],
+      "ingredient_items": [
+        "create:crushed_raw_silver"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "common",
+      "output_domain": "material",
+      "intended_guild_rank": "unranked",
+      "intended_atlas_distance_ring": "center",
+      "intended_recipe_tier": "tier_0_baseline",
+      "material_tier": "mundane",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "silver",
+          "canonical_item": "iceandfire:silver_ingot",
+          "observed_reference": "thermal:silver_ingot"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "create:copper_nugget",
+      "recipe_id": "create:crafting/materials/copper_nugget",
+      "source_mod": "Create",
+      "source_namespace": "create",
+      "source_kind": "installed_mod_jar",
+      "source_file": "create-1.20.1-6.0.8.jar!/data/create/recipes/crafting/materials/copper_nugget.json",
+      "recipe_type": "minecraft:crafting_shapeless",
+      "current_ingredients": [
+        "#forge:ingots/copper"
+      ],
+      "ingredient_items": [],
+      "ingredient_tags": [
+        "forge:ingots/copper"
+      ],
+      "output_count": 9,
+      "gear_material_rarity": "uncommon",
+      "output_domain": "create_component",
+      "intended_guild_rank": "e_rank",
+      "intended_atlas_distance_ring": "center_to_inner",
+      "intended_recipe_tier": "tier_1_early",
+      "material_tier": "mundane_to_regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "copper",
+          "canonical_item": "minecraft:copper_ingot",
+          "observed_reference": "create:copper_nugget"
+        }
+      ],
+      "material_tag_references": [
+        "forge:ingots/copper"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "create:copper_nugget",
+      "recipe_id": "create:crushing/tuff",
+      "source_mod": "Create",
+      "source_namespace": "create",
+      "source_kind": "installed_mod_jar",
+      "source_file": "create-1.20.1-6.0.8.jar!/data/create/recipes/crushing/tuff.json",
+      "recipe_type": "create:crushing",
+      "current_ingredients": [
+        "minecraft:tuff"
+      ],
+      "ingredient_items": [
+        "minecraft:tuff"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "uncommon",
+      "output_domain": "create_component",
+      "intended_guild_rank": "e_rank",
+      "intended_atlas_distance_ring": "center_to_inner",
+      "intended_recipe_tier": "tier_1_early",
+      "material_tier": "mundane_to_regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "copper",
+          "canonical_item": "minecraft:copper_ingot",
+          "observed_reference": "create:copper_nugget"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "create:copper_nugget",
+      "recipe_id": "create:crushing/tuff_recycling",
+      "source_mod": "Create",
+      "source_namespace": "create",
+      "source_kind": "installed_mod_jar",
+      "source_file": "create-1.20.1-6.0.8.jar!/data/create/recipes/crushing/tuff_recycling.json",
+      "recipe_type": "create:crushing",
+      "current_ingredients": [
+        "#create:stone_types/tuff"
+      ],
+      "ingredient_items": [],
+      "ingredient_tags": [
+        "create:stone_types/tuff"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "uncommon",
+      "output_domain": "create_component",
+      "intended_guild_rank": "e_rank",
+      "intended_atlas_distance_ring": "center_to_inner",
+      "intended_recipe_tier": "tier_1_early",
+      "material_tier": "mundane_to_regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "copper",
+          "canonical_item": "minecraft:copper_ingot",
+          "observed_reference": "create:copper_nugget"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "create:copper_nugget",
+      "recipe_id": "create:crushing/veridium",
+      "source_mod": "Create",
+      "source_namespace": "create",
+      "source_kind": "installed_mod_jar",
+      "source_file": "create-1.20.1-6.0.8.jar!/data/create/recipes/crushing/veridium.json",
+      "recipe_type": "create:crushing",
+      "current_ingredients": [
+        "create:veridium"
+      ],
+      "ingredient_items": [
+        "create:veridium"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "uncommon",
+      "output_domain": "create_component",
+      "intended_guild_rank": "e_rank",
+      "intended_atlas_distance_ring": "center_to_inner",
+      "intended_recipe_tier": "tier_1_early",
+      "material_tier": "mundane_to_regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "copper",
+          "canonical_item": "minecraft:copper_ingot",
+          "observed_reference": "create:copper_nugget"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "create:copper_nugget",
+      "recipe_id": "create:crushing/veridium_recycling",
+      "source_mod": "Create",
+      "source_namespace": "create",
+      "source_kind": "installed_mod_jar",
+      "source_file": "create-1.20.1-6.0.8.jar!/data/create/recipes/crushing/veridium_recycling.json",
+      "recipe_type": "create:crushing",
+      "current_ingredients": [
+        "#create:stone_types/veridium"
+      ],
+      "ingredient_items": [],
+      "ingredient_tags": [
+        "create:stone_types/veridium"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "uncommon",
+      "output_domain": "create_component",
+      "intended_guild_rank": "e_rank",
+      "intended_atlas_distance_ring": "center_to_inner",
+      "intended_recipe_tier": "tier_1_early",
+      "material_tier": "mundane_to_regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "copper",
+          "canonical_item": "minecraft:copper_ingot",
+          "observed_reference": "create:copper_nugget"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "create:copper_sheet",
+      "recipe_id": "create:pressing/copper_ingot",
+      "source_mod": "Create",
+      "source_namespace": "create",
+      "source_kind": "installed_mod_jar",
+      "source_file": "create-1.20.1-6.0.8.jar!/data/create/recipes/pressing/copper_ingot.json",
+      "recipe_type": "create:pressing",
+      "current_ingredients": [
+        "#forge:ingots/copper"
+      ],
+      "ingredient_items": [],
+      "ingredient_tags": [
+        "forge:ingots/copper"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "uncommon",
+      "output_domain": "create_component",
+      "intended_guild_rank": "e_rank",
+      "intended_atlas_distance_ring": "center_to_inner",
+      "intended_recipe_tier": "tier_1_early",
+      "material_tier": "mundane_to_regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "copper",
+          "canonical_item": "minecraft:copper_ingot",
+          "observed_reference": "create:copper_sheet"
+        }
+      ],
+      "material_tag_references": [
+        "forge:ingots/copper"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "create:golden_sheet",
+      "recipe_id": "create:pressing/gold_ingot",
+      "source_mod": "Create",
+      "source_namespace": "create",
+      "source_kind": "installed_mod_jar",
+      "source_file": "create-1.20.1-6.0.8.jar!/data/create/recipes/pressing/gold_ingot.json",
+      "recipe_type": "create:pressing",
+      "current_ingredients": [
+        "#forge:ingots/gold"
+      ],
+      "ingredient_items": [],
+      "ingredient_tags": [
+        "forge:ingots/gold"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "rare",
+      "output_domain": "create_component",
+      "intended_guild_rank": "d_rank",
+      "intended_atlas_distance_ring": "inner_to_middle",
+      "intended_recipe_tier": "tier_2_regional",
+      "material_tier": "regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "gold",
+          "canonical_item": "minecraft:gold_ingot",
+          "observed_reference": "create:golden_sheet"
+        }
+      ],
+      "material_tag_references": [
+        "forge:ingots/gold"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "create:iron_sheet",
+      "recipe_id": "create:pressing/iron_ingot",
+      "source_mod": "Create",
+      "source_namespace": "create",
+      "source_kind": "installed_mod_jar",
+      "source_file": "create-1.20.1-6.0.8.jar!/data/create/recipes/pressing/iron_ingot.json",
+      "recipe_type": "create:pressing",
+      "current_ingredients": [
+        "#forge:ingots/iron"
+      ],
+      "ingredient_items": [],
+      "ingredient_tags": [
+        "forge:ingots/iron"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "uncommon",
+      "output_domain": "create_component",
+      "intended_guild_rank": "e_rank",
+      "intended_atlas_distance_ring": "center_to_inner",
+      "intended_recipe_tier": "tier_1_early",
+      "material_tier": "mundane_to_regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "create:iron_sheet"
+        }
+      ],
+      "material_tag_references": [
+        "forge:ingots/iron"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "create:golden_sheet",
+      "recipe_id": "create:sequenced_assembly/precision_mechanism",
+      "source_mod": "Create",
+      "source_namespace": "create",
+      "source_kind": "installed_mod_jar",
+      "source_file": "create-1.20.1-6.0.8.jar!/data/create/recipes/sequenced_assembly/precision_mechanism.json",
+      "recipe_type": "create:sequenced_assembly",
+      "current_ingredients": [
+        "create:incomplete_precision_mechanism",
+        "create:large_cogwheel",
+        "#forge:nuggets/iron",
+        "#forge:plates/gold"
+      ],
+      "ingredient_items": [
+        "create:incomplete_precision_mechanism",
+        "create:large_cogwheel"
+      ],
+      "ingredient_tags": [
+        "forge:nuggets/iron",
+        "forge:plates/gold"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "rare",
+      "output_domain": "create_component",
+      "intended_guild_rank": "d_rank",
+      "intended_atlas_distance_ring": "inner_to_middle",
+      "intended_recipe_tier": "tier_2_regional",
+      "material_tier": "regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "gold",
+          "canonical_item": "minecraft:gold_ingot",
+          "observed_reference": "create:golden_sheet"
+        }
+      ],
+      "material_tag_references": [
+        "forge:nuggets/iron",
+        "forge:plates/gold"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "galosphere:silver_ingot",
+      "recipe_id": "create:smelting/silver_ingot_compat_galosphere",
+      "source_mod": "Create",
+      "source_namespace": "create",
+      "source_kind": "installed_mod_jar",
+      "source_file": "create-1.20.1-6.0.8.jar!/data/create/recipes/smelting/silver_ingot_compat_galosphere.json",
+      "recipe_type": "minecraft:smelting",
+      "current_ingredients": [
+        "create:crushed_raw_silver"
+      ],
+      "ingredient_items": [
+        "create:crushed_raw_silver"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "common",
+      "output_domain": "material",
+      "intended_guild_rank": "unranked",
+      "intended_atlas_distance_ring": "center",
+      "intended_recipe_tier": "tier_0_baseline",
+      "material_tier": "mundane",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "silver",
+          "canonical_item": "iceandfire:silver_ingot",
+          "observed_reference": "galosphere:silver_ingot"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "oreganized:silver_ingot",
+      "recipe_id": "create:smelting/silver_ingot_compat_oreganized",
+      "source_mod": "Create",
+      "source_namespace": "create",
+      "source_kind": "installed_mod_jar",
+      "source_file": "create-1.20.1-6.0.8.jar!/data/create/recipes/smelting/silver_ingot_compat_oreganized.json",
+      "recipe_type": "minecraft:smelting",
+      "current_ingredients": [
+        "create:crushed_raw_silver"
+      ],
+      "ingredient_items": [
+        "create:crushed_raw_silver"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "common",
+      "output_domain": "material",
+      "intended_guild_rank": "unranked",
+      "intended_atlas_distance_ring": "center",
+      "intended_recipe_tier": "tier_0_baseline",
+      "material_tier": "mundane",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "silver",
+          "canonical_item": "iceandfire:silver_ingot",
+          "observed_reference": "oreganized:silver_ingot"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "thermal:silver_ingot",
+      "recipe_id": "create:smelting/silver_ingot_compat_thermal",
+      "source_mod": "Create",
+      "source_namespace": "create",
+      "source_kind": "installed_mod_jar",
+      "source_file": "create-1.20.1-6.0.8.jar!/data/create/recipes/smelting/silver_ingot_compat_thermal.json",
+      "recipe_type": "minecraft:smelting",
+      "current_ingredients": [
+        "create:crushed_raw_silver"
+      ],
+      "ingredient_items": [
+        "create:crushed_raw_silver"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "common",
+      "output_domain": "material",
+      "intended_guild_rank": "unranked",
+      "intended_atlas_distance_ring": "center",
+      "intended_recipe_tier": "tier_0_baseline",
+      "material_tier": "mundane",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "silver",
+          "canonical_item": "iceandfire:silver_ingot",
+          "observed_reference": "thermal:silver_ingot"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "create:copper_nugget",
+      "recipe_id": "create:splashing/crushed_raw_copper",
+      "source_mod": "Create",
+      "source_namespace": "create",
+      "source_kind": "installed_mod_jar",
+      "source_file": "create-1.20.1-6.0.8.jar!/data/create/recipes/splashing/crushed_raw_copper.json",
+      "recipe_type": "create:splashing",
+      "current_ingredients": [
+        "create:crushed_raw_copper"
+      ],
+      "ingredient_items": [
+        "create:crushed_raw_copper"
+      ],
+      "ingredient_tags": [],
+      "output_count": 9,
+      "gear_material_rarity": "uncommon",
+      "output_domain": "create_component",
+      "intended_guild_rank": "e_rank",
+      "intended_atlas_distance_ring": "center_to_inner",
+      "intended_recipe_tier": "tier_1_early",
+      "material_tier": "mundane_to_regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "copper",
+          "canonical_item": "minecraft:copper_ingot",
+          "observed_reference": "create:copper_nugget"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "galosphere:silver_nugget",
+      "recipe_id": "create:splashing/galosphere/crushed_raw_silver",
+      "source_mod": "Create",
+      "source_namespace": "create",
+      "source_kind": "installed_mod_jar",
+      "source_file": "create-1.20.1-6.0.8.jar!/data/create/recipes/splashing/galosphere/crushed_raw_silver.json",
+      "recipe_type": "create:splashing",
+      "current_ingredients": [
+        "create:crushed_raw_silver"
+      ],
+      "ingredient_items": [
+        "create:crushed_raw_silver"
+      ],
+      "ingredient_tags": [],
+      "output_count": 9,
+      "gear_material_rarity": "common",
+      "output_domain": "material",
+      "intended_guild_rank": "unranked",
+      "intended_atlas_distance_ring": "center",
+      "intended_recipe_tier": "tier_0_baseline",
+      "material_tier": "mundane",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "silver",
+          "canonical_item": "iceandfire:silver_ingot",
+          "observed_reference": "galosphere:silver_nugget"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "oreganized:silver_nugget",
+      "recipe_id": "create:splashing/oreganized/crushed_raw_silver",
+      "source_mod": "Create",
+      "source_namespace": "create",
+      "source_kind": "installed_mod_jar",
+      "source_file": "create-1.20.1-6.0.8.jar!/data/create/recipes/splashing/oreganized/crushed_raw_silver.json",
+      "recipe_type": "create:splashing",
+      "current_ingredients": [
+        "create:crushed_raw_silver"
+      ],
+      "ingredient_items": [
+        "create:crushed_raw_silver"
+      ],
+      "ingredient_tags": [],
+      "output_count": 9,
+      "gear_material_rarity": "common",
+      "output_domain": "material",
+      "intended_guild_rank": "unranked",
+      "intended_atlas_distance_ring": "center",
+      "intended_recipe_tier": "tier_0_baseline",
+      "material_tier": "mundane",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "silver",
+          "canonical_item": "iceandfire:silver_ingot",
+          "observed_reference": "oreganized:silver_nugget"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "quark:rusty_iron_plate",
+      "recipe_id": "create:splashing/quark/rusty_iron_plate",
+      "source_mod": "Create",
+      "source_namespace": "create",
+      "source_kind": "installed_mod_jar",
+      "source_file": "create-1.20.1-6.0.8.jar!/data/create/recipes/splashing/quark/rusty_iron_plate.json",
+      "recipe_type": "create:splashing",
+      "current_ingredients": [
+        "quark:iron_plate"
+      ],
+      "ingredient_items": [
+        "quark:iron_plate"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "rare",
+      "output_domain": "material",
+      "intended_guild_rank": "d_rank",
+      "intended_atlas_distance_ring": "inner_to_middle",
+      "intended_recipe_tier": "tier_2_regional",
+      "material_tier": "regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "quark:iron_plate"
+        },
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "quark:rusty_iron_plate"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "thermal:silver_nugget",
+      "recipe_id": "create:splashing/thermal/crushed_raw_silver",
+      "source_mod": "Create",
+      "source_namespace": "create",
+      "source_kind": "installed_mod_jar",
+      "source_file": "create-1.20.1-6.0.8.jar!/data/create/recipes/splashing/thermal/crushed_raw_silver.json",
+      "recipe_type": "create:splashing",
+      "current_ingredients": [
+        "create:crushed_raw_silver"
+      ],
+      "ingredient_items": [
+        "create:crushed_raw_silver"
+      ],
+      "ingredient_tags": [],
+      "output_count": 9,
+      "gear_material_rarity": "common",
+      "output_domain": "material",
+      "intended_guild_rank": "unranked",
+      "intended_atlas_distance_ring": "center",
+      "intended_recipe_tier": "tier_0_baseline",
+      "material_tier": "mundane",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "silver",
+          "canonical_item": "iceandfire:silver_ingot",
+          "observed_reference": "thermal:silver_nugget"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "createbigcannons:cast_iron_block",
+      "recipe_id": "createbigcannons:cast_iron_block",
+      "source_mod": "Create Big Cannons",
+      "source_namespace": "createbigcannons",
+      "source_kind": "installed_mod_jar",
+      "source_file": "createbigcannons-5.11.4-mc.1.20.1-forge.jar!/data/createbigcannons/recipes/cast_iron_block.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "createbigcannons:cast_iron_ingot"
+      ],
+      "ingredient_items": [
+        "createbigcannons:cast_iron_ingot"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "uncommon",
+      "output_domain": "create_component",
+      "intended_guild_rank": "e_rank",
+      "intended_atlas_distance_ring": "center_to_inner",
+      "intended_recipe_tier": "tier_1_early",
+      "material_tier": "mundane_to_regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "createbigcannons:cast_iron_ingot"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "createbigcannons:cast_iron_ingot",
+      "recipe_id": "createbigcannons:cast_iron_ingot_from_block",
+      "source_mod": "Create Big Cannons",
+      "source_namespace": "createbigcannons",
+      "source_kind": "installed_mod_jar",
+      "source_file": "createbigcannons-5.11.4-mc.1.20.1-forge.jar!/data/createbigcannons/recipes/cast_iron_ingot_from_block.json",
+      "recipe_type": "minecraft:crafting_shapeless",
+      "current_ingredients": [
+        "createbigcannons:cast_iron_block"
+      ],
+      "ingredient_items": [
+        "createbigcannons:cast_iron_block"
+      ],
+      "ingredient_tags": [],
+      "output_count": 9,
+      "gear_material_rarity": "uncommon",
+      "output_domain": "create_component",
+      "intended_guild_rank": "e_rank",
+      "intended_atlas_distance_ring": "center_to_inner",
+      "intended_recipe_tier": "tier_1_early",
+      "material_tier": "mundane_to_regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "createbigcannons:cast_iron_ingot"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "createbigcannons:cast_iron_ingot",
+      "recipe_id": "createbigcannons:cast_iron_ingot_from_nuggets",
+      "source_mod": "Create Big Cannons",
+      "source_namespace": "createbigcannons",
+      "source_kind": "installed_mod_jar",
+      "source_file": "createbigcannons-5.11.4-mc.1.20.1-forge.jar!/data/createbigcannons/recipes/cast_iron_ingot_from_nuggets.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "createbigcannons:cast_iron_nugget"
+      ],
+      "ingredient_items": [
+        "createbigcannons:cast_iron_nugget"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "uncommon",
+      "output_domain": "create_component",
+      "intended_guild_rank": "e_rank",
+      "intended_atlas_distance_ring": "center_to_inner",
+      "intended_recipe_tier": "tier_1_early",
+      "material_tier": "mundane_to_regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "createbigcannons:cast_iron_nugget"
+        },
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "createbigcannons:cast_iron_ingot"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "createbigcannons:cast_iron_nugget",
+      "recipe_id": "createbigcannons:cast_iron_nugget",
+      "source_mod": "Create Big Cannons",
+      "source_namespace": "createbigcannons",
+      "source_kind": "installed_mod_jar",
+      "source_file": "createbigcannons-5.11.4-mc.1.20.1-forge.jar!/data/createbigcannons/recipes/cast_iron_nugget.json",
+      "recipe_type": "minecraft:crafting_shapeless",
+      "current_ingredients": [
+        "createbigcannons:cast_iron_ingot"
+      ],
+      "ingredient_items": [
+        "createbigcannons:cast_iron_ingot"
+      ],
+      "ingredient_tags": [],
+      "output_count": 9,
+      "gear_material_rarity": "uncommon",
+      "output_domain": "create_component",
+      "intended_guild_rank": "e_rank",
+      "intended_atlas_distance_ring": "center_to_inner",
+      "intended_recipe_tier": "tier_1_early",
+      "material_tier": "mundane_to_regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "createbigcannons:cast_iron_ingot"
+        },
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "createbigcannons:cast_iron_nugget"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "createbigcannons:cast_iron_ingot",
+      "recipe_id": "createbigcannons:compacting/forge_cast_iron_ingot",
+      "source_mod": "Create Big Cannons",
+      "source_namespace": "createbigcannons",
+      "source_kind": "installed_mod_jar",
+      "source_file": "createbigcannons-5.11.4-mc.1.20.1-forge.jar!/data/createbigcannons/recipes/compacting/forge_cast_iron_ingot.json",
+      "recipe_type": "create:compacting",
+      "current_ingredients": [],
+      "ingredient_items": [],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "uncommon",
+      "output_domain": "create_component",
+      "intended_guild_rank": "e_rank",
+      "intended_atlas_distance_ring": "center_to_inner",
+      "intended_recipe_tier": "tier_1_early",
+      "material_tier": "mundane_to_regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "createbigcannons:cast_iron_ingot"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "createbigcannons:cast_iron_nugget",
+      "recipe_id": "createbigcannons:compacting/forge_cast_iron_nugget",
+      "source_mod": "Create Big Cannons",
+      "source_namespace": "createbigcannons",
+      "source_kind": "installed_mod_jar",
+      "source_file": "createbigcannons-5.11.4-mc.1.20.1-forge.jar!/data/createbigcannons/recipes/compacting/forge_cast_iron_nugget.json",
+      "recipe_type": "create:compacting",
+      "current_ingredients": [],
+      "ingredient_items": [],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "uncommon",
+      "output_domain": "create_component",
+      "intended_guild_rank": "e_rank",
+      "intended_atlas_distance_ring": "center_to_inner",
+      "intended_recipe_tier": "tier_1_early",
+      "material_tier": "mundane_to_regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "createbigcannons:cast_iron_nugget"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "createbigcannons:cast_iron_ingot",
+      "recipe_id": "createbigcannons:compacting/iron_to_cast_iron_ingot",
+      "source_mod": "Create Big Cannons",
+      "source_namespace": "createbigcannons",
+      "source_kind": "installed_mod_jar",
+      "source_file": "createbigcannons-5.11.4-mc.1.20.1-forge.jar!/data/createbigcannons/recipes/compacting/iron_to_cast_iron_ingot.json",
+      "recipe_type": "create:compacting",
+      "current_ingredients": [
+        "#forge:ingots/iron",
+        "#minecraft:coals"
+      ],
+      "ingredient_items": [],
+      "ingredient_tags": [
+        "forge:ingots/iron",
+        "minecraft:coals"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "uncommon",
+      "output_domain": "create_component",
+      "intended_guild_rank": "e_rank",
+      "intended_atlas_distance_ring": "center_to_inner",
+      "intended_recipe_tier": "tier_1_early",
+      "material_tier": "mundane_to_regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "createbigcannons:cast_iron_ingot"
+        }
+      ],
+      "material_tag_references": [
+        "forge:ingots/iron"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "iceandfire:copper_nugget",
+      "recipe_id": "iceandfire:copper_ingot_to_nuggets",
+      "source_mod": "Ice And Fire Community Edition",
+      "source_namespace": "iceandfire",
+      "source_kind": "installed_mod_jar",
+      "source_file": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/recipes/copper_ingot_to_nuggets.json",
+      "recipe_type": "minecraft:crafting_shapeless",
+      "current_ingredients": [
+        "minecraft:copper_ingot"
+      ],
+      "ingredient_items": [
+        "minecraft:copper_ingot"
+      ],
+      "ingredient_tags": [],
+      "output_count": 9,
+      "gear_material_rarity": "uncommon",
+      "output_domain": "material",
+      "intended_guild_rank": "e_rank",
+      "intended_atlas_distance_ring": "center_to_inner",
+      "intended_recipe_tier": "tier_1_early",
+      "material_tier": "mundane_to_regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "copper",
+          "canonical_item": "minecraft:copper_ingot",
+          "observed_reference": "iceandfire:copper_nugget"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "iceandfire:dragonarmor_copper_body",
+      "recipe_id": "iceandfire:dragonarmor_copper_body",
+      "source_mod": "Ice And Fire Community Edition",
+      "source_namespace": "iceandfire",
+      "source_kind": "installed_mod_jar",
+      "source_file": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/recipes/dragonarmor_copper_body.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:copper_block"
+      ],
+      "ingredient_items": [
+        "minecraft:copper_block"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "iceandfire:dragonarmor_copper_head",
+      "recipe_id": "iceandfire:dragonarmor_copper_head",
+      "source_mod": "Ice And Fire Community Edition",
+      "source_namespace": "iceandfire",
+      "source_kind": "installed_mod_jar",
+      "source_file": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/recipes/dragonarmor_copper_head.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:copper_block"
+      ],
+      "ingredient_items": [
+        "minecraft:copper_block"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "iceandfire:dragonarmor_copper_neck",
+      "recipe_id": "iceandfire:dragonarmor_copper_neck",
+      "source_mod": "Ice And Fire Community Edition",
+      "source_namespace": "iceandfire",
+      "source_kind": "installed_mod_jar",
+      "source_file": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/recipes/dragonarmor_copper_neck.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:copper_block"
+      ],
+      "ingredient_items": [
+        "minecraft:copper_block"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "iceandfire:dragonarmor_copper_tail",
+      "recipe_id": "iceandfire:dragonarmor_copper_tail",
+      "source_mod": "Ice And Fire Community Edition",
+      "source_namespace": "iceandfire",
+      "source_kind": "installed_mod_jar",
+      "source_file": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/recipes/dragonarmor_copper_tail.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:copper_block"
+      ],
+      "ingredient_items": [
+        "minecraft:copper_block"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "iceandfire:dragonarmor_diamond_body",
+      "recipe_id": "iceandfire:dragonarmor_diamond_body",
+      "source_mod": "Ice And Fire Community Edition",
+      "source_namespace": "iceandfire",
+      "source_kind": "installed_mod_jar",
+      "source_file": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/recipes/dragonarmor_diamond_body.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:diamond_block"
+      ],
+      "ingredient_items": [
+        "minecraft:diamond_block"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "iceandfire:dragonarmor_diamond_head",
+      "recipe_id": "iceandfire:dragonarmor_diamond_head",
+      "source_mod": "Ice And Fire Community Edition",
+      "source_namespace": "iceandfire",
+      "source_kind": "installed_mod_jar",
+      "source_file": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/recipes/dragonarmor_diamond_head.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:diamond_block"
+      ],
+      "ingredient_items": [
+        "minecraft:diamond_block"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "iceandfire:dragonarmor_diamond_neck",
+      "recipe_id": "iceandfire:dragonarmor_diamond_neck",
+      "source_mod": "Ice And Fire Community Edition",
+      "source_namespace": "iceandfire",
+      "source_kind": "installed_mod_jar",
+      "source_file": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/recipes/dragonarmor_diamond_neck.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:diamond_block"
+      ],
+      "ingredient_items": [
+        "minecraft:diamond_block"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "iceandfire:dragonarmor_diamond_tail",
+      "recipe_id": "iceandfire:dragonarmor_diamond_tail",
+      "source_mod": "Ice And Fire Community Edition",
+      "source_namespace": "iceandfire",
+      "source_kind": "installed_mod_jar",
+      "source_file": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/recipes/dragonarmor_diamond_tail.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:diamond_block"
+      ],
+      "ingredient_items": [
+        "minecraft:diamond_block"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "iceandfire:dragonarmor_gold_body",
+      "recipe_id": "iceandfire:dragonarmor_gold_body",
+      "source_mod": "Ice And Fire Community Edition",
+      "source_namespace": "iceandfire",
+      "source_kind": "installed_mod_jar",
+      "source_file": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/recipes/dragonarmor_gold_body.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:gold_block"
+      ],
+      "ingredient_items": [
+        "minecraft:gold_block"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "iceandfire:dragonarmor_gold_head",
+      "recipe_id": "iceandfire:dragonarmor_gold_head",
+      "source_mod": "Ice And Fire Community Edition",
+      "source_namespace": "iceandfire",
+      "source_kind": "installed_mod_jar",
+      "source_file": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/recipes/dragonarmor_gold_head.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:gold_block"
+      ],
+      "ingredient_items": [
+        "minecraft:gold_block"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "iceandfire:dragonarmor_gold_neck",
+      "recipe_id": "iceandfire:dragonarmor_gold_neck",
+      "source_mod": "Ice And Fire Community Edition",
+      "source_namespace": "iceandfire",
+      "source_kind": "installed_mod_jar",
+      "source_file": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/recipes/dragonarmor_gold_neck.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:gold_block"
+      ],
+      "ingredient_items": [
+        "minecraft:gold_block"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "iceandfire:dragonarmor_gold_tail",
+      "recipe_id": "iceandfire:dragonarmor_gold_tail",
+      "source_mod": "Ice And Fire Community Edition",
+      "source_namespace": "iceandfire",
+      "source_kind": "installed_mod_jar",
+      "source_file": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/recipes/dragonarmor_gold_tail.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:gold_block"
+      ],
+      "ingredient_items": [
+        "minecraft:gold_block"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "iceandfire:dragonarmor_iron_body",
+      "recipe_id": "iceandfire:dragonarmor_iron_body",
+      "source_mod": "Ice And Fire Community Edition",
+      "source_namespace": "iceandfire",
+      "source_kind": "installed_mod_jar",
+      "source_file": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/recipes/dragonarmor_iron_body.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:iron_block"
+      ],
+      "ingredient_items": [
+        "minecraft:iron_block"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "iceandfire:dragonarmor_iron_head",
+      "recipe_id": "iceandfire:dragonarmor_iron_head",
+      "source_mod": "Ice And Fire Community Edition",
+      "source_namespace": "iceandfire",
+      "source_kind": "installed_mod_jar",
+      "source_file": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/recipes/dragonarmor_iron_head.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:iron_block"
+      ],
+      "ingredient_items": [
+        "minecraft:iron_block"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "iceandfire:dragonarmor_iron_neck",
+      "recipe_id": "iceandfire:dragonarmor_iron_neck",
+      "source_mod": "Ice And Fire Community Edition",
+      "source_namespace": "iceandfire",
+      "source_kind": "installed_mod_jar",
+      "source_file": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/recipes/dragonarmor_iron_neck.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:iron_block"
+      ],
+      "ingredient_items": [
+        "minecraft:iron_block"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "iceandfire:dragonarmor_iron_tail",
+      "recipe_id": "iceandfire:dragonarmor_iron_tail",
+      "source_mod": "Ice And Fire Community Edition",
+      "source_namespace": "iceandfire",
+      "source_kind": "installed_mod_jar",
+      "source_file": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/recipes/dragonarmor_iron_tail.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:iron_block"
+      ],
+      "ingredient_items": [
+        "minecraft:iron_block"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "iceandfire:dragonarmor_silver_body",
+      "recipe_id": "iceandfire:dragonarmor_silver_body",
+      "source_mod": "Ice And Fire Community Edition",
+      "source_namespace": "iceandfire",
+      "source_kind": "installed_mod_jar",
+      "source_file": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/recipes/dragonarmor_silver_body.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "#c:storage_blocks/silver"
+      ],
+      "ingredient_items": [],
+      "ingredient_tags": [
+        "c:storage_blocks/silver"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "too_cheap",
+      "reason": "High-rarity output does not require enough high-tier ingredients.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [
+        "c:storage_blocks/silver"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression."
+    },
+    {
+      "item_id": "iceandfire:dragonarmor_silver_head",
+      "recipe_id": "iceandfire:dragonarmor_silver_head",
+      "source_mod": "Ice And Fire Community Edition",
+      "source_namespace": "iceandfire",
+      "source_kind": "installed_mod_jar",
+      "source_file": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/recipes/dragonarmor_silver_head.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "#c:storage_blocks/silver"
+      ],
+      "ingredient_items": [],
+      "ingredient_tags": [
+        "c:storage_blocks/silver"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "too_cheap",
+      "reason": "High-rarity output does not require enough high-tier ingredients.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [
+        "c:storage_blocks/silver"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression."
+    },
+    {
+      "item_id": "iceandfire:dragonarmor_silver_neck",
+      "recipe_id": "iceandfire:dragonarmor_silver_neck",
+      "source_mod": "Ice And Fire Community Edition",
+      "source_namespace": "iceandfire",
+      "source_kind": "installed_mod_jar",
+      "source_file": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/recipes/dragonarmor_silver_neck.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "#c:storage_blocks/silver"
+      ],
+      "ingredient_items": [],
+      "ingredient_tags": [
+        "c:storage_blocks/silver"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "too_cheap",
+      "reason": "High-rarity output does not require enough high-tier ingredients.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [
+        "c:storage_blocks/silver"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression."
+    },
+    {
+      "item_id": "iceandfire:dragonarmor_silver_tail",
+      "recipe_id": "iceandfire:dragonarmor_silver_tail",
+      "source_mod": "Ice And Fire Community Edition",
+      "source_namespace": "iceandfire",
+      "source_kind": "installed_mod_jar",
+      "source_file": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/recipes/dragonarmor_silver_tail.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "#c:storage_blocks/silver"
+      ],
+      "ingredient_items": [],
+      "ingredient_tags": [
+        "c:storage_blocks/silver"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "too_cheap",
+      "reason": "High-rarity output does not require enough high-tier ingredients.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [
+        "c:storage_blocks/silver"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression."
+    },
+    {
+      "item_id": "iceandfire:copper_nugget",
+      "recipe_id": "iceandfire:furnace/copper_nugget",
+      "source_mod": "Ice And Fire Community Edition",
+      "source_namespace": "iceandfire",
+      "source_kind": "installed_mod_jar",
+      "source_file": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/recipes/furnace/copper_nugget.json",
+      "recipe_type": "minecraft:smelting",
+      "current_ingredients": [
+        "iceandfire:armor_copper_metal_boots",
+        "iceandfire:armor_copper_metal_chestplate",
+        "iceandfire:armor_copper_metal_helmet",
+        "iceandfire:armor_copper_metal_leggings",
+        "iceandfire:copper_axe",
+        "iceandfire:copper_hoe",
+        "iceandfire:copper_pickaxe",
+        "iceandfire:copper_shovel",
+        "iceandfire:copper_sword"
+      ],
+      "ingredient_items": [
+        "iceandfire:armor_copper_metal_boots",
+        "iceandfire:armor_copper_metal_chestplate",
+        "iceandfire:armor_copper_metal_helmet",
+        "iceandfire:armor_copper_metal_leggings",
+        "iceandfire:copper_axe",
+        "iceandfire:copper_hoe",
+        "iceandfire:copper_pickaxe",
+        "iceandfire:copper_shovel",
+        "iceandfire:copper_sword"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "uncommon",
+      "output_domain": "material",
+      "intended_guild_rank": "e_rank",
+      "intended_atlas_distance_ring": "center_to_inner",
+      "intended_recipe_tier": "tier_1_early",
+      "material_tier": "mundane_to_regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "copper",
+          "canonical_item": "minecraft:copper_ingot",
+          "observed_reference": "iceandfire:copper_nugget"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "iceandfire:copper_nugget",
+      "recipe_id": "iceandfire:furnace/copper_nugget_blasting",
+      "source_mod": "Ice And Fire Community Edition",
+      "source_namespace": "iceandfire",
+      "source_kind": "installed_mod_jar",
+      "source_file": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/recipes/furnace/copper_nugget_blasting.json",
+      "recipe_type": "minecraft:blasting",
+      "current_ingredients": [
+        "iceandfire:armor_copper_metal_boots",
+        "iceandfire:armor_copper_metal_chestplate",
+        "iceandfire:armor_copper_metal_helmet",
+        "iceandfire:armor_copper_metal_leggings",
+        "iceandfire:copper_axe",
+        "iceandfire:copper_hoe",
+        "iceandfire:copper_pickaxe",
+        "iceandfire:copper_shovel",
+        "iceandfire:copper_sword"
+      ],
+      "ingredient_items": [
+        "iceandfire:armor_copper_metal_boots",
+        "iceandfire:armor_copper_metal_chestplate",
+        "iceandfire:armor_copper_metal_helmet",
+        "iceandfire:armor_copper_metal_leggings",
+        "iceandfire:copper_axe",
+        "iceandfire:copper_hoe",
+        "iceandfire:copper_pickaxe",
+        "iceandfire:copper_shovel",
+        "iceandfire:copper_sword"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "uncommon",
+      "output_domain": "material",
+      "intended_guild_rank": "e_rank",
+      "intended_atlas_distance_ring": "center_to_inner",
+      "intended_recipe_tier": "tier_1_early",
+      "material_tier": "mundane_to_regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "copper",
+          "canonical_item": "minecraft:copper_ingot",
+          "observed_reference": "iceandfire:copper_nugget"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "iceandfire:hippogryph_sword",
+      "recipe_id": "iceandfire:hippogryph_sword",
+      "source_mod": "Ice And Fire Community Edition",
+      "source_namespace": "iceandfire",
+      "source_kind": "installed_mod_jar",
+      "source_file": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/recipes/hippogryph_sword.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "iceandfire:hippogryph_talon",
+        "minecraft:feather",
+        "minecraft:stick",
+        "#c:ingots/iron"
+      ],
+      "ingredient_items": [
+        "iceandfire:hippogryph_talon",
+        "minecraft:feather",
+        "minecraft:stick"
+      ],
+      "ingredient_tags": [
+        "c:ingots/iron"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "weapon",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "too_cheap",
+      "reason": "High-rarity output does not require enough high-tier ingredients.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [
+        "c:ingots/iron"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression."
+    },
+    {
+      "item_id": "iceandfire:stymphalian_bird_dagger",
+      "recipe_id": "iceandfire:stymphalian_bird_dagger",
+      "source_mod": "Ice And Fire Community Edition",
+      "source_namespace": "iceandfire",
+      "source_kind": "installed_mod_jar",
+      "source_file": "IceAndFireCE-1.2.5-1.20.1-forge.jar!/data/iceandfire/recipes/stymphalian_bird_dagger.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "iceandfire:stymphalian_bird_feather",
+        "minecraft:stick"
+      ],
+      "ingredient_items": [
+        "iceandfire:stymphalian_bird_feather",
+        "minecraft:stick"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "weapon",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "too_cheap",
+      "reason": "High-rarity output does not require enough high-tier ingredients.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression."
+    },
+    {
+      "item_id": "immersive_armors:wither_boots",
+      "recipe_id": "immersive_armors:wither_boots",
+      "source_mod": "Immersive Armors",
+      "source_namespace": "immersive_armors",
+      "source_kind": "installed_mod_jar",
+      "source_file": "immersive_armors-1.7.2+1.20.1-forge.jar!/data/immersive_armors/recipes/wither_boots.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "immersive_armors:bone_boots",
+        "minecraft:nether_brick"
+      ],
+      "ingredient_items": [
+        "immersive_armors:bone_boots",
+        "minecraft:nether_brick"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "too_cheap",
+      "reason": "High-rarity output does not require enough high-tier ingredients.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression."
+    },
+    {
+      "item_id": "immersive_armors:wither_chestplate",
+      "recipe_id": "immersive_armors:wither_chestplate",
+      "source_mod": "Immersive Armors",
+      "source_namespace": "immersive_armors",
+      "source_kind": "installed_mod_jar",
+      "source_file": "immersive_armors-1.7.2+1.20.1-forge.jar!/data/immersive_armors/recipes/wither_chestplate.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "immersive_armors:bone_chestplate",
+        "minecraft:nether_brick"
+      ],
+      "ingredient_items": [
+        "immersive_armors:bone_chestplate",
+        "minecraft:nether_brick"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "too_cheap",
+      "reason": "High-rarity output does not require enough high-tier ingredients.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression."
+    },
+    {
+      "item_id": "immersive_armors:wither_helmet",
+      "recipe_id": "immersive_armors:wither_helmet",
+      "source_mod": "Immersive Armors",
+      "source_namespace": "immersive_armors",
+      "source_kind": "installed_mod_jar",
+      "source_file": "immersive_armors-1.7.2+1.20.1-forge.jar!/data/immersive_armors/recipes/wither_helmet.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "immersive_armors:bone_helmet",
+        "minecraft:nether_brick"
+      ],
+      "ingredient_items": [
+        "immersive_armors:bone_helmet",
+        "minecraft:nether_brick"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "too_cheap",
+      "reason": "High-rarity output does not require enough high-tier ingredients.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression."
+    },
+    {
+      "item_id": "immersive_armors:wither_leggings",
+      "recipe_id": "immersive_armors:wither_leggings",
+      "source_mod": "Immersive Armors",
+      "source_namespace": "immersive_armors",
+      "source_kind": "installed_mod_jar",
+      "source_file": "immersive_armors-1.7.2+1.20.1-forge.jar!/data/immersive_armors/recipes/wither_leggings.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "immersive_armors:bone_leggings",
+        "minecraft:nether_brick"
+      ],
+      "ingredient_items": [
+        "immersive_armors:bone_leggings",
+        "minecraft:nether_brick"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "too_cheap",
+      "reason": "High-rarity output does not require enough high-tier ingredients.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression."
+    },
+    {
+      "item_id": "irons_spellbooks:legendary_ink",
+      "recipe_id": "irons_spellbooks:alchemist_cauldron/empty_legendary_ink",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_namespace": "irons_spellbooks",
+      "source_kind": "installed_mod_jar",
+      "source_file": "irons_spellbooks-1.20.1-3.16.1.jar!/data/irons_spellbooks/recipes/alchemist_cauldron/empty_legendary_ink.json",
+      "recipe_type": "irons_spellbooks:alchemist_cauldron_empty",
+      "current_ingredients": [
+        "minecraft:glass_bottle"
+      ],
+      "ingredient_items": [
+        "minecraft:glass_bottle"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "mythic",
+      "output_domain": "magic_or_spell",
+      "intended_guild_rank": "a_rank_to_s_rank",
+      "intended_atlas_distance_ring": "outer_to_edge",
+      "intended_recipe_tier": "tier_5_dragon",
+      "material_tier": "dragon_or_capstone",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "irons_spellbooks:legendary_ink",
+      "recipe_id": "irons_spellbooks:create_compat/create_fill_legendary_ink",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_namespace": "irons_spellbooks",
+      "source_kind": "installed_mod_jar",
+      "source_file": "irons_spellbooks-1.20.1-3.16.1.jar!/data/irons_spellbooks/recipes/create_compat/create_fill_legendary_ink.json",
+      "recipe_type": "create:filling",
+      "current_ingredients": [
+        "minecraft:glass_bottle"
+      ],
+      "ingredient_items": [
+        "minecraft:glass_bottle"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "mythic",
+      "output_domain": "magic_or_spell",
+      "intended_guild_rank": "a_rank_to_s_rank",
+      "intended_atlas_distance_ring": "outer_to_edge",
+      "intended_recipe_tier": "tier_5_dragon",
+      "material_tier": "dragon_or_capstone",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "irons_spellbooks:hellrazor",
+      "recipe_id": "irons_spellbooks:decrepit_scythe_repair",
+      "source_mod": "Iron's Spells 'n Spellbooks",
+      "source_namespace": "irons_spellbooks",
+      "source_kind": "installed_mod_jar",
+      "source_file": "irons_spellbooks-1.20.1-3.16.1.jar!/data/irons_spellbooks/recipes/decrepit_scythe_repair.json",
+      "recipe_type": "minecraft:smithing_transform",
+      "current_ingredients": [
+        "irons_spellbooks:decrepit_scythe",
+        "irons_spellbooks:timeless_slurry",
+        "#forge:ingots/pyrium"
+      ],
+      "ingredient_items": [
+        "irons_spellbooks:decrepit_scythe",
+        "irons_spellbooks:timeless_slurry"
+      ],
+      "ingredient_tags": [
+        "forge:ingots/pyrium"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "weapon",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "too_cheap",
+      "reason": "High-rarity output does not require enough high-tier ingredients.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression."
+    },
+    {
+      "item_id": "cataclysm:astrape",
+      "recipe_id": "cataclysm:astrape",
+      "source_mod": "cataclysm",
+      "source_namespace": "cataclysm",
+      "source_kind": "installed_mod_jar",
+      "source_file": "L_Enders_Cataclysm-3.30.jar!/data/cataclysm/recipes/astrape.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "cataclysm:essence_of_the_storm",
+        "cataclysm:lacrima"
+      ],
+      "ingredient_items": [
+        "cataclysm:essence_of_the_storm",
+        "cataclysm:lacrima"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "weapon",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "too_cheap",
+      "reason": "High-rarity output does not require enough high-tier ingredients.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression."
+    },
+    {
+      "item_id": "cataclysm:bulwark_of_the_flame",
+      "recipe_id": "cataclysm:bulwark_of_the_flame",
+      "source_mod": "cataclysm",
+      "source_namespace": "cataclysm",
+      "source_kind": "installed_mod_jar",
+      "source_file": "L_Enders_Cataclysm-3.30.jar!/data/cataclysm/recipes/bulwark_of_the_flame.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "cataclysm:ignitium_ingot",
+        "minecraft:blaze_rod",
+        "minecraft:nether_brick",
+        "minecraft:shield"
+      ],
+      "ingredient_items": [
+        "cataclysm:ignitium_ingot",
+        "minecraft:blaze_rod",
+        "minecraft:nether_brick",
+        "minecraft:shield"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "weapon",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "too_cheap",
+      "reason": "High-rarity output does not require enough high-tier ingredients.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression."
+    },
+    {
+      "item_id": "cataclysm:ceraunus",
+      "recipe_id": "cataclysm:ceraunus",
+      "source_mod": "cataclysm",
+      "source_namespace": "cataclysm",
+      "source_kind": "installed_mod_jar",
+      "source_file": "L_Enders_Cataclysm-3.30.jar!/data/cataclysm/recipes/ceraunus.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "cataclysm:essence_of_the_storm",
+        "cataclysm:lacrima"
+      ],
+      "ingredient_items": [
+        "cataclysm:essence_of_the_storm",
+        "cataclysm:lacrima"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "weapon",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "too_cheap",
+      "reason": "High-rarity output does not require enough high-tier ingredients.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression."
+    },
+    {
+      "item_id": "cataclysm:cursed_bow",
+      "recipe_id": "cataclysm:cursed_bow",
+      "source_mod": "cataclysm",
+      "source_namespace": "cataclysm",
+      "source_kind": "installed_mod_jar",
+      "source_file": "L_Enders_Cataclysm-3.30.jar!/data/cataclysm/recipes/cursed_bow.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "cataclysm:black_steel_ingot",
+        "cataclysm:cursium_ingot",
+        "minecraft:string"
+      ],
+      "ingredient_items": [
+        "cataclysm:black_steel_ingot",
+        "cataclysm:cursium_ingot",
+        "minecraft:string"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "weapon",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "too_cheap",
+      "reason": "High-rarity output does not require enough high-tier ingredients.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression."
+    },
+    {
+      "item_id": "cataclysm:the_annihilator",
+      "recipe_id": "cataclysm:the_annihilator",
+      "source_mod": "cataclysm",
+      "source_namespace": "cataclysm",
+      "source_kind": "installed_mod_jar",
+      "source_file": "L_Enders_Cataclysm-3.30.jar!/data/cataclysm/recipes/the_annihilator.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "cataclysm:black_steel_ingot",
+        "cataclysm:cursium_ingot"
+      ],
+      "ingredient_items": [
+        "cataclysm:black_steel_ingot",
+        "cataclysm:cursium_ingot"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "ascendant",
+      "output_domain": "weapon",
+      "intended_guild_rank": "s_rank",
+      "intended_atlas_distance_ring": "edge",
+      "intended_recipe_tier": "tier_6_ascendant",
+      "material_tier": "ascendant_capstone",
+      "recipe_status": "too_cheap",
+      "reason": "High-rarity output does not require enough high-tier ingredients.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression."
+    },
+    {
+      "item_id": "mca:rose_gold_ingot",
+      "recipe_id": "mca:rose_gold_ingot_blasting",
+      "source_mod": "Minecraft Comes Alive",
+      "source_namespace": "mca",
+      "source_kind": "installed_mod_jar",
+      "source_file": "minecraft-comes-alive-7.6.16+1.20.1-universal.jar!/data/mca/recipes/rose_gold_ingot_blasting.json",
+      "recipe_type": "minecraft:blasting",
+      "current_ingredients": [
+        "mca:rose_gold_dust"
+      ],
+      "ingredient_items": [
+        "mca:rose_gold_dust"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "rare",
+      "output_domain": "material",
+      "intended_guild_rank": "d_rank",
+      "intended_atlas_distance_ring": "inner_to_middle",
+      "intended_recipe_tier": "tier_2_regional",
+      "material_tier": "regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "gold",
+          "canonical_item": "minecraft:gold_ingot",
+          "observed_reference": "mca:rose_gold_dust"
+        },
+        {
+          "material": "gold",
+          "canonical_item": "minecraft:gold_ingot",
+          "observed_reference": "mca:rose_gold_ingot"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "mca:engagement_ring_rg",
+      "recipe_id": "mca:engagement_ring_rg",
+      "source_mod": "Minecraft Comes Alive",
+      "source_namespace": "mca",
+      "source_kind": "installed_mod_jar",
+      "source_file": "minecraft-comes-alive-7.6.16+1.20.1-universal.jar!/data/mca/recipes/engagement_ring_rg.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "mca:rose_gold_ingot",
+        "minecraft:diamond"
+      ],
+      "ingredient_items": [
+        "mca:rose_gold_ingot",
+        "minecraft:diamond"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "epic",
+      "output_domain": "accessory_or_relic",
+      "intended_guild_rank": "c_rank_to_b_rank",
+      "intended_atlas_distance_ring": "middle",
+      "intended_recipe_tier": "tier_3_advanced",
+      "material_tier": "refined_or_structure",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "gold",
+          "canonical_item": "minecraft:gold_ingot",
+          "observed_reference": "mca:rose_gold_ingot"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "mca:rose_gold_dust",
+      "recipe_id": "mca:rose_gold_dust_from_ingot",
+      "source_mod": "Minecraft Comes Alive",
+      "source_namespace": "mca",
+      "source_kind": "installed_mod_jar",
+      "source_file": "minecraft-comes-alive-7.6.16+1.20.1-universal.jar!/data/mca/recipes/rose_gold_dust_from_ingot.json",
+      "recipe_type": "minecraft:crafting_shapeless",
+      "current_ingredients": [
+        "mca:rose_gold_ingot"
+      ],
+      "ingredient_items": [
+        "mca:rose_gold_ingot"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "rare",
+      "output_domain": "material",
+      "intended_guild_rank": "d_rank",
+      "intended_atlas_distance_ring": "inner_to_middle",
+      "intended_recipe_tier": "tier_2_regional",
+      "material_tier": "regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "gold",
+          "canonical_item": "minecraft:gold_ingot",
+          "observed_reference": "mca:rose_gold_ingot"
+        },
+        {
+          "material": "gold",
+          "canonical_item": "minecraft:gold_ingot",
+          "observed_reference": "mca:rose_gold_dust"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "mca:rose_gold_ingot",
+      "recipe_id": "mca:rose_gold_ingot_smelting",
+      "source_mod": "Minecraft Comes Alive",
+      "source_namespace": "mca",
+      "source_kind": "installed_mod_jar",
+      "source_file": "minecraft-comes-alive-7.6.16+1.20.1-universal.jar!/data/mca/recipes/rose_gold_ingot_smelting.json",
+      "recipe_type": "minecraft:smelting",
+      "current_ingredients": [
+        "mca:rose_gold_dust"
+      ],
+      "ingredient_items": [
+        "mca:rose_gold_dust"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "rare",
+      "output_domain": "material",
+      "intended_guild_rank": "d_rank",
+      "intended_atlas_distance_ring": "inner_to_middle",
+      "intended_recipe_tier": "tier_2_regional",
+      "material_tier": "regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "gold",
+          "canonical_item": "minecraft:gold_ingot",
+          "observed_reference": "mca:rose_gold_dust"
+        },
+        {
+          "material": "gold",
+          "canonical_item": "minecraft:gold_ingot",
+          "observed_reference": "mca:rose_gold_ingot"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "mca:villager_tracker",
+      "recipe_id": "mca:villager_tracker",
+      "source_mod": "Minecraft Comes Alive",
+      "source_namespace": "mca",
+      "source_kind": "installed_mod_jar",
+      "source_file": "minecraft-comes-alive-7.6.16+1.20.1-universal.jar!/data/mca/recipes/villager_tracker.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "mca:rose_gold_ingot",
+        "minecraft:compass",
+        "minecraft:ender_eye"
+      ],
+      "ingredient_items": [
+        "mca:rose_gold_ingot",
+        "minecraft:compass",
+        "minecraft:ender_eye"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "common",
+      "output_domain": "general",
+      "intended_guild_rank": "unranked",
+      "intended_atlas_distance_ring": "center",
+      "intended_recipe_tier": "tier_0_baseline",
+      "material_tier": "mundane",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "gold",
+          "canonical_item": "minecraft:gold_ingot",
+          "observed_reference": "mca:rose_gold_ingot"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "mca:rose_gold_dust",
+      "recipe_id": "mca:rose_gold_dust",
+      "source_mod": "Minecraft Comes Alive",
+      "source_namespace": "mca",
+      "source_kind": "installed_mod_jar",
+      "source_file": "minecraft-comes-alive-7.6.16+1.20.1-universal.jar!/data/mca/recipes/rose_gold_dust.json",
+      "recipe_type": "minecraft:crafting_shapeless",
+      "current_ingredients": [
+        "minecraft:raw_copper",
+        "minecraft:raw_gold"
+      ],
+      "ingredient_items": [
+        "minecraft:raw_copper",
+        "minecraft:raw_gold"
+      ],
+      "ingredient_tags": [],
+      "output_count": 4,
+      "gear_material_rarity": "rare",
+      "output_domain": "material",
+      "intended_guild_rank": "d_rank",
+      "intended_atlas_distance_ring": "inner_to_middle",
+      "intended_recipe_tier": "tier_2_regional",
+      "material_tier": "regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "gold",
+          "canonical_item": "minecraft:gold_ingot",
+          "observed_reference": "mca:rose_gold_dust"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "mca:civil_registry",
+      "recipe_id": "mca:civil_registry",
+      "source_mod": "Minecraft Comes Alive",
+      "source_namespace": "mca",
+      "source_kind": "installed_mod_jar",
+      "source_file": "minecraft-comes-alive-7.6.16+1.20.1-universal.jar!/data/mca/recipes/civil_registry.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "mca:rose_gold_ingot",
+        "minecraft:emerald",
+        "minecraft:writable_book"
+      ],
+      "ingredient_items": [
+        "mca:rose_gold_ingot",
+        "minecraft:emerald",
+        "minecraft:writable_book"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "common",
+      "output_domain": "general",
+      "intended_guild_rank": "unranked",
+      "intended_atlas_distance_ring": "center",
+      "intended_recipe_tier": "tier_0_baseline",
+      "material_tier": "mundane",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "gold",
+          "canonical_item": "minecraft:gold_ingot",
+          "observed_reference": "mca:rose_gold_ingot"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "mca:rose_gold_block",
+      "recipe_id": "mca:rose_gold_block",
+      "source_mod": "Minecraft Comes Alive",
+      "source_namespace": "mca",
+      "source_kind": "installed_mod_jar",
+      "source_file": "minecraft-comes-alive-7.6.16+1.20.1-universal.jar!/data/mca/recipes/rose_gold_block.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "mca:rose_gold_ingot"
+      ],
+      "ingredient_items": [
+        "mca:rose_gold_ingot"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "rare",
+      "output_domain": "general",
+      "intended_guild_rank": "d_rank",
+      "intended_atlas_distance_ring": "inner_to_middle",
+      "intended_recipe_tier": "tier_2_regional",
+      "material_tier": "regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "gold",
+          "canonical_item": "minecraft:gold_ingot",
+          "observed_reference": "mca:rose_gold_ingot"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "mca:rose_gold_ingot",
+      "recipe_id": "mca:rose_gold_ingot",
+      "source_mod": "Minecraft Comes Alive",
+      "source_namespace": "mca",
+      "source_kind": "installed_mod_jar",
+      "source_file": "minecraft-comes-alive-7.6.16+1.20.1-universal.jar!/data/mca/recipes/rose_gold_ingot.json",
+      "recipe_type": "minecraft:crafting_shapeless",
+      "current_ingredients": [
+        "mca:rose_gold_block"
+      ],
+      "ingredient_items": [
+        "mca:rose_gold_block"
+      ],
+      "ingredient_tags": [],
+      "output_count": 9,
+      "gear_material_rarity": "rare",
+      "output_domain": "material",
+      "intended_guild_rank": "d_rank",
+      "intended_atlas_distance_ring": "inner_to_middle",
+      "intended_recipe_tier": "tier_2_regional",
+      "material_tier": "regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "gold",
+          "canonical_item": "minecraft:gold_ingot",
+          "observed_reference": "mca:rose_gold_ingot"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "mca:wedding_ring_rg",
+      "recipe_id": "mca:wedding_ring_rg",
+      "source_mod": "Minecraft Comes Alive",
+      "source_namespace": "mca",
+      "source_kind": "installed_mod_jar",
+      "source_file": "minecraft-comes-alive-7.6.16+1.20.1-universal.jar!/data/mca/recipes/wedding_ring_rg.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "mca:rose_gold_ingot"
+      ],
+      "ingredient_items": [
+        "mca:rose_gold_ingot"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "epic",
+      "output_domain": "accessory_or_relic",
+      "intended_guild_rank": "c_rank_to_b_rank",
+      "intended_atlas_distance_ring": "middle",
+      "intended_recipe_tier": "tier_3_advanced",
+      "material_tier": "refined_or_structure",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "gold",
+          "canonical_item": "minecraft:gold_ingot",
+          "observed_reference": "mca:rose_gold_ingot"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "quark:rusty_iron_plate_slab",
+      "recipe_id": "quark:building/stonecutting/slabs/rusty_iron_plate_slab_stonecutter",
+      "source_mod": "Quark",
+      "source_namespace": "quark",
+      "source_kind": "installed_mod_jar",
+      "source_file": "Quark-4.0-462.jar!/data/quark/recipes/building/stonecutting/slabs/rusty_iron_plate_slab_stonecutter.json",
+      "recipe_type": "minecraft:stonecutting",
+      "current_ingredients": [
+        "quark:rusty_iron_plate"
+      ],
+      "ingredient_items": [
+        "quark:rusty_iron_plate"
+      ],
+      "ingredient_tags": [],
+      "output_count": 2,
+      "gear_material_rarity": "rare",
+      "output_domain": "general",
+      "intended_guild_rank": "d_rank",
+      "intended_atlas_distance_ring": "inner_to_middle",
+      "intended_recipe_tier": "tier_2_regional",
+      "material_tier": "regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "quark:rusty_iron_plate"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "quark:iron_plate_slab",
+      "recipe_id": "quark:building/stonecutting/slabs/iron_plate_slab_stonecutter",
+      "source_mod": "Quark",
+      "source_namespace": "quark",
+      "source_kind": "installed_mod_jar",
+      "source_file": "Quark-4.0-462.jar!/data/quark/recipes/building/stonecutting/slabs/iron_plate_slab_stonecutter.json",
+      "recipe_type": "minecraft:stonecutting",
+      "current_ingredients": [
+        "quark:iron_plate"
+      ],
+      "ingredient_items": [
+        "quark:iron_plate"
+      ],
+      "ingredient_tags": [],
+      "output_count": 2,
+      "gear_material_rarity": "rare",
+      "output_domain": "general",
+      "intended_guild_rank": "d_rank",
+      "intended_atlas_distance_ring": "inner_to_middle",
+      "intended_recipe_tier": "tier_2_regional",
+      "material_tier": "regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "quark:iron_plate"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "quark:rusty_iron_plate_stairs",
+      "recipe_id": "quark:building/stonecutting/stairs/rusty_iron_plate_stairs_stonecutter",
+      "source_mod": "Quark",
+      "source_namespace": "quark",
+      "source_kind": "installed_mod_jar",
+      "source_file": "Quark-4.0-462.jar!/data/quark/recipes/building/stonecutting/stairs/rusty_iron_plate_stairs_stonecutter.json",
+      "recipe_type": "minecraft:stonecutting",
+      "current_ingredients": [
+        "quark:rusty_iron_plate"
+      ],
+      "ingredient_items": [
+        "quark:rusty_iron_plate"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "rare",
+      "output_domain": "general",
+      "intended_guild_rank": "d_rank",
+      "intended_atlas_distance_ring": "inner_to_middle",
+      "intended_recipe_tier": "tier_2_regional",
+      "material_tier": "regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "quark:rusty_iron_plate"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "quark:iron_plate_stairs",
+      "recipe_id": "quark:building/stonecutting/stairs/iron_plate_stairs_stonecutter",
+      "source_mod": "Quark",
+      "source_namespace": "quark",
+      "source_kind": "installed_mod_jar",
+      "source_file": "Quark-4.0-462.jar!/data/quark/recipes/building/stonecutting/stairs/iron_plate_stairs_stonecutter.json",
+      "recipe_type": "minecraft:stonecutting",
+      "current_ingredients": [
+        "quark:iron_plate"
+      ],
+      "ingredient_items": [
+        "quark:iron_plate"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "rare",
+      "output_domain": "general",
+      "intended_guild_rank": "d_rank",
+      "intended_atlas_distance_ring": "inner_to_middle",
+      "intended_recipe_tier": "tier_2_regional",
+      "material_tier": "regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "quark:iron_plate"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "quark:iron_pillar",
+      "recipe_id": "quark:building/stonecutting/iron_pillar_stonecutter",
+      "source_mod": "Quark",
+      "source_namespace": "quark",
+      "source_kind": "installed_mod_jar",
+      "source_file": "Quark-4.0-462.jar!/data/quark/recipes/building/stonecutting/iron_pillar_stonecutter.json",
+      "recipe_type": "minecraft:stonecutting",
+      "current_ingredients": [
+        "quark:iron_plate"
+      ],
+      "ingredient_items": [
+        "quark:iron_plate"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "uncommon",
+      "output_domain": "general",
+      "intended_guild_rank": "e_rank",
+      "intended_atlas_distance_ring": "center_to_inner",
+      "intended_recipe_tier": "tier_1_early",
+      "material_tier": "mundane_to_regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "quark:iron_plate"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "quark:rusty_iron_plate_vertical_slab",
+      "recipe_id": "quark:building/stonecutting/vertslabs/rusty_iron_plate_vertical_slab_stonecutter",
+      "source_mod": "Quark",
+      "source_namespace": "quark",
+      "source_kind": "installed_mod_jar",
+      "source_file": "Quark-4.0-462.jar!/data/quark/recipes/building/stonecutting/vertslabs/rusty_iron_plate_vertical_slab_stonecutter.json",
+      "recipe_type": "minecraft:stonecutting",
+      "current_ingredients": [
+        "quark:rusty_iron_plate"
+      ],
+      "ingredient_items": [
+        "quark:rusty_iron_plate"
+      ],
+      "ingredient_tags": [],
+      "output_count": 2,
+      "gear_material_rarity": "rare",
+      "output_domain": "general",
+      "intended_guild_rank": "d_rank",
+      "intended_atlas_distance_ring": "inner_to_middle",
+      "intended_recipe_tier": "tier_2_regional",
+      "material_tier": "regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "quark:rusty_iron_plate"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "quark:iron_plate_vertical_slab",
+      "recipe_id": "quark:building/stonecutting/vertslabs/iron_plate_vertical_slab_stonecutter",
+      "source_mod": "Quark",
+      "source_namespace": "quark",
+      "source_kind": "installed_mod_jar",
+      "source_file": "Quark-4.0-462.jar!/data/quark/recipes/building/stonecutting/vertslabs/iron_plate_vertical_slab_stonecutter.json",
+      "recipe_type": "minecraft:stonecutting",
+      "current_ingredients": [
+        "quark:iron_plate"
+      ],
+      "ingredient_items": [
+        "quark:iron_plate"
+      ],
+      "ingredient_tags": [],
+      "output_count": 2,
+      "gear_material_rarity": "rare",
+      "output_domain": "general",
+      "intended_guild_rank": "d_rank",
+      "intended_atlas_distance_ring": "inner_to_middle",
+      "intended_recipe_tier": "tier_2_regional",
+      "material_tier": "regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "quark:iron_plate"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "quark:rusty_iron_plate",
+      "recipe_id": "quark:building/crafting/rusty_iron_plate2",
+      "source_mod": "Quark",
+      "source_namespace": "quark",
+      "source_kind": "installed_mod_jar",
+      "source_file": "Quark-4.0-462.jar!/data/quark/recipes/building/crafting/rusty_iron_plate2.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:water_bucket",
+        "quark:iron_plate"
+      ],
+      "ingredient_items": [
+        "minecraft:water_bucket",
+        "quark:iron_plate"
+      ],
+      "ingredient_tags": [],
+      "output_count": 8,
+      "gear_material_rarity": "rare",
+      "output_domain": "material",
+      "intended_guild_rank": "d_rank",
+      "intended_atlas_distance_ring": "inner_to_middle",
+      "intended_recipe_tier": "tier_2_regional",
+      "material_tier": "regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "quark:iron_plate"
+        },
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "quark:rusty_iron_plate"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "quark:rusty_iron_plate_slab",
+      "recipe_id": "quark:building/crafting/slabs/rusty_iron_plate_slab",
+      "source_mod": "Quark",
+      "source_namespace": "quark",
+      "source_kind": "installed_mod_jar",
+      "source_file": "Quark-4.0-462.jar!/data/quark/recipes/building/crafting/slabs/rusty_iron_plate_slab.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "quark:rusty_iron_plate"
+      ],
+      "ingredient_items": [
+        "quark:rusty_iron_plate"
+      ],
+      "ingredient_tags": [],
+      "output_count": 6,
+      "gear_material_rarity": "rare",
+      "output_domain": "general",
+      "intended_guild_rank": "d_rank",
+      "intended_atlas_distance_ring": "inner_to_middle",
+      "intended_recipe_tier": "tier_2_regional",
+      "material_tier": "regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "quark:rusty_iron_plate"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "quark:iron_plate_slab",
+      "recipe_id": "quark:building/crafting/slabs/iron_plate_slab",
+      "source_mod": "Quark",
+      "source_namespace": "quark",
+      "source_kind": "installed_mod_jar",
+      "source_file": "Quark-4.0-462.jar!/data/quark/recipes/building/crafting/slabs/iron_plate_slab.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "quark:iron_plate"
+      ],
+      "ingredient_items": [
+        "quark:iron_plate"
+      ],
+      "ingredient_tags": [],
+      "output_count": 6,
+      "gear_material_rarity": "rare",
+      "output_domain": "general",
+      "intended_guild_rank": "d_rank",
+      "intended_atlas_distance_ring": "inner_to_middle",
+      "intended_recipe_tier": "tier_2_regional",
+      "material_tier": "regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "quark:iron_plate"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "quark:iron_plate_stairs",
+      "recipe_id": "quark:building/crafting/stairs/iron_plate_stairs",
+      "source_mod": "Quark",
+      "source_namespace": "quark",
+      "source_kind": "installed_mod_jar",
+      "source_file": "Quark-4.0-462.jar!/data/quark/recipes/building/crafting/stairs/iron_plate_stairs.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "quark:iron_plate"
+      ],
+      "ingredient_items": [
+        "quark:iron_plate"
+      ],
+      "ingredient_tags": [],
+      "output_count": 4,
+      "gear_material_rarity": "rare",
+      "output_domain": "general",
+      "intended_guild_rank": "d_rank",
+      "intended_atlas_distance_ring": "inner_to_middle",
+      "intended_recipe_tier": "tier_2_regional",
+      "material_tier": "regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "quark:iron_plate"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "quark:rusty_iron_plate_stairs",
+      "recipe_id": "quark:building/crafting/stairs/rusty_iron_plate_stairs",
+      "source_mod": "Quark",
+      "source_namespace": "quark",
+      "source_kind": "installed_mod_jar",
+      "source_file": "Quark-4.0-462.jar!/data/quark/recipes/building/crafting/stairs/rusty_iron_plate_stairs.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "quark:rusty_iron_plate"
+      ],
+      "ingredient_items": [
+        "quark:rusty_iron_plate"
+      ],
+      "ingredient_tags": [],
+      "output_count": 4,
+      "gear_material_rarity": "rare",
+      "output_domain": "general",
+      "intended_guild_rank": "d_rank",
+      "intended_atlas_distance_ring": "inner_to_middle",
+      "intended_recipe_tier": "tier_2_regional",
+      "material_tier": "regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "quark:rusty_iron_plate"
+        }
+      ],
+      "material_tag_references": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "quark:rusty_iron_plate",
+      "recipe_id": "quark:building/crafting/rusty_iron_plate",
+      "source_mod": "Quark",
+      "source_namespace": "quark",
+      "source_kind": "installed_mod_jar",
+      "source_file": "Quark-4.0-462.jar!/data/quark/recipes/building/crafting/rusty_iron_plate.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:water_bucket",
+        "#forge:ingots/iron"
+      ],
+      "ingredient_items": [
+        "minecraft:water_bucket"
+      ],
+      "ingredient_tags": [
+        "forge:ingots/iron"
+      ],
+      "output_count": 24,
+      "gear_material_rarity": "rare",
+      "output_domain": "material",
+      "intended_guild_rank": "d_rank",
+      "intended_atlas_distance_ring": "inner_to_middle",
+      "intended_recipe_tier": "tier_2_regional",
+      "material_tier": "regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "quark:rusty_iron_plate"
+        }
+      ],
+      "material_tag_references": [
+        "forge:ingots/iron"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "quark:iron_plate",
+      "recipe_id": "quark:building/crafting/iron_plate",
+      "source_mod": "Quark",
+      "source_namespace": "quark",
+      "source_kind": "installed_mod_jar",
+      "source_file": "Quark-4.0-462.jar!/data/quark/recipes/building/crafting/iron_plate.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "#forge:ingots/iron"
+      ],
+      "ingredient_items": [],
+      "ingredient_tags": [
+        "forge:ingots/iron"
+      ],
+      "output_count": 24,
+      "gear_material_rarity": "rare",
+      "output_domain": "material",
+      "intended_guild_rank": "d_rank",
+      "intended_atlas_distance_ring": "inner_to_middle",
+      "intended_recipe_tier": "tier_2_regional",
+      "material_tier": "regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "quark:iron_plate"
+        }
+      ],
+      "material_tag_references": [
+        "forge:ingots/iron"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "quark:iron_rod",
+      "recipe_id": "quark:automation/crafting/iron_rod",
+      "source_mod": "Quark",
+      "source_namespace": "quark",
+      "source_kind": "installed_mod_jar",
+      "source_file": "Quark-4.0-462.jar!/data/quark/recipes/automation/crafting/iron_rod.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:end_rod",
+        "#forge:ingots/iron"
+      ],
+      "ingredient_items": [
+        "minecraft:end_rod"
+      ],
+      "ingredient_tags": [
+        "forge:ingots/iron"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "uncommon",
+      "output_domain": "material",
+      "intended_guild_rank": "e_rank",
+      "intended_atlas_distance_ring": "center_to_inner",
+      "intended_recipe_tier": "tier_1_early",
+      "material_tier": "mundane_to_regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "quark:iron_rod"
+        }
+      ],
+      "material_tag_references": [
+        "forge:ingots/iron"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "quark:iron_rod",
+      "recipe_id": "quark:automation/crafting/iron_rod_pre_end",
+      "source_mod": "Quark",
+      "source_namespace": "quark",
+      "source_kind": "installed_mod_jar",
+      "source_file": "Quark-4.0-462.jar!/data/quark/recipes/automation/crafting/iron_rod_pre_end.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "#forge:ingots/iron"
+      ],
+      "ingredient_items": [],
+      "ingredient_tags": [
+        "forge:ingots/iron"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "uncommon",
+      "output_domain": "material",
+      "intended_guild_rank": "e_rank",
+      "intended_atlas_distance_ring": "center_to_inner",
+      "intended_recipe_tier": "tier_1_early",
+      "material_tier": "mundane_to_regional",
+      "recipe_status": "duplicate",
+      "reason": "Recipe references noncanonical or duplicate material families.",
+      "canonical_material_conflicts": [
+        {
+          "material": "iron",
+          "canonical_item": "minecraft:iron_ingot",
+          "observed_reference": "quark:iron_rod"
+        }
+      ],
+      "material_tag_references": [
+        "forge:ingots/iron"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review."
+    },
+    {
+      "item_id": "simplyswords:mythicmetals_compat/copper/copper_longsword",
+      "recipe_id": "simplyswords:mythicmetals_compat/copper/copper_longsword",
+      "source_mod": "Simply Swords",
+      "source_namespace": "simplyswords",
+      "source_kind": "installed_mod_jar",
+      "source_file": "simplyswords-forge-1.56.0-1.20.1.jar!/data/simplyswords/recipes/mythicmetals_compat/copper/copper_longsword.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:copper_ingot",
+        "#c:wood_sticks"
+      ],
+      "ingredient_items": [
+        "minecraft:copper_ingot"
+      ],
+      "ingredient_tags": [
+        "c:wood_sticks"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "mythic",
+      "output_domain": "general",
+      "intended_guild_rank": "a_rank_to_s_rank",
+      "intended_atlas_distance_ring": "outer_to_edge",
+      "intended_recipe_tier": "tier_5_dragon",
+      "material_tier": "dragon_or_capstone",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "simplyswords:mythicmetals_compat/adamantite/adamantite_chakram",
+      "recipe_id": "simplyswords:mythicmetals_compat/adamantite/adamantite_chakram",
+      "source_mod": "Simply Swords",
+      "source_namespace": "simplyswords",
+      "source_kind": "installed_mod_jar",
+      "source_file": "simplyswords-forge-1.56.0-1.20.1.jar!/data/simplyswords/recipes/mythicmetals_compat/adamantite/adamantite_chakram.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:iron_nugget",
+        "#c:adamantite_ingots",
+        "#c:wood_sticks"
+      ],
+      "ingredient_items": [
+        "minecraft:iron_nugget"
+      ],
+      "ingredient_tags": [
+        "c:adamantite_ingots",
+        "c:wood_sticks"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "mythic",
+      "output_domain": "general",
+      "intended_guild_rank": "a_rank_to_s_rank",
+      "intended_atlas_distance_ring": "outer_to_edge",
+      "intended_recipe_tier": "tier_5_dragon",
+      "material_tier": "dragon_or_capstone",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "simplyswords:iron_halberd",
+      "recipe_id": "simplyswords:iron_halberd",
+      "source_mod": "Simply Swords",
+      "source_namespace": "simplyswords",
+      "source_kind": "installed_mod_jar",
+      "source_file": "simplyswords-forge-1.56.0-1.20.1.jar!/data/simplyswords/recipes/iron_halberd.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:iron_ingot",
+        "minecraft:iron_nugget",
+        "#c:wood_sticks"
+      ],
+      "ingredient_items": [
+        "minecraft:iron_ingot",
+        "minecraft:iron_nugget"
+      ],
+      "ingredient_tags": [
+        "c:wood_sticks"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "weapon",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "simplyswords:iron_greathammer",
+      "recipe_id": "simplyswords:iron_greathammer",
+      "source_mod": "Simply Swords",
+      "source_namespace": "simplyswords",
+      "source_kind": "installed_mod_jar",
+      "source_file": "simplyswords-forge-1.56.0-1.20.1.jar!/data/simplyswords/recipes/iron_greathammer.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:iron_ingot",
+        "minecraft:iron_nugget",
+        "#c:wood_sticks"
+      ],
+      "ingredient_items": [
+        "minecraft:iron_ingot",
+        "minecraft:iron_nugget"
+      ],
+      "ingredient_tags": [
+        "c:wood_sticks"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "weapon",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "simplyswords:gold_halberd",
+      "recipe_id": "simplyswords:gold_halberd",
+      "source_mod": "Simply Swords",
+      "source_namespace": "simplyswords",
+      "source_kind": "installed_mod_jar",
+      "source_file": "simplyswords-forge-1.56.0-1.20.1.jar!/data/simplyswords/recipes/gold_halberd.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:gold_ingot",
+        "minecraft:iron_nugget",
+        "#c:wood_sticks"
+      ],
+      "ingredient_items": [
+        "minecraft:gold_ingot",
+        "minecraft:iron_nugget"
+      ],
+      "ingredient_tags": [
+        "c:wood_sticks"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "weapon",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "simplyswords:gold_greathammer",
+      "recipe_id": "simplyswords:gold_greathammer",
+      "source_mod": "Simply Swords",
+      "source_namespace": "simplyswords",
+      "source_kind": "installed_mod_jar",
+      "source_file": "simplyswords-forge-1.56.0-1.20.1.jar!/data/simplyswords/recipes/gold_greathammer.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:gold_ingot",
+        "minecraft:iron_nugget",
+        "#c:wood_sticks"
+      ],
+      "ingredient_items": [
+        "minecraft:gold_ingot",
+        "minecraft:iron_nugget"
+      ],
+      "ingredient_tags": [
+        "c:wood_sticks"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "weapon",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "simplyswords:diamond_halberd",
+      "recipe_id": "simplyswords:diamond_halberd",
+      "source_mod": "Simply Swords",
+      "source_namespace": "simplyswords",
+      "source_kind": "installed_mod_jar",
+      "source_file": "simplyswords-forge-1.56.0-1.20.1.jar!/data/simplyswords/recipes/diamond_halberd.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:diamond",
+        "minecraft:iron_nugget",
+        "#c:wood_sticks"
+      ],
+      "ingredient_items": [
+        "minecraft:diamond",
+        "minecraft:iron_nugget"
+      ],
+      "ingredient_tags": [
+        "c:wood_sticks"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "weapon",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "simplyswords:diamond_greathammer",
+      "recipe_id": "simplyswords:diamond_greathammer",
+      "source_mod": "Simply Swords",
+      "source_namespace": "simplyswords",
+      "source_kind": "installed_mod_jar",
+      "source_file": "simplyswords-forge-1.56.0-1.20.1.jar!/data/simplyswords/recipes/diamond_greathammer.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:diamond",
+        "minecraft:iron_nugget",
+        "#c:wood_sticks"
+      ],
+      "ingredient_items": [
+        "minecraft:diamond",
+        "minecraft:iron_nugget"
+      ],
+      "ingredient_tags": [
+        "c:wood_sticks"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "weapon",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "soulsweapons:featherlight",
+      "recipe_id": "soulsweapons:featherlight",
+      "source_mod": "Marium's Soulslike Weaponry",
+      "source_namespace": "soulsweapons",
+      "source_kind": "installed_mod_jar",
+      "source_file": "soulslike-weaponry-1.3.1-1.20.1-forge.jar!/data/soulsweapons/recipes/featherlight.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:amethyst_shard",
+        "minecraft:diamond_pickaxe",
+        "minecraft:obsidian"
+      ],
+      "ingredient_items": [
+        "minecraft:amethyst_shard",
+        "minecraft:diamond_pickaxe",
+        "minecraft:obsidian"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "weapon",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "soulsweapons:kirkhammer",
+      "recipe_id": "soulsweapons:kirkhammer",
+      "source_mod": "Marium's Soulslike Weaponry",
+      "source_namespace": "soulsweapons",
+      "source_kind": "installed_mod_jar",
+      "source_file": "soulslike-weaponry-1.3.1-1.20.1-forge.jar!/data/soulsweapons/recipes/kirkhammer.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "minecraft:iron_sword",
+        "minecraft:stone"
+      ],
+      "ingredient_items": [
+        "minecraft:iron_sword",
+        "minecraft:stone"
+      ],
+      "ingredient_tags": [],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "weapon",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "bypass",
+      "reason": "High-rarity output is craftable from low-tier vanilla-only materials.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed."
+    },
+    {
+      "item_id": "spartanshields:obsidian_basic_shield",
+      "recipe_id": "spartanshields:obsidian_basic_shield",
+      "source_mod": "Spartan Shields",
+      "source_namespace": "spartanshields",
+      "source_kind": "installed_mod_jar",
+      "source_file": "SpartanShields-1.20.1-forge-3.1.1.jar!/data/spartanshields/recipes/obsidian_basic_shield.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "spartanshields:wooden_basic_shield",
+        "#forge:obsidian"
+      ],
+      "ingredient_items": [
+        "spartanshields:wooden_basic_shield"
+      ],
+      "ingredient_tags": [
+        "forge:obsidian"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "too_cheap",
+      "reason": "High-rarity output does not require enough high-tier ingredients.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression."
+    },
+    {
+      "item_id": "spartanshields:obsidian_tower_shield",
+      "recipe_id": "spartanshields:obsidian_tower_shield",
+      "source_mod": "Spartan Shields",
+      "source_namespace": "spartanshields",
+      "source_kind": "installed_mod_jar",
+      "source_file": "SpartanShields-1.20.1-forge-3.1.1.jar!/data/spartanshields/recipes/obsidian_tower_shield.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "spartanshields:wooden_tower_shield",
+        "#forge:obsidian"
+      ],
+      "ingredient_items": [
+        "spartanshields:wooden_tower_shield"
+      ],
+      "ingredient_tags": [
+        "forge:obsidian"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "too_cheap",
+      "reason": "High-rarity output does not require enough high-tier ingredients.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression."
+    },
+    {
+      "item_id": "spartanshields:refined_obsidian_basic_shield",
+      "recipe_id": "spartanshields:refined_obsidian_basic_shield",
+      "source_mod": "Spartan Shields",
+      "source_namespace": "spartanshields",
+      "source_kind": "installed_mod_jar",
+      "source_file": "SpartanShields-1.20.1-forge-3.1.1.jar!/data/spartanshields/recipes/refined_obsidian_basic_shield.json",
+      "recipe_type": "minecraft:crafting_shaped",
+      "current_ingredients": [
+        "spartanshields:wooden_basic_shield",
+        "#forge:ingots/refined_obsidian"
+      ],
+      "ingredient_items": [
+        "spartanshields:wooden_basic_shield"
+      ],
+      "ingredient_tags": [
+        "forge:ingots/refined_obsidian"
+      ],
+      "output_count": 1,
+      "gear_material_rarity": "legendary",
+      "output_domain": "armor_or_shield",
+      "intended_guild_rank": "b_rank_to_a_rank",
+      "intended_atlas_distance_ring": "outer",
+      "intended_recipe_tier": "tier_4_boss",
+      "material_tier": "boss_or_rank_proof",
+      "recipe_status": "too_cheap",
+      "reason": "High-rarity output does not require enough high-tier ingredients.",
+      "canonical_material_conflicts": [],
+      "material_tag_references": [],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression."
+    }
+  ]
+}

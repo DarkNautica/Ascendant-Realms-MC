@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T04:48:43Z",
+  "status": "audit_control_scaffold_only_no_npc_placement",
+  "scope": {
+    "places_npcs": false,
+    "injects_villages": false,
+    "adds_npc_mods": false,
+    "changes_spawn_rules": false,
+    "changes_structure_generation": false
+  },
+  "rules": [
+    "No hoodies, jeans, modern civilian skins, or tone-breaking NPCs.",
+    "Important NPC professions must have distinct medieval/fantasy silhouettes.",
+    "Named rivals must carry rank, class, nameplate, curated loadout, gear tier, and drop policy.",
+    "Visible NPC gear should use player-findable gear IDs unless an item is intentionally custom and documented.",
+    "Visual-only skins need an equivalent gear or clothing note so skins do not hide progression logic."
+  ],
+  "tool_policy": {
+    "mca_reborn": "Village population and family layer; depends on MCA Default Medieval staying active and visually safe.",
+    "easy_npc": "Preferred for Guild Clerk, Rank Examiner, Bounty Master, Arcanist, Quartermaster, Tavern Keeper, and Village Elder.",
+    "customnpcs_unofficial": "Preferred for combat-capable rival prototypes and generated test profiles.",
+    "human_companions": "Generic hunter/companion review layer only until visuals are manually accepted.",
+    "guard_villagers": "Village defense support; not an authored Guild NPC placement system.",
+    "villager_names": "Village identity support; does not replace authored nameplate policy."
+  },
+  "mod_audit": {
+    "mca_reborn": {
+      "path": "mods/minecraft-comes-alive-reborn.pw.toml",
+      "present": true
+    },
+    "mca_default_medieval_resource_pack": {
+      "path": "resourcepacks/mca-default-medieval-by-de4th4sh.pw.toml",
+      "present": true
+    },
+    "easy_npc_bundle": {
+      "path": "mods/easy-npc.pw.toml",
+      "present": true
+    },
+    "easy_npc_core": {
+      "path": "mods/easy-npc-core.pw.toml",
+      "present": true
+    },
+    "easy_npc_config_ui": {
+      "path": "mods/easy-npc-config-ui.pw.toml",
+      "present": true
+    },
+    "customnpcs_unofficial": {
+      "path": "mods/customnpcs-unofficial.pw.toml",
+      "present": true
+    },
+    "human_companions": {
+      "path": "mods/human-companions.pw.toml",
+      "present": true
+    },
+    "guard_villagers": {
+      "path": "mods/guard-villagers.pw.toml",
+      "present": true
+    },
+    "villager_names": {
+      "path": "mods/villager-names-serilum.pw.toml",
+      "present": true
+    }
+  },
+  "mca_medieval_skin_audit": {
+    "metadata_present": true,
+    "configured_pack_key": "file/MCAR_VanillaMedieval_Universal_1.20.x_Only_Clothes_byDE4THR4SH_v4.zip",
+    "active_in_options": true,
+    "active_instance_path": "C:\\Users\\Jayden\\curseforge\\minecraft\\Instances\\Ascendant Realms (2)",
+    "zip_paths_found": [
+      "C:\\Users\\Jayden\\curseforge\\minecraft\\Instances\\Ascendant Realms (2)\\resourcepacks\\MCAR_VanillaMedieval_Universal_1.20.x_Only_Clothes_byDE4THR4SH_v4.zip"
+    ],
+    "zip_inspected": true,
+    "total_zip_entries": 1169,
+    "png_asset_count": 975,
+    "clothing_asset_count": 974,
+    "skin_asset_count": 974,
+    "profession_asset_counts": {
+      "archer": 30,
+      "armorer": 39,
+      "baby": 60,
+      "baker": 30,
+      "butcher": 33,
+      "cartographer": 39,
+      "child": 66,
+      "cleric": 33,
+      "cultist": 6,
+      "farmer": 39,
+      "fisherman": 33,
+      "fletcher": 36,
+      "guard": 36,
+      "leatherworker": 33,
+      "librarian": 48,
+      "mason": 39,
+      "miner": 30,
+      "nitwit": 6,
+      "none": 99,
+      "shepherd": 42,
+      "toddler": 122,
+      "toolsmith": 33,
+      "weaponsmith": 42
+    },
+    "tone_review_flags": [],
+    "sample_assets": [
+      "assets/mca/skins/clothing/burnt/female/archer/0.png",
+      "assets/mca/skins/clothing/burnt/female/archer/1.png",
+      "assets/mca/skins/clothing/burnt/female/archer/2.png",
+      "assets/mca/skins/clothing/burnt/female/archer/3.png",
+      "assets/mca/skins/clothing/burnt/female/archer/4.png",
+      "assets/mca/skins/clothing/burnt/female/armorer/0.png",
+      "assets/mca/skins/clothing/burnt/female/armorer/1.png",
+      "assets/mca/skins/clothing/burnt/female/armorer/2.png",
+      "assets/mca/skins/clothing/burnt/female/armorer/3.png",
+      "assets/mca/skins/clothing/burnt/female/armorer/4.png",
+      "assets/mca/skins/clothing/burnt/female/baby/0.png",
+      "assets/mca/skins/clothing/burnt/female/baby/1.png",
+      "assets/mca/skins/clothing/burnt/female/baby/2.png",
+      "assets/mca/skins/clothing/burnt/female/baby/3.png",
+      "assets/mca/skins/clothing/burnt/female/baby/4.png",
+      "assets/mca/skins/clothing/burnt/female/baby/5.png"
+    ],
+    "inspected_zip_path": "C:\\Users\\Jayden\\curseforge\\minecraft\\Instances\\Ascendant Realms (2)\\resourcepacks\\MCAR_VanillaMedieval_Universal_1.20.x_Only_Clothes_byDE4THR4SH_v4.zip"
+  },
+  "customnpcs_bridge_skin_audit": {
+    "expected_profile_skin_count": 12,
+    "resource_pack_skin_count": 12,
+    "customnpcs_native_skin_count": 12,
+    "expected_profile_ids": [
+      "bounty_master",
+      "darius_crowe",
+      "guard_captain",
+      "guild_arcanist",
+      "guild_clerk",
+      "hunter_quartermaster",
+      "mira_ash",
+      "rank_examiner",
+      "seren_valehart",
+      "tavern_keeper",
+      "village_elder",
+      "wounded_hunter"
+    ],
+    "missing_bridge_skin_files": [],
+    "resource_pack_dir": "resourcepacks/ascendant-realms-compat-fixes/assets/customnpcs/textures/entity/ascendant_mca",
+    "customnpcs_native_dir": "customnpcs/assets/customnpcs/textures/entity/ascendant_mca"
+  },
+  "source_files": {
+    "loadouts": "config/ascendant_guild/npc_loadouts.json",
+    "nameplates": "config/ascendant_guild/nameplates.json",
+    "rival_hunters": "config/ascendant_guild/rival_hunters.json",
+    "generated_profiles": "config/ascendant_guild/generated_npc_profiles.json",
+    "gear_registry": "config/ascendant_index/gear_registry.json"
+  },
+  "validation": {
+    "mca_medieval_pack_missing_or_inactive": [],
+    "mca_medieval_pack_active": true,
+    "mca_medieval_clothing_asset_count": 974,
+    "important_professions_missing_silhouette": [],
+    "important_professions_missing_loadout_profile": [],
+    "important_professions_missing_nameplate_profile": [],
+    "rival_missing_nameplate_loadout_or_drop_policy": [],
+    "loadout_missing_gear_item_ids": [],
+    "visual_only_skin_without_equivalent_item_note": [],
+    "modern_or_unknown_skin_review_flags": [],
+    "generated_bridge_skins_missing": [],
+    "important_profession_count": 9,
+    "rival_count": 5
+  }
+}

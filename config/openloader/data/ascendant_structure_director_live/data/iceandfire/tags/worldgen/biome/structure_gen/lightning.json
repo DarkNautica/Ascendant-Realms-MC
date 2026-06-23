@@ -1,0 +1,24 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:badlands",
+    "minecraft:bamboo_jungle",
+    "minecraft:eroded_badlands",
+    "minecraft:jungle",
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:sparse_jungle",
+    "minecraft:windswept_savanna",
+    "minecraft:wooded_badlands",
+    "terralith:amethyst_canyon",
+    "terralith:amethyst_rainforest",
+    "terralith:bryce_canyon",
+    "terralith:fractured_savanna",
+    "terralith:jungle_mountains",
+    "terralith:painted_mountains",
+    "terralith:rocky_jungle",
+    "terralith:savanna_badlands",
+    "terralith:savanna_slopes",
+    "terralith:tropical_jungle"
+  ]
+}

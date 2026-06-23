@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "policy": "Structure rewards follow Atlas tier and rarity ceilings.",
+  "source_registry": "config/ascendant_index/structure_registry.json",
+  "atlas_source": "config/ascendant_atlas/structure_distribution.json"
+}

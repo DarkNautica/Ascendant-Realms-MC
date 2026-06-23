@@ -1,0 +1,653 @@
+{
+  "version": 1,
+  "source_registry": "config/ascendant_index/gear_registry.json",
+  "status": "design contract only; not yet auto-spawned",
+  "policy": {
+    "purpose": "Important NPCs and rival hunters should visibly wear gear that players can obtain in the same world.",
+    "town_npc_tool": "Easy NPC for clerks, examiners, merchants, and dialogue-first social NPCs.",
+    "combat_npc_tool": "CustomNPCs-Unofficial for rival hunters, elite guards, and combat-capable prototypes.",
+    "glue_layer": "KubeJS keeps this registry aligned with the generated gear registry and future quest/contract hooks.",
+    "no_random_junk_rule": "Rivals and important NPCs use curated rank/archetype pools instead of random any-item equipment."
+  },
+  "rank_rules": {
+    "unranked": {
+      "label": "Unranked",
+      "allowed_rarities": [
+        "common",
+        "uncommon"
+      ],
+      "max_default_rarity": "uncommon"
+    },
+    "e_rank": {
+      "label": "E-Rank",
+      "allowed_rarities": [
+        "common",
+        "uncommon"
+      ],
+      "max_default_rarity": "uncommon"
+    },
+    "d_rank": {
+      "label": "D-Rank",
+      "allowed_rarities": [
+        "common",
+        "uncommon",
+        "rare"
+      ],
+      "max_default_rarity": "rare"
+    },
+    "c_rank": {
+      "label": "C-Rank",
+      "allowed_rarities": [
+        "common",
+        "uncommon",
+        "rare",
+        "epic"
+      ],
+      "max_default_rarity": "epic"
+    },
+    "b_rank": {
+      "label": "B-Rank",
+      "allowed_rarities": [
+        "common",
+        "uncommon",
+        "rare",
+        "epic",
+        "legendary"
+      ],
+      "max_default_rarity": "legendary"
+    },
+    "a_rank": {
+      "label": "A-Rank",
+      "allowed_rarities": [
+        "common",
+        "uncommon",
+        "rare",
+        "epic",
+        "legendary",
+        "mythic"
+      ],
+      "max_default_rarity": "mythic"
+    },
+    "s_rank": {
+      "label": "S-Rank",
+      "allowed_rarities": [
+        "common",
+        "uncommon",
+        "rare",
+        "epic",
+        "legendary",
+        "mythic",
+        "ascendant"
+      ],
+      "max_default_rarity": "ascendant"
+    }
+  },
+  "drop_policies": {
+    "not_combatant_no_drops": "Social NPC. No gear drops; the visible gear is identity only.",
+    "guard_low_value": "Guard profile. Drop normal vanilla/modded loot only if the NPC tool supports safe death handling.",
+    "rival_story_safe_drops": "Named rival. Do not drop full gear by default; use quest rewards, fragments, trophies, or scripted post-fight rewards.",
+    "boss_tier_curated": "Myth/S rank profile. Drops must be curated manually so capstone gear is not farmed accidentally."
+  },
+  "archetypes": {
+    "guild_clerk": {
+      "rank": "d_rank",
+      "tool": "Easy NPC",
+      "purpose": "Village board helper and small-town Guild identity.",
+      "equipment": {
+        "mainhand": {
+          "item": "irons_spellbooks:artificer_cane",
+          "name": "Artificer's Cane",
+          "source_mod": "Iron's Spells 'n Spellbooks",
+          "rarity": "rare",
+          "slot_note": "ledger cane / staff silhouette",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "head": {
+          "item": "artifacts:villager_hat",
+          "name": "Villager Hat",
+          "source_mod": "Artifacts",
+          "rarity": "rare",
+          "slot_note": "civilian Guild helper identity",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "chest": {
+          "item": "immersive_armors:robe_chestplate",
+          "name": "Robe Chestplate",
+          "source_mod": "Immersive Armors",
+          "rarity": "uncommon",
+          "slot_note": "simple robe silhouette",
+          "player_obtainable": true,
+          "override_reason": ""
+        }
+      },
+      "drop_policy": "not_combatant_no_drops"
+    },
+    "rank_examiner": {
+      "rank": "b_rank",
+      "tool": "Easy NPC",
+      "purpose": "Formal Guild evaluator with visible authority.",
+      "equipment": {
+        "mainhand": {
+          "item": "irons_spellbooks:truthseeker",
+          "name": "Truthseeker",
+          "source_mod": "Iron's Spells 'n Spellbooks",
+          "rarity": "epic",
+          "slot_note": "judgment weapon and authority prop",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "head": {
+          "item": "irons_spellbooks:gold_crown",
+          "name": "Iron's Crown",
+          "source_mod": "Iron's Spells 'n Spellbooks",
+          "rarity": "epic",
+          "slot_note": "rank authority marker",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "chest": {
+          "item": "fantasy_armor:hero_chestplate",
+          "name": "Hero Chestplate",
+          "source_mod": "Fantasy Armor",
+          "rarity": "legendary",
+          "slot_note": "formal heroic armor",
+          "player_obtainable": true,
+          "override_reason": ""
+        }
+      },
+      "drop_policy": "not_combatant_no_drops"
+    },
+    "bounty_master": {
+      "rank": "c_rank",
+      "tool": "Easy NPC",
+      "purpose": "Contract board anchor and local danger dispatcher.",
+      "equipment": {
+        "mainhand": {
+          "item": "minecraft:crossbow",
+          "name": "Crossbow",
+          "source_mod": "Minecraft",
+          "rarity": "uncommon",
+          "slot_note": "contract hunter sidearm",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "head": {
+          "item": "immersive_armors:heavy_helmet",
+          "name": "Heavy Helmet",
+          "source_mod": "Immersive Armors",
+          "rarity": "uncommon",
+          "slot_note": "practical field armor",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "chest": {
+          "item": "immersive_armors:heavy_chestplate",
+          "name": "Heavy Chestplate",
+          "source_mod": "Immersive Armors",
+          "rarity": "uncommon",
+          "slot_note": "practical field armor",
+          "player_obtainable": true,
+          "override_reason": ""
+        }
+      },
+      "drop_policy": "not_combatant_no_drops"
+    },
+    "guild_arcanist": {
+      "rank": "b_rank",
+      "tool": "Easy NPC",
+      "purpose": "Magic systems, spell research, corruption warnings, and arcanist contracts.",
+      "equipment": {
+        "mainhand": {
+          "item": "irons_spellbooks:graybeard_staff",
+          "name": "Graybeard Staff",
+          "source_mod": "Iron's Spells 'n Spellbooks",
+          "rarity": "rare",
+          "slot_note": "visible spellcaster staff",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "offhand": {
+          "item": "irons_spellbooks:diamond_spell_book",
+          "name": "Enchanted Spell Book",
+          "source_mod": "Iron's Spells 'n Spellbooks",
+          "rarity": "epic",
+          "slot_note": "spellbook identity",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "head": {
+          "item": "irons_spellbooks:archevoker_helmet",
+          "name": "Archevoker Hat",
+          "source_mod": "Iron's Spells 'n Spellbooks",
+          "rarity": "epic",
+          "slot_note": "academy mage silhouette",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "chest": {
+          "item": "irons_spellbooks:archevoker_chestplate",
+          "name": "Archevoker Coat",
+          "source_mod": "Iron's Spells 'n Spellbooks",
+          "rarity": "epic",
+          "slot_note": "academy mage silhouette",
+          "player_obtainable": true,
+          "override_reason": ""
+        }
+      },
+      "drop_policy": "not_combatant_no_drops"
+    },
+    "hunter_quartermaster": {
+      "rank": "d_rank",
+      "tool": "Easy NPC",
+      "purpose": "Rank vendor prototype and equipment exchange identity.",
+      "equipment": {
+        "mainhand": {
+          "item": "minecraft:iron_sword",
+          "name": "Iron Sword",
+          "source_mod": "Minecraft",
+          "rarity": "uncommon",
+          "slot_note": "basic supply weapon",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "head": {
+          "item": "immersive_armors:steampunk_helmet",
+          "name": "Steampunk Helmet",
+          "source_mod": "Immersive Armors",
+          "rarity": "uncommon",
+          "slot_note": "utility workshop silhouette",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "chest": {
+          "item": "immersive_armors:steampunk_chestplate",
+          "name": "Steampunk Chestplate",
+          "source_mod": "Immersive Armors",
+          "rarity": "uncommon",
+          "slot_note": "utility workshop silhouette",
+          "player_obtainable": true,
+          "override_reason": ""
+        }
+      },
+      "drop_policy": "not_combatant_no_drops"
+    },
+    "guard_captain": {
+      "rank": "c_rank",
+      "tool": "Easy NPC or CustomNPCs-Unofficial",
+      "purpose": "Visible village defense leader and guard contract source.",
+      "equipment": {
+        "mainhand": {
+          "item": "simplyswords:iron_longsword",
+          "name": "Iron Longsword",
+          "source_mod": "Simply Swords",
+          "rarity": "epic",
+          "slot_note": "ranked guard weapon",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "offhand": {
+          "item": "spartanshields:iron_basic_shield",
+          "name": "Iron Basic Shield",
+          "source_mod": "Spartan Shields",
+          "rarity": "rare",
+          "slot_note": "ranked guard shield",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "head": {
+          "item": "immersive_armors:warrior_helmet",
+          "name": "Warrior Helmet",
+          "source_mod": "Immersive Armors",
+          "rarity": "uncommon",
+          "slot_note": "guard captain silhouette",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "chest": {
+          "item": "immersive_armors:warrior_chestplate",
+          "name": "Warrior Chestplate",
+          "source_mod": "Immersive Armors",
+          "rarity": "uncommon",
+          "slot_note": "guard captain silhouette",
+          "player_obtainable": true,
+          "override_reason": ""
+        }
+      },
+      "drop_policy": "guard_low_value"
+    },
+    "tavern_keeper": {
+      "rank": "d_rank",
+      "tool": "Easy NPC",
+      "purpose": "Rumor hub for rival sightings and village requests.",
+      "equipment": {
+        "mainhand": {
+          "item": "artifacts:universal_attractor",
+          "name": "Universal Attractor",
+          "source_mod": "Artifacts",
+          "rarity": "rare",
+          "slot_note": "odd rumor-keeper trinket",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "head": {
+          "item": "artifacts:novelty_drinking_hat",
+          "name": "Novelty Drinking Hat",
+          "source_mod": "Artifacts",
+          "rarity": "rare",
+          "slot_note": "tavern visual identity",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "chest": {
+          "item": "immersive_armors:robe_chestplate",
+          "name": "Robe Chestplate",
+          "source_mod": "Immersive Armors",
+          "rarity": "uncommon",
+          "slot_note": "civilian clothing",
+          "player_obtainable": true,
+          "override_reason": ""
+        }
+      },
+      "drop_policy": "not_combatant_no_drops"
+    },
+    "village_elder": {
+      "rank": "d_rank",
+      "tool": "Easy NPC",
+      "purpose": "Local representative who connects village needs to the Guild.",
+      "equipment": {
+        "mainhand": {
+          "item": "irons_spellbooks:artificer_cane",
+          "name": "Artificer's Cane",
+          "source_mod": "Iron's Spells 'n Spellbooks",
+          "rarity": "rare",
+          "slot_note": "elder cane",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "head": {
+          "item": "artifacts:villager_hat",
+          "name": "Villager Hat",
+          "source_mod": "Artifacts",
+          "rarity": "rare",
+          "slot_note": "village authority marker",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "chest": {
+          "item": "immersive_armors:robe_chestplate",
+          "name": "Robe Chestplate",
+          "source_mod": "Immersive Armors",
+          "rarity": "uncommon",
+          "slot_note": "civilian clothing",
+          "player_obtainable": true,
+          "override_reason": ""
+        }
+      },
+      "drop_policy": "not_combatant_no_drops"
+    },
+    "wounded_hunter": {
+      "rank": "c_rank",
+      "tool": "CustomNPCs-Unofficial",
+      "purpose": "Rescue encounter profile for dungeons, roads, and failed contracts.",
+      "equipment": {
+        "mainhand": {
+          "item": "minecraft:bow",
+          "name": "Bow",
+          "source_mod": "Minecraft",
+          "rarity": "common",
+          "slot_note": "damaged scout weapon",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "head": {
+          "item": "immersive_armors:bone_helmet",
+          "name": "Bone Helmet",
+          "source_mod": "Immersive Armors",
+          "rarity": "uncommon",
+          "slot_note": "rough field gear",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "chest": {
+          "item": "immersive_armors:bone_chestplate",
+          "name": "Bone Chestplate",
+          "source_mod": "Immersive Armors",
+          "rarity": "uncommon",
+          "slot_note": "rough field gear",
+          "player_obtainable": true,
+          "override_reason": ""
+        }
+      },
+      "drop_policy": "rival_story_safe_drops"
+    }
+  },
+  "npc_profiles": {
+    "mira_ash": {
+      "rank": "c_rank",
+      "archetype": "rival_scout",
+      "tool": "CustomNPCs-Unofficial",
+      "purpose": "C-Rank scout rival who maps ruins, needs rescue, and races the player to structure intel.",
+      "equipment": {
+        "mainhand": {
+          "item": "irons_spellbooks:autoloader_crossbow",
+          "name": "Autoloader Crossbow",
+          "source_mod": "Iron's Spells 'n Spellbooks",
+          "rarity": "rare",
+          "slot_note": "scout crossbow",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "offhand": {
+          "item": "simplyswords:watching_warglaive",
+          "name": "Watching Warglaive",
+          "source_mod": "Simply Swords",
+          "rarity": "rare",
+          "slot_note": "light close-range backup",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "head": {
+          "item": "artifacts:night_vision_goggles",
+          "name": "Night Vision Goggles",
+          "source_mod": "Artifacts",
+          "rarity": "rare",
+          "slot_note": "scout identity",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "chest": {
+          "item": "immersive_armors:prismarine_chestplate",
+          "name": "Prismarine Chestplate",
+          "source_mod": "Immersive Armors",
+          "rarity": "uncommon",
+          "slot_note": "light field armor",
+          "player_obtainable": true,
+          "override_reason": ""
+        }
+      },
+      "drop_policy": "rival_story_safe_drops"
+    },
+    "darius_crowe": {
+      "rank": "b_rank",
+      "archetype": "rival_duelist",
+      "tool": "CustomNPCs-Unofficial",
+      "purpose": "B-Rank duelist rival who challenges the player and competes for high-value contracts.",
+      "equipment": {
+        "mainhand": {
+          "item": "simplyswords:netherite_rapier",
+          "name": "Netherite Rapier",
+          "source_mod": "Simply Swords",
+          "rarity": "legendary",
+          "slot_note": "duelist signature weapon",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "offhand": {
+          "item": "spartanshields:diamond_basic_shield",
+          "name": "Diamond Basic Shield",
+          "source_mod": "Spartan Shields",
+          "rarity": "epic",
+          "slot_note": "duelist shield",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "head": {
+          "item": "fantasy_armor:thief_helmet",
+          "name": "Thief Helmet",
+          "source_mod": "Fantasy Armor",
+          "rarity": "rare",
+          "slot_note": "fast duelist silhouette",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "chest": {
+          "item": "fantasy_armor:thief_chestplate",
+          "name": "Thief Chestplate",
+          "source_mod": "Fantasy Armor",
+          "rarity": "legendary",
+          "slot_note": "fast duelist silhouette",
+          "player_obtainable": true,
+          "override_reason": ""
+        }
+      },
+      "drop_policy": "rival_story_safe_drops"
+    },
+    "seren_valehart": {
+      "rank": "b_rank",
+      "archetype": "rival_arcanist",
+      "tool": "CustomNPCs-Unofficial",
+      "purpose": "B-Rank arcanist rival tied to Iron's Spells, corruption, and magic contract escalation.",
+      "equipment": {
+        "mainhand": {
+          "item": "irons_spellbooks:magehunter",
+          "name": "Magehunter",
+          "source_mod": "Iron's Spells 'n Spellbooks",
+          "rarity": "legendary",
+          "slot_note": "mage-hunter spellblade",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "offhand": {
+          "item": "irons_spellbooks:diamond_spell_book",
+          "name": "Enchanted Spell Book",
+          "source_mod": "Iron's Spells 'n Spellbooks",
+          "rarity": "epic",
+          "slot_note": "spellbook identity",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "head": {
+          "item": "irons_spellbooks:archevoker_helmet",
+          "name": "Archevoker Hat",
+          "source_mod": "Iron's Spells 'n Spellbooks",
+          "rarity": "epic",
+          "slot_note": "arcanist identity",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "chest": {
+          "item": "irons_spellbooks:archevoker_chestplate",
+          "name": "Archevoker Coat",
+          "source_mod": "Iron's Spells 'n Spellbooks",
+          "rarity": "epic",
+          "slot_note": "arcanist identity",
+          "player_obtainable": true,
+          "override_reason": ""
+        }
+      },
+      "drop_policy": "rival_story_safe_drops"
+    },
+    "kael_vorn": {
+      "rank": "a_rank",
+      "archetype": "rival_monster_hunter",
+      "tool": "CustomNPCs-Unofficial",
+      "purpose": "A-Rank monster hunter who appears around boss approaches, dragon zones, and aftermath scenes.",
+      "equipment": {
+        "mainhand": {
+          "item": "iceandfire:dragonbone_sword_fire",
+          "name": "Flamed Dragon Bone Sword",
+          "source_mod": "Ice And Fire Community Edition",
+          "rarity": "mythic",
+          "slot_note": "dragon-tier hunter blade",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "offhand": {
+          "item": "spartanshields:netherite_basic_shield",
+          "name": "Netherite Basic Shield",
+          "source_mod": "Spartan Shields",
+          "rarity": "legendary",
+          "slot_note": "late-game shield",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "head": {
+          "item": "fantasy_armor:dragonslayer_helmet",
+          "name": "Dragonslayer Helmet",
+          "source_mod": "Fantasy Armor",
+          "rarity": "rare",
+          "slot_note": "dragon hunter silhouette",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "chest": {
+          "item": "fantasy_armor:dragonslayer_chestplate",
+          "name": "Dragonslayer Chestplate",
+          "source_mod": "Fantasy Armor",
+          "rarity": "legendary",
+          "slot_note": "dragon hunter silhouette",
+          "player_obtainable": true,
+          "override_reason": ""
+        }
+      },
+      "drop_policy": "rival_story_safe_drops"
+    },
+    "black_hound": {
+      "rank": "s_rank",
+      "archetype": "mythic_rival",
+      "tool": "CustomNPCs-Unofficial",
+      "purpose": "S-Rank myth rival, mostly evidence and rare appearances.",
+      "equipment": {
+        "mainhand": {
+          "item": "soulsweapons:pure_moonlight_shortsword",
+          "name": "Pure Moonlight Shortsword",
+          "source_mod": "Marium's Soulslike Weaponry",
+          "rarity": "ascendant",
+          "slot_note": "ascendant signature weapon",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "offhand": {
+          "item": "cataclysm:gauntlet_of_bulwark",
+          "name": "Gauntlet of Bulwark",
+          "source_mod": "cataclysm",
+          "rarity": "rare",
+          "slot_note": "boss-tier defensive relic",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "head": {
+          "item": "soulsweapons:forlorn_helmet",
+          "name": "Forlorn Helmet",
+          "source_mod": "Marium's Soulslike Weaponry",
+          "rarity": "mythic",
+          "slot_note": "mythic hooded silhouette",
+          "player_obtainable": true,
+          "override_reason": ""
+        },
+        "chest": {
+          "item": "soulsweapons:forlorn_chestplate",
+          "name": "Forlorn Chestplate",
+          "source_mod": "Marium's Soulslike Weaponry",
+          "rarity": "mythic",
+          "slot_note": "mythic silhouette",
+          "player_obtainable": true,
+          "override_reason": ""
+        }
+      },
+      "drop_policy": "boss_tier_curated"
+    }
+  }
+}

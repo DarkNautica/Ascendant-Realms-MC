@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "status": "live_helper_v1",
+  "system_id": "ascendant_ai_hunter_director",
+  "implemented_in": "ascendant-atlas-regions helper jar",
+  "commands": {
+    "status": "/aschunter status",
+    "spawn_specific_rank_near_player": "/aschunter spawn_near <d_rank|c_rank|b_rank|a_rank|s_rank>",
+    "spawn_random_near_player": "/aschunter spawn_random_now",
+    "grow_nearest_hunter": "/aschunter grow_near",
+    "cleanup_nearby_hunters": "/aschunter cleanup_near"
+  },
+  "world_spawning": {
+    "enabled": true,
+    "dimension": "minecraft:overworld",
+    "initial_delay_minutes": 4,
+    "attempt_interval_minutes": 3,
+    "attempt_chance": 0.1,
+    "nearby_hunter_block_radius": 128,
+    "spawn_surface_rule": "solid non-water non-lava non-ice surface near player"
+  },
+  "growth": {
+    "enabled": true,
+    "growth_pulse_interval_minutes": 8,
+    "loaded_nearby_radius": 96,
+    "current_behavior": "loaded AI hunters near players receive periodic rank/stat pressure tags and combat buffs",
+    "next_needed": "connect hunter kills, defeats, and rivalry state to Guild rank and bounty rewards"
+  },
+  "combat_bridge": {
+    "enabled": true,
+    "pulse_interval_millis": 1200,
+    "loaded_nearby_radius": 96,
+    "target_search_radius": 32,
+    "behavior": "nearby ar_ai_hunter CustomNPCs and hostile mobs are force-targeted against each other; hunters look at, path toward, and melee nearby hostile targets",
+    "purpose": "AI hunters should visibly fight monsters during field tests instead of standing idle beside hostile mobs"
+  },
+  "rank_profiles": {
+    "d_rank": {
+      "name": "Wandering Hunter",
+      "role": "Hunter",
+      "max_health": 44,
+      "gear_style": "early bow and bone armor"
+    },
+    "c_rank": {
+      "name": "Mira Ash",
+      "role": "Scout",
+      "max_health": 64,
+      "gear_style": "crossbow, light blade, scout gear"
+    },
+    "b_rank": {
+      "name": "Darius Crowe or Seren Valehart",
+      "role": "Duelist or Arcanist",
+      "max_health": 92,
+      "gear_style": "legendary sword/shield or spellblade kit"
+    },
+    "a_rank": {
+      "name": "Kael Vorn",
+      "role": "Monster Hunter",
+      "max_health": 132,
+      "gear_style": "dragon hunter kit"
+    },
+    "s_rank": {
+      "name": "The Black Hound",
+      "role": "Unknown",
+      "max_health": 180,
+      "gear_style": "ascendant hunter kit"
+    }
+  },
+  "known_limitations": [
+    "A-rank and S-rank currently reuse available rival texture assets until dedicated skins are generated.",
+    "The director creates living ranked hunter encounters, but story rivalry memory and reward contracts still need a later pass.",
+    "The combat bridge is a helper-side behavior assist, not final authored CustomNPC faction AI.",
+    "This does not place Guild Halls, Hunter Boards, roads, villages, or settlement content."
+  ]
+}

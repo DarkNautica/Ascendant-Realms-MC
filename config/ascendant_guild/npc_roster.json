@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "npcs": [
+    {
+      "id": "guild_registrar",
+      "name": "Guild Registrar",
+      "role": "registers new hunters and explains the Guild"
+    },
+    {
+      "id": "rank_examiner",
+      "name": "Rank Examiner",
+      "role": "evaluates hidden milestones and assigns public rank"
+    },
+    {
+      "id": "bounty_master",
+      "name": "Bounty Master",
+      "role": "directs players to local and regional contracts"
+    },
+    {
+      "id": "guild_clerk",
+      "name": "Guild Clerk",
+      "role": "small-board social anchor in villages"
+    },
+    {
+      "id": "hunter_quartermaster",
+      "name": "Hunter Quartermaster",
+      "role": "spends Guild currency on rank-appropriate supplies"
+    },
+    {
+      "id": "weapon_appraiser",
+      "name": "Weapon Appraiser",
+      "role": "ties Simply Swords, Marium, Spartan Shields, and boss loot to rank identity"
+    },
+    {
+      "id": "arcanist",
+      "name": "Guild Arcanist",
+      "role": "explains Iron's Spells, magical threats, and corrupted areas"
+    },
+    {
+      "id": "tavern_keeper",
+      "name": "Tavern Keeper",
+      "role": "shares rival sightings and local rumors"
+    },
+    {
+      "id": "guard_captain",
+      "name": "Guard Captain",
+      "role": "connects Guard Villagers and settlement defense contracts"
+    },
+    {
+      "id": "wounded_hunter",
+      "name": "Wounded Hunter",
+      "role": "encounter NPC for rescue and warning events"
+    }
+  ]
+}

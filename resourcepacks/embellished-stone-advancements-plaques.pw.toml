@@ -1,0 +1,13 @@
+name = "Embellished Stone (Advancements Plaques)"
+filename = "EmbellishedStone-1.20.1-1.0.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/wFLeBRkG/versions/OsZF7bfD/EmbellishedStone-1.20.1-1.0.0.zip"
+hash-format = "sha512"
+hash = "1097820c5c325882e64f57188b0c71b43de6ddbebf661688fac685c759c873934e960b35ef77e171544936d4a9181fa7194cb7aa8b37ac61b1f946fffc96ef86"
+
+[update]
+[update.modrinth]
+mod-id = "wFLeBRkG"
+version = "OsZF7bfD"

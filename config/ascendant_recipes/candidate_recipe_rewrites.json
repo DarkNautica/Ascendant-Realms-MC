@@ -1,0 +1,1391 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-17T02:11:41+00:00",
+  "status": "disabled_review_only",
+  "enabled_candidates": 0,
+  "candidates": [
+    {
+      "candidate_id": "candidate/born_in_chaos_v1/death_totem_k",
+      "recipe_id": "born_in_chaos_v1:death_totem_k",
+      "item_id": "born_in_chaos_v1:death_totem",
+      "issue": "too_cheap",
+      "current_ingredients": [
+        "born_in_chaos_v1:ethereal_spirit",
+        "born_in_chaos_v1:seedof_chaos",
+        "born_in_chaos_v1:shattered_skull",
+        "#d_dub"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/born_in_chaos_v1/great_dark_crusher_k",
+      "recipe_id": "born_in_chaos_v1:great_dark_crusher_k",
+      "item_id": "born_in_chaos_v1:darkwarblade",
+      "issue": "too_cheap",
+      "current_ingredients": [
+        "born_in_chaos_v1:bone_handle",
+        "born_in_chaos_v1:dark_metal_block"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/born_in_chaos_v1/great_reaper_ax_k",
+      "recipe_id": "born_in_chaos_v1:great_reaper_ax_k",
+      "item_id": "born_in_chaos_v1:great_reaper_axe",
+      "issue": "too_cheap",
+      "current_ingredients": [
+        "born_in_chaos_v1:bone_handle",
+        "born_in_chaos_v1:dark_metal_ingot"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/born_in_chaos_v1/intoxicating_dagger_k",
+      "recipe_id": "born_in_chaos_v1:intoxicating_dagger_k",
+      "item_id": "born_in_chaos_v1:intoxicating_dagger",
+      "issue": "too_cheap",
+      "current_ingredients": [
+        "born_in_chaos_v1:bone_handle",
+        "born_in_chaos_v1:dark_metal_ingot",
+        "born_in_chaos_v1:intoxicating_decoction"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/born_in_chaos_v1/skull_crusher_k",
+      "recipe_id": "born_in_chaos_v1:skull_crusher_k",
+      "item_id": "born_in_chaos_v1:skullbreaker_hammer",
+      "issue": "too_cheap",
+      "current_ingredients": [
+        "born_in_chaos_v1:bone_handle",
+        "born_in_chaos_v1:dark_metal_block"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/born_in_chaos_v1/soul_saber_k",
+      "recipe_id": "born_in_chaos_v1:soul_saber_k",
+      "item_id": "born_in_chaos_v1:soul_cutlass",
+      "issue": "too_cheap",
+      "current_ingredients": [
+        "born_in_chaos_v1:bone_handle",
+        "born_in_chaos_v1:dark_metal_ingot",
+        "born_in_chaos_v1:dark_metal_nugget",
+        "born_in_chaos_v1:nightmare_claw"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/create/blasting/silver_ingot_compat_galosphere",
+      "recipe_id": "create:blasting/silver_ingot_compat_galosphere",
+      "item_id": "galosphere:silver_ingot",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "create:crushed_raw_silver"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/create/blasting/silver_ingot_compat_oreganized",
+      "recipe_id": "create:blasting/silver_ingot_compat_oreganized",
+      "item_id": "oreganized:silver_ingot",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "create:crushed_raw_silver"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/create/blasting/silver_ingot_compat_thermal",
+      "recipe_id": "create:blasting/silver_ingot_compat_thermal",
+      "item_id": "thermal:silver_ingot",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "create:crushed_raw_silver"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/create/crafting/materials/copper_nugget",
+      "recipe_id": "create:crafting/materials/copper_nugget",
+      "item_id": "create:copper_nugget",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "#forge:ingots/copper"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/create/crushing/tuff",
+      "recipe_id": "create:crushing/tuff",
+      "item_id": "create:copper_nugget",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "minecraft:tuff"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/create/crushing/tuff_recycling",
+      "recipe_id": "create:crushing/tuff_recycling",
+      "item_id": "create:copper_nugget",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "#create:stone_types/tuff"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/create/crushing/veridium",
+      "recipe_id": "create:crushing/veridium",
+      "item_id": "create:copper_nugget",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "create:veridium"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/create/crushing/veridium_recycling",
+      "recipe_id": "create:crushing/veridium_recycling",
+      "item_id": "create:copper_nugget",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "#create:stone_types/veridium"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/create/pressing/copper_ingot",
+      "recipe_id": "create:pressing/copper_ingot",
+      "item_id": "create:copper_sheet",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "#forge:ingots/copper"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/create/pressing/gold_ingot",
+      "recipe_id": "create:pressing/gold_ingot",
+      "item_id": "create:golden_sheet",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "#forge:ingots/gold"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/create/pressing/iron_ingot",
+      "recipe_id": "create:pressing/iron_ingot",
+      "item_id": "create:iron_sheet",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "#forge:ingots/iron"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/create/sequenced_assembly/precision_mechanism",
+      "recipe_id": "create:sequenced_assembly/precision_mechanism",
+      "item_id": "create:golden_sheet",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "create:incomplete_precision_mechanism",
+        "create:large_cogwheel",
+        "#forge:nuggets/iron",
+        "#forge:plates/gold"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/create/smelting/silver_ingot_compat_galosphere",
+      "recipe_id": "create:smelting/silver_ingot_compat_galosphere",
+      "item_id": "galosphere:silver_ingot",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "create:crushed_raw_silver"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/create/smelting/silver_ingot_compat_oreganized",
+      "recipe_id": "create:smelting/silver_ingot_compat_oreganized",
+      "item_id": "oreganized:silver_ingot",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "create:crushed_raw_silver"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/create/smelting/silver_ingot_compat_thermal",
+      "recipe_id": "create:smelting/silver_ingot_compat_thermal",
+      "item_id": "thermal:silver_ingot",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "create:crushed_raw_silver"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/create/splashing/crushed_raw_copper",
+      "recipe_id": "create:splashing/crushed_raw_copper",
+      "item_id": "create:copper_nugget",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "create:crushed_raw_copper"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/create/splashing/galosphere/crushed_raw_silver",
+      "recipe_id": "create:splashing/galosphere/crushed_raw_silver",
+      "item_id": "galosphere:silver_nugget",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "create:crushed_raw_silver"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/create/splashing/oreganized/crushed_raw_silver",
+      "recipe_id": "create:splashing/oreganized/crushed_raw_silver",
+      "item_id": "oreganized:silver_nugget",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "create:crushed_raw_silver"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/create/splashing/quark/rusty_iron_plate",
+      "recipe_id": "create:splashing/quark/rusty_iron_plate",
+      "item_id": "quark:rusty_iron_plate",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "quark:iron_plate"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/create/splashing/thermal/crushed_raw_silver",
+      "recipe_id": "create:splashing/thermal/crushed_raw_silver",
+      "item_id": "thermal:silver_nugget",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "create:crushed_raw_silver"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/createbigcannons/cast_iron_block",
+      "recipe_id": "createbigcannons:cast_iron_block",
+      "item_id": "createbigcannons:cast_iron_block",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "createbigcannons:cast_iron_ingot"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/createbigcannons/cast_iron_ingot_from_block",
+      "recipe_id": "createbigcannons:cast_iron_ingot_from_block",
+      "item_id": "createbigcannons:cast_iron_ingot",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "createbigcannons:cast_iron_block"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/createbigcannons/cast_iron_ingot_from_nuggets",
+      "recipe_id": "createbigcannons:cast_iron_ingot_from_nuggets",
+      "item_id": "createbigcannons:cast_iron_ingot",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "createbigcannons:cast_iron_nugget"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/createbigcannons/cast_iron_nugget",
+      "recipe_id": "createbigcannons:cast_iron_nugget",
+      "item_id": "createbigcannons:cast_iron_nugget",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "createbigcannons:cast_iron_ingot"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/createbigcannons/compacting/forge_cast_iron_ingot",
+      "recipe_id": "createbigcannons:compacting/forge_cast_iron_ingot",
+      "item_id": "createbigcannons:cast_iron_ingot",
+      "issue": "duplicate",
+      "current_ingredients": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/createbigcannons/compacting/forge_cast_iron_nugget",
+      "recipe_id": "createbigcannons:compacting/forge_cast_iron_nugget",
+      "item_id": "createbigcannons:cast_iron_nugget",
+      "issue": "duplicate",
+      "current_ingredients": [],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/createbigcannons/compacting/iron_to_cast_iron_ingot",
+      "recipe_id": "createbigcannons:compacting/iron_to_cast_iron_ingot",
+      "item_id": "createbigcannons:cast_iron_ingot",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "#forge:ingots/iron",
+        "#minecraft:coals"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/iceandfire/copper_ingot_to_nuggets",
+      "recipe_id": "iceandfire:copper_ingot_to_nuggets",
+      "item_id": "iceandfire:copper_nugget",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "minecraft:copper_ingot"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/iceandfire/dragonarmor_copper_body",
+      "recipe_id": "iceandfire:dragonarmor_copper_body",
+      "item_id": "iceandfire:dragonarmor_copper_body",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:copper_block"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/iceandfire/dragonarmor_copper_head",
+      "recipe_id": "iceandfire:dragonarmor_copper_head",
+      "item_id": "iceandfire:dragonarmor_copper_head",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:copper_block"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/iceandfire/dragonarmor_copper_neck",
+      "recipe_id": "iceandfire:dragonarmor_copper_neck",
+      "item_id": "iceandfire:dragonarmor_copper_neck",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:copper_block"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/iceandfire/dragonarmor_copper_tail",
+      "recipe_id": "iceandfire:dragonarmor_copper_tail",
+      "item_id": "iceandfire:dragonarmor_copper_tail",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:copper_block"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/iceandfire/dragonarmor_diamond_body",
+      "recipe_id": "iceandfire:dragonarmor_diamond_body",
+      "item_id": "iceandfire:dragonarmor_diamond_body",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:diamond_block"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/iceandfire/dragonarmor_diamond_head",
+      "recipe_id": "iceandfire:dragonarmor_diamond_head",
+      "item_id": "iceandfire:dragonarmor_diamond_head",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:diamond_block"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/iceandfire/dragonarmor_diamond_neck",
+      "recipe_id": "iceandfire:dragonarmor_diamond_neck",
+      "item_id": "iceandfire:dragonarmor_diamond_neck",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:diamond_block"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/iceandfire/dragonarmor_diamond_tail",
+      "recipe_id": "iceandfire:dragonarmor_diamond_tail",
+      "item_id": "iceandfire:dragonarmor_diamond_tail",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:diamond_block"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/iceandfire/dragonarmor_gold_body",
+      "recipe_id": "iceandfire:dragonarmor_gold_body",
+      "item_id": "iceandfire:dragonarmor_gold_body",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:gold_block"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/iceandfire/dragonarmor_gold_head",
+      "recipe_id": "iceandfire:dragonarmor_gold_head",
+      "item_id": "iceandfire:dragonarmor_gold_head",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:gold_block"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/iceandfire/dragonarmor_gold_neck",
+      "recipe_id": "iceandfire:dragonarmor_gold_neck",
+      "item_id": "iceandfire:dragonarmor_gold_neck",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:gold_block"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/iceandfire/dragonarmor_gold_tail",
+      "recipe_id": "iceandfire:dragonarmor_gold_tail",
+      "item_id": "iceandfire:dragonarmor_gold_tail",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:gold_block"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/iceandfire/dragonarmor_iron_body",
+      "recipe_id": "iceandfire:dragonarmor_iron_body",
+      "item_id": "iceandfire:dragonarmor_iron_body",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:iron_block"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/iceandfire/dragonarmor_iron_head",
+      "recipe_id": "iceandfire:dragonarmor_iron_head",
+      "item_id": "iceandfire:dragonarmor_iron_head",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:iron_block"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/iceandfire/dragonarmor_iron_neck",
+      "recipe_id": "iceandfire:dragonarmor_iron_neck",
+      "item_id": "iceandfire:dragonarmor_iron_neck",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:iron_block"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/iceandfire/dragonarmor_iron_tail",
+      "recipe_id": "iceandfire:dragonarmor_iron_tail",
+      "item_id": "iceandfire:dragonarmor_iron_tail",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:iron_block"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/iceandfire/dragonarmor_silver_body",
+      "recipe_id": "iceandfire:dragonarmor_silver_body",
+      "item_id": "iceandfire:dragonarmor_silver_body",
+      "issue": "too_cheap",
+      "current_ingredients": [
+        "#c:storage_blocks/silver"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/iceandfire/dragonarmor_silver_head",
+      "recipe_id": "iceandfire:dragonarmor_silver_head",
+      "item_id": "iceandfire:dragonarmor_silver_head",
+      "issue": "too_cheap",
+      "current_ingredients": [
+        "#c:storage_blocks/silver"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/iceandfire/dragonarmor_silver_neck",
+      "recipe_id": "iceandfire:dragonarmor_silver_neck",
+      "item_id": "iceandfire:dragonarmor_silver_neck",
+      "issue": "too_cheap",
+      "current_ingredients": [
+        "#c:storage_blocks/silver"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/iceandfire/dragonarmor_silver_tail",
+      "recipe_id": "iceandfire:dragonarmor_silver_tail",
+      "item_id": "iceandfire:dragonarmor_silver_tail",
+      "issue": "too_cheap",
+      "current_ingredients": [
+        "#c:storage_blocks/silver"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/iceandfire/furnace/copper_nugget",
+      "recipe_id": "iceandfire:furnace/copper_nugget",
+      "item_id": "iceandfire:copper_nugget",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "iceandfire:armor_copper_metal_boots",
+        "iceandfire:armor_copper_metal_chestplate",
+        "iceandfire:armor_copper_metal_helmet",
+        "iceandfire:armor_copper_metal_leggings",
+        "iceandfire:copper_axe",
+        "iceandfire:copper_hoe",
+        "iceandfire:copper_pickaxe",
+        "iceandfire:copper_shovel",
+        "iceandfire:copper_sword"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/iceandfire/furnace/copper_nugget_blasting",
+      "recipe_id": "iceandfire:furnace/copper_nugget_blasting",
+      "item_id": "iceandfire:copper_nugget",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "iceandfire:armor_copper_metal_boots",
+        "iceandfire:armor_copper_metal_chestplate",
+        "iceandfire:armor_copper_metal_helmet",
+        "iceandfire:armor_copper_metal_leggings",
+        "iceandfire:copper_axe",
+        "iceandfire:copper_hoe",
+        "iceandfire:copper_pickaxe",
+        "iceandfire:copper_shovel",
+        "iceandfire:copper_sword"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/iceandfire/hippogryph_sword",
+      "recipe_id": "iceandfire:hippogryph_sword",
+      "item_id": "iceandfire:hippogryph_sword",
+      "issue": "too_cheap",
+      "current_ingredients": [
+        "iceandfire:hippogryph_talon",
+        "minecraft:feather",
+        "minecraft:stick",
+        "#c:ingots/iron"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/iceandfire/stymphalian_bird_dagger",
+      "recipe_id": "iceandfire:stymphalian_bird_dagger",
+      "item_id": "iceandfire:stymphalian_bird_dagger",
+      "issue": "too_cheap",
+      "current_ingredients": [
+        "iceandfire:stymphalian_bird_feather",
+        "minecraft:stick"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/immersive_armors/wither_boots",
+      "recipe_id": "immersive_armors:wither_boots",
+      "item_id": "immersive_armors:wither_boots",
+      "issue": "too_cheap",
+      "current_ingredients": [
+        "immersive_armors:bone_boots",
+        "minecraft:nether_brick"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/immersive_armors/wither_chestplate",
+      "recipe_id": "immersive_armors:wither_chestplate",
+      "item_id": "immersive_armors:wither_chestplate",
+      "issue": "too_cheap",
+      "current_ingredients": [
+        "immersive_armors:bone_chestplate",
+        "minecraft:nether_brick"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/immersive_armors/wither_helmet",
+      "recipe_id": "immersive_armors:wither_helmet",
+      "item_id": "immersive_armors:wither_helmet",
+      "issue": "too_cheap",
+      "current_ingredients": [
+        "immersive_armors:bone_helmet",
+        "minecraft:nether_brick"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/immersive_armors/wither_leggings",
+      "recipe_id": "immersive_armors:wither_leggings",
+      "item_id": "immersive_armors:wither_leggings",
+      "issue": "too_cheap",
+      "current_ingredients": [
+        "immersive_armors:bone_leggings",
+        "minecraft:nether_brick"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/irons_spellbooks/alchemist_cauldron/empty_legendary_ink",
+      "recipe_id": "irons_spellbooks:alchemist_cauldron/empty_legendary_ink",
+      "item_id": "irons_spellbooks:legendary_ink",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:glass_bottle"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/irons_spellbooks/create_compat/create_fill_legendary_ink",
+      "recipe_id": "irons_spellbooks:create_compat/create_fill_legendary_ink",
+      "item_id": "irons_spellbooks:legendary_ink",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:glass_bottle"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/irons_spellbooks/decrepit_scythe_repair",
+      "recipe_id": "irons_spellbooks:decrepit_scythe_repair",
+      "item_id": "irons_spellbooks:hellrazor",
+      "issue": "too_cheap",
+      "current_ingredients": [
+        "irons_spellbooks:decrepit_scythe",
+        "irons_spellbooks:timeless_slurry",
+        "#forge:ingots/pyrium"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/cataclysm/astrape",
+      "recipe_id": "cataclysm:astrape",
+      "item_id": "cataclysm:astrape",
+      "issue": "too_cheap",
+      "current_ingredients": [
+        "cataclysm:essence_of_the_storm",
+        "cataclysm:lacrima"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/cataclysm/bulwark_of_the_flame",
+      "recipe_id": "cataclysm:bulwark_of_the_flame",
+      "item_id": "cataclysm:bulwark_of_the_flame",
+      "issue": "too_cheap",
+      "current_ingredients": [
+        "cataclysm:ignitium_ingot",
+        "minecraft:blaze_rod",
+        "minecraft:nether_brick",
+        "minecraft:shield"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/cataclysm/ceraunus",
+      "recipe_id": "cataclysm:ceraunus",
+      "item_id": "cataclysm:ceraunus",
+      "issue": "too_cheap",
+      "current_ingredients": [
+        "cataclysm:essence_of_the_storm",
+        "cataclysm:lacrima"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/cataclysm/cursed_bow",
+      "recipe_id": "cataclysm:cursed_bow",
+      "item_id": "cataclysm:cursed_bow",
+      "issue": "too_cheap",
+      "current_ingredients": [
+        "cataclysm:black_steel_ingot",
+        "cataclysm:cursium_ingot",
+        "minecraft:string"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/cataclysm/the_annihilator",
+      "recipe_id": "cataclysm:the_annihilator",
+      "item_id": "cataclysm:the_annihilator",
+      "issue": "too_cheap",
+      "current_ingredients": [
+        "cataclysm:black_steel_ingot",
+        "cataclysm:cursium_ingot"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/mca/rose_gold_ingot_blasting",
+      "recipe_id": "mca:rose_gold_ingot_blasting",
+      "item_id": "mca:rose_gold_ingot",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "mca:rose_gold_dust"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/mca/engagement_ring_rg",
+      "recipe_id": "mca:engagement_ring_rg",
+      "item_id": "mca:engagement_ring_rg",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "mca:rose_gold_ingot",
+        "minecraft:diamond"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/mca/rose_gold_dust_from_ingot",
+      "recipe_id": "mca:rose_gold_dust_from_ingot",
+      "item_id": "mca:rose_gold_dust",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "mca:rose_gold_ingot"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/mca/rose_gold_ingot_smelting",
+      "recipe_id": "mca:rose_gold_ingot_smelting",
+      "item_id": "mca:rose_gold_ingot",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "mca:rose_gold_dust"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/mca/villager_tracker",
+      "recipe_id": "mca:villager_tracker",
+      "item_id": "mca:villager_tracker",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "mca:rose_gold_ingot",
+        "minecraft:compass",
+        "minecraft:ender_eye"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/mca/rose_gold_dust",
+      "recipe_id": "mca:rose_gold_dust",
+      "item_id": "mca:rose_gold_dust",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "minecraft:raw_copper",
+        "minecraft:raw_gold"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/mca/civil_registry",
+      "recipe_id": "mca:civil_registry",
+      "item_id": "mca:civil_registry",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "mca:rose_gold_ingot",
+        "minecraft:emerald",
+        "minecraft:writable_book"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/mca/rose_gold_block",
+      "recipe_id": "mca:rose_gold_block",
+      "item_id": "mca:rose_gold_block",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "mca:rose_gold_ingot"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/mca/rose_gold_ingot",
+      "recipe_id": "mca:rose_gold_ingot",
+      "item_id": "mca:rose_gold_ingot",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "mca:rose_gold_block"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/mca/wedding_ring_rg",
+      "recipe_id": "mca:wedding_ring_rg",
+      "item_id": "mca:wedding_ring_rg",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "mca:rose_gold_ingot"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/quark/building/stonecutting/slabs/rusty_iron_plate_slab_stonecutter",
+      "recipe_id": "quark:building/stonecutting/slabs/rusty_iron_plate_slab_stonecutter",
+      "item_id": "quark:rusty_iron_plate_slab",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "quark:rusty_iron_plate"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/quark/building/stonecutting/slabs/iron_plate_slab_stonecutter",
+      "recipe_id": "quark:building/stonecutting/slabs/iron_plate_slab_stonecutter",
+      "item_id": "quark:iron_plate_slab",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "quark:iron_plate"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/quark/building/stonecutting/stairs/rusty_iron_plate_stairs_stonecutter",
+      "recipe_id": "quark:building/stonecutting/stairs/rusty_iron_plate_stairs_stonecutter",
+      "item_id": "quark:rusty_iron_plate_stairs",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "quark:rusty_iron_plate"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/quark/building/stonecutting/stairs/iron_plate_stairs_stonecutter",
+      "recipe_id": "quark:building/stonecutting/stairs/iron_plate_stairs_stonecutter",
+      "item_id": "quark:iron_plate_stairs",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "quark:iron_plate"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/quark/building/stonecutting/iron_pillar_stonecutter",
+      "recipe_id": "quark:building/stonecutting/iron_pillar_stonecutter",
+      "item_id": "quark:iron_pillar",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "quark:iron_plate"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/quark/building/stonecutting/vertslabs/rusty_iron_plate_vertical_slab_stonecutter",
+      "recipe_id": "quark:building/stonecutting/vertslabs/rusty_iron_plate_vertical_slab_stonecutter",
+      "item_id": "quark:rusty_iron_plate_vertical_slab",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "quark:rusty_iron_plate"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/quark/building/stonecutting/vertslabs/iron_plate_vertical_slab_stonecutter",
+      "recipe_id": "quark:building/stonecutting/vertslabs/iron_plate_vertical_slab_stonecutter",
+      "item_id": "quark:iron_plate_vertical_slab",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "quark:iron_plate"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/quark/building/crafting/rusty_iron_plate2",
+      "recipe_id": "quark:building/crafting/rusty_iron_plate2",
+      "item_id": "quark:rusty_iron_plate",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "minecraft:water_bucket",
+        "quark:iron_plate"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/quark/building/crafting/slabs/rusty_iron_plate_slab",
+      "recipe_id": "quark:building/crafting/slabs/rusty_iron_plate_slab",
+      "item_id": "quark:rusty_iron_plate_slab",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "quark:rusty_iron_plate"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/quark/building/crafting/slabs/iron_plate_slab",
+      "recipe_id": "quark:building/crafting/slabs/iron_plate_slab",
+      "item_id": "quark:iron_plate_slab",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "quark:iron_plate"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/quark/building/crafting/stairs/iron_plate_stairs",
+      "recipe_id": "quark:building/crafting/stairs/iron_plate_stairs",
+      "item_id": "quark:iron_plate_stairs",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "quark:iron_plate"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/quark/building/crafting/stairs/rusty_iron_plate_stairs",
+      "recipe_id": "quark:building/crafting/stairs/rusty_iron_plate_stairs",
+      "item_id": "quark:rusty_iron_plate_stairs",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "quark:rusty_iron_plate"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/quark/building/crafting/rusty_iron_plate",
+      "recipe_id": "quark:building/crafting/rusty_iron_plate",
+      "item_id": "quark:rusty_iron_plate",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "minecraft:water_bucket",
+        "#forge:ingots/iron"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/quark/building/crafting/iron_plate",
+      "recipe_id": "quark:building/crafting/iron_plate",
+      "item_id": "quark:iron_plate",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "#forge:ingots/iron"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/quark/automation/crafting/iron_rod",
+      "recipe_id": "quark:automation/crafting/iron_rod",
+      "item_id": "quark:iron_rod",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "minecraft:end_rod",
+        "#forge:ingots/iron"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/quark/automation/crafting/iron_rod_pre_end",
+      "recipe_id": "quark:automation/crafting/iron_rod_pre_end",
+      "item_id": "quark:iron_rod",
+      "issue": "duplicate",
+      "current_ingredients": [
+        "#forge:ingots/iron"
+      ],
+      "proposed_replacement": "Prefer canonical material tags/items after Almost Unified review.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/simplyswords/mythicmetals_compat/copper/copper_longsword",
+      "recipe_id": "simplyswords:mythicmetals_compat/copper/copper_longsword",
+      "item_id": "simplyswords:mythicmetals_compat/copper/copper_longsword",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:copper_ingot",
+        "#c:wood_sticks"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/simplyswords/mythicmetals_compat/adamantite/adamantite_chakram",
+      "recipe_id": "simplyswords:mythicmetals_compat/adamantite/adamantite_chakram",
+      "item_id": "simplyswords:mythicmetals_compat/adamantite/adamantite_chakram",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:iron_nugget",
+        "#c:adamantite_ingots",
+        "#c:wood_sticks"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/simplyswords/iron_halberd",
+      "recipe_id": "simplyswords:iron_halberd",
+      "item_id": "simplyswords:iron_halberd",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:iron_ingot",
+        "minecraft:iron_nugget",
+        "#c:wood_sticks"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/simplyswords/iron_greathammer",
+      "recipe_id": "simplyswords:iron_greathammer",
+      "item_id": "simplyswords:iron_greathammer",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:iron_ingot",
+        "minecraft:iron_nugget",
+        "#c:wood_sticks"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/simplyswords/gold_halberd",
+      "recipe_id": "simplyswords:gold_halberd",
+      "item_id": "simplyswords:gold_halberd",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:gold_ingot",
+        "minecraft:iron_nugget",
+        "#c:wood_sticks"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/simplyswords/gold_greathammer",
+      "recipe_id": "simplyswords:gold_greathammer",
+      "item_id": "simplyswords:gold_greathammer",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:gold_ingot",
+        "minecraft:iron_nugget",
+        "#c:wood_sticks"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/simplyswords/diamond_halberd",
+      "recipe_id": "simplyswords:diamond_halberd",
+      "item_id": "simplyswords:diamond_halberd",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:diamond",
+        "minecraft:iron_nugget",
+        "#c:wood_sticks"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/simplyswords/diamond_greathammer",
+      "recipe_id": "simplyswords:diamond_greathammer",
+      "item_id": "simplyswords:diamond_greathammer",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:diamond",
+        "minecraft:iron_nugget",
+        "#c:wood_sticks"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/soulsweapons/featherlight",
+      "recipe_id": "soulsweapons:featherlight",
+      "item_id": "soulsweapons:featherlight",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:amethyst_shard",
+        "minecraft:diamond_pickaxe",
+        "minecraft:obsidian"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/soulsweapons/kirkhammer",
+      "recipe_id": "soulsweapons:kirkhammer",
+      "item_id": "soulsweapons:kirkhammer",
+      "issue": "bypass",
+      "current_ingredients": [
+        "minecraft:iron_sword",
+        "minecraft:stone"
+      ],
+      "proposed_replacement": "Add boss, dragon, structure, or Guild-rank proof materials; keep disabled until reviewed.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/spartanshields/obsidian_basic_shield",
+      "recipe_id": "spartanshields:obsidian_basic_shield",
+      "item_id": "spartanshields:obsidian_basic_shield",
+      "issue": "too_cheap",
+      "current_ingredients": [
+        "spartanshields:wooden_basic_shield",
+        "#forge:obsidian"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/spartanshields/obsidian_tower_shield",
+      "recipe_id": "spartanshields:obsidian_tower_shield",
+      "item_id": "spartanshields:obsidian_tower_shield",
+      "issue": "too_cheap",
+      "current_ingredients": [
+        "spartanshields:wooden_tower_shield",
+        "#forge:obsidian"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression.",
+      "review_status": "unreviewed",
+      "enabled": false
+    },
+    {
+      "candidate_id": "candidate/spartanshields/refined_obsidian_basic_shield",
+      "recipe_id": "spartanshields:refined_obsidian_basic_shield",
+      "item_id": "spartanshields:refined_obsidian_basic_shield",
+      "issue": "too_cheap",
+      "current_ingredients": [
+        "spartanshields:wooden_basic_shield",
+        "#forge:ingots/refined_obsidian"
+      ],
+      "proposed_replacement": "Raise ingredients to match boss/dragon/rank tier or convert to loot-only progression.",
+      "review_status": "unreviewed",
+      "enabled": false
+    }
+  ]
+}
