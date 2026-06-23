@@ -635,6 +635,7 @@ Copy-Directory -Source (Join-Path $root "config\ascendant_settlements") -Destina
 Copy-Directory -Source (Join-Path $root "config\incontrol") -Destination (Join-Path $target "config\incontrol")
 Copy-Directory -Source (Join-Path $root "config\towns_and_towers") -Destination (Join-Path $target "config\towns_and_towers")
 Copy-Directory -Source (Join-Path $root "config\puffish_skills") -Destination (Join-Path $target "config\puffish_skills")
+Copy-Directory -Source (Join-Path $root "config\ascendant_skill_effects") -Destination (Join-Path $target "config\ascendant_skill_effects")
 Copy-Directory -Source (Join-Path $root "config\fancymenu") -Destination (Join-Path $target "config\fancymenu")
 Copy-Directory -Source (Join-Path $root "config\drippyloadingscreen") -Destination (Join-Path $target "config\drippyloadingscreen")
 Copy-Directory -Source (Join-Path $root "config\sound_physics_remastered") -Destination (Join-Path $target "config\sound_physics_remastered")

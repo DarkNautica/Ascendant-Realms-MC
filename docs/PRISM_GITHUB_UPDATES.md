@@ -16,6 +16,13 @@ In Prism Launcher:
 
 The first launch downloads the pack. Later launches check GitHub and only pull changed files.
 
+The Prism zip intentionally bundles two CurseForge manual-only files directly:
+
+- `mods/easy_npc_bundle-forge-1.20.1-6.19.0.jar`
+- `resourcepacks/MCAR_VanillaMedieval_Universal_1.20.x_Only_Clothes_byDE4THR4SH_v4.zip`
+
+Those files are not in the online packwiz index because CurseForge blocks automatic API download for them. They must remain in the one-time Prism zip.
+
 ## Jayden Update Flow
 
 1. Change the pack in `C:\Users\Jayden\Documents\Robbins Tech\ascendant-realms`.

@@ -681,6 +681,10 @@ file = "config/ascendant_settlements/settlement_unification.json"
 hash = "d50654cc06e727ea498e99126993a85cadff1bbd9e2dd5b0fff103b3bf8c7482"
 
 [[files]]
+file = "config/ascendant_skill_effects/effects.json"
+hash = "76d5b82e40bba64d05fd3f4cedae2a11784a5ccf33a157b4704f42a5e83afccf"
+
+[[files]]
 file = "config/ascendant_structures/boss_structure_policy.json"
 hash = "a9d0c7b240b2d9b3dba37b678db57764726fcac6de7462c32d4ec08758a16a20"
 
@@ -2026,11 +2030,11 @@ hash = "edae89d07db2d3b00fbc328987adb5bdd45e7041c0adf351394349d85bc32ff2"
 
 [[files]]
 file = "config/puffish_skills/categories/ascendant/connections.json"
-hash = "663ec91c10bf65d6efa865962e0d7943c63dfc2cf4dc221c8d23a757c048ae6f"
+hash = "7851cbffddc3cf41114f9740e34da1ecb46cfc5cefe8b7ae5aab1e66ba1f91d6"
 
 [[files]]
 file = "config/puffish_skills/categories/ascendant/definitions.json"
-hash = "9d2587b0fadbdb22af0441cd5fbdea5f6e307d9bbc0a4387d3e67ef01c713174"
+hash = "5906c3cce1c01bbab51143a6d27297fd4271e9c810d38ac75372d0ac24de846f"
 
 [[files]]
 file = "config/puffish_skills/categories/ascendant/experience.json"
@@ -2038,7 +2042,7 @@ hash = "1f60ace2f7fe7c3b90a21e75fa3885834723bb035113e06c69e79f40b784e656"
 
 [[files]]
 file = "config/puffish_skills/categories/ascendant/skills.json"
-hash = "1b5dd3abc61bd4c8552813f81d88a939216a6abcab57d29b7c2f2c7b4cd9c8e7"
+hash = "bb5caf7f4b7a7b5addff26faaf9b33867ee7fa7c987193e77d1af881ec8f1cd0"
 
 [[files]]
 file = "config/puffish_skills/config.json"
@@ -2254,11 +2258,11 @@ hash = "edae89d07db2d3b00fbc328987adb5bdd45e7041c0adf351394349d85bc32ff2"
 
 [[files]]
 file = "datapacks/ascendant_realms_skills/data/ascendant_realms/puffish_skills/categories/ascendant/connections.json"
-hash = "663ec91c10bf65d6efa865962e0d7943c63dfc2cf4dc221c8d23a757c048ae6f"
+hash = "7851cbffddc3cf41114f9740e34da1ecb46cfc5cefe8b7ae5aab1e66ba1f91d6"
 
 [[files]]
 file = "datapacks/ascendant_realms_skills/data/ascendant_realms/puffish_skills/categories/ascendant/definitions.json"
-hash = "9d2587b0fadbdb22af0441cd5fbdea5f6e307d9bbc0a4387d3e67ef01c713174"
+hash = "5906c3cce1c01bbab51143a6d27297fd4271e9c810d38ac75372d0ac24de846f"
 
 [[files]]
 file = "datapacks/ascendant_realms_skills/data/ascendant_realms/puffish_skills/categories/ascendant/experience.json"
@@ -2266,7 +2270,7 @@ hash = "1f60ace2f7fe7c3b90a21e75fa3885834723bb035113e06c69e79f40b784e656"
 
 [[files]]
 file = "datapacks/ascendant_realms_skills/data/ascendant_realms/puffish_skills/categories/ascendant/skills.json"
-hash = "1b5dd3abc61bd4c8552813f81d88a939216a6abcab57d29b7c2f2c7b4cd9c8e7"
+hash = "bb5caf7f4b7a7b5addff26faaf9b33867ee7fa7c987193e77d1af881ec8f1cd0"
 
 [[files]]
 file = "datapacks/ascendant_realms_skills/data/ascendant_realms/puffish_skills/config.json"
@@ -2786,7 +2790,7 @@ hash = "822e65a96b47833d0b9c93655cf720d15a388b2548c0aeeaf0ae3c100596707b"
 
 [[files]]
 file = "docs/SKILL_TREE_DESIGN.md"
-hash = "093931a53bb5246d6ff463216e657b172c717e8dd3fda656ad50ef9f329cd8c0"
+hash = "fbdf2fffc9a2182effa0518c6067af457a7ec4f5c55210d08b4903f3394c2df7"
 
 [[files]]
 file = "docs/SKILL_TREE_IMPLEMENTATION_PLAN.md"
@@ -2799,6 +2803,10 @@ hash = "01301d5ffe53d7a99bc90b32fea3be6bc49663590239f7a99b23d0713445b14b"
 [[files]]
 file = "docs/SKILL_TREE_INTEGRATION_PLAN.md"
 hash = "cf6508a6897ced7161af99a82edfc68307bb10dfc08ef5a43d4fdbfd75dad763"
+
+[[files]]
+file = "docs/SKILL_TREE_MILESTONES.md"
+hash = "6169715a32f430cbbb783d23b5daa41ab0abbf53ce0e613337954201a43bfbc7"
 
 [[files]]
 file = "docs/SKILL_TREE_TESTING.md"
@@ -3337,6 +3345,10 @@ file = "kubejs/assets/ascendant/textures/skilltree/icons/arcanist_arcane_armor.p
 hash = "8796803cb6760a44623f7ed439f52730256e51ccff8b3175542c6bf565e31879"
 
 [[files]]
+file = "kubejs/assets/ascendant/textures/skilltree/icons/arcanist_arcane_overflow.png"
+hash = "2c4aaaf77557c531c679e77b70b3be72f5e151aa77a962be7b2e895a4a1e1d01"
+
+[[files]]
 file = "kubejs/assets/ascendant/textures/skilltree/icons/arcanist_archmage.png"
 hash = "2c4aaaf77557c531c679e77b70b3be72f5e151aa77a962be7b2e895a4a1e1d01"
 
@@ -3381,6 +3393,10 @@ file = "kubejs/assets/ascendant/textures/skilltree/icons/arcanist_spark_focus.pn
 hash = "152a7e3d37e97e4412b9c2f461a73240ed8f5a99dc848b771323e9566499f82c"
 
 [[files]]
+file = "kubejs/assets/ascendant/textures/skilltree/icons/arcanist_spell_siphon.png"
+hash = "2c4aaaf77557c531c679e77b70b3be72f5e151aa77a962be7b2e895a4a1e1d01"
+
+[[files]]
 file = "kubejs/assets/ascendant/textures/skilltree/icons/arcanist_spellblade_entry.png"
 hash = "2c4aaaf77557c531c679e77b70b3be72f5e151aa77a962be7b2e895a4a1e1d01"
 
@@ -3391,6 +3407,10 @@ hash = "8796803cb6760a44623f7ed439f52730256e51ccff8b3175542c6bf565e31879"
 [[files]]
 file = "kubejs/assets/ascendant/textures/skilltree/icons/arcanist_storm_glyph.png"
 hash = "152a7e3d37e97e4412b9c2f461a73240ed8f5a99dc848b771323e9566499f82c"
+
+[[files]]
+file = "kubejs/assets/ascendant/textures/skilltree/icons/arcanist_wardbreaker.png"
+hash = "8796803cb6760a44623f7ed439f52730256e51ccff8b3175542c6bf565e31879"
 
 [[files]]
 file = "kubejs/assets/ascendant/textures/skilltree/icons/arcanist_warding_glyph.png"
@@ -3425,7 +3445,15 @@ file = "kubejs/assets/ascendant/textures/skilltree/icons/dragonbound_dragon_ride
 hash = "fa7cd86bdc9b71d83de8fcdc2bf4c516238cf889194741260f46567560c2d248"
 
 [[files]]
+file = "kubejs/assets/ascendant/textures/skilltree/icons/dragonbound_dragon_vein.png"
+hash = "fa7cd86bdc9b71d83de8fcdc2bf4c516238cf889194741260f46567560c2d248"
+
+[[files]]
 file = "kubejs/assets/ascendant/textures/skilltree/icons/dragonbound_dragonlord.png"
+hash = "fa7cd86bdc9b71d83de8fcdc2bf4c516238cf889194741260f46567560c2d248"
+
+[[files]]
+file = "kubejs/assets/ascendant/textures/skilltree/icons/dragonbound_dragons_pride.png"
 hash = "fa7cd86bdc9b71d83de8fcdc2bf4c516238cf889194741260f46567560c2d248"
 
 [[files]]
@@ -3465,6 +3493,10 @@ file = "kubejs/assets/ascendant/textures/skilltree/icons/dragonbound_wyrm_oath.p
 hash = "fa7cd86bdc9b71d83de8fcdc2bf4c516238cf889194741260f46567560c2d248"
 
 [[files]]
+file = "kubejs/assets/ascendant/textures/skilltree/icons/dragonbound_wyrmblood_ascendance.png"
+hash = "fa7cd86bdc9b71d83de8fcdc2bf4c516238cf889194741260f46567560c2d248"
+
+[[files]]
 file = "kubejs/assets/ascendant/textures/skilltree/icons/engineer_belt_logistics.png"
 hash = "55b16066de392549e8082668e8da0d857a88ad8a854a63a733883855962fa89c"
 
@@ -3475,6 +3507,10 @@ hash = "55b16066de392549e8082668e8da0d857a88ad8a854a63a733883855962fa89c"
 [[files]]
 file = "kubejs/assets/ascendant/textures/skilltree/icons/engineer_cannon_math.png"
 hash = "cbefa506cec68a696a70b69c2a84d463c9c1560e5c492c04557b16f772879e60"
+
+[[files]]
+file = "kubejs/assets/ascendant/textures/skilltree/icons/engineer_emergency_protocols.png"
+hash = "55b16066de392549e8082668e8da0d857a88ad8a854a63a733883855962fa89c"
 
 [[files]]
 file = "kubejs/assets/ascendant/textures/skilltree/icons/engineer_factory_stride.png"
@@ -3505,7 +3541,15 @@ file = "kubejs/assets/ascendant/textures/skilltree/icons/engineer_provisioner.pn
 hash = "766274c921181ed644823a91f6e13aeccfd716a05cb970e9c38f6c6b0a77e62a"
 
 [[files]]
+file = "kubejs/assets/ascendant/textures/skilltree/icons/engineer_reinforced_plating.png"
+hash = "55b16066de392549e8082668e8da0d857a88ad8a854a63a733883855962fa89c"
+
+[[files]]
 file = "kubejs/assets/ascendant/textures/skilltree/icons/engineer_ruin_reclaimer.png"
+hash = "55b16066de392549e8082668e8da0d857a88ad8a854a63a733883855962fa89c"
+
+[[files]]
+file = "kubejs/assets/ascendant/textures/skilltree/icons/engineer_salvage_protocol.png"
 hash = "55b16066de392549e8082668e8da0d857a88ad8a854a63a733883855962fa89c"
 
 [[files]]
@@ -3533,6 +3577,10 @@ file = "kubejs/assets/ascendant/textures/skilltree/icons/ranger_apex_instinct.pn
 hash = "af7684c0f13b66d129b1f027df6f38b4b0fb86b2a2cef6c572a01b27a0189fcc"
 
 [[files]]
+file = "kubejs/assets/ascendant/textures/skilltree/icons/ranger_apex_predator.png"
+hash = "af7684c0f13b66d129b1f027df6f38b4b0fb86b2a2cef6c572a01b27a0189fcc"
+
+[[files]]
 file = "kubejs/assets/ascendant/textures/skilltree/icons/ranger_beast_breaker.png"
 hash = "0367c7437ee3ac70e167a3dc2ff2e84f33a870c66bf4a7eeccfa7be407f224fe"
 
@@ -3547,6 +3595,14 @@ hash = "a3653624a5f23208ab75bb201747a72b8fcaaf3b314bb759dc92ad73127e27df"
 [[files]]
 file = "kubejs/assets/ascendant/textures/skilltree/icons/ranger_hide_armor.png"
 hash = "27c0544fcb804406d4a0dcf375a769820ac55ba4930625fbc3fe75c1b5a66c9a"
+
+[[files]]
+file = "kubejs/assets/ascendant/textures/skilltree/icons/ranger_hunters_mark.png"
+hash = "a3653624a5f23208ab75bb201747a72b8fcaaf3b314bb759dc92ad73127e27df"
+
+[[files]]
+file = "kubejs/assets/ascendant/textures/skilltree/icons/ranger_longshot.png"
+hash = "a737c716916550fa4a76cdd587f1611b2c2d578c63b0e5305dff168dce4fd231"
 
 [[files]]
 file = "kubejs/assets/ascendant/textures/skilltree/icons/ranger_marksman_breath.png"
@@ -3595,6 +3651,14 @@ hash = "6ceaf991ea456f17fcd3d8f60850e1f76137241ca3314d8208d1c1705a885bc6"
 [[files]]
 file = "kubejs/assets/ascendant/textures/skilltree/icons/rogue_artifact_sense.png"
 hash = "5618d87c04a01f00d62e1376af206c74d6ef5c36e5f289ecee80f8f60be386fb"
+
+[[files]]
+file = "kubejs/assets/ascendant/textures/skilltree/icons/rogue_assassins_chain.png"
+hash = "8819366b9575926c4b2926ec35aced96c503307313371711f045fa65d19a9b4f"
+
+[[files]]
+file = "kubejs/assets/ascendant/textures/skilltree/icons/rogue_backstab.png"
+hash = "5e93410b08be98e9caf1fa1b677eacdb2c155f3273273899a99ca64c1fc1b4e4"
 
 [[files]]
 file = "kubejs/assets/ascendant/textures/skilltree/icons/rogue_backstab_pressure.png"
@@ -3657,8 +3721,16 @@ file = "kubejs/assets/ascendant/textures/skilltree/icons/rogue_soft_landing.png"
 hash = "9daea90c984a253477a2407d069e0d15271d05111d01d3624fc5a68947c9d3e3"
 
 [[files]]
+file = "kubejs/assets/ascendant/textures/skilltree/icons/rogue_weak_point.png"
+hash = "8819366b9575926c4b2926ec35aced96c503307313371711f045fa65d19a9b4f"
+
+[[files]]
 file = "kubejs/assets/ascendant/textures/skilltree/icons/survivalist_camp_medic.png"
 hash = "446e383ab9e6f2d97326b3ac3818b6af569c2919cd3fd5200f5ec85418da1695"
+
+[[files]]
+file = "kubejs/assets/ascendant/textures/skilltree/icons/survivalist_campfire_recovery.png"
+hash = "8c97e80438b8fb9b3f916f72a70a5760c2051b5f7b3d2ce1e7ae03d7af7cf753"
 
 [[files]]
 file = "kubejs/assets/ascendant/textures/skilltree/icons/survivalist_cliff_reader.png"
@@ -3679,6 +3751,10 @@ hash = "e6f4b1bd866e2f7f8232bc9f0ad865097f3768ee3a173aebd80982627b613c5d"
 [[files]]
 file = "kubejs/assets/ascendant/textures/skilltree/icons/survivalist_expedition_master.png"
 hash = "01307025b85114d7b4ab5dd2cca9d17a3e76e3fc5fd9701712c6da375a984d8d"
+
+[[files]]
+file = "kubejs/assets/ascendant/textures/skilltree/icons/survivalist_field_medic.png"
+hash = "446e383ab9e6f2d97326b3ac3818b6af569c2919cd3fd5200f5ec85418da1695"
 
 [[files]]
 file = "kubejs/assets/ascendant/textures/skilltree/icons/survivalist_hard_travel.png"
@@ -3713,6 +3789,10 @@ file = "kubejs/assets/ascendant/textures/skilltree/icons/survivalist_trail_ratio
 hash = "85b81aa32b71ceb248282a59b1e3171940db5c9c21f5c129f4877354a153ece8"
 
 [[files]]
+file = "kubejs/assets/ascendant/textures/skilltree/icons/survivalist_unkillable_guide.png"
+hash = "b39f1ebec56aa4b87d7b65df8e94166ba8e73b4a63f9cbdf6f32eb4b4cb75f2a"
+
+[[files]]
 file = "kubejs/assets/ascendant/textures/skilltree/icons/survivalist_weather_sense.png"
 hash = "c2c86815aadd51739cf1b351ba3eba9424a3266f9a3fb9f73c58358a70149a4f"
 
@@ -3726,6 +3806,10 @@ hash = "bb5eff24b50592a62bcdcdc600f62dcc69a89d1a4d05117c540eda81340df276"
 
 [[files]]
 file = "kubejs/assets/ascendant/textures/skilltree/icons/warrior_battle_rhythm.png"
+hash = "c99d5b84fcd0113dfaba86d43a390514c0e88bb7583f47255f511223cf50eaf0"
+
+[[files]]
+file = "kubejs/assets/ascendant/textures/skilltree/icons/warrior_blood_momentum.png"
 hash = "c99d5b84fcd0113dfaba86d43a390514c0e88bb7583f47255f511223cf50eaf0"
 
 [[files]]
@@ -3746,6 +3830,10 @@ hash = "df637f917fd9f2eb9e5f03903c883c55197d994edd723386ce801b54ed14a0b0"
 
 [[files]]
 file = "kubejs/assets/ascendant/textures/skilltree/icons/warrior_guard_break.png"
+hash = "bb5eff24b50592a62bcdcdc600f62dcc69a89d1a4d05117c540eda81340df276"
+
+[[files]]
+file = "kubejs/assets/ascendant/textures/skilltree/icons/warrior_guard_breaker.png"
 hash = "bb5eff24b50592a62bcdcdc600f62dcc69a89d1a4d05117c540eda81340df276"
 
 [[files]]
@@ -3771,6 +3859,10 @@ hash = "9cb3840696b9baa5c41a956a540e80e7b438f7e8773e3c3d7d8a48add6c31f3f"
 [[files]]
 file = "kubejs/assets/ascendant/textures/skilltree/icons/warrior_sword_forms.png"
 hash = "c99d5b84fcd0113dfaba86d43a390514c0e88bb7583f47255f511223cf50eaf0"
+
+[[files]]
+file = "kubejs/assets/ascendant/textures/skilltree/icons/warrior_titanheart.png"
+hash = "df637f917fd9f2eb9e5f03903c883c55197d994edd723386ce801b54ed14a0b0"
 
 [[files]]
 file = "kubejs/assets/ascendant/textures/skilltree/icons/warrior_unyielding_mail.png"
@@ -3862,15 +3954,15 @@ hash = "4e9e0b2093080699ae4c77c1cb2672e672edd2d4975ba5908c8be8168b9efdab"
 
 [[files]]
 file = "kubejs/server_scripts/ascendant_guild_director.js"
-hash = "41892722a725e41206c979280500e468fbcaa1d1da44a456779440818a9e1f83"
+hash = "2af725e8fd52ca906ec8e7cfce9404cb517ec0156a5083663b13f1a3a3a0225a"
 
 [[files]]
 file = "kubejs/server_scripts/ascendant_guild_jobs.js"
-hash = "c8f73833050fb8bf45868396085472bdfd3b50375ed3bf946c21acc0fe6e3cec"
+hash = "c87402cd298385ca0dacb7a5c641032881f30e18523cdb77d56635f9bd78d081"
 
 [[files]]
 file = "kubejs/server_scripts/ascendant_guild_ui.js"
-hash = "f5bcb0eb0e31cce92c56dfeb3fd2c3a67a8eb8bd762b381d836803aef9d4a9db"
+hash = "8f4a6228f0a2ad2501ebaf6cbddf21d360a435889e6b0e77c924f438ee18f023"
 
 [[files]]
 file = "kubejs/server_scripts/ascendant_hunter_progression.js"
@@ -3891,6 +3983,10 @@ hash = "be6cb64364a5a1727b5c4ab26d6136b0b0462f3387f41ab7808849c7490be5bd"
 [[files]]
 file = "kubejs/server_scripts/ascendant_regional_difficulty.js"
 hash = "52d09f85b9fcaf762ca6ac5745f6866a889a7fd72a92d8c270e8100e6dae8b59"
+
+[[files]]
+file = "kubejs/server_scripts/ascendant_skill_effects.js"
+hash = "e420340fad79933df77b0af5f8c8ce21896855c75aec2de5d6841cfe4128c807"
 
 [[files]]
 file = "kubejs/server_scripts/ascendant_tags.js"
@@ -4131,11 +4227,6 @@ metafile = true
 [[files]]
 file = "mods/easy-npc-core.pw.toml"
 hash = "b1ad24675b0e91a32dcd067a21baf0a6e8ca614a0a51cf0b53369d8c8e2621d7"
-metafile = true
-
-[[files]]
-file = "mods/easy-npc.pw.toml"
-hash = "b67d86fe655a947523c620b84f45b7935910603810a79951fcf47b1219aa5354"
 metafile = true
 
 [[files]]
@@ -5389,11 +5480,11 @@ hash = "edae89d07db2d3b00fbc328987adb5bdd45e7041c0adf351394349d85bc32ff2"
 
 [[files]]
 file = "openloader/data/ascendant_realms_skills/data/ascendant_realms/puffish_skills/categories/ascendant/connections.json"
-hash = "663ec91c10bf65d6efa865962e0d7943c63dfc2cf4dc221c8d23a757c048ae6f"
+hash = "7851cbffddc3cf41114f9740e34da1ecb46cfc5cefe8b7ae5aab1e66ba1f91d6"
 
 [[files]]
 file = "openloader/data/ascendant_realms_skills/data/ascendant_realms/puffish_skills/categories/ascendant/definitions.json"
-hash = "9d2587b0fadbdb22af0441cd5fbdea5f6e307d9bbc0a4387d3e67ef01c713174"
+hash = "5906c3cce1c01bbab51143a6d27297fd4271e9c810d38ac75372d0ac24de846f"
 
 [[files]]
 file = "openloader/data/ascendant_realms_skills/data/ascendant_realms/puffish_skills/categories/ascendant/experience.json"
@@ -5401,7 +5492,7 @@ hash = "1f60ace2f7fe7c3b90a21e75fa3885834723bb035113e06c69e79f40b784e656"
 
 [[files]]
 file = "openloader/data/ascendant_realms_skills/data/ascendant_realms/puffish_skills/categories/ascendant/skills.json"
-hash = "1b5dd3abc61bd4c8552813f81d88a939216a6abcab57d29b7c2f2c7b4cd9c8e7"
+hash = "bb5caf7f4b7a7b5addff26faaf9b33867ee7fa7c987193e77d1af881ec8f1cd0"
 
 [[files]]
 file = "openloader/data/ascendant_realms_skills/data/ascendant_realms/puffish_skills/config.json"
@@ -6383,11 +6474,6 @@ hash = "0fb23766919c354cfb5c5348329e7bac823dfd58d1a9660fcbfc0ab1506dc233"
 metafile = true
 
 [[files]]
-file = "resourcepacks/mca-default-medieval-by-de4th4sh.pw.toml"
-hash = "c1aad7f7bc51a83423492243f52d6726f08d1a5f72d583cb874bdf323670b7ed"
-metafile = true
-
-[[files]]
 file = "resourcepacks/medieval-music.pw.toml"
 hash = "6f769950e264e69cd3668c3f5db685d81894927242b81e59a82637da833f5c94"
 metafile = true
@@ -6456,7 +6542,7 @@ hash = "dc8495b38e6631d708104c9cf799e5cd79157cd00b579670114b88bbf366aec2"
 
 [[files]]
 file = "scripts/check-pack.py"
-hash = "b45e796fd38cc0048dbf6017ab05915f56da4ec4810dcd9fc7cb9c1b296db1e2"
+hash = "52df7a3287fa44248e95bb3b74f2808437deb47d18e5838e359d1e811bc02aa7"
 
 [[files]]
 file = "scripts/customnpcs-identity-audit.py"
@@ -6552,7 +6638,7 @@ hash = "fc754d0039c0bbbc1e27cc554b5f02cfb9824046361b8de92ac5db172a265a4b"
 
 [[files]]
 file = "scripts/generate-ascendant-skill-web.js"
-hash = "35993891608827fead9a8fd95d579b6ff0a6d03309e3411a36e7b8c71e472f42"
+hash = "3e94aadc693c085066f76ef00e5329281d4066b186a0fc4f00449faefb15528b"
 
 [[files]]
 file = "scripts/generate-ascendant-skilltree-art.py"
@@ -6616,7 +6702,7 @@ hash = "728847ab1444036b268d3389a24075e77a098a61af54577fff9051903ba62faa"
 
 [[files]]
 file = "scripts/sync-active-client-files.ps1"
-hash = "14991e5608121c3613a5940ba9a19d7a79f940b71e886e9d4ea9d51893f9f8e6"
+hash = "f049437bfca18205fa831624373ab5b5a9786a03b5a7ace16c44746705098243"
 
 [[files]]
 file = "scripts/test-customnpcs-identity.js"

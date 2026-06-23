@@ -40,12 +40,27 @@ function textComponent(text, color = "gray", italic = false, extra = undefined) 
 function modsForRewards(rewards) {
   const mods = new Set();
   for (const entry of rewards) {
-    const attribute = entry.data.attribute;
+    const attribute = entry.data && entry.data.attribute;
+    if (!attribute) continue; // skip non-attribute rewards (e.g. command rewards)
     for (const [prefix, modId] of Object.entries(REWARD_MODS)) {
       if (attribute.startsWith(prefix)) mods.add(modId);
     }
   }
   return Array.from(mods).sort();
+}
+
+// Milestone / keystone behavior nodes carry one or more scoreboard tags stamped on
+// the player on unlock and stripped on refund. The KubeJS effects engine
+// (kubejs/server_scripts/ascendant_skill_effects.js) reads those tags and runs the
+// actual on-hit / on-kill / tick behavior. See docs/SKILL_TREE_MILESTONES.md.
+function commandRewardsFor(tags) {
+  return (tags || []).map((tag) => ({
+    type: "puffish_skills:command",
+    data: {
+      unlock_command: `tag @s add ${tag}`,
+      lock_command: `tag @s remove ${tag}`,
+    },
+  }));
 }
 
 function nodeDefinition(node) {
@@ -63,6 +78,15 @@ function nodeDefinition(node) {
     },
     { text: `\nBranch: ${node.branch}.`, color: "dark_gray", italic: false },
   ];
+
+  if (node.kind === "major" || node.kind === "keystone") {
+    const kindLabel = node.kind === "keystone" ? "Keystone - branch-defining power" : "Major - new gameplay behavior";
+    extra.push({ text: `\nType: ${kindLabel}.`, color: "light_purple", italic: false });
+  }
+
+  if (node.tags && node.tags.length > 0) {
+    extra.push({ text: "\nBehavior runs through the Ascendant skill-effects system.", color: "dark_gray", italic: false });
+  }
 
   if (node.required_spent_points) {
     extra.push({
@@ -97,7 +121,7 @@ function nodeDefinition(node) {
     frame: { type: "advancement", data: { frame: node.frame } },
     icon: { type: "item", data: { item: node.icon } },
     cost: node.cost,
-    rewards: node.rewards,
+    rewards: [...node.rewards, ...commandRewardsFor(node.tags)],
     extra_description: textComponent(`Cost: ${node.cost} point${node.cost === 1 ? "" : "s"}.`, "dark_gray", false, extra),
   };
 
@@ -269,12 +293,66 @@ const branchData = {
   },
 };
 
+// ===== Milestone & keystone layer (expansion pass) =====
+// These are ADDED to each branch (existing stat nodes are kept). Majors use the
+// notable "goal" frame and sit in the mid radius band; keystones use the "major"
+// challenge frame and sit in the outer band, so better skills stay farther out.
+// Each carries a behavior tag consumed by ascendant_skill_effects.js.
+// See docs/SKILL_TREE_MILESTONES.md for the full design + tier rationale.
+const MAJOR = (tags) => ({ kind: "major", frame: "goal", cost: 2, gate: 14, tags });
+const KEYSTONE = (tags) => ({ kind: "keystone", frame: "challenge", cost: 3, gate: 32, tags });
+
+const MILESTONE_NODES = {
+  warrior: [
+    ["guard_breaker", "Guard Breaker", "Hit the same guard until it cracks.", "Repeated melee hits on one enemy build Guard; at 5 stacks they stagger and take +15% melee damage for 4s.", "minecraft:iron_axe", [reward("puffish_attributes:melee_damage", 0.03)], "Better Combat boss pressure", MAJOR(["ar_sk_warrior_guard_breaker"])],
+    ["blood_momentum", "Blood Momentum", "The next kill is fed by the last.", "On kill: gain Speed I and Strength I for 3s, refreshing on chains.", "minecraft:redstone", [reward("generic.movement_speed", 0.02, "addition")], "melee chaining", MAJOR(["ar_sk_warrior_blood_momentum"])],
+    ["titanheart", "Titanheart", "The wound is where the fury lives.", "Below 50% HP gain scaling Resistance and melee damage, stronger again under 25%.", "minecraft:netherite_chestplate", [reward("puffish_attributes:resistance", 0.02)], "wounded-warrior capstone", KEYSTONE(["ar_sk_warrior_titanheart"])],
+  ],
+  rogue: [
+    ["weak_point", "Weak Point", "Every wound widens.", "Your hits stack Vulnerability on a target: +5% damage taken per stack, max 4, for 5s.", "minecraft:shears", [reward("puffish_attributes:sword_damage", 0.03)], "duelist finishers", MAJOR(["ar_sk_rogue_weak_point"])],
+    ["backstab", "Backstab", "Arrive where they aren't looking.", "Hits from behind deal +35% damage and mark the target with Glowing for 4s.", "minecraft:iron_sword", [reward("puffish_attributes:stealth", 0.04)], "stealth openers", MAJOR(["ar_sk_rogue_backstab"])],
+    ["assassins_chain", "Assassin's Chain", "One kill funds the next.", "Killing a marked enemy empowers your next hit for +50% melee within 5s.", "minecraft:netherite_sword", [reward("puffish_attributes:melee_damage", 0.04)], "chain-kill capstone", KEYSTONE(["ar_sk_rogue_assassins_chain"])],
+  ],
+  ranger: [
+    ["hunters_mark", "Hunter's Mark", "Name the prey.", "Your ranged hits mark a target: +20% ranged damage to it and Glowing for 8s.", "minecraft:spyglass", [reward("puffish_attributes:ranged_damage", 0.04)], "boss and rare hunting", MAJOR(["ar_sk_ranger_hunters_mark"])],
+    ["longshot", "Longshot", "Distance is a weapon.", "Arrows deal more damage the farther they travel, up to +30% past 30 blocks.", "minecraft:bow", [reward("puffish_attributes:bow_projectile_speed", 0.05)], "skilled shots", MAJOR(["ar_sk_ranger_longshot"])],
+    ["apex_predator", "Apex Predator", "Pressure that never lets up.", "Consecutive hits on your marked target stack +6% damage, max 6; a 4s lull resets it.", "minecraft:tipped_arrow", [reward("puffish_attributes:ranged_damage", 0.05)], "boss-hunter capstone", KEYSTONE(["ar_sk_ranger_apex_predator"])],
+  ],
+  arcanist: [
+    ["wardbreaker", "Wardbreaker", "Defenses are suggestions.", "+20% spell and magic damage against armored or magic-resistant enemies.", "minecraft:amethyst_shard", [reward("irons_spellbooks:spell_power", 0.04, "addition")], "anti-armor magic", MAJOR(["ar_sk_arcanist_wardbreaker"])],
+    ["spell_siphon", "Spell Siphon", "Take back what magic costs.", "Slaying foes restores a burst of mana and briefly raises spell power.", "minecraft:glowstone_dust", [reward("irons_spellbooks:mana_regen", 0.06, "addition")], "mage dungeons", MAJOR(["ar_sk_arcanist_spell_siphon"])],
+    ["arcane_overflow", "Arcane Overflow", "A full font spills into a shield.", "While mana is full, gain a regenerating arcane shield (Absorption).", "minecraft:ender_eye", [reward("irons_spellbooks:max_mana", 30, "addition")], "mana-control capstone", KEYSTONE(["ar_sk_arcanist_arcane_overflow"])],
+  ],
+  engineer: [
+    ["salvage_protocol", "Salvage Protocol", "Nothing useful is ever wasted.", "Breaking ore and stone has a chance to yield bonus salvage.", "minecraft:iron_pickaxe", [reward("puffish_attributes:mining_speed", 0.04)], "Create resource loops", MAJOR(["ar_sk_engineer_salvage_protocol"])],
+    ["reinforced_plating", "Reinforced Plating", "Bolt the danger out.", "While wearing armor, gain steady Damage Resistance.", "minecraft:iron_chestplate", [reward("generic.armor", 1, "addition")], "engineered defense", MAJOR(["ar_sk_engineer_reinforced_plating"])],
+    ["emergency_protocols", "Emergency Protocols", "When it breaks, it breaks outward.", "A heavy hit triggers a steam burst: knock back nearby enemies and gain Absorption, 90s cooldown.", "minecraft:piston", [reward("puffish_attributes:resistance", 0.02)], "prepared-violence capstone", KEYSTONE(["ar_sk_engineer_emergency_protocols"])],
+  ],
+  survivalist: [
+    ["field_medic", "Field Medic", "Keep the party breathing.", "Wounded allies within 6 blocks slowly mend while you stand with them.", "minecraft:golden_carrot", [reward("puffish_attributes:healing", 0.04)], "co-op support", MAJOR(["ar_sk_survivalist_field_medic"])],
+    ["campfire_recovery", "Campfire Recovery", "Rest is a resource.", "Near fire or a campfire, gain Regeneration and a small temporary health boost.", "minecraft:campfire", [reward("puffish_attributes:natural_regeneration", 0.03)], "long expeditions", MAJOR(["ar_sk_survivalist_campfire_recovery"])],
+    ["unkillable_guide", "Unkillable Guide", "Packed for the worst day.", "Once per 90s a fatal blow leaves you at 1 HP with brief Resistance, if you carry food or a survival item.", "minecraft:totem_of_undying", [reward("puffish_attributes:resistance", 0.03)], "I-packed-correctly capstone", KEYSTONE(["ar_sk_survivalist_unkillable_guide"])],
+  ],
+  dragonbound: [
+    ["dragon_vein", "Dragon Vein", "Old fire, waking.", "Dealing and taking damage charges a Draconic meter; at full, your next strike erupts with elemental force.", "minecraft:blaze_powder", [reward("puffish_attributes:tamed_damage", 0.04)], "draconic charge", MAJOR(["ar_sk_dragonbound_dragon_vein"])],
+    ["dragons_pride", "Dragon's Pride", "Bigger is just a longer fall.", "+15% damage to enemies tougher than you, including bosses and elites.", "minecraft:dragon_breath", [reward("puffish_attributes:melee_damage", 0.04)], "boss-hunter fantasy", MAJOR(["ar_sk_dragonbound_dragons_pride"])],
+    ["wyrmblood_ascendance", "Wyrmblood Ascendance", "Become the thing in the panicked books.", "When your Draconic meter fills, ascend for 6s: Resistance, Strength, Regeneration, and an elemental aura, 30s cooldown.", "minecraft:dragon_egg", [reward("puffish_attributes:resistance", 0.04)], "ascendant capstone", KEYSTONE(["ar_sk_dragonbound_wyrmblood_ascendance"])],
+  ],
+};
+
+for (const [branchKey, list] of Object.entries(MILESTONE_NODES)) {
+  branchData[branchKey].nodes.push(...list);
+}
+
 function buildNode(branchKey, index, tuple) {
-  const [shortId, title, flavor, effect, icon, rewards, links] = tuple;
+  const [shortId, title, flavor, effect, icon, rewards, links, opts = {}] = tuple;
   const tier = Math.floor(index / 4) + 1;
-  const cost = tier === 1 ? 1 : tier === 2 ? (index % 4 < 2 ? 1 : 2) : tier === 3 ? 2 : 3;
-  const required_spent_points = tier === 2 ? 4 : tier === 3 ? 14 : tier === 4 ? 32 : undefined;
-  const frame = tier === 4 ? "challenge" : tier === 3 ? "goal" : "task";
+  const defaultCost = tier === 1 ? 1 : tier === 2 ? (index % 4 < 2 ? 1 : 2) : tier === 3 ? 2 : 3;
+  const defaultGate = tier === 2 ? 4 : tier === 3 ? 14 : tier === 4 ? 32 : undefined;
+  const defaultFrame = tier === 4 ? "challenge" : tier === 3 ? "goal" : "task";
+  const cost = opts.cost !== undefined ? opts.cost : defaultCost;
+  const required_spent_points = opts.gate !== undefined ? opts.gate : defaultGate;
+  const frame = opts.frame !== undefined ? opts.frame : defaultFrame;
 
   return {
     id: `${branchKey}_${shortId}`,
@@ -288,6 +366,8 @@ function buildNode(branchKey, index, tuple) {
     cost,
     required_spent_points,
     frame,
+    kind: opts.kind,
+    tags: opts.tags,
   };
 }
 
@@ -317,7 +397,7 @@ function buildTree() {
       definitions[node.id] = nodeDefinition(node);
       branchNodeIds[branchKey].push(node.id);
 
-      const tier = Math.floor(index / 4);
+      const tier = Math.min(3, Math.floor(index / 4));
       const withinTier = index % 4;
       const radius = [190, 365, 555, 760][tier];
       const spreads = [
@@ -393,7 +473,12 @@ function writeJson(filePath, value) {
 }
 
 function writeSkillRoot(skillRoot, tree) {
-  fs.rmSync(path.join(skillRoot, "categories"), { recursive: true, force: true });
+  try {
+    fs.rmSync(path.join(skillRoot, "categories"), { recursive: true, force: true });
+  } catch (e) {
+    // Some environments forbid unlinking existing files; fall back to in-place overwrite.
+    console.warn(`[skill-web] could not clear ${skillRoot}/categories (${e.code || e}); overwriting in place.`);
+  }
   fs.mkdirSync(path.join(skillRoot, "categories", "ascendant"), { recursive: true });
   writeJson(path.join(skillRoot, "config.json"), tree.config);
   writeJson(path.join(skillRoot, "categories", "ascendant", "category.json"), tree.category);

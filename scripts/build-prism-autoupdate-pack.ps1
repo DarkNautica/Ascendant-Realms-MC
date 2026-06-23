@@ -1,6 +1,7 @@
 param(
     [string]$PackTomlUrl = "https://raw.githubusercontent.com/DarkNautica/Ascendant-Realms-MC/main/pack.toml",
     [string]$Output = "dist\Ascendant-Realms-Prism-AutoUpdate.zip",
+    [string]$ClientInstancePath = "C:\Users\Jayden\curseforge\minecraft\Instances\Ascendant Realms (2)",
     [int]$MaxMemoryMB = 8192,
     [switch]$ForceBootstrapDownload
 )
@@ -31,6 +32,31 @@ if (Test-Path -LiteralPath $stageRoot) {
 }
 New-Item -ItemType Directory -Force -Path $minecraftDir | Out-Null
 
+$manualFiles = @(
+    @{
+        Source = Join-Path $ClientInstancePath "mods\easy_npc_bundle-forge-1.20.1-6.19.0.jar"
+        Dest = Join-Path $minecraftDir "mods\easy_npc_bundle-forge-1.20.1-6.19.0.jar"
+        Sha1 = "4b28554590977817cac22499408d6dbc4f21b612"
+    },
+    @{
+        Source = Join-Path $ClientInstancePath "resourcepacks\MCAR_VanillaMedieval_Universal_1.20.x_Only_Clothes_byDE4THR4SH_v4.zip"
+        Dest = Join-Path $minecraftDir "resourcepacks\MCAR_VanillaMedieval_Universal_1.20.x_Only_Clothes_byDE4THR4SH_v4.zip"
+        Sha1 = "3d50537c5a7e9d85ebabe317121897ef20ed4524"
+    }
+)
+
+foreach ($file in $manualFiles) {
+    if (-not (Test-Path -LiteralPath $file.Source)) {
+        throw "Missing manual Prism bundle source file: $($file.Source)"
+    }
+    $actual = (Get-FileHash -Algorithm SHA1 -LiteralPath $file.Source).Hash.ToLowerInvariant()
+    if ($actual -ne $file.Sha1) {
+        throw "Manual Prism bundle file hash mismatch for $($file.Source). Expected $($file.Sha1), got $actual."
+    }
+    New-Item -ItemType Directory -Force -Path (Split-Path -Parent $file.Dest) | Out-Null
+    Copy-Item -LiteralPath $file.Source -Destination $file.Dest -Force
+}
+
 if ($ForceBootstrapDownload -or -not (Test-Path -LiteralPath $bootstrap)) {
     $headers = @{ "User-Agent" = "Ascendant-Realms-Prism-Pack" }
     $release = Invoke-RestMethod -Uri "https://api.github.com/repos/packwiz/packwiz-installer-bootstrap/releases/latest" -Headers $headers
@@ -39,7 +65,7 @@ if ($ForceBootstrapDownload -or -not (Test-Path -LiteralPath $bootstrap)) {
     Invoke-WebRequest -Uri $asset.browser_download_url -OutFile $bootstrap -Headers $headers
 }
 
-$preLaunch = '"$INST_JAVA" -jar "$INST_MC_DIR/packwiz-installer-bootstrap.jar" ' + $PackTomlUrl
+$preLaunch = '"$INST_JAVA" -jar "$INST_MC_DIR/packwiz-installer-bootstrap.jar" -g ' + $PackTomlUrl
 $instanceCfg = @"
 InstanceType=OneSix
 name=Ascendant Realms
@@ -77,6 +103,8 @@ Ascendant Realms - Prism Auto Update
 Import this ZIP in Prism Launcher with Add Instance > Import.
 After the first import, Prism runs packwiz before each launch and pulls updates from:
 $PackTomlUrl
+
+This ZIP also bundles the CurseForge manual-only Easy NPC bundle and MCA medieval clothing resource pack so first launch does not require extra downloads.
 
 Important: when importing in Prism, stay on the Import tab until you click OK.
 "@

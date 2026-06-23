@@ -7,9 +7,10 @@ The active Ascendant Realms skill system is now one large Puffish Skills categor
 ## Current Shape
 
 - One category: `Ascendant Web`.
-- 113 nodes.
-- 196 bidirectional connections after the readability pass.
+- 134 nodes (113 base stat/road nodes + 21 milestone/keystone behavior nodes from the 2026-06-23 expansion pass).
+- 133 unidirectional prerequisite connections (organic root-out radial layout; you start at the center and unlock outward).
 - Two starting points.
+- Milestone/keystone behavior layer: tags fired by Puffish command rewards are read by `kubejs/server_scripts/ascendant_skill_effects.js`. Full design in `docs/SKILL_TREE_MILESTONES.md`.
 - Seven cleaner branch lanes inside one web: Warrior, Rogue / Duelist, Ranger / Hunter, Arcanist, Engineer / Artificer, Survivalist / Explorer, Dragonbound / Endgame.
 - Default Puffish pacing: 1 skill point per web level.
 - Managed milestone bonus points from `config/ascendant_progression/progression.json` at levels 10, 20, 35, 50, 70, 90, and 110.

@@ -51,39 +51,54 @@
     "definition": "warrior_counter_weight"
   },
   "warrior_weapon_momentum": {
-    "x": 237,
-    "y": -559,
+    "x": 230,
+    "y": -542,
     "definition": "warrior_weapon_momentum"
   },
   "warrior_bulwark_training": {
-    "x": 76,
-    "y": -633,
+    "x": 71,
+    "y": -596,
     "definition": "warrior_bulwark_training"
   },
   "warrior_soul_edge": {
-    "x": -5,
-    "y": -672,
+    "x": 162,
+    "y": -626,
     "definition": "warrior_soul_edge"
   },
   "warrior_warlord_command": {
-    "x": 57,
-    "y": -747,
+    "x": 267,
+    "y": -664,
     "definition": "warrior_warlord_command"
   },
   "warrior_bastion_oath": {
-    "x": 265,
-    "y": -725,
+    "x": -25,
+    "y": -768,
     "definition": "warrior_bastion_oath"
   },
   "warrior_giantslayer": {
-    "x": -34,
-    "y": -793,
+    "x": 182,
+    "y": -802,
     "definition": "warrior_giantslayer"
   },
   "warrior_realm_champion": {
-    "x": -189,
-    "y": -862,
+    "x": 318,
+    "y": -750,
     "definition": "warrior_realm_champion"
+  },
+  "warrior_guard_breaker": {
+    "x": -9,
+    "y": -664,
+    "definition": "warrior_guard_breaker"
+  },
+  "warrior_blood_momentum": {
+    "x": 92,
+    "y": -700,
+    "definition": "warrior_blood_momentum"
+  },
+  "warrior_titanheart": {
+    "x": -91,
+    "y": -879,
+    "definition": "warrior_titanheart"
   },
   "rogue_quick_step": {
     "x": 162,
@@ -131,39 +146,54 @@
     "definition": "rogue_shadowstep"
   },
   "rogue_artifact_sense": {
-    "x": 531,
-    "y": -148,
+    "x": 471,
+    "y": -310,
     "definition": "rogue_artifact_sense"
   },
   "rogue_backstab_pressure": {
-    "x": 602,
-    "y": -249,
+    "x": 570,
+    "y": -223,
     "definition": "rogue_backstab_pressure"
   },
   "rogue_panic_gap": {
-    "x": 363,
-    "y": -602,
+    "x": 490,
+    "y": -415,
     "definition": "rogue_panic_gap"
   },
   "rogue_cutpurse_legend": {
-    "x": 638,
-    "y": -353,
+    "x": 571,
+    "y": -444,
     "definition": "rogue_cutpurse_legend"
   },
   "rogue_redline_duelist": {
-    "x": 696,
-    "y": -227,
+    "x": 668,
+    "y": -429,
     "definition": "rogue_redline_duelist"
   },
   "rogue_glass_knife": {
-    "x": 751,
-    "y": -399,
+    "x": 694,
+    "y": -302,
     "definition": "rogue_glass_knife"
   },
   "rogue_night_market": {
-    "x": 832,
-    "y": -232,
+    "x": 794,
+    "y": -276,
     "definition": "rogue_night_market"
+  },
+  "rogue_weak_point": {
+    "x": 321,
+    "y": -593,
+    "definition": "rogue_weak_point"
+  },
+  "rogue_backstab": {
+    "x": 601,
+    "y": -318,
+    "definition": "rogue_backstab"
+  },
+  "rogue_assassins_chain": {
+    "x": 808,
+    "y": -380,
+    "definition": "rogue_assassins_chain"
   },
   "ranger_field_hunter": {
     "x": 201,
@@ -211,39 +241,54 @@
     "definition": "ranger_venom_reading"
   },
   "ranger_marksman_breath": {
-    "x": 571,
-    "y": 78,
+    "x": 509,
+    "y": 174,
     "definition": "ranger_marksman_breath"
   },
   "ranger_tamed_guard": {
-    "x": 512,
-    "y": 370,
+    "x": 508,
+    "y": 298,
     "definition": "ranger_tamed_guard"
   },
   "ranger_apex_instinct": {
-    "x": 677,
-    "y": -121,
+    "x": 630,
+    "y": 1,
     "definition": "ranger_apex_instinct"
   },
   "ranger_skyshot": {
-    "x": 592,
-    "y": 416,
+    "x": 618,
+    "y": 335,
     "definition": "ranger_skyshot"
   },
   "ranger_wild_bond": {
-    "x": 751,
-    "y": 219,
+    "x": 719,
+    "y": -2,
     "definition": "ranger_wild_bond"
   },
   "ranger_monster_slayer": {
-    "x": 829,
-    "y": -129,
+    "x": 657,
+    "y": 475,
     "definition": "ranger_monster_slayer"
   },
   "ranger_relic_tracker": {
-    "x": 751,
-    "y": 408,
+    "x": 828,
+    "y": 61,
     "definition": "ranger_relic_tracker"
+  },
+  "ranger_hunters_mark": {
+    "x": 546,
+    "y": 395,
+    "definition": "ranger_hunters_mark"
+  },
+  "ranger_longshot": {
+    "x": 693,
+    "y": -110,
+    "definition": "ranger_longshot"
+  },
+  "ranger_apex_predator": {
+    "x": 854,
+    "y": -153,
+    "definition": "ranger_apex_predator"
   },
   "arcanist_spark_focus": {
     "x": 97,
@@ -291,39 +336,54 @@
     "definition": "arcanist_mana_reservoir"
   },
   "arcanist_ritual_recovery": {
-    "x": 305,
-    "y": 506,
+    "x": 296,
+    "y": 490,
     "definition": "arcanist_ritual_recovery"
   },
   "arcanist_elemental_weave": {
-    "x": 29,
-    "y": 615,
+    "x": 97,
+    "y": 570,
     "definition": "arcanist_elemental_weave"
   },
   "arcanist_spellguard": {
-    "x": 225,
-    "y": 628,
+    "x": 379,
+    "y": 462,
     "definition": "arcanist_spellguard"
   },
   "arcanist_battle_mage": {
-    "x": 150,
-    "y": 675,
+    "x": 299,
+    "y": 648,
     "definition": "arcanist_battle_mage"
   },
   "arcanist_archmage": {
-    "x": 374,
-    "y": 705,
+    "x": 550,
+    "y": 536,
     "definition": "arcanist_archmage"
   },
   "arcanist_moonlit_invoker": {
-    "x": 324,
-    "y": 786,
+    "x": 363,
+    "y": 746,
     "definition": "arcanist_moonlit_invoker"
   },
   "arcanist_portal_scholar": {
-    "x": 40,
-    "y": 843,
+    "x": 154,
+    "y": 823,
     "definition": "arcanist_portal_scholar"
+  },
+  "arcanist_wardbreaker": {
+    "x": 41,
+    "y": 663,
+    "definition": "arcanist_wardbreaker"
+  },
+  "arcanist_spell_siphon": {
+    "x": 181,
+    "y": 629,
+    "definition": "arcanist_spell_siphon"
+  },
+  "arcanist_arcane_overflow": {
+    "x": 334,
+    "y": 828,
+    "definition": "arcanist_arcane_overflow"
   },
   "engineer_tinkers_eye": {
     "x": -76,
@@ -371,39 +431,54 @@
     "definition": "engineer_factory_stride"
   },
   "engineer_siege_loader": {
-    "x": -99,
-    "y": 590,
+    "x": -28,
+    "y": 586,
     "definition": "engineer_siege_loader"
   },
   "engineer_kitchen_engineer": {
-    "x": -372,
-    "y": 477,
+    "x": -240,
+    "y": 535,
     "definition": "engineer_kitchen_engineer"
   },
   "engineer_ruin_reclaimer": {
-    "x": -527,
-    "y": 463,
+    "x": -421,
+    "y": 489,
     "definition": "engineer_ruin_reclaimer"
   },
   "engineer_master_artificer": {
-    "x": -347,
-    "y": 605,
+    "x": -509,
+    "y": 495,
     "definition": "engineer_master_artificer"
   },
   "engineer_siege_engineer": {
-    "x": -487,
-    "y": 560,
+    "x": -371,
+    "y": 674,
     "definition": "engineer_siege_engineer"
   },
   "engineer_logistics_lord": {
-    "x": -448,
-    "y": 690,
+    "x": -620,
+    "y": 544,
     "definition": "engineer_logistics_lord"
   },
   "engineer_fortress_maker": {
-    "x": -609,
-    "y": 592,
+    "x": -260,
+    "y": 810,
     "definition": "engineer_fortress_maker"
+  },
+  "engineer_salvage_protocol": {
+    "x": -337,
+    "y": 520,
+    "definition": "engineer_salvage_protocol"
+  },
+  "engineer_reinforced_plating": {
+    "x": -287,
+    "y": 615,
+    "definition": "engineer_reinforced_plating"
+  },
+  "engineer_emergency_protocols": {
+    "x": -582,
+    "y": 668,
+    "definition": "engineer_emergency_protocols"
   },
   "survivalist_weather_sense": {
     "x": -197,
@@ -451,39 +526,54 @@
     "definition": "survivalist_storm_walker"
   },
   "survivalist_contract_runner": {
-    "x": -603,
-    "y": 110,
+    "x": -531,
+    "y": 77,
     "definition": "survivalist_contract_runner"
   },
   "survivalist_safe_camp": {
-    "x": -507,
-    "y": 366,
+    "x": -494,
+    "y": 345,
     "definition": "survivalist_safe_camp"
   },
   "survivalist_cliff_reader": {
-    "x": -652,
-    "y": 203,
+    "x": -604,
+    "y": -15,
     "definition": "survivalist_cliff_reader"
   },
   "survivalist_pathfinder": {
-    "x": -709,
-    "y": -127,
+    "x": -581,
+    "y": 420,
     "definition": "survivalist_pathfinder"
   },
   "survivalist_hearthkeeper": {
-    "x": -714,
-    "y": 304,
+    "x": -764,
+    "y": 73,
     "definition": "survivalist_hearthkeeper"
   },
   "survivalist_expedition_master": {
-    "x": -825,
-    "y": -148,
+    "x": -763,
+    "y": -136,
     "definition": "survivalist_expedition_master"
   },
   "survivalist_winter_blood": {
-    "x": -761,
-    "y": 382,
+    "x": -699,
+    "y": 447,
     "definition": "survivalist_winter_blood"
+  },
+  "survivalist_field_medic": {
+    "x": -667,
+    "y": -119,
+    "definition": "survivalist_field_medic"
+  },
+  "survivalist_campfire_recovery": {
+    "x": -636,
+    "y": 216,
+    "definition": "survivalist_campfire_recovery"
+  },
+  "survivalist_unkillable_guide": {
+    "x": -869,
+    "y": -14,
+    "definition": "survivalist_unkillable_guide"
   },
   "dragonbound_wyrm_oath": {
     "x": -163,
@@ -531,38 +621,53 @@
     "definition": "dragonbound_flame_ward"
   },
   "dragonbound_frost_ward": {
-    "x": -489,
-    "y": -367,
+    "x": -571,
+    "y": -159,
     "definition": "dragonbound_frost_ward"
   },
   "dragonbound_legendary_pressure": {
-    "x": -556,
-    "y": -176,
+    "x": -402,
+    "y": -370,
     "definition": "dragonbound_legendary_pressure"
   },
   "dragonbound_dragon_rider": {
-    "x": -654,
-    "y": -246,
+    "x": -449,
+    "y": -460,
     "definition": "dragonbound_dragon_rider"
   },
   "dragonbound_dragonlord": {
-    "x": -524,
-    "y": -459,
+    "x": -416,
+    "y": -594,
     "definition": "dragonbound_dragonlord"
   },
   "dragonbound_realm_ender": {
-    "x": -760,
-    "y": -212,
+    "x": -743,
+    "y": -236,
     "definition": "dragonbound_realm_ender"
   },
   "dragonbound_mythbreaker": {
-    "x": -687,
-    "y": -388,
+    "x": -505,
+    "y": -606,
     "definition": "dragonbound_mythbreaker"
   },
   "dragonbound_ascendant_dragon": {
-    "x": -652,
-    "y": -503,
+    "x": -399,
+    "y": -717,
     "definition": "dragonbound_ascendant_dragon"
+  },
+  "dragonbound_dragon_vein": {
+    "x": -294,
+    "y": -544,
+    "definition": "dragonbound_dragon_vein"
+  },
+  "dragonbound_dragons_pride": {
+    "x": -643,
+    "y": -232,
+    "definition": "dragonbound_dragons_pride"
+  },
+  "dragonbound_wyrmblood_ascendance": {
+    "x": -530,
+    "y": -718,
+    "definition": "dragonbound_wyrmblood_ascendance"
   }
 }

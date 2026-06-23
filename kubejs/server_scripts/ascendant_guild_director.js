@@ -68,6 +68,11 @@ function agdNearby(p, radius, tag) {
   } catch (e) { return [] }
 }
 
+function agdCostOf(npc) {
+  try { var it = npc.tags.iterator(); while (it.hasNext()) { var t = "" + it.next(); if (t.indexOf("ar_cost_") === 0) { var n = parseInt(t.substring(8)); if (!isNaN(n)) return n } } } catch (e) {}
+  return 15
+}
+
 function agdRecruit(source) {
   var p = source.player; if (!p) return 0
   var hall = agdHallOf(p)
@@ -75,12 +80,13 @@ function agdRecruit(source) {
   var near = agdNearby(p, 6, "ar_recruitable")
   if (near.length === 0) { p.tell(Text.red("No recruitable specialist within 6 blocks. Use /ascguild spawn_recruit to place one.")); return 0 }
   var npc = near[0]; var s = p.server; var u = npc.uuid.toString()
-  var have = s.runCommandSilent("clear " + p.username + " " + AGD_CONTRACT_ITEM + " 0")
-  if (have < AGD_CONTRACT_COUNT) {
-    p.tell(Text.red("The blacksmith wants " + AGD_CONTRACT_COUNT + "x Iron Ingot - you have " + have + ". Bring the rest."))
+  var cost = agdCostOf(npc)
+  var have = s.runCommandSilent("clear " + p.username + " kubejs:guild_mark 0")
+  if (have < cost) {
+    p.tell(Text.red("This specialist costs " + cost + " Guild Marks - you have " + have + ". Earn marks from bounties, dungeons, and looted chests."))
     return 0
   }
-  s.runCommandSilent("clear " + p.username + " " + AGD_CONTRACT_ITEM + " " + AGD_CONTRACT_COUNT)
+  s.runCommandSilent("clear " + p.username + " kubejs:guild_mark " + cost)
   s.runCommandSilent("tag " + u + " remove ar_recruitable")
   s.runCommandSilent("tag " + u + " add ar_guild_member")
   s.runCommandSilent("tag " + u + " add ar_owner_" + p.username)
@@ -89,10 +95,11 @@ function agdRecruit(source) {
     npc.persistentData.putInt("ar_hall_x", hall.x); npc.persistentData.putInt("ar_hall_y", hall.y); npc.persistentData.putInt("ar_hall_z", hall.z)
     npc.persistentData.putString("ar_owner", p.username)
   } catch (e) {}
-  s.runCommandSilent('data merge entity ' + u + ' {PersistenceRequired:1b,Name:"' + AGD_S + 'a[Guild] ' + AGD_S + 'fBlacksmith ' + AGD_S + '8| ' + AGD_S + '7Smith"}')
+  var rnm = (global.agNameFor) ? (AGD_S + "a[Guild] " + AGD_S + ((global.agRarity) ? global.agRarity(npc).color : "f") + global.agNameFor(npc)) : (AGD_S + "a[Guild] Member")
+  s.runCommandSilent('data merge entity ' + u + ' {PersistenceRequired:1b,ShowName:1,Name:"' + rnm + '"}')
   var d = p.persistentData; d.putInt("ar_guild_count", d.getInt("ar_guild_count") + 1)
   s.runCommandSilent("execute at " + u + " run playsound minecraft:entity.villager.yes neutral @a[distance=..16] ~ ~ ~ 1 1")
-  p.tell(Text.green("Recruited! The Blacksmith has joined your guild and is heading to your hall."))
+  p.tell(Text.green("Recruited " + ((global.agNameFor) ? global.agNameFor(npc) : "a specialist") + "! They've joined your guild - right-click them to assign a workstation."))
   return 1
 }
 

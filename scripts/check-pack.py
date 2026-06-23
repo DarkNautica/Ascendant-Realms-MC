@@ -588,7 +588,6 @@ ALLOWED_PACKWIZ_METADATA = {
     "mods/decorative-blocks.pw.toml",
     "mods/drippy-loading-screen.pw.toml",
     "mods/attributes.pw.toml",
-    "mods/easy-npc.pw.toml",
     "mods/easy-npc-config-ui.pw.toml",
     "mods/easy-npc-core.pw.toml",
     "mods/embeddium.pw.toml",
@@ -738,7 +737,6 @@ ALLOWED_PACKWIZ_METADATA = {
     "resourcepacks/simply-swords-reforged.pw.toml",
     "resourcepacks/stoneborn.pw.toml",
     "resourcepacks/medieval-music.pw.toml",
-    "resourcepacks/mca-default-medieval-by-de4th4sh.pw.toml",
     "resourcepacks/the-rename-compat-project.pw.toml",
     "resourcepacks/vanilla-exp.pw.toml",
     "resourcepacks/visual-travelers-title-biomes-addon.pw.toml",
@@ -786,7 +784,6 @@ EXPECTED_SIDE = {
     "mods/decorative-blocks.pw.toml": "both",
     "mods/drippy-loading-screen.pw.toml": "client",
     "mods/attributes.pw.toml": "both",
-    "mods/easy-npc.pw.toml": "both",
     "mods/easy-npc-config-ui.pw.toml": "both",
     "mods/easy-npc-core.pw.toml": "both",
     "mods/embeddium.pw.toml": "client",
@@ -930,7 +927,6 @@ EXPECTED_SIDE = {
     "resourcepacks/simply-swords-reforged.pw.toml": "client",
     "resourcepacks/stoneborn.pw.toml": "client",
     "resourcepacks/medieval-music.pw.toml": "client",
-    "resourcepacks/mca-default-medieval-by-de4th4sh.pw.toml": "client",
     "resourcepacks/the-rename-compat-project.pw.toml": "client",
     "resourcepacks/vanilla-exp.pw.toml": "client",
     "resourcepacks/visual-travelers-title-biomes-addon.pw.toml": "client",
@@ -1668,7 +1664,6 @@ UI_CUSTOMIZATION_TOOLING_REQUIRED_METADATA = {
 
 GUILD_HUNTER_REQUIRED_METADATA = {
     "mods/customnpcs-unofficial.pw.toml",
-    "mods/easy-npc.pw.toml",
     "mods/easy-npc-config-ui.pw.toml",
     "mods/easy-npc-core.pw.toml",
     "mods/ftb-library-forge.pw.toml",
@@ -6840,10 +6835,10 @@ def main() -> int:
     if "mods/ftb-ranks-forge.pw.toml" in active_relatives and "mods/ftb-library-forge.pw.toml" not in active_relatives:
         errors.append("FTB Ranks is installed but FTB Library is missing.")
 
-    if "mods/easy-npc.pw.toml" in active_relatives:
+    if "mods/easy-npc-core.pw.toml" in active_relatives or "mods/easy-npc-config-ui.pw.toml" in active_relatives:
         for relative in ["mods/easy-npc-core.pw.toml", "mods/easy-npc-config-ui.pw.toml"]:
             if relative not in active_relatives:
-                errors.append(f"Easy NPC bundle is installed but {relative} is missing.")
+                errors.append(f"Easy NPC Prism-managed split is installed but {relative} is missing.")
 
     if "mods/patchouli.pw.toml" in active_relatives:
         codex_book = ROOT / "config/openloader/data/ascendant_realms_codex/data/ascendant_realms/patchouli_books/ascendant_codex/book.json"
@@ -6856,10 +6851,6 @@ def main() -> int:
                     errors.append("Ascendant Codex book.json must have name = Ascendant Codex.")
             except Exception as exc:
                 errors.append(f"Ascendant Codex book.json is invalid: {exc}")
-
-    if "mods/minecraft-comes-alive-reborn.pw.toml" in active_relatives:
-        if "resourcepacks/mca-default-medieval-by-de4th4sh.pw.toml" not in active_relatives:
-            errors.append("MCA Reborn is active, but MCA - Default Medieval is missing.")
 
     if "mods/almost-unify-everything.pw.toml" in active_relatives and "mods/almostunified.pw.toml" not in active_relatives:
         errors.append("Almost Unify Everything is installed but Almost Unified is missing.")

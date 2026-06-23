@@ -1542,6 +1542,304 @@
       "puffish_attributes"
     ]
   },
+  "warrior_guard_breaker": {
+    "title": "Guard Breaker",
+    "description": {
+      "text": "Hit the same guard until it cracks.",
+      "color": "gray",
+      "italic": true,
+      "extra": [
+        {
+          "text": "\nEffect: ",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "Repeated melee hits on one enemy build Guard; at 5 stacks they stagger and take +15% melee damage for 4s.",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "ascendant:textures/skilltree/frames/warrior_notable_unlocked.png",
+        "available": "ascendant:textures/skilltree/frames/warrior_notable_available.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "ascendant:textures/skilltree/icons/warrior_guard_breaker.png"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.03,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ar_sk_warrior_guard_breaker",
+          "lock_command": "tag @s remove ar_sk_warrior_guard_breaker"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Cost: 2 points.",
+      "color": "dark_gray",
+      "italic": false,
+      "extra": [
+        {
+          "text": "\nSP pacing: Puffish awards 1 skill point per Ascendant Web level; higher-tier nodes cost more.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nLayout: clean branch lanes keep choices broad without the old crossing-line web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nBranch: Warrior.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nType: Major - new gameplay behavior.",
+          "color": "light_purple",
+          "italic": false
+        },
+        {
+          "text": "\nBehavior runs through the Ascendant skill-effects system.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires 14 spent points in the unified web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires loaded mod(s): puffish_attributes.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nPack links: Better Combat boss pressure.",
+          "color": "dark_aqua",
+          "italic": false
+        }
+      ]
+    },
+    "required_spent_points": 14,
+    "required_mods": [
+      "puffish_attributes"
+    ]
+  },
+  "warrior_blood_momentum": {
+    "title": "Blood Momentum",
+    "description": {
+      "text": "The next kill is fed by the last.",
+      "color": "gray",
+      "italic": true,
+      "extra": [
+        {
+          "text": "\nEffect: ",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "On kill: gain Speed I and Strength I for 3s, refreshing on chains.",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "ascendant:textures/skilltree/frames/warrior_notable_unlocked.png",
+        "available": "ascendant:textures/skilltree/frames/warrior_notable_available.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "ascendant:textures/skilltree/icons/warrior_blood_momentum.png"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ar_sk_warrior_blood_momentum",
+          "lock_command": "tag @s remove ar_sk_warrior_blood_momentum"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Cost: 2 points.",
+      "color": "dark_gray",
+      "italic": false,
+      "extra": [
+        {
+          "text": "\nSP pacing: Puffish awards 1 skill point per Ascendant Web level; higher-tier nodes cost more.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nLayout: clean branch lanes keep choices broad without the old crossing-line web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nBranch: Warrior.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nType: Major - new gameplay behavior.",
+          "color": "light_purple",
+          "italic": false
+        },
+        {
+          "text": "\nBehavior runs through the Ascendant skill-effects system.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires 14 spent points in the unified web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nPack links: melee chaining.",
+          "color": "dark_aqua",
+          "italic": false
+        }
+      ]
+    },
+    "required_spent_points": 14
+  },
+  "warrior_titanheart": {
+    "title": "Titanheart",
+    "description": {
+      "text": "The wound is where the fury lives.",
+      "color": "gray",
+      "italic": true,
+      "extra": [
+        {
+          "text": "\nEffect: ",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "Below 50% HP gain scaling Resistance and melee damage, stronger again under 25%.",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "ascendant:textures/skilltree/frames/warrior_major_unlocked.png",
+        "available": "ascendant:textures/skilltree/frames/warrior_major_available.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "ascendant:textures/skilltree/icons/warrior_titanheart.png"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.02,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ar_sk_warrior_titanheart",
+          "lock_command": "tag @s remove ar_sk_warrior_titanheart"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Cost: 3 points.",
+      "color": "dark_gray",
+      "italic": false,
+      "extra": [
+        {
+          "text": "\nSP pacing: Puffish awards 1 skill point per Ascendant Web level; higher-tier nodes cost more.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nLayout: clean branch lanes keep choices broad without the old crossing-line web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nBranch: Warrior.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nType: Keystone - branch-defining power.",
+          "color": "light_purple",
+          "italic": false
+        },
+        {
+          "text": "\nBehavior runs through the Ascendant skill-effects system.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires 32 spent points in the unified web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires loaded mod(s): puffish_attributes.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nPack links: wounded-warrior capstone.",
+          "color": "dark_aqua",
+          "italic": false
+        }
+      ]
+    },
+    "required_spent_points": 32,
+    "required_mods": [
+      "puffish_attributes"
+    ]
+  },
   "rogue_quick_step": {
     "title": "Quick Step",
     "description": {
@@ -2996,6 +3294,312 @@
         },
         {
           "text": "\nPack links: Rogue capstone.",
+          "color": "dark_aqua",
+          "italic": false
+        }
+      ]
+    },
+    "required_spent_points": 32,
+    "required_mods": [
+      "puffish_attributes"
+    ]
+  },
+  "rogue_weak_point": {
+    "title": "Weak Point",
+    "description": {
+      "text": "Every wound widens.",
+      "color": "gray",
+      "italic": true,
+      "extra": [
+        {
+          "text": "\nEffect: ",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "Your hits stack Vulnerability on a target: +5% damage taken per stack, max 4, for 5s.",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "ascendant:textures/skilltree/frames/rogue_notable_unlocked.png",
+        "available": "ascendant:textures/skilltree/frames/rogue_notable_available.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "ascendant:textures/skilltree/icons/rogue_weak_point.png"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:sword_damage",
+          "value": 0.03,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ar_sk_rogue_weak_point",
+          "lock_command": "tag @s remove ar_sk_rogue_weak_point"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Cost: 2 points.",
+      "color": "dark_gray",
+      "italic": false,
+      "extra": [
+        {
+          "text": "\nSP pacing: Puffish awards 1 skill point per Ascendant Web level; higher-tier nodes cost more.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nLayout: clean branch lanes keep choices broad without the old crossing-line web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nBranch: Rogue / Duelist.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nType: Major - new gameplay behavior.",
+          "color": "light_purple",
+          "italic": false
+        },
+        {
+          "text": "\nBehavior runs through the Ascendant skill-effects system.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires 14 spent points in the unified web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires loaded mod(s): puffish_attributes.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nPack links: duelist finishers.",
+          "color": "dark_aqua",
+          "italic": false
+        }
+      ]
+    },
+    "required_spent_points": 14,
+    "required_mods": [
+      "puffish_attributes"
+    ]
+  },
+  "rogue_backstab": {
+    "title": "Backstab",
+    "description": {
+      "text": "Arrive where they aren't looking.",
+      "color": "gray",
+      "italic": true,
+      "extra": [
+        {
+          "text": "\nEffect: ",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "Hits from behind deal +35% damage and mark the target with Glowing for 4s.",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "ascendant:textures/skilltree/frames/rogue_notable_unlocked.png",
+        "available": "ascendant:textures/skilltree/frames/rogue_notable_available.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "ascendant:textures/skilltree/icons/rogue_backstab.png"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:stealth",
+          "value": 0.04,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ar_sk_rogue_backstab",
+          "lock_command": "tag @s remove ar_sk_rogue_backstab"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Cost: 2 points.",
+      "color": "dark_gray",
+      "italic": false,
+      "extra": [
+        {
+          "text": "\nSP pacing: Puffish awards 1 skill point per Ascendant Web level; higher-tier nodes cost more.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nLayout: clean branch lanes keep choices broad without the old crossing-line web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nBranch: Rogue / Duelist.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nType: Major - new gameplay behavior.",
+          "color": "light_purple",
+          "italic": false
+        },
+        {
+          "text": "\nBehavior runs through the Ascendant skill-effects system.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires 14 spent points in the unified web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires loaded mod(s): puffish_attributes.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nPack links: stealth openers.",
+          "color": "dark_aqua",
+          "italic": false
+        }
+      ]
+    },
+    "required_spent_points": 14,
+    "required_mods": [
+      "puffish_attributes"
+    ]
+  },
+  "rogue_assassins_chain": {
+    "title": "Assassin's Chain",
+    "description": {
+      "text": "One kill funds the next.",
+      "color": "gray",
+      "italic": true,
+      "extra": [
+        {
+          "text": "\nEffect: ",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "Killing a marked enemy empowers your next hit for +50% melee within 5s.",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "ascendant:textures/skilltree/frames/rogue_major_unlocked.png",
+        "available": "ascendant:textures/skilltree/frames/rogue_major_available.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "ascendant:textures/skilltree/icons/rogue_assassins_chain.png"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.04,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ar_sk_rogue_assassins_chain",
+          "lock_command": "tag @s remove ar_sk_rogue_assassins_chain"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Cost: 3 points.",
+      "color": "dark_gray",
+      "italic": false,
+      "extra": [
+        {
+          "text": "\nSP pacing: Puffish awards 1 skill point per Ascendant Web level; higher-tier nodes cost more.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nLayout: clean branch lanes keep choices broad without the old crossing-line web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nBranch: Rogue / Duelist.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nType: Keystone - branch-defining power.",
+          "color": "light_purple",
+          "italic": false
+        },
+        {
+          "text": "\nBehavior runs through the Ascendant skill-effects system.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires 32 spent points in the unified web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires loaded mod(s): puffish_attributes.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nPack links: chain-kill capstone.",
           "color": "dark_aqua",
           "italic": false
         }
@@ -4478,6 +5082,312 @@
         },
         {
           "text": "\nPack links: Ranger capstone.",
+          "color": "dark_aqua",
+          "italic": false
+        }
+      ]
+    },
+    "required_spent_points": 32,
+    "required_mods": [
+      "puffish_attributes"
+    ]
+  },
+  "ranger_hunters_mark": {
+    "title": "Hunter's Mark",
+    "description": {
+      "text": "Name the prey.",
+      "color": "gray",
+      "italic": true,
+      "extra": [
+        {
+          "text": "\nEffect: ",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "Your ranged hits mark a target: +20% ranged damage to it and Glowing for 8s.",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "ascendant:textures/skilltree/frames/ranger_notable_unlocked.png",
+        "available": "ascendant:textures/skilltree/frames/ranger_notable_available.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "ascendant:textures/skilltree/icons/ranger_hunters_mark.png"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.04,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ar_sk_ranger_hunters_mark",
+          "lock_command": "tag @s remove ar_sk_ranger_hunters_mark"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Cost: 2 points.",
+      "color": "dark_gray",
+      "italic": false,
+      "extra": [
+        {
+          "text": "\nSP pacing: Puffish awards 1 skill point per Ascendant Web level; higher-tier nodes cost more.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nLayout: clean branch lanes keep choices broad without the old crossing-line web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nBranch: Ranger / Hunter.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nType: Major - new gameplay behavior.",
+          "color": "light_purple",
+          "italic": false
+        },
+        {
+          "text": "\nBehavior runs through the Ascendant skill-effects system.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires 14 spent points in the unified web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires loaded mod(s): puffish_attributes.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nPack links: boss and rare hunting.",
+          "color": "dark_aqua",
+          "italic": false
+        }
+      ]
+    },
+    "required_spent_points": 14,
+    "required_mods": [
+      "puffish_attributes"
+    ]
+  },
+  "ranger_longshot": {
+    "title": "Longshot",
+    "description": {
+      "text": "Distance is a weapon.",
+      "color": "gray",
+      "italic": true,
+      "extra": [
+        {
+          "text": "\nEffect: ",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "Arrows deal more damage the farther they travel, up to +30% past 30 blocks.",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "ascendant:textures/skilltree/frames/ranger_notable_unlocked.png",
+        "available": "ascendant:textures/skilltree/frames/ranger_notable_available.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "ascendant:textures/skilltree/icons/ranger_longshot.png"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:bow_projectile_speed",
+          "value": 0.05,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ar_sk_ranger_longshot",
+          "lock_command": "tag @s remove ar_sk_ranger_longshot"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Cost: 2 points.",
+      "color": "dark_gray",
+      "italic": false,
+      "extra": [
+        {
+          "text": "\nSP pacing: Puffish awards 1 skill point per Ascendant Web level; higher-tier nodes cost more.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nLayout: clean branch lanes keep choices broad without the old crossing-line web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nBranch: Ranger / Hunter.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nType: Major - new gameplay behavior.",
+          "color": "light_purple",
+          "italic": false
+        },
+        {
+          "text": "\nBehavior runs through the Ascendant skill-effects system.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires 14 spent points in the unified web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires loaded mod(s): puffish_attributes.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nPack links: skilled shots.",
+          "color": "dark_aqua",
+          "italic": false
+        }
+      ]
+    },
+    "required_spent_points": 14,
+    "required_mods": [
+      "puffish_attributes"
+    ]
+  },
+  "ranger_apex_predator": {
+    "title": "Apex Predator",
+    "description": {
+      "text": "Pressure that never lets up.",
+      "color": "gray",
+      "italic": true,
+      "extra": [
+        {
+          "text": "\nEffect: ",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "Consecutive hits on your marked target stack +6% damage, max 6; a 4s lull resets it.",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "ascendant:textures/skilltree/frames/ranger_major_unlocked.png",
+        "available": "ascendant:textures/skilltree/frames/ranger_major_available.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "ascendant:textures/skilltree/icons/ranger_apex_predator.png"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.05,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ar_sk_ranger_apex_predator",
+          "lock_command": "tag @s remove ar_sk_ranger_apex_predator"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Cost: 3 points.",
+      "color": "dark_gray",
+      "italic": false,
+      "extra": [
+        {
+          "text": "\nSP pacing: Puffish awards 1 skill point per Ascendant Web level; higher-tier nodes cost more.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nLayout: clean branch lanes keep choices broad without the old crossing-line web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nBranch: Ranger / Hunter.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nType: Keystone - branch-defining power.",
+          "color": "light_purple",
+          "italic": false
+        },
+        {
+          "text": "\nBehavior runs through the Ascendant skill-effects system.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires 32 spent points in the unified web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires loaded mod(s): puffish_attributes.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nPack links: boss-hunter capstone.",
           "color": "dark_aqua",
           "italic": false
         }
@@ -5982,6 +6892,312 @@
       "irons_spellbooks"
     ]
   },
+  "arcanist_wardbreaker": {
+    "title": "Wardbreaker",
+    "description": {
+      "text": "Defenses are suggestions.",
+      "color": "gray",
+      "italic": true,
+      "extra": [
+        {
+          "text": "\nEffect: ",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "+20% spell and magic damage against armored or magic-resistant enemies.",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "ascendant:textures/skilltree/frames/arcanist_notable_unlocked.png",
+        "available": "ascendant:textures/skilltree/frames/arcanist_notable_available.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "ascendant:textures/skilltree/icons/arcanist_wardbreaker.png"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_power",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ar_sk_arcanist_wardbreaker",
+          "lock_command": "tag @s remove ar_sk_arcanist_wardbreaker"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Cost: 2 points.",
+      "color": "dark_gray",
+      "italic": false,
+      "extra": [
+        {
+          "text": "\nSP pacing: Puffish awards 1 skill point per Ascendant Web level; higher-tier nodes cost more.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nLayout: clean branch lanes keep choices broad without the old crossing-line web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nBranch: Arcanist.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nType: Major - new gameplay behavior.",
+          "color": "light_purple",
+          "italic": false
+        },
+        {
+          "text": "\nBehavior runs through the Ascendant skill-effects system.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires 14 spent points in the unified web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires loaded mod(s): irons_spellbooks.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nPack links: anti-armor magic.",
+          "color": "dark_aqua",
+          "italic": false
+        }
+      ]
+    },
+    "required_spent_points": 14,
+    "required_mods": [
+      "irons_spellbooks"
+    ]
+  },
+  "arcanist_spell_siphon": {
+    "title": "Spell Siphon",
+    "description": {
+      "text": "Take back what magic costs.",
+      "color": "gray",
+      "italic": true,
+      "extra": [
+        {
+          "text": "\nEffect: ",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "Slaying foes restores a burst of mana and briefly raises spell power.",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "ascendant:textures/skilltree/frames/arcanist_notable_unlocked.png",
+        "available": "ascendant:textures/skilltree/frames/arcanist_notable_available.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "ascendant:textures/skilltree/icons/arcanist_spell_siphon.png"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:mana_regen",
+          "value": 0.06,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ar_sk_arcanist_spell_siphon",
+          "lock_command": "tag @s remove ar_sk_arcanist_spell_siphon"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Cost: 2 points.",
+      "color": "dark_gray",
+      "italic": false,
+      "extra": [
+        {
+          "text": "\nSP pacing: Puffish awards 1 skill point per Ascendant Web level; higher-tier nodes cost more.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nLayout: clean branch lanes keep choices broad without the old crossing-line web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nBranch: Arcanist.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nType: Major - new gameplay behavior.",
+          "color": "light_purple",
+          "italic": false
+        },
+        {
+          "text": "\nBehavior runs through the Ascendant skill-effects system.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires 14 spent points in the unified web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires loaded mod(s): irons_spellbooks.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nPack links: mage dungeons.",
+          "color": "dark_aqua",
+          "italic": false
+        }
+      ]
+    },
+    "required_spent_points": 14,
+    "required_mods": [
+      "irons_spellbooks"
+    ]
+  },
+  "arcanist_arcane_overflow": {
+    "title": "Arcane Overflow",
+    "description": {
+      "text": "A full font spills into a shield.",
+      "color": "gray",
+      "italic": true,
+      "extra": [
+        {
+          "text": "\nEffect: ",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "While mana is full, gain a regenerating arcane shield (Absorption).",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "ascendant:textures/skilltree/frames/arcanist_major_unlocked.png",
+        "available": "ascendant:textures/skilltree/frames/arcanist_major_available.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "ascendant:textures/skilltree/icons/arcanist_arcane_overflow.png"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 30,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ar_sk_arcanist_arcane_overflow",
+          "lock_command": "tag @s remove ar_sk_arcanist_arcane_overflow"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Cost: 3 points.",
+      "color": "dark_gray",
+      "italic": false,
+      "extra": [
+        {
+          "text": "\nSP pacing: Puffish awards 1 skill point per Ascendant Web level; higher-tier nodes cost more.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nLayout: clean branch lanes keep choices broad without the old crossing-line web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nBranch: Arcanist.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nType: Keystone - branch-defining power.",
+          "color": "light_purple",
+          "italic": false
+        },
+        {
+          "text": "\nBehavior runs through the Ascendant skill-effects system.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires 32 spent points in the unified web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires loaded mod(s): irons_spellbooks.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nPack links: mana-control capstone.",
+          "color": "dark_aqua",
+          "italic": false
+        }
+      ]
+    },
+    "required_spent_points": 32,
+    "required_mods": [
+      "irons_spellbooks"
+    ]
+  },
   "engineer_tinkers_eye": {
     "title": "Tinkers Eye",
     "description": {
@@ -7463,6 +8679,304 @@
         },
         {
           "text": "\nPack links: Engineer capstone.",
+          "color": "dark_aqua",
+          "italic": false
+        }
+      ]
+    },
+    "required_spent_points": 32,
+    "required_mods": [
+      "puffish_attributes"
+    ]
+  },
+  "engineer_salvage_protocol": {
+    "title": "Salvage Protocol",
+    "description": {
+      "text": "Nothing useful is ever wasted.",
+      "color": "gray",
+      "italic": true,
+      "extra": [
+        {
+          "text": "\nEffect: ",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "Breaking ore and stone has a chance to yield bonus salvage.",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "ascendant:textures/skilltree/frames/engineer_notable_unlocked.png",
+        "available": "ascendant:textures/skilltree/frames/engineer_notable_available.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "ascendant:textures/skilltree/icons/engineer_salvage_protocol.png"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": 0.04,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ar_sk_engineer_salvage_protocol",
+          "lock_command": "tag @s remove ar_sk_engineer_salvage_protocol"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Cost: 2 points.",
+      "color": "dark_gray",
+      "italic": false,
+      "extra": [
+        {
+          "text": "\nSP pacing: Puffish awards 1 skill point per Ascendant Web level; higher-tier nodes cost more.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nLayout: clean branch lanes keep choices broad without the old crossing-line web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nBranch: Engineer / Artificer.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nType: Major - new gameplay behavior.",
+          "color": "light_purple",
+          "italic": false
+        },
+        {
+          "text": "\nBehavior runs through the Ascendant skill-effects system.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires 14 spent points in the unified web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires loaded mod(s): puffish_attributes.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nPack links: Create resource loops.",
+          "color": "dark_aqua",
+          "italic": false
+        }
+      ]
+    },
+    "required_spent_points": 14,
+    "required_mods": [
+      "puffish_attributes"
+    ]
+  },
+  "engineer_reinforced_plating": {
+    "title": "Reinforced Plating",
+    "description": {
+      "text": "Bolt the danger out.",
+      "color": "gray",
+      "italic": true,
+      "extra": [
+        {
+          "text": "\nEffect: ",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "While wearing armor, gain steady Damage Resistance.",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "ascendant:textures/skilltree/frames/engineer_notable_unlocked.png",
+        "available": "ascendant:textures/skilltree/frames/engineer_notable_available.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "ascendant:textures/skilltree/icons/engineer_reinforced_plating.png"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor",
+          "value": 1,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ar_sk_engineer_reinforced_plating",
+          "lock_command": "tag @s remove ar_sk_engineer_reinforced_plating"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Cost: 2 points.",
+      "color": "dark_gray",
+      "italic": false,
+      "extra": [
+        {
+          "text": "\nSP pacing: Puffish awards 1 skill point per Ascendant Web level; higher-tier nodes cost more.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nLayout: clean branch lanes keep choices broad without the old crossing-line web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nBranch: Engineer / Artificer.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nType: Major - new gameplay behavior.",
+          "color": "light_purple",
+          "italic": false
+        },
+        {
+          "text": "\nBehavior runs through the Ascendant skill-effects system.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires 14 spent points in the unified web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nPack links: engineered defense.",
+          "color": "dark_aqua",
+          "italic": false
+        }
+      ]
+    },
+    "required_spent_points": 14
+  },
+  "engineer_emergency_protocols": {
+    "title": "Emergency Protocols",
+    "description": {
+      "text": "When it breaks, it breaks outward.",
+      "color": "gray",
+      "italic": true,
+      "extra": [
+        {
+          "text": "\nEffect: ",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "A heavy hit triggers a steam burst: knock back nearby enemies and gain Absorption, 90s cooldown.",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "ascendant:textures/skilltree/frames/engineer_major_unlocked.png",
+        "available": "ascendant:textures/skilltree/frames/engineer_major_available.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "ascendant:textures/skilltree/icons/engineer_emergency_protocols.png"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.02,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ar_sk_engineer_emergency_protocols",
+          "lock_command": "tag @s remove ar_sk_engineer_emergency_protocols"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Cost: 3 points.",
+      "color": "dark_gray",
+      "italic": false,
+      "extra": [
+        {
+          "text": "\nSP pacing: Puffish awards 1 skill point per Ascendant Web level; higher-tier nodes cost more.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nLayout: clean branch lanes keep choices broad without the old crossing-line web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nBranch: Engineer / Artificer.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nType: Keystone - branch-defining power.",
+          "color": "light_purple",
+          "italic": false
+        },
+        {
+          "text": "\nBehavior runs through the Ascendant skill-effects system.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires 32 spent points in the unified web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires loaded mod(s): puffish_attributes.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nPack links: prepared-violence capstone.",
           "color": "dark_aqua",
           "italic": false
         }
@@ -8967,6 +10481,312 @@
         },
         {
           "text": "\nPack links: Survivalist capstone.",
+          "color": "dark_aqua",
+          "italic": false
+        }
+      ]
+    },
+    "required_spent_points": 32,
+    "required_mods": [
+      "puffish_attributes"
+    ]
+  },
+  "survivalist_field_medic": {
+    "title": "Field Medic",
+    "description": {
+      "text": "Keep the party breathing.",
+      "color": "gray",
+      "italic": true,
+      "extra": [
+        {
+          "text": "\nEffect: ",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "Wounded allies within 6 blocks slowly mend while you stand with them.",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "ascendant:textures/skilltree/frames/survivalist_notable_unlocked.png",
+        "available": "ascendant:textures/skilltree/frames/survivalist_notable_available.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "ascendant:textures/skilltree/icons/survivalist_field_medic.png"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:healing",
+          "value": 0.04,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ar_sk_survivalist_field_medic",
+          "lock_command": "tag @s remove ar_sk_survivalist_field_medic"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Cost: 2 points.",
+      "color": "dark_gray",
+      "italic": false,
+      "extra": [
+        {
+          "text": "\nSP pacing: Puffish awards 1 skill point per Ascendant Web level; higher-tier nodes cost more.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nLayout: clean branch lanes keep choices broad without the old crossing-line web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nBranch: Survivalist / Explorer.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nType: Major - new gameplay behavior.",
+          "color": "light_purple",
+          "italic": false
+        },
+        {
+          "text": "\nBehavior runs through the Ascendant skill-effects system.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires 14 spent points in the unified web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires loaded mod(s): puffish_attributes.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nPack links: co-op support.",
+          "color": "dark_aqua",
+          "italic": false
+        }
+      ]
+    },
+    "required_spent_points": 14,
+    "required_mods": [
+      "puffish_attributes"
+    ]
+  },
+  "survivalist_campfire_recovery": {
+    "title": "Campfire Recovery",
+    "description": {
+      "text": "Rest is a resource.",
+      "color": "gray",
+      "italic": true,
+      "extra": [
+        {
+          "text": "\nEffect: ",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "Near fire or a campfire, gain Regeneration and a small temporary health boost.",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "ascendant:textures/skilltree/frames/survivalist_notable_unlocked.png",
+        "available": "ascendant:textures/skilltree/frames/survivalist_notable_available.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "ascendant:textures/skilltree/icons/survivalist_campfire_recovery.png"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.03,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ar_sk_survivalist_campfire_recovery",
+          "lock_command": "tag @s remove ar_sk_survivalist_campfire_recovery"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Cost: 2 points.",
+      "color": "dark_gray",
+      "italic": false,
+      "extra": [
+        {
+          "text": "\nSP pacing: Puffish awards 1 skill point per Ascendant Web level; higher-tier nodes cost more.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nLayout: clean branch lanes keep choices broad without the old crossing-line web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nBranch: Survivalist / Explorer.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nType: Major - new gameplay behavior.",
+          "color": "light_purple",
+          "italic": false
+        },
+        {
+          "text": "\nBehavior runs through the Ascendant skill-effects system.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires 14 spent points in the unified web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires loaded mod(s): puffish_attributes.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nPack links: long expeditions.",
+          "color": "dark_aqua",
+          "italic": false
+        }
+      ]
+    },
+    "required_spent_points": 14,
+    "required_mods": [
+      "puffish_attributes"
+    ]
+  },
+  "survivalist_unkillable_guide": {
+    "title": "Unkillable Guide",
+    "description": {
+      "text": "Packed for the worst day.",
+      "color": "gray",
+      "italic": true,
+      "extra": [
+        {
+          "text": "\nEffect: ",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "Once per 90s a fatal blow leaves you at 1 HP with brief Resistance, if you carry food or a survival item.",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "ascendant:textures/skilltree/frames/survivalist_major_unlocked.png",
+        "available": "ascendant:textures/skilltree/frames/survivalist_major_available.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "ascendant:textures/skilltree/icons/survivalist_unkillable_guide.png"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.03,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ar_sk_survivalist_unkillable_guide",
+          "lock_command": "tag @s remove ar_sk_survivalist_unkillable_guide"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Cost: 3 points.",
+      "color": "dark_gray",
+      "italic": false,
+      "extra": [
+        {
+          "text": "\nSP pacing: Puffish awards 1 skill point per Ascendant Web level; higher-tier nodes cost more.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nLayout: clean branch lanes keep choices broad without the old crossing-line web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nBranch: Survivalist / Explorer.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nType: Keystone - branch-defining power.",
+          "color": "light_purple",
+          "italic": false
+        },
+        {
+          "text": "\nBehavior runs through the Ascendant skill-effects system.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires 32 spent points in the unified web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires loaded mod(s): puffish_attributes.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nPack links: I-packed-correctly capstone.",
           "color": "dark_aqua",
           "italic": false
         }
@@ -10490,6 +12310,312 @@
     "required_spent_points": 32,
     "required_mods": [
       "irons_spellbooks",
+      "puffish_attributes"
+    ]
+  },
+  "dragonbound_dragon_vein": {
+    "title": "Dragon Vein",
+    "description": {
+      "text": "Old fire, waking.",
+      "color": "gray",
+      "italic": true,
+      "extra": [
+        {
+          "text": "\nEffect: ",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "Dealing and taking damage charges a Draconic meter; at full, your next strike erupts with elemental force.",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "ascendant:textures/skilltree/frames/dragonbound_notable_unlocked.png",
+        "available": "ascendant:textures/skilltree/frames/dragonbound_notable_available.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "ascendant:textures/skilltree/icons/dragonbound_dragon_vein.png"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:tamed_damage",
+          "value": 0.04,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ar_sk_dragonbound_dragon_vein",
+          "lock_command": "tag @s remove ar_sk_dragonbound_dragon_vein"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Cost: 2 points.",
+      "color": "dark_gray",
+      "italic": false,
+      "extra": [
+        {
+          "text": "\nSP pacing: Puffish awards 1 skill point per Ascendant Web level; higher-tier nodes cost more.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nLayout: clean branch lanes keep choices broad without the old crossing-line web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nBranch: Dragonbound / Endgame.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nType: Major - new gameplay behavior.",
+          "color": "light_purple",
+          "italic": false
+        },
+        {
+          "text": "\nBehavior runs through the Ascendant skill-effects system.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires 14 spent points in the unified web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires loaded mod(s): puffish_attributes.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nPack links: draconic charge.",
+          "color": "dark_aqua",
+          "italic": false
+        }
+      ]
+    },
+    "required_spent_points": 14,
+    "required_mods": [
+      "puffish_attributes"
+    ]
+  },
+  "dragonbound_dragons_pride": {
+    "title": "Dragon's Pride",
+    "description": {
+      "text": "Bigger is just a longer fall.",
+      "color": "gray",
+      "italic": true,
+      "extra": [
+        {
+          "text": "\nEffect: ",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "+15% damage to enemies tougher than you, including bosses and elites.",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "ascendant:textures/skilltree/frames/dragonbound_notable_unlocked.png",
+        "available": "ascendant:textures/skilltree/frames/dragonbound_notable_available.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "ascendant:textures/skilltree/icons/dragonbound_dragons_pride.png"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.04,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ar_sk_dragonbound_dragons_pride",
+          "lock_command": "tag @s remove ar_sk_dragonbound_dragons_pride"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Cost: 2 points.",
+      "color": "dark_gray",
+      "italic": false,
+      "extra": [
+        {
+          "text": "\nSP pacing: Puffish awards 1 skill point per Ascendant Web level; higher-tier nodes cost more.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nLayout: clean branch lanes keep choices broad without the old crossing-line web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nBranch: Dragonbound / Endgame.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nType: Major - new gameplay behavior.",
+          "color": "light_purple",
+          "italic": false
+        },
+        {
+          "text": "\nBehavior runs through the Ascendant skill-effects system.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires 14 spent points in the unified web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires loaded mod(s): puffish_attributes.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nPack links: boss-hunter fantasy.",
+          "color": "dark_aqua",
+          "italic": false
+        }
+      ]
+    },
+    "required_spent_points": 14,
+    "required_mods": [
+      "puffish_attributes"
+    ]
+  },
+  "dragonbound_wyrmblood_ascendance": {
+    "title": "Wyrmblood Ascendance",
+    "description": {
+      "text": "Become the thing in the panicked books.",
+      "color": "gray",
+      "italic": true,
+      "extra": [
+        {
+          "text": "\nEffect: ",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "When your Draconic meter fills, ascend for 6s: Resistance, Strength, Regeneration, and an elemental aura, 30s cooldown.",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "ascendant:textures/skilltree/frames/dragonbound_major_unlocked.png",
+        "available": "ascendant:textures/skilltree/frames/dragonbound_major_available.png"
+      }
+    },
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "ascendant:textures/skilltree/icons/dragonbound_wyrmblood_ascendance.png"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:resistance",
+          "value": 0.04,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "tag @s add ar_sk_dragonbound_wyrmblood_ascendance",
+          "lock_command": "tag @s remove ar_sk_dragonbound_wyrmblood_ascendance"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Cost: 3 points.",
+      "color": "dark_gray",
+      "italic": false,
+      "extra": [
+        {
+          "text": "\nSP pacing: Puffish awards 1 skill point per Ascendant Web level; higher-tier nodes cost more.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nLayout: clean branch lanes keep choices broad without the old crossing-line web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nBranch: Dragonbound / Endgame.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nType: Keystone - branch-defining power.",
+          "color": "light_purple",
+          "italic": false
+        },
+        {
+          "text": "\nBehavior runs through the Ascendant skill-effects system.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires 32 spent points in the unified web.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nRequires loaded mod(s): puffish_attributes.",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": "\nPack links: ascendant capstone.",
+          "color": "dark_aqua",
+          "italic": false
+        }
+      ]
+    },
+    "required_spent_points": 32,
+    "required_mods": [
       "puffish_attributes"
     ]
   }
