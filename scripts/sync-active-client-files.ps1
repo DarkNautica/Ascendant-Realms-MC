@@ -630,6 +630,7 @@ Copy-Directory -Source (Join-Path $root "config\ascendant_dungeons") -Destinatio
 Copy-Directory -Source (Join-Path $root "config\ascendant_structures") -Destination (Join-Path $target "config\ascendant_structures")
 Copy-Directory -Source (Join-Path $root "config\ascendant_progression") -Destination (Join-Path $target "config\ascendant_progression")
 Copy-Directory -Source (Join-Path $root "config\ascendant_ui") -Destination (Join-Path $target "config\ascendant_ui")
+Copy-Directory -Source (Join-Path $root "config\xaero") -Destination (Join-Path $target "config\xaero")
 Copy-Directory -Source (Join-Path $root "config\ascendant_settlements") -Destination (Join-Path $target "config\ascendant_settlements")
 Copy-Directory -Source (Join-Path $root "config\incontrol") -Destination (Join-Path $target "config\incontrol")
 Copy-Directory -Source (Join-Path $root "config\towns_and_towers") -Destination (Join-Path $target "config\towns_and_towers")

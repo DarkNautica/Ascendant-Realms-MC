@@ -2101,6 +2101,54 @@ file = "config/travelerstitles-forge-1_20.toml"
 hash = "31b0c336c5911d6434fb206d22c2827270e5bd934861fd2c74ce746fb4f3a058"
 
 [[files]]
+file = "config/xaero/lib/client.cfg"
+hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
+
+[[files]]
+file = "config/xaero/lib/common.cfg"
+hash = "d46dfe4bfd416bfcdd2b757d33744b4e4595f489b6507eae3c62f5389b11a7c1"
+
+[[files]]
+file = "config/xaero/lib/profiles/default.cfg"
+hash = "34ae854b17d896d7cb853bdc28c27231a3947e91cb9f0991f372846ee3c2a907"
+
+[[files]]
+file = "config/xaero/lib/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+
+[[files]]
+file = "config/xaero/minimap/client.cfg"
+hash = "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f"
+
+[[files]]
+file = "config/xaero/minimap/common.cfg"
+hash = "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
+
+[[files]]
+file = "config/xaero/minimap/default_radar_categories_client.json"
+hash = "6990bd8cd36b717aeb3c0d68d057e6a3f912eadddac5c5bc8faae5621ed1798f"
+
+[[files]]
+file = "config/xaero/minimap/default_radar_categories_server.json"
+hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
+
+[[files]]
+file = "config/xaero/minimap/profiles/default.cfg"
+hash = "068b18832a5bd8ab7a5d143d0a425b9429f27aab0b1bbe760faea2ebc0d53df7"
+
+[[files]]
+file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
+hash = "4eac20319cff2b529a25679f59afce2ba3e966c36750fa4a233e29456e03ad18"
+
+[[files]]
+file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+hash = "184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6"
+
+[[files]]
+file = "config/xaero/minimap/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+
+[[files]]
 file = "custom-hotbar/README.md"
 hash = "dffd01fbbbc7a3eb3bbda8361dc3972881487004297dc9e7dba45384d486b36e"
 
@@ -6548,7 +6596,7 @@ hash = "728847ab1444036b268d3389a24075e77a098a61af54577fff9051903ba62faa"
 
 [[files]]
 file = "scripts/sync-active-client-files.ps1"
-hash = "a2ab2c4e73f35171d4c5934a8bebdc4d7f297460c74c36a28605f4bde7275176"
+hash = "14991e5608121c3613a5940ba9a19d7a79f940b71e886e9d4ea9d51893f9f8e6"
 
 [[files]]
 file = "scripts/test-customnpcs-identity.js"
