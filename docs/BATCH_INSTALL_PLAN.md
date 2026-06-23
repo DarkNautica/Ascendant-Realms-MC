@@ -885,6 +885,7 @@ Installed mods:
 - Xaero's Minimap
 - Advancement Plaques
 - Malfu Combat Animation
+- Highly Customizable Damage Numbers
 
 Installed resource packs:
 

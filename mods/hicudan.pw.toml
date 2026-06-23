@@ -1,0 +1,13 @@
+name = "Highly Customizable Damage Numbers"
+filename = "highly_customizable_damage_numbers-forge-1.20.1-1.1.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/3DnMjWfL/versions/mc8Q1wPF/highly_customizable_damage_numbers-forge-1.20.1-1.1.3.jar"
+hash-format = "sha512"
+hash = "675e333763b03978b59b3787add986f5415532d90b48f122e523cb7bf9bb926f8ecfcc2f51738f62d498de5c1db04e8575302cc1eacbb27440c7c4bffc843d85"
+
+[update]
+[update.modrinth]
+mod-id = "3DnMjWfL"
+version = "mc8Q1wPF"

@@ -2458,7 +2458,7 @@ hash = "692960bb489b1d0a2fd957a15f6dc95d1e42eb019ec6aa7e5fb71f4c72732489"
 
 [[files]]
 file = "docs/BATCH_INSTALL_PLAN.md"
-hash = "af7a7ef7d47a1eea70b634c162bf46097832092187e886315508fa65ff476588"
+hash = "6a04a7d2112cd9ef5ab771bbe59f5549ce220655b626f9660e0957945357930d"
 
 [[files]]
 file = "docs/BIOME_TITLE_AND_AUDIO_POLICY.md"
@@ -4261,6 +4261,11 @@ metafile = true
 [[files]]
 file = "mods/handcrafted.pw.toml"
 hash = "db495b3ac268709a2ba673bfe220b10257fb7dae549f94bfbd539617d571f131"
+metafile = true
+
+[[files]]
+file = "mods/hicudan.pw.toml"
+hash = "93f34ef7fa7878cca6d3ba278abab390633777d79d48a09e3579bcb626406be7"
 metafile = true
 
 [[files]]
@@ -6451,7 +6456,7 @@ hash = "dc8495b38e6631d708104c9cf799e5cd79157cd00b579670114b88bbf366aec2"
 
 [[files]]
 file = "scripts/check-pack.py"
-hash = "85ef2ffccd06e176da2ebeb8bfc3ce56797955a119ddc02ea9a96640f1c62937"
+hash = "774a1d7edce4588b817b946f296a11f7d2c0229c733b47e3fb40b5a83a42c91f"
 
 [[files]]
 file = "scripts/customnpcs-identity-audit.py"
