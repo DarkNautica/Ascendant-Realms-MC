@@ -23,3 +23,6 @@ mods/*.jar
 
 .DS_Store
 Thumbs.db
+
+# Internal audit report (not distributed to clients)
+/ASCENDANT_REALMS_FULL_AUDIT_2026-06-24.md

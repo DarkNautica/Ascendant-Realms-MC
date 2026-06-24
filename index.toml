@@ -2714,7 +2714,7 @@ hash = "0d8155475c507c7b3a6427b3efc1dec828a67cfe701c4c59101cbcad4a4dcfb3"
 
 [[files]]
 file = "config/puffish_skills/categories/ascendant/definitions.json"
-hash = "c9a0ff8f961340a11ef54f8e9ff0451dd3f6da0debf1d588a61d1a3c26d71d86"
+hash = "8bd8e71a73cf24498c429d9e4c9e775172ee39a852d2911ec3f6e3ee65590adf"
 
 [[files]]
 file = "config/puffish_skills/categories/ascendant/experience.json"
@@ -2950,7 +2950,7 @@ hash = "0d8155475c507c7b3a6427b3efc1dec828a67cfe701c4c59101cbcad4a4dcfb3"
 
 [[files]]
 file = "datapacks/ascendant_realms_skills/data/ascendant_realms/puffish_skills/categories/ascendant/definitions.json"
-hash = "c9a0ff8f961340a11ef54f8e9ff0451dd3f6da0debf1d588a61d1a3c26d71d86"
+hash = "8bd8e71a73cf24498c429d9e4c9e775172ee39a852d2911ec3f6e3ee65590adf"
 
 [[files]]
 file = "datapacks/ascendant_realms_skills/data/ascendant_realms/puffish_skills/categories/ascendant/experience.json"
@@ -6231,7 +6231,7 @@ hash = "0d8155475c507c7b3a6427b3efc1dec828a67cfe701c4c59101cbcad4a4dcfb3"
 
 [[files]]
 file = "openloader/data/ascendant_realms_skills/data/ascendant_realms/puffish_skills/categories/ascendant/definitions.json"
-hash = "c9a0ff8f961340a11ef54f8e9ff0451dd3f6da0debf1d588a61d1a3c26d71d86"
+hash = "8bd8e71a73cf24498c429d9e4c9e775172ee39a852d2911ec3f6e3ee65590adf"
 
 [[files]]
 file = "openloader/data/ascendant_realms_skills/data/ascendant_realms/puffish_skills/categories/ascendant/experience.json"
@@ -7481,7 +7481,7 @@ hash = "dc8495b38e6631d708104c9cf799e5cd79157cd00b579670114b88bbf366aec2"
 
 [[files]]
 file = "scripts/check-pack.py"
-hash = "cddfd036e88ec988ed4ef7d037b05edeb0e5e1c82ab185312b4aa584271cb704"
+hash = "469cfd028d3d6988b476858e376f7831a03ebbf4aafcce894eaaf86c55c90c26"
 
 [[files]]
 file = "scripts/customnpcs-identity-audit.py"
@@ -7577,7 +7577,7 @@ hash = "fc754d0039c0bbbc1e27cc554b5f02cfb9824046361b8de92ac5db172a265a4b"
 
 [[files]]
 file = "scripts/generate-ascendant-skill-web.js"
-hash = "abd5523c54ec029b72d099d1522a0ec5b816a7539484001f6996b6c77e6144a9"
+hash = "9684fd4599fc8dbeaba7cf1cdcfc97ac6ab38028277c8d10405f4aa9eac80d70"
 
 [[files]]
 file = "scripts/generate-ascendant-skilltree-art.py"

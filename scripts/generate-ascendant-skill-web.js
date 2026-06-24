@@ -95,7 +95,7 @@ function nodeDefinition(node) {
   else if (node.kind === "major") { desc.push({ text: "NOTABLE", color: "#D9B3FF", bold: true }); desc.push({ text: "\n" }); }
   desc.push({ text: node.flavor, color: "#9BA3B2", italic: true });
   desc.push({ text: "\n\n" });
-  desc.push({ text: "Effect", color: lc, bold: true });
+  desc.push({ text: "Effect:", color: lc, bold: true });
   desc.push({ text: "\n" });
   desc.push(...styledEffect(node.effect));
   if (node.tags && node.tags.length > 0) {
